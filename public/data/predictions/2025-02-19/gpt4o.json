@@ -1,0 +1,53 @@
+{
+  "date": "2025-02-19",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2025-02-19T13:41:00Z",
+  "market_context": "FOMC minutes confirm patient approach to rate cuts. Labor market remains resilient with jobless claims below 220K. S&P 500 hovering near all-time highs with mixed sector performance.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20250219_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 605.00,
+      "current_price_at_prediction": 601.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Strong labor market data provides floor for equities. FOMC patience removes rate cut uncertainty as a negative catalyst. Historically, markets rally on 'good news is good news' when inflation is controlled."
+    },
+    {
+      "id": "pred_gpt4o_20250219_002",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.00,
+      "current_price_at_prediction": 715.60,
+      "timeframe": "end_of_day",
+      "confidence": 0.70,
+      "reasoning": "Meta's AI infrastructure investment story resonating with investors. Reels engagement metrics tracking above expectations per third-party data. Ad revenue recovering in key verticals."
+    },
+    {
+      "id": "pred_gpt4o_20250219_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 330.00,
+      "current_price_at_prediction": 345.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Tesla faces ongoing demand concerns in Europe and China. Recent delivery data disappoints. Musk distraction premium has turned into a discount as political controversy weighs on brand perception."
+    },
+    {
+      "id": "pred_gpt4o_20250219_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 446.50,
+      "current_price_at_prediction": 443.80,
+      "timeframe": "end_of_week",
+      "confidence": 0.59,
+      "reasoning": "Dow industrials supported by strong employment backdrop. Financial and healthcare components showing relative strength. Pullback from highs represents buying opportunity for value-oriented positions."
+    }
+  ]
+}

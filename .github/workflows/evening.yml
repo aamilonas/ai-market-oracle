@@ -1,0 +1,76 @@
+name: Evening — Score Predictions
+
+on:
+  schedule:
+    # 22:30 UTC = 5:30 PM ET (EST). Market closes at 4 PM ET; gives 90 min for data.
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date to score (YYYY-MM-DD, default: today)'
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Score predictions
+        working-directory: scripts
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          ARGS=""
+          if [ -n "$DATE" ]; then ARGS="--date $DATE"; fi
+          python score.py $ARGS
+
+      - name: Sync data to public
+        run: |
+          mkdir -p public/data/scores
+          cp -r data/scores public/data/
+          cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "AI Market Oracle Bot"
+          git config user.email "bot@ai-market-oracle.github.io"
+          git pull --rebase origin main
+          git add data/ public/data/ dist/
+          git diff --staged --quiet || git commit -m "📊 Evening scores — $(date +%Y-%m-%d)"
+          git push origin main
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: false

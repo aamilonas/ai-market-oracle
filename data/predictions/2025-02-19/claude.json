@@ -1,0 +1,53 @@
+{
+  "date": "2025-02-19",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2025-02-19T13:32:00Z",
+  "market_context": "Markets opened slightly lower amid renewed tariff concerns. Fed minutes from January signal no rush to cut rates. VIX elevated at 18.4 suggesting moderate investor unease heading into the trading session.",
+  "predictions": [
+    {
+      "id": "pred_claude_20250219_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 596.50,
+      "current_price_at_prediction": 601.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Pre-market futures are negative following hawkish Fed commentary. Tariff uncertainty continues to weigh on sentiment. Support at 597 likely to be tested."
+    },
+    {
+      "id": "pred_claude_20250219_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 226.00,
+      "current_price_at_prediction": 229.50,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Apple faces headwinds from potential China trade friction. No major catalyst expected today. Broader tech weakness likely to drag shares lower."
+    },
+    {
+      "id": "pred_claude_20250219_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 138.00,
+      "current_price_at_prediction": 134.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "NVIDIA reports earnings after close on Feb 26. Anticipatory buying typically builds in the week prior. AI infrastructure demand narrative remains intact despite macro concerns."
+    },
+    {
+      "id": "pred_claude_20250219_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 514.00,
+      "current_price_at_prediction": 519.80,
+      "timeframe": "end_of_week",
+      "confidence": 0.60,
+      "reasoning": "Tech-heavy QQQ faces Fed rate path uncertainty and tariff risks. Resistance at 525 has held multiple times. Expect consolidation with downward bias through week's end."
+    }
+  ]
+}

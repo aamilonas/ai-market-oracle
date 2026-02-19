@@ -1,0 +1,105 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loading, .empty {
+  color: var(--text-muted);
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.sub {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+.picker {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+
+.picker:focus {
+  outline: none;
+  border-color: #444;
+}
+
+.sectionTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.scoreTable {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.scoreRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  transition: background 0.1s;
+  flex-wrap: wrap;
+}
+
+.scoreRow:last-child { border-bottom: none; }
+.scoreRow:hover { background: var(--bg-card-hover); }
+
+.scoreRank {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  min-width: 1rem;
+}
+
+.scoreModel {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.scorePreds {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.pos { color: var(--color-correct); font-weight: 700; }
+.neg { color: var(--color-wrong); font-weight: 700; }

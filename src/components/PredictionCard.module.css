@@ -1,0 +1,183 @@
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: border-color 0.15s;
+}
+
+.card:hover {
+  border-color: #333;
+}
+
+.won {
+  border-left: 3px solid var(--color-correct);
+}
+
+.lost {
+  border-left: 3px solid var(--color-wrong);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.tickerRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ticker {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.03em;
+}
+
+.correct {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--color-correct);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.wrong {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--color-wrong);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.pending {
+  background: rgba(107, 114, 128, 0.15);
+  color: var(--color-pending);
+  border: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+.timeframe {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: 'IBM Plex Mono', monospace;
+  background: var(--bg-secondary);
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+}
+
+.scoreChip {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.scorePos {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--color-correct);
+}
+
+.scoreNeg {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--color-wrong);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.priceGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.priceLabel {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.priceValue {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.arrow {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.pct {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.up { color: var(--color-up); }
+.down { color: var(--color-down); }
+
+.confidence {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.confLabel {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.confBar {
+  flex: 1;
+  height: 4px;
+  background: var(--bg-secondary);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.confFill {
+  height: 100%;
+  background: linear-gradient(90deg, #4a9eff, #7c5cfc);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.confValue {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+.reasoning {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 0.625rem;
+}

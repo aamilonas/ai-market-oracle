@@ -1,0 +1,64 @@
+{
+  "date": "2025-02-19",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2025-02-19T13:35:00Z",
+  "market_context": "Consumer sentiment data missed expectations. Oil prices fell 1.2% on demand concerns. Nvidia earnings expectations are building. Dollar strengthened slightly against major currencies.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20250219_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 604.00,
+      "current_price_at_prediction": 601.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Despite soft consumer data, dip buyers have consistently defended the 600 level on SPY. Light trading volume suggests consolidation more likely than sharp moves."
+    },
+    {
+      "id": "pred_perplexity_20250219_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 140.50,
+      "current_price_at_prediction": 134.20,
+      "timeframe": "end_of_day",
+      "confidence": 0.76,
+      "reasoning": "Multiple analyst upgrades circulating pre-market. Earnings run-up historically averages 8% in the 5 days before Nvidia reports. Momentum is strongly positive."
+    },
+    {
+      "id": "pred_perplexity_20250219_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 109.00,
+      "current_price_at_prediction": 112.40,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Crude oil down on weak demand outlook from China PMI data. Energy stocks typically track oil prices same day. ExxonMobil at resistance near 52-week high."
+    },
+    {
+      "id": "pred_perplexity_20250219_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 416.00,
+      "current_price_at_prediction": 412.30,
+      "timeframe": "end_of_week",
+      "confidence": 0.63,
+      "reasoning": "Microsoft Azure cloud growth continues to outpace estimates. Copilot monetization updates expected at upcoming developer conference. Consolidation above 410 support looks constructive."
+    },
+    {
+      "id": "pred_perplexity_20250219_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 439.00,
+      "current_price_at_prediction": 443.80,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow industrials lagging amid manufacturing weakness signals. Boeing drag persists. Consumer confidence miss weighs on cyclicals that dominate the Dow composition."
+    }
+  ]
+}
