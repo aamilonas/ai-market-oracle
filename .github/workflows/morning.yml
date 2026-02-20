@@ -67,7 +67,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          DATE="${{ github.event.inputs.date || $(date +%Y-%m-%d) }}"
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then DATE="$(date +%Y-%m-%d)"; fi
           python summarize.py --daily --date "$DATE"
 
       - name: Build frontend
