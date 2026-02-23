@@ -12,8 +12,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   summarize:
@@ -69,9 +67,3 @@ jobs:
           git diff --staged --quiet || git commit -m "📋 Weekly report — $(date +%Y-%m-%d)"
           git push origin master
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: false
