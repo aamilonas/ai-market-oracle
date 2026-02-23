@@ -78,7 +78,7 @@ class GeminiAdapter:
                 log.info(f"Gemini attempt {attempt + 1}...")
                 model = genai.GenerativeModel(
                     model_name=MODEL_ID,
-                    tools=["google_search_retrieval"],
+                    tools=["google_search"],
                 )
                 response = model.generate_content(
                     prompt,

@@ -180,8 +180,20 @@ def update_leaderboard(score_data: dict):
 
         name = result["model_display_name"]
         if name not in model_map:
-            log.warning(f"Unknown model in scores: {name}")
-            continue
+            model_map[name] = {
+                "model_id": result["model"],
+                "model_display_name": name,
+                "total_predictions": 0,
+                "correct_directions": 0,
+                "direction_accuracy": 0.0,
+                "total_score": 0.0,
+                "avg_confidence": 0.0,
+                "current_streak": 0,
+                "best_streak": 0,
+                "worst_streak": 0,
+                "weekly_scores": [],
+            }
+            lb["models"].append(model_map[name])
 
         m = model_map[name]
         # Update totals
