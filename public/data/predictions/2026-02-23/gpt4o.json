@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-23",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-02-23T21:48:28.588499Z",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data, including the U.S. GDP growth rate and jobless claims, are due today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260223_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable economic data releases, including GDP growth and jobless claims, which could boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260223_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is likely to see gains following reports of strong iPhone sales in China and positive analyst upgrades, which are driving investor optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260223_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla may face downward pressure due to recent concerns over production delays at its new factories and a downgrade by a major investment bank citing valuation concerns."
+    },
+    {
+      "id": "pred_gpt4o_20260223_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The tech-heavy QQQ is expected to rise as tech stocks benefit from positive earnings reports and strong guidance from major companies in the sector."
+    }
+  ]
+}

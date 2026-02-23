@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-23",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-02-23T14:30:00Z",
+  "market_context": "Markets are opening with significant pressure from Supreme Court tariff uncertainty after Trump's trade barriers were overturned. Futures are down ~0.4% amid trade policy confusion, while investors await NVIDIA earnings Wednesday.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260223_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 680.5,
+      "current_price_at_prediction": 685.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P futures down 0.4% premarket due to Supreme Court overturning Trump's trade barriers, creating policy uncertainty. Market showing clear weakness with tariff tumult driving early losses and increased volatility."
+    },
+    {
+      "id": "pred_claude_20260223_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 600.0,
+      "current_price_at_prediction": 608.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech-heavy QQQ facing headwinds from broader market weakness and trade uncertainty. Trading below key resistance at $616, with technical indicators suggesting potential test of $600 support level."
+    },
+    {
+      "id": "pred_claude_20260223_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 190.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "NVIDIA showing relative strength at $190.52 ahead of Wednesday earnings. Strong pre-earnings positioning with analysts bullish on Blackwell demand and $65B+ revenue expectations creating upward momentum."
+    },
+    {
+      "id": "pred_claude_20260223_004",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 22.0,
+      "current_price_at_prediction": 19.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Tariff uncertainty and Supreme Court ruling creating elevated volatility environment. VIX at 19.09 likely to spike higher as trade policy confusion increases market uncertainty and risk-off sentiment."
+    }
+  ]
+}

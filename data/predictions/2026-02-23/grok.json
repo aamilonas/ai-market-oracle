@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-23",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-02-23T21:48:37.937036Z",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cut signals from the Fed and positive earnings surprises in tech. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include a 4% pre-market gain for a major tech stock on strong guidance. No major economic data releases are scheduled, but a Fed official's speech later today is anticipated for policy clues.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260223_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum, supported by optimistic X/Twitter chatter about potential Fed rate cuts. Additionally, strong tech sector performance in pre-market trading could lift the broader index."
+    },
+    {
+      "id": "pred_grok_20260223_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is seeing positive sentiment on X/Twitter following rumors of a new product launch teased in tech blogs. Pre-market trading shows a 1.2% increase, and options flow data indicates heavy call buying for strikes above current price."
+    },
+    {
+      "id": "pred_grok_20260223_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 415.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with concerns over potential regulatory scrutiny in the EV sector mentioned in recent posts. Short interest data accessed via web search shows a slight uptick, suggesting bearish bets are increasing."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-02-23",
+  "generated_at": "2026-02-23T21:48:47.460657Z",
+  "headline": "Trade Uncertainty Splits AI Models on Market Direction Today",
+  "summary": "AI models were sharply divided on 2026-02-23, with Claude and Perplexity predicting market weakness due to Supreme Court trade ruling and tariff concerns, while GPT-4o and Grok expected gains from positive pre-market sentiment. The day featured a notable clash between bearish technical analysis (Claude's strong VIX call at 0.78 confidence) and bullish narrative predictions (multiple models citing earnings optimism). With actual closing prices unavailable, outcome scoring remains pending across all 15 predictions.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Stark 2v2 split with Claude/Perplexity bearish (0.75/0.7 confidence) vs GPT-4o/Grok bullish (0.65 each), reflecting fundamental disagreement on tariff impact."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude and Perplexity both bearish on tech (0.68/0.65 confidence) citing tariff supply chain concerns, contrasting GPT-4o's bullish earnings narrative."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_vix_20260223",
+    "model_display_name": "Claude",
+    "ticker": "VIX",
+    "score": 0.78,
+    "summary": "Claude's VIX prediction at 0.78 confidence targeting 22.0 was the most conviction-driven call, anchored in concrete volatility drivers (tariff uncertainty, Supreme Court ruling) rather than sentiment."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_20260223",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": 0.55,
+    "summary": "Grok's TSLA bearish call at only 0.55 confidence with vague 'regulatory scrutiny' reasoning represents the weakest conviction prediction of the day."
+  }
+}

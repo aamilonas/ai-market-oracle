@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-02-23T21:48:22Z",
+  "market_context": "US equity index futures are lower, with S&P 500 and Dow contracts down 0.4% and Nasdaq futures off 0.6%, driven by uncertainty from President Trump's 15% blanket tariffs imposed after the Supreme Court's ruling against prior measures.[1][2] Treasury yields have slipped below 4.06% amid safe-haven demand, while core PCE inflation at 3% supports higher-for-longer rates, pressuring tech and growth sectors.[2] Pre-market shows mixed movers like Corning up 7% but tech names like Nebius and CoreWeave down sharply on AI concerns.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260223_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 futures are down 0.4-0.5% pre-market amid renewed trade policy uncertainty from 15% tariffs, prompting risk-off positioning.[1][2] Recent intraday Dow drop of 1.4% and Nasdaq 1.1% lower reflect similar pressures, with no major bullish catalysts today.[3] Persistent 3% core PCE inflation adds headwinds for rate-sensitive sectors.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260223_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are off 0.6% due to tariff impacts on supply chains and 3% inflation keeping rate cut hopes dim for tech-heavy index.[1][2] Pre-market losers like Nebius (-9%), CoreWeave (-8.1%), and Cloudflare (-8%) signal AI and tech weakness ahead of Nvidia earnings mid-week.[2][3] Airline stocks also falling on weather disruptions add to risk aversion.[3]"
+    },
+    {
+      "id": "pred_perplexity_20260223_003",
+      "ticker": "GLW",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Corning is a top pre-market mover up 7.32% after strong recent performance, potentially bucking broader market tariff fears.[2] As a US-based glass/tech materials firm, it may face less direct import tariff squeeze compared to peers reliant on overseas chains.[2] Momentum from recent best-performer status could sustain gains despite equity futures weakness.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260223_004",
+      "ticker": "DAL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Delta Air Lines sank 3.5% pre-market after heavy snow and winds canceled thousands of Northeast flights over the weekend.[3] Broader airline sector weakness with United (-4.8%) and American (-4.5%) compounds operational disruptions.[3] No immediate recovery catalysts amid overall risk-off market tone from tariffs.[1]"
+    }
+  ]
+}
