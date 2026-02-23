@@ -12,6 +12,9 @@ export default function Home() {
   const [scores, setScores] = useState(null)
   const [dailySummary, setDailySummary] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [horizontal, setHorizontal] = useState(() => {
+    try { return localStorage.getItem('layout') === 'horizontal' } catch { return false }
+  })
 
   const today = getTodayDate()
 
@@ -67,60 +70,78 @@ export default function Home() {
         )}
       </section>
 
-      <div className={styles.grid}>
-        {/* Left column */}
-        <div className={styles.left}>
-          {/* Today's predictions */}
-          <section>
-            <h2 className={styles.sectionTitle}>Today's Predictions</h2>
-            <p className={styles.sectionSub}>
-              All models received the same prompt. Scored after market close.
-            </p>
-            <div className={styles.modelSections}>
-              {MODEL_NAMES.map(slug => {
-                const predData = predictions[slug]
-                if (!predData) return null
-                const displayName = MODEL_DISPLAY_MAP[slug]
-                const color = MODEL_COLORS[displayName]
-                return (
-                  <div key={slug} className={styles.modelSection}>
-                    <div className={styles.modelHeader}>
-                      <span className={styles.modelDot} style={{ background: color }} />
-                      <NavLink
-                        to={`/model/${slug}`}
-                        className={styles.modelName}
-                      >
-                        {displayName}
-                      </NavLink>
+      {/* Layout toggle */}
+      {(() => {
+        const toggleBtn = (
+          <button
+            className={styles.layoutToggle}
+            onClick={() => {
+              const next = !horizontal
+              setHorizontal(next)
+              try { localStorage.setItem('layout', next ? 'horizontal' : 'vertical') } catch {}
+            }}
+            aria-label={horizontal ? 'Switch to grid view' : 'Switch to column view'}
+          >
+            <svg className={!horizontal ? styles.toggleIconActive : styles.toggleIcon} width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <rect x="1" y="1" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+              <rect x="9" y="1" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+              <rect x="1" y="9" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+              <rect x="9" y="9" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+            </svg>
+            <svg className={horizontal ? styles.toggleIconActive : styles.toggleIcon} width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <rect x="1" y="1" width="14" height="3" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+              <rect x="1" y="6.5" width="14" height="3" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+              <rect x="1" y="12" width="14" height="3" rx="1" stroke="currentColor" strokeWidth="1.5"/>
+            </svg>
+          </button>
+        )
+
+        const predictionsBlock = (
+          <div className={horizontal ? styles.modelSectionsHorizontal : styles.modelSections}>
+            {MODEL_NAMES.map(slug => {
+              const predData = predictions[slug]
+              if (!predData) return null
+              const displayName = MODEL_DISPLAY_MAP[slug]
+              const color = MODEL_COLORS[displayName]
+              return (
+                <div key={slug} className={horizontal ? styles.modelSectionHorizontal : styles.modelSection}>
+                  <div className={styles.modelHeader}>
+                    <span className={styles.modelDot} style={{ background: color }} />
+                    <NavLink
+                      to={`/model/${slug}`}
+                      className={styles.modelName}
+                    >
+                      {displayName}
+                    </NavLink>
+                    {!horizontal && (
                       <span className={styles.modelContext}>{predData.market_context?.slice(0, 80)}…</span>
-                    </div>
-                    <div className={styles.cardGrid}>
-                      {predData.predictions.slice(0, 3).map(pred => (
-                        <PredictionCard
-                          key={pred.id}
-                          prediction={pred}
-                          score={scoreMap[pred.id]}
-                        />
-                      ))}
-                    </div>
-                    {predData.predictions.length > 3 && (
-                      <NavLink
-                        to={`/model/${slug}`}
-                        className={styles.viewAll}
-                      >
-                        View all {predData.predictions.length} predictions →
-                      </NavLink>
                     )}
                   </div>
-                )
-              })}
-            </div>
-          </section>
-        </div>
+                  <div className={horizontal ? styles.cardGridHorizontal : styles.cardGrid}>
+                    {predData.predictions.slice(0, horizontal ? 7 : 3).map(pred => (
+                      <PredictionCard
+                        key={pred.id}
+                        prediction={pred}
+                        score={scoreMap[pred.id]}
+                        compact={horizontal}
+                      />
+                    ))}
+                  </div>
+                  {!horizontal && predData.predictions.length > 3 && (
+                    <NavLink
+                      to={`/model/${slug}`}
+                      className={styles.viewAll}
+                    >
+                      View all {predData.predictions.length} predictions →
+                    </NavLink>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        )
 
-        {/* Right column */}
-        <div className={styles.right}>
-          {/* Leaderboard */}
+        const leaderboardBlock = (
           <section>
             <div className={styles.sectionHeaderRow}>
               <h2 className={styles.sectionTitle}>Leaderboard</h2>
@@ -128,51 +149,95 @@ export default function Home() {
             </div>
             <LeaderboardTable models={models} compact />
           </section>
+        )
 
-          {/* Consensus */}
-          {dailySummary?.consensus_picks?.length > 0 && (
-            <section>
-              <h2 className={styles.sectionTitle}>Today's Consensus</h2>
-              <ConsensusHighlight consensus={dailySummary.consensus_picks} />
-            </section>
-          )}
+        const consensusBlock = dailySummary?.consensus_picks?.length > 0 && (
+          <section>
+            <h2 className={styles.sectionTitle}>Today's Consensus</h2>
+            <ConsensusHighlight consensus={dailySummary.consensus_picks} />
+          </section>
+        )
 
-          {/* Notable calls */}
-          {dailySummary && (
-            <section>
-              <h2 className={styles.sectionTitle}>Notable Calls</h2>
-              <div className={styles.notableGrid}>
-                {dailySummary.best_call && (
-                  <div className={[styles.notable, styles.notableBest].join(' ')}>
-                    <span className={styles.notableLabel}>Best Call</span>
-                    <div className={styles.notableBody}>
-                      <span className={styles.notableModel}>{dailySummary.best_call.model_display_name}</span>
-                      <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.best_call.ticker}</span>
-                      <span className={['mono', styles.notableScore].join(' ')}>
-                        +{dailySummary.best_call.score.toFixed(2)} pts
-                      </span>
-                    </div>
-                    <p className={styles.notableSummary}>{dailySummary.best_call.summary}</p>
+        const notableBlock = dailySummary && (
+          <section>
+            <h2 className={styles.sectionTitle}>Notable Calls</h2>
+            <div className={styles.notableGrid}>
+              {dailySummary.best_call && (
+                <div className={[styles.notable, styles.notableBest].join(' ')}>
+                  <span className={styles.notableLabel}>Best Call</span>
+                  <div className={styles.notableBody}>
+                    <span className={styles.notableModel}>{dailySummary.best_call.model_display_name}</span>
+                    <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.best_call.ticker}</span>
+                    <span className={['mono', styles.notableScore].join(' ')}>
+                      +{dailySummary.best_call.score.toFixed(2)} pts
+                    </span>
                   </div>
-                )}
-                {dailySummary.worst_call && (
-                  <div className={[styles.notable, styles.notableWorst].join(' ')}>
-                    <span className={styles.notableLabel}>Worst Call</span>
-                    <div className={styles.notableBody}>
-                      <span className={styles.notableModel}>{dailySummary.worst_call.model_display_name}</span>
-                      <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.worst_call.ticker}</span>
-                      <span className={['mono', styles.notableScoreNeg].join(' ')}>
-                        {dailySummary.worst_call.score.toFixed(2)} pts
-                      </span>
-                    </div>
-                    <p className={styles.notableSummary}>{dailySummary.worst_call.summary}</p>
+                  <p className={styles.notableSummary}>{dailySummary.best_call.summary}</p>
+                </div>
+              )}
+              {dailySummary.worst_call && (
+                <div className={[styles.notable, styles.notableWorst].join(' ')}>
+                  <span className={styles.notableLabel}>Worst Call</span>
+                  <div className={styles.notableBody}>
+                    <span className={styles.notableModel}>{dailySummary.worst_call.model_display_name}</span>
+                    <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.worst_call.ticker}</span>
+                    <span className={['mono', styles.notableScoreNeg].join(' ')}>
+                      {dailySummary.worst_call.score.toFixed(2)} pts
+                    </span>
                   </div>
-                )}
+                  <p className={styles.notableSummary}>{dailySummary.worst_call.summary}</p>
+                </div>
+              )}
+            </div>
+          </section>
+        )
+
+        if (horizontal) {
+          return (
+            <div className={styles.columnLayout}>
+              <div className={styles.sectionHeaderRow}>
+                <div>
+                  <h2 className={styles.sectionTitle}>Today's Predictions</h2>
+                  <p className={styles.sectionSub}>
+                    All models received the same prompt. Scored after market close.
+                  </p>
+                </div>
+                {toggleBtn}
               </div>
-            </section>
-          )}
-        </div>
-      </div>
+              {leaderboardBlock}
+              {predictionsBlock}
+              <div className={styles.bottomSidebar}>
+                {consensusBlock}
+                {notableBlock}
+              </div>
+            </div>
+          )
+        }
+
+        return (
+          <div className={styles.grid}>
+            <div className={styles.left}>
+              <section>
+                <div className={styles.sectionHeaderRow}>
+                  <div>
+                    <h2 className={styles.sectionTitle}>Today's Predictions</h2>
+                    <p className={styles.sectionSub}>
+                      All models received the same prompt. Scored after market close.
+                    </p>
+                  </div>
+                  {toggleBtn}
+                </div>
+                {predictionsBlock}
+              </section>
+            </div>
+            <div className={styles.right}>
+              {leaderboardBlock}
+              {consensusBlock}
+              {notableBlock}
+            </div>
+          </div>
+        )
+      })()}
     </div>
   )
 }

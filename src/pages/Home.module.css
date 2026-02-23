@@ -99,9 +99,13 @@
 
 .sectionHeaderRow {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 0.875rem;
+}
+
+.sectionHeaderRow .sectionTitle {
+  margin-bottom: 0;
 }
 
 .viewAllLink {
@@ -243,4 +247,89 @@
   border-top: 1px solid var(--border-subtle);
   padding-top: 0.5rem;
   margin-top: 0.1rem;
+}
+
+/* Layout toggle */
+
+.layoutToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.layoutToggle:hover {
+  border-color: #444;
+}
+
+.toggleIcon {
+  color: var(--text-muted);
+  opacity: 0.4;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.toggleIconActive {
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+/* Column layout */
+
+.columnLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bottomSidebar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.modelSectionsHorizontal {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
+
+.modelSectionsHorizontal::-webkit-scrollbar {
+  height: 4px;
+}
+
+.modelSectionsHorizontal::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modelSectionsHorizontal::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+.modelSectionHorizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.875rem 1rem;
+  min-width: 240px;
+  max-width: 280px;
+  flex-shrink: 0;
+}
+
+.cardGridHorizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
 }

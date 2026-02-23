@@ -11,7 +11,7 @@ function DirectionBadge({ direction, correct }) {
   )
 }
 
-export default function PredictionCard({ prediction, score }) {
+export default function PredictionCard({ prediction, score, compact }) {
   const {
     ticker,
     direction,
@@ -89,7 +89,7 @@ export default function PredictionCard({ prediction, score }) {
         <span className={['mono', styles.confValue].join(' ')}>{(confidence * 100).toFixed(0)}%</span>
       </div>
 
-      <p className={styles.reasoning}>{reasoning}</p>
+      {!compact && <p className={styles.reasoning}>{reasoning}</p>}
     </div>
   )
 }
