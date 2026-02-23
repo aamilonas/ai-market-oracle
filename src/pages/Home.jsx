@@ -3,10 +3,8 @@ import { NavLink } from 'react-router-dom'
 import PredictionCard from '../components/PredictionCard'
 import LeaderboardTable from '../components/LeaderboardTable'
 import ConsensusHighlight from '../components/ConsensusHighlight'
-import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, MODEL_NAMES } from '../data/useData'
+import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, MODEL_NAMES, MODEL_DISPLAY_MAP, MODEL_COLORS, getTodayDate } from '../data/useData'
 import styles from './Home.module.css'
-
-const SEED_DATE = '2025-02-19'
 
 export default function Home() {
   const [leaderboard, setLeaderboard] = useState(null)
@@ -15,13 +13,15 @@ export default function Home() {
   const [dailySummary, setDailySummary] = useState(null)
   const [loading, setLoading] = useState(true)
 
+  const today = getTodayDate()
+
   useEffect(() => {
     async function load() {
       try {
         const [lb, sc, ds] = await Promise.all([
           loadLeaderboard(),
-          loadScores(SEED_DATE).catch(() => null),
-          loadDailySummary(SEED_DATE).catch(() => null),
+          loadScores(today).catch(() => null),
+          loadDailySummary(today).catch(() => null),
         ])
         setLeaderboard(lb)
         setScores(sc)
@@ -31,7 +31,7 @@ export default function Home() {
         await Promise.all(
           MODEL_NAMES.map(async name => {
             try {
-              const p = await loadPredictions(SEED_DATE, name)
+              const p = await loadPredictions(today, name)
               predsMap[name] = p
             } catch {}
           })
@@ -61,7 +61,7 @@ export default function Home() {
         </p>
         {dailySummary && (
           <div className={styles.dailyHeadline}>
-            <span className={styles.datePill}>{SEED_DATE}</span>
+            <span className={styles.datePill}>{today}</span>
             <span className={styles.headlineText}>{dailySummary.headline}</span>
           </div>
         )}
@@ -77,21 +77,20 @@ export default function Home() {
               All models received the same prompt. Scored after market close.
             </p>
             <div className={styles.modelSections}>
-              {models.map(model => {
-                const key = model.model_display_name.toLowerCase().replace('-', '').replace('gpt4o', 'gpt4o').replace(' ', '')
-                const slug = model.model_display_name === 'GPT-4o' ? 'gpt4o'
-                  : model.model_display_name.toLowerCase()
+              {MODEL_NAMES.map(slug => {
                 const predData = predictions[slug]
                 if (!predData) return null
+                const displayName = MODEL_DISPLAY_MAP[slug]
+                const color = MODEL_COLORS[displayName]
                 return (
-                  <div key={model.model_display_name} className={styles.modelSection}>
+                  <div key={slug} className={styles.modelSection}>
                     <div className={styles.modelHeader}>
-                      <span className={styles.modelDot} style={{ background: model.color }} />
+                      <span className={styles.modelDot} style={{ background: color }} />
                       <NavLink
-                        to={`/model/${model.model_display_name.toLowerCase()}`}
+                        to={`/model/${slug}`}
                         className={styles.modelName}
                       >
-                        {model.model_display_name}
+                        {displayName}
                       </NavLink>
                       <span className={styles.modelContext}>{predData.market_context?.slice(0, 80)}…</span>
                     </div>
@@ -106,7 +105,7 @@ export default function Home() {
                     </div>
                     {predData.predictions.length > 3 && (
                       <NavLink
-                        to={`/model/${model.model_display_name.toLowerCase()}`}
+                        to={`/model/${slug}`}
                         className={styles.viewAll}
                       >
                         View all {predData.predictions.length} predictions →
