@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-23",
+  "generated_at": "2026-02-23T02:29:19.478751Z",
+  "headline": "Tariff turmoil divides AI bulls from macro bears in earnings week",
+  "summary": "Claude and Perplexity diverged sharply on market direction today, with Perplexity citing Trump's tariff announcement as a broad headwind for equities while Claude maintained bullish stances on individual names like NVDA and DPZ ahead of earnings. Both models agreed QQQ should decline, but disagreed on magnitude and reasoning—Perplexity blamed tariff supply chain risks while Claude pointed to technical resistance. Actual close data is pending, making it unclear whether tariff fears or pre-earnings momentum dominated.",
+  "consensus_picks": [
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models bearish on Nasdaq 100, but Claude targets $595 (technical) while Perplexity targets $498 (tariff impact)—a 16% disagreement revealing different analytical frameworks."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude bullish at $195 citing pre-earnings momentum; Perplexity flat at $152 citing caution ahead of Feb 25 earnings, creating a textbook bull-bear split on the AI darling."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_nvda_up",
+    "model_display_name": "Claude",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest conviction (0.68) bet on genuine pre-earnings catalyst with options data ($5.35% implied move) backing the thesis, directly countering broader market tariff pessimism."
+  },
+  "worst_call": {
+    "prediction_id": "perplexity_nvda_flat",
+    "model_display_name": "Perplexity",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Lowest confidence (0.55) call with vague 'pre-earnings caution' reasoning conflicts with the model's own bearish macro thesis, and the $152 target appears disconnected from current momentum."
+  }
+}

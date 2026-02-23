@@ -1,0 +1,64 @@
+{
+  "date": "2026-02-23",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-02-23T08:45:00Z",
+  "market_context": "Markets are facing mixed signals with futures showing modest gains despite weak Q4 GDP at 1.4% versus 3% expectations and inflation pressures with Core PCE rising 0.4% above estimates. Nvidia earnings on February 25 are creating significant anticipation, while tech sector weakness continues amid AI competition concerns.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260223_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 595.0,
+      "current_price_at_prediction": 608.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Technical analysis shows QQQ trading near resistance at $616.28 with negative technical signals emerging. The predicted opening price of $606.13 suggests pre-market weakness, and tech sector rotation continues amid software stock selloffs and AI competition concerns."
+    },
+    {
+      "id": "pred_claude_20260223_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 189.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Strong pre-earnings momentum with options pricing in a 5.35% move and 'insane' demand for AI computing products as described by CEO Jensen Huang. Historical pattern shows positive moves ahead of earnings, though geopolitical tensions and tariff concerns create some uncertainty."
+    },
+    {
+      "id": "pred_claude_20260223_003",
+      "ticker": "DPZ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 405.0,
+      "current_price_at_prediction": 390.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Domino's Pizza reports earnings tomorrow with options pricing in a 9% move and call-put ratio of 1.2:1 showing bullish positioning. Consumer discretionary names may benefit from rotation out of tech, and the company has historically shown resilient performance."
+    },
+    {
+      "id": "pred_claude_20260223_004",
+      "ticker": "WTI",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 67.5,
+      "current_price_at_prediction": 66.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crude oil set a new 2026 high at $66+ with geopolitical tensions continuing to simmer and VIX remaining elevated above 20. Energy sector showing relative strength while broader markets face uncertainty, though gains may be limited by economic growth concerns."
+    },
+    {
+      "id": "pred_claude_20260223_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 21.0,
+      "current_price_at_prediction": 19.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Market uncertainty from weak GDP data, inflation pressures, and upcoming Nvidia earnings create volatility catalyst. VIX historically rises during periods of economic data disappointments and tech sector stress, though current level above 19 suggests some fear already priced in."
+    }
+  ]
+}
