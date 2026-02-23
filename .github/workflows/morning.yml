@@ -61,6 +61,7 @@ jobs:
           python generate.py $ARGS
 
       - name: Generate daily summary
+        continue-on-error: true
         working-directory: scripts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

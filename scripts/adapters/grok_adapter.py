@@ -10,7 +10,7 @@ from utils import get_logger, extract_json_from_text
 
 log = get_logger("grok_adapter")
 
-MODEL_ID = "grok-2-latest"
+MODEL_ID = "grok-3"
 DISPLAY_NAME = "Grok"
 BASE_URL = "https://api.x.ai/v1"
 
@@ -33,7 +33,7 @@ Make 3-5 specific predictions. At least one must be on SPY, QQQ, or DIA.
 Return ONLY this JSON:
 {{
   "date": "{date}",
-  "model": "grok-2-latest",
+  "model": "grok-3",
   "model_display_name": "Grok",
   "generated_at": "{now}",
   "market_context": "2-3 sentence summary including X sentiment",

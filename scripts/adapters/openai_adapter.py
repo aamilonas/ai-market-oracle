@@ -73,7 +73,6 @@ class OpenAIAdapter:
                         {"role": "system", "content": SYSTEM_PROMPT},
                         {"role": "user", "content": user_msg},
                     ],
-                    tools=[{"type": "web_search_preview"}],
                     max_tokens=2048,
                     temperature=0.2,
                 )

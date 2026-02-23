@@ -11,7 +11,7 @@ from utils import get_logger, extract_json_from_text
 
 log = get_logger("gemini_adapter")
 
-MODEL_ID = "gemini-2.0-flash"
+MODEL_ID = "gemini-2.5-flash"
 DISPLAY_NAME = "Gemini"
 
 PROMPT_TEMPLATE = """You are a market analyst participating in a daily AI prediction experiment.
