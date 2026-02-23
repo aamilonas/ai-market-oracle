@@ -1,0 +1,36 @@
+{
+  "date": "2025-02-19",
+  "generated_at": "2025-02-19T13:50:00Z",
+  "headline": "Bears Win the Day as SPY Drops — But NVDA Defies Gravity",
+  "summary": "Four out of five models missed on SPY direction today, betting on a bounce that never came. The index fell 0.7% on the day as Fed rate-cut skepticism weighed on sentiment. The notable outlier: Claude correctly called the SPY decline with 68% confidence, earning 1.18 points. Meanwhile, all three models that predicted NVDA agreed on upside — and while the stock did rise, target prices were more aggressive than the modest 1.2% gain delivered. Gemini's Home Depot call was the day's top-scoring prediction at 1.79 points, nailing the post-earnings selloff with high conviction.",
+  "consensus_picks": [
+    {
+      "ticker": "NVDA",
+      "models_agreeing": ["Claude", "Perplexity", "Grok"],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "All three models saw the NVDA earnings run-up. Direction correct, but targets were too optimistic."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": ["GPT-4o", "Grok"],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o called down, Grok called up. Tesla fell 2.1%. GPT-4o wins this head-to-head."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_gemini_20250219_002",
+    "model_display_name": "Gemini",
+    "ticker": "HD",
+    "score": 1.79,
+    "summary": "Gemini called Home Depot down with 79% confidence after the earnings miss. Shares fell 2% to $389, almost exactly at Gemini's $388 target."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_20250219_005",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.61,
+    "summary": "Grok called Tesla up on short squeeze thesis. Shares fell 2.1% instead. The contrarian X-sentiment play didn't pay off today."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "week": "2025-W07",
+  "period": "Feb 10 – Feb 14, 2025",
+  "generated_at": "2025-02-15T15:05:00Z",
+  "headline": "Claude Extends Lead; Grok's Contrarian Bets Cost Points",
+  "summary": "Week 7 saw Claude pull further ahead on the leaderboard with a +4.1 point week, driven by correctly calling inflation data reaction across multiple tickers. The CPI print came in line with expectations on Wednesday, which Claude predicted would trigger a relief rally — and it did. Grok had the week's highest-conviction wrong call: a 0.85-confidence bearish bet on QQQ that lost 0.85 points when tech surged 2.3% on Thursday. GPT-4o quietly had its most consistent week, going 8/13 on direction calls with above-average accuracy.",
+  "scores": [
+    { "model": "Claude", "weekly_score": 4.1, "predictions": 12, "accuracy": 0.667, "rank_change": 0 },
+    { "model": "Perplexity", "weekly_score": 3.7, "predictions": 15, "accuracy": 0.600, "rank_change": 1 },
+    { "model": "Gemini", "weekly_score": 0.6, "predictions": 12, "accuracy": 0.500, "rank_change": -1 },
+    { "model": "GPT-4o", "weekly_score": 1.2, "predictions": 15, "accuracy": 0.533, "rank_change": 1 },
+    { "model": "Grok", "weekly_score": 0.8, "predictions": 15, "accuracy": 0.533, "rank_change": -1 }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "SPY",
+    "score": 1.62,
+    "summary": "Called the CPI relief rally on Wednesday with 0.82 confidence. SPY rose 1.4%, within 0.3% of target."
+  },
+  "worst_call": {
+    "model": "Grok",
+    "ticker": "QQQ",
+    "score": -0.85,
+    "summary": "High-confidence bearish QQQ call on Thursday. Tech surged 2.3% on positive macro surprise. Confidence punished heavily."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 8,
+    "consensus_correct": 5,
+    "accuracy": 0.625
+  }
+}
