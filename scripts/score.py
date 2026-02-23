@@ -56,7 +56,7 @@ def score_date(date_str: str) -> Optional[dict]:
 
     pred_dir = PREDICTIONS_DIR / date_str
     if not pred_dir.exists():
-        log.error(f"No predictions directory for {date_str}")
+        log.warning(f"No predictions directory for {date_str} — nothing to score")
         return None
 
     pred_files = list(pred_dir.glob("*.json"))

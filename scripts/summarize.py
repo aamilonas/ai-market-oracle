@@ -284,8 +284,8 @@ def main():
         if result:
             log.info(f"Weekly summary: {result.get('headline', 'done')}")
         else:
-            log.error("Weekly summary failed")
-            sys.exit(1)
+            log.warning("No data available for weekly summary — skipping")
+            sys.exit(0)
 
 
 if __name__ == "__main__":
