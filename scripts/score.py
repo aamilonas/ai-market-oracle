@@ -22,6 +22,7 @@ from utils import (
     load_json,
     save_json,
     sync_to_public,
+    today_et,
     PREDICTIONS_DIR,
     SCORES_DIR,
     LEADERBOARD_FILE,
@@ -228,7 +229,7 @@ def main():
     parser = argparse.ArgumentParser(description="Score AI market predictions")
     parser.add_argument(
         "--date",
-        default=date.today().isoformat(),
+        default=today_et().isoformat(),
         help="Date to score (YYYY-MM-DD, default: today)",
     )
     parser.add_argument(

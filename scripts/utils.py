@@ -4,9 +4,20 @@ import json
 import logging
 import os
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
+
+# US Eastern offset: UTC-5 (EST) or UTC-4 (EDT).
+# Python 3.9+ has zoneinfo, but keep it simple with a fixed check.
+def today_et() -> date:
+    """Return today's date in US Eastern time."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/New_York")).date()
+    except ImportError:
+        # Fallback: assume EST (UTC-5) — close enough for market scripts
+        return datetime.now(timezone(timedelta(hours=-5))).date()
 
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
@@ -193,7 +204,7 @@ US_MARKET_HOLIDAYS = US_HOLIDAYS_2025 | US_HOLIDAYS_2026
 def is_market_open(d: date | None = None) -> bool:
     """Return True if the US stock market is open on the given date."""
     if d is None:
-        d = date.today()
+        d = today_et()
     if d.weekday() >= 5:  # Saturday or Sunday
         return False
     return d not in US_MARKET_HOLIDAYS

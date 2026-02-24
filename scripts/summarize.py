@@ -21,6 +21,7 @@ from utils import (
     load_json,
     save_json,
     sync_to_public,
+    today_et,
     extract_json_from_text,
     PREDICTIONS_DIR,
     SCORES_DIR,
@@ -257,7 +258,7 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--daily", action="store_true")
     group.add_argument("--weekly", action="store_true")
-    parser.add_argument("--date", default=date.today().isoformat())
+    parser.add_argument("--date", default=today_et().isoformat())
     parser.add_argument("--week", help="Week string like 2025-W08")
     args = parser.parse_args()
 
@@ -274,7 +275,7 @@ def main():
     elif args.weekly:
         if not args.week:
             # Default to last completed week
-            today = date.today()
+            today = today_et()
             last_monday = today - timedelta(days=today.weekday() + 7)
             cal = last_monday.isocalendar()
             week_str = f"{cal.year}-W{cal.week:02d}"

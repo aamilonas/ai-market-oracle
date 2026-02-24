@@ -21,6 +21,7 @@ from utils import (
     is_market_open,
     save_json,
     sync_to_public,
+    today_et,
     validate_prediction_payload,
     PREDICTIONS_DIR,
 )
@@ -88,7 +89,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate AI market predictions")
     parser.add_argument(
         "--date",
-        default=date.today().isoformat(),
+        default=today_et().isoformat(),
         help="Date to generate predictions for (YYYY-MM-DD, default: today)",
     )
     parser.add_argument(
