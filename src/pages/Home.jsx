@@ -169,7 +169,7 @@ export default function Home() {
                     <span className={styles.notableModel}>{dailySummary.best_call.model_display_name}</span>
                     <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.best_call.ticker}</span>
                     <span className={['mono', styles.notableScore].join(' ')}>
-                      +{dailySummary.best_call.score.toFixed(2)} pts
+                      {dailySummary.best_call.score != null ? `+${dailySummary.best_call.score.toFixed(2)} pts` : 'Pending'}
                     </span>
                   </div>
                   <p className={styles.notableSummary}>{dailySummary.best_call.summary}</p>
@@ -182,7 +182,7 @@ export default function Home() {
                     <span className={styles.notableModel}>{dailySummary.worst_call.model_display_name}</span>
                     <span className={['mono', styles.notableTicker].join(' ')}>{dailySummary.worst_call.ticker}</span>
                     <span className={['mono', styles.notableScoreNeg].join(' ')}>
-                      {dailySummary.worst_call.score.toFixed(2)} pts
+                      {dailySummary.worst_call.score != null ? `${dailySummary.worst_call.score.toFixed(2)} pts` : 'Pending'}
                     </span>
                   </div>
                   <p className={styles.notableSummary}>{dailySummary.worst_call.summary}</p>
