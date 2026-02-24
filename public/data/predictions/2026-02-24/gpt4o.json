@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-24",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-02-24T14:34:57.944651Z",
+  "market_context": "U.S. stock futures are indicating a positive open following strong earnings reports from major tech companies and a rebound in Asian markets overnight. Investors are also anticipating the release of key economic data, including the latest GDP growth figures and consumer confidence index, which are expected to show continued economic resilience.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260224_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong earnings from tech giants and positive economic data expectations are likely to boost investor sentiment, supporting an upward movement in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260224_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector strength, driven by robust earnings and positive guidance, is expected to lift QQQ, reflecting investor confidence in continued sector growth."
+    },
+    {
+      "id": "pred_gpt4o_20260224_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Apple's recent earnings beat and optimistic forward guidance are likely to drive the stock higher as investors react positively to its performance and outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260224_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 715.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite a strong tech sector, Tesla faces pressure from recent regulatory challenges and supply chain issues, which may weigh on its stock price today."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-02-24T14:34:50Z",
+  "market_context": "US stock futures are edging higher on February 24, 2026, with Dow E-minis up 0.27%, S&P 500 E-minis up 0.25%, and Nasdaq 100 E-minis up 0.36%, rebounding from Monday's >1% selloff driven by Trump's 10-15% global tariff announcement and AI disruption fears from Citrini Research.[1][2] Uncertainty persists ahead of Trump's State of the Union address today and Nvidia earnings tomorrow, while Treasury yields hold near 4.05% and premarket shows gains in Home Depot (+2.7%) and Keysight (+16.2%).[2][3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260224_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 575.5,
+      "current_price_at_prediction": 573.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 E-minis are up 0.25% premarket after Monday's 1%+ drop, signaling mild rebound amid tariff and AI uncertainty.[2] Futures gains across Dow (0.27%), S&P (0.25%), and Nasdaq (0.36%) suggest broad recovery potential before Trump's State of the Union.[1][4] Defensive shift and premarket strength in select stocks like Home Depot support slight end-of-day upside.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260224_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 485.0,
+      "current_price_at_prediction": 483.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq 100 E-minis lead futures gains at +0.36%, with megacaps like Microsoft and Meta rebounding in premarket after Monday losses.[2] AI fears linger from Citrini report, but Nvidia up 0.5% ahead of Wednesday earnings adds optimism.[2] Tariff uncertainty caps upside, but futures momentum points to modest close higher.[1][4]"
+    },
+    {
+      "id": "pred_perplexity_20260224_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 425.8,
+      "current_price_at_prediction": 424.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow E-minis rose 133 points or 0.27% early, outperforming slightly amid shift to defensive assets post-tariff news.[1][2] Yesterday's selloff hit financials hard, but rebound in futures and Home Depot's +2.7% premarket beat signal blue-chip resilience.[2] State of the Union today may provide tariff clarity, boosting sentiment.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260224_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 142.5,
+      "current_price_at_prediction": 141.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nvidia shares up 0.5% premarket despite AI disruption fears, with Q4 earnings due Wednesday offering key AI demand read.[2][3] Nasdaq futures +0.36% reflect tech rebound potential after Monday's software sector -4.3% drop.[2] Tariff impacts less direct on semis, supporting mild gains today.[1]"
+    }
+  ]
+}

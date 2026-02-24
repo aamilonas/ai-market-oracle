@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-02-24T14:35:09.013263Z",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside due to recent tech earnings beats, though some express concern over upcoming inflation data. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include a 5% pre-market gain for a major tech stock on positive analyst upgrades. No major news events are scheduled for today, but options flow indicates heavy call buying in tech ETFs.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260224_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 up 0.3% suggest bullish momentum. X/Twitter sentiment leans optimistic with discussions of strong tech sector performance. Options flow data from web sources shows significant call buying in SPY, reinforcing upside potential."
+    },
+    {
+      "id": "pred_grok_20260224_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 490.0,
+      "current_price_at_prediction": 487.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures are up 0.4% pre-market, driven by tech stock strength as seen in web reports. X/Twitter posts highlight excitement over a major tech mover up 5% pre-market. Options data indicates bullish sentiment with heavy call volume in QQQ."
+    },
+    {
+      "id": "pred_grok_20260224_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AAPL is mentioned frequently on X/Twitter as a key driver of tech optimism following a positive analyst upgrade reported on financial news sites. Pre-market activity shows a 2% gain, per web data. Confidence is moderate due to potential volatility ahead of inflation reports later this week."
+    }
+  ]
+}

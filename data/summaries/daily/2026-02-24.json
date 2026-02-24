@@ -1,0 +1,56 @@
+{
+  "date": "2026-02-24",
+  "generated_at": "2026-02-24T14:35:16.613686Z",
+  "headline": "Five AI models bullish on tech recovery with sparse disagreement on direction",
+  "summary": "All five AI models predicted broad market upside on 2026-02-24, with strong consensus around SPY, QQQ, and AAPL rallies following pre-market momentum gains. Claude stood out with high-conviction calls on AMD (0.85 confidence) and HD (0.80 confidence) based on specific catalysts, while only two downside predictions emerged (NVDA and TSLA). However, no actual closing prices were recorded, leaving all predictions pending verification.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four of five models unanimously bullish on SPY with 0.62-0.65 confidence, citing pre-market futures gains of 0.20-0.30%."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models aligned on QQQ upside with 0.58-0.70 confidence, driven by Nasdaq-100 futures outperformance."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models predicted AAPL gains on earnings beat and forward guidance strength."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_amd_up",
+    "model_display_name": "Claude",
+    "ticker": "AMD",
+    "score": null,
+    "summary": "Claude's 0.85 confidence AMD call was anchored by a concrete blockbuster Meta deal announcement for 6 gigawatts of AI data deployment, providing strongest fundamental support."
+  },
+  "worst_call": {
+    "prediction_id": "gpt4o_tsla_down",
+    "model_display_name": "GPT-4o",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "GPT-4o's bearish TSLA call at only 0.60 confidence contradicted the day's overwhelming tech bullish sentiment and lacked specificity on near-term catalysts."
+  }
+}

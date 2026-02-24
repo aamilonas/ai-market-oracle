@@ -1,0 +1,64 @@
+{
+  "date": "2026-02-24",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-02-24T06:30:00Z",
+  "market_context": "<cite index=\"4-4,4-9,4-10\">Wall Street is positioned for a potential rebound after Monday's sharp sell-off, with the Dow falling 1.7% to 48,804.06, the S&P 500 dropping 1.04% to 6,837.75, and the Nasdaq declining 1.1% to 22,627.27</cite>. <cite index=\"4-1,4-5,4-6\">Pre-market futures show cautious optimism with S&P 500 futures up 0.20%, Nasdaq-100 futures rising 0.30%, and Dow futures gaining 0.14%</cite>. <cite index=\"4-7\">The sell-off was driven by renewed concerns about global trade policy and AI-led disruption in the software sector</cite>.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260224_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 692.5,
+      "current_price_at_prediction": 689.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "<cite index=\"4-1,4-4,4-5\">Pre-market futures are showing positive momentum with SPY futures up 0.20% after Monday's 1.04% decline, suggesting a technical rebound</cite>. <cite index=\"31-1,31-16,31-17\">Consumer Confidence data at 10 AM ET is expected to improve to 87.6 from 84.5, which could provide market support as it's a key indicator for consumer spending</cite>."
+    },
+    {
+      "id": "pred_claude_20260224_002",
+      "ticker": "AMD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 215.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "<cite index=\"21-3,21-4\">AMD announced a blockbuster deal with Meta to deploy 6 gigawatts of AI data center gear worth 'double-digit billions' per gigawatt over five years</cite>. <cite index=\"24-1,26-10\">AMD has already surged 9.18% in pre-market trading, but the magnitude of this $60+ billion deal with equity warrants for 160 million shares provides strong fundamental support for further gains</cite>."
+    },
+    {
+      "id": "pred_claude_20260224_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 610.0,
+      "current_price_at_prediction": 601.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "<cite index=\"4-1,4-5\">Nasdaq-100 futures are leading the pre-market recovery with a 0.30% gain, outpacing both S&P 500 and Dow futures</cite>. <cite index=\"7-4,7-14,7-15\">The AMD-Meta partnership announcement creating $100+ billion in AI infrastructure investment should benefit the broader tech sector that QQQ represents</cite>."
+    },
+    {
+      "id": "pred_claude_20260224_004",
+      "ticker": "HD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 420.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "<cite index=\"5-1,5-2,5-3\">Home Depot is up $9.70 in pre-market after beating earnings with EPS of $2.72 vs $2.54 expected and revenue of $38.2B vs $38.12B expected</cite>. <cite index=\"5-23,5-24,5-25\">The company also raised its dividend to $2.33 per share and reported positive comparable sales growth of 0.4% for Q4 and 0.3% in the U.S.</cite>"
+    },
+    {
+      "id": "pred_claude_20260224_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 875.0,
+      "current_price_at_prediction": 880.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "<cite index=\"4-14\">Nvidia shares were slightly lower pre-market as investors await its highly anticipated Q4 earnings report on Wednesday</cite>. <cite index=\"21-3,27-7,27-8\">While Meta committed to using millions of Nvidia chips last week, the new AMD partnership represents competitive pressure and diversification away from Nvidia's dominance in AI chips</cite>."
+    }
+  ]
+}
