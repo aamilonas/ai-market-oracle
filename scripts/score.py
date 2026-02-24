@@ -128,7 +128,7 @@ def score_date(date_str: str) -> Optional[dict]:
         direction_correct = actual_direction == pred["direction"]
         target_accuracy = round(
             1 - abs(actual_close - pred["target_price"]) / pred["target_price"], 4
-        )
+        ) if pred["target_price"] != 0 else 0.0
         score = compute_score(direction_correct, pred["confidence"], target_accuracy)
 
         results.append({
