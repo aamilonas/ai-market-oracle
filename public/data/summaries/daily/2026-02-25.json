@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-02-25T14:32:32.725464Z",
+  "headline": "Three models bullish on broad indices; outcomes pending market close",
+  "summary": "All three AI models (GPT-4o, Grok, Perplexity) predicted upside for SPY today, driven by positive pre-market sentiment and economic data. Tech stocks QQQ and individual names like AMD and KEYS showed particular strength in pre-market trading. However, actual closing prices remain unavailable, making it impossible to score predictions at this time.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Perfect consensus across all three models on S&P 500 upside, citing pre-market futures strength and Fed rate cut expectations."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models bullish on tech-heavy Nasdaq-100, supported by strong earnings reports and major Meta 6G GPU deal announcement."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models saw Tesla weakness from regulatory scrutiny, though with modest confidence levels (0.55-0.60)."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_perplexity_keys_001",
+    "model_display_name": "Perplexity",
+    "ticker": "KEYS",
+    "score": 0.75,
+    "summary": "Perplexity identified Keysight's exceptional 23.05% pre-market surge with highest confidence (0.75), backed by strong Q1 results and analyst upgrades."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_001",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": 0.55,
+    "summary": "Grok's TSLA downside call carries the lowest confidence among all predictions (0.55), with vague regulatory concerns and mixed social sentiment providing weak conviction."
+  }
+}

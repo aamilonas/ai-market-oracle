@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-25",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-02-25T14:32:25.009727Z",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cut signals from the Fed and positive earnings surprises in tech. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include a 4% pre-market gain for a major tech stock on strong guidance. No major economic data releases are scheduled, but a Fed official's speech later today is anticipated for policy clues.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260225_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment on X/Twitter regarding potential Fed rate cuts is driving bullishness, alongside a 0.3% rise in S&P 500 futures as reported by financial news aggregators. Options flow data from web sources indicates increased call buying for SPY expiring this week. However, uncertainty remains due to potential volatility from the Fed official's speech."
+    },
+    {
+      "id": "pred_grok_20260225_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 225.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "AAPL is seeing a 2% pre-market gain based on web-reported analyst upgrades following strong quarterly results. X/Twitter chatter is overwhelmingly positive with hashtags like #AppleBull trending. Confidence is tempered by broader market risks tied to Fed commentary."
+    },
+    {
+      "id": "pred_grok_20260225_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 415.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with concerns over potential regulatory scrutiny in the EV sector as mentioned in recent posts. Web searches highlight elevated short interest in TSLA, up 3% week-over-week per financial data platforms. Confidence is low due to unpredictable news catalysts."
+    }
+  ]
+}

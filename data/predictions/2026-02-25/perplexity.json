@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-25",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-02-25T14:32:10Z",
+  "market_context": "US stock futures are modestly higher pre-market, with S&P 500 futures up 0.1-0.3%, Nasdaq-100 futures up 0.2-0.5%, and Dow futures up 0.3%, driven by strong ADP private hiring data adding 12,750 jobs weekly and 10-year Treasury yields near 4.05% signaling rate cut expectations.[1][2] Pre-market movers include KEYS +23% on Q1 results, AMD +8.77% on Meta GPU deal, and losers like EXPD -7.22% post-earnings.[1] Key events today feature NVIDIA, Salesforce, and TJX earnings, alongside labor and housing data.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260225_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 futures are up 0.1-0.3% pre-market amid strong ADP hiring at 12,750 jobs/week and low 10-year yields at 4.05% supporting rate cut hopes.[1][2] Positive momentum from tech movers like KEYS +23% and AMD +8.77% could lift broad indices.[1] Upcoming NVDA earnings may add AI-driven upside if results beat expectations.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260225_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq-100 futures lead with 0.2-0.5% gains, boosted by pre-market strength in AMD +8.77% on Meta 6GW GPU deal and CRWV +9.31% ahead of earnings.[1][2] NVDA Q4 earnings today provide potential catalyst for AI/tech sector rally.[1] Resilient hiring data supports consumer/tech spending outlook.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260225_003",
+      "ticker": "KEYS",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Keysight Technologies surged 23.05% pre-market on strong Q1 results and analyst upgrades, indicating robust momentum.[1] Positive futures and hiring data favor tech/test equipment stocks amid AI demand.[1] Low risk of reversal given the scale of the move and broader Nasdaq strength.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260225_004",
+      "ticker": "AMD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "AMD gained 8.77% pre-market after Meta's multi-year 6GW GPU deal announcement and raised analyst targets.[1] Nasdaq futures up 0.2-0.5% align with semiconductor/AI tailwinds ahead of NVDA earnings.[1][2] Strong hiring supports enterprise capex for GPUs.[1]"
+    }
+  ]
+}

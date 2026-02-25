@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-25",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-02-25T14:32:16.742074Z",
+  "market_context": "U.S. futures are slightly up in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data, including U.S. GDP growth figures and consumer sentiment index, are expected to influence market direction today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260225_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable GDP growth figures. Additionally, strong earnings reports from major tech companies are likely to boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260225_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 416.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech-heavy QQQ is poised for gains as several large-cap tech firms reported better-than-expected earnings. The sector is also benefiting from a positive outlook on tech innovation and investment."
+    },
+    {
+      "id": "pred_gpt4o_20260225_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock may face pressure due to recent recalls and regulatory scrutiny in key markets. Additionally, competition in the EV space is intensifying, which could weigh on investor sentiment."
+    }
+  ]
+}
