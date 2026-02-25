@@ -79,6 +79,8 @@ jobs:
           cp -r data/predictions public/data/
           cp -r data/summaries public/data/
           cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
+          cp data/simulator.json public/data/simulator.json 2>/dev/null || true
+          cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
           npm run build
 
       - name: Commit and push

@@ -3,14 +3,63 @@ import { NavLink } from 'react-router-dom'
 import PredictionCard from '../components/PredictionCard'
 import LeaderboardTable from '../components/LeaderboardTable'
 import ConsensusHighlight from '../components/ConsensusHighlight'
-import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, MODEL_NAMES, MODEL_DISPLAY_MAP, MODEL_COLORS, getTodayDate } from '../data/useData'
+import TodaysWinner from '../components/TodaysWinner'
+import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, loadTodaysWinner, MODEL_NAMES, MODEL_DISPLAY_MAP, MODEL_COLORS, getTodayDate } from '../data/useData'
 import styles from './Home.module.css'
+
+const EXCLUDED_TICKERS = new Set(['SPY', 'QQQ', 'DIA', 'VIX', 'IWM'])
+
+function computeWinner(predictionsMap) {
+  const groups = {}
+  for (const [, data] of Object.entries(predictionsMap)) {
+    const modelName = data.model_display_name
+    for (const pred of data.predictions || []) {
+      if (EXCLUDED_TICKERS.has(pred.ticker)) continue
+      if (pred.ticker?.endsWith('-USD')) continue
+      if (!pred.target_price || !pred.current_price_at_prediction) continue
+      const key = `${pred.ticker}|${pred.direction}`
+      if (!groups[key]) groups[key] = []
+      groups[key].push({ model: modelName, confidence: pred.confidence, target: pred.target_price, entry: pred.current_price_at_prediction })
+    }
+  }
+  let best = null
+  for (const [key, picks] of Object.entries(groups)) {
+    if (picks.length < 4) continue
+    const [ticker, direction] = key.split('|')
+    const avgConf = picks.reduce((s, p) => s + p.confidence, 0) / picks.length
+    const avgTarget = picks.reduce((s, p) => s + p.target, 0) / picks.length
+    const avgEntry = picks.reduce((s, p) => s + p.entry, 0) / picks.length
+    if (avgEntry === 0) continue
+    const movePct = Math.abs((avgTarget - avgEntry) / avgEntry * 100)
+    const score = avgConf * movePct
+    const candidate = {
+      ticker, direction,
+      avg_confidence: Math.round(avgConf * 10000) / 10000,
+      avg_target: Math.round(avgTarget * 100) / 100,
+      avg_entry: Math.round(avgEntry * 100) / 100,
+      expected_move_pct: Math.round(movePct * 100) / 100,
+      score: Math.round(score * 10000) / 10000,
+      models: picks.map(p => p.model),
+      model_count: picks.length,
+      high_conviction: avgConf >= 0.85,
+    }
+    if (!best || candidate.score > best.score) best = candidate
+  }
+  return best
+}
+
+function resolveWinner(todaysWinner, predictions) {
+  if (todaysWinner?.winner) return todaysWinner.winner
+  if (Object.keys(predictions).length > 0) return computeWinner(predictions)
+  return null
+}
 
 export default function Home() {
   const [leaderboard, setLeaderboard] = useState(null)
   const [predictions, setPredictions] = useState({})
   const [scores, setScores] = useState(null)
   const [dailySummary, setDailySummary] = useState(null)
+  const [todaysWinner, setTodaysWinner] = useState(null)
   const [loading, setLoading] = useState(true)
   const [horizontal, setHorizontal] = useState(() => {
     try { return localStorage.getItem('layout') === 'horizontal' } catch { return false }
@@ -21,14 +70,16 @@ export default function Home() {
   useEffect(() => {
     async function load() {
       try {
-        const [lb, sc, ds] = await Promise.all([
+        const [lb, sc, ds, tw] = await Promise.all([
           loadLeaderboard(),
           loadScores(today).catch(() => null),
           loadDailySummary(today).catch(() => null),
+          loadTodaysWinner().catch(() => null),
         ])
         setLeaderboard(lb)
         setScores(sc)
         setDailySummary(ds)
+        setTodaysWinner(tw)
 
         const predsMap = {}
         await Promise.all(
@@ -69,6 +120,9 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* Today's Winner */}
+      <TodaysWinner winner={resolveWinner(todaysWinner, predictions)} />
 
       {/* Layout toggle */}
       {(() => {

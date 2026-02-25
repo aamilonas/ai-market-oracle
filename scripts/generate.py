@@ -84,6 +84,22 @@ def run(date_str: str, model_filter: list[str] | None = None):
         log.error("All models failed — this is a problem")
         sys.exit(1)
 
+    # Select today's winner and open paper trade
+    try:
+        from winner import select_todays_winner, save_winner, load_simulator, save_simulator, open_trade, has_open_trade
+        winner = select_todays_winner(date_str)
+        save_winner(date_str, winner)
+        if winner and not has_open_trade(load_simulator()):
+            sim = load_simulator()
+            sim = open_trade(sim, winner, date_str)
+            save_simulator(sim)
+        elif winner:
+            log.info("Winner found but trade already open — skipping")
+        else:
+            log.info("No consensus winner today — no trade opened")
+    except Exception as e:
+        log.error(f"Winner/simulator error (non-fatal): {e}")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate AI market predictions")

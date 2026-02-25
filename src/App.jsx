@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import ModelPage from './pages/ModelPage'
 import Scoreboard from './pages/Scoreboard'
+import Simulator from './pages/Simulator'
 import Weekly from './pages/Weekly'
 import Methodology from './pages/Methodology'
 import About from './pages/About'
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/model/:name" element={<ModelPage />} />
           <Route path="/scoreboard" element={<Scoreboard />} />
+          <Route path="/simulator" element={<Simulator />} />
           <Route path="/weekly" element={<Weekly />} />
           <Route path="/methodology" element={<Methodology />} />
           <Route path="/about" element={<About />} />

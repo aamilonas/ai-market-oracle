@@ -250,6 +250,46 @@ def main():
     if score_data:
         update_leaderboard(score_data)
 
+        # Close open paper trade if one exists
+        try:
+            from winner import load_simulator, save_simulator, close_trade, has_open_trade
+            sim = load_simulator()
+            if has_open_trade(sim):
+                # Find the open trade's ticker and get its closing price
+                open_ticker = None
+                for trade in sim["trades"]:
+                    if trade["status"] == "OPEN":
+                        open_ticker = trade["ticker"]
+                        break
+
+                if open_ticker:
+                    # Look for closing price in score results
+                    closing_price = None
+                    for result in score_data.get("results", []):
+                        if result["ticker"] == open_ticker and result.get("actual_close") is not None:
+                            closing_price = result["actual_close"]
+                            break
+
+                    if closing_price is None:
+                        # Fallback: try to fetch directly
+                        try:
+                            from market_data import get_batch_closing_prices
+                            d = datetime.strptime(args.date, "%Y-%m-%d").date()
+                            prices = get_batch_closing_prices([open_ticker], d)
+                            closing_price = prices.get(open_ticker)
+                        except Exception as e:
+                            log.warning(f"Could not fetch closing price for {open_ticker}: {e}")
+
+                    if closing_price is not None:
+                        sim = close_trade(sim, closing_price)
+                        save_simulator(sim)
+                    else:
+                        log.warning(f"No closing price for {open_ticker} — trade stays open")
+            else:
+                log.info("No open trade to close")
+        except Exception as e:
+            log.error(f"Simulator close error (non-fatal): {e}")
+
 
 if __name__ == "__main__":
     main()

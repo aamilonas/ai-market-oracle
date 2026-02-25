@@ -53,6 +53,8 @@ jobs:
           mkdir -p public/data/scores
           cp -r data/scores public/data/ 2>/dev/null || true
           cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
+          cp data/simulator.json public/data/simulator.json 2>/dev/null || true
+          cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
 
       - name: Build frontend
         run: npm run build

@@ -32,6 +32,14 @@ export async function loadWeeklySummary(week) {
   return fetchJSON(`data/summaries/weekly/${week}.json`)
 }
 
+export async function loadSimulator() {
+  return fetchJSON('data/simulator.json')
+}
+
+export async function loadTodaysWinner() {
+  return fetchJSON('data/winner-today.json')
+}
+
 export function getTodayDate() {
   return new Date().toISOString().slice(0, 10)
 }
