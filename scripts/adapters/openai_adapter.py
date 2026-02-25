@@ -2,7 +2,8 @@
 
 import os
 import json
-from datetime import datetime
+import time
+from datetime import datetime, timezone
 
 from openai import OpenAI
 
@@ -60,7 +61,7 @@ class OpenAIAdapter:
             return None
 
         client = OpenAI(api_key=api_key)
-        now = datetime.utcnow().isoformat() + "Z"
+        now = datetime.now(timezone.utc).isoformat()
         date_compact = date_str.replace("-", "")
         user_msg = USER_TEMPLATE.format(date=date_str, now=now, date_compact=date_compact)
 
@@ -96,6 +97,9 @@ class OpenAIAdapter:
                     log.debug(f"Raw: {text[:500]}")
             except Exception as e:
                 log.error(f"GPT-4o attempt {attempt + 1} failed: {e}")
+
+            if attempt < 2:
+                time.sleep(2 ** attempt)
 
         log.error("GPT-4o: all 3 attempts failed")
         return None

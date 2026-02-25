@@ -8,7 +8,7 @@ Usage:
 
 import argparse
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -155,7 +155,7 @@ def score_date(date_str: str) -> Optional[dict]:
 
     score_data = {
         "date": date_str,
-        "scored_at": datetime.utcnow().isoformat() + "Z",
+        "scored_at": datetime.now(timezone.utc).isoformat(),
         "results": results,
     }
 
@@ -219,7 +219,7 @@ def update_leaderboard(score_data: dict):
         m["best_streak"] = max(m.get("best_streak", 0), m["current_streak"])
         m["worst_streak"] = min(m.get("worst_streak", 0), m["current_streak"])
 
-    lb["last_updated"] = datetime.utcnow().isoformat() + "Z"
+    lb["last_updated"] = datetime.now(timezone.utc).isoformat()
     save_json(LEADERBOARD_FILE, lb)
     sync_to_public(LEADERBOARD_FILE)
     log.info("Leaderboard updated")

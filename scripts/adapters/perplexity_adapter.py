@@ -2,6 +2,7 @@
 
 import os
 import json
+import time
 from openai import OpenAI  # Perplexity is OpenAI-compatible
 
 from utils import get_logger, extract_json_from_text
@@ -88,6 +89,9 @@ class PerplexityAdapter:
                     log.debug(f"Raw: {text[:500]}")
             except Exception as e:
                 log.error(f"Perplexity attempt {attempt + 1} failed: {e}")
+
+            if attempt < 2:
+                time.sleep(2 ** attempt)
 
         log.error("Perplexity: all 3 attempts failed")
         return None

@@ -1,24 +1,22 @@
-"""Model adapter package."""
+"""Model adapter package — resilient loading so one broken adapter doesn't block others."""
 
-from adapters.claude_adapter import ClaudeAdapter
-from adapters.perplexity_adapter import PerplexityAdapter
-from adapters.gemini_adapter import GeminiAdapter
-from adapters.openai_adapter import OpenAIAdapter
-from adapters.grok_adapter import GrokAdapter
+import logging
 
-ALL_ADAPTERS = [
-    ClaudeAdapter(),
-    PerplexityAdapter(),
-    GeminiAdapter(),
-    OpenAIAdapter(),
-    GrokAdapter(),
-]
+log = logging.getLogger("adapters")
 
-__all__ = [
-    "ClaudeAdapter",
-    "PerplexityAdapter",
-    "GeminiAdapter",
-    "OpenAIAdapter",
-    "GrokAdapter",
-    "ALL_ADAPTERS",
-]
+ALL_ADAPTERS = []
+
+def _try_import(name, module_path, class_name):
+    try:
+        import importlib
+        mod = importlib.import_module(module_path)
+        cls = getattr(mod, class_name)
+        ALL_ADAPTERS.append(cls())
+    except Exception as e:
+        log.warning(f"Could not load {name} adapter: {e}")
+
+_try_import("Claude", "adapters.claude_adapter", "ClaudeAdapter")
+_try_import("Perplexity", "adapters.perplexity_adapter", "PerplexityAdapter")
+_try_import("Gemini", "adapters.gemini_adapter", "GeminiAdapter")
+_try_import("OpenAI", "adapters.openai_adapter", "OpenAIAdapter")
+_try_import("Grok", "adapters.grok_adapter", "GrokAdapter")

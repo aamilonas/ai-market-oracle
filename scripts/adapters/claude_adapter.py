@@ -2,6 +2,7 @@
 
 import os
 import json
+import time
 from datetime import date
 
 import anthropic
@@ -105,6 +106,9 @@ class ClaudeAdapter:
 
             except Exception as e:
                 log.error(f"Claude attempt {attempt + 1} failed: {e}")
+
+            if attempt < 2:
+                time.sleep(2 ** attempt)
 
         log.error("Claude: all 3 attempts failed")
         return None

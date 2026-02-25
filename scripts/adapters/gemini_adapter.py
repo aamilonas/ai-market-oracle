@@ -1,11 +1,11 @@
-"""Google Gemini adapter with Google Search grounding."""
+"""Google Gemini adapter with Google Search grounding (new google-genai SDK)."""
 
 import os
-import json
-from datetime import datetime
+import time
+from datetime import datetime, timezone
 
-import google.generativeai as genai
-from google.generativeai import types
+from google import genai
+from google.genai import types
 
 from utils import get_logger, extract_json_from_text
 
@@ -62,8 +62,8 @@ class GeminiAdapter:
             log.error("GOOGLE_GEMINI_API_KEY not set")
             return None
 
-        genai.configure(api_key=api_key)
-        now = datetime.utcnow().isoformat() + "Z"
+        client = genai.Client(api_key=api_key)
+        now = datetime.now(timezone.utc).isoformat()
         date_compact = date_str.replace("-", "")
 
         prompt = PROMPT_TEMPLATE.format(
@@ -76,15 +76,15 @@ class GeminiAdapter:
         for attempt in range(3):
             try:
                 log.info(f"Gemini attempt {attempt + 1}...")
-                model = genai.GenerativeModel(
-                    model_name=MODEL_ID,
-                    tools=["google_search"],
-                )
-                response = model.generate_content(
-                    prompt,
-                    generation_config=genai.GenerationConfig(
+                response = client.models.generate_content(
+                    model=MODEL_ID,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
                         temperature=0.2,
                         max_output_tokens=2048,
+                        tools=[
+                            types.Tool(google_search=types.GoogleSearch()),
+                        ],
                     ),
                 )
                 text = response.text or ""
@@ -99,6 +99,9 @@ class GeminiAdapter:
                     log.debug(f"Raw: {text[:500]}")
             except Exception as e:
                 log.error(f"Gemini attempt {attempt + 1} failed: {e}")
+
+            if attempt < 2:
+                time.sleep(2 ** attempt)
 
         log.error("Gemini: all 3 attempts failed")
         return None

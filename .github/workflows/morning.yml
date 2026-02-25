@@ -66,12 +66,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          DATE="${{ github.event.inputs.date }}"
-          if [ -z "$DATE" ]; then DATE="$(date +%Y-%m-%d)"; fi
-          python summarize.py --daily --date "$DATE"
-
-      - name: Build frontend
-        run: npm run build
+          DATE="${{ github.event.inputs.date || '' }}"
+          ARGS=""
+          if [ -n "$DATE" ]; then ARGS="--date $DATE"; fi
+          python summarize.py --daily $ARGS
 
       - name: Sync data to public (ensure latest)
         run: |
@@ -81,14 +79,16 @@ jobs:
           cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
           cp data/simulator.json public/data/simulator.json 2>/dev/null || true
           cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
-          npm run build
+
+      - name: Build frontend
+        run: npm run build
 
       - name: Commit and push
         run: |
           git config user.name "AI Market Oracle Bot"
           git config user.email "bot@ai-market-oracle.github.io"
-          git pull --rebase origin master
           git add data/ public/data/
+          git pull --rebase origin master
           git diff --staged --quiet || git commit -m "🤖 Morning predictions — $(date +%Y-%m-%d)"
           git push origin master
 

@@ -2,7 +2,8 @@
 
 import os
 import json
-from datetime import datetime
+import time
+from datetime import datetime, timezone
 
 from openai import OpenAI
 
@@ -65,7 +66,7 @@ class GrokAdapter:
             return None
 
         client = OpenAI(api_key=api_key, base_url=BASE_URL)
-        now = datetime.utcnow().isoformat() + "Z"
+        now = datetime.now(timezone.utc).isoformat()
         date_compact = date_str.replace("-", "")
         user_msg = USER_TEMPLATE.format(date=date_str, now=now, date_compact=date_compact)
 
@@ -93,6 +94,9 @@ class GrokAdapter:
                     log.debug(f"Raw: {text[:500]}")
             except Exception as e:
                 log.error(f"Grok attempt {attempt + 1} failed: {e}")
+
+            if attempt < 2:
+                time.sleep(2 ** attempt)
 
         log.error("Grok: all 3 attempts failed")
         return None

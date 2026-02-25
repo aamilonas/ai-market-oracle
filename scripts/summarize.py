@@ -10,7 +10,7 @@ Usage:
 import argparse
 import json
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -98,7 +98,7 @@ Here are all predictions made today with their outcomes:
 Write a daily summary in JSON with this exact structure:
 {{
   "date": "{date_str}",
-  "generated_at": "{datetime.utcnow().isoformat()}Z",
+  "generated_at": "{datetime.now(timezone.utc).isoformat()}",
   "headline": "A punchy 10-15 word headline summarizing the day",
   "summary": "2-3 sentence narrative summary of the day's predictions and outcomes",
   "consensus_picks": [
@@ -197,7 +197,7 @@ Write a weekly summary in JSON:
 {{
   "week": "{week_str}",
   "period": "{monday.strftime('%b %-d')} – {friday.strftime('%b %-d, %Y')}",
-  "generated_at": "{datetime.utcnow().isoformat()}Z",
+  "generated_at": "{datetime.now(timezone.utc).isoformat()}",
   "headline": "Punchy 10-15 word headline for the week",
   "summary": "2-4 sentence narrative of the week's highlights and story",
   "scores": [
