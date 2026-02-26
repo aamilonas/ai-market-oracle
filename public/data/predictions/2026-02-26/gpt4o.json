@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-26",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-02-26T14:32:54.798687+00:00",
+  "market_context": "U.S. stock futures are slightly higher this morning, indicating a positive start to the trading day. Investors are focused on the upcoming release of consumer confidence data and a speech from the Federal Reserve Chair. Notable pre-market movers include Tesla, which is up 2% after a positive earnings report, and Nvidia, which is down 1% following a downgrade by a major brokerage.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260226_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable consumer confidence data. Additionally, the market is optimistic about the Federal Reserve Chair's speech, which is expected to reinforce a stable economic outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260226_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 850.0,
+      "current_price_at_prediction": 835.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla's strong earnings report has boosted investor confidence, leading to a pre-market increase. The company's positive outlook and recent production milestones are likely to sustain upward momentum throughout the day."
+    },
+    {
+      "id": "pred_gpt4o_20260226_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia is facing downward pressure after a downgrade by a major brokerage, which cited concerns over valuation and potential slowing demand in the semiconductor sector. This negative sentiment is likely to weigh on the stock throughout the trading session."
+    }
+  ]
+}

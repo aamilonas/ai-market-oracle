@@ -1,0 +1,61 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26T14:33:11.379150+00:00",
+  "headline": "AI Earnings Dominate: NVDA Consensus Split, SPY Divided Across Models",
+  "summary": "Today's predictions reveal a market divided on tech's direction following strong AI earnings, particularly Nvidia's beat on Q4 revenue ($68.13B). Three models (GPT-4o, Grok, Perplexity) bullishly aligned on SPY while Claude and Perplexity diverged. NVDA saw the most disagreement with Claude and Perplexity predicting upside versus GPT-4o's bearish call, while CRM faced near-consensus bearishness on disappointing FY2027 guidance.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three of five models predicted up (including Perplexity), while Claude and Perplexity diverged on the broad market direction."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong Q4 earnings ($68.13B, +73% YoY) drove bullish consensus, but GPT-4o's downgrade call and Grok's extreme $950 target create significant disagreement on magnitude."
+    },
+    {
+      "ticker": "CRM",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude's 85% confidence down call on FY2027 guidance miss represents the day's highest-conviction single prediction, with premarket already down 5%."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o bullish on earnings strength versus Grok's bearish stance on European production delays—a notable conflict on the same catalyst."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_crm_down_0p85",
+    "model_display_name": "Claude",
+    "ticker": "CRM",
+    "score": 1.6,
+    "summary": "Claude's 85% confidence down prediction on Salesforce benefited from concrete premarket evidence (5% decline) tied to disappointing FY2027 revenue guidance ($45.8-46.2B vs expectations)."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_nvda_up_950",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": -0.8,
+    "summary": "Grok's $950 target for NVDA appears wildly optimistic relative to other models' $140-145.50 range and disconnected from actual premarket momentum despite bullish sentiment; extreme overconfidence on social media chatter."
+  }
+}

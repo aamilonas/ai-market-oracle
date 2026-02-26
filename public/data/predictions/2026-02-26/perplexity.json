@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-26",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-02-26T14:32:02Z",
+  "market_context": "US stock futures point to a lower open as investors digest mixed tech earnings, with Nvidia trading higher premarket after Q4 results amid ongoing AI disruption concerns, while Salesforce shares fell 3.5% on weak guidance.[1] Major indices rallied Wednesday (S&P 500 +0.81%, Nasdaq +1.41%, Dow +0.63%), but premarket futures are unchanged to slightly down ahead of US-Iran nuclear talks and economic data like jobless claims.[1][2][3] Treasury yields declined, oil edged higher, and gold held above $5,100 amid geopolitical focus.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260226_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 585.0,
+      "current_price_at_prediction": 587.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures indicate a lower open after Wednesday's +0.81% S&P 500 gain, with investor digestion of tech earnings like Nvidia's volatile post-Q4 trading and Salesforce's 3.5% drop on AI worries.[1][2] Geopolitical risks from US-Iran nuclear talks in Geneva add downward pressure, outweighing prior AI-infrastructure strength.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260226_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 512.0,
+      "current_price_at_prediction": 509.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nvidia traded higher premarket after Q4 earnings, supporting Nasdaq's prior +1.41% rise driven by AI chips and infrastructure, despite broader futures decline.[1][2] Salesforce weakness is isolated to software, while Nvidia's results ease some AI fears per headlines.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260226_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 145.5,
+      "current_price_at_prediction": 143.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia higher premarket post-Q4 earnings with Bloomberg-estimated $65.91B revenue, building on its support for Wednesday's Nasdaq gains amid AI processor demand optimism.[1][2] AI fears persist but Nvidia's 'huge numbers' provide counterbalance per headlines.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260226_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 435.0,
+      "current_price_at_prediction": 436.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures decline amid tech digestion and US-Iran talks risks, following Wednesday's +0.63% gain; tariff refund chaos and broader market caution weigh in.[1][3] Less tech exposure offers no buffer from futures pointing lower.[1]"
+    }
+  ]
+}

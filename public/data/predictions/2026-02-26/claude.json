@@ -1,0 +1,64 @@
+{
+  "date": "2026-02-26",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-02-26T09:15:00Z",
+  "market_context": "Markets are digesting mixed signals from Nvidia's strong Q4 earnings beat ($68.13B revenue, up 73%) but muted stock reaction, while Salesforce fell 5% premarket on weak FY2027 guidance. Initial jobless claims data expected at 8:30 AM may provide additional market direction.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260226_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 610.0,
+      "current_price_at_prediction": 616.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "QQQ closed at 616.68 yesterday but premarket shows Nasdaq futures down 0.03-0.05%. Despite Nvidia's earnings beat, the muted reaction suggests AI optimism is already priced in. Salesforce's weak guidance is weighing on software sector sentiment, which heavily impacts QQQ composition."
+    },
+    {
+      "id": "pred_claude_20260226_002",
+      "ticker": "CRM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 183.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Salesforce already down 5% premarket after issuing FY2027 revenue guidance of $45.8-46.2B vs analyst expectations of higher figures. Trading at $183.01 with high volume (21.86M vs 14.49M avg). Weak enterprise software sentiment likely to persist through trading session."
+    },
+    {
+      "id": "pred_claude_20260226_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 140.0,
+      "current_price_at_prediction": 138.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Despite muted after-hours reaction, NVDA beat on all metrics with Q4 revenue of $68.13B (+73% YoY) and strong Q1 guidance of $76-79B vs $72.8B consensus. Morgan Stanley called it 'largest cleanest beat in semis history.' Underlying AI demand fundamentals remain strong despite current market caution."
+    },
+    {
+      "id": "pred_claude_20260226_004",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 690.0,
+      "current_price_at_prediction": 694.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 futures down 0.1-0.19% premarket despite yesterday's 0.81% gain to 6948. Mixed earnings reactions from mega-cap stocks and upcoming jobless claims data at 8:30 AM (expected 217K vs 206K prior) could add volatility. Market sitting near all-time highs appears vulnerable to profit-taking."
+    },
+    {
+      "id": "pred_claude_20260226_005",
+      "ticker": "DELL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 122.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Dell reports earnings after market close today with analysts expecting continued AI server demand boost. Given Nvidia's strong guidance suggesting robust enterprise AI spending, Dell could benefit as infrastructure provider. However, confidence tempered by broader tech sector mixed sentiment and high expectations already built in."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-26",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-02-26T14:33:03.756667+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cut signals from the Fed and positive earnings surprises. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech stocks like NVDA on AI hype. Major news includes a pending Fed speech at 11 AM ET that could sway markets.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260226_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures (+0.3%) and bullish sentiment on X/Twitter regarding Fed policy suggest upward momentum. A Fed speech at 11 AM ET could reinforce dovish expectations, supporting a modest gain. Data sourced from real-time futures on Bloomberg and X sentiment analysis."
+    },
+    {
+      "id": "pred_grok_20260226_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 935.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing strong pre-market gains (+1.2%) and heavy positive chatter on X about AI sector growth. Options flow data from web sources like Unusual Whales shows significant call buying for this week. This supports a bullish outlook for today."
+    },
+    {
+      "id": "pred_grok_20260226_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 390.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with concerns over recent production delays in Europe, as reported by Reuters. Short interest data from web sources indicates a slight uptick, suggesting bearish pressure. Confidence is lower due to potential for intraday reversal."
+    }
+  ]
+}
