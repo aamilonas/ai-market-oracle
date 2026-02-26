@@ -1,6 +1,7 @@
 """Google Gemini adapter with Google Search grounding (new google-genai SDK)."""
 
 import os
+import re
 import time
 from datetime import datetime, timezone
 
@@ -51,6 +52,15 @@ Respond with ONLY valid JSON — no markdown fences, no extra text:
 }}"""
 
 
+def _clean_grounding_artifacts(text):
+    """Strip Google Search grounding citations/markdown that corrupt JSON."""
+    # Remove markdown links: [text](url) → text
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+    # Remove bare citation markers: [1], [2], etc.
+    text = re.sub(r'\[\d+\]', '', text)
+    return text"""
+
+
 class GeminiAdapter:
     model_id = MODEL_ID
     model_display_name = DISPLAY_NAME
@@ -88,7 +98,9 @@ class GeminiAdapter:
                     ),
                 )
                 text = response.text or ""
-                data = extract_json_from_text(text)
+                # Grounding can inject markdown links/citations — strip them
+                cleaned = _clean_grounding_artifacts(text)
+                data = extract_json_from_text(cleaned)
                 if data:
                     data["model"] = MODEL_ID
                     data["model_display_name"] = DISPLAY_NAME
@@ -96,7 +108,7 @@ class GeminiAdapter:
                     return data
                 else:
                     log.warning(f"Gemini attempt {attempt + 1}: could not parse JSON")
-                    log.debug(f"Raw: {text[:500]}")
+                    log.info(f"Raw (first 500 chars): {text[:500]}")
             except Exception as e:
                 log.error(f"Gemini attempt {attempt + 1} failed: {e}")
 

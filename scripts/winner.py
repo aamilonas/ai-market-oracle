@@ -23,7 +23,7 @@ from utils import (
 log = get_logger("winner")
 
 EXCLUDED_TICKERS = {"SPY", "QQQ", "DIA", "VIX", "IWM"}
-MIN_MODELS_AGREEING = 4
+MIN_MODELS_AGREEING = 3
 SIMULATOR_FILE = DATA_DIR / "simulator.json"
 WINNER_FILE = DATA_DIR / "winner-today.json"
 
@@ -116,7 +116,7 @@ def select_todays_winner(date_str):
         })
 
     if not candidates:
-        log.info(f"No consensus winner for {date_str} (no ticker with {MIN_MODELS_AGREEING}+ models agreeing)")
+        log.info(f"No consensus winner for {date_str} (no ticker with 3+ models agreeing)")
         return None
 
     # Return highest-scoring candidate

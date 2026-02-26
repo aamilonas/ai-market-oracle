@@ -8,7 +8,7 @@ export default function TodaysWinner({ winner }) {
       <div className={styles.card}>
         <span className={styles.label}>TODAY'S WINNER</span>
         <p className={styles.noConsensus}>No Consensus Today</p>
-        <p className={styles.noConsensusSub}>Fewer than 4 models agreed on any single stock pick.</p>
+        <p className={styles.noConsensusSub}>Fewer than 3 models agreed on any single stock pick.</p>
       </div>
     )
   }

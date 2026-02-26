@@ -24,7 +24,7 @@ function computeWinner(predictionsMap) {
   }
   let best = null
   for (const [key, picks] of Object.entries(groups)) {
-    if (picks.length < 4) continue
+    if (picks.length < 3) continue
     const [ticker, direction] = key.split('|')
     const avgConf = picks.reduce((s, p) => s + p.confidence, 0) / picks.length
     const avgTarget = picks.reduce((s, p) => s + p.target, 0) / picks.length
