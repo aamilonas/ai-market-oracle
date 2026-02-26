@@ -64,7 +64,8 @@ jobs:
           git config user.name "AI Market Oracle Bot"
           git config user.email "bot@ai-market-oracle.github.io"
           git add data/ public/data/
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "📋 Weekly report — $(date +%Y-%m-%d)"
           git pull --rebase origin master
-          git diff --staged --quiet || git commit -m "📋 Weekly report — $(date +%Y-%m-%d)"
           git push origin master
 
