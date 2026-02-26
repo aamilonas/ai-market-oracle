@@ -1,4 +1,57 @@
 {
-  "last_updated": null,
-  "models": []
+  "last_updated": "2026-02-26T22:52:34.736797+00:00",
+  "models": [
+    {
+      "model_id": "grok-3",
+      "model_display_name": "Grok",
+      "total_predictions": 3,
+      "correct_directions": 1,
+      "direction_accuracy": 0.3333,
+      "total_score": -0.6,
+      "avg_confidence": 0.0,
+      "current_streak": -2,
+      "best_streak": 1,
+      "worst_streak": -2,
+      "weekly_scores": []
+    },
+    {
+      "model_id": "sonar-pro",
+      "model_display_name": "Perplexity",
+      "total_predictions": 4,
+      "correct_directions": 2,
+      "direction_accuracy": 0.5,
+      "total_score": 0.21,
+      "avg_confidence": 0.0,
+      "current_streak": -1,
+      "best_streak": 2,
+      "worst_streak": -1,
+      "weekly_scores": []
+    },
+    {
+      "model_id": "claude-sonnet-4-20250514",
+      "model_display_name": "Claude",
+      "total_predictions": 5,
+      "correct_directions": 3,
+      "direction_accuracy": 0.6,
+      "total_score": 1.62,
+      "avg_confidence": 0.0,
+      "current_streak": -1,
+      "best_streak": 2,
+      "worst_streak": -1,
+      "weekly_scores": []
+    },
+    {
+      "model_id": "gpt-4o",
+      "model_display_name": "GPT-4o",
+      "total_predictions": 3,
+      "correct_directions": 2,
+      "direction_accuracy": 0.6667,
+      "total_score": 0.55,
+      "avg_confidence": 0.0,
+      "current_streak": 1,
+      "best_streak": 1,
+      "worst_streak": -1,
+      "weekly_scores": []
+    }
+  ]
 }
