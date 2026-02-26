@@ -4,7 +4,7 @@
 
 An automated website that asks five AI models (each with internet access) to make specific, falsifiable stock market predictions every weekday morning before market open. Predictions are scored against real market data after close. A public leaderboard shows which AI is the best market forecaster over time.
 
-**Live site:** [https://yourusername.github.io/ai-market-oracle/](https://yourusername.github.io/ai-market-oracle/)
+**Live site:** [https://aamilonas.github.io/ai-market-oracle/](https://aamilonas.github.io/ai-market-oracle/)
 
 ---
 
