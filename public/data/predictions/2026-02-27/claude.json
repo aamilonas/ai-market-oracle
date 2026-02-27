@@ -1,0 +1,64 @@
+{
+  "date": "2026-02-27",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-02-27T09:00:00Z",
+  "market_context": "Markets face mixed signals with SPY futures down 0.2%, QQQ futures down 0.3%, and DIA futures down 0.4% in premarket trading. Tech selloff continues following Nvidia's earnings disappointment despite beating estimates, while AI concerns and geopolitical tensions weigh on sentiment as February concludes.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260227_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 685.5,
+      "current_price_at_prediction": 689.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "SPY futures down 0.2% premarket with technical resistance at 6,900 S&P level mentioned as critical support. Bearish MACD histogram and elevated P/E at 27.76 increase vulnerability to continued selling pressure from tech sector weakness."
+    },
+    {
+      "id": "pred_claude_20260227_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 605.0,
+      "current_price_at_prediction": 608.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "QQQ futures down 0.3% with tech sector facing 'sell the news' reaction post-Nvidia earnings. Weekly breakdown below 20WMA target mentioned, and semiconductor space showing continued weakness despite AI infrastructure demand."
+    },
+    {
+      "id": "pred_claude_20260227_003",
+      "ticker": "CRM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 385.0,
+      "current_price_at_prediction": 370.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Salesforce jumped 4% after earnings beat with $3.81 EPS vs consensus, announcing $50B share buyback and strong demand for agentic AI products. Positive momentum should continue despite broader tech weakness."
+    },
+    {
+      "id": "pred_claude_20260227_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 195.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Despite beating estimates with $1.62 EPS vs $1.53 expected and $68.13B revenue, NVDA fell 5% as market is in 'prove it' mode. Psychological resistance at $200 level and concerns over sustainability of AI rally create downside pressure."
+    },
+    {
+      "id": "pred_claude_20260227_005",
+      "ticker": "DELL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 128.0,
+      "current_price_at_prediction": 120.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dell expected to report after close with analysts projecting strong AI server demand driving results. Revenue estimate of $31.68B and EPS of $3.53 vs $2.68 prior suggests significant AI infrastructure tailwinds despite broader tech selloff."
+    }
+  ]
+}

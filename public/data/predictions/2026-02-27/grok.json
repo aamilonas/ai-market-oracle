@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-27",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-02-27T14:10:08.007354+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate cut signals and strong tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include a 4% pre-market gain for a major tech stock. Major news today includes a key inflation data release expected at 10:00 AM ET, which could sway market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260227_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum, supported by optimistic X/Twitter chatter about potential Fed easing. However, the upcoming inflation data release introduces some uncertainty, tempering confidence."
+    },
+    {
+      "id": "pred_grok_20260227_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is seeing positive sentiment on X/Twitter following rumors of a new product launch, with several high-follower accounts amplifying the buzz. Options flow data from web sources indicates heavy call buying at the $230 strike for this week, suggesting bullish expectations."
+    },
+    {
+      "id": "pred_grok_20260227_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 415.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Negative sentiment on X/Twitter is growing due to reports of production delays at Tesla, with some users citing unverified sources. Web searches show increased short interest data over the past week, though the impact of broader market trends could offset this bearish signal."
+    },
+    {
+      "id": "pred_grok_20260227_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 150.0,
+      "current_price_at_prediction": 147.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia is a notable pre-market mover, up 4% based on web-reported strong quarterly earnings released yesterday. X/Twitter sentiment is overwhelmingly bullish with hashtags trending around AI growth, supporting a likely continuation of upward movement today."
+    }
+  ]
+}

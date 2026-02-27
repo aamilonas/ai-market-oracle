@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-27",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-02-27T14:10:00.300066+00:00",
+  "market_context": "US stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data, including the US consumer confidence index and new home sales, are set to be released today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260227_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment from pre-market futures and anticipated favorable economic data releases, such as consumer confidence and new home sales, are likely to boost investor confidence and drive SPY higher."
+    },
+    {
+      "id": "pred_gpt4o_20260227_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is expected to benefit from recent positive analyst upgrades and strong demand for its latest product lineup, which could lead to increased investor interest and a higher stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260227_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 715.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla faces potential headwinds from recent regulatory scrutiny in key markets and concerns over production delays, which could weigh on investor sentiment and lead to a decline in its stock price."
+    }
+  ]
+}

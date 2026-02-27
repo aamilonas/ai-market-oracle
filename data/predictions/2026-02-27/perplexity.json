@@ -1,0 +1,64 @@
+{
+  "date": "2026-02-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-02-27T14:09:53Z",
+  "market_context": "US stock futures are sliding lower on February 27, 2026, with S&P 500 futures down 0.2-0.35%, Nasdaq 100 futures down 0.30%, and Dow futures down 0.50%, primarily due to Nvidia's 5-5.5% after-hours drop despite strong earnings, raising tech valuation concerns.[1][3][5] Netflix shares rallied 9-11% in after-hours after dropping its bid for Warner Bros. Discovery, seen as financially prudent, while pre-market movers like Accenture (+8.29%) and TKO Group (+8.01%) show selective strength.[1][3][4] Mixed signals include lower mortgage rates at 5.98% and improving Kansas Fed Manufacturing Index at 10, amid broader caution from macroeconomic risks and VIX spike.[3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260227_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 575.0,
+      "current_price_at_prediction": 577.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 futures are down 0.2-0.35% amid Nvidia's 5.5% plunge post-earnings, dragging tech-heavy indexes with Nasdaq futures off 0.30%.[1][3][5] Broader risk pullback and VIX spike suggest continued pressure, outweighing mixed positives like lower mortgage rates.[3][4] Assumes ~0.4% decline from recent levels."
+    },
+    {
+      "id": "pred_perplexity_20260227_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 487.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq 100 futures down 0.30% following Nvidia's sharp drop and tech sector weakness, with Microsoft and Salesforce also declining in extended trading.[1][5] AI valuation skepticism post-earnings weighs heavily on QQQ's tech composition.[1] Projects modest further downside to align with futures momentum."
+    },
+    {
+      "id": "pred_perplexity_20260227_003",
+      "ticker": "NFLX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 660.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Netflix surged 9-11% in after-hours after withdrawing from Warner Bros. bidding war, viewed as strategic relief with potential $28B fee and share repurchases resuming.[1][4] Oversold RSI signals rebound potential despite margin pressures.[1] Strong catalyst likely sustains gains against broader market weakness."
+    },
+    {
+      "id": "pred_perplexity_20260227_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 142.0,
+      "current_price_at_prediction": 149.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nvidia dropped over 5% after-hours despite record profits, due to investor skepticism on AI infrastructure sustaining growth amid high valuations.[1] Contributed to Nasdaq futures decline of 0.30% and broader tech pullback.[1][5] Sell-the-news reaction may extend into regular session."
+    },
+    {
+      "id": "pred_perplexity_20260227_005",
+      "ticker": "ACN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 385.0,
+      "current_price_at_prediction": 365.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Accenture up 8.29% pre-market on multi-year AI collaboration with Mistral AI, providing positive counter to tech sector woes.[3] Earnings-driven momentum in AI services could persist amid sector rotation away from chips.[1][3]"
+    }
+  ]
+}

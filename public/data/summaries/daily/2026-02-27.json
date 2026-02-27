@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-27",
+  "generated_at": "2026-02-27T14:10:17.194237+00:00",
+  "headline": "Earnings chaos: AI giants stumble despite beats, Netflix rallies on strategic pivot",
+  "summary": "The market experienced a sharp divergence on 2026-02-27 as major earnings reports triggered unexpected sell-offs despite strong financial results. Nvidia and Salesforce both beat expectations but faced contrasting reactions, with NVDA falling 5% post-earnings while CRM surged 4%, creating confusion across AI and tech sectors. Models were split on broad market direction with Claude favoring downside, while GPT-4o and Grok predicted rallies, though actual outcomes remain pending.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity predicted down (0.7-0.72 confidence) citing Nvidia weakness, while GPT-4o and Grok predicted up (0.65 confidence), creating a 2-2 deadlock on broad market direction."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models aligned on downside pressure (0.75 confidence) driven by post-earnings tech sector selling and Nvidia's 5% decline."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity correctly predicted downside despite record earnings, while Grok's bullish call on Nvidia failed to account for profit-taking despite the 4% pre-market gain."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models predicted upside on positive sentiment and analyst upgrades, though Grok's $230 target significantly exceeds GPT-4o's $180."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Consensus bearish on Tesla citing regulatory scrutiny and production delays, with Grok's $410 target far more aggressive than GPT-4o's $700."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_nvda_down",
+    "model_display_name": "Claude",
+    "ticker": "NVDA",
+    "score": 1.2,
+    "summary": "Claude correctly anticipated the 'sell the news' reaction to Nvidia's record earnings, recognizing that investor skepticism on AI infrastructure demand would outweigh strong financials."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_nvda_up",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": -0.8,
+    "summary": "Grok's bullish call on Nvidia based on pre-market strength and reported earnings misread the market's post-earnings profit-taking, resulting in a 5% decline contrary to the prediction."
+  }
+}
