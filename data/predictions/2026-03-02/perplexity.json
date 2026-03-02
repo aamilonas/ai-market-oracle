@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-02T14:13:22Z",
+  "market_context": "U.S.-Israel military strikes on Iran have escalated into a third day, causing significant market turbulence. S&P 500 futures fell 1.1% and Nasdaq futures dropped 1.6% in premarket trading, while Brent crude surged nearly 9% to $79.31/barrel—its highest in over a year. Oil tanker traffic through the Strait of Hormuz has nearly halted due to supply chain concerns, with roughly 20% of global oil supply at risk.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260302_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures were down 1.1% in premarket trading as of market open. Geopolitical escalation with Iran, combined with elevated inflation data (2.9% wholesale vs. 1.6% expected), creates sustained downward pressure. Defense and energy stocks may provide some offset, but broad market weakness is likely to persist through the session."
+    },
+    {
+      "id": "pred_perplexity_20260302_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq futures fell 1.6% in premarket—steeper than the S&P 500—indicating tech sector vulnerability. Rising oil prices and inflation concerns typically pressure growth stocks more severely than value stocks. The 10-year yield movement and flight-to-safety dynamics favor bonds over equities."
+    },
+    {
+      "id": "pred_perplexity_20260302_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow Jones futures declined 1.1% in premarket. While defense contractors and energy companies (components of the Dow) may see gains, the broad industrial sector faces headwinds from potential supply chain disruptions and higher energy costs. The net effect is likely negative for the index."
+    },
+    {
+      "id": "pred_perplexity_20260302_004",
+      "ticker": "CL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "WTI crude opened nearly 13% higher and Brent crude jumped 9% to $79.31/barrel. Oil tanker traffic through the Strait of Hormuz has halted, and analysts warn even a few days of disruption would cause significant supply shortages. Continued geopolitical escalation supports further upside through the trading day."
+    },
+    {
+      "id": "pred_perplexity_20260302_005",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Gold surged more than 2% as a safe-haven asset amid geopolitical uncertainty and inflation concerns. The combination of military escalation, supply chain risks, and higher-than-expected inflation data typically sustains gold demand. Flight-to-safety dynamics should continue supporting prices through market close."
+    }
+  ]
+}

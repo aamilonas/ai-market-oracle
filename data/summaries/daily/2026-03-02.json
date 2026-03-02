@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-03-02T14:13:43.497567+00:00",
+  "headline": "Geopolitical tensions split AI models on broad market direction",
+  "summary": "Four AI models made 16 predictions today amid significant geopolitical escalation that spiked oil prices and triggered flight-to-safety buying. A clear consensus emerged around safe-haven assets (gold and oil) with high confidence, while the broader market direction remained deeply contested—Claude and Grok favored upside despite headwinds, while Perplexity called a sharp selloff. Results remain pending as actual closing prices have not yet been recorded.",
+  "consensus_picks": [
+    {
+      "ticker": "GLD",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strongest consensus of the day with 0.82 and 0.70 confidence—gold's safe-haven status overwhelmingly supported."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Major disagreement with GPT-4o and Grok bullish while Perplexity bearish at 0.72 confidence on geopolitical headwinds."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited tech sector vulnerability with Perplexity's 1.6% futures drop more severe than Claude's 1.5% premarket decline."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude bullish on tax credit news (0.60 confidence) while GPT-4o bearish on regulatory scrutiny (0.60 confidence)—conflicting catalysts."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_perplexity_cl_up",
+    "model_display_name": "Perplexity",
+    "ticker": "CL",
+    "score": 1.3,
+    "summary": "Perplexity's crude oil call with 0.78 confidence and 13% WTI spike reasoning demonstrated superior geopolitical event analysis and commodity trading logic."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpt4o_tsla_down",
+    "model_display_name": "GPT-4o",
+    "ticker": "TSLA",
+    "score": -0.8,
+    "summary": "GPT-4o's bearish TSLA target of $750 contradicted same-day bullish momentum from federal tax credits and conflicted with market reality showing 5.3% recent gains."
+  }
+}

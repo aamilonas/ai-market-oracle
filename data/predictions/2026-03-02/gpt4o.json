@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-02",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-02T14:13:29.857477+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data today includes the ISM Manufacturing Index and construction spending figures.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260302_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment from pre-market futures and expectations of favorable economic data, such as the ISM Manufacturing Index, suggest a potential upward movement for SPY. Additionally, recent earnings reports from major companies have been better than expected, providing further support."
+    },
+    {
+      "id": "pred_gpt4o_20260302_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's recent product launch has been well-received, and the company reported strong quarterly earnings. Positive analyst upgrades and increased demand for its new devices are likely to drive the stock higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260302_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 750.0,
+      "current_price_at_prediction": 765.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is facing regulatory scrutiny over its autonomous driving software, which could weigh on investor sentiment. Additionally, recent supply chain issues have raised concerns about production targets, potentially leading to a decline in stock price."
+    }
+  ]
+}

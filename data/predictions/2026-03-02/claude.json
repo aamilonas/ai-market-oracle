@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-02",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-02T14:30:00Z",
+  "market_context": "Markets face significant downward pressure as U.S.-Israel strikes on Iran over the weekend triggered major geopolitical tensions. Futures are down 1-1.3% in pre-market, oil spiked to $75, gold jumped 3%, and the VIX surged to 2026 highs. However, tech stocks like NVIDIA showed resilience last week despite broader market volatility.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260302_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 588.5,
+      "current_price_at_prediction": 599.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "QQQ faces significant pressure from geopolitical tensions and is down 1.5% in pre-market trading. The Middle East conflict creates uncertainty that typically hurts growth stocks more than defensive names. Despite NVIDIA's recent strength as the world's most valuable company, broader tech weakness should drag the index lower."
+    },
+    {
+      "id": "pred_claude_20260302_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 177.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Despite broader market weakness, NVIDIA recently became the world's most valuable company with $3.3T market cap. AI demand remains strong and the stock has shown resilience during market volatility. Geopolitical tensions may actually boost demand for AI-powered defense systems, benefiting NVIDIA's specialized chips."
+    },
+    {
+      "id": "pred_claude_20260302_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.5,
+      "current_price_at_prediction": 89.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Energy sector should benefit significantly from Middle East tensions as oil prices spiked to $75 and Saudi refinery was reportedly hit. Strait of Hormuz shipping disruptions and potential supply chain issues create strong tailwinds for energy companies. This is a classic geopolitical trade."
+    },
+    {
+      "id": "pred_claude_20260302_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 248.0,
+      "current_price_at_prediction": 241.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Gold futures jumped 3% and spot gold rose 2.46% as investors pile into safe-haven assets. With VIX at 2026 highs and ongoing Middle East tensions, precious metals should continue attracting flight-to-quality flows. Gold reached near $5,400/oz levels overnight, supporting the GLD ETF."
+    },
+    {
+      "id": "pred_claude_20260302_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 235.0,
+      "current_price_at_prediction": 223.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla jumped 5.3% recently after news that Model 3 Long Range qualifies for full $7,500 federal tax credit. This removes a significant purchase barrier and should boost demand. While geopolitical tensions create headwinds, the tax credit news provides a fundamental catalyst that may outweigh broader market concerns."
+    }
+  ]
+}
