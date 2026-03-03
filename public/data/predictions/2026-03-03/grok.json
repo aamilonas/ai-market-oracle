@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-03",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-03T14:11:52.017978+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside due to expected tech sector earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like AAPL and NVDA showing pre-market gains.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260303_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment on X/Twitter regarding tech earnings is driving optimism for broader market indices. Pre-market futures for S&P 500 are up 0.3% as reported by Bloomberg data accessed via web search. However, uncertainty remains due to potential geopolitical news later today."
+    },
+    {
+      "id": "pred_grok_20260303_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is showing strong pre-market gains of 1.2% based on Yahoo Finance data accessed via web search. X/Twitter sentiment is bullish with high mention volume around AI sector growth. Options flow indicates heavy call buying for March expirations."
+    },
+    {
+      "id": "pred_grok_20260303_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 225.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AAPL is up 0.8% in pre-market trading per web search on MarketWatch. Positive buzz on X/Twitter around a rumored product launch event is contributing to upside sentiment. Confidence is tempered by lack of official confirmation of the event."
+    }
+  ]
+}

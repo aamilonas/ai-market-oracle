@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-03",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-03T14:11:35Z",
+  "market_context": "US stock futures are declining sharply due to escalating Iran conflict tensions and rising Treasury yields near 4.04%, with E-mini S&P 500 down 1.5%, Nasdaq 100 futures off nearly 2%, and Russell 2000 futures lower by 2.6%[1][2]. Pre-market movers include gains in Venture Global (VG) up 17.44% on strong earnings and LNG deal, Coherent (COHR) up 15.44% on analyst upgrades, while losers like Estée Lauder (EL) down 8.48% and Elevance Health (ELV) down 8.10% on leadership changes weigh on sentiment[2]. Key earnings today from AutoZone (AZO), Sea (SE), Ross Stores (ROST), and CrowdStrike (CRWD) after close could influence sector rotations amid higher-for-longer rate pressures[2].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260303_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures are down 1.5% amid Iran conflict escalation and 10-year Treasury yield at 4.04%, signaling broad market pressure on growth stocks[1][2]. Elevated yields from Middle East tensions and inflation worries are likely to persist, driving end-of-day declines in SPY[2]. Upcoming earnings may not offset macro headwinds today."
+    },
+    {
+      "id": "pred_perplexity_20260303_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq 100 futures are off nearly 2%, more than S&P, as higher yields hit growth-focused tech harder amid renewed inflation fears tied to energy costs[2]. Geopolitical risks from Iran are amplifying risk-off sentiment in tech-heavy QQQ[1]. CrowdStrike and Broadcom earnings loom but pre-market tone suggests downside continuation."
+    },
+    {
+      "id": "pred_perplexity_20260303_003",
+      "ticker": "VG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Venture Global jumped 17.44% pre-market on strong Q4/full-year earnings and a new long-term LNG deal, providing momentum amid energy cost worries from Middle East tensions[2]. LNG export focus positions it resilient to broader market slide[2]. Gains likely hold through close absent negative catalysts."
+    },
+    {
+      "id": "pred_perplexity_20260303_004",
+      "ticker": "ELV",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Elevance Health slipped 8.10% pre-market following an executive leadership transition and advisor role update, eroding investor confidence in healthcare sector[2]. Broader futures weakness adds downward pressure without countering news[1][2]. Decline probable at end-of-day."
+    }
+  ]
+}

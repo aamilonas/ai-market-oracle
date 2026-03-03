@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-03",
+  "generated_at": "2026-03-03T14:12:05.499485+00:00",
+  "headline": "Market split on geopolitical tensions: bearish Claude vs bullish tech optimists",
+  "summary": "Five AI models made 15 predictions on 2026-03-03 amid Iran conflict escalation and mixed market signals. Claude took a cautious stance with down calls on QQQ and SPY, while GPT-4o, Grok, and Perplexity showed conflicting directional views on the same indices. Results remain pending as actual closing prices are not yet available for evaluation.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Remarkable four-way split with Claude and Perplexity bearish (down 1.66-1.5%) while GPT-4o and Grok bullish on sentiment, reflecting genuine market uncertainty."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models agreed QQQ would decline 2-2.17% due to growth tech pressure from rising yields and geopolitical risk."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both bullish on Apple with targets of $180-$230 based on pre-market strength and analyst upgrades."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_xom_claude_up",
+    "model_display_name": "Claude",
+    "ticker": "XOM",
+    "score": 0.82,
+    "summary": "Highest confidence call (0.82) leveraging clear macro catalyst of 5% oil surge to $75/barrel from Iran conflict and Strait of Hormuz closure threats."
+  },
+  "worst_call": {
+    "prediction_id": "pred_spy_gpt4o_up",
+    "model_display_name": "GPT-4o",
+    "ticker": "SPY",
+    "score": -0.15,
+    "summary": "Bullish call on SPY at 600 target contradicts prevailing market headwinds and conflicts with three other models' bearish assessments amid geopolitical escalation."
+  }
+}

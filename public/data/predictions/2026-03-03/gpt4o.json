@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-03",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-03T14:11:43.101292+00:00",
+  "market_context": "U.S. stock futures are pointing to a slightly positive open following a mixed overnight session in Asia and Europe. Investors are focused on today's economic data releases, including the ISM Non-Manufacturing PMI and factory orders, which could provide insights into economic health. Notable pre-market movers include Tesla and Apple, both showing slight gains.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260303_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable economic data releases. The ISM Non-Manufacturing PMI is expected to show growth, which typically supports market gains. Additionally, strong performance in tech stocks like Apple could provide further upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260303_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is showing pre-market strength due to positive analyst upgrades and strong sales data from its latest product line. The tech sector is generally performing well, which could lead to further gains for AAPL."
+    },
+    {
+      "id": "pred_gpt4o_20260303_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 250.0,
+      "current_price_at_prediction": 245.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is gaining in pre-market trading following news of increased production targets and a positive outlook from a major investment bank. The broader market's positive sentiment could also support TSLA's upward movement."
+    }
+  ]
+}

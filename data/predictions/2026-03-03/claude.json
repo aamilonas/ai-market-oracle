@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-03",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-03T09:15:00Z",
+  "market_context": "Markets are under severe pressure from the escalating U.S.-Iran conflict, with futures down sharply (S&P -1.4%, Nasdaq -2.17%, Dow -1.45%) and oil spiking to $75. The VIX has jumped over 10% as investors flee to safe havens like gold ($5,270). Major earnings from Target, CrowdStrike, and others today provide potential volatility.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260303_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 595.0,
+      "current_price_at_prediction": 604.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "QQQ futures are down 2.17% premarket with tech under pressure from geopolitical tensions and AI fears. Current overnight price of 604.22 shows weakness, and historical patterns during geopolitical crises suggest continued selling pressure."
+    },
+    {
+      "id": "pred_claude_20260303_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 675.0,
+      "current_price_at_prediction": 686.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures down 1.66% on Iran conflict escalation with oil prices spiking. March 2nd close at 686.71 shows vulnerability as markets typically decline 2-4% during early stages of Middle East conflicts before finding support."
+    },
+    {
+      "id": "pred_claude_20260303_003",
+      "ticker": "CRWD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 305.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "CrowdStrike earnings after hours with EPS estimate of $1.10 vs $1.03 prior year. Despite being down 3% premarket, cybersecurity demand increases during geopolitical tensions and recent AI competition fears may be overdone."
+    },
+    {
+      "id": "pred_claude_20260303_004",
+      "ticker": "TGT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 158.0,
+      "current_price_at_prediction": 152.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Target reports earnings this morning with EPS estimate of $2.16. Recent guidance was optimistic and defensive retail names have shown resilience during market stress. Consumer staples typically outperform during geopolitical uncertainty."
+    },
+    {
+      "id": "pred_claude_20260303_005",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 118.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Oil prices surged 5% to $75/barrel on Iran conflict with potential Strait of Hormuz closure threats. Exxon gained 1.1% yesterday and energy stocks historically outperform significantly during Middle East supply disruptions."
+    }
+  ]
+}
