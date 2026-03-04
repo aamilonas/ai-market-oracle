@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-04",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-04T14:30:00Z",
+  "market_context": "Markets face elevated volatility with VIX at 25.16 due to US-Iran conflict concerns. Major tech earnings including NVIDIA's after-hours results create uncertainty while retail shows weakness with Target's disappointing results.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260304_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 592.0,
+      "current_price_at_prediction": 595.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Nasdaq futures showing weakness with tech under pressure from geopolitical risks. Elevated VIX above 25 indicates continued volatility, and premarket weakness suggests follow-through selling despite NVIDIA's earnings beat."
+    },
+    {
+      "id": "pred_claude_20260304_002",
+      "ticker": "TGT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.0,
+      "current_price_at_prediction": 118.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Target already down 8% in premarket on disappointing Q1 results with profit miss and declining comparable sales. Consumer spending weakness narrative likely to drive continued selling pressure throughout the session."
+    },
+    {
+      "id": "pred_claude_20260304_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Despite initial post-earnings selloff, NVDA showing premarket strength up 1.49%. Strong Q4 results with 73% revenue growth and positive analyst revisions to $300 targets suggest recovery potential amid AI infrastructure demand."
+    },
+    {
+      "id": "pred_claude_20260304_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 108.5,
+      "current_price_at_prediction": 105.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector benefiting from elevated oil prices due to Middle East tensions. Retail investors bought record $49M of XLE on Monday, and geopolitical risk premium likely to persist supporting energy stocks."
+    },
+    {
+      "id": "pred_claude_20260304_005",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 688.0,
+      "current_price_at_prediction": 692.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Broad market pressure from geopolitical uncertainty with VIX elevated above 25. Mixed futures and retail sector weakness suggest defensive positioning, though energy strength may limit downside magnitude."
+    }
+  ]
+}

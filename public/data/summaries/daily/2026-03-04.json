@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-04",
+  "generated_at": "2026-03-04T14:10:26.944545+00:00",
+  "headline": "Geopolitical tensions split AI models on market direction",
+  "summary": "Five AI models made 15 predictions today amid escalating Iran-US tensions and mixed market signals. A clear consensus emerged around safe-haven assets (oil, gold) and energy stocks, while sharp disagreement divided forecasters on broad indices like SPY and QQQ. Actual closing prices remain pending, but the day highlighted fundamental divergence in how models weigh geopolitical risk versus pre-market momentum.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Split 2-2 between bullish pre-market momentum (GPT-4o, Grok) and bearish geopolitical risk (Claude, Perplexity) with confidence ranging 0.65-0.75."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited tech weakness from geopolitical pressures with 0.70-0.72 confidence."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both bullish on pre-market strength and analyst upgrades despite different target prices (180 vs 230)."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both saw upside from strong earnings and AI demand despite wildly different targets (185 vs 150)."
+    },
+    {
+      "ticker": "USO",
+      "models_agreeing": [
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Highest confidence call (0.80) on oil's 8% spike from Iran escalation providing clear directional signal."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "perplexity_uso_up",
+    "model_display_name": "Perplexity",
+    "ticker": "USO",
+    "score": 1.2,
+    "summary": "Perplexity's 0.80-confidence oil call was most defensible with clear catalysts (Iran strikes, 8% price spike) and highest conviction among all predictions."
+  },
+  "worst_call": {
+    "prediction_id": "grok_aapl_up",
+    "model_display_name": "Grok",
+    "ticker": "AAPL",
+    "score": -0.45,
+    "summary": "Grok's $230 AAPL target appears inconsistent with GPT-4o's $180 target despite both citing identical bullish drivers, suggesting overconfidence in social media sentiment."
+  }
+}

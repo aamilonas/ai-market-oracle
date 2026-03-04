@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-04",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-04T14:09:58Z",
+  "market_context": "US stock futures for Dow, S&P 500, and Nasdaq are sliding significantly due to escalating US-Iran conflict, with Dow futures down ~800 points on Tuesday and continued gap down today amid rising oil prices (Brent up ~8%). VIX futures indicate heightened volatility, up over 9% in 5-day period with stochastic at extreme levels. Geopolitical tensions are driving flight to safety in dollar and gold, pressuring risk assets while boosting oil and defense sectors.[1][2][5][6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260304_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 570.0,
+      "current_price_at_prediction": 575.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures are down amid Iran war escalation, following Tuesday's 800-point Dow drop and ongoing gap down; oil surge to 8% adds pressure on equities.[1][6] VIX up 9.15% signals sustained volatility, with futures off lows but still negative ~1.1%.[5][6] Pre-market points to risk-off sentiment persisting through session close."
+    },
+    {
+      "id": "pred_perplexity_20260304_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 492.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures gapping down on oil rebound and geopolitical volatility, with NDX eyeing 24,770 pivot amid broader market slide.[2] Conflict-driven sell-off hits tech-heavy index harder, as seen in prior session retreats.[1] Heightened fear indicators support continued downside."
+    },
+    {
+      "id": "pred_perplexity_20260304_003",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85.5,
+      "current_price_at_prediction": 82.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Oil prices spiking 8% on Brent/WTI (from 13% intraday high) due to US-Iran strikes entering third day, with spot LNG potentially up 30%.[6] Geopolitical escalation in Middle East directly boosts crude demand fears and supply risks.[1][6] Futures orderly but elevated, favoring energy ETF gains."
+    },
+    {
+      "id": "pred_perplexity_20260304_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 240.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Gold up over 2% as safe-haven amid futures slide and dollar strength from risk-off flows.[6] Iran conflict volatility drives investors to metals, aligning with VIX surge and equity retreat.[1][5] Expect modest further gains if tensions persist."
+    }
+  ]
+}
