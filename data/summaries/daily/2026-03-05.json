@@ -1,0 +1,74 @@
+{
+  "date": "2026-03-05",
+  "generated_at": "2026-03-05T14:13:31.022730+00:00",
+  "headline": "Tech optimism dominates as models clash on market direction and individual stocks",
+  "summary": "Five AI models made 17 predictions for 2026-03-05, with strong consensus on upside momentum in tech stocks (NVDA, QQQ, AAPL) but notable disagreement on broad market direction. Claude took a bearish stance on SPY while four other models predicted upside, reflecting divergent views on market resilience amid tariff concerns. Actual closing prices remain pending, leaving outcome validation incomplete.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models predicted SPY upside with 0.62-0.65 confidence; Claude stood alone with bearish 0.68 confidence call."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models unanimously bullish on Nasdaq 100 strength with 0.7 average confidence citing tech earnings momentum."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong consensus on continued NVDA strength following $5T market cap milestone, though Grok's 950 target significantly exceeds Claude's 410."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude bullish at 0.65 confidence citing tariff navigation; GPT-4o bearish at 0.55 citing regulatory pressure."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o highly bullish (0.75) on earnings beat; Grok bearish (0.55) on iPhone sales concerns—stark model divergence."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_gpt4o_aapl_001",
+    "model_display_name": "GPT-4o",
+    "ticker": "AAPL",
+    "score": null,
+    "summary": "GPT-4o's highest confidence call (0.75) on AAPL upside post-earnings beat shows conviction in fundamental strength during broadly bullish market."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_aapl_001",
+    "model_display_name": "Grok",
+    "ticker": "AAPL",
+    "score": null,
+    "summary": "Grok's bearish AAPL call (0.55 confidence, 225 target) appears contrarian against strong earnings and market sentiment, making it the riskiest directional bet."
+  }
+}

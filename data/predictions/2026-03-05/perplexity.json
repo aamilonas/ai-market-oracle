@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-05",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-05T14:12:54Z",
+  "market_context": "US stock futures are mixed on March 5 amid the ongoing Iran war entering its sixth day, with oil and natural gas rising due to energy market disruptions while equity futures waver.[4] Yesterday's strong ADP private payrolls beat expectations and positive earnings growth (14.2% for S&P 500, above forecasts) supported gains in major indices, with Nasdaq 100 up 1.52%, S&P 500 up 0.87%, and Dow up 0.66%; pre-market shows strength in tech/crypto like MSTR (+10.37%), COIN (+14.57%).[1][3] Economic concerns include inflation pressures on yields and dollar strength.[4]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260305_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 665.5,
+      "current_price_at_prediction": 662.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures rose 0.3% pre-market after strong ADP payrolls and 14.2% earnings growth beating expectations; yesterday's +0.87% gain and prediction markets showing >6650 at 99% probability support upside.[1][2][3] Geopolitical tensions may cap gains but economic strength outweighs war concerns per recent session."
+    },
+    {
+      "id": "pred_perplexity_20260305_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 503.0,
+      "current_price_at_prediction": 497.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 futures up 0.5% overnight with index +1.52% yesterday; pre-market leaders like MSTR (+10.37%), COIN (+14.57%), ASML (+2.82%), and AVGO (+1.18%) indicate tech/crypto momentum continuing.[1][3] Earnings estimates rising to $313 for 2026 S&P bolster sector outlook despite futures wavering on oil disruption news.[1][4]"
+    },
+    {
+      "id": "pred_perplexity_20260305_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 425.0,
+      "current_price_at_prediction": 423.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures added 0.2% following Tuesday's seesaw close, with yesterday's +0.66% advance amid US economic strength outweighing Iran concerns; movers like AMAT (+1.83%) support industrials.[1][3] Mixed futures today but positive payrolls data provides tailwind."
+    },
+    {
+      "id": "pred_perplexity_20260305_004",
+      "ticker": "MSTR",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.0,
+      "current_price_at_prediction": 146.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "MSTR leads pre-market with +10.37% gain to 146.44, aligned with crypto surge (COIN +14.57%) and Nasdaq strength; ongoing Bitcoin correlation amid market rally sustains momentum.[3] Yesterday's Nasdaq +1.52% reinforces high-beta play upside."
+    }
+  ]
+}

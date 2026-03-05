@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-05",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-05T14:13:15.730731+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate cut signals and strong tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech giants like AAPL and NVDA. Major news includes a scheduled Fed Chair speech at 11:00 AM ET, which could impact market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260305_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around potential dovish Fed comments today. However, uncertainty remains due to the Fed Chair speech at 11:00 AM ET, which could sway markets."
+    },
+    {
+      "id": "pred_grok_20260305_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is a notable pre-market mover, up 1.2%, driven by recent AI sector hype and positive analyst upgrades mentioned on X. Options flow data from web sources shows heavy call buying for March expiries. Sentiment could shift if broader tech sector news disappoints."
+    },
+    {
+      "id": "pred_grok_20260305_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 228.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter regarding AAPL, with some users citing concerns over slowing iPhone sales in China based on recent web reports. Pre-market trading shows a slight dip of 0.5%. Confidence is lower due to lack of definitive negative catalysts today."
+    }
+  ]
+}

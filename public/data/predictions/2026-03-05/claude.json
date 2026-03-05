@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-05",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-05T07:30:00Z",
+  "market_context": "Markets face mixed signals with SPY at 685.13, down slightly in premarket after Wednesday's 0.78% rally. Geopolitical tensions from Iran conflict are easing as Trump offers naval escorts, while 15% global tariffs take effect this week.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260305_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 680.5,
+      "current_price_at_prediction": 685.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "SPY has retreated 0.36% in early trading after hitting 6,869.50 yesterday, facing resistance at the 685-690 level. Weekly jobless claims at 8:30 AM (expected 215K vs 212K prior) and implementation of 15% global tariffs create near-term headwinds despite geopolitical tension easing."
+    },
+    {
+      "id": "pred_claude_20260305_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 410.0,
+      "current_price_at_prediction": 401.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "NVDA gained 1.9% yesterday as the first company to reach $5T market cap, with continued strength in AI demand. Semiconductor peers MU and AMD surged over 5% yesterday, indicating sector momentum continues despite broader market caution."
+    },
+    {
+      "id": "pred_claude_20260305_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 328.0,
+      "current_price_at_prediction": 322.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "TSLA is actively trading as the company navigates production shifts due to new tariff environment, which could benefit domestic manufacturing. Yesterday's tech rally momentum and adaptation to trade policy changes may drive continued interest."
+    },
+    {
+      "id": "pred_claude_20260305_004",
+      "ticker": "KR",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58.5,
+      "current_price_at_prediction": 60.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Kroger reports earnings today amid concerns about consumer spending under new tariff policies. Retail sector faces headwinds from potential price increases due to 15% global tariffs, which could pressure margins and consumer demand."
+    },
+    {
+      "id": "pred_claude_20260305_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 460.0,
+      "current_price_at_prediction": 457.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 remains relatively flat in premarket but tech sector strength continues with NVDA, Amazon (+3.9% yesterday), and semiconductor momentum. Tech resilience amid geopolitical volatility and AI euphoria should support modest gains despite broader market caution."
+    }
+  ]
+}

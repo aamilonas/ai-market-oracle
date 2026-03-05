@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-05",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-05T14:13:03.747425+00:00",
+  "market_context": "US stock futures are slightly higher in pre-market trading, indicating a positive start. Investors are focused on the upcoming jobs report, which could provide insights into the Federal Reserve's future interest rate decisions. Notable pre-market movers include tech stocks, which are gaining due to strong earnings reports.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260305_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from strong tech earnings and anticipation of a favorable jobs report. Futures are indicating a positive open, and the market is optimistic about economic growth."
+    },
+    {
+      "id": "pred_gpt4o_20260305_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech stocks are leading the pre-market gains following strong earnings from major companies like Apple and Microsoft, boosting the QQQ ETF."
+    },
+    {
+      "id": "pred_gpt4o_20260305_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 350.0,
+      "current_price_at_prediction": 347.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow Jones Industrial Average is likely to benefit from positive economic data and strong performance in industrial and financial sectors."
+    },
+    {
+      "id": "pred_gpt4o_20260305_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple's recent earnings report exceeded expectations, driving investor optimism and pre-market gains."
+    },
+    {
+      "id": "pred_gpt4o_20260305_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite a strong market, Tesla faces pressure from recent regulatory challenges and competition in the EV market, which may weigh on its stock price."
+    }
+  ]
+}
