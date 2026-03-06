@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-06",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-06T14:07:11.052123+00:00",
+  "market_context": "U.S. stock futures are showing a positive trend in pre-market trading, buoyed by strong overnight performance in Asian markets and positive economic data from Europe. Investors are also optimistic ahead of the release of U.S. non-farm payrolls data, which is expected to show continued strength in the labor market.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260306_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is likely to rise due to positive sentiment from strong Asian market performance and anticipated favorable U.S. non-farm payrolls data. Additionally, European economic indicators released overnight have exceeded expectations, providing further support for a bullish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260306_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is expected to benefit from a positive tech sector outlook, driven by strong demand for its latest product line and a favorable report on tech sector growth in China. Pre-market indicators show increased buying interest in tech stocks."
+    },
+    {
+      "id": "pred_gpt4o_20260306_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla faces potential downside due to recent regulatory challenges in Europe and a downgrade by a major investment bank citing concerns over valuation. Pre-market trading shows a slight decline in Tesla shares."
+    },
+    {
+      "id": "pred_gpt4o_20260306_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The Nasdaq is poised for gains as tech stocks are expected to perform well, supported by strong earnings reports and positive sentiment from international markets. The upcoming U.S. economic data is also likely to provide a boost."
+    }
+  ]
+}

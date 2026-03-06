@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-06",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-06T09:15:00Z",
+  "market_context": "Markets are under pressure following a disappointing February jobs report showing 92,000 job losses versus expectations of 50,000 gains, escalating Middle East conflict disrupting oil supplies through the Strait of Hormuz, and weak premarket futures with S&P down 0.29% and Nasdaq down 0.39%.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260306_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 685.5,
+      "current_price_at_prediction": 690.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Weak jobs report showing 92,000 job losses significantly missed expectations and raises recession concerns. Geopolitical tensions from Iran conflict and oil price spikes create additional headwinds for broader market sentiment."
+    },
+    {
+      "id": "pred_claude_20260306_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 180.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "New U.S. licensing requirements for AI chip exports create regulatory headwinds. Company halted H200 production for China market, limiting revenue opportunities in key geographic segment amid broader tech selloff."
+    },
+    {
+      "id": "pred_claude_20260306_003",
+      "ticker": "AVGO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 345.0,
+      "current_price_at_prediction": 332.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Strong Q1 earnings beat with 28% earnings increase and 106% AI revenue jump. Management guidance for AI chip sales to exceed $100 billion in 2027 provides compelling growth narrative in volatile market."
+    },
+    {
+      "id": "pred_claude_20260306_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 59.5,
+      "current_price_at_prediction": 56.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Iran conflict disrupting Strait of Hormuz oil shipments driving crude prices higher. Energy sector benefiting from supply constraints and geopolitical risk premium with XLE near 52-week highs."
+    },
+    {
+      "id": "pred_claude_20260306_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 605.0,
+      "current_price_at_prediction": 610.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tech-heavy index facing pressure from regulatory concerns on AI chip exports and broader risk-off sentiment from jobs data. However, individual tech earnings strength from companies like Broadcom may limit downside."
+    }
+  ]
+}

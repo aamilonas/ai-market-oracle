@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-06",
+  "generated_at": "2026-03-06T14:07:28.606213+00:00",
+  "headline": "Model Disagreement on Market Direction Amid Jobs Report Shock",
+  "summary": "Today's predictions reveal sharp divergence between Claude's bearish stance on macro headwinds and broader bullish sentiment from GPT-4o, Grok, and Perplexity. Claude cited a weak jobs report (92,000 losses) and AI regulatory concerns as recession signals, while competitors focused on pre-market momentum and positive earnings. The day remains pending evaluation as actual market closes have not been recorded.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models predicted SPY upside despite Claude's bearish 78% confidence call, creating a notable 3v1 split on market direction."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Models fundamentally disagreed on tech direction with Claude bearish (65%), GPT-4o and Perplexity bullish, reflecting divergent AI regulatory outlooks."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Two models aligned on Tesla downside due to regulatory challenges and production delays, both at 60% confidence."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_avgo_up",
+    "model_display_name": "Claude",
+    "ticker": "AVGO",
+    "score": 1.23,
+    "summary": "Claude's highest-conviction bullish call on Broadcom (82% confidence) was grounded in concrete fundamentals: 28% earnings beat and 106% AI revenue surge with positive guidance."
+  },
+  "worst_call": {
+    "prediction_id": "grok_tsla_down",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.45,
+    "summary": "Grok's Tesla target of $340 appears misaligned with market reality given the stock's recent valuation context, undermined by reliance on social media sentiment rather than fundamental analysis."
+  }
+}

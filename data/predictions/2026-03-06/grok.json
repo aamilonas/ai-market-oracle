@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-06T14:07:21.712753+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cut signals from the Fed and positive earnings surprises in tech. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include a 3% pre-market gain for a major tech stock on strong guidance.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260306_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around potential Fed rate cuts. A major tech stock's pre-market gain could lift broader market indices."
+    },
+    {
+      "id": "pred_grok_20260306_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is seeing positive buzz on X/Twitter due to rumors of a new product launch event. Pre-market trading shows a 1.2% increase, aligning with strong options flow indicating bullish call buying. Recent web news confirms high consumer interest in upcoming releases."
+    },
+    {
+      "id": "pred_grok_20260306_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 340.0,
+      "current_price_at_prediction": 345.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Negative sentiment on X/Twitter is growing due to reports of production delays in Tesla's new model. Web searches indicate a spike in short interest data over the past week. Pre-market trading shows a slight decline of 0.8%, suggesting potential downside."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-06T14:07:03Z",
+  "market_context": "US stock futures for Dow, S&P 500, and Nasdaq are rising ahead of a crucial nonfarm payrolls jobs report, fostering cautious optimism amid volatility from escalating oil prices and Middle East geopolitical tensions including US-Iran conflict.[1][2] Stronger-than-expected private payrolls data and reports of Iran seeking talks have supported pre-market gains, though oil spikes pose inflation risks that could impact Fed rate cut expectations.[2] Earnings season shows solid growth at 14.2% above expectations, with key reports from Broadcom, Costco, and Alibaba this week.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260306_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 575.0,
+      "current_price_at_prediction": 572.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 futures are up 0.3% in pre-market amid anticipation of the jobs report and de-escalation signals from Iran talks, following Tuesday's sharp rebound.[1][2] Strong private payrolls beat expectations, supporting economic momentum despite oil volatility.[2] Earnings growth at 14.2% exceeds forecasts, bolstering broad market sentiment.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260306_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 485.0,
+      "current_price_at_prediction": 482.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq 100 futures gained 0.5% pre-market, outperforming amid positive private payrolls and reduced geopolitical panic from Iran negotiation reports.[2] Tech-heavy index benefits from upward earnings estimate revisions to $363 for S&P 2027.[2] Cautious optimism prevails ahead of jobs data influencing Fed policy.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260306_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 425.0,
+      "current_price_at_prediction": 423.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures added 0.2% following yesterday's buy-the-dip rally after a volatile session, with futures pointing higher on jobs report anticipation.[1][2] Geopolitical de-escalation via Iran talks eases some risk premium, though oil pressures linger.[2] Steady economic indicators support industrials.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260306_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 82.5,
+      "current_price_at_prediction": 84.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Oil prices spiked on Middle East tensions but reports of Iran calling for talks have stemmed some panic, potentially reversing recent 20-80 cent gasoline hikes.[2] Reduced risk premium if de-escalation executes could pressure oil futures lower.[2] Broader market rebound reduces safe-haven demand.[1]"
+    }
+  ]
+}
