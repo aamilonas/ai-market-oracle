@@ -1,0 +1,54 @@
+{
+  "week": "2026-W09",
+  "period": "Feb 23 – Feb 27, 2026",
+  "generated_at": "2026-03-07T15:16:25.273870+00:00",
+  "headline": "Claude dominates with laser-precise SPY and QQQ calls while Perplexity stumbles",
+  "summary": "Claude emerged as the clear winner this week, posting exceptional accuracy on major indices with near-perfect target predictions on SPY and QQQ, while Grok showed strong recovery momentum with 4-for-5 correctness on Friday. Perplexity had a brutal week, suffering catastrophic misses on NFLX (predicting $720, actual $96) and multiple directional errors on broad market moves. The week was marked by strong upside surprise in mega-cap tech and indices—models that predicted down moves on SPY and QQQ generally missed the rally, while those calling NVDA and AAPL higher were handsomely rewarded.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 3.62,
+      "predictions": 10,
+      "accuracy": 0.6,
+      "rank_change": 1
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 3.35,
+      "predictions": 7,
+      "accuracy": 0.71,
+      "rank_change": 1
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 2.85,
+      "predictions": 6,
+      "accuracy": 0.67,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -1.07,
+      "predictions": 9,
+      "accuracy": 0.33,
+      "rank_change": -3
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "QQQ",
+    "score": 1.25,
+    "summary": "Called QQQ down to 605.0 with 99.6% target accuracy and 75% confidence, nailing both direction and price within 2 points."
+  },
+  "worst_call": {
+    "model": "Perplexity",
+    "ticker": "NFLX",
+    "score": -0.8,
+    "summary": "Catastrophic miss: predicted NFLX up to $720 with high confidence, but stock crashed 87% to $96.24."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 5,
+    "consensus_correct": 2,
+    "accuracy": 0.4
+  }
+}
