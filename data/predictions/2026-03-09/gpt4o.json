@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-09",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-09T14:30:49.127464+00:00",
+  "market_context": "Pre-market futures indicate a positive opening for US markets, with S&P 500 futures up 0.3% and Nasdaq futures up 0.4%. Overnight, Asian markets closed higher, and European markets are trading positively. Key economic data today includes the release of the US jobless claims report and a speech by the Federal Reserve Chair.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260309_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures and strong overnight performance in Asian and European markets suggest a bullish sentiment. Additionally, anticipation of favorable jobless claims data could further boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260309_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures are up pre-market, driven by strong tech earnings reports and positive sentiment from the Federal Reserve Chair's upcoming speech, which is expected to be market-friendly."
+    },
+    {
+      "id": "pred_gpt4o_20260309_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is a notable pre-market mover with a positive outlook following a recent product launch and strong sales data from the previous quarter, boosting investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260309_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite overall market positivity, Tesla faces pressure due to recent regulatory challenges in Europe and a downgrade by a major investment bank, which could weigh on its stock price."
+    }
+  ]
+}

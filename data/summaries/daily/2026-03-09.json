@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-03-09T14:31:19.163801+00:00",
+  "headline": "Oil surge and geopolitical tension split AI models on market direction",
+  "summary": "A major disagreement emerged among AI models on 2026-03-09, with Claude and Perplexity predicting sharp declines across broad indices due to oil surge past $107 and weak jobs data, while GPT-4o and Grok leaned bullish on positive pre-market sentiment. The energy crisis narrative (Iran disruptions, Kuwait/Iraq cuts) created a clear divergence: bearish models expected ~2% SPY drops and stagflation pressures, while bullish models cited Asian/European strength and tech earnings optimism. Actual market closes remain pending, leaving the fundamental disagreement unresolved.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Two models with strong conviction (0.82-0.85 confidence) predicted 2% declines from oil/jobs shock, opposed by two bullish models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both bearish models saw tech as more vulnerable to oil/bond yield pressures than broader market."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both bullish models cited product momentum and positive social sentiment despite macro headwinds."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_perplexity_spy_down",
+    "model_display_name": "Perplexity",
+    "ticker": "SPY",
+    "score": null,
+    "summary": "Perplexity's down prediction on SPY had the highest bearish confidence (0.85) with precise futures data citing ESH26 lows and 2% declines, grounded in specific oil price and employment data."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpt4o_qqq_up",
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "GPT-4o's bullish QQQ target of 400 appears most at odds with market fundamentals, as it contradicts all four bearish models' tech-specific downside risk from stagflation pressures."
+  }
+}

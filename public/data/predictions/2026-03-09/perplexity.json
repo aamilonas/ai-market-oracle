@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-09T14:30:40Z",
+  "market_context": "US stock futures are sharply lower pre-market with Dow futures down 2.1% (over 1,000 points), S&P 500 futures down 2%, and Nasdaq 100 futures down 2.3%, driven by oil surging past $107/barrel amid the ongoing Iran war, production cuts in Middle East, and stagflation fears from weak February jobs data (-92k payrolls). Energy and defense stocks are the sole bright spots YTD, while major indexes closed Friday negative for 2026 after weekly losses. Upcoming CPI on Wednesday and PCE on Friday loom, but oil shock dominates.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260309_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 660.0,
+      "current_price_at_prediction": 672.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "S&P 500 futures indicate ~2% drop from Friday's ~6,744 close, aligning with ESH26 at recent low of 6,584.50 and prediction markets showing >6625 at 88¢ but heavy selling pressure from oil at $107+ and Iran conflict[1][7][5]. Stagflation fears post -92k jobs amplify downside, targeting ~1.8% decline to match futures crater."
+    },
+    {
+      "id": "pred_perplexity_20260309_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 465.0,
+      "current_price_at_prediction": 474.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq 100 futures down 2.3%, worse than broader market amid tech sensitivity to rising oil/inflation, with NQH26 -1.58% recently and prediction markets at >23900 (95¢) but futures sliding[1][6]. Friday Nasdaq closed ~21,500 after -1.2% weekly loss, extending YTD negativity[1]."
+    },
+    {
+      "id": "pred_perplexity_20260309_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 4750.0,
+      "current_price_at_prediction": 4850.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Dow futures -2.1% or 1,000+ points from Friday's 47,502 close, directly tied to oil hitting $107 and Middle East supply disruptions[1][4]. Weak jobs (-92k) and prior -3% weekly drop signal continued pressure despite defense stock gains[1]."
+    },
+    {
+      "id": "pred_perplexity_20260309_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85.0,
+      "current_price_at_prediction": 72.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "WTI crude up 18% to $107+, with reports of nearing $120 amid Kuwait/Iraq cuts and Strait of Hormuz issues from Iran war[1][2][4]. Energy sector only winner YTD +25%, supporting USO rally continuation[1]."
+    }
+  ]
+}
