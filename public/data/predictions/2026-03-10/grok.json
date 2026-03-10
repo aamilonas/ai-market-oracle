@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-10",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-10T14:13:47.991444+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector gains amid upcoming product announcements. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like AAPL and NVDA showing early strength. Major news includes a scheduled Federal Reserve speech later today, which could impact rate expectations.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260310_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is likely to close higher based on positive pre-market futures up 0.3% as reported by Bloomberg data. X/Twitter sentiment shows bullishness around tech-heavy indices, which heavily influence SPY. However, uncertainty remains due to the Fed speech scheduled for later today."
+    },
+    {
+      "id": "pred_grok_20260310_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "AAPL is showing strong pre-market gains of 1.2% per Yahoo Finance, driven by rumors of a new product launch discussed widely on X/Twitter. Options flow data indicates heavy call buying for March expirations, suggesting short-term bullish momentum."
+    },
+    {
+      "id": "pred_grok_20260310_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA is trending positively on X/Twitter with mentions of AI sector growth, and pre-market data shows a 1.5% increase per MarketWatch. However, high short interest signals potential volatility, tempering confidence in this prediction."
+    },
+    {
+      "id": "pred_grok_20260310_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA sentiment on X/Twitter is mixed, with concerns over recent production delays reported by Reuters. Options flow shows increased put activity for near-term expirations, suggesting potential downside risk."
+    }
+  ]
+}

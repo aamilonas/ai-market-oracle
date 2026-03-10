@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-10",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-10T14:13:35.429733+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, buoyed by positive sentiment from overnight gains in Asian markets and a rebound in tech stocks. Investors are also awaiting key economic data releases today, including the U.S. Consumer Price Index (CPI) which could influence market direction.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260310_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive pre-market futures and strong performance in tech stocks, which are a significant component of the index. Additionally, anticipation of favorable CPI data is likely to boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260310_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is seeing pre-market gains following a positive earnings report and strong guidance for the next quarter. The tech sector's overall rebound is also contributing to upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260310_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 715.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is facing pressure due to recent regulatory concerns in China and a downgrade by a major investment bank. These factors are likely to weigh on the stock despite broader market optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260310_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The QQQ is expected to rise as tech stocks recover from recent lows, driven by strong earnings reports and positive sentiment from the CPI data release. The tech-heavy index benefits from the sector's rebound."
+    }
+  ]
+}

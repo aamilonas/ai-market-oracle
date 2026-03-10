@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-10",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-10T09:15:00Z",
+  "market_context": "Markets face geopolitical volatility from the US-Iran conflict but showed recovery patterns Friday after Trump suggested conflict resolution timeline. Defense stocks have surged to record highs while oil prices remain elevated above $85/barrel.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260310_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 688.5,
+      "current_price_at_prediction": 681.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Based on Friday's strong reversal pattern where S&P futures recovered from -2% to +0.8% and Trump's comments about Iran conflict resolution timeline, expect continued relief rally. The 1% gain in final 30 minutes Friday suggests institutional buying interest at these levels."
+    },
+    {
+      "id": "pred_claude_20260310_002",
+      "ticker": "LMT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 710.0,
+      "current_price_at_prediction": 692.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Defense sector momentum remains extremely strong with LMT hitting all-time highs. Pentagon fast-tracking orders for interceptors and White House meeting with defense CEOs creates sustained institutional demand. Record $268B backlog at RTX and increased THAAD production at LMT support continued outperformance."
+    },
+    {
+      "id": "pred_claude_20260310_003",
+      "ticker": "ORCL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 145.0,
+      "current_price_at_prediction": 151.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Multiple analysts cut price targets ahead of earnings (Deutsche Bank $375→$300, Barclays $310→$230). Stock down 20% YTD and has missed revenue estimates in 8 of last 10 quarters. High expectations for AI revenue growth create setup for disappointment despite strong cloud backlog."
+    },
+    {
+      "id": "pred_claude_20260310_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 620.0,
+      "current_price_at_prediction": 610.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tech showed resilience in Friday's recovery and QQQ found support at $593 bearish target level as expected. Geopolitical risk premium may fade if Iran conflict resolution continues, allowing tech to benefit from rotation back from defensive sectors. Current trading near daily highs suggests momentum."
+    },
+    {
+      "id": "pred_claude_20260310_005",
+      "ticker": "RTX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "RTX backlog swelled to record $268B in early March with massive demand for Tomahawk and AMRAAM missile systems. Company forced to accelerate manufacturing timelines creating 'gap-and-go' technical pattern. Defense sector benefiting from shift to 'just-in-case' inventory model from Pentagon."
+    }
+  ]
+}

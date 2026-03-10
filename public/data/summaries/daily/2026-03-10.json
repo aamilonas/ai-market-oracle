@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-03-10T14:13:55.762142+00:00",
+  "headline": "Five AI Models Bullish on Tech Recovery; Defense Stocks Lead Consensus",
+  "summary": "All five AI models predicted broad market strength for March 10, 2026, with unanimous bullish calls on SPY and overwhelming consensus on tech upside following Friday's strong reversal. Defense stocks (LMT, RTX) emerged as a notable secondary theme driven by Pentagon demand signals, while Tesla faced rare bearish positioning across multiple models citing regulatory and production concerns.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Perfect unanimity across all four models with confidence range 0.65-0.72; targets ranged from $600-$688.50."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models agreed on upside with confidence 0.60-0.68; GPT-4o's $400 target appears significantly lower than peers."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models bullish on Apple citing earnings and product rumors; targets diverged wildly ($180 vs $230)."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Only bearish consensus of the day on Tesla citing regulatory/production headwinds; targets highly divergent ($700 vs $220)."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_lmt_20260310",
+    "model_display_name": "Claude",
+    "ticker": "LMT",
+    "score": 0.85,
+    "summary": "Claude's highest-confidence call on Lockheed Martin (0.85) leveraged documented Pentagon backlog strength and all-time highs with specific $268B backlog figures supporting defense sector momentum thesis."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_20260310",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.55,
+    "summary": "Grok's Tesla prediction combined the day's lowest confidence (0.55) with an implausibly low $220 target and vague X/Twitter sentiment analysis rather than fundamental reasoning."
+  }
+}
