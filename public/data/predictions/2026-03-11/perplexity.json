@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-11",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-11T14:27:23Z",
+  "market_context": "US futures trading shows a 'different kind of market' amid ongoing Iran tensions, with oil prices plunging nearly -12% on Tuesday despite refinery disruptions and tanker incidents in UAE, now at $86 with big money betting against energy stocks[1][2][4]. Dollar index closed little changed near 99.00 with support from strong existing home sales (+1.7% to 4.09M) and rising T-note yields, while Oracle surges +10%[2][4][5]. Pre-market influenced by geopolitical risks from Iran strikes near Hormuz, potentially pressuring inflation and Fed policy[2][4][5].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260311_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 575.0,
+      "current_price_at_prediction": 580.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Oil's -12% plunge despite Iran disruptions signals reduced inflation pressure but adds volatility from energy sector weakness, with big money betting against energy stocks amid Hormuz risks[2][4]. Strong home sales support dollar at 99 but broader market faces 'different kind of market' per futures analysis[1][2]. SPY likely dips 1% on geopolitical uncertainty and energy drag."
+    },
+    {
+      "id": "pred_perplexity_20260311_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 485.0,
+      "current_price_at_prediction": 482.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech resilience shown by Oracle's +10% surge amid volatile energy news, decoupling from oil plunge and Iran tensions[4][5]. Dollar stability near 99 and pre-market futures suggest Nasdaq outperformance vs. energy-exposed indices[1][2]. QQQ targets 0.6% gain on sector strength."
+    },
+    {
+      "id": "pred_perplexity_20260311_003",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 82.5,
+      "current_price_at_prediction": 85.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "WTI crude plunged -12% Tuesday to $86 despite UAE refinery fire and tanker explosion from Iran actions, with big money positioning against energy[2][4]. Continued selling pressure likely amid oversupply fears overriding geopolitics[2]. USO expected to drop another 3%."
+    },
+    {
+      "id": "pred_perplexity_20260311_004",
+      "ticker": "ORCL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 262.0,
+      "current_price_at_prediction": 242.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Oracle already +10% amid market open discussion, with potential rally to 262 (8% from recent levels) noted in live analysis despite energy turmoil[4]. Iran war impacts broader market but tech holds firm[5]. Momentum supports further gains."
+    }
+  ]
+}

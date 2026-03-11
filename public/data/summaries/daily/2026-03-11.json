@@ -1,0 +1,63 @@
+{
+  "date": "2026-03-11",
+  "generated_at": "2026-03-11T14:27:46.693955+00:00",
+  "headline": "AI Models Split on Market Direction Amid Iran Tensions and Oracle Surge",
+  "summary": "Five AI models made 15 predictions across major indices and individual stocks on March 11, 2026, with notably divergent views on SPY's direction despite agreement on tech strength. Oracle's exceptional earnings beat (+10% surge) drove consensus bullishness in cloud and AI stocks, while energy volatility from Middle East tensions and an unexpected oil price plunge created prediction discord. Actual closing prices remain pending, but the day highlighted stark disagreements between macro-focused models and sentiment-driven analysis.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Three models bullish, two bearish on SPY—reflecting fundamental disagreement on oil volatility's market impact."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models cited Oracle's strength and tech resilience to energy sector headwinds as upside drivers."
+    },
+    {
+      "ticker": "ORCL",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strongest consensus call with 0.85 and 0.70 confidence—Oracle's 44% cloud revenue growth and raised guidance drove unanimous bullishness."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o bullish on analyst upgrades while Grok cited iPhone sales concerns, creating conflicting narratives."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_orcl_up_0.85",
+    "model_display_name": "Claude",
+    "ticker": "ORCL",
+    "score": 0.85,
+    "summary": "Claude's highest-confidence prediction on Oracle's up move was anchored in concrete earnings fundamentals (44% cloud growth, $1B guidance beat), making it the most defensible call regardless of market outcome."
+  },
+  "worst_call": {
+    "prediction_id": "grok_aapl_down_0.55",
+    "model_display_name": "Grok",
+    "ticker": "AAPL",
+    "score": -0.55,
+    "summary": "Grok's bearish AAPL call on vague X/Twitter sentiment about iPhone sales directly contradicted GPT-4o's bullish analyst upgrade thesis and lacked fundamental grounding."
+  }
+}

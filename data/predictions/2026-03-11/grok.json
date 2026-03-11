@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-11",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-11T14:27:40.350485+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cuts and tech sector strength. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like AAPL and NVDA. Major news includes an anticipated inflation report release today, which could sway market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260311_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. X/Twitter sentiment leans bullish with discussions around potential Fed rate cuts. However, the upcoming inflation report introduces some uncertainty, tempering confidence."
+    },
+    {
+      "id": "pred_grok_20260311_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is a notable pre-market mover, up 1.2%, driven by strong AI sector buzz on X/Twitter. Recent web reports highlight increased institutional buying and positive options flow with heavy call activity. Confidence is moderate due to potential volatility from broader market news."
+    },
+    {
+      "id": "pred_grok_20260311_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter regarding AAPL, with some concerns over slowing iPhone sales mentioned in recent web articles. Pre-market trading shows a slight decline of 0.4%. Confidence is low due to lack of strong directional signals and potential impact of inflation data."
+    }
+  ]
+}

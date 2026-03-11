@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-11",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-11T09:15:00Z",
+  "market_context": "Markets face mixed signals with in-line February CPI data offset by ongoing Iran war disrupting oil flows through Strait of Hormuz. Oracle's strong earnings beat has boosted tech sentiment despite broader geopolitical concerns.",
+  "predictions": [
+    {
+      "id": "pred_claude35_20260311_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 675.5,
+      "current_price_at_prediction": 678.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Oil price volatility and geopolitical uncertainty around Iran conflict likely to weigh on broader markets despite in-line CPI. Futures already showing weakness with 0.3% decline pre-market."
+    },
+    {
+      "id": "pred_claude35_20260311_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 612.0,
+      "current_price_at_prediction": 608.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Oracle's strong earnings and guidance raise should lift tech sentiment. QQQ opened at key support level and tech concentration benefits from AI infrastructure demand despite macro headwinds."
+    },
+    {
+      "id": "pred_claude35_20260311_003",
+      "ticker": "ORCL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 165.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Strong Q3 beat with cloud revenue up 44% and fiscal 2027 guidance raised $1B above estimates. Multiple analyst upgrades with average price targets around $256. Pre-market surge of 10.5% shows strong momentum continuing."
+    },
+    {
+      "id": "pred_claude35_20260311_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.0,
+      "current_price_at_prediction": 92.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Energy sector benefits from sustained oil price elevation due to Strait of Hormuz disruptions. Even with recent oil price declines from $119 to mid-$80s, geopolitical premium remains with Iran conflict unresolved."
+    },
+    {
+      "id": "pred_claude35_20260311_005",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 89.5,
+      "current_price_at_prediction": 91.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Fed likely to maintain hawkish stance with CPI meeting expectations but oil-driven inflation concerns persist. Rising energy costs could force Fed to stay restrictive longer, pressuring long-term Treasuries."
+    }
+  ]
+}

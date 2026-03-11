@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-11",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-11T14:27:30.180744+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors focusing on the latest inflation data set to be released today. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data, including the Consumer Price Index (CPI), is expected to influence market direction.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260311_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is likely to rise today due to positive sentiment from pre-market futures and anticipated favorable CPI data, which could alleviate inflation concerns. Additionally, the ongoing strength in European markets may provide further support."
+    },
+    {
+      "id": "pred_gpt4o_20260311_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is expected to benefit from recent positive analyst upgrades and strong demand for its latest product line, which could drive the stock higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260311_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 715.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla might face downward pressure due to recent recalls announced overnight and concerns about production delays in its Shanghai factory, which could weigh on investor sentiment."
+    }
+  ]
+}
