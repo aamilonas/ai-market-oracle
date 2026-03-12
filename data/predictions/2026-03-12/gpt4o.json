@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-12",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-12T14:15:03.284313+00:00",
+  "market_context": "U.S. stock futures are slightly higher this morning, with investors focusing on the upcoming release of the Consumer Price Index (CPI) data, which is expected to show a moderate increase in inflation. Overnight, Asian markets closed mixed, while European markets are trading in positive territory. Notable pre-market movers include Tesla, which is up due to a positive analyst upgrade, and Apple, which is slightly down following supply chain concerns.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260312_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With U.S. futures pointing higher and positive sentiment from European markets, SPY is likely to rise. The anticipated CPI data is expected to show moderate inflation, which could ease investor concerns about aggressive rate hikes, supporting a bullish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260312_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is facing supply chain issues that have been highlighted in recent reports, potentially impacting its production and sales outlook. This negative sentiment could weigh on its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260312_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 850.0,
+      "current_price_at_prediction": 835.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla received a positive analyst upgrade, citing strong demand for its new models and expansion into new markets. This positive news is likely to drive the stock higher today."
+    }
+  ]
+}

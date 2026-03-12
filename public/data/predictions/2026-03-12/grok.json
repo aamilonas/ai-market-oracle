@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-12",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-12T14:15:13.272077+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector gains amid upcoming product announcements. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like AAPL and NVDA. Major news includes a scheduled Federal Reserve speech at 2 PM ET, which could impact rate expectations.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260312_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest a bullish open, supported by optimistic X/Twitter chatter around economic recovery. The Federal Reserve speech today could provide further clarity on rates, potentially boosting market confidence if dovish tones are struck."
+    },
+    {
+      "id": "pred_grok_20260312_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "AAPL is a notable pre-market mover with a 1.2% gain, driven by rumors of a new product launch discussed widely on X/Twitter. Web searches confirm analyst upgrades from firms like Morgan Stanley citing strong iPhone demand, supporting a bullish outlook."
+    },
+    {
+      "id": "pred_grok_20260312_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 150.0,
+      "current_price_at_prediction": 147.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA shows pre-market strength (+1.5%) amid positive sentiment on X/Twitter regarding AI chip demand. Options flow data from web sources indicates heavy call buying for March expiries, suggesting short-term bullish momentum."
+    },
+    {
+      "id": "pred_grok_20260312_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with concerns over TSLA’s recent production delays in Europe, as reported by Reuters via web search. High short interest signals from market data suggest potential downward pressure if negative news persists."
+    }
+  ]
+}

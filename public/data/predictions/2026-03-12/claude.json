@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-12",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-12T09:15:00Z",
+  "market_context": "Markets are under significant pressure with futures at yearly lows due to escalating Iran-Israel tensions driving oil prices higher and stoking stagflation fears. Private credit stress is weighing on financials as Morgan Stanley and JPMorgan restrict fund withdrawals and lending.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260312_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 667.5,
+      "current_price_at_prediction": 679.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Futures are down nearly 1% pre-market with energy-driven stagflation concerns dominating. Geopolitical tensions and broad risk-off sentiment should pressure the index lower."
+    },
+    {
+      "id": "pred_claude_20260312_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 612.0,
+      "current_price_at_prediction": 607.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Despite broad market weakness, tech has shown resilience with NVDA partnership news and AI infrastructure spending. QQQ may outperform on sector rotation into defensive growth names."
+    },
+    {
+      "id": "pred_claude_20260312_003",
+      "ticker": "ADBE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "current_price_at_prediction": 273.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Earnings after market close with options implying 7.68% move. Recent 11% recovery and cheap 16x P/E valuation suggest positive surprise potential on AI integration progress."
+    },
+    {
+      "id": "pred_claude_20260312_004",
+      "ticker": "JPM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 201.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Bank is actively marking down private credit loans and restricting sector exposure, signaling credit stress. Already down 2%+ pre-market with sector under scrutiny."
+    },
+    {
+      "id": "pred_claude_20260312_005",
+      "ticker": "MS",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 88.5,
+      "current_price_at_prediction": 91.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Morgan Stanley capped withdrawals from private credit fund with 11% redemption requests exceeding quarterly limits. Clear sign of stress in key revenue segment with contagion risk."
+    }
+  ]
+}

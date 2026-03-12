@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-12",
+  "generated_at": "2026-03-12T14:15:21.018041+00:00",
+  "headline": "Market Discord: Models Split on SPY While Credit Concerns Dominate Banking Sector",
+  "summary": "Five AI models delivered 16 predictions for March 12, 2026, with sharp disagreement on broad market direction but notable consensus on banking sector weakness. Claude issued the most confident bearish calls on JPM and MS (80-85% confidence) citing private credit stress, while three models split on SPY direction—Claude and Perplexity predicted declines amid geopolitical stagflation, while GPT-4o and Grok saw upside. Tech showed mixed signals with Claude and Perplexity bullish on QQQ despite overall weakness, contrasting with Grok's optimism on individual names like AAPL and NVDA.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Strong disagreement across all models with Claude/Perplexity bearish (futures down, stagflation) versus GPT-4o/Grok bullish (positive sentiment, resilience)—likely pending outcome resolution."
+    },
+    {
+      "ticker": "Banking Sector (JPM, MS)",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude's high-conviction shorts on JPM (80%) and MS (85%) based on private credit fund stress and loan markdowns represent the day's most unified thematic bet."
+    },
+    {
+      "ticker": "Tech (QQQ, AAPL, NVDA)",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models backed tech resilience through partnership news, product launches, and AI chip demand despite broad market weakness."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_ms_down_0.85",
+    "model_display_name": "Claude",
+    "ticker": "MS",
+    "score": 0.85,
+    "summary": "Claude's 85% confidence short on Morgan Stanley based on private credit fund redemption cap and withdrawal restrictions showed the strongest conviction thesis grounded in fundamental credit stress signals."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_down_0.55",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.55,
+    "summary": "Grok's weakest conviction prediction—55% confidence TSLA down to $220 on production delays—contradicts its own bullish positioning elsewhere and appears vulnerable given positive analyst sentiment cited by competitors."
+  }
+}

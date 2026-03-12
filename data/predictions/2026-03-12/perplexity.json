@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-12",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-12T14:14:55Z",
+  "market_context": "US stock futures declined on March 12 as oil prices surged amid Iran war tensions, with WTI crude climbing 6% to $93/barrel and Brent reaching near $100/barrel[1]. Dow Jones futures fell 425 points (0.9%), S&P 500 futures declined 0.7%, and Nasdaq 100 futures traded lower[1]. The Energy Secretary announced a 172 million barrel Strategic Petroleum Reserve release, but market pressure persisted as geopolitical concerns outweighed supply relief measures[1].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260312_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "S&P 500 futures down 0.7% at market open with oil-driven selling pressure[1]. Energy stocks showing strength (CF +9.16%, PATH +6.82%) but broad market weakness from elevated crude prices ($93 WTI) will likely persist through the session[1][5]."
+    },
+    {
+      "id": "pred_perplexity_20260312_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Dow Jones futures fell 425 points (0.9%) on March 12 morning with no significant positive catalysts to offset oil-driven headwinds[1]. Industrial and transportation sectors typically underperform during crude spikes, supporting downside bias."
+    },
+    {
+      "id": "pred_perplexity_20260312_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq 100 futures down 0.61% but tech showed relative resilience with Oracle (ORCL) up 9.18% on positive AI news[5]. Nasdaq's lower energy exposure and tech strength may allow modest recovery or outperformance versus broader indices by close[5]."
+    },
+    {
+      "id": "pred_perplexity_20260312_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 0.0,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector benefiting from 6% crude gains with WTI at $93 and Brent near $100 on Iran war supply concerns[1]. SPR release announcement insufficient to reverse uptrend; energy stocks (CF, PATH) already showing strong gains[5]."
+    }
+  ]
+}
