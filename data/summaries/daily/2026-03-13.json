@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-13",
+  "generated_at": "2026-03-13T14:12:00.768345+00:00",
+  "headline": "Conflicting signals: Tech optimism clashes with macro inflation concerns",
+  "summary": "Five AI models delivered sharply divergent predictions on 2026-03-13, with notable consensus splits on major indices and clear tech sector enthusiasm. Claude positioned bullishly on NVDA and QQQ ahead of the GTC conference, while Perplexity warned of pre-market weakness across equities. SPY predictions were particularly fractured, with Claude and Perplexity bearish versus GPT-4o and Grok bullish, reflecting genuine market uncertainty around PCE inflation data.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Complete disagreement: Claude and Perplexity bearish (0.72, 0.7 confidence) vs. GPT-4o and Grok bullish (0.65 each), reflecting macro uncertainty around PCE inflation timing."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models bullish on NVDA ahead of GTC 2026 conference, though Grok's $950 target is dramatically more aggressive than Claude's $190."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models bearish on Tesla citing supply chain and production issues, though targets differ wildly ($700 vs $220)."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude bullish on tech rebound (0.68) while Perplexity cautious on NASDAQ weakness (0.65 confidence down)."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_nvda_up",
+    "model_display_name": "Claude",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Claude's highest-confidence NVDA bull call (0.78) with logical catalyst reasoning around GTC 2026 conference positioning, supported by secondary agreement from Grok."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_nvda_up",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Grok's NVDA target of $950 appears implausibly aggressive relative to current market fundamentals and lacks detailed supporting reasoning compared to Claude's more measured $190 target."
+  }
+}

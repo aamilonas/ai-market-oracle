@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-13",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-13T14:11:43.884412+00:00",
+  "market_context": "U.S. stock futures are indicating a positive open, buoyed by strong overnight performance in Asian markets and easing concerns over recent geopolitical tensions. Key economic data releases today include the U.S. Consumer Price Index (CPI) and retail sales figures, which are expected to show moderate growth.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260313_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures and strong Asian market performance suggest a bullish sentiment. Additionally, anticipated moderate growth in CPI and retail sales could support market optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260313_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's recent product launch has been well-received, and analysts have upgraded their price targets, contributing to positive sentiment around the stock."
+    },
+    {
+      "id": "pred_gpt4o_20260313_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 715.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla faces potential headwinds due to supply chain disruptions reported in its Shanghai factory, which could weigh on investor sentiment."
+    }
+  ]
+}

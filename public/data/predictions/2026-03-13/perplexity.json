@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-13",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-13T14:11:34Z",
+  "market_context": "US Dollar Index futures (DXH26) hit a 3.5-month high at 100.295, up 3.44% over the past month amid Thursday's stock slump boosting dollar demand. Pre-market futures show broad declines of about 0.5%, with Russell weakest (down 33 handles), Dow/NASDAQ/S&P slightly stronger but still negative; oil spiked nearly 8% overnight to 96 before pulling back to 93, spooking markets. Gold down 0.63%, silver up 1.75%, with high volatility in energy.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260313_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 575.0,
+      "current_price_at_prediction": 578.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Pre-market S&P futures down ~0.5% following Thursday's slump, with Russell even weaker at -33 handles and broad risk-off sentiment. Oil's overnight 8% spike to 96 (now 93) adds inflation fears, pressuring equities. Dollar index at 3.5-month high of 100.295 supports USD strength, typically bearish for stocks."
+    },
+    {
+      "id": "pred_perplexity_20260313_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 488.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NASDAQ futures down 0.5% in pre-market, lagging slightly behind Dow/S&P amid broad declines. High oil volatility (up $5.60 but off highs) and strong dollar (DXY +0.39% to 100.130) weigh on tech-heavy QQQ. Continued risk-off from prior session's weakness points to modest further pullback."
+    },
+    {
+      "id": "pred_perplexity_20260313_003",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 14.5,
+      "current_price_at_prediction": 14.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Oil futures spiked nearly 8% overnight to 96 before retreating to 93, with high IV rank and steep backwardation signaling supply disruption pricing. Silver up 1.75% adds commodity strength; despite pullback, elevated volatility warrants forward trade bias higher into session."
+    },
+    {
+      "id": "pred_perplexity_20260313_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.0,
+      "current_price_at_prediction": 216.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Gold futures (GCJ26) down 0.63% at 5,093.4 amid dollar strength to 100.295 high. Pre-market equity weakness boosts liquidity demand for USD over safe-haven gold. Limited upside catalysts with oil dominating commodity moves."
+    }
+  ]
+}
