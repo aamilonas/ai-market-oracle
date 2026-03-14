@@ -1,0 +1,54 @@
+{
+  "week": "2026-W10",
+  "period": "Mar 2 – Mar 6, 2026",
+  "generated_at": "2026-03-14T15:21:12.176194+00:00",
+  "headline": "Claude dominates with precision calls; Perplexity struggles with bearish misdirection",
+  "summary": "Claude emerged as the clear winner this week, posting a dominant 0.80 accuracy rate with four correct directional calls and two exceptional high-confidence predictions on SPY. Meanwhile, Grok and GPT-4o showed solid mid-range performance, each hitting around 0.67 accuracy. Perplexity suffered a sharp reversal from its earlier promise, getting caught repeatedly betting against the market's upward momentum—particularly on SPY and QQQ where it predicted downturns that never materialized. The week's standout theme: major indices surged (SPY, QQQ, DIA all up), rewarding bullish forecasters and punishing persistent bears.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 4.23,
+      "predictions": 15,
+      "accuracy": 0.8,
+      "rank_change": 1
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 2.85,
+      "predictions": 12,
+      "accuracy": 0.667,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 2.85,
+      "predictions": 12,
+      "accuracy": 0.667,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -0.13,
+      "predictions": 12,
+      "accuracy": 0.417,
+      "rank_change": -3
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude predicted SPY would close at 675 on March 4; actual close 680.33—near-perfect target accuracy with 0.99 precision and high confidence reward."
+  },
+  "worst_call": {
+    "model": "Grok",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Grok predicted NVDA upside to 950 but it closed down at 180.05—a catastrophic miss that cost the full confidence penalty of -0.70."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 6,
+    "consensus_correct": 5,
+    "accuracy": 0.833
+  }
+}
