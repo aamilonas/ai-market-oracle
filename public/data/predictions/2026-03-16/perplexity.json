@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-16",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-16T14:45:30Z",
+  "market_context": "Stock index futures are trading above fair value with the Nasdaq expected to rise up to 1% despite mixed technical signals in tech stocks[1][2]. The market is navigating Middle East tensions affecting oil prices (Brent crude above $100), sticky inflation concerns pushing the 10-year yield to 4.28%, and the Fed's FOMC decision on Wednesday[4][5]. Metals sector weakness and transportation stock declines contrast with broader bullish intermediate-term outlook and strong Q4 earnings results[1][4].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260316_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures pointing to higher open with S&P 500 expected to advance despite week-to-date decline of 1.6%[1][2]. Oppenheimer maintains bullish intermediate-term outlook citing solid economic fundamentals and positive earnings growth[4]. However, confidence is tempered by sticky inflation, Middle East geopolitical risk, and technical weakness in several major sectors[1][4]."
+    },
+    {
+      "id": "pred_perplexity_20260316_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq futures expected to rise up to 1% despite NASDAQ 100 hovering near support levels and multiple major tech names triggering sell signals[1]. The 'anything-but-AI sentiment' is leaving AI stocks looking attractive to contrarian investors[5]. Confidence is lower due to explicit technical weakness and bearish signals in the tech sector[1]."
+    },
+    {
+      "id": "pred_perplexity_20260316_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow Jones shed 1.99% last week but futures are trading above fair value with broader market expected to open higher[1][2][4]. Energy sector led gains this week and oil price stabilization supports industrial stocks[5]. Confidence reflects mixed signals: positive futures momentum offset by geopolitical risks and the Dow's year-to-date decline of 3.13%[4]."
+    },
+    {
+      "id": "pred_perplexity_20260316_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Brent crude stabilized above $100 as efforts to restore Strait of Hormuz oil flow intensify, pausing the recent run-up[5]. Energy sector led US sector gains this week[5]. Oil price stability near elevated levels supports energy stocks despite broader market uncertainty."
+    },
+    {
+      "id": "pred_perplexity_20260316_005",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Gold showing bearish signals along with silver, copper, platinum, and palladium as the metals sector faces pressure[1]. Rising 10-year yields to 4.28% reduce gold's appeal as a non-yielding asset[4]. Metals weakness is one of the clearest directional signals in today's market setup."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-16",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-16T14:45:39.991412+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Key economic indicators, including retail sales and industrial production, are expected today, which could influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260316_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable economic data, particularly in retail sales, which could boost consumer confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260316_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech stocks are likely to benefit from strong industrial production numbers, as tech companies are significant contributors to this sector's growth."
+    },
+    {
+      "id": "pred_gpt4o_20260316_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is expected to gain from positive market sentiment and recent product announcements that have been well-received by consumers."
+    }
+  ]
+}
