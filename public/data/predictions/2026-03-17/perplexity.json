@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-17T14:40:07Z",
+  "market_context": "U.S. stock futures are mixed with downward pressure as oil prices spike amid U.S.-Iran tensions[2]. The Nasdaq 100 futures are down 0.38%, S&P 500 futures down 0.29%, and Dow Jones futures down 0.21%[2]. However, overnight Asian markets showed the Dow Jones added 0.8% and Nasdaq composite jumped 1.2%[1], suggesting some recovery momentum despite oil concerns.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260317_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures are down 0.29% with oil-driven volatility from U.S.-Iran tensions[2]. While Asian markets showed strength overnight, the persistent futures weakness and geopolitical risk suggest continued pressure through the U.S. session, though confidence is moderate given mixed signals."
+    },
+    {
+      "id": "pred_perplexity_20260317_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq 100 futures are down 0.38%, the largest decline among major indices[2], indicating tech sector weakness. Oil price spikes typically pressure growth stocks more heavily than value stocks, and the 0.38% futures decline suggests this weakness will persist into the regular session."
+    },
+    {
+      "id": "pred_perplexity_20260317_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow Jones futures are down 0.21%, the smallest decline among major indices[2], but overnight the Dow added 0.8%[1]. This suggests the Dow may show relative resilience, though the modest futures decline and oil headwinds make a flat-to-slightly-down close more likely than a strong recovery."
+    }
+  ]
+}

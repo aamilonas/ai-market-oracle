@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-17",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-17T14:40:12.913251+00:00",
+  "market_context": "U.S. stock futures are indicating a positive open as investors digest overnight news of a potential breakthrough in U.S.-China trade negotiations. Additionally, the economic calendar shows a key Federal Reserve meeting later today, which is expected to provide guidance on future interest rate policies.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260317_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment from the U.S.-China trade talks and anticipation of dovish signals from the Federal Reserve are likely to boost investor confidence, supporting an upward movement in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260317_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech stocks are expected to benefit from the positive trade news and potential Fed rate pause, driving QQQ higher."
+    },
+    {
+      "id": "pred_gpt4o_20260317_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 350.0,
+      "current_price_at_prediction": 347.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Industrial stocks in the Dow are likely to gain from improved trade relations and stable interest rate expectations, pushing DIA upwards."
+    },
+    {
+      "id": "pred_gpt4o_20260317_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple is set to benefit from the tech sector rally and positive consumer sentiment following trade news, likely driving its stock price higher."
+    }
+  ]
+}

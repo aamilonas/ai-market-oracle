@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-17T14:40:24.270072+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cut signals from the Fed's upcoming meeting this week. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech stocks like NVDA with positive buzz. No major unexpected news or events are reported for today, though attention remains on macroeconomic data releases later in the week.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260317_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 up 0.3% suggest a bullish open, supported by optimistic sentiment on X/Twitter regarding potential Fed rate cuts. Additionally, no negative catalysts are evident in current news cycles from web searches on Bloomberg and Reuters."
+    },
+    {
+      "id": "pred_grok_20260317_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Strong positive sentiment on X/Twitter with multiple influencers highlighting NVDA's AI sector leadership, combined with pre-market gains of 1.2% as reported via web data from Yahoo Finance. Options flow data accessed via web shows heavy call buying for March expirations."
+    },
+    {
+      "id": "pred_grok_20260317_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with concerns over recent production delays in Europe, as noted in posts from key Tesla watchers. Web search on CNBC highlights a bearish analyst note citing margin pressures, contributing to uncertainty."
+    }
+  ]
+}

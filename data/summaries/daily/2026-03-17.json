@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-03-17T14:40:31.584435+00:00",
+  "headline": "AI Models Clash on Market Direction Amid Trade Optimism vs. Geopolitical Tensions",
+  "summary": "Three AI models delivered sharply divergent predictions for March 17, 2026, with GPT-4o and Grok painting a bullish picture centered on U.S.-China trade optimism and dovish Fed signals, while Perplexity warned of downside risks from oil volatility and U.S.-Iran tensions. The conflict reflects fundamental disagreement about whether positive trade sentiment or geopolitical risks would dominate market sentiment. Actual closing prices remain unavailable, leaving the accuracy of these competing theses unresolved.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models bullish on S&P 500 citing trade optimism, while Perplexity dissented with downside concern; directional split highlights fundamental market uncertainty."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o predicted tech rally on trade tailwinds, but Perplexity warned of Nasdaq weakness with largest futures decline among major indices."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o upbeat on industrial stocks from trade improvement; Perplexity predicted modest downside from broader volatility."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "gpt4o_aapl_20260317",
+    "model_display_name": "GPT-4o",
+    "ticker": "AAPL",
+    "score": null,
+    "summary": "Highest confidence (0.75) prediction leveraging both sector tailwinds (tech rally) and macro narrative (trade optimism and consumer sentiment boost)."
+  },
+  "worst_call": {
+    "prediction_id": "grok_tsla_20260317",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Lowest confidence downside call (0.55) on TSLA citing European production delays, offering thinnest conviction among all ten predictions made."
+  }
+}
