@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-18",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-18T14:47:56Z",
+  "market_context": "US stock futures are holding steady to slightly higher ahead of the Federal Reserve's interest rate decision and PPI data release, with S&P 500 E-mini futures (ESH26) up +0.50% and Nasdaq futures (NQH26) up +0.52% in recent trading.[1][3] Markets are influenced by retreating oil prices amid Iran conflict concerns, strength in chip stocks like WDC (+9.64%) and travel names like ABNB (+2.83%), following Tuesday's gains where S&P 500 closed +0.25%, Dow +0.10%, and Nasdaq +0.51%.[3][4] Pre-market movers highlight tech and AI optimism, with overall sentiment cautious but supported by falling bond yields.[3][8]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260318_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 6738.0,
+      "current_price_at_prediction": 6735.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 E-mini futures (ESH26) are up +0.50% pre-market at 6735.25, signaling positive momentum into open amid retreating oil prices and ahead of Fed decision.[3] Tuesday's S&P 500 close was +0.25%, with chip and travel stocks rallying, supporting broader index strength.[3] Underlying bid noted in live futures commentary, with 200-day moving average providing support.[5]"
+    },
+    {
+      "id": "pred_perplexity_20260318_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 21500.0,
+      "current_price_at_prediction": 21450.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 E-mini futures (NQH26) rose +0.52% recently, with Tuesday's index up +0.51% driven by tech rally including chip makers like WDC (+9.64%) and STX (+5.59%).[3] Wall Street futures rising on tech gains, Meta AI prep boosting sentiment.[8] Pre-market strength in GOOGL (+1.75%), AAPL (+0.56%), and NVDA (+0.25%) points to continued Nasdaq outperformance.[3][4]"
+    },
+    {
+      "id": "pred_perplexity_20260318_003",
+      "ticker": "WDC",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 313.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Western Digital (WDC) is a top pre-market mover at +9.64% to 313.81, leading chip sector rally alongside STX (+5.59%).[3] Recent sessions show consistent strength in semiconductors like MU (+0.25%), NVDA (+0.25%), with Nasdaq futures supportive.[3][4] Momentum likely persists amid tech optimism pre-Fed.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260318_004",
+      "ticker": "ABNB",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "current_price_at_prediction": 131.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Airbnb (ABNB) up +2.83% pre-market to 131.95, part of travel stock surge with ALK (+1.33%), UAL (+3.22%).[3] Sector rotation into travel amid falling oil prices supports gains, following Tuesday's broader market advance.[3] Positive futures tone adds tailwind.[1]"
+    }
+  ]
+}

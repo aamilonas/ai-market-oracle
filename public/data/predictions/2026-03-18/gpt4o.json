@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-18",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-18T14:48:03.852848+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mostly in the green, and European markets are showing positive momentum. Key economic data, including the U.S. housing starts and jobless claims, are expected today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260318_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from strong overnight performance in Asian and European markets. Additionally, anticipated favorable U.S. economic data, particularly in housing and employment, could boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260318_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is likely to see gains following reports of strong pre-orders for its latest iPhone model, coupled with a positive tech sector outlook from pre-market futures."
+    },
+    {
+      "id": "pred_gpt4o_20260318_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla may face downward pressure due to recent regulatory concerns in China and a downgrade by a major investment bank, which could weigh on investor sentiment."
+    }
+  ]
+}

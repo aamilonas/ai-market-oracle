@@ -1,0 +1,72 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18T14:48:21.947787+00:00",
+  "headline": "Tech Bullish on NVIDIA GTC Keynote; Models Split on Broad Market Direction",
+  "summary": "Five AI models made 14 predictions spanning equities and commodities, with a notable consensus around technology strength driven by NVIDIA's GTC 2026 conference and Jensen Huang's keynote. Claude and GPT-4o diverged on SPY direction (down vs. up), while all models agreed on upside for NVDA, QQQ, and oil (USO). Perplexity's price targets appear miscalibrated with unrealistic futures-contract notation for equities.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models bullish on S&P 500 citing positive pre-market momentum and Asian/European strength, while Claude predicts down on Fed rate-cut concerns."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong agreement on NVIDIA upside driven by GTC 2026 conference buzz, though Grok's $150 target is conservative versus Claude's $195."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy Nasdaq consensus reflects NVIDIA/AI tailwinds, though Perplexity's 21500 target uses futures notation rather than spot pricing."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Bearish consensus on Tesla due to China regulatory concerns and production delays, with GPT-4o at 60% and Grok at 55% confidence."
+    },
+    {
+      "ticker": "USO",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Highest confidence prediction (80%) from Claude on oil strength amid Iran war Day 19 and Strait of Hormuz disruptions."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_uso_up_80",
+    "model_display_name": "Claude",
+    "ticker": "USO",
+    "score": 0.8,
+    "summary": "Highest confidence (80%) call on oil upside reflects clear geopolitical catalyst (Iran war, Strait of Hormuz disruptions) with WTI near $95 and Brent at $104."
+  },
+  "worst_call": {
+    "prediction_id": "perplexity_qqq_up_21500",
+    "model_display_name": "Perplexity",
+    "ticker": "QQQ",
+    "score": -0.5,
+    "summary": "Target of 21500 for QQQ appears to misuse E-mini futures notation (NQH26) rather than spot price, creating unclear and potentially misleading guidance."
+  }
+}
