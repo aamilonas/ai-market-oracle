@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-19",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-19T14:29:18.474215+00:00",
+  "market_context": "Pre-market futures indicate a positive opening for U.S. markets, with S&P 500, Nasdaq, and Dow Jones futures all trending upwards. Overnight news highlights a potential resolution in ongoing geopolitical tensions, boosting investor sentiment. The economic calendar includes key data releases such as initial jobless claims and existing home sales, which could influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260319_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures and easing geopolitical tensions are likely to drive SPY upwards. Additionally, anticipated favorable economic data releases could further bolster market confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260319_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 396.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech stocks are expected to benefit from improved market sentiment and strong futures performance, potentially driving QQQ higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260319_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is likely to gain from the overall positive market sentiment and recent product announcements that have been well-received by analysts."
+    },
+    {
+      "id": "pred_gpt4o_20260319_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite the positive market trend, Tesla faces specific challenges including regulatory scrutiny and competition concerns, which may weigh on its stock price."
+    }
+  ]
+}

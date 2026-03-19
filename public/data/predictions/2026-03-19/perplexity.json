@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-19",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-19T14:29:12Z",
+  "market_context": "US stock futures are slipping modestly with Dow futures down 0.1%, S&P 500 futures down 0.1%, and Nasdaq 100 futures down 0.2% amid surging oil prices (Brent at $114.86, up nearly 7%) due to West Asia conflicts and inflation fears from strong producer prices data. The Dow hit a 2026 low yesterday, falling 1.6% below its 200-day moving average, heightening stagflation concerns and reducing Fed rate-cut odds. Markets await today's FOMC decision, dot plot, and Powell press conference, with rates likely holding at 3.50-3.75%.[1][2][3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260319_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 662.0,
+      "current_price_at_prediction": 6624.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 E-Mini futures (ESH26) are down 0.18-0.79% pre-market, signaling a weak open after yesterday's 1.4% drop and Dow's 2026 low below 200-day MA. Oil spike to $114.86 and inflation data reduce Fed cut odds to 52%, pressuring broad indices lower.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260319_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 435.0,
+      "current_price_at_prediction": 436.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq 100 E-Mini futures (NQH26) down 0.27% pre-market, extending yesterday's 1.5% Nasdaq decline amid stagflation fears from oil surge and geopolitics. Tech stocks like NVDA (-1.97%) and MU (-5.89%) show pre-market weakness.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260319_003",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85.0,
+      "current_price_at_prediction": 80.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Brent crude spiked nearly 7% to $114.86 after West Asia energy attacks, driving commodity strength with S&P GSCI up 24.83% in 1-month. Energy ETFs like USO poised to extend gains amid ongoing tensions.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260319_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 420.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow futures down 0.1% or 55 points pre-market after 768-point (1.6%) plunge to 2026 low yesterday, breaching 200-day MA on inflation and oil risks. Basic resources and miners down sharply on input costs.[1]"
+    }
+  ]
+}

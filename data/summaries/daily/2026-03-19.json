@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19T14:29:36.628533+00:00",
+  "headline": "Market models split on geopolitical shock; energy surge amid Iran tensions",
+  "summary": "Five AI models made 17 predictions on 2026-03-19 amid a volatile market backdrop dominated by Iran war escalation and oil shock. Claude took a distinctly bearish stance on equities while bullish on energy, directly contradicting GPT-4o, Grok, and Perplexity on major indices like SPY and QQQ. The day's defining narrative: energy outperformance (XLE, USO, oil futures) versus broad equity weakness, with actual closes still pending validation.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude and Perplexity both predicted downside citing weak pre-market action and geopolitical headwinds, conflicting with GPT-4o and Grok's bullish calls."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited tech sector weakness from rising yields and extended Nasdaq losses, but GPT-4o predicted upside recovery."
+    },
+    {
+      "ticker": "Energy (XLE/USO)",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Unanimous bullish energy calls on Brent crude surge to $114+ driven by Iran strike threats against Gulf infrastructure."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both predicted weakness citing regulatory scrutiny and China production delays despite broader market sentiment divergence."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_xle_up",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": 1.2,
+    "summary": "Highest conviction energy call (0.85 confidence) with precise geopolitical catalyst reasoning as Brent spiked 7% to $114 on Iran war escalation."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpto_qqq_up",
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": -0.85,
+    "summary": "Predicted QQQ upside to 400 on improved sentiment despite QQQ already down 1.21% at open and facing tech sector headwinds that Claude and Perplexity correctly identified."
+  }
+}
