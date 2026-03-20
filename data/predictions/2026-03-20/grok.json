@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-20",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-20T14:12:58.823866+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate decisions and tech sector strength. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech giants like NVDA with positive buzz. Major news includes an anticipated Fed statement later today, which could sway markets.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260320_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 up 0.3% suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around Fed dovishness. However, uncertainty around the Fed statement tempers confidence."
+    },
+    {
+      "id": "pred_grok_20260320_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Strong positive sentiment on X/Twitter with hashtags like #NVDABull trending among retail investors. Pre-market data shows NVDA up 1.2%, and recent options flow indicates heavy call buying for March expiry. Confidence is moderate due to potential volatility from Fed news."
+    },
+    {
+      "id": "pred_grok_20260320_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with some users citing concerns over EV market competition. Web search highlights a recent analyst downgrade due to margin pressures. Confidence is low due to conflicting signals and potential Fed impact."
+    }
+  ]
+}

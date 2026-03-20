@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-20T14:12:48Z",
+  "market_context": "US stock futures are pointing to a lower open on March 20, with March E-mini S&P futures (ESH26) at 6,582.00 (-0.41%) and Nasdaq futures (NQH26) down -0.27% pre-market amid rising oil prices from Middle East tensions and inflation fears pushing bond yields higher. Major indices closed lower on March 19: S&P 500 -0.43%, Dow -0.59%, Nasdaq 100 -0.44%, with notable pre-market declines in META (-1.46%), MU (-3.78%), and MOS (-5.69%). VIX futures show elevated volatility, up 15.39% over the past month.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260320_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 580.5,
+      "current_price_at_prediction": 583.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 closed down -0.43% on March 19 amid inflation fears and higher bond yields (ZNM26 -0.20%), with E-mini S&P futures (ESH26) at 6,582.00 (-0.41%) signaling continued weakness into Friday's open. Pre-market shows broad declines including META (-1.46%) and MU (-3.78%), supporting further downside for SPY from recent levels."
+    },
+    {
+      "id": "pred_perplexity_20260320_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 487.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq 100 down -0.44% on March 19, with futures (NQH26) -0.27% pre-market amid oil price advances and Middle East escalation. Tech names like MU (-3.78%), NVDA (-1.02%), and MSFT (-0.71%) are dragging, likely pressuring QQQ lower by end of day."
+    },
+    {
+      "id": "pred_perplexity_20260320_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 422.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow closed -0.59% on March 19 with futures (YRH26) showing monthly -7.04% decline from peaks, amid retreating stocks and rising yields. Pre-market weakness in industrials and broad market supports modest further drop."
+    },
+    {
+      "id": "pred_perplexity_20260320_004",
+      "ticker": "MU",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 435.0,
+      "current_price_at_prediction": 444.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "MU at 444.27 (-3.78%) in pre-market, part of Nasdaq weakness with futures down -0.27% and elevated VIX futures (+15.39% monthly). Semiconductor sector pressure from broader tech retreat likely extends losses."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-20",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-20T05:30:00Z",
+  "market_context": "Markets face significant headwinds with Middle East conflict driving oil prices above $96/barrel and fueling inflation concerns. Today marks Triple Witching expiration with $5.7 trillion in options set to expire, historically creating higher volatility and negative bias. Fed maintained rates but uncertainty over war's economic impact weighs heavily on sentiment.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260320_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 649.5,
+      "current_price_at_prediction": 659.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Triple Witching combined with geopolitical tensions creates strong downward pressure. Historical data shows SPY has only 25% win rate on Triple Witching days with median return of -0.36%. Current price is just above critical 200-day moving average support at 6,615, making breakdown highly probable."
+    },
+    {
+      "id": "pred_claude_20260320_002",
+      "ticker": "FDX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 295.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "FedEx crushed Q3 earnings with $5.25 EPS vs $4.16 expected and raised full-year guidance to 6-6.5% revenue growth. Stock surged 9% after-hours, demonstrating strong momentum despite broader market weakness. Strong logistics demand provides defensive qualities amid economic uncertainty."
+    },
+    {
+      "id": "pred_claude_20260320_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 62.5,
+      "current_price_at_prediction": 59.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Energy sector benefits directly from oil price surge above $96 with Brent crude reaching $108. Middle East conflict continues with no immediate resolution in sight, maintaining upward pressure on energy prices. Sector has defensive characteristics during geopolitical crises."
+    },
+    {
+      "id": "pred_claude_20260320_004",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 28.5,
+      "current_price_at_prediction": 24.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.73,
+      "reasoning": "Triple Witching historically increases volatility, and current VIX at 24.85 remains below stress levels despite ongoing war. $5.7 trillion in options expiring creates mechanical volatility, while oil price uncertainty and S&P approaching 200-day moving average support suggests fear will increase."
+    },
+    {
+      "id": "pred_claude_20260320_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 242.0,
+      "current_price_at_prediction": 248.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech-heavy Nasdaq futures down 0.48% pre-market with stocks like Nvidia and Microsoft showing weakness. Triple Witching creates additional selling pressure, and rising rates environment (10-year at 4.29%) pressures high-multiple growth stocks. Micron's disappointment despite earnings beat signals sector rotation away from tech."
+    }
+  ]
+}

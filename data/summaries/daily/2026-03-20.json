@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-03-20T14:13:07.479095+00:00",
+  "headline": "Market split on SPY direction as models clash on macro outlook",
+  "summary": "Five AI models made 15 predictions across major indices and individual stocks, with sharp disagreement on the S&P 500's direction despite consensus weakness elsewhere. Claude took aggressive sector bets on energy and earnings momentum, while Perplexity and others flagged inflation/bond yield headwinds. No actual outcomes available yet to assess accuracy.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Three models split on SPY with Claude predicting down (78% confidence) while GPT-4o and Grok predict up (65% each), creating fundamental disagreement on macro direction."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both Claude (68%) and Perplexity (65%) expect Nasdaq weakness, with Perplexity citing continued pre-market futures pressure."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "GPT-4o (60%) and Grok (55%) both bearish on Tesla due to regulatory and competitive concerns, though confidence levels are modest."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_fdx_up",
+    "model_display_name": "Claude",
+    "ticker": "FDX",
+    "score": null,
+    "summary": "Claude's FedEx call was most conviction-driven with 85% confidence backed by concrete earnings beat ($5.25 vs $4.16 expected) and raised guidance, providing fundamental strength."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_down",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Grok's Tesla downside target of $220 appears unreasonably extreme with only 55% confidence, suggesting the model lacked conviction while making a dramatic prediction."
+  }
+}
