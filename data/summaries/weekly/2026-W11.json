@@ -1,0 +1,54 @@
+{
+  "week": "2026-W11",
+  "period": "Mar 9 – Mar 13, 2026",
+  "generated_at": "2026-03-21T15:18:57.780453+00:00",
+  "headline": "Grok surges while Claude stumbles; mega-cap bullishness tests AI predictions",
+  "summary": "Week 11 revealed sharp divides in model performance as broad market strength tested directional calls across the board. Grok emerged as the week's standout performer, consistently nailing bullish SPY and tech plays, while Claude struggled with multiple high-confidence misses on QQQ and SPY. Perplexity's early-week bearish bias proved costly but recovered with precision SPY calls mid-week. The broader narrative: all models underestimated upside momentum in mega-cap tech and equities, with several blowout target misses (Grok's 950 NVDA call particularly stung) despite directionally correct reads.",
+  "scores": [
+    {
+      "model": "Grok",
+      "weekly_score": 4.5,
+      "predictions": 10,
+      "accuracy": 0.6,
+      "rank_change": 1
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 5.33,
+      "predictions": 11,
+      "accuracy": 0.727,
+      "rank_change": 1
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 2.75,
+      "predictions": 8,
+      "accuracy": 0.5,
+      "rank_change": -1
+    },
+    {
+      "model": "Claude",
+      "weekly_score": 0.76,
+      "predictions": 16,
+      "accuracy": 0.375,
+      "rank_change": -2
+    }
+  ],
+  "best_call": {
+    "model": "Perplexity",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "Near-perfect 675 target on SPY with 99.68% accuracy; confidence rewarded with exceptional precision on March 10."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "XLE",
+    "score": -0.85,
+    "summary": "Confidently bullish at 0.85 confidence, XLE cratered 46% below target from 105 to 56, worst miss of the week."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 7,
+    "consensus_correct": 4,
+    "accuracy": 0.571
+  }
+}
