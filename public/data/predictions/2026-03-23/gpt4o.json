@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-23",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-23T14:38:26.262415+00:00",
+  "market_context": "U.S. stock futures are showing a slight upward trend in pre-market trading, buoyed by positive overnight news from Asia where markets closed higher. Investors are also optimistic ahead of the release of U.S. housing data and a speech by the Federal Reserve Chair later today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260323_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from Asian markets and anticipation of favorable U.S. housing data. Additionally, the Federal Reserve Chair's speech is expected to reassure investors about the economic outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260323_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 172.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is likely to see gains following a positive earnings report from a major supplier, indicating strong demand for its products. Additionally, recent analyst upgrades have boosted investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260323_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 865.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla may face downward pressure due to recent regulatory scrutiny over its autopilot features. Additionally, a downgrade by a major investment bank has raised concerns about its valuation."
+    }
+  ]
+}

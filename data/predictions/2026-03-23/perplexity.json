@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-23T14:38:20Z",
+  "market_context": "US stock futures are strongly higher in pre-market, with S&P 500 futures at 6,676.75 (+1.80%), Dow Jones futures at 46,760.00 (+1.89%), and Nasdaq 100 futures at 24,557.75 (+1.89%), rebounding from Friday's plunge amid US plans to escalate Iran war[2][3]. Oil prices tumbled sharply with WTI at 90.11 (-8.27%) on U.S.-Iran talks, boosting sentiment as stock index futures rally[2][3]. Robinhood prediction markets show optimism for S&P 500 Jun-26 futures above 6475 at 77¢ probability[1].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260323_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 668.0,
+      "current_price_at_prediction": 660.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures up 1.80% to 6,676.75 pre-market after Friday's -1.51% drop, signaling strong rebound open[2][3]. Robinhood markets price 77% chance Jun-26 futures above 6475, with 68% for above 6600[1]. Oil plunge on U.S.-Iran talks supports risk-on sentiment[3]."
+    },
+    {
+      "id": "pred_perplexity_20260323_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 492.0,
+      "current_price_at_prediction": 483.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Nasdaq 100 futures +1.89% to 24,557.75, mirroring S&P strength post-Friday's -1.88% decline[2][3]. Tech-heavy index benefits from oil tumble (-8.27% WTI) easing energy costs[2]. Prediction markets align with bullish S&P outlook[1]."
+    },
+    {
+      "id": "pred_perplexity_20260323_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 467.5,
+      "current_price_at_prediction": 459.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Dow Jones futures +1.89% to 46,760 after -0.96% Friday close, driven by futures rally on falling oil[2][3]. Geopolitical de-escalation via U.S.-Iran talks counters prior war escalation fears[3]. Broad market pre-market gains support industrials[2]."
+    },
+    {
+      "id": "pred_perplexity_20260323_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 89.5,
+      "current_price_at_prediction": 96.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "WTI oil futures -8.27% to 90.11 on U.S.-Iran talks, extending commodity selloff[2][3]. Brent also -7.48% to 101.36, pressuring energy ETFs like USO[2]. Sharp pre-market drop likely persists amid risk-on shift[3]."
+    }
+  ]
+}

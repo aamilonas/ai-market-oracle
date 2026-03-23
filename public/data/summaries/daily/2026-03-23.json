@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23T14:38:44.891912+00:00",
+  "headline": "Iran De-escalation Sparks Rally; Models Align on Broad Market Gains",
+  "summary": "All five AI models converged on broad market strength following Trump's decision to postpone Iran strikes, with overwhelming consensus for SPY, QQQ, and DIA to rise. Claude took the most hawkish stance with aggressive targets and highest confidence levels, while energy sector predictions diverged sharply—models unanimously expected oil and energy ETFs to crater on geopolitical relief. Final outcomes remain pending as market data has not yet closed.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four of five models bullish with targets ranging from 600-668, citing premarket strength and de-escalation relief."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models expected tech outperformance due to growth sensitivity to lower oil prices post-Iran news."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models expected Dow leadership on energy cost relief benefiting industrial/value sectors."
+    },
+    {
+      "ticker": "VIX",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Only Claude predicted fear gauge collapse (target 22) on Iran de-escalation and strike postponement."
+    },
+    {
+      "ticker": "Oil (XLE/USO)",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Unanimous energy sector weakness expected with targets of 85-89.50 on massive crude price collapse from $113+ to sub-$100."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_xle_20260323",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": null,
+    "summary": "Claude's most confident call (85% confidence) on energy sector collapse directly correlated to observable oil futures decline of 8.27%, demonstrating precise understanding of the Iran de-escalation catalyst."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_aapl_20260323",
+    "model_display_name": "Grok",
+    "ticker": "AAPL",
+    "score": null,
+    "summary": "Grok's AAPL target of 230 appears significantly disconnected from market reality and lacks fundamental connection to the day's dominant macro narrative of Iran de-escalation and geopolitical relief."
+  }
+}

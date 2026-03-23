@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-23",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-23T07:00:00Z",
+  "market_context": "Markets opened volatile due to Iran-Trump tensions over Strait of Hormuz, with oil prices surging then plunging after Trump postponed strikes. Futures showed strong reversal from negative to positive on de-escalation hopes.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260323_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 665.0,
+      "current_price_at_prediction": 648.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong premarket reversal with S&P futures up 1.95% after Trump postponed Iran strikes for five days. Oil price collapse from $113+ to sub-$100 should boost equities as energy costs fall and recession fears ease."
+    },
+    {
+      "id": "pred_claude_20260323_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 582.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Tech should outperform on de-escalation relief rally given growth sensitivity to oil prices. Strong technical bounce expected from oversold levels with Nasdaq futures positive after four weeks of conflict pressure."
+    },
+    {
+      "id": "pred_claude_20260323_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 470.0,
+      "current_price_at_prediction": 455.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Dow should benefit most from energy cost relief given industrial/value tilt. Dow futures up over 2% premarket on Iran talks progress. Less volatile than tech, better positioned for oil shock recovery."
+    },
+    {
+      "id": "pred_claude_20260323_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.0,
+      "current_price_at_prediction": 95.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Energy sector should plunge on massive oil price collapse from $113+ to sub-$100 after Trump postponed Iran strikes. Brent crude down 14% intraday according to Bloomberg - energy stocks will follow oil prices down sharply."
+    },
+    {
+      "id": "pred_claude_20260323_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 22.0,
+      "current_price_at_prediction": 26.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Fear gauge should drop significantly on Iran de-escalation news and Trump postponing strikes. VIX at elevated 26.78 level from war fears - five-day postponement should allow volatility to compress meaningfully."
+    }
+  ]
+}
