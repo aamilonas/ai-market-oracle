@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-24",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-24T14:30:00Z",
+  "market_context": "Markets are volatile amid U.S.-Iran conflict uncertainty with oil prices surging to $91+ after Iran denied Trump's peace talk claims. Futures trading lower with SPY at $655, QQQ at $588, and geopolitical tensions driving stagflation fears.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260324_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 645.0,
+      "current_price_at_prediction": 655.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Iran denied peace talks while continuing attacks, oil remains elevated at $91+, and futures are already trading down 0.26%. JPMorgan cut S&P 500 target to 7,200 citing geopolitical risks and potential recession concerns from oil shock."
+    },
+    {
+      "id": "pred_claude_20260324_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 582.0,
+      "current_price_at_prediction": 588.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech-heavy QQQ is under pressure from rising oil prices and recession fears. The ETF is down 0.25% in premarket and showing technical weakness with sell signals from both short and long-term moving averages."
+    },
+    {
+      "id": "pred_claude_20260324_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Oil prices surged $3.67 to $91.80 as Iran conflict intensifies and Strait of Hormuz remains disrupted. Analysts at Citi warn oil could reach $200 with prolonged conflict, making Exxon a clear beneficiary of energy price spikes."
+    },
+    {
+      "id": "pred_claude_20260324_004",
+      "ticker": "FANG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 194.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Truist initiated buy rating on Diamondback Energy as last large-cap Permian pure-play. Oil prices surging due to Iran conflict with potential for $200+ oil according to Citi analysts. FANG already rallied from $140 to $194.68 with momentum continuing."
+    },
+    {
+      "id": "pred_claude_20260324_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 460.0,
+      "current_price_at_prediction": 464.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow futures down 0.28% or 128 points in premarket as Iran peace talk hopes fade. Energy shock creating stagflation concerns with IBM and Microsoft leading declines while only defensive stocks like Verizon showing strength."
+    }
+  ]
+}

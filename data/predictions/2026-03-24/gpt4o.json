@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-24",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-24T14:42:05.323906+00:00",
+  "market_context": "U.S. stock futures are showing a slight upward trend in pre-market trading, buoyed by positive earnings reports from major tech companies. Economic data scheduled for release today includes the U.S. PMI Composite Flash, which is expected to show continued expansion in the manufacturing and services sectors.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260324_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive earnings reports from major tech companies and expected strong PMI data are likely to boost investor sentiment, supporting an upward movement in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260324_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's recent earnings beat expectations, and strong guidance for the next quarter is likely to drive the stock higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260324_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite strong overall market conditions, Tesla faces headwinds from recent regulatory challenges in Europe, which could weigh on its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260324_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The tech-heavy QQQ is likely to benefit from strong earnings in the tech sector, coupled with positive economic indicators expected today."
+    }
+  ]
+}

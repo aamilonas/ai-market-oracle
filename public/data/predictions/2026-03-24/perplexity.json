@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-24T14:41:57Z",
+  "market_context": "US stock futures are slightly down or steady amid escalating US-Iran tensions, with Dow futures -0.09% at 46,480, S&P futures -0.03% at 6,632.75, and Nasdaq futures -0.08% at 24,388.50, following Monday's rebound on Trump's claims of productive talks that Iran denied. Oil prices are surging (WTI near $91, Brent over $100), driven by military strikes and Strait of Hormuz risks, while VIX at 29.5 signals volatility but historical precedent for S&P rallies. Airlines surged pre-market on Trump's no-strike signal easing fuel costs, with key data like US manufacturing pending.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260324_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 657.0,
+      "current_price_at_prediction": 658.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are down 0.03% at 6,632.75 amid Iran denials of talks and fresh strikes, with oil surging to $91 WTI pressuring inflation fears despite Monday's 1.2% rally to 6,584[1][2][7]. VIX at 29.5 indicates high volatility, historically preceding rallies but with near-term downside from geopolitical risks outweighing optimism[2]. Pre-market caution suggests modest EOD pullback from current levels."
+    },
+    {
+      "id": "pred_perplexity_20260324_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 24350.0,
+      "current_price_at_prediction": 24388.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq futures slipped 0.08% to 24,388.50 as Iran tensions intensify despite Trump's extension, with S&P near correction territory after 6% drop from highs[1][2]. Tech sectors face sector-specific concerns amid oil-driven uncertainty, limiting upside from Monday rebound[2]. Steady futures point to slight intraday decline."
+    },
+    {
+      "id": "pred_perplexity_20260324_003",
+      "ticker": "DAL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 52.5,
+      "current_price_at_prediction": 50.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Airlines like Delta surged ~4% pre-market after Trump signaled no strikes on Iran energy infrastructure, dropping crude 10% and easing jet fuel costs[2]. Ongoing oil volatility favors carriers if tensions de-escalate per regional diplomacy pushes[1]. Strong midday momentum supports further gains."
+    },
+    {
+      "id": "pred_perplexity_20260324_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 91.5,
+      "current_price_at_prediction": 90.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "WTI crude rose 2.6% to $90.41 amid fresh Iran strikes on Israel/US bases and Israel retaliation, with Brent topping $100 on Hormuz risks[1][2][3]. Trump's talk claims denied but conflict escalation supports higher energy prices despite prior drop[1]. Futures trends indicate continued rise."
+    }
+  ]
+}

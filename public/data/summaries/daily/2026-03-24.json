@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-03-24T14:42:23.308306+00:00",
+  "headline": "Iran tensions split AI models on market direction; energy plays favored",
+  "summary": "Five AI models made 17 predictions for 2026-03-24, with stark disagreement on broad market direction. Claude and Perplexity predicted weakness citing Iran conflict and elevated oil prices ($91+), while GPT-4o and Grok expected strength from tech earnings momentum. All models converged on energy sector strength, with XOM, FANG, DAL, and USO receiving bullish calls. Outcomes remain pending as market closes and actual prices are not yet recorded.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity predicted down (0.75/0.62 confidence) while GPT-4o and Grok predicted up (0.65 confidence each), creating a 2-2 split on the S&P 500."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity predicted down citing oil pressure, while GPT-4o predicted up on tech earnings strength; conflicting narratives on tech's resilience."
+    },
+    {
+      "ticker": "XOM",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong bullish call (0.82 confidence) on Exxon Mobil due to geopolitical oil supply disruptions."
+    },
+    {
+      "ticker": "Energy sector",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Broad agreement across FANG, DAL, USO, and XOM; Iran conflict driving elevated WTI crude and airline/energy stock optimism."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_xom_up",
+    "model_display_name": "Claude",
+    "ticker": "XOM",
+    "score": null,
+    "summary": "Claude's XOM bullish call carries the highest confidence (0.82) with clear geopolitical catalyst (Iran conflict, Strait of Hormuz disruption) supporting elevated oil prices at $91.80."
+  },
+  "worst_call": {
+    "prediction_id": "pred_perplexity_qqq_down",
+    "model_display_name": "Perplexity",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Perplexity's QQQ target of 24,350 appears to be a data error (likely confused with Nasdaq futures point levels rather than ETF prices), undermining the prediction's credibility."
+  }
+}

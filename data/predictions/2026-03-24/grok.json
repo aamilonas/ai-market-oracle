@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-24T14:42:13.359665+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate cut signals and strong tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like AAPL and NVDA on positive analyst upgrades. Major news includes an anticipated speech from the Fed Chair at 2 PM ET, which could impact market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260324_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. Sentiment on X/Twitter is leaning bullish with discussions around potential Fed dovishness. The Fed Chair's speech at 2 PM ET could reinforce this if rate cut hints are provided, per recent web articles on Bloomberg."
+    },
+    {
+      "id": "pred_grok_20260324_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 935.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is a notable pre-market mover, up 1.2%, following an analyst upgrade reported on Yahoo Finance. X/Twitter posts highlight strong retail interest and optimism around AI chip demand. Options flow data from web sources indicates heavy call buying for this week’s expiry."
+    },
+    {
+      "id": "pred_grok_20260324_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 225.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AAPL is seeing positive pre-market movement (+0.8%) after a favorable analyst note on CNBC.com regarding new product launches. X/Twitter sentiment is mixed but trending positive with mentions of strong consumer demand. Confidence is moderate due to potential volatility from Fed news later today."
+    },
+    {
+      "id": "pred_grok_20260324_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 430.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA is facing negative sentiment on X/Twitter due to recent reports of production delays in Europe, as noted in a Reuters article. Short interest data from web sources shows a slight uptick, suggesting bearish bets. Confidence is low due to unpredictable intraday swings common with this stock."
+    }
+  ]
+}
