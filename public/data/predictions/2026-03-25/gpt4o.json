@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-25",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-25T14:41:43.853719+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. Overnight, Asian markets closed mixed, while European markets are showing modest gains. Key economic data today includes U.S. durable goods orders and consumer sentiment index.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260325_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive sentiment from pre-market futures and expectations of favorable durable goods orders data are likely to push SPY slightly higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260325_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech stocks are expected to benefit from positive consumer sentiment data, with QQQ likely to see gains as a result."
+    },
+    {
+      "id": "pred_gpt4o_20260325_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 900.0,
+      "current_price_at_prediction": 885.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla is experiencing strong pre-market momentum following a positive analyst upgrade and increased demand forecasts in key markets."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25T14:42:04.628736+00:00",
+  "headline": "Iran ceasefire drives broad bullish consensus across indices and mega-cap tech",
+  "summary": "All five AI models converged on broad S&P 500 strength driven by U.S.-Iran de-escalation optimism, with 4 of 5 predicting SPY gains and strong agreement on tech upside. Claude made the boldest individual call with ARM's 15% pre-market jump on new AGI chip news, while bearish outliers included Claude's APO redemption warning and Grok's contrarian TSLA downside call. Actual market closes remain pending, but pre-market momentum strongly supported the consensus bullish thesis across equity indices.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four of five models predicted SPY gains with targets ranging 600-666, unified by Iran ceasefire optimism and positive futures momentum."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech upside consensus driven by NVDA and TSLA pre-market strength in Nasdaq-100 futures."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "disagree",
+      "note": "Bullish calls from GPT-4o and Perplexity conflicted with Grok's bearish production delay thesis, showing model disagreement."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_arm_up_0.88",
+    "model_display_name": "Claude",
+    "ticker": "ARM",
+    "score": 1.5,
+    "summary": "Claude's highest-conviction call on ARM's 15% pre-market surge following AGI chip announcement and Raymond James upgrade demonstrated prescient identification of a genuine catalyst with 0.88 confidence."
+  },
+  "worst_call": {
+    "prediction_id": "grok_tsla_down_0.6",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.75,
+    "summary": "Grok's bearish TSLA call based on X/Twitter production concerns contradicted broader market momentum and conflicted with bullish calls from competing models on the same stock."
+  }
+}

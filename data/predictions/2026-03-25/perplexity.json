@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-25",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-25T14:41:38Z",
+  "market_context": "Stock futures are climbing following reports of a U.S. 15-point plan to end hostilities with Iran, delivered via Pakistan, boosting sentiment after Tuesday's decline due to Middle East unrest and higher oil prices[1]. S&P 500 E-Mini futures (ESM26) are up +0.87% at 6,663.50, with pre-market gains in tech leaders like NVDA (+1.39%), TSLA (+1.93%), and AAPL (+0.81%)[5]. Nikkei rebound faces Iran risks, while U.S. PMI data remains in focus amid waning de-escalation optimism[2][5].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260325_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 666.0,
+      "current_price_at_prediction": 666.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 E-Mini futures (ESM26) are up +0.87% at 6,663.50 amid positive reaction to U.S.-Iran de-escalation plan, reversing Tuesday's oil-driven decline[1][5]. Pre-market momentum in key S&P components like NVDA and AAPL supports broader index gains[5]. Robinhood futures markets show strong probability above 6525-6600 levels[4]."
+    },
+    {
+      "id": "pred_perplexity_20260325_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 240.5,
+      "current_price_at_prediction": 240.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq futures gain momentum with pre-market strength in Nasdaq-100 leaders: NVDA +1.39%, TSLA +1.93%, GOOGL +1.17%, AAPL +0.81%[5]. Geopolitical de-escalation news favors risk-on tech rally after recent Middle East concerns[1][5]. $IUXX at 24,002.45 reflects positive setup despite minor -0.77% dip[5]."
+    },
+    {
+      "id": "pred_perplexity_20260325_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 425.0,
+      "current_price_at_prediction": 424.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow futures rise on U.S.-Iran peace plan, with pre-market gains in industrials like TRI +1.82%, UAL +2.17%, and BLK +0.60%[1][5]. Tuesday's +1.38% Dow close sets positive base despite oil pressures[6]. Broader futures uptrend supports end-of-day gains[3][5]."
+    },
+    {
+      "id": "pred_perplexity_20260325_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 390.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "TSLA leads pre-market movers at +1.93% to 390.43, benefiting from Nasdaq momentum and reduced geopolitical risk[5]. Tech sector rotation amid de-escalation news favors high-beta names like TSLA[1][5]. Recent volatility patterns show upside potential on positive catalysts[5]."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-25",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-25T14:30:00Z",
+  "market_context": "Futures are up over 1% on US-Iran ceasefire optimism despite Iran denying direct talks. Oil prices dropped 5-6% on diplomatic hopes. Private credit crisis at Apollo with major redemption gates is pressuring asset managers.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260325_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 662.0,
+      "current_price_at_prediction": 653.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures are up over 1% on Iran ceasefire optimism, with contracts showing strong momentum. Energy sector weakness from falling oil prices should be offset by broader market relief rally from geopolitical tensions easing."
+    },
+    {
+      "id": "pred_claude_20260325_002",
+      "ticker": "ARM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 165.0,
+      "current_price_at_prediction": 154.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.88,
+      "reasoning": "ARM announced its first in-house AGI CPU chip and jumped 15% pre-market. Raymond James upgraded to Outperform with $166 target citing business model transformation. Strong momentum with major tech partnerships including Meta and OpenAI."
+    },
+    {
+      "id": "pred_claude_20260325_003",
+      "ticker": "APO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 105.0,
+      "current_price_at_prediction": 111.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apollo faces severe redemption pressure with 11.2% withdrawal requests capped at 5%, creating liquidity crisis narrative. Private credit sector under stress from AI disruption fears affecting SaaS loan portfolios. Broader asset manager contagion risk."
+    },
+    {
+      "id": "pred_claude_20260325_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 78.5,
+      "current_price_at_prediction": 82.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Oil prices fell 5-6% on Iran ceasefire hopes with Brent dropping below $99. Energy sector ETF should decline as geopolitical premium gets removed despite ongoing supply disruptions. Trump's diplomatic statements reducing war premium."
+    }
+  ]
+}
