@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-26",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-26T14:48:44Z",
+  "market_context": "US stock index futures are declining amid escalating US-Iran tensions after Tehran rejected a US peace proposal, with S&P 500 and Nasdaq-100 futures down 0.4% and Dow futures down 0.3% as of early morning EDT. Oil prices have surged above $104/barrel for Brent and $93.58 for WTI, souring risk sentiment. Yesterday's session saw gains (S&P 500 +0.54%, Dow +0.66%, Nasdaq +0.67%) on initial peace hopes, but pre-market points to a weaker open.[1][2][5][6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260326_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 652.0,
+      "current_price_at_prediction": 655.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 futures (ESM26) are down 0.4-0.57% pre-market at around 6602, tracking US500 index drop to 6535 (-0.86% intraday).[2][7][8] Geopolitical risks from Iran tensions and oil surge to $104/barrel are pressuring broad indices lower after yesterday's +0.54% close.[1][2][5] Expect end-of-day SPY close below current levels reflecting futures direction."
+    },
+    {
+      "id": "pred_perplexity_20260326_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 488.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq-100 futures (NQM26) slipped 0.4-1.83% pre-market amid risk-off sentiment from US-Iran conflict escalation.[2][6] Yesterday's +0.67% gain is likely erased by oil rebound above $104/barrel hurting tech sentiment.[1][2] Broader futures weakness supports downside for QQQ by end-of-day."
+    },
+    {
+      "id": "pred_perplexity_20260326_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 428.0,
+      "current_price_at_prediction": 429.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow futures down 0.3-0.31% pre-market, aligning with S&P and Nasdaq declines on Iran rejecting US proposal.[1][2] Oil surge to $93.58 WTI adds pressure despite yesterday's +0.66% Dow close on fleeting peace hopes.[5][6] Fluid geopolitical news favors modest end-of-day drop."
+    },
+    {
+      "id": "pred_perplexity_20260326_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 14.5,
+      "current_price_at_prediction": 14.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "WTI crude futures up 3.61% to $93.58 and Brent to $104.8/barrel on Iran tensions supply fears.[2][5] Rejection of US peace plan sustains oil rally momentum from overnight gains.[1] Energy ETF USO poised to extend upside tracking crude strength."
+    }
+  ]
+}

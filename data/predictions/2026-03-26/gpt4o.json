@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-26",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-26T14:48:52.035302+00:00",
+  "market_context": "Pre-market futures indicate a positive opening for US markets, driven by optimism in tech stocks following strong earnings reports from major companies. Additionally, the economic calendar shows a key consumer confidence report due later today, which is expected to show improvement.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260326_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY is likely to rise due to strong earnings reports from major tech companies, which are boosting investor sentiment. Additionally, positive expectations for the consumer confidence report could further support market gains."
+    },
+    {
+      "id": "pred_gpt4o_20260326_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple reported better-than-expected quarterly earnings and revenue, leading to increased investor confidence and a likely rise in stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260326_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 860.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite a positive market trend, Tesla faces pressure from recent regulatory concerns and production challenges, which may lead to a decline in its stock price today."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-03-26T14:49:15.139308+00:00",
+  "headline": "Market Split on SPY Direction Amid Iran Tensions and Tech Momentum",
+  "summary": "Five AI models made 15 predictions for March 26, 2026, with notable disagreement on broad market direction but consensus on semiconductor strength. Claude and three other models predicted SPY weakness due to geopolitical tensions and oil prices, while GPT-4o and Grok favored upside from strong tech earnings. The day saw conflicting narratives: bearish macro concerns (Iran tensions, Fed rate expectations) versus bullish sector rotations (AI infrastructure, semiconductors showing 7-8% premarket gains).",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Sharply divided consensus with Claude/Perplexity predicting down (0.68-0.7 confidence) while GPT-4o/Grok predicted up (0.65 confidence); geopolitical vs. earnings fundamentals driving conflicting views."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited technical breakdown and risk-off sentiment, though Claude focused on support break while Perplexity cited Iran conflict."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models bearish but with different target prices ($850 vs $180), citing regulatory and production concerns."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_perplexity_uso_up",
+    "model_display_name": "Perplexity",
+    "ticker": "USO",
+    "score": 1.25,
+    "summary": "Highest confidence (0.75) call backed by concrete fundamental catalyst (WTI crude +3.61% to $93.58, Brent to $104.80 on Iran supply fears), showing disciplined risk-asset thesis."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_down",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.65,
+    "summary": "Target of $180 appears disconnected from market context and other models' estimates; the lowest confidence (0.6) bearish call with an implausibly low price target that lacks fundamental justification."
+  }
+}

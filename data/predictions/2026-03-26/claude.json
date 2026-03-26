@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-26",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-26T09:15:00Z",
+  "market_context": "Markets facing headwinds from elevated oil prices and US-Iran conflict uncertainty, despite brief peace deal optimism. Tech stocks showing mixed premarket performance with AI names leading gains while broader indices decline on geopolitical concerns.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260326_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 575.0,
+      "current_price_at_prediction": 583.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "QQQ broke key technical support at $600-607 and is showing bearish momentum in premarket trading down 0.8%. Geopolitical uncertainty and oil price volatility are pressuring tech-heavy indices despite individual AI stock strength."
+    },
+    {
+      "id": "pred_claude_20260326_002",
+      "ticker": "SMCI",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 26.5,
+      "current_price_at_prediction": 24.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Strong 8.19% premarket gain leading AI infrastructure names. Momentum in semiconductor sector and AI demand drivers support continued upward movement, though volatile market conditions add risk."
+    },
+    {
+      "id": "pred_claude_20260326_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "current_price_at_prediction": 656.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Broader market pressure from elevated oil prices and geopolitical uncertainty. Fed rate hike expectations rising with only 8% chance of cuts creates headwinds for risk assets."
+    },
+    {
+      "id": "pred_claude_20260326_004",
+      "ticker": "AMD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Semiconductor strength continues with 7.26% premarket gain. AI enthusiasm and sector rotation into chip names provide support despite broader market weakness and elevated valuations creating vulnerability."
+    }
+  ]
+}

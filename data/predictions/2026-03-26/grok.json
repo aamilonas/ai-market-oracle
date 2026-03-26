@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-26",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-26T14:49:00.631292+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate cut signals and strong tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.5% respectively, while notable movers include tech giants like NVDA with positive buzz. Major news includes a scheduled Fed speech at 11:00 AM ET that could impact market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260326_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around potential Fed dovishness from today's speech. However, confidence is moderate due to uncertainty around the Fed's exact messaging."
+    },
+    {
+      "id": "pred_grok_20260326_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing strong pre-market activity with a 1.2% gain, fueled by positive X/Twitter chatter about AI sector growth. Recent web reports highlight increased institutional buying and options flow showing heavy call activity. Confidence is tempered by potential volatility from broader market reactions to Fed news."
+    },
+    {
+      "id": "pred_grok_20260326_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 185.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "X/Twitter sentiment for TSLA is mixed, with concerns over recent production delays in Europe trending. Web searches indicate rising short interest data, suggesting bearish bets. Confidence is moderate due to potential for positive catalysts not yet visible in current data."
+    }
+  ]
+}
