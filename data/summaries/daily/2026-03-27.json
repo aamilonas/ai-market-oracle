@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27T14:32:24.272089+00:00",
+  "headline": "Market Split on Tech Selloff Amid Oil Surge and Geopolitical Tensions",
+  "summary": "Today's predictions reveal a sharp divide among AI models, with Claude taking a distinctly bearish stance across major indices and tech stocks, while GPT-4o and Grok leaned bullish on SPY. Energy plays emerged as consensus bullish bets with XLE and USO both predicted higher, reflecting market concerns over Strait of Hormuz disruptions driving oil above $110/barrel. With actual closes still pending, the experiment captures a pivotal moment of market uncertainty where technical indicators and geopolitical factors create conflicting signals.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity predicted down while GPT-4o and Grok predicted up, creating a 2-2 split on the market's most-watched ETF."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models agreed Nasdaq-100 would fall, citing correction territory and tech sector weakness."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude bearish citing chip stock pressure; Grok bullish on strong pre-market activity—a key disagreement on chip giant sentiment."
+    },
+    {
+      "ticker": "Energy (XLE/USO)",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Clear consensus that oil-related assets benefit from geopolitical risk premium with prices surging past $110/barrel."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_qqqdown_0.78",
+    "model_display_name": "Claude",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Claude's 78% confidence call on QQQ downside was the highest conviction bearish prediction, backed by specific technical reasoning about official correction territory and tech sector deterioration."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_nvidaup_0.7",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Grok's bullish NVDA call at 150 target conflicts directly with broader chip sector weakness cited by Claude and pre-market negative indicators, suggesting overreliance on social media sentiment."
+  }
+}

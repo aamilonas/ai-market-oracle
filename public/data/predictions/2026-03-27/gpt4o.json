@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-27",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-27T14:32:07.763978+00:00",
+  "market_context": "U.S. stock futures are indicating a positive open as investors react to better-than-expected earnings reports from major tech companies. Additionally, overnight news highlights a potential resolution in geopolitical tensions in Eastern Europe, boosting market sentiment. The economic calendar today includes the release of consumer confidence data, which is expected to show an improvement.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260327_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is likely to rise due to strong earnings reports from tech giants and positive geopolitical developments. Futures are up, indicating a bullish sentiment, and consumer confidence data expected later today is anticipated to be favorable, potentially driving further gains."
+    },
+    {
+      "id": "pred_gpt4o_20260327_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple reported strong quarterly earnings with significant growth in its services segment, which has been a key driver of its recent stock performance. The positive market sentiment is likely to support further gains today."
+    },
+    {
+      "id": "pred_gpt4o_20260327_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite the overall positive market sentiment, Tesla faces pressure due to ongoing regulatory scrutiny in its key markets and a recent recall announcement. These factors could weigh on its stock price today."
+    }
+  ]
+}

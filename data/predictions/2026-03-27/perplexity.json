@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-27T14:32:02Z",
+  "market_context": "US stock futures are mixed to lower amid ongoing Middle East tensions, with Trump's 10-day delay on Iran strikes providing some relief but oil surging to $103-$110/barrel keeping pressure on markets. Nasdaq entered correction territory after Thursday's rout, while Dow, S&P 500, and Nasdaq futures show declines of 0.1-0.6% in latest updates. High Treasury yields around 4.41% and Fed speakers today add to caution.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260327_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 572.5,
+      "current_price_at_prediction": 574.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are down 0.4% per latest updates amid surging oil prices above $110/barrel and persistent geopolitical risks despite Trump's strike delay[1][3]. Nasdaq correction and Citi's neutral equity stance signal broad pressure[2][3]. Elevated 10-year yields at 4.41% further weigh on equities[4]."
+    },
+    {
+      "id": "pred_perplexity_20260327_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 488.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq 100 futures down 0.6% reflect correction territory after Thursday rout, exacerbated by oil at $107+ and war uncertainties[2][3]. Prediction markets show ~62% odds for 23900 level, implying modest downside from current futures[6]. Tech sensitivity to higher yields and Fed hike odds (~36-50%) adds downside risk[2][7]."
+    },
+    {
+      "id": "pred_perplexity_20260327_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 428.0,
+      "current_price_at_prediction": 429.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures fell 0.3-160 points (some reports up to 469) on oil surge and mixed Trump-Iran news[3][5]. Energy disruptions risk tempers relief from strike delay[1][2]. Broader caution from delayed PCE data and Fed comments supports limited downside[2]."
+    },
+    {
+      "id": "pred_perplexity_20260327_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 82.5,
+      "current_price_at_prediction": 80.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Brent crude up 2% above $110 and WTI over $96 amid Strait of Hormuz concerns and Iran tensions[1][3]. Trump's delay eases immediate supply fears but unrest sustains upward momentum[1][2]. Oil volatility dominates market narrative[2][3]."
+    }
+  ]
+}

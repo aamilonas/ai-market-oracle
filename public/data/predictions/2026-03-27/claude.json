@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-27",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-27T14:30:00Z",
+  "market_context": "Markets are experiencing significant volatility with geopolitical tensions from the Iran crisis driving oil to $97+ and creating stagflation fears. The Nasdaq entered correction territory with tech stocks under pressure, while the VIX spiked to 27.44 reflecting heightened uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260327_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 636.5,
+      "current_price_at_prediction": 642.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.73,
+      "reasoning": "The S&P 500 ETF is trading near critical support at 6,475 with technical indicators showing continued downward pressure. Rising oil prices to $97.66 and elevated Treasury yields create headwinds for equities as stagflation concerns mount."
+    },
+    {
+      "id": "pred_claude_20260327_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 568.0,
+      "current_price_at_prediction": 575.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "The Nasdaq-100 ETF has officially entered correction territory with a 10% decline from peaks. Tech sector weakness from higher yields and geopolitical uncertainty suggests further downside testing of the 568-570 support zone."
+    },
+    {
+      "id": "pred_claude_20260327_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 168.0,
+      "current_price_at_prediction": 176.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.69,
+      "reasoning": "NVIDIA is under pressure with chip stocks declining pre-market and new Alphabet research suggesting reduced AI compute needs. The stock is testing key support near $170 with potential to fall to the $168 level if broader tech weakness continues."
+    },
+    {
+      "id": "pred_claude_20260327_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 495.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Meta faces multiple headwinds including announced layoffs across Reality Labs and Facebook divisions, plus a court decision labeling its social media as addictive. The stock has dropped nearly 10% since Wednesday and technical momentum remains bearish."
+    },
+    {
+      "id": "pred_claude_20260327_005",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 63.2,
+      "current_price_at_prediction": 61.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "Energy sector is the clear beneficiary of oil price surge to $97+ as Strait of Hormuz disruptions continue. With crude oil futures up 3.37% and geopolitical tensions persisting, the Energy Select SPDR should continue outperforming despite broader market weakness."
+    }
+  ]
+}
