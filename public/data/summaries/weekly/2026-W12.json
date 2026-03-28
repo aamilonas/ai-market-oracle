@@ -1,0 +1,54 @@
+{
+  "week": "2026-W12",
+  "period": "Mar 16 – Mar 20, 2026",
+  "generated_at": "2026-03-28T15:24:37.728310+00:00",
+  "headline": "Claude dominates volatile week; Perplexity stumbles with directional chaos",
+  "summary": "Week 12 saw a sharp divergence in model performance as markets delivered mixed signals across major indices. Claude emerged as the clear winner with surgical precision on index calls (SPY predictions scoring 1.22 and 1.28), while Perplexity suffered a catastrophic week, getting direction wrong on most broad-market calls with wildly inaccurate targets. Grok and GPT-4o showed competent consistency on upside calls but struggled with directional reversals in TSLA and other high-volatility names. The week underscored that index-level predictions remain more reliable than stock-specific forecasts.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 3.05,
+      "predictions": 11,
+      "accuracy": 0.545,
+      "rank_change": 1
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 5.0,
+      "predictions": 12,
+      "accuracy": 0.667,
+      "rank_change": 2
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 1.5,
+      "predictions": 13,
+      "accuracy": 0.538,
+      "rank_change": -1
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -2.15,
+      "predictions": 12,
+      "accuracy": 0.333,
+      "rank_change": -2
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "SPY",
+    "score": 1.28,
+    "summary": "Predicted SPY down to 649.5 with 78% confidence on Mar 20; actual close 648.57—nearly perfect execution on major index."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "XLE",
+    "score": -0.85,
+    "summary": "Called XLE up to 95 with 85% confidence on Mar 19; stock fell to 59.36, a directional miss on energy sector."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 9,
+    "consensus_correct": 4,
+    "accuracy": 0.444
+  }
+}
