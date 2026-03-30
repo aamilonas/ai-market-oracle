@@ -1,0 +1,65 @@
+{
+  "date": "2026-03-30",
+  "generated_at": "2026-03-30T14:50:41.447731+00:00",
+  "headline": "Four models bullish on tech and energy amid Iran diplomacy optimism",
+  "summary": "All five AI models predicted upward movement across major indices and tech stocks on 2026-03-30, driven by Trump's optimistic Iran diplomacy comments and pre-market strength in tech heavyweights like Nvidia, Amazon, and Microsoft. Strong consensus emerged around SPY, QQQ, and energy plays (XLE, USO), with Claude showing the highest conviction on USO (90% confidence) and energy sector positioning. Predictions remain pending outcomes as actual closing prices have not been recorded.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four of five models unanimously bullish on S&P 500 with targets ranging from 600-6405 (note Perplexity likely erred on decimal placement)."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models agree on Nasdaq-100 upside, citing pre-market tech strength and oversold conditions."
+    },
+    {
+      "ticker": "XLE",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both energy specialists bullish on XLE with targets of 95-102, leveraging Brent crude above $115."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Only bearish consensus, both models citing production delay concerns with targets of 250-380."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_uso_20260330",
+    "model_display_name": "Claude",
+    "ticker": "USO",
+    "score": 0.9,
+    "summary": "Claude's highest-confidence prediction (90%) on USO targeting 85 leverages sustained crude oil strength and Iran geopolitical tailwinds with clear energy sector thesis."
+  },
+  "worst_call": {
+    "prediction_id": "pred_perplexity_spy_20260330",
+    "model_display_name": "Perplexity",
+    "ticker": "SPY",
+    "score": -2.5,
+    "summary": "Perplexity's SPY target of 6405 appears to be a decimal error (likely meant 640.5), suggesting a significant data quality issue despite correct directional bullishness."
+  }
+}

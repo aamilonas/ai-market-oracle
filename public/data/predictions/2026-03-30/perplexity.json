@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-30",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-30T14:50:16Z",
+  "market_context": "US stock futures are edging higher in pre-market trading, with Dow futures up 0.5-0.6%, S&P 500 futures up 0.5-0.6%, and Nasdaq-100 futures up 0.4-0.6%, driven by hopes of progress in US-Iran talks amid surging oil prices (Brent above $115/bbl, WTI above $101/bbl).[1][2] Energy and materials sectors like mining stocks (Alcoa +10%, Century Aluminum +11%) are outperforming, while tech names show pre-market buying interest after recent declines; no major economic data today in a holiday-shortened week closing for Good Friday.[1][2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260330_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 6405.0,
+      "current_price_at_prediction": 6375.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 futures are up ~0.6% pre-market amid positive Iran talk signals from Trump, with prediction markets showing >6400 at 56¢ probability on Robinhood.[1][2][4] Oil surge supports energy rotation but modest broad gains expected in holiday-shortened week without major data.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260330_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 23350.0,
+      "current_price_at_prediction": 23250.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq-100 futures rose 0.4% pre-market with buying in tech heavyweights like Nvidia, Amazon, Microsoft after recent correction deepened last week.[1][2] Geopolitical optimism offsets oil-driven volatility, though Nasdaq lags slightly behind Dow/S&P futures.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260330_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 102.0,
+      "current_price_at_prediction": 100.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector outperforms on Brent >$115 (+2%) and WTI >$101 amid Iran tensions, with sector rotation evident; Trump's comments on Iran oil shipments add tailwind.[1][2] Pre-market strength in related miners like Alcoa (+10%) supports continued gains.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260330_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 50300.0,
+      "current_price_at_prediction": 50000.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow futures lead with +280-300 points (0.6%) pre-market on Iran deal hopes balancing oil surge risks.[1][2] Holiday week and lack of data favor modest rebound from last week's volatility.[1]"
+    }
+  ]
+}

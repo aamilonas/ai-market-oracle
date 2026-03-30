@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-30",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-03-30T14:50:22.430641+00:00",
+  "market_context": "U.S. stock futures are showing a positive trend in pre-market trading, buoyed by strong earnings reports from major tech companies and positive economic data from the Eurozone. The economic calendar highlights a key consumer confidence report due later today, which is expected to show an improvement.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260330_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is likely to rise due to strong earnings from tech giants like Apple and Microsoft, which have exceeded expectations. Additionally, positive economic indicators from Europe are boosting investor sentiment globally."
+    },
+    {
+      "id": "pred_gpt4o_20260330_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The QQQ is expected to benefit from the tech sector's strong performance, particularly after robust earnings reports from major NASDAQ-listed companies. The tech-heavy index is likely to see gains as investor confidence grows."
+    },
+    {
+      "id": "pred_gpt4o_20260330_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple's recent earnings report has surpassed market expectations, driven by strong iPhone sales and growth in its services segment. This positive news is expected to drive the stock higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260330_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock may face pressure due to recent concerns over production delays in its new models and a cautious outlook provided in its latest earnings call. These factors could weigh on investor sentiment."
+    }
+  ]
+}

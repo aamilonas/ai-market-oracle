@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-30",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-03-30T14:50:34.613206+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside due to recent tech sector strength, though some express concerns over upcoming inflation data. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech giants like AAPL with a 1.2% pre-market gain. No major economic events are scheduled for today, but end-of-quarter portfolio rebalancing could drive volatility.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260330_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest a bullish open, supported by X/Twitter sentiment leaning toward optimism in tech and growth stocks. End-of-quarter buying could further push SPY past the 600 mark by close, though uncertainty around inflation expectations tempers confidence."
+    },
+    {
+      "id": "pred_grok_20260330_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "AAPL is showing a strong pre-market gain of 1.2% based on web data from financial news aggregators like Yahoo Finance. X/Twitter posts highlight excitement over rumored product updates, which could sustain momentum through the day."
+    },
+    {
+      "id": "pred_grok_20260330_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 385.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter shows concern over recent executive comments about production delays, as noted in trending threads. Web searches indicate elevated short interest signals from platforms like Fintel, suggesting potential downward pressure despite a neutral pre-market."
+    }
+  ]
+}

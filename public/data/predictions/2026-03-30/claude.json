@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-30",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-30T13:00:00Z",
+  "market_context": "U.S. futures are up 0.6-0.7% in pre-market trading despite ongoing Iran war tensions, supported by Trump's signals of diplomatic progress. Oil prices remain elevated at $115 Brent/$103 WTI while major indices approach correction territory after recent sell-offs.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260330_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 641.0,
+      "current_price_at_prediction": 636.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "SPY is up 0.48% in pre-market trading amid Trump's optimistic Iran diplomacy comments and oversold technical conditions. The index shows support around $634 level with VIX above 30 indicating fear-driven selling may be overdone."
+    },
+    {
+      "id": "pred_claude_20260330_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 575.0,
+      "current_price_at_prediction": 567.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech stocks showing pre-market strength with Nvidia, Amazon, Microsoft up over 1%. QQQ oversold after correction territory entry, positioned for relief rally despite geopolitical headwinds."
+    },
+    {
+      "id": "pred_claude_20260330_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.0,
+      "current_price_at_prediction": 88.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Energy sector benefiting from sustained oil price elevation with Brent at $115 and WTI at $103. Strait of Hormuz remains disrupted, supporting energy stocks. Aluminum sector also gaining on supply disruption concerns."
+    },
+    {
+      "id": "pred_claude_20260330_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 890.0,
+      "current_price_at_prediction": 875.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NVDA showing pre-market strength up over 1% after sharp Friday losses. Tech oversold conditions and positive analyst coverage from Oppenheimer suggest potential bounce, though geopolitical risks remain."
+    },
+    {
+      "id": "pred_claude_20260330_005",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85.0,
+      "current_price_at_prediction": 81.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.9,
+      "reasoning": "Oil ETF positioned to benefit from continued crude price strength. Trump's comments about potentially taking Iran's Kharg Island and ongoing Strait of Hormuz disruptions support higher oil prices. Brent crude showing sustained momentum above $115."
+    }
+  ]
+}
