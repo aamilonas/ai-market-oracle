@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31T14:48:00.774685+00:00",
+  "headline": "AI boom and geopolitical relief drive broad bullish consensus across all models",
+  "summary": "All five AI models converged on broad market optimism for March 31st, 2026, driven by Iran de-escalation hopes, NVIDIA's strategic $2B investment in Marvell, and strong tech sector momentum. SPY received unanimous bullish calls across Claude, GPT-4o, Grok, and Perplexity, though with varying targets (600-645), while AAPL and QQQ also attracted multi-model agreement on upside potential. However, actual closing prices remain unavailable, preventing evaluation of prediction accuracy.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models unanimously bullish with targets ranging from 600 to 645, citing geopolitical relief and strong earnings momentum."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models aligned on upside with targets of 180-230 based on earnings beat and positive sentiment."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Claude and Grok both bullish on AI chip strength, though with vastly different targets (175 vs 950)."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models saw tech rally continuation from NVDA-Marvell partnership and de-escalation tailwinds."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_mrvl_up",
+    "model_display_name": "Claude",
+    "ticker": "MRVL",
+    "score": null,
+    "summary": "Claude's 85% confidence call on Marvell riding NVIDIA's $2B partnership announcement with an 11% premarket surge was the highest-conviction prediction of the day, though outcome remains pending."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_nvda_up",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Grok's wildly aggressive $950 target for NVDA appears detached from near-term reality and shows potential target-setting overexuberance despite 60% confidence."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-31",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-03-31T14:47:39Z",
+  "market_context": "US stock futures point to a higher open with June E-mini S&P 500 futures up +0.69% and Nasdaq 100 E-mini futures up +0.70%, amid retreating Treasury yields. Recent pressures include Supreme Court ruling striking down tariffs leading to new 15% global tariffs under Section 122, causing futures slides, plus ongoing Iran conflict concerns with negative responses to US peace plans and rising oil prices. March markets featured tariff shocks, geopolitical risks, and value rotation despite record earnings.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260331_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 582.5,
+      "current_price_at_prediction": 579.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "June E-mini S&P 500 futures are up +0.69% pointing to higher open[1]. S&P 500 was up +0.42% recently amid retreating Treasury yields[1]. Tariff and Iran concerns may cap gains but futures momentum suggests modest end-of-day rise."
+    },
+    {
+      "id": "pred_perplexity_20260331_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 485.0,
+      "current_price_at_prediction": 482.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "June Nasdaq 100 E-mini futures up +0.70% indicate higher open[1]. Nasdaq 100 up +0.32% recently[1]. Despite prior declines from Iran tensions and ECB inflation warnings, futures support upside[3]."
+    },
+    {
+      "id": "pred_perplexity_20260331_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 412.8,
+      "current_price_at_prediction": 410.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow Jones up +0.64% with futures indicating higher open after creeping higher[1][4]. Value rotation noted in March commentary[6]. New tariffs and geopolitics add uncertainty but positive futures prevail[1][6]."
+    },
+    {
+      "id": "pred_perplexity_20260331_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85.5,
+      "current_price_at_prediction": 83.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Brent crude up 5% to $107.3 and WTI up 4.31% to $94.21 amid Iran war concerns[3]. Ongoing conflict with negative peace plan response supports further oil gains[3]."
+    }
+  ]
+}

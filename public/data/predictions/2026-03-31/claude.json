@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-31",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-03-31T14:30:00Z",
+  "market_context": "Markets are rallying strongly on reports that Trump may end the Iran war without fully reopening the Strait of Hormuz. Major indices up 1%+ in early trading with broad-based gains across sectors.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260331_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "current_price_at_prediction": 633.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong premarket rally on Iran de-escalation hopes with S&P 500 already up 1.14% early. Oil prices stabilizing and geopolitical risk premium unwinding should drive continued upside through end of trading."
+    },
+    {
+      "id": "pred_claude_20260331_002",
+      "ticker": "MRVL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 100.0,
+      "current_price_at_prediction": 87.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "NVIDIA's $2B strategic investment announced this morning already drove 11% premarket surge. Partnership integrates MRVL into NVDA's AI ecosystem, opening massive TAM expansion. Strong institutional buying momentum should continue."
+    },
+    {
+      "id": "pred_claude_20260331_003",
+      "ticker": "NKE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 50.0,
+      "current_price_at_prediction": 53.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Earnings after close with consensus EPS of $0.29 (down 45% YoY) and flat revenue. Despite turnaround efforts under CEO Elliott Hill, tariff headwinds and margin pressure likely to disappoint. Stock has been range-bound ahead of results."
+    },
+    {
+      "id": "pred_claude_20260331_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 575.0,
+      "current_price_at_prediction": 567.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech rally on geopolitical de-escalation and NVDA-MRVL partnership boosting AI infrastructure theme. Nasdaq up 1.35% premarket with momentum likely to continue as risk-on sentiment dominates and growth stocks benefit from falling yields."
+    },
+    {
+      "id": "pred_claude_20260331_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 170.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Already up 3% on MRVL partnership announcement which expands AI ecosystem reach. However, stock has been volatile and faces resistance near recent highs. Modest upside expected as partnership validates AI infrastructure strategy but gains may be limited."
+    }
+  ]
+}
