@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-01T14:50:36Z",
+  "market_context": "US markets are navigating concurrent pressures from geopolitical risk (Iran conflict) and higher energy costs, with the S&P 500 down approximately 6% from its March all-time high as of March 23[2]. Despite volatility, corporate earnings remain resilient, supportive fiscal policy continues, and lower interest rates provide underlying support[2]. Markets are now focused on ROI proof from AI investments rather than announcements alone, with Nike's March 31 report serving as a lead indicator for consumer discretionary health[1].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260401_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 remains under pressure from persistent geopolitical risk and elevated energy costs[2]. With markets down 6% from March highs and uncertainty about whether higher costs will persist long enough to affect inflation and profit margins[2], near-term volatility likely continues. However, confidence is moderate due to underlying support from fiscal policy and corporate earnings resilience[2]."
+    },
+    {
+      "id": "pred_perplexity_20260401_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tech-heavy Nasdaq faces headwinds as markets shift focus from AI investment announcements to demonstrated ROI[1]. Companies must now prove AI-driven revenue outcomes rather than simply announcing spending[1]. This earnings season scrutiny, combined with broader market volatility from geopolitical factors[2], likely pressures growth stocks more than the broader market."
+    },
+    {
+      "id": "pred_perplexity_20260401_003",
+      "ticker": "NKE",
+      "prediction_type": "price_direction",
+      "direction": "neutral",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nike reported March 31 results, which serve as a lead indicator for consumer discretionary health[1]. Post-earnings volatility is typical, and the stock's movement will depend on whether results demonstrate resilience against higher energy and shipping costs[2]. Confidence is low due to uncertainty around consumer spending sustainability amid elevated costs."
+    },
+    {
+      "id": "pred_perplexity_20260401_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "neutral",
+      "target_price": null,
+      "current_price_at_prediction": null,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Dow Jones large-cap exposure provides some defensive positioning given supportive fiscal policy and resilient corporate earnings[2], but geopolitical pressures and energy cost concerns create offsetting headwinds[2]. The index likely trades sideways as investors weigh competing forces between cost pressures and underlying economic support."
+    }
+  ]
+}

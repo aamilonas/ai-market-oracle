@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-01",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-01T14:15:00Z",
+  "market_context": "Markets opened strongly on Iran war de-escalation hopes after Trump indicated U.S. forces could withdraw in 2-3 weeks. Major indices are up 0.6-1.0% with tech leading gains, though oil remains above $98 and energy stocks are declining sharply.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260401_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 585.0,
+      "current_price_at_prediction": 577.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Tech-heavy Nasdaq is leading today's rally with 1.04% gains on Iran peace hopes and positive AI sector momentum from OpenAI funding. Strong premarket momentum and relief rally dynamics support continued upward movement toward $585."
+    },
+    {
+      "id": "pred_claude_20260401_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 655.0,
+      "current_price_at_prediction": 646.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "S&P 500 opened up 0.67% on war de-escalation optimism and is building on yesterday's strong gains. Key resistance at 6500 level has been broken, targeting next resistance around $655 level on continued relief rally momentum."
+    },
+    {
+      "id": "pred_claude_20260401_003",
+      "ticker": "NKE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 47.5,
+      "current_price_at_prediction": 51.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Nike fell 11% premarket after warning of 20% China sales decline this quarter and continued gross margin pressure from tariffs. Q3 earnings showed weak guidance with revenue expected to fall and margins contracting 3-3.75 percentage points."
+    },
+    {
+      "id": "pred_claude_20260401_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 92.0,
+      "current_price_at_prediction": 95.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector is declining sharply despite oil above $98, with XLE down 3% as crude futures fell 2.5% on peace hopes. War de-escalation narrative is pressuring energy stocks despite elevated commodity prices, targeting further decline to $92."
+    },
+    {
+      "id": "pred_claude_20260401_005",
+      "ticker": "NCNO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 28.5,
+      "current_price_at_prediction": 23.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "nCino jumped 23% premarket after beating earnings expectations and raising full-year guidance. Strong fintech momentum and positive earnings surprise should sustain gains, though high premarket move reduces upside potential from current levels."
+    }
+  ]
+}

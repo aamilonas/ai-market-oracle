@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-01",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-01T14:51:02.829606+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, indicating a positive start to the second quarter. Investors are focused on the release of key economic data, including the ISM Manufacturing Index and ADP Employment Change, which could influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260401_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures and anticipation of favorable economic data releases, such as the ISM Manufacturing Index, suggest a bullish sentiment for SPY. The ETF is likely to benefit from a strong start to the second quarter."
+    },
+    {
+      "id": "pred_gpt4o_20260401_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech stocks are expected to gain from positive sentiment driven by strong earnings reports from major tech companies released overnight, boosting QQQ."
+    },
+    {
+      "id": "pred_gpt4o_20260401_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's recent product announcements and strong sales data have generated optimism among investors, likely pushing the stock higher today."
+    }
+  ]
+}

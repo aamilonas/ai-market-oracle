@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-01",
+  "generated_at": "2026-04-01T14:51:16.920474+00:00",
+  "headline": "Mixed signals dominate as models split on market direction amid geopolitical shifts",
+  "summary": "Five AI models made 15 predictions for April 1st, 2026, revealing sharp disagreement on market direction despite shared awareness of geopolitical de-escalation and sector-specific catalysts. Three models (Claude, GPT-4o, Grok) heavily favored broad market gains with high confidence in SPY and QQQ rallies, while Perplexity took a contrarian bearish stance on indices. Actual closing prices remain unavailable, leaving all predictions pending final scoring.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models consensus on S&P 500 upside despite Perplexity's bearish contrarian call citing geopolitical headwinds."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-focused models bullish on Nasdaq; Perplexity warned of AI investment pullback headwinds."
+    },
+    {
+      "ticker": "NKE",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude very confident (78%) in 11% premarket decline; Perplexity neutral citing mixed consumer signals."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_ncno_claude_up",
+    "model_display_name": "Claude",
+    "ticker": "NCNO",
+    "score": null,
+    "summary": "Claude identified nCino's 23% premarket jump on earnings beat with 65% confidence—highest conviction call on a clear catalyst."
+  },
+  "worst_call": {
+    "prediction_id": "pred_tsla_grok_down",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Grok's bearish TSLA call based on Twitter sentiment had lowest confidence (55%) and vaguest reasoning among directional bets."
+  }
+}

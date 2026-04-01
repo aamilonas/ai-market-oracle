@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-01",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-01T14:51:10.388542+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential rate cuts and positive earnings expectations. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech stocks like NVDA with a 1.2% pre-market gain. Major news includes a scheduled Fed speech at 11:00 AM ET, which could impact market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260401_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 (+0.3%) suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around potential Fed dovishness in today's speech. However, confidence is moderate due to uncertainty around the Fed's tone."
+    },
+    {
+      "id": "pred_grok_20260401_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is showing a strong pre-market gain of 1.2% based on web data from financial news aggregators. X/Twitter posts highlight excitement over AI sector growth, with NVDA frequently mentioned as a leader. Confidence is tempered by potential volatility from broader market reactions to Fed news."
+    },
+    {
+      "id": "pred_grok_20260401_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 390.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent X/Twitter chatter shows mixed sentiment on TSLA, with some users citing concerns over delivery numbers expected later this week. Web searches indicate a slight uptick in short interest data for TSLA. Confidence is low due to lack of concrete negative catalysts for today."
+    }
+  ]
+}
