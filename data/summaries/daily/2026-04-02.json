@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T14:39:49.037964+00:00",
+  "headline": "Conflicting signals: Bears vs bulls clash on geopolitical risk and tech strength",
+  "summary": "Today's predictions reveal a sharp divide between Claude's risk-off stance driven by geopolitical escalation and Iran war fears, versus three other models (GPT-4o, Grok, Perplexity) leaning bullish on market resilience. Energy was the rare consensus winner with unanimous bullish calls on XLE across three models. Market direction outcomes remain pending, but the ideological split between macro-cautious and sentiment-bullish approaches created the day's most notable divergence.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude predicts down (77% confidence) citing geopolitical risk while three models predict up (60-65% confidence) on positive sentiment and futures strength."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Three models agree Tesla heads lower due to delivery concerns and broader tech selloff, though targets diverge wildly ($180-$373)."
+    },
+    {
+      "ticker": "XLE",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Energy consensus is strong with both models bullish on crude above $105 and Iran escalation fears supporting oil sector."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models bearish on Nasdaq with rising yields and tech valuation concerns, though Claude shows higher conviction (80% vs 58%)."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_xle_up",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": 0.85,
+    "summary": "Highest confidence thesis (85%) with clear fundamental driver: WTI crude above $105 on geopolitical escalation creates direct energy sector tailwind."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_down",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": -0.6,
+    "summary": "Lowest confidence bearish call (60%) on Tesla paired with unrealistically low $180 target contradicts premarket data showing stock already down 2% at $373."
+  }
+}

@@ -1,5 +1,23 @@
 {
   "balance": 25000,
   "starting_balance": 25000,
-  "trades": []
+  "trades": [
+    {
+      "date": "2026-04-02",
+      "ticker": "TSLA",
+      "direction": "down",
+      "entry_price": 476.1,
+      "exit_price": null,
+      "shares": 52,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Grok",
+        "GPT-4o",
+        "Claude"
+      ],
+      "confidence": 0.6233,
+      "status": "OPEN"
+    }
+  ]
 }

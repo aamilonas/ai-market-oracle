@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-02T14:39:27.981149+00:00",
+  "market_context": "Pre-market futures indicate a positive opening for US markets, with the S&P 500 futures up by 0.3%. Overnight, Asian markets closed higher, and European markets are trading positively. Key economic data today includes the US non-farm payrolls report, which is expected to show strong job growth.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260402_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The positive sentiment from strong Asian and European markets, coupled with optimistic expectations for the US non-farm payrolls report, suggests upward momentum for SPY. Additionally, futures are indicating a positive start, supporting a bullish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260402_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is expected to benefit from a recent positive earnings report and strong demand for its latest product line. The overall market uptrend and positive tech sector sentiment further support an upward move."
+    },
+    {
+      "id": "pred_gpt4o_20260402_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 850.0,
+      "current_price_at_prediction": 870.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite the general market uptrend, Tesla faces pressure from recent regulatory concerns in its key markets. Additionally, a recent downgrade by a major investment bank could weigh on its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260402_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 3500.0,
+      "current_price_at_prediction": 3450.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Amazon is likely to benefit from strong e-commerce sales data released this morning, along with positive analyst upgrades. The broader market's positive sentiment also supports a potential rise in its stock price."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-02",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-02T14:39:41.457801+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential Fed rate cut signals and strong tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech giants like NVDA with positive buzz. Major news includes a scheduled Fed speech at 2 PM ET, which could impact market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260402_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 up 0.3% suggest upward momentum. X/Twitter sentiment is leaning bullish with discussions around potential Fed dovishness. Upcoming Fed speech could reinforce this if tone remains accommodative."
+    },
+    {
+      "id": "pred_grok_20260402_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing strong pre-market activity with a 1.2% gain based on web data from Yahoo Finance. X/Twitter posts highlight excitement over recent AI product announcements, driving positive sentiment. Options flow shows heavy call buying for April expiries per web reports."
+    },
+    {
+      "id": "pred_grok_20260402_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 185.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "X/Twitter sentiment for TSLA is mixed, with concerns over delivery numbers reported weaker than expected per web news from Bloomberg. Short interest data from web sources indicates a slight uptick, suggesting bearish pressure. Pre-market trading shows a slight dip of 0.5%."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-02T09:00:00Z",
+  "market_context": "Markets under pressure from Trump's Iran war escalation comments. Futures down 1%+ with oil spiking above $105. Tech selling off with Tesla down 4% premarket.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260402_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 645.0,
+      "current_price_at_prediction": 651.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.77,
+      "reasoning": "Futures indicate 1%+ decline with geopolitical escalation creating risk-off sentiment. VIX jumping 6% to 26.86 confirms heightened market fear driving broad selling pressure."
+    },
+    {
+      "id": "pred_claude_20260402_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 572.0,
+      "current_price_at_prediction": 581.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Tech-heavy Nasdaq futures showing steepest declines of major indices. Rising Treasury yields from oil-driven inflation concerns pressuring high-multiple tech stocks most severely."
+    },
+    {
+      "id": "pred_claude_20260402_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 370.0,
+      "current_price_at_prediction": 373.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Already down 2.09% in premarket at $373.31 from poor Q1 delivery expectations. Broad tech selloff and risk-off sentiment will likely pressure shares further despite SpaceX IPO buzz."
+    },
+    {
+      "id": "pred_claude_20260402_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 96.5,
+      "current_price_at_prediction": 93.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Energy sector surging with WTI crude above $105 on Iran war escalation fears. Oil companies like Chevron gaining 2.92% while geopolitical risk premium drives energy stocks higher."
+    }
+  ]
+}

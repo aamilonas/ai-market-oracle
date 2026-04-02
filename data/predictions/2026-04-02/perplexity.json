@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-02T14:39:21Z",
+  "market_context": "US stock futures are rising as of late March 2026, with oil prices climbing amid a shortened trading week featuring jobs data and war uncertainty, following gains in S&P 500 (0.9%), Dow (0.9%), and Nasdaq (0.8%). February saw market volatility with Nasdaq down 3.4% due to AI fears, stretched tech valuations, and tariff concerns, while S&P 500 fell 0.8% and Dow was flat 0.3%; Q4 2025 GDP slowed to 1.4% with persistent core PCE at 3.0%.[1][2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260402_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 582.5,
+      "current_price_at_prediction": 578.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures are rising per recent coverage, extending Monday's 0.9% S&P 500 gain amid jobs data anticipation.[1] February's -0.8% dip reflected AI and tariff worries, but cyclical resilience and slowing growth without contraction suggest rebound potential.[2] Pre-market momentum supports mild upside despite uncertainty."
+    },
+    {
+      "id": "pred_perplexity_20260402_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 489.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq fell 3.4% in February on AI fears rattling tech valuations and SaaS disruption concerns.[2][3] Recent 0.8% bounce may fade with persistent core PCE at 3.0% delaying rate cuts and tariff headlines pressuring multinationals.[1][2] Tech-heavy exposure heightens volatility risk today."
+    },
+    {
+      "id": "pred_perplexity_20260402_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 415.2,
+      "current_price_at_prediction": 412.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow held flat at 0.3% in February with resilience in energy, materials, and industrials amid tech selloff.[2] Monday's 0.9% rise and rising futures indicate strength in value cyclicals over growth.[1] Stable labor data and Q4 GDP moderation favor industrials end-of-day."
+    },
+    {
+      "id": "pred_perplexity_20260402_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 98.5,
+      "current_price_at_prediction": 96.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Oil prices are climbing alongside rising futures, boosting energy sector resilience noted in February.[1][2] Cyclical segments like energy outperformed tech amid growth moderation and inflation persistence.[2] Pre-market oil strength positions XLE for gains."
+    }
+  ]
+}
