@@ -1,0 +1,54 @@
+{
+  "week": "2026-W13",
+  "period": "Mar 23 – Mar 27, 2026",
+  "generated_at": "2026-04-04T15:24:45.727774+00:00",
+  "headline": "Claude dominates with precision targets while Grok stumbles on mega-cap reversals",
+  "summary": "Week 13 exposed a stark divide in AI prediction quality: Claude delivered surgical accuracy across 14 predictions with a 0.79 accuracy rate and dominant high-confidence calls, while Grok imploded with catastrophic misses on NVDA and TSLA, posting a -0.15 accuracy. Perplexity cycled between genius and failure—nailing directional calls with incredible target precision (QQQ, SPY reversals) yet blowing simple energy bets. The market pivoted sharply mid-week, rewarding models that caught the downturns while punishing bullish bias.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 10.33,
+      "predictions": 14,
+      "accuracy": 0.79,
+      "rank_change": 1
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 4.84,
+      "predictions": 12,
+      "accuracy": 0.58,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 4.98,
+      "predictions": 7,
+      "accuracy": 0.71,
+      "rank_change": 1
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 1.5,
+      "predictions": 11,
+      "accuracy": -0.15,
+      "rank_change": -2
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "DIA",
+    "score": 1.18,
+    "summary": "Predicted DIA downside with 0.9975 target accuracy at 0.68 confidence, catching precise reversal to 461.17."
+  },
+  "worst_call": {
+    "model": "Grok",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Wildly overestimated NVDA at 950 target while stock collapsed to 175, representing a catastrophic 81% miss."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 5,
+    "consensus_correct": 3,
+    "accuracy": 0.6
+  }
+}
