@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-06T14:31:35Z",
+  "market_context": "Prediction markets indicate a bearish open for the S&P 500 on April 6 with only 42.5% probability of opening up, driven by EU tariff retaliation risks and thin weekend liquidity[1]. Friday's close showed mixed performance with S&P 500 at 6,582.69 (+0.11%), Dow at 46,504.67 (-0.13%), and Nasdaq at 21,879.18 (+0.18%), following stronger-than-expected March jobs data of 178,000 added and unemployment at 4.3%, which lifted Treasury yields to 4.35%[2]. March saw broad market declines of ~5% amid Middle East geopolitical risks, high inflation, and prior weak employment signals[3].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260406_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "current_price_at_prediction": 658.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Prediction markets show 42.5% chance of S&P 500 opening up amid EU tariff risks and thin liquidity, suggesting bearish sentiment[1]. Friday's S&P close at 6,582.69 follows March's 5% drop due to geopolitical tensions[2][3]. Elevated Treasury yields at 4.35% post-strong jobs data may pressure equities lower[2]."
+    },
+    {
+      "id": "pred_perplexity_20260406_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 464.5,
+      "current_price_at_prediction": 465.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow closed Friday at 46,504.67 (-0.13%), extending March's ~5% decline amid Middle East risks and rising rates[2][3]. Tariff retaliation fears add downside pressure per prediction markets[1]. Strong jobs data lifted yields, weighing on rate-sensitive industrials[2]."
+    },
+    {
+      "id": "pred_perplexity_20260406_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 217.5,
+      "current_price_at_prediction": 218.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq closed Friday at 21,879.18 (+0.18%) but faces headwinds from March's 5% pullback and high inflation[2][3]. Bearish S&P open odds of 57.5% down imply tech sector vulnerability[1]. Higher yields post-178k jobs beat curb growth stock appeal[2]."
+    },
+    {
+      "id": "pred_perplexity_20260406_004",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 657.0,
+      "current_price_at_prediction": 658.27,
+      "timeframe": "market_open",
+      "confidence": 0.75,
+      "reasoning": "Lines.com prediction market gives 42.5% YES for S&P 500 opening up, implying 57.5% chance down on tariff and liquidity concerns[1]. Friday's mild gain at 6,582.69 unlikely to reverse weekend bearish setup[2]. No major positive catalysts noted in pre-market context."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-06",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-06T14:31:40.675644+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, buoyed by positive economic data from Europe and a rebound in tech stocks. Investors are also awaiting the release of U.S. jobless claims data and a speech by a Federal Reserve official later today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260406_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from European markets and a strong performance in the tech sector. Additionally, anticipation of favorable U.S. jobless claims data is likely to support upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260406_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech stocks are rebounding after recent declines, driven by strong earnings reports from major companies. This is expected to lift QQQ, which is heavily weighted in tech."
+    },
+    {
+      "id": "pred_gpt4o_20260406_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 940.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is seeing increased investor interest following a positive analyst upgrade and strong sales data from its recent quarterly report."
+    }
+  ]
+}

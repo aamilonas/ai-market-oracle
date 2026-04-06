@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-06",
+  "generated_at": "2026-04-06T14:31:59.471192+00:00",
+  "headline": "Market Split on Geopolitical Ceasefire Hopes Amid Iran Deadline Uncertainty",
+  "summary": "Four AI models made 14 predictions for April 6, 2026, with sharp disagreement on market direction driven by competing narratives around Iran ceasefire prospects and their inflation/deflation implications. Claude took a hawkish stance on energy stocks declining due to falling oil prices, while GPT-4o, Grok, and Perplexity split between bullish and bearish macro outlooks, creating conflicting signals on SPY, QQQ, and broad indices. Actual closing prices remain pending, making outcome validation impossible at this time.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Complete disagreement: Claude and Perplexity predict down (0.65-0.75 confidence), while GPT-4o and Grok predict up (0.65 confidence each)."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Split decision with Claude and GPT-4o bullish, Perplexity bearish (0.6-0.7 confidence range)."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Opposite predictions with GPT-4o bullish on analyst upgrade and Grok bearish on production delays."
+    },
+    {
+      "ticker": "Energy (CVX/XLE)",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude uniquely confident (0.72-0.75) that ceasefire hopes will hammer energy stocks via falling oil prices."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_xle_001",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": null,
+    "summary": "Claude's highest confidence prediction (0.75) on XLE downside is strategically sound, noting the energy sector's 38.4% Q1 gain creates substantial profit-taking risk if geopolitical premiums reverse."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpt4o_qqq_001",
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "GPT-4o's QQQ target of 400.0 appears disconnected from current market reality and fundamentals, suggesting potential data misalignment or model hallucination in the prediction framework."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-06T14:31:47.833964+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside due to upcoming tech earnings. Pre-market futures for S&P 500 and Nasdaq are up slightly by 0.3% and 0.4% respectively, while notable movers include tech giants like AAPL with positive buzz. No major economic data releases are scheduled, but a Fed speech later today could influence sentiment.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260406_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures for S&P 500 up 0.3% suggest a bullish open. X/Twitter sentiment is leaning toward optimism with hashtags like #BullMarket trending among retail investors. A lack of negative catalysts today supports a modest upward move."
+    },
+    {
+      "id": "pred_grok_20260406_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Heavy positive chatter on X/Twitter about AAPL’s upcoming product reveal is driving retail interest. Pre-market trading shows AAPL up 1.2% already, per web data from Yahoo Finance. Options flow indicates strong call buying at the $230 strike."
+    },
+    {
+      "id": "pred_grok_20260406_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 340.0,
+      "current_price_at_prediction": 345.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter with some users citing concerns over recent production delays reported by Reuters. Short interest data from web sources shows a slight uptick, suggesting bearish bets. Confidence is lower due to volatility in TSLA’s price action."
+    }
+  ]
+}

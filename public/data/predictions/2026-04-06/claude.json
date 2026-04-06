@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-06",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-06T14:30:00Z",
+  "market_context": "Markets are mixed on Iran ceasefire hopes with oil prices falling from recent highs. The crucial Trump deadline for Iran to reopen the Strait of Hormuz expires Tuesday evening. ISM Services PMI data releases at 10 AM ET with expectations of 55.0 vs 56.1 prior.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260406_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "current_price_at_prediction": 656.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Mixed futures and uncertainty around Iran deadline create downward pressure despite ceasefire hopes. Oil price decline removes key support for broader market, and ISM Services PMI may disappoint given geopolitical headwinds affecting business sentiment."
+    },
+    {
+      "id": "pred_claude_20260406_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 595.0,
+      "current_price_at_prediction": 587.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tech sector may benefit from risk-on rotation if ceasefire progress continues. Nasdaq futures showing positive momentum in pre-market, and tech stocks less exposed to energy/geopolitical risks than broader market indices."
+    },
+    {
+      "id": "pred_claude_20260406_003",
+      "ticker": "CVX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 190.0,
+      "current_price_at_prediction": 198.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Oil prices falling on ceasefire hopes will directly impact energy stocks. CVX has run up significantly during the Iran crisis and is vulnerable to profit-taking if war premium unwinds. Any diplomatic progress removes key bullish catalyst."
+    },
+    {
+      "id": "pred_claude_20260406_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 95.0,
+      "current_price_at_prediction": 98.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector ETF has gained 38.4% in Q1 on war premium and will face significant selling pressure if Iran situation de-escalates. Oil price weakness directly impacts sector performance, and technical indicators suggest overbought conditions."
+    }
+  ]
+}
