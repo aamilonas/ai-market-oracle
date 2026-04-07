@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-07",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-07T14:53:42Z",
+  "market_context": "US stocks edged higher on Monday with the S&P 500 up 0.4% near 6620, testing resistance amid seasonal tailwinds and broad sector strength despite Iran tensions and a Trump deadline for resolution. Geopolitical risks from Middle East conflicts drove March declines (S&P 500 -5%) and oil volatility, but analysts maintain a bull market thesis with resilient economy, shrinking deficit, and expected Fed rate cuts later in 2026. Sentiment is neutral (put-call ratio 0.97), with upside potential to 6900 if 6620 breaks.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260407_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 665.0,
+      "current_price_at_prediction": 662.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 closed Monday at ~6620, up 0.4%, testing key resistance with head-and-shoulders pattern signaling upside to 6900 if broken; seasonal April strength and neutral sentiment (put-call 0.97) support continuation.[1] Broader market internals show strength in select sectors, outweighing Iran wildcard risks.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260407_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 478.0,
+      "current_price_at_prediction": 475.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq followed S&P/Dow gains Monday amid market broadening beyond tech into industrials and consumer staples; bull thesis intact with strong fundamentals despite March's 5% pullback from Middle East risks.[2][4] Expected Fed rate cuts later 2026 to aid growth stocks.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260407_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 418.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow gained alongside S&P Monday, with early positive response to shrinking FY2026 deficit ($697B, -17% YoY) favoring consumer/industrial stocks; resilient US energy buffers oil shocks.[1][2] Healthy market broadening supports industrials uptrend.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260407_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 88.0,
+      "current_price_at_prediction": 90.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "March saw energy sector red amid oil spikes from Middle East supply shocks, but potential Iran resolution by 8pm ET deadline could ease pressures; profit-taking in energy after volatility.[1][3]"
+    }
+  ]
+}

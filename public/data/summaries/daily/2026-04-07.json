@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07T14:54:09.253837+00:00",
+  "headline": "Sharp Model Divide: Claude Sees Geopolitical Downturn, Others Predict Tech Rally",
+  "summary": "A stark divergence emerged in today's predictions with Claude taking a distinctly bearish stance on equities citing Iran tensions and company-specific headwinds, while GPT-4o, Grok, and Perplexity leaned bullish on broad market strength and tech momentum. Claude's oil-focused thesis (USO, VIX) contrasted sharply with optimistic tech calls from competing models, creating a high-stakes scenario where geopolitical risk appetite becomes the day's determining factor. All predictions remain pending market close evaluation.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models bullish on S&P 500 upside (targets 600-665) versus Claude's lone bearish call citing geopolitical headwinds."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech optimism from two models contrasts with Claude's downside prediction on weakness and iPhone delays."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Claude"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Claude solo on bearish Apple call citing foldable iPhone engineering setbacks, while GPT-4o predicts upside."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "claude_uso_up",
+    "model_display_name": "Claude",
+    "ticker": "USO",
+    "score": 0.8,
+    "summary": "Highest confidence call with strong geopolitical thesis: oil surging past $110/barrel on Trump Iran deadline and US military strikes provided compelling near-term bullish catalyst for energy."
+  },
+  "worst_call": {
+    "prediction_id": "gpto_qqq_up",
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": -1.2,
+    "summary": "Lowest confidence tech call with unrealistic target of 400 (vs current 586+) and vague positive sentiment reasoning during a day Claude identifies specific tech headwinds like Apple delays."
+  }
+}

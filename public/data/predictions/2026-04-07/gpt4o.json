@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-07",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-07T14:53:48.555947+00:00",
+  "market_context": "US stock futures are slightly higher in pre-market trading, with investors optimistic about upcoming economic data releases. The market is anticipating the release of the latest jobless claims and consumer credit reports, which could provide further insights into the economic recovery.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260407_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive sentiment from pre-market futures and anticipation of favorable economic data. The market is optimistic about the jobless claims report, which is expected to show a decrease in unemployment, supporting the bullish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260407_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech stocks are likely to benefit from the positive market sentiment and potential strong economic data. The NASDAQ futures are indicating a higher open, suggesting investor confidence in the sector's performance today."
+    },
+    {
+      "id": "pred_gpt4o_20260407_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple is expected to gain as tech stocks are favored in the current market environment. Additionally, recent reports of strong iPhone sales in Asia are likely to boost investor confidence in the stock."
+    }
+  ]
+}

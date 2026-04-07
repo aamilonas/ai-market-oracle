@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-07",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-07T12:00:00Z",
+  "market_context": "Markets are under extreme pressure as President Trump's 8 PM ET deadline for Iran to reopen the Strait of Hormuz approaches. Futures are down 0.4-0.6% with oil prices spiking above $110/barrel. Geopolitical uncertainty is driving risk-off sentiment across all asset classes.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260407_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 648.0,
+      "current_price_at_prediction": 658.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures are down 0.5% premarket as geopolitical tensions escalate ahead of Trump's Iran deadline. The index has been in a falling trend with technical resistance at $596, and volume divergence signals suggest further downside despite recent gains."
+    },
+    {
+      "id": "pred_claude_20260407_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 575.0,
+      "current_price_at_prediction": 588.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ premarket at 586.59 shows weakness below yesterday's close of 588.50. Technical analysis shows mixed signals with RSI at 64.47, but the 200-day MA at 595.10 suggests sell pressure. Nasdaq futures down 0.6% indicate tech weakness."
+    },
+    {
+      "id": "pred_claude_20260407_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 248.0,
+      "current_price_at_prediction": 257.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple shares already plunged 4% on reports of foldable iPhone delays per Nikkei. Engineering setbacks could delay mass production by months, weighing on investor sentiment. CEO Cook's recent $16.5M stock sale adds to negative sentiment."
+    },
+    {
+      "id": "pred_claude_20260407_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.0,
+      "current_price_at_prediction": 87.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Oil prices surging above $110/barrel as Trump's Iran deadline approaches and US strikes Kharg Island oil export hub. WTI trading at $113-114 range suggests continued energy sector strength. Geopolitical premium likely to persist through deadline."
+    },
+    {
+      "id": "pred_claude_20260407_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 32.0,
+      "current_price_at_prediction": 27.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "VIX already surged 13% to 27.7 as geopolitical tensions mount. With Trump's Iran deadline just hours away and escalating threats of infrastructure strikes, fear gauge likely to spike further as uncertainty peaks before 8 PM ET deadline."
+    }
+  ]
+}
