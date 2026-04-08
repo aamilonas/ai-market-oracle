@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-08",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-08T09:15:00Z",
+  "market_context": "US-Iran ceasefire announcement overnight has triggered massive pre-market rally with Dow futures up 2.79%, S&P 500 up 2.45%, and Nasdaq up 3.2%. Oil prices crashed 15%+ on the geopolitical relief, while tech and airline stocks surge in pre-market trading.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260408_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 610.0,
+      "current_price_at_prediction": 588.59,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nasdaq futures up 3.2% pre-market on ceasefire news with tech stocks like NVDA, TSLA, AMD surging 4-10%. QQQ after-hours already showing strength at 606.33, indicating strong momentum continuation likely."
+    },
+    {
+      "id": "pred_claude_20260408_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 190.0,
+      "current_price_at_prediction": 184.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "NVDA up 3.66% in pre-market to $184.61, riding the tech rally from ceasefire news. Semiconductor stocks mentioned as surging 4-10% pre-market, and NVDA has strong technical support with analyst targets averaging $265."
+    },
+    {
+      "id": "pred_claude_20260408_003",
+      "ticker": "DAL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 75.0,
+      "current_price_at_prediction": 73.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.9,
+      "reasoning": "DAL beat Q1 earnings $0.64 vs $0.61 estimate and revenue beat expectations. Stock already jumped 12.2% pre-market to $73.64. Airline stocks getting double boost from ceasefire (lower oil costs + travel recovery)."
+    },
+    {
+      "id": "pred_claude_20260408_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.0,
+      "current_price_at_prediction": 95.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.88,
+      "reasoning": "WTI crude futures already down 15%+ to $95.75 on ceasefire announcement. Oil supply concerns from Strait of Hormuz closure should continue to unwind as geopolitical tensions ease significantly."
+    },
+    {
+      "id": "pred_claude_20260408_005",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.0,
+      "current_price_at_prediction": 92.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Energy sector should decline as oil prices crash 15%+ on ceasefire news. Oil companies mentioned as declining while broader market rallies. Energy stocks had been war beneficiaries but now face reversal."
+    }
+  ]
+}

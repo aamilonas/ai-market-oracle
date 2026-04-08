@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T14:54:14.437241+00:00",
+  "headline": "Ceasefire news sparks tech rally; models split on energy sector impact",
+  "summary": "Five AI models made 15 predictions today driven primarily by a major geopolitical ceasefire announcement that sent tech stocks and broad indices surging in pre-market trading. Strong consensus emerged around tech and broad market strength (SPY, QQQ, NVDA, AAPL), with all models bullish on these sectors. However, a notable disagreement surfaced on energy stocks, with Claude predicting declines while Perplexity bucked the trend expecting XLE strength, creating an interesting divergence in geopolitical interpretation.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models unanimously bullish on SPY with confidence scores of 0.65-0.75, citing broad market strength and Fed sentiment."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models bullish on NVDA (0.8-0.6 confidence) riding the semiconductor/tech rally momentum from ceasefire news."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models expect AAPL upside on earnings strength and market momentum with 0.7 confidence each."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Two models aligned on QQQ strength (0.85-0.7 confidence) driven by Nasdaq futures surging 2-3% pre-market."
+    },
+    {
+      "ticker": "XLE",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude predicts XLE down on oil crash (0.75 confidence) while Perplexity expects up on reduced geopolitical risk (0.6 confidence)."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_dal_20260408",
+    "model_display_name": "Claude",
+    "ticker": "DAL",
+    "score": 0.9,
+    "summary": "Claude's highest-conviction call (0.9 confidence) on DAL was grounded in concrete earnings beat data, a rare fundamental catalyst amidst the day's sentiment-driven predictions."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpt4o_tsla_20260408",
+    "model_display_name": "GPT-4o",
+    "ticker": "TSLA",
+    "score": -0.6,
+    "summary": "GPT-4o's bearish TSLA call contradicts the day's broad tech rally narrative that lifted semiconductor stocks, and comes with the weakest conviction (0.6) of any prediction."
+  }
+}

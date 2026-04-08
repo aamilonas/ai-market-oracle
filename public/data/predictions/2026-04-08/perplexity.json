@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-08",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-08T14:53:41Z",
+  "market_context": "US stock futures for Dow, S&P 500, and Nasdaq 100 are rallying over 2% pre-market after President Trump delayed strikes on Iranian infrastructure by two weeks and announced a potential ceasefire with a 10-point negotiation proposal from Iran[1]. Yesterday's close saw Dow down 0.18% at 46585, amid mixed sector performance and ongoing geopolitical tensions[1]. Earnings season begins with banks, alongside steady consumer spending but concerns over growth, labor volatility, and elevated inflation forecasts[2][3][5][6].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260408_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 680.0,
+      "current_price_at_prediction": 677.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "US500 index at 6801 points up 2.78% today, with S&P 500 futures over 2% higher on Trump's Iran ceasefire delay and negotiation proposal[1]. Yesterday's US500 close at 6772 supports upward momentum into close[1]. Geopolitical de-escalation typically boosts broad market indices like SPY."
+    },
+    {
+      "id": "pred_perplexity_20260408_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 485.0,
+      "current_price_at_prediction": 475.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 futures up more than 2% pre-market amid risk-on sentiment from Iran truce delay[1]. Despite Q1 tech sector weakness (-7.57%), today's news overrides recent pressures[2]. Broader futures rally supports Nasdaq-heavy QQQ."
+    },
+    {
+      "id": "pred_perplexity_20260408_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 466.0,
+      "current_price_at_prediction": 464.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow futures up over 2% after yesterday's 0.18% decline to 46585, driven by Trump ceasefire announcement[1]. Energy and industrials showed Q1 strength (+37.91% and +4.55%), aligning with de-escalation benefits[2]. Pre-market gains likely extend through session."
+    },
+    {
+      "id": "pred_perplexity_20260408_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.5,
+      "current_price_at_prediction": 93.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Geopolitical de-escalation in Middle East reduces oil supply disruption fears after Hormuz Strait tensions[1][4]. Energy sector led Q1 with +37.91% gains amid prior risks[2]. Futures rally amplifies sector upside."
+    }
+  ]
+}

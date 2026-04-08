@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-08",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-08T14:53:47.634993+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, buoyed by positive sentiment from strong earnings reports from major tech companies. Additionally, the economic calendar includes the release of the latest jobless claims data, which is expected to show a slight decrease, indicating continued labor market strength.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260408_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to positive earnings reports from major tech companies and anticipated favorable jobless claims data, which could boost investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260408_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 197.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple reported better-than-expected earnings and revenue growth, driven by strong iPhone sales and services revenue, likely leading to a positive market reaction."
+    },
+    {
+      "id": "pred_gpt4o_20260408_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 250.0,
+      "current_price_at_prediction": 255.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock may face pressure due to concerns over production delays in its new model, despite overall positive market sentiment."
+    }
+  ]
+}
