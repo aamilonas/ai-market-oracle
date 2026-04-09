@@ -58,7 +58,7 @@ def _clean_grounding_artifacts(text):
     text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
     # Remove bare citation markers: [1], [2], etc.
     text = re.sub(r'\[\d+\]', '', text)
-    return text"""
+    return text
 
 
 class GeminiAdapter:
