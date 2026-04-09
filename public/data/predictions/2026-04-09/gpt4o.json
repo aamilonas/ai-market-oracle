@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-09",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-09T15:08:26.328650+00:00",
+  "market_context": "Pre-market futures indicate a positive opening for US markets, with S&P 500, Nasdaq, and Dow Jones futures all trading higher. Overnight news highlights include a strong earnings report from a major tech company and positive economic data from Europe. The economic calendar today includes US jobless claims and a speech from a Federal Reserve official.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260409_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive pre-market futures and strong earnings from a major tech company suggest bullish sentiment. Additionally, favorable economic data from Europe supports a positive outlook for global markets."
+    },
+    {
+      "id": "pred_gpt4o_20260409_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 395.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The tech-heavy Nasdaq is likely to benefit from strong earnings in the tech sector, as indicated by pre-market movers. Positive sentiment is further supported by a lack of negative economic surprises."
+    },
+    {
+      "id": "pred_gpt4o_20260409_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 177.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple's recent product launch and strong sales figures reported overnight are expected to drive the stock higher today. The tech sector's overall positive outlook further supports this prediction."
+    }
+  ]
+}

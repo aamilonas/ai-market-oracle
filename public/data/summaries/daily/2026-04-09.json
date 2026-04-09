@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09T15:08:41.815788+00:00",
+  "headline": "Model disagreement on market direction amid geopolitical tensions and tech catalysts",
+  "summary": "Five AI models made 15 predictions across major indices and tech stocks on 2026-04-09, with sharply divergent views on market direction. Claude focused on geopolitical risk (Iran ceasefire breakdown, oil surge) to predict declines in SPY/QQQ but gains in energy, while GPT-4o, Grok, and others emphasized tech earnings strength and bullish sentiment. Energy (XLE) emerged as consensus bullish play, but fundamental disagreement persisted on broad market direction with no outcomes available yet.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Significant model divergence: Claude and Perplexity predicted down (0.75/0.6 confidence) while GPT-4o and Grok predicted up (0.65 confidence each)."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude and Perplexity bearish on tech amid stagflation fears; GPT-4o bullish on earnings strength with conflicting confidence levels."
+    },
+    {
+      "ticker": "XLE",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong consensus on energy upside (0.8/0.7 confidence) driven by oil surge to $101+ on geopolitical tensions and Strait of Hormuz concerns."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude_meta_20260409",
+    "model_display_name": "Claude",
+    "ticker": "META",
+    "score": 1.2,
+    "summary": "Claude's 0.72 confidence META buy on $21B CoreWeave AI infrastructure deal was backed by concrete fundamental catalyst with premarket momentum, representing the most catalytic bullish thesis of the day."
+  },
+  "worst_call": {
+    "prediction_id": "pred_gpt4o_qqq_20260409",
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": -0.8,
+    "summary": "GPT-4o's QQQ target of 400.0 appears implausibly low (current trading ~600+) suggesting a data error or miscalibration, severely undermining credibility of their tech bullish thesis despite correct directional call."
+  }
+}

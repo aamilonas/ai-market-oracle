@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-09T15:08:21Z",
+  "market_context": "Markets face volatility from earnings season start, geopolitical tensions impacting energy prices, and recent weak economic data including a Q1 S&P 500 decline of 4.63%, February job losses of 92,000, and a widening trade deficit to $57.3B. Fed rates steady at 3.5-3.75% with next meeting April 28-29; personal income dipped 0.1% in February. Energy sector led Q1 gains at +37.91% amid broader equity pressures.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260409_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 512.5,
+      "current_price_at_prediction": 515.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Q1 S&P 500 fell 4.63% amid AI disruption fears and geopolitics, with technology sector down 7.57%.[1] Today's personal income drop of 0.1% and widening trade deficit signal weakening economy.[3] Earnings season and volatility likely extend recent downward pressure."
+    },
+    {
+      "id": "pred_perplexity_20260409_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 428.0,
+      "current_price_at_prediction": 431.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq Composite declined 7.11% in Q1, with tech under steady pressure at -7.57% due to AI concerns.[1] Geopolitical tensions and rising yields add to equity volatility as noted in April commentary.[2] Pre-earnings caution likely weighs on Nasdaq-heavy ETF."
+    },
+    {
+      "id": "pred_perplexity_20260409_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.2,
+      "current_price_at_prediction": 94.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Energy sector surged +37.91% in Q1, standout amid broad declines.[1] Renewed geopolitical tensions visibly influencing markets through energy prices.[2] Continued strength expected despite overall market choppiness."
+    },
+    {
+      "id": "pred_perplexity_20260409_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "flat",
+      "target_price": 398.0,
+      "current_price_at_prediction": 398.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow lost 3.58% in Q1, less severe than S&P/Nasdaq, with industrials up 4.55%.[1] Mixed economic signals like steady CPI and job losses balanced by wage growth.[1] Volatility from earnings and Fed watch may keep Dow range-bound."
+    }
+  ]
+}
