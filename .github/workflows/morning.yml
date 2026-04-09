@@ -45,6 +45,7 @@ jobs:
         run: npm ci
 
       - name: Generate predictions
+        id: generate
         working-directory: scripts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -92,4 +93,14 @@ jobs:
           git commit -m "🤖 Morning predictions — $(date +%Y-%m-%d)"
           git pull --rebase origin master
           git push origin master
+
+      - name: Health check — fail if any model failed
+        if: always()
+        run: |
+          FAILED="${{ steps.generate.outputs.failed_models }}"
+          if [ -n "$FAILED" ]; then
+            echo "::error::Models failed to generate predictions: $FAILED"
+            exit 1
+          fi
+          echo "All models generated predictions successfully."
 

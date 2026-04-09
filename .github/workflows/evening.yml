@@ -41,6 +41,7 @@ jobs:
         run: npm ci
 
       - name: Score predictions
+        id: score
         continue-on-error: true
         working-directory: scripts
         run: |
@@ -69,4 +70,13 @@ jobs:
           git commit -m "📊 Evening scores — $(date +%Y-%m-%d)"
           git pull --rebase origin master
           git push origin master
+
+      - name: Health check — fail if scoring errored
+        if: always()
+        run: |
+          if [ "${{ steps.score.outcome }}" = "failure" ]; then
+            echo "::error::Scoring step failed — check logs above for details"
+            exit 1
+          fi
+          echo "Scoring completed successfully."
 

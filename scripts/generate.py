@@ -7,6 +7,7 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -27,6 +28,28 @@ from utils import (
 )
 
 log = get_logger("generate")
+
+
+def _write_ci_summary(date_str, results, success_count, total, failed):
+    """Write summary to GitHub Actions step summary and outputs."""
+    summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
+    output_file = os.environ.get("GITHUB_OUTPUT")
+
+    if summary_file:
+        with open(summary_file, "a") as f:
+            f.write(f"## Morning Predictions — {date_str}\n\n")
+            f.write(f"**{success_count}/{total}** models generated predictions.\n\n")
+            for model, ok in results.items():
+                icon = "\u2705" if ok else "\u274c"
+                f.write(f"- {icon} {model}\n")
+            if failed:
+                f.write(f"\n**Failed:** {', '.join(failed)}\n")
+
+    if output_file:
+        with open(output_file, "a") as f:
+            f.write(f"failed_models={','.join(failed)}\n")
+            f.write(f"success_count={success_count}\n")
+            f.write(f"total_count={total}\n")
 
 
 def run(date_str: str, model_filter: list[str] | None = None):
@@ -78,7 +101,11 @@ def run(date_str: str, model_filter: list[str] | None = None):
 
     success_count = sum(1 for v in results.values() if v)
     total = len(results)
+    failed = [k for k, v in results.items() if not v]
     log.info(f"Done: {success_count}/{total} models succeeded")
+
+    # Write GitHub Actions summary and outputs if running in CI
+    _write_ci_summary(date_str, results, success_count, total, failed)
 
     if success_count == 0:
         log.error("All models failed — this is a problem")

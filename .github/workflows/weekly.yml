@@ -41,6 +41,7 @@ jobs:
         run: npm ci
 
       - name: Generate weekly summary
+        id: summarize
         continue-on-error: true
         working-directory: scripts
         env:
@@ -68,4 +69,13 @@ jobs:
           git commit -m "📋 Weekly report — $(date +%Y-%m-%d)"
           git pull --rebase origin master
           git push origin master
+
+      - name: Health check — fail if summary errored
+        if: always()
+        run: |
+          if [ "${{ steps.summarize.outcome }}" = "failure" ]; then
+            echo "::error::Weekly summary generation failed — check logs above for details"
+            exit 1
+          fi
+          echo "Weekly summary completed successfully."
 
