@@ -73,10 +73,8 @@ def select_todays_winner(date_str):
                 continue
             if ticker.endswith("-USD"):
                 continue
-            # Skip sports/missing price data
+            # Skip predictions with missing price data
             if target is None or entry is None or confidence is None:
-                continue
-            if pred.get("category") == "sports":
                 continue
 
             groups[(ticker, direction)].append({
