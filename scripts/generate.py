@@ -56,6 +56,18 @@ def run(date_str: str, model_filter: list[str] | None = None):
     ensure_dirs()
     log.info(f"Generating predictions for {date_str}")
 
+    # Fetch standardized market data for all models
+    market_context = ""
+    try:
+        from market_data import get_market_context
+        market_context = get_market_context()
+        if market_context:
+            log.info("Market context data fetched successfully")
+        else:
+            log.warning("Market context came back empty — models will rely on web search only")
+    except Exception as e:
+        log.warning(f"Could not fetch market context (non-fatal): {e}")
+
     adapters = ALL_ADAPTERS
     if model_filter:
         adapters = [a for a in adapters if a.slug in model_filter]
@@ -74,7 +86,7 @@ def run(date_str: str, model_filter: list[str] | None = None):
 
         log.info(f"Running {adapter.slug}...")
         try:
-            data = adapter.generate(date_str)
+            data = adapter.generate(date_str, market_context=market_context)
         except Exception as e:
             log.error(f"{adapter.slug}: unexpected error: {e}")
             data = None

@@ -15,7 +15,8 @@ MODEL_ID = "claude-sonnet-4-20250514"
 DISPLAY_NAME = "Claude"
 
 
-def _build_prompt(date_str: str, schema: str) -> str:
+def _build_prompt(date_str: str, schema: str, market_context: str = "") -> str:
+    context_block = f"\n\n{market_context}\n" if market_context else ""
     return f"""You are a market analyst participating in a daily AI prediction experiment.
 Your task: Research current market conditions using your internet access,
 then make 3-5 specific, falsifiable stock market predictions for today.
@@ -36,7 +37,7 @@ RULES:
 
 Today's date: {date_str}
 Market opens at 9:30 AM ET.
-
+{context_block}
 After researching, respond with ONLY valid JSON in this exact format:
 {schema}"""
 
@@ -68,14 +69,14 @@ class ClaudeAdapter:
     model_display_name = DISPLAY_NAME
     slug = "claude"
 
-    def generate(self, date_str: str) -> dict | None:
+    def generate(self, date_str: str, market_context: str = "") -> dict | None:
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             log.error("ANTHROPIC_API_KEY not set")
             return None
 
         client = anthropic.Anthropic(api_key=api_key)
-        prompt = _build_prompt(date_str, PREDICTION_SCHEMA)
+        prompt = _build_prompt(date_str, PREDICTION_SCHEMA, market_context)
 
         for attempt in range(3):
             try:

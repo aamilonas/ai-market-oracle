@@ -55,7 +55,7 @@ class PerplexityAdapter:
     model_display_name = DISPLAY_NAME
     slug = "perplexity"
 
-    def generate(self, date_str: str) -> dict | None:
+    def generate(self, date_str: str, market_context: str = "") -> dict | None:
         api_key = os.environ.get("PERPLEXITY_API_KEY")
         if not api_key:
             log.error("PERPLEXITY_API_KEY not set")
@@ -64,6 +64,8 @@ class PerplexityAdapter:
         client = OpenAI(api_key=api_key, base_url=BASE_URL)
         date_compact = date_str.replace("-", "")
         user_msg = USER_TEMPLATE.format(date=date_str, date_compact=date_compact)
+        if market_context:
+            user_msg = f"{market_context}\n\n{user_msg}"
 
         for attempt in range(3):
             try:

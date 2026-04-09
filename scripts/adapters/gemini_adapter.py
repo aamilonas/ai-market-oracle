@@ -66,7 +66,7 @@ class GeminiAdapter:
     model_display_name = DISPLAY_NAME
     slug = "gemini"
 
-    def generate(self, date_str: str) -> dict | None:
+    def generate(self, date_str: str, market_context: str = "") -> dict | None:
         api_key = os.environ.get("GOOGLE_GEMINI_API_KEY")
         if not api_key:
             log.error("GOOGLE_GEMINI_API_KEY not set")
@@ -82,6 +82,8 @@ class GeminiAdapter:
             now=now,
             date_compact=date_compact,
         )
+        if market_context:
+            prompt = f"{market_context}\n\n{prompt}"
 
         for attempt in range(3):
             try:
