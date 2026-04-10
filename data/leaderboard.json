@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-04-09T23:04:25.873990+00:00",
+  "last_updated": "2026-04-10T23:00:12.587569+00:00",
   "models": [
     {
       "model_id": "grok-3",
       "model_display_name": "Grok",
-      "total_predictions": 86,
-      "correct_directions": 55,
-      "direction_accuracy": 0.6395,
-      "total_score": 16.5,
+      "total_predictions": 90,
+      "correct_directions": 56,
+      "direction_accuracy": 0.6222,
+      "total_score": 15.4,
       "avg_confidence": 0.0,
-      "current_streak": 6,
+      "current_streak": -2,
       "best_streak": 6,
       "worst_streak": -2,
       "weekly_scores": []
@@ -17,12 +17,12 @@
     {
       "model_id": "sonar-pro",
       "model_display_name": "Perplexity",
-      "total_predictions": 108,
-      "correct_directions": 47,
-      "direction_accuracy": 0.4352,
-      "total_score": -8.02,
+      "total_predictions": 112,
+      "correct_directions": 48,
+      "direction_accuracy": 0.4286,
+      "total_score": -9.2,
       "avg_confidence": 0.0,
-      "current_streak": -5,
+      "current_streak": 1,
       "best_streak": 5,
       "worst_streak": -8,
       "weekly_scores": []
@@ -43,12 +43,12 @@
     {
       "model_id": "gpt-4o",
       "model_display_name": "GPT-4o",
-      "total_predictions": 90,
-      "correct_directions": 76,
-      "direction_accuracy": 0.8444,
-      "total_score": 41.12,
+      "total_predictions": 94,
+      "correct_directions": 77,
+      "direction_accuracy": 0.8191,
+      "total_score": 39.68,
       "avg_confidence": 0.0,
-      "current_streak": 3,
+      "current_streak": -1,
       "best_streak": 12,
       "worst_streak": -2,
       "weekly_scores": []
