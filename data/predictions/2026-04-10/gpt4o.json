@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-10T14:35:20.980392+00:00",
+  "market_context": "U.S. stock futures are slightly higher in pre-market trading, indicating a positive opening. The market is buoyed by strong earnings reports from major tech companies and a decline in the VIX, suggesting reduced market volatility. Investors are also optimistic about upcoming economic data releases, including consumer sentiment and inflation figures.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260410_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 685.0,
+      "current_price_at_prediction": 681.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY is likely to rise due to positive pre-market futures and strong earnings from tech giants, which are major components of the index. Additionally, the significant drop in the VIX suggests reduced market fear, supporting a bullish sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260410_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 265.0,
+      "current_price_at_prediction": 261.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Apple's recent earnings beat expectations, and the stock is benefiting from positive sentiment in the tech sector. The overall market trend is upward, supporting a potential increase in AAPL's price."
+    },
+    {
+      "id": "pred_gpt4o_20260410_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 355.0,
+      "current_price_at_prediction": 347.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Tesla is expected to rise due to strong demand for electric vehicles and positive market sentiment. Recent analyst upgrades and a favorable macroeconomic environment contribute to this outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260410_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 75000.0,
+      "current_price_at_prediction": 73087.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Bitcoin continues to gain momentum with increased institutional interest and a broader acceptance of cryptocurrencies. The recent price surge is likely to continue, driven by strong market dynamics."
+    }
+  ]
+}

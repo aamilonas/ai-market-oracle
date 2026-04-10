@@ -1,0 +1,63 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T14:35:51.353455+00:00",
+  "headline": "Three AI models bullish on tech and crypto; outcomes pending market close",
+  "summary": "All three AI models (GPT-4o, Grok, and Perplexity) made predominantly bullish predictions for April 10th, with 11 out of 12 predictions favoring upward movement across major indices and tech stocks. Strong consensus emerged around SPY, NVDA, and AAPL as core holdings. However, actual closing prices remain unavailable, leaving all predictions in pending status with no scoring data to evaluate accuracy.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "All three models unanimously predicted SPY upside, targeting $685-$686 with confidence ranging from 0.6 to 0.7."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both GPT-4o and Grok called AAPL higher to $265, citing strong earnings and positive sentiment."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Grok and Perplexity both targeted NVDA at $192, driven by AI chip demand and tech momentum."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "GPT-4o predicted up to $355 while Grok predicted down to $340, showing model disagreement on Tesla's direction."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_gpt4o_btc_20260410",
+    "model_display_name": "GPT-4o",
+    "ticker": "BTC-USD",
+    "score": null,
+    "summary": "GPT-4o's Bitcoin prediction at $75,000 with 0.72 confidence showed the highest conviction among all predictions, backed by institutional interest thesis."
+  },
+  "worst_call": {
+    "prediction_id": "pred_grok_tsla_20260410",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Grok's Tesla bearish call at $340 with only 0.55 confidence stands as the sole downside prediction and lowest conviction forecast of the day."
+  }
+}

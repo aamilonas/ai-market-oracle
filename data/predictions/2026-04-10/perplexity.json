@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-10T14:34:26Z",
+  "market_context": "Search results show QQQ trading around $608-$610 in recent sessions, up slightly from the previous close of $612.71, indicating stable to mildly positive momentum in Nasdaq amid a 5-day gain of +4.7%.[3][7] No specific futures, pre-market, or overnight news for April 10, 2026, is available in results, with general ETF comparisons highlighting QQQ's growth outperformance over SPY.[1][4] Inflation data notes CPI at +2.87% YoY as of February 2026.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260410_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 615.5,
+      "current_price_at_prediction": 612.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Recent trading data shows QQQ at $610.19, up 0.46% in the past 24 hours, building on a 5-day gain of +4.7%.[7] Historical sessions indicate highs near 613.29 with positive changes like +0.40% and +1.26%.[5] Momentum from tech-heavy composition supports slight upside from $612.71 close.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260410_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 686.0,
+      "current_price_at_prediction": 681.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY's 5-day gain of +3.9% aligns with broad market stability and lower VIX at 18.95 (-21.6%).[market data] Balanced exposure across S&P 500 supports continuation of recent uptrend amid positive major indices momentum.[1] QQQ outperformance often correlates with SPY gains.[4]"
+    },
+    {
+      "id": "pred_perplexity_20260410_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 484.5,
+      "current_price_at_prediction": 480.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA's 5-day +3.4% gain reflects blue-chip stability in a low VIX environment at 18.95 (-21.6%).[market data] Focus on stability positions it for modest gains following SPY and QQQ trends.[1] CPI at +2.87% YoY suggests controlled inflation supporting equities.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260410_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 192.0,
+      "current_price_at_prediction": 188.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA benefits from QQQ's tech-driven momentum, with QQQ recently at $610.19 (+0.46%).[7] As a key Nasdaq holding, it aligns with QQQ's historical outperformance of +47.37% past year vs. SPY.[4] 5-day major indices gains bolster semiconductor strength.[market data]"
+    }
+  ]
+}
