@@ -1,0 +1,54 @@
+{
+  "week": "2026-W14",
+  "period": "Mar 30 – Apr 3, 2026",
+  "generated_at": "2026-04-11T15:26:30.102493+00:00",
+  "headline": "Claude rebounds sharply while Perplexity crashes; tech targets wildly miss",
+  "summary": "A dramatic week of divergent model performance saw Claude stage a stunning recovery on March 31st with near-perfect predictions (SPY, MRVL, NVDA, QQQ all scoring 0.9+), while Perplexity imploded on March 30th with catastrophic price target errors (SPY at 6405, QQQ at 23350, DIA at 50300). Grok remained steady but struggled with NVDA, while GPT-4o showed inconsistent conviction. By week's end, market confusion reigned as several models reversed directional calls on SPY and QQQ, highlighting the challenge of short-term equity prediction.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 3.75,
+      "predictions": 16,
+      "accuracy": 0.5625,
+      "rank_change": 1
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 2.0,
+      "predictions": 11,
+      "accuracy": 0.4545,
+      "rank_change": -1
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 4.28,
+      "predictions": 14,
+      "accuracy": 0.5714,
+      "rank_change": 1
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -2.36,
+      "predictions": 15,
+      "accuracy": 0.3333,
+      "rank_change": -3
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "NVDA",
+    "score": 1.1,
+    "summary": "Claude predicted NVDA at $175 with 60% confidence on March 31st; it closed at $174.40 for a 99.66% target accuracy."
+  },
+  "worst_call": {
+    "model": "Perplexity",
+    "ticker": "DIA",
+    "score": -0.6,
+    "summary": "Perplexity predicted DIA would rise to 50300 on March 30th when it actually closed at 452.06, a truly catastrophic miss."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 6,
+    "consensus_correct": 4,
+    "accuracy": 0.6667
+  }
+}
