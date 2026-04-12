@@ -61,6 +61,7 @@ export default function Home() {
   const [dailySummary, setDailySummary] = useState(null)
   const [todaysWinner, setTodaysWinner] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [activeDate, setActiveDate] = useState(null)
   const [horizontal, setHorizontal] = useState(() => {
     try { return localStorage.getItem('layout') === 'horizontal' } catch { return false }
   })
@@ -70,24 +71,28 @@ export default function Home() {
   useEffect(() => {
     async function load() {
       try {
-        const [lb, sc, ds, tw] = await Promise.all([
+        const [lb, tw] = await Promise.all([
           loadLeaderboard(),
-          loadScores(today).catch(() => null),
-          loadDailySummary(today).catch(() => null),
           loadTodaysWinner().catch(() => null),
+        ])
+        const latestDate = tw?.date || today
+        const [sc, ds] = await Promise.all([
+          loadScores(latestDate).catch(() => null),
+          loadDailySummary(latestDate).catch(() => null),
         ])
         setLeaderboard(lb)
         setScores(sc)
         setDailySummary(ds)
         setTodaysWinner(tw)
+        setActiveDate(latestDate)
 
         const predsMap = {}
         await Promise.all(
           MODEL_NAMES.map(async name => {
             try {
-              const p = await loadPredictions(today, name)
+              const p = await loadPredictions(latestDate, name)
               predsMap[name] = p
-            } catch {}
+            } catch { /* no predictions for this model today */ }
           })
         )
         setPredictions(predsMap)
@@ -96,7 +101,7 @@ export default function Home() {
       }
     }
     load()
-  }, [])
+  }, [today])
 
   if (loading) return <div className={styles.loading}>Loading...</div>
 
@@ -115,7 +120,7 @@ export default function Home() {
         </p>
         {dailySummary && (
           <div className={styles.dailyHeadline}>
-            <span className={styles.datePill}>{today}</span>
+            <span className={styles.datePill}>{activeDate || today}</span>
             <span className={styles.headlineText}>{dailySummary.headline}</span>
           </div>
         )}
@@ -132,7 +137,7 @@ export default function Home() {
             onClick={() => {
               const next = !horizontal
               setHorizontal(next)
-              try { localStorage.setItem('layout', next ? 'horizontal' : 'vertical') } catch {}
+              try { localStorage.setItem('layout', next ? 'horizontal' : 'vertical') } catch { /* ignore */ }
             }}
             aria-label={horizontal ? 'Switch to grid view' : 'Switch to column view'}
           >
@@ -207,7 +212,7 @@ export default function Home() {
 
         const consensusBlock = dailySummary?.consensus_picks?.length > 0 && (
           <section>
-            <h2 className={styles.sectionTitle}>Today's Consensus</h2>
+            <h2 className={styles.sectionTitle}>Today&apos;s Consensus</h2>
             <ConsensusHighlight consensus={dailySummary.consensus_picks} />
           </section>
         )
@@ -251,7 +256,7 @@ export default function Home() {
             <div className={styles.columnLayout}>
               <div className={styles.sectionHeaderRow}>
                 <div>
-                  <h2 className={styles.sectionTitle}>Today's Predictions</h2>
+                  <h2 className={styles.sectionTitle}>Today&apos;s Predictions</h2>
                   <p className={styles.sectionSub}>
                     All models received the same prompt. Scored after market close.
                   </p>
@@ -274,7 +279,7 @@ export default function Home() {
               <section>
                 <div className={styles.sectionHeaderRow}>
                   <div>
-                    <h2 className={styles.sectionTitle}>Today's Predictions</h2>
+                    <h2 className={styles.sectionTitle}>Today&apos;s Predictions</h2>
                     <p className={styles.sectionSub}>
                       All models received the same prompt. Scored after market close.
                     </p>

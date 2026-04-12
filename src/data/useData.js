@@ -40,8 +40,16 @@ export async function loadTodaysWinner() {
   return fetchJSON('data/winner-today.json')
 }
 
+export async function loadAnalytics() {
+  return fetchJSON('data/analytics.json')
+}
+
+export async function loadWeeksIndex() {
+  return fetchJSON('data/weeks-index.json')
+}
+
 export function getTodayDate() {
-  return new Date().toISOString().slice(0, 10)
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' })
 }
 
 export const MODEL_NAMES = ['claude', 'perplexity', 'gemini', 'gpt4o', 'grok']
@@ -60,4 +68,11 @@ export const MODEL_COLORS = {
   Gemini: '#4285F4',
   'GPT-4o': '#10A37F',
   Grok: '#C0C0C0',
+}
+
+export function enrichModelsWithColors(models) {
+  return models.map(m => ({
+    ...m,
+    color: m.color || MODEL_COLORS[m.model_display_name] || '#888',
+  }))
 }

@@ -49,10 +49,16 @@ def score_date(date_str: str) -> Optional[dict]:
     # Check if already scored
     out_file = SCORES_DIR / f"{date_str}.json"
     existing_data = None
-    existing_ids = set()
+    resolved_ids = set()
+    existing_results = []
     if out_file.exists():
         existing_data = load_json(out_file)
-        existing_ids = {r["prediction_id"] for r in existing_data.get("results", [])}
+        existing_results = existing_data.get("results", [])
+        resolved_ids = {
+            r["prediction_id"]
+            for r in existing_results
+            if r.get("status") == "resolved"
+        }
         log.info(f"Existing scores found for {date_str}, will add unscored predictions")
 
     pred_dir = PREDICTIONS_DIR / date_str
@@ -76,7 +82,7 @@ def score_date(date_str: str) -> Optional[dict]:
 
         for pred in data.get("predictions", []):
             pid = pred["id"]
-            if pid in existing_ids:
+            if pid in resolved_ids:
                 continue
             if pred.get("timeframe") != "end_of_day":
                 # End-of-week/month predictions scored on their respective day
@@ -98,7 +104,8 @@ def score_date(date_str: str) -> Optional[dict]:
     d = datetime.strptime(date_str, "%Y-%m-%d").date()
     closes = get_batch_closing_prices(tickers, d)
 
-    results = list(existing_data.get("results", []) if existing_data else [])
+    retry_ids = {item["prediction"]["id"] for item in to_score}
+    results = [r for r in existing_results if r.get("prediction_id") not in retry_ids]
 
     for item in to_score:
         pred = item["prediction"]
@@ -165,23 +172,45 @@ def score_date(date_str: str) -> Optional[dict]:
     return score_data
 
 
-def update_leaderboard(score_data: dict):
-    """Update the running leaderboard with new scores."""
-    if not LEADERBOARD_FILE.exists():
-        log.error(f"Leaderboard file not found: {LEADERBOARD_FILE}")
+def update_leaderboard(score_data: dict = None):
+    """Rebuild the leaderboard from ALL score files (fully idempotent).
+
+    Safe to call multiple times — always produces the same result for the
+    same set of score files on disk.  The optional *score_data* argument is
+    accepted for call-site compatibility but ignored; all data comes from
+    SCORES_DIR.
+    """
+    score_files = sorted(SCORES_DIR.glob("*.json"))
+    if not score_files:
+        log.warning("No score files found — nothing to update")
         return
 
-    lb = load_json(LEADERBOARD_FILE)
-    model_map = {m["model_display_name"]: m for m in lb["models"]}
-
-    # Only process newly resolved results
-    for result in score_data.get("results", []):
-        if result["status"] != "resolved":
+    # Collect every resolved result with its date for chronological ordering
+    entries = []  # list of (date_str, prediction_id, result_dict)
+    for sf in score_files:
+        try:
+            data = load_json(sf)
+        except Exception as e:
+            log.error(f"Could not load {sf}: {e}")
             continue
+        date_str = data.get("date", sf.stem)
+        for result in data.get("results", []):
+            if result.get("status") != "resolved":
+                continue
+            entries.append((date_str, result.get("prediction_id", ""), result))
 
+    # Sort chronologically (then by prediction_id for stable intra-day order)
+    entries.sort(key=lambda e: (e[0], e[1]))
+
+    # Build per-model stats
+    model_stats = {}   # display_name -> stats dict
+    conf_totals = {}   # display_name -> sum of confidences
+    weekly_data = {}   # (display_name, "YYYY-WNN") -> {score, preds, correct}
+
+    for date_str, _pid, result in entries:
         name = result["model_display_name"]
-        if name not in model_map:
-            model_map[name] = {
+        if name not in model_stats:
+            model_stats[name] = {
                 "model_id": result["model"],
                 "model_display_name": name,
                 "total_predictions": 0,
@@ -194,35 +223,63 @@ def update_leaderboard(score_data: dict):
                 "worst_streak": 0,
                 "weekly_scores": [],
             }
-            lb["models"].append(model_map[name])
-
-        m = model_map[name]
-        # Update totals
-        m["total_predictions"] = m.get("total_predictions", 0) + 1
+            conf_totals[name] = 0.0
+        m = model_stats[name]
+        m["total_predictions"] += 1
         if result["direction_correct"]:
-            m["correct_directions"] = m.get("correct_directions", 0) + 1
-        m["total_score"] = round(m.get("total_score", 0.0) + result["score"], 4)
+            m["correct_directions"] += 1
+        m["total_score"] = round(m["total_score"] + result["score"], 4)
+        conf_totals[name] += result.get("confidence_at_prediction", 0.0)
 
-        # Recompute accuracy
-        if m["total_predictions"] > 0:
-            m["direction_accuracy"] = round(
-                m["correct_directions"] / m["total_predictions"], 4
-            )
+        # Weekly accumulation
+        d = datetime.strptime(date_str, "%Y-%m-%d").date()
+        cal = d.isocalendar()
+        week_key = f"{cal[0]}-W{cal[1]:02d}"
+        wk = weekly_data.setdefault((name, week_key), {"score": 0.0, "predictions": 0, "correct": 0})
+        wk["score"] = round(wk["score"] + result["score"], 4)
+        wk["predictions"] += 1
+        if result["direction_correct"]:
+            wk["correct"] += 1
 
-        # Update streak
-        streak = m.get("current_streak", 0)
+        # Streak
+        streak = m["current_streak"]
         if result["direction_correct"]:
             m["current_streak"] = max(1, streak + 1) if streak >= 0 else 1
         else:
             m["current_streak"] = min(-1, streak - 1) if streak <= 0 else -1
+        m["best_streak"] = max(m["best_streak"], m["current_streak"])
+        m["worst_streak"] = min(m["worst_streak"], m["current_streak"])
 
-        m["best_streak"] = max(m.get("best_streak", 0), m["current_streak"])
-        m["worst_streak"] = min(m.get("worst_streak", 0), m["current_streak"])
+    # Finalize derived fields
+    for name, m in model_stats.items():
+        if m["total_predictions"] > 0:
+            m["direction_accuracy"] = round(
+                m["correct_directions"] / m["total_predictions"], 4
+            )
+            m["avg_confidence"] = round(
+                conf_totals[name] / m["total_predictions"], 4
+            )
 
-    lb["last_updated"] = datetime.now(timezone.utc).isoformat()
+        # Build weekly_scores array sorted chronologically
+        m["weekly_scores"] = []
+        for (wname, week_key), wk in sorted(weekly_data.items()):
+            if wname != name:
+                continue
+            m["weekly_scores"].append({
+                "week": week_key,
+                "score": wk["score"],
+                "predictions": wk["predictions"],
+                "accuracy": round(wk["correct"] / wk["predictions"], 4) if wk["predictions"] else 0.0,
+            })
+
+    lb = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "models": list(model_stats.values()),
+    }
+
     save_json(LEADERBOARD_FILE, lb)
     sync_to_public(LEADERBOARD_FILE)
-    log.info("Leaderboard updated")
+    log.info(f"Leaderboard rebuilt from {len(score_files)} score files ({len(entries)} results)")
 
 
 def main():

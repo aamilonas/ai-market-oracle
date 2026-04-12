@@ -32,7 +32,7 @@ export default function About() {
           <li>The question: does internet access actually help AI models be right about things?</li>
         </ul>
         <p>
-          The interesting result isn't whether any model beats the market — they probably won't
+          The interesting result isn&apos;t whether any model beats the market — they probably won&apos;t
           consistently. The interesting result is the <em>relative</em> comparison: which models
           are better calibrated? Which ones are overconfident? Which ones surface information
           others miss?
@@ -45,9 +45,9 @@ export default function About() {
           {[
             { name: 'Claude', color: '#E07A3A', model: 'claude-sonnet-4-20250514', org: 'Anthropic' },
             { name: 'Perplexity', color: '#20B2AA', model: 'sonar-pro', org: 'Perplexity AI' },
-            { name: 'Gemini', color: '#4285F4', model: 'gemini-2.0-flash', org: 'Google DeepMind' },
-            { name: 'GPT-4o', color: '#10A37F', model: 'gpt-4o', org: 'OpenAI' },
-            { name: 'Grok', color: '#C0C0C0', model: 'grok-2', org: 'xAI' },
+            { name: 'Gemini', color: '#4285F4', model: 'gemini-2.5-flash', org: 'Google DeepMind' },
+            { name: 'GPT-4o', color: '#10A37F', model: 'gpt-4o-search-preview', org: 'OpenAI' },
+            { name: 'Grok', color: '#C0C0C0', model: 'grok-3', org: 'xAI' },
           ].map(m => (
             <div key={m.name} className={styles.modelRow}>
               <span className={styles.modelDot} style={{ background: m.color }} />
@@ -87,7 +87,7 @@ export default function About() {
         </p>
         <div className={styles.links}>
           <a
-            href="https://github.com"
+            href="https://github.com/aamilonas/ai-market-oracle"
             className={styles.link}
             target="_blank"
             rel="noopener noreferrer"

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { enrichModelsWithColors } from '../data/useData'
 import styles from './LeaderboardTable.module.css'
 
 function StreakBadge({ streak }) {
@@ -12,13 +13,11 @@ function StreakBadge({ streak }) {
   )
 }
 
-const SORT_KEYS = ['total_score', 'direction_accuracy', 'total_predictions', 'avg_confidence']
-
 export default function LeaderboardTable({ models, compact = false }) {
   const [sortKey, setSortKey] = useState('total_score')
   const [sortDir, setSortDir] = useState('desc')
 
-  const sorted = [...models].sort((a, b) => {
+  const sorted = [...enrichModelsWithColors(models)].sort((a, b) => {
     const v = sortDir === 'desc' ? b[sortKey] - a[sortKey] : a[sortKey] - b[sortKey]
     return v
   })

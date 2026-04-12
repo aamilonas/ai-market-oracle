@@ -1,57 +1,229 @@
 {
-  "last_updated": "2026-04-10T23:00:12.587569+00:00",
+  "last_updated": "2026-04-12T15:03:10.826669+00:00",
   "models": [
-    {
-      "model_id": "grok-3",
-      "model_display_name": "Grok",
-      "total_predictions": 90,
-      "correct_directions": 56,
-      "direction_accuracy": 0.6222,
-      "total_score": 15.4,
-      "avg_confidence": 0.0,
-      "current_streak": -2,
-      "best_streak": 6,
-      "worst_streak": -2,
-      "weekly_scores": []
-    },
-    {
-      "model_id": "sonar-pro",
-      "model_display_name": "Perplexity",
-      "total_predictions": 112,
-      "correct_directions": 48,
-      "direction_accuracy": 0.4286,
-      "total_score": -9.2,
-      "avg_confidence": 0.0,
-      "current_streak": 1,
-      "best_streak": 5,
-      "worst_streak": -8,
-      "weekly_scores": []
-    },
     {
       "model_id": "claude-sonnet-4-20250514",
       "model_display_name": "Claude",
-      "total_predictions": 125,
-      "correct_directions": 68,
-      "direction_accuracy": 0.544,
-      "total_score": 21.5,
-      "avg_confidence": 0.0,
-      "current_streak": -3,
-      "best_streak": 14,
-      "worst_streak": -4,
-      "weekly_scores": []
+      "total_predictions": 120,
+      "correct_directions": 66,
+      "direction_accuracy": 0.55,
+      "total_score": 20.77,
+      "avg_confidence": 0.7386,
+      "current_streak": 1,
+      "best_streak": 15,
+      "worst_streak": -5,
+      "weekly_scores": [
+        {
+          "week": "2026-W09",
+          "score": 4.66,
+          "predictions": 10,
+          "accuracy": 0.7
+        },
+        {
+          "week": "2026-W10",
+          "score": 4.68,
+          "predictions": 20,
+          "accuracy": 0.6
+        },
+        {
+          "week": "2026-W11",
+          "score": -5.74,
+          "predictions": 25,
+          "accuracy": 0.32
+        },
+        {
+          "week": "2026-W12",
+          "score": -1.87,
+          "predictions": 14,
+          "accuracy": 0.3571
+        },
+        {
+          "week": "2026-W13",
+          "score": 16.9,
+          "predictions": 23,
+          "accuracy": 0.8696
+        },
+        {
+          "week": "2026-W14",
+          "score": 1.85,
+          "predictions": 14,
+          "accuracy": 0.5
+        },
+        {
+          "week": "2026-W15",
+          "score": 0.29,
+          "predictions": 14,
+          "accuracy": 0.5
+        }
+      ]
     },
     {
       "model_id": "gpt-4o",
       "model_display_name": "GPT-4o",
-      "total_predictions": 94,
-      "correct_directions": 77,
-      "direction_accuracy": 0.8191,
-      "total_score": 39.68,
-      "avg_confidence": 0.0,
+      "total_predictions": 84,
+      "correct_directions": 71,
+      "direction_accuracy": 0.8452,
+      "total_score": 38.47,
+      "avg_confidence": 0.6477,
       "current_streak": -1,
       "best_streak": 12,
       "worst_streak": -2,
-      "weekly_scores": []
+      "weekly_scores": [
+        {
+          "week": "2026-W09",
+          "score": 2.5,
+          "predictions": 6,
+          "accuracy": 0.8333
+        },
+        {
+          "week": "2026-W10",
+          "score": 6.28,
+          "predictions": 15,
+          "accuracy": 0.8
+        },
+        {
+          "week": "2026-W11",
+          "score": 7.28,
+          "predictions": 17,
+          "accuracy": 0.8235
+        },
+        {
+          "week": "2026-W12",
+          "score": 5.3,
+          "predictions": 10,
+          "accuracy": 0.9
+        },
+        {
+          "week": "2026-W13",
+          "score": 9.03,
+          "predictions": 16,
+          "accuracy": 0.9375
+        },
+        {
+          "week": "2026-W14",
+          "score": 4.63,
+          "predictions": 11,
+          "accuracy": 0.8182
+        },
+        {
+          "week": "2026-W15",
+          "score": 3.45,
+          "predictions": 9,
+          "accuracy": 0.7778
+        }
+      ]
+    },
+    {
+      "model_id": "grok-3",
+      "model_display_name": "Grok",
+      "total_predictions": 80,
+      "correct_directions": 51,
+      "direction_accuracy": 0.6375,
+      "total_score": 15.15,
+      "avg_confidence": 0.6419,
+      "current_streak": 3,
+      "best_streak": 5,
+      "worst_streak": -2,
+      "weekly_scores": [
+        {
+          "week": "2026-W09",
+          "score": 2.1,
+          "predictions": 7,
+          "accuracy": 0.7143
+        },
+        {
+          "week": "2026-W10",
+          "score": 2.65,
+          "predictions": 12,
+          "accuracy": 0.6667
+        },
+        {
+          "week": "2026-W11",
+          "score": 2.3,
+          "predictions": 17,
+          "accuracy": 0.5882
+        },
+        {
+          "week": "2026-W12",
+          "score": 0.1,
+          "predictions": 10,
+          "accuracy": 0.5
+        },
+        {
+          "week": "2026-W13",
+          "score": 3.9,
+          "predictions": 16,
+          "accuracy": 0.6875
+        },
+        {
+          "week": "2026-W14",
+          "score": 2.0,
+          "predictions": 9,
+          "accuracy": 0.6667
+        },
+        {
+          "week": "2026-W15",
+          "score": 2.1,
+          "predictions": 9,
+          "accuracy": 0.6667
+        }
+      ]
+    },
+    {
+      "model_id": "sonar-pro",
+      "model_display_name": "Perplexity",
+      "total_predictions": 100,
+      "correct_directions": 45,
+      "direction_accuracy": 0.45,
+      "total_score": -5.73,
+      "avg_confidence": 0.6689,
+      "current_streak": -1,
+      "best_streak": 5,
+      "worst_streak": -8,
+      "weekly_scores": [
+        {
+          "week": "2026-W09",
+          "score": -3.29,
+          "predictions": 9,
+          "accuracy": 0.2222
+        },
+        {
+          "week": "2026-W10",
+          "score": 0.99,
+          "predictions": 16,
+          "accuracy": 0.5625
+        },
+        {
+          "week": "2026-W11",
+          "score": -1.2,
+          "predictions": 20,
+          "accuracy": 0.45
+        },
+        {
+          "week": "2026-W12",
+          "score": -3.35,
+          "predictions": 12,
+          "accuracy": 0.25
+        },
+        {
+          "week": "2026-W13",
+          "score": 1.93,
+          "predictions": 20,
+          "accuracy": 0.55
+        },
+        {
+          "week": "2026-W14",
+          "score": 0.01,
+          "predictions": 12,
+          "accuracy": 0.5
+        },
+        {
+          "week": "2026-W15",
+          "score": -0.82,
+          "predictions": 11,
+          "accuracy": 0.4545
+        }
+      ]
     }
   ]
 }

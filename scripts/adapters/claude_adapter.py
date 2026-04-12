@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """Anthropic Claude adapter with web_search tool."""
 
 import os
@@ -70,9 +72,11 @@ class ClaudeAdapter:
     slug = "claude"
 
     def generate(self, date_str: str, market_context: str = "") -> dict | None:
+        self.last_error = None
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
-            log.error("ANTHROPIC_API_KEY not set")
+            self.last_error = "ANTHROPIC_API_KEY not set"
+            log.error(self.last_error)
             return None
 
         client = anthropic.Anthropic(api_key=api_key)
@@ -102,10 +106,12 @@ class ClaudeAdapter:
                     data["date"] = date_str
                     return data
                 else:
+                    self.last_error = "Claude returned content that was not valid JSON"
                     log.warning(f"Claude attempt {attempt + 1}: could not parse JSON from response")
                     log.debug(f"Raw response: {text[:500]}")
 
             except Exception as e:
+                self.last_error = str(e)
                 log.error(f"Claude attempt {attempt + 1} failed: {e}")
 
             if attempt < 2:

@@ -10,6 +10,10 @@ from utils import get_logger
 
 log = get_logger("market_data")
 
+YFINANCE_TICKER_ALIASES = {
+    "VIX": "^VIX",
+}
+
 
 def get_closing_price(ticker: str, target_date: date, retries: int = 3) -> Optional[float]:
     """
@@ -22,11 +26,12 @@ def get_closing_price(ticker: str, target_date: date, retries: int = 3) -> Optio
 
     for attempt in range(retries):
         try:
-            ticker_obj = yf.Ticker(ticker)
+            yf_ticker = YFINANCE_TICKER_ALIASES.get(ticker, ticker)
+            ticker_obj = yf.Ticker(yf_ticker)
             hist = ticker_obj.history(start=start.isoformat(), end=end.isoformat())
 
             if hist.empty:
-                log.warning(f"No data for {ticker} around {target_date}")
+                log.warning(f"No data for {ticker} ({yf_ticker}) around {target_date}")
                 return None
 
             # Find the row matching the target date
@@ -40,7 +45,10 @@ def get_closing_price(ticker: str, target_date: date, retries: int = 3) -> Optio
             # If exact date not found, take the last available row (for half-days etc.)
             close = float(hist["Close"].iloc[-1])
             actual_date = hist.index[-1].date() if hasattr(hist.index[-1], "date") else hist.index[-1]
-            log.warning(f"{ticker}: no data for {target_date}, using {actual_date} close ${close:.2f}")
+            log.warning(
+                f"{ticker} ({yf_ticker}): no data for {target_date}, "
+                f"using {actual_date} close ${close:.2f}"
+            )
             return round(close, 2)
 
         except Exception as e:

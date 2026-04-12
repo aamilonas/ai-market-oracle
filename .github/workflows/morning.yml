@@ -2,9 +2,8 @@ name: Morning — Generate Predictions
 
 on:
   schedule:
-    # 13:30 UTC = 8:30 AM ET (EST). Adjust to 12:30 UTC during EDT (Mar–Nov).
-    # Using 13:30 UTC as a safe default; the Python script also checks market open.
-    - cron: '30 13 * * 1-5'
+    # 12:30 UTC = 8:30 AM EDT / 7:30 AM EST — always before 9:30 AM market open.
+    - cron: '30 12 * * 1-5'
   workflow_dispatch:
     inputs:
       date:
@@ -63,6 +62,7 @@ jobs:
           python generate.py $ARGS
 
       - name: Generate daily summary
+        id: daily_summary
         continue-on-error: true
         working-directory: scripts
         env:
@@ -95,13 +95,19 @@ jobs:
           git pull --rebase origin master
           git push origin master
 
-      - name: Health check — fail if any model failed
+      - name: Health check — fail if generation or summary failed
         if: always()
         run: |
+          ERRORS=""
           FAILED="${{ steps.generate.outputs.failed_models }}"
           if [ -n "$FAILED" ]; then
-            echo "::error::Models failed to generate predictions: $FAILED"
+            ERRORS="${ERRORS}Models failed to generate predictions: $FAILED. "
+          fi
+          if [ "${{ steps.daily_summary.outcome }}" = "failure" ]; then
+            ERRORS="${ERRORS}Daily summary step failed. "
+          fi
+          if [ -n "$ERRORS" ]; then
+            echo "::error::${ERRORS}Check logs above for details."
             exit 1
           fi
-          echo "All models generated predictions successfully."
-
+          echo "All morning steps completed successfully."

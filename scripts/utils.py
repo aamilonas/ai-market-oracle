@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """Shared utilities: schema validation, logging, file helpers."""
 
 import json

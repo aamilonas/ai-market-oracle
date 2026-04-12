@@ -6,6 +6,7 @@ import Scoreboard from './pages/Scoreboard'
 import Simulator from './pages/Simulator'
 import Weekly from './pages/Weekly'
 import Methodology from './pages/Methodology'
+import Analytics from './pages/Analytics'
 import About from './pages/About'
 
 const BASE = import.meta.env.BASE_URL
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/model/:name" element={<ModelPage />} />
           <Route path="/scoreboard" element={<Scoreboard />} />
+          <Route path="/analytics" element={<Analytics />} />
           <Route path="/simulator" element={<Simulator />} />
           <Route path="/weekly" element={<Weekly />} />
           <Route path="/methodology" element={<Methodology />} />

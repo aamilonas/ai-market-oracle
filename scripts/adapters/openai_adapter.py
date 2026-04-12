@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """OpenAI GPT-4o adapter with web search tool."""
 
 import os
@@ -11,7 +13,7 @@ from utils import get_logger, extract_json_from_text
 
 log = get_logger("openai_adapter")
 
-MODEL_ID = "gpt-4o"
+MODEL_ID = "gpt-4o-search-preview"
 DISPLAY_NAME = "GPT-4o"
 
 SYSTEM_PROMPT = """You are a market analyst in a daily AI prediction experiment.
@@ -72,6 +74,7 @@ class OpenAIAdapter:
                 log.info(f"GPT-4o attempt {attempt + 1}...")
                 response = client.chat.completions.create(
                     model=MODEL_ID,
+                    web_search_options={},
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT},
                         {"role": "user", "content": user_msg},

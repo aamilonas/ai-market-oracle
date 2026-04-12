@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Morning script: generate predictions from all AI models.
 Run at 8:30 AM ET on weekdays before market open.
@@ -17,6 +19,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from adapters import ALL_ADAPTERS
 from utils import (
+    ALLOWED_DIRECTIONS,
+    ALLOWED_TIMEFRAMES,
     ensure_dirs,
     get_logger,
     is_market_open,
@@ -30,7 +34,7 @@ from utils import (
 log = get_logger("generate")
 
 
-def _write_ci_summary(date_str, results, success_count, total, failed):
+def _write_ci_summary(date_str, results, success_count, total, failed, failure_reasons):
     """Write summary to GitHub Actions step summary and outputs."""
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
     output_file = os.environ.get("GITHUB_OUTPUT")
@@ -44,12 +48,20 @@ def _write_ci_summary(date_str, results, success_count, total, failed):
                 f.write(f"- {icon} {model}\n")
             if failed:
                 f.write(f"\n**Failed:** {', '.join(failed)}\n")
+                for model in failed:
+                    reason = failure_reasons.get(model)
+                    if reason:
+                        f.write(f"  - {model}: {reason}\n")
 
     if output_file:
         with open(output_file, "a") as f:
             f.write(f"failed_models={','.join(failed)}\n")
             f.write(f"success_count={success_count}\n")
             f.write(f"total_count={total}\n")
+            for model, reason in failure_reasons.items():
+                key = model.replace("-", "_")
+                safe_reason = reason.replace("\n", " ").replace("\r", " ")
+                f.write(f"{key}_failure_reason={safe_reason}\n")
 
 
 def run(date_str: str, model_filter: list[str] | None = None):
@@ -84,6 +96,7 @@ def run(date_str: str, model_filter: list[str] | None = None):
         log.info(f"Running adapters: {[a.slug for a in adapters]}")
 
     results = {}
+    failure_reasons = {}
     for adapter in adapters:
         out_dir = PREDICTIONS_DIR / date_str
         out_file = out_dir / f"{adapter.slug}.json"
@@ -104,17 +117,32 @@ def run(date_str: str, model_filter: list[str] | None = None):
         if data is None:
             log.error(f"{adapter.slug}: returned None — skipping")
             results[adapter.slug] = False
+            reason = getattr(adapter, "last_error", None)
+            if reason:
+                failure_reasons[adapter.slug] = reason
             continue
 
-        # Validate
+        # Validate — strip invalid individual predictions before saving
         errors = validate_prediction_payload(data, date_str, adapter.model_id)
         if errors:
             log.warning(f"{adapter.slug}: validation warnings: {errors}")
-            # Don't fail — save anyway if we have predictions
-            if "predictions" not in data or not data["predictions"]:
-                log.error(f"{adapter.slug}: no valid predictions, discarding")
-                results[adapter.slug] = False
-                continue
+
+        if "predictions" in data and isinstance(data["predictions"], list):
+            original_count = len(data["predictions"])
+            data["predictions"] = [
+                p for p in data["predictions"]
+                if p.get("direction") in ALLOWED_DIRECTIONS
+                and p.get("timeframe") in ALLOWED_TIMEFRAMES
+            ]
+            stripped = original_count - len(data["predictions"])
+            if stripped:
+                log.warning(f"{adapter.slug}: stripped {stripped} invalid predictions")
+
+        if not data.get("predictions"):
+            log.error(f"{adapter.slug}: no valid predictions, discarding")
+            results[adapter.slug] = False
+            failure_reasons[adapter.slug] = "No valid predictions after validation"
+            continue
 
         save_json(out_file, data)
         sync_to_public(out_file)
@@ -127,7 +155,7 @@ def run(date_str: str, model_filter: list[str] | None = None):
     log.info(f"Done: {success_count}/{total} models succeeded")
 
     # Write GitHub Actions summary and outputs if running in CI
-    _write_ci_summary(date_str, results, success_count, total, failed)
+    _write_ci_summary(date_str, results, success_count, total, failed, failure_reasons)
 
     if success_count == 0:
         log.error("All models failed — this is a problem")

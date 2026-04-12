@@ -2,7 +2,7 @@ import styles from './WeeklySummary.module.css'
 
 export default function WeeklySummary({ weekly }) {
   if (!weekly) return null
-  const { headline, summary, scores, best_call, worst_call, consensus_accuracy, period } = weekly
+  const { headline, summary, best_call, worst_call, consensus_accuracy, period } = weekly
   return (
     <div className={styles.wrapper}>
       <div className={styles.meta}>

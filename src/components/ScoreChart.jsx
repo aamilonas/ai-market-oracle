@@ -8,6 +8,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts'
+import { enrichModelsWithColors } from '../data/useData'
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null
@@ -32,14 +33,15 @@ const CustomTooltip = ({ active, payload, label }) => {
   )
 }
 
-export default function ScoreChart({ models }) {
+export default function ScoreChart({ models: rawModels }) {
+  const models = enrichModelsWithColors(rawModels)
   // Build weekly data points from models' weekly_scores
   const weekSet = new Set()
   models.forEach(m => m.weekly_scores?.forEach(w => weekSet.add(w.week)))
   const weeks = [...weekSet].sort()
 
   const data = weeks.map(week => {
-    const point = { week: week.replace('2025-', '') }
+    const point = { week }
     models.forEach(m => {
       const ws = m.weekly_scores?.find(w => w.week === week)
       point[m.model_display_name] = ws?.score ?? null

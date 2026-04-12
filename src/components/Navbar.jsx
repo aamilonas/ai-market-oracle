@@ -4,6 +4,7 @@ import styles from './Navbar.module.css'
 const links = [
   { to: '/', label: 'Dashboard' },
   { to: '/scoreboard', label: 'Scoreboard' },
+  { to: '/analytics', label: 'Analytics' },
   { to: '/simulator', label: 'Simulator' },
   { to: '/weekly', label: 'Weekly' },
   { to: '/methodology', label: 'Methodology' },

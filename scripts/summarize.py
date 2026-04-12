@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 Summarize script: generate daily and weekly narrative recaps.
 Uses Claude Haiku for cost efficiency.
@@ -16,6 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from utils import (
+    DATA_DIR,
     ensure_dirs,
     get_logger,
     load_json,
@@ -44,9 +47,9 @@ def get_claude_client():
 
 # ── Daily summary ──────────────────────────────────────────────────────────────
 
-def build_daily_summary(date_str: str) -> dict | None:
+def build_daily_summary(date_str: str, force: bool = False) -> dict | None:
     out_file = SUMMARIES_DAILY_DIR / f"{date_str}.json"
-    if out_file.exists():
+    if out_file.exists() and not force:
         log.info(f"Daily summary already exists for {date_str}")
         return load_json(out_file)
 
@@ -253,6 +256,15 @@ Return ONLY valid JSON."""
     return None
 
 
+def update_weeks_index():
+    """Rebuild data/weeks-index.json from files on disk."""
+    weeks = sorted(f.stem for f in SUMMARIES_WEEKLY_DIR.glob("*.json"))
+    idx_file = DATA_DIR / "weeks-index.json"
+    save_json(idx_file, weeks)
+    sync_to_public(idx_file)
+    log.info(f"weeks-index.json updated: {weeks}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate summaries")
     group = parser.add_mutually_exclusive_group(required=True)
@@ -260,12 +272,13 @@ def main():
     group.add_argument("--weekly", action="store_true")
     parser.add_argument("--date", default=today_et().isoformat())
     parser.add_argument("--week", help="Week string like 2025-W08")
+    parser.add_argument("--force", action="store_true", help="Overwrite existing summary")
     args = parser.parse_args()
 
     ensure_dirs()
 
     if args.daily:
-        result = build_daily_summary(args.date)
+        result = build_daily_summary(args.date, force=args.force)
         if result:
             log.info(f"Daily summary: {result.get('headline', 'done')}")
         else:
@@ -283,6 +296,7 @@ def main():
             week_str = args.week
         result = build_weekly_summary(week_str)
         if result:
+            update_weeks_index()
             log.info(f"Weekly summary: {result.get('headline', 'done')}")
         else:
             log.warning("No data available for weekly summary — skipping")

@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import PredictionCard from '../components/PredictionCard'
-import { loadLeaderboard, loadPredictions, loadScores } from '../data/useData'
+import { loadLeaderboard, loadPredictions, loadScores, loadTodaysWinner, getTodayDate, MODEL_COLORS } from '../data/useData'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts'
 import styles from './ModelPage.module.css'
-
-const SEED_DATE = '2025-02-19'
 
 const MODEL_DESCRIPTIONS = {
   claude: 'Powered by Anthropic\'s Claude with web search. Tends toward methodical, data-driven analysis. Favors calibrated confidence over bold calls. Claude rarely exceeds 80% confidence and shows strong Brier score calibration.',
@@ -17,36 +15,52 @@ const MODEL_DESCRIPTIONS = {
   grok: 'xAI\'s Grok with native X/Twitter access. Unique sentiment signal from social data. Contrarian streak — fades retail consensus positions. Uses options flow data and short interest to supplement analysis.',
 }
 
+function normalizeModelRoute(name) {
+  return name === 'gpt4o' ? 'gpt-4o' : name
+}
+
 export default function ModelPage() {
   const { name } = useParams()
   const [model, setModel] = useState(null)
   const [predData, setPredData] = useState(null)
   const [scores, setScores] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [activeDate, setActiveDate] = useState(null)
 
-  const slug = name === 'gpt-4o' ? 'gpt4o' : name
+  const normalizedName = normalizeModelRoute(name)
+  const slug = normalizedName === 'gpt-4o' ? 'gpt4o' : normalizedName
+
+  const today = getTodayDate()
 
   useEffect(() => {
     async function load() {
       try {
-        const [lb, pd, sc] = await Promise.all([
+        const [lb, winnerData] = await Promise.all([
           loadLeaderboard(),
-          loadPredictions(SEED_DATE, slug).catch(() => null),
-          loadScores(SEED_DATE).catch(() => null),
+          loadTodaysWinner().catch(() => null),
         ])
-        const m = lb.models.find(
-          m => m.model_display_name.toLowerCase() === name ||
-               m.model_display_name.toLowerCase().replace('-', '') === name
+        const latestDate = winnerData?.date || today
+        const [pd, sc] = await Promise.all([
+          loadPredictions(latestDate, slug).catch(() => null),
+          loadScores(latestDate).catch(() => null),
+        ])
+        const found = lb.models.find(
+          m => m.model_display_name.toLowerCase() === normalizedName ||
+               m.model_display_name.toLowerCase().replace('-', '') === normalizedName.replace('-', '')
         )
-        setModel(m)
+        if (found) {
+          found.color = found.color || MODEL_COLORS[found.model_display_name] || '#888'
+        }
+        setModel(found)
         setPredData(pd)
         setScores(sc)
+        setActiveDate(latestDate)
       } finally {
         setLoading(false)
       }
     }
     load()
-  }, [name, slug])
+  }, [normalizedName, slug, today])
 
   if (loading) return <div className={styles.loading}>Loading...</div>
   if (!model) return <div className={styles.loading}>Model not found.</div>
@@ -59,14 +73,14 @@ export default function ModelPage() {
     let cum = 0
     model.weekly_scores.slice(0, model.weekly_scores.indexOf(w) + 1).forEach(ww => { cum += ww.score })
     return {
-      week: w.week.replace('2025-', ''),
+      week: w.week,
       score: parseFloat(cum.toFixed(2)),
       weekly: w.score,
       accuracy: parseFloat((w.accuracy * 100).toFixed(1)),
     }
   }) ?? []
 
-  const desc = MODEL_DESCRIPTIONS[name] || ''
+  const desc = MODEL_DESCRIPTIONS[normalizedName] || ''
 
   return (
     <div className={styles.page}>
@@ -130,7 +144,7 @@ export default function ModelPage() {
       {/* Today's predictions */}
       {predData && (
         <section>
-          <h2 className={styles.sectionTitle}>Today's Predictions — {SEED_DATE}</h2>
+          <h2 className={styles.sectionTitle}>Latest Predictions — {activeDate}</h2>
           <p className={styles.context}>{predData.market_context}</p>
           <div className={styles.cardGrid}>
             {predData.predictions.map(pred => (

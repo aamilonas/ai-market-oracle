@@ -1,6 +1,6 @@
 {
   "date": "2026-03-19",
-  "scored_at": "2026-03-19T22:52:28.543008+00:00",
+  "scored_at": "2026-04-12T15:03:04.707070+00:00",
   "results": [
     {
       "prediction_id": "pred_grok_20260319_001",
@@ -183,21 +183,6 @@
       "status": "resolved"
     },
     {
-      "prediction_id": "pred_claude_20260319_005",
-      "model": "claude-sonnet-4-20250514",
-      "model_display_name": "Claude",
-      "ticker": "VIX",
-      "predicted_direction": "up",
-      "predicted_target": 30.0,
-      "actual_close": null,
-      "actual_direction": null,
-      "direction_correct": null,
-      "target_accuracy": null,
-      "confidence_at_prediction": 0.72,
-      "score": 0.0,
-      "status": "unresolved"
-    },
-    {
       "prediction_id": "pred_gpt4o_20260319_001",
       "model": "gpt-4o",
       "model_display_name": "GPT-4o",
@@ -255,6 +240,21 @@
       "target_accuracy": 0.4788,
       "confidence_at_prediction": 0.55,
       "score": -0.55,
+      "status": "resolved"
+    },
+    {
+      "prediction_id": "pred_claude_20260319_005",
+      "model": "claude-sonnet-4-20250514",
+      "model_display_name": "Claude",
+      "ticker": "VIX",
+      "predicted_direction": "up",
+      "predicted_target": 30.0,
+      "actual_close": 24.06,
+      "actual_direction": "down",
+      "direction_correct": false,
+      "target_accuracy": 0.802,
+      "confidence_at_prediction": 0.72,
+      "score": -0.72,
       "status": "resolved"
     }
   ]

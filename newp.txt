@@ -1,0 +1,104 @@
+
+## 1. Reschedule Morning Job to 4:30 AM
+
+Find the existing scheduled job / cron configuration and change the trigger time to 4:30 AM local time. Preserve all existing signal generation logic.
+
+---
+
+## 2. "Today's Winner" Card on Dashboard
+
+On the main dashboard page, add a prominent "Today's Winner" card at the top above all other content.
+
+Selection logic:
+- Individual stocks only — exclude SPY, QQQ, VIX, and any broad market ETFs
+- Require 4 or more models in agreement
+- Score each qualifying stock: score = confidence * expected_move_percent
+- Pick the highest scoring stock as the winner
+- If no stock meets the 4-model threshold, show "No Consensus Today" state
+
+Display in the card:
+- Ticker (large, bold)
+- Direction badge: green UP arrow or red DOWN arrow
+- Confidence percentage
+- Entry price → Target price with % gain
+- Which models agreed (list them)
+- Expected move %
+- A subtle "HIGH CONVICTION" badge if confidence is 85%+
+
+---
+
+## 3. Paper Trading Simulator Page
+
+Create a new page/route called /simulator (add it to the nav).
+
+### State & Data Model
+Track a simulation account with a starting balance of $25,000. Persist the full trade history and current balance to localStorage so it survives page refreshes.
+
+Each trade record should store:
+- date
+- ticker
+- direction (LONG or SHORT)
+- entry_price
+- exit_price
+- shares (calculated as balance / entry_price)
+- pnl_dollars
+- pnl_percent
+- models_in_agreement (array)
+- confidence
+- status (OPEN or CLOSED)
+
+### Morning Job Integration (Entry Logic)
+When the morning job runs, before entering a trade:
+- Check if there is already an open position — if yes, skip
+- Find the Today's Winner stock using the same selection logic as #2
+- Require 4+ models in agreement
+- If consensus is LONG: simulate buying (balance / entry_price) shares at current price
+- If consensus is SHORT: simulate shorting the same share count at current price
+- Record the trade as OPEN with entry details
+- If no qualifying stock exists, log "No trade today — no consensus"
+
+### Evening Job Integration (Exit Logic)
+When the evening/night job runs:
+- Find any trade with status OPEN
+- Fetch the current end-of-day price for that ticker
+- Calculate PnL:
+  - LONG: pnl = (exit_price - entry_price) * shares
+  - SHORT: pnl = (entry_price - exit_price) * shares
+- Update balance: new_balance = balance + pnl
+- Mark trade as CLOSED with exit_price and final pnl
+
+### Page Layout
+
+TOP SECTION — large, dominant display:
+- Current balance in very large font (green if above $25,000, red if below)
+- Total PnL in dollars and percent since inception
+- Win rate (e.g. "7 of 10 trades profitable")
+- Current open position if one exists (ticker, direction, entry price, current unrealized PnL)
+
+TRADE HISTORY TABLE below:
+Columns: Date | Ticker | Direction | Entry | Exit | Shares | P&L $ | P&L % | Models | Result
+- Color code each row: green for profitable, red for loss
+- Sort newest first
+- Show a summary row at the bottom: total trades, total PnL, average PnL per trade
+
+---
+
+## 4. Short Simulation
+
+When the consensus direction is DOWN/NEGATIVE on the winning stock:
+- Simulate a short position instead of a long
+- Entry: record short at entry price
+- Exit (evening job): profit if price went down, loss if price went up
+- Display direction as "SHORT" with a red downward arrow badge in the trade history
+- On the simulator page, show open short positions with unrealized PnL updating if you have real-time or end-of-day price data available
+
+---
+
+## General Instructions
+
+- Use the existing data fetching patterns already in the codebase — don't introduce new API clients
+- Use the existing component/styling conventions in the project
+- Persist simulator state to localStorage under the key "trading_simulator"
+- All prices should be fetched from whatever price data source is already being used in the app
+- Make sure the /simulator route is accessible from the main navigation
+- Do not break any existing functionality

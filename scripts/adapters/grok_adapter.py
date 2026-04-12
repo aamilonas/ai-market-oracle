@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """xAI Grok adapter with web search (OpenAI-compatible API)."""
 
 import os

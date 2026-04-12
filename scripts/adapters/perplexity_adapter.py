@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """Perplexity Sonar Pro adapter (searches by default)."""
 
 import os

@@ -1,7 +1,7 @@
 """
 Today's Winner selection and paper trading simulator.
 
-Finds the highest-conviction individual stock pick where 4+ models agree
+Finds the highest-conviction individual stock pick where 3+ models agree
 on direction, then manages simulated trades in data/simulator.json.
 """
 
@@ -40,7 +40,7 @@ DEFAULT_WINNER = {
 
 
 def select_todays_winner(date_str):
-    """Find the highest-conviction stock pick where 4+ models agree."""
+    """Find the highest-conviction stock pick where 3+ models agree."""
     pred_dir = PREDICTIONS_DIR / date_str
     if not pred_dir.exists():
         log.warning(f"No predictions directory for {date_str}")

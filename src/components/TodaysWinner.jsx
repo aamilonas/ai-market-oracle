@@ -6,7 +6,7 @@ export default function TodaysWinner({ winner }) {
   if (!winner) {
     return (
       <div className={styles.card}>
-        <span className={styles.label}>TODAY'S WINNER</span>
+        <span className={styles.label}>TODAY&apos;S WINNER</span>
         <p className={styles.noConsensus}>No Consensus Today</p>
         <p className={styles.noConsensusSub}>Fewer than 3 models agreed on any single stock pick.</p>
       </div>
@@ -20,7 +20,7 @@ export default function TodaysWinner({ winner }) {
   return (
     <div className={[styles.card, isUp ? styles.cardUp : styles.cardDown].join(' ')}>
       <div className={styles.top}>
-        <span className={styles.label}>TODAY'S WINNER</span>
+        <span className={styles.label}>TODAY&apos;S WINNER</span>
         {winner.high_conviction && (
           <span className={styles.highConviction}>HIGH CONVICTION</span>
         )}

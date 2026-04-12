@@ -48,7 +48,7 @@ export default function Methodology() {
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>Saturday</span>
             <span className={styles.scheduleLabel}>Weekly Report</span>
-            <p className={styles.scheduleDesc}>AI-generated narrative recap of the week's predictions, scores, and highlights published to the Weekly page.</p>
+            <p className={styles.scheduleDesc}>AI-generated narrative recap of the week&apos;s predictions, scores, and highlights published to the Weekly page.</p>
           </div>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function Methodology() {
       <section className={styles.section}>
         <h2 className={styles.h2}>System Prompt</h2>
         <p className={styles.sectionDesc}>
-          All models receive the same base prompt. Each model's API is called with internet/search access enabled.
+          All models receive the same base prompt. Each model&apos;s API is called with internet/search access enabled.
         </p>
         <pre className={styles.promptBlock}>{SYSTEM_PROMPT}</pre>
       </section>

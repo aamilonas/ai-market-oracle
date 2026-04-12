@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """Google Gemini adapter with Google Search grounding (new google-genai SDK)."""
 
 import os
@@ -67,9 +69,11 @@ class GeminiAdapter:
     slug = "gemini"
 
     def generate(self, date_str: str, market_context: str = "") -> dict | None:
+        self.last_error = None
         api_key = os.environ.get("GOOGLE_GEMINI_API_KEY")
         if not api_key:
-            log.error("GOOGLE_GEMINI_API_KEY not set")
+            self.last_error = "GOOGLE_GEMINI_API_KEY not set"
+            log.error(self.last_error)
             return None
 
         client = genai.Client(api_key=api_key)
@@ -109,9 +113,11 @@ class GeminiAdapter:
                     data["date"] = date_str
                     return data
                 else:
+                    self.last_error = "Gemini returned content that was not valid JSON"
                     log.warning(f"Gemini attempt {attempt + 1}: could not parse JSON")
                     log.info(f"Raw (first 500 chars): {text[:500]}")
             except Exception as e:
+                self.last_error = str(e)
                 log.error(f"Gemini attempt {attempt + 1} failed: {e}")
 
             if attempt < 2:

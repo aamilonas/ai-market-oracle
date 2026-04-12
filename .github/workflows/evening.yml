@@ -50,13 +50,31 @@ jobs:
           if [ -n "$DATE" ]; then ARGS="--date $DATE"; fi
           python score.py $ARGS
 
+      - name: Regenerate daily summary (post-scoring)
+        id: daily_summary
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          ARGS="--force"
+          if [ -n "$DATE" ]; then ARGS="$ARGS --date $DATE"; fi
+          python scripts/summarize.py --daily $ARGS
+
+      - name: Generate analytics
+        id: analytics
+        continue-on-error: true
+        run: python scripts/analytics.py
+
       - name: Sync data to public
         run: |
-          mkdir -p public/data/scores
+          mkdir -p public/data/scores public/data/summaries/daily
           cp -r data/scores public/data/ 2>/dev/null || true
+          cp -r data/summaries/daily public/data/summaries/ 2>/dev/null || true
           cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
           cp data/simulator.json public/data/simulator.json 2>/dev/null || true
           cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
+          cp data/analytics.json public/data/analytics.json 2>/dev/null || true
 
       - name: Build frontend
         run: npm run build
@@ -71,12 +89,21 @@ jobs:
           git pull --rebase origin master
           git push origin master
 
-      - name: Health check — fail if scoring errored
+      - name: Health check — fail if scoring, summary, or analytics errored
         if: always()
         run: |
+          ERRORS=""
           if [ "${{ steps.score.outcome }}" = "failure" ]; then
-            echo "::error::Scoring step failed — check logs above for details"
+            ERRORS="${ERRORS}Scoring step failed. "
+          fi
+          if [ "${{ steps.daily_summary.outcome }}" = "failure" ]; then
+            ERRORS="${ERRORS}Daily summary regeneration failed. "
+          fi
+          if [ "${{ steps.analytics.outcome }}" = "failure" ]; then
+            ERRORS="${ERRORS}Analytics step failed. "
+          fi
+          if [ -n "$ERRORS" ]; then
+            echo "::error::${ERRORS}Check logs above for details."
             exit 1
           fi
-          echo "Scoring completed successfully."
-
+          echo "All evening steps completed successfully."

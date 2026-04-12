@@ -12,7 +12,7 @@ export default function Layout({ children }) {
             AI Market Oracle — Not financial advice. This is an experiment.
           </span>
           <a
-            href="https://github.com"
+            href="https://github.com/aamilonas/ai-market-oracle"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'var(--text-muted)', fontSize: '0.75rem' }}

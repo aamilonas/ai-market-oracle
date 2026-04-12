@@ -1,29 +1,31 @@
 import { useState, useEffect } from 'react'
 import LeaderboardTable from '../components/LeaderboardTable'
 import ScoreChart from '../components/ScoreChart'
-import { loadLeaderboard } from '../data/useData'
+import { loadLeaderboard, loadAnalytics, enrichModelsWithColors } from '../data/useData'
 import styles from './Scoreboard.module.css'
 
 export default function Scoreboard() {
   const [leaderboard, setLeaderboard] = useState(null)
+  const [analytics, setAnalytics] = useState(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    loadLeaderboard().then(setLeaderboard).finally(() => setLoading(false))
+    Promise.all([
+      loadLeaderboard(),
+      loadAnalytics().catch(() => null),
+    ]).then(([lb, an]) => {
+      setLeaderboard(lb)
+      setAnalytics(an)
+    }).finally(() => setLoading(false))
   }, [])
 
   if (loading) return <div className={styles.loading}>Loading...</div>
   if (!leaderboard) return null
 
-  const models = leaderboard.models
+  const models = enrichModelsWithColors(leaderboard.models)
+  const weeks = [...new Set(models.flatMap(model => model.weekly_scores?.map(w => w.week) ?? []))].sort()
 
-  // Head-to-head: find pairs who both predicted the same ticker on the same day
-  // For demo, derived from seed data
-  const headToHead = [
-    { ticker: 'TSLA', date: '2025-02-19', models: ['GPT-4o', 'Grok'], winner: 'GPT-4o', note: 'GPT-4o called down (correct), Grok called up (wrong). Tesla fell 2.1%.' },
-    { ticker: 'NVDA', date: '2025-02-19', models: ['Claude', 'Perplexity', 'Grok'], winner: 'All correct', note: 'All three called NVDA up. Stock rose 1.2%. Direction correct, targets were aggressive.' },
-    { ticker: 'SPY', date: '2025-02-19', models: ['Claude', 'Perplexity', 'Gemini', 'GPT-4o', 'Grok'], winner: 'Claude', note: 'Only Claude correctly called SPY down. All others predicted a bounce that didn\'t come.' },
-  ]
+  const headToHead = analytics?.head_to_head?.recent_clashes ?? []
 
   return (
     <div className={styles.page}>
@@ -60,8 +62,8 @@ export default function Scoreboard() {
             <thead>
               <tr>
                 <th className={styles.th}>Model</th>
-                {models[0]?.weekly_scores?.map(w => (
-                  <th key={w.week} className={styles.th}>{w.week.replace('2025-', '')}</th>
+                {weeks.map(week => (
+                  <th key={week} className={styles.th}>{week}</th>
                 ))}
               </tr>
             </thead>
@@ -74,13 +76,18 @@ export default function Scoreboard() {
                       <span className={styles.modelName}>{model.model_display_name}</span>
                     </div>
                   </td>
-                  {model.weekly_scores?.map(w => (
-                    <td key={w.week} className={styles.td}>
-                      <span className={['mono', w.score >= 0 ? styles.pos : styles.neg].join(' ')}>
-                        {w.score >= 0 ? '+' : ''}{w.score.toFixed(1)}
-                      </span>
-                    </td>
-                  ))}
+                  {weeks.map(week => {
+                    const w = model.weekly_scores?.find(entry => entry.week === week)
+                    return (
+                      <td key={week} className={styles.td}>
+                        {w ? (
+                          <span className={['mono', w.score >= 0 ? styles.pos : styles.neg].join(' ')}>
+                            {w.score >= 0 ? '+' : ''}{w.score.toFixed(1)}
+                          </span>
+                        ) : '—'}
+                      </td>
+                    )
+                  })}
                 </tr>
               ))}
             </tbody>
@@ -88,27 +95,32 @@ export default function Scoreboard() {
         </div>
       </section>
 
-      <section>
-        <h2 className={styles.sectionTitle}>Head-to-Head</h2>
-        <p className={styles.sectionSub}>Same ticker, same day — who called it right?</p>
-        <div className={styles.h2hList}>
-          {headToHead.map((h, i) => (
-            <div key={i} className={styles.h2hCard}>
-              <div className={styles.h2hHeader}>
-                <span className={styles.h2hTicker}>{h.ticker}</span>
-                <span className={styles.h2hDate}>{h.date}</span>
-                <span className={styles.h2hWinner}>Winner: {h.winner}</span>
+      {headToHead.length > 0 && (
+        <section>
+          <h2 className={styles.sectionTitle}>Head-to-Head</h2>
+          <p className={styles.sectionSub}>Same ticker, same day — who called it right?</p>
+          <div className={styles.h2hList}>
+            {headToHead.map((h, i) => (
+              <div key={i} className={styles.h2hCard}>
+                <div className={styles.h2hHeader}>
+                  <span className={styles.h2hTicker}>{h.ticker}</span>
+                  <span className={styles.h2hDate}>{h.date}</span>
+                  <span className={styles.h2hWinner}>Winner: {h.winner}</span>
+                </div>
+                <div className={styles.h2hModels}>
+                  <span className={styles.h2hModel} style={{ color: h.model_a_correct ? '#22c55e' : '#ef4444' }}>
+                    {h.model_a} ({h.model_a_direction})
+                  </span>
+                  <span style={{ color: '#555' }}>vs</span>
+                  <span className={styles.h2hModel} style={{ color: h.model_b_correct ? '#22c55e' : '#ef4444' }}>
+                    {h.model_b} ({h.model_b_direction})
+                  </span>
+                </div>
               </div>
-              <p className={styles.h2hNote}>{h.note}</p>
-              <div className={styles.h2hModels}>
-                {h.models.map(m => (
-                  <span key={m} className={styles.h2hModel}>{m}</span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   )
 }
