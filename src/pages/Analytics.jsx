@@ -19,12 +19,28 @@ export default function Analytics() {
   if (loading) return <div className={styles.loading}>Loading analytics...</div>
   if (!data) return <div className={styles.loading}>No analytics data available yet.</div>
 
-  const { data_range, ticker_breakdown, calibration, herding, time_series, head_to_head } = data
+  const {
+    data_range = {},
+    ticker_breakdown = {},
+    calibration = {},
+    herding = {},
+    time_series = {},
+    head_to_head = {},
+  } = data
   const models = Object.keys(COLORS)
+  const byGroup = ticker_breakdown.by_group || []
+  const byTicker = ticker_breakdown.by_ticker || []
+  const calibrationModels = calibration.models || []
+  const dailySeries = time_series.daily || []
+  const rollingSeries = time_series.rolling_accuracy || []
+  const herdingSeries = herding.daily_herding || []
+  const herdingSummary = herding.summary || {}
+  const h2hRecords = head_to_head.records || []
+  const recentClashes = head_to_head.recent_clashes || []
 
   // Find best accuracy and best calibration
   const modelAccuracy = {}
-  for (const r of ticker_breakdown.by_group.flatMap(g => g.models)) {
+  for (const r of byGroup.flatMap(g => g.models || [])) {
     if (!modelAccuracy[r.model]) modelAccuracy[r.model] = { correct: 0, total: 0 }
     modelAccuracy[r.model].correct += r.correct
     modelAccuracy[r.model].total += r.predictions
@@ -33,11 +49,11 @@ export default function Analytics() {
     .map(([m, d]) => ({ model: m, accuracy: d.total ? d.correct / d.total : 0 }))
     .sort((a, b) => b.accuracy - a.accuracy)[0]
 
-  const bestCalModel = [...calibration.models]
+  const bestCalModel = [...calibrationModels]
     .sort((a, b) => a.calibration_error - b.calibration_error)[0]
 
   // Ticker bar chart data — top tickers by total predictions
-  const tickerChartData = ticker_breakdown.by_ticker
+  const tickerChartData = byTicker
     .map(t => {
       const entry = { ticker: t.ticker }
       for (const m of t.models) entry[m.model] = Math.round(m.accuracy * 100)
@@ -58,7 +74,7 @@ export default function Analytics() {
     { confidence: '85%', midpoint: 85, Perfect: 85 },
     { confidence: '93%', midpoint: 93, Perfect: 93 },
   ]
-  for (const m of calibration.models) {
+  for (const m of calibrationModels) {
     for (const b of m.buckets) {
       const idx = calChartData.findIndex(d => d.midpoint === Math.round(b.confidence_midpoint * 100))
       if (idx >= 0) calChartData[idx][m.model] = Math.round(b.actual_accuracy * 100)
@@ -66,7 +82,7 @@ export default function Analytics() {
   }
 
   // Cumulative score chart
-  const cumulativeData = time_series.daily.map(d => {
+  const cumulativeData = dailySeries.map(d => {
     const entry = { date: d.date.slice(5) }
     for (const m of models) {
       if (d[m]) entry[m] = d[m].cumulative_score
@@ -75,7 +91,7 @@ export default function Analytics() {
   })
 
   // Rolling accuracy chart
-  const rollingData = time_series.rolling_accuracy.map(d => {
+  const rollingData = rollingSeries.map(d => {
     const entry = { date: d.date.slice(5) }
     for (const m of models) {
       if (d[m] != null) entry[m] = Math.round(d[m] * 100)
@@ -84,14 +100,14 @@ export default function Analytics() {
   })
 
   // Herding over time
-  const herdingData = herding.daily_herding.map(d => ({
+  const herdingData = herdingSeries.map(d => ({
     date: d.date.slice(5),
     rate: Math.round(d.herding_rate * 100),
   }))
 
   // H2H matrix helper
   const h2hMap = {}
-  for (const rec of head_to_head.records) {
+  for (const rec of h2hRecords) {
     h2hMap[`${rec.model_a}_${rec.model_b}`] = rec
     h2hMap[`${rec.model_b}_${rec.model_a}`] = {
       ...rec, a_wins: rec.b_wins, b_wins: rec.a_wins,
@@ -100,7 +116,7 @@ export default function Analytics() {
   }
 
   const activeModels = models.filter(m =>
-    time_series.daily.some(d => d[m] && d[m].predictions > 0)
+    dailySeries.some(d => d[m] && d[m].predictions > 0)
   )
 
   return (
@@ -125,16 +141,16 @@ export default function Analytics() {
         <div className={styles.statCard}>
           <span className={styles.statLabel}>Most Accurate</span>
           <span className={styles.statValue} style={{ color: COLORS[bestAccModel?.model] }}>
-            {bestAccModel?.model}
+            {bestAccModel?.model || '—'}
           </span>
-          <span className={styles.statLabel}>{(bestAccModel?.accuracy * 100).toFixed(1)}%</span>
+          <span className={styles.statLabel}>{bestAccModel ? `${(bestAccModel.accuracy * 100).toFixed(1)}%` : '—'}</span>
         </div>
         <div className={styles.statCard}>
           <span className={styles.statLabel}>Best Calibrated</span>
           <span className={styles.statValue} style={{ color: COLORS[bestCalModel?.model] }}>
-            {bestCalModel?.model}
+            {bestCalModel?.model || '—'}
           </span>
-          <span className={styles.statLabel}>{(bestCalModel?.calibration_error * 100).toFixed(1)}% error</span>
+          <span className={styles.statLabel}>{bestCalModel ? `${(bestCalModel.calibration_error * 100).toFixed(1)}% error` : '—'}</span>
         </div>
       </div>
 
@@ -171,7 +187,7 @@ export default function Analytics() {
                 </tr>
               </thead>
               <tbody>
-                {ticker_breakdown.by_group.map(g => (
+                {byGroup.map(g => (
                   <tr key={g.group} className={styles.tr}>
                     <td className={styles.td} style={{ fontWeight: 600, textTransform: 'capitalize' }}>{g.group}</td>
                     {activeModels.map(m => {
@@ -231,7 +247,7 @@ export default function Analytics() {
                 </tr>
               </thead>
               <tbody>
-                {calibration.models
+                {calibrationModels
                   .filter(m => activeModels.includes(m.model))
                   .sort((a, b) => a.calibration_error - b.calibration_error)
                   .map(m => (
@@ -257,17 +273,17 @@ export default function Analytics() {
         <div className={styles.statGrid}>
           <div className={styles.statCard}>
             <span className={styles.statLabel}>Herding Rate</span>
-            <span className={styles.statValue}>{(herding.summary.herding_rate * 100).toFixed(0)}%</span>
-            <span className={styles.statLabel}>{herding.summary.unanimous}/{herding.summary.total_overlaps} unanimous</span>
+            <span className={styles.statValue}>{typeof herdingSummary.herding_rate === 'number' ? `${(herdingSummary.herding_rate * 100).toFixed(0)}%` : '—'}</span>
+            <span className={styles.statLabel}>{herdingSummary.unanimous ?? 0}/{herdingSummary.total_overlaps ?? 0} unanimous</span>
           </div>
           <div className={styles.statCard}>
             <span className={styles.statLabel}>Consensus Accuracy</span>
-            <span className={styles.statValue}>{(herding.summary.unanimous_accuracy * 100).toFixed(0)}%</span>
+            <span className={styles.statValue}>{typeof herdingSummary.unanimous_accuracy === 'number' ? `${(herdingSummary.unanimous_accuracy * 100).toFixed(0)}%` : '—'}</span>
             <span className={styles.statLabel}>When all agree</span>
           </div>
           <div className={styles.statCard}>
             <span className={styles.statLabel}>Contrarian Wins</span>
-            <span className={styles.statValue}>{herding.summary.contrarian_wins}</span>
+            <span className={styles.statValue}>{herdingSummary.contrarian_wins ?? 0}</span>
             <span className={styles.statLabel}>Minority was right</span>
           </div>
         </div>
@@ -371,11 +387,11 @@ export default function Analytics() {
           </table>
         </div>
 
-        {head_to_head.recent_clashes.length > 0 && (
+        {recentClashes.length > 0 && (
           <div style={{ marginTop: '1rem' }}>
             <h3 className={styles.sectionTitle}>Recent Clashes</h3>
             <div className={styles.h2hList}>
-              {head_to_head.recent_clashes.slice(-10).reverse().map((c, i) => (
+              {recentClashes.slice(-10).reverse().map((c, i) => (
                 <div key={i} className={styles.h2hCard}>
                   <div className={styles.h2hHeader}>
                     <span className={styles.h2hTicker}>{c.ticker}</span>

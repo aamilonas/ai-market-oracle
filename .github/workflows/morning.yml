@@ -12,6 +12,10 @@ on:
       models:
         description: 'Comma-separated model slugs (default: all)'
         required: false
+      overwrite:
+        description: 'Overwrite existing prediction files for the selected date'
+        required: false
+        type: boolean
 
 permissions:
   contents: write
@@ -19,6 +23,8 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,6 +65,7 @@ jobs:
           ARGS=""
           if [ -n "$DATE" ]; then ARGS="$ARGS --date $DATE"; fi
           if [ -n "$MODELS" ]; then ARGS="$ARGS --models $MODELS"; fi
+          if [ "${{ github.event.inputs.overwrite || 'false' }}" = "true" ]; then ARGS="$ARGS --overwrite"; fi
           python generate.py $ARGS
 
       - name: Generate daily summary
@@ -103,7 +110,7 @@ jobs:
           if [ -n "$FAILED" ]; then
             ERRORS="${ERRORS}Models failed to generate predictions: $FAILED. "
           fi
-          if [ "${{ steps.daily_summary.outcome }}" = "failure" ]; then
+          if [ "${{ steps.daily_summary.conclusion }}" = "failure" ]; then
             ERRORS="${ERRORS}Daily summary step failed. "
           fi
           if [ -n "$ERRORS" ]; then

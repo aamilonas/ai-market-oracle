@@ -54,21 +54,25 @@ export default function Weekly() {
           <h1 className={styles.title}>Weekly Report</h1>
           <p className={styles.sub}>AI-generated recap of each week&apos;s predictions, scores, and highlights.</p>
         </div>
-        <select
-          className={styles.picker}
-          value={selected}
-          onChange={e => setSelected(e.target.value)}
-        >
-          {weeks.map(w => (
-            <option key={w} value={w}>{w}</option>
-          ))}
-        </select>
+        {weeks.length > 0 && (
+          <select
+            className={styles.picker}
+            value={selected || ''}
+            onChange={e => setSelected(e.target.value)}
+          >
+            {weeks.map(w => (
+              <option key={w} value={w}>{w}</option>
+            ))}
+          </select>
+        )}
       </div>
 
       {loading && <div className={styles.loading}>Loading weekly report...</div>}
       {!loading && weekly && <WeeklySummary weekly={weekly} />}
       {!loading && !weekly && (
-        <div className={styles.empty}>No report available for {selected} yet.</div>
+        <div className={styles.empty}>
+          {selected ? `No report available for ${selected} yet.` : 'No weekly reports available yet.'}
+        </div>
       )}
 
       {!loading && weekScores?.length > 0 && (

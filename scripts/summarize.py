@@ -2,7 +2,7 @@ from __future__ import annotations
 
 """
 Summarize script: generate daily and weekly narrative recaps.
-Uses Claude Haiku for cost efficiency.
+Uses a fixed Claude Opus snapshot for higher-quality summaries.
 
 Usage:
     python summarize.py --daily [--date YYYY-MM-DD]
@@ -35,7 +35,7 @@ from utils import (
 )
 
 log = get_logger("summarize")
-SUMMARY_MODEL_ID = "claude-3-5-haiku-latest"
+SUMMARY_MODEL_ID = "claude-opus-4-1-20250805"
 
 
 def get_claude_client():

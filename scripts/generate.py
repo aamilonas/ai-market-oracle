@@ -64,7 +64,11 @@ def _write_ci_summary(date_str, results, success_count, total, failed, failure_r
                 f.write(f"{key}_failure_reason={safe_reason}\n")
 
 
-def run(date_str: str, model_filter: list[str] | None = None):
+def run(
+    date_str: str,
+    model_filter: list[str] | None = None,
+    overwrite: bool = False,
+):
     ensure_dirs()
     log.info(f"Generating predictions for {date_str}")
 
@@ -101,8 +105,8 @@ def run(date_str: str, model_filter: list[str] | None = None):
         out_dir = PREDICTIONS_DIR / date_str
         out_file = out_dir / f"{adapter.slug}.json"
 
-        # Idempotency: skip if file already exists
-        if out_file.exists():
+        # Idempotency by default, with an explicit overwrite path for manual reruns.
+        if out_file.exists() and not overwrite:
             log.info(f"{adapter.slug}: already generated, skipping")
             results[adapter.slug] = True
             continue
@@ -194,6 +198,11 @@ def main():
         action="store_true",
         help="Skip market holiday check",
     )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Overwrite existing prediction files for the target date",
+    )
     args = parser.parse_args()
 
     if not args.force:
@@ -204,7 +213,7 @@ def main():
             sys.exit(0)
 
     model_filter = args.models.split(",") if args.models else None
-    run(args.date, model_filter)
+    run(args.date, model_filter, overwrite=args.overwrite)
 
 
 if __name__ == "__main__":

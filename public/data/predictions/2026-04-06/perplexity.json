@@ -37,17 +37,6 @@
       "timeframe": "end_of_day",
       "confidence": 0.6,
       "reasoning": "Nasdaq closed Friday at 21,879.18 (+0.18%) but faces headwinds from March's 5% pullback and high inflation[2][3]. Bearish S&P open odds of 57.5% down imply tech sector vulnerability[1]. Higher yields post-178k jobs beat curb growth stock appeal[2]."
-    },
-    {
-      "id": "pred_perplexity_20260406_004",
-      "ticker": "SPY",
-      "prediction_type": "price_direction",
-      "direction": "down",
-      "target_price": 657.0,
-      "current_price_at_prediction": 658.27,
-      "timeframe": "market_open",
-      "confidence": 0.75,
-      "reasoning": "Lines.com prediction market gives 42.5% YES for S&P 500 opening up, implying 57.5% chance down on tariff and liquidity concerns[1]. Friday's mild gain at 6,582.69 unlikely to reverse weekend bearish setup[2]. No major positive catalysts noted in pre-market context."
     }
   ]
 }

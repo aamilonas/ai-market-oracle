@@ -16,6 +16,8 @@ permissions:
 jobs:
   summarize:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,9 +76,8 @@ jobs:
       - name: Health check — fail if summary errored
         if: always()
         run: |
-          if [ "${{ steps.summarize.outcome }}" = "failure" ]; then
+          if [ "${{ steps.summarize.conclusion }}" = "failure" ]; then
             echo "::error::Weekly summary generation failed — check logs above for details"
             exit 1
           fi
           echo "Weekly summary completed successfully."
-

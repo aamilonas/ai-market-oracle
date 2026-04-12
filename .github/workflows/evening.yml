@@ -16,6 +16,8 @@ permissions:
 jobs:
   score:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -93,13 +95,13 @@ jobs:
         if: always()
         run: |
           ERRORS=""
-          if [ "${{ steps.score.outcome }}" = "failure" ]; then
+          if [ "${{ steps.score.conclusion }}" = "failure" ]; then
             ERRORS="${ERRORS}Scoring step failed. "
           fi
-          if [ "${{ steps.daily_summary.outcome }}" = "failure" ]; then
+          if [ "${{ steps.daily_summary.conclusion }}" = "failure" ]; then
             ERRORS="${ERRORS}Daily summary regeneration failed. "
           fi
-          if [ "${{ steps.analytics.outcome }}" = "failure" ]; then
+          if [ "${{ steps.analytics.conclusion }}" = "failure" ]; then
             ERRORS="${ERRORS}Analytics step failed. "
           fi
           if [ -n "$ERRORS" ]; then

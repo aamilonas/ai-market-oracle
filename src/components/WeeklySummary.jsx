@@ -3,6 +3,8 @@ import styles from './WeeklySummary.module.css'
 export default function WeeklySummary({ weekly }) {
   if (!weekly) return null
   const { headline, summary, best_call, worst_call, consensus_accuracy, period } = weekly
+  const bestScore = typeof best_call?.score === 'number' ? best_call.score : null
+  const worstScore = typeof worst_call?.score === 'number' ? worst_call.score : null
   return (
     <div className={styles.wrapper}>
       <div className={styles.meta}>
@@ -19,7 +21,7 @@ export default function WeeklySummary({ weekly }) {
             <span className={styles.callModel}>{best_call.model}</span>
             <span className={styles.callTicker}>{best_call.ticker}</span>
             <span className={['mono', styles.callScore].join(' ')}>
-              +{best_call.score.toFixed(2)} pts
+              {bestScore == null ? '—' : `+${bestScore.toFixed(2)} pts`}
             </span>
             <p className={styles.callSummary}>{best_call.summary}</p>
           </div>
@@ -30,7 +32,7 @@ export default function WeeklySummary({ weekly }) {
             <span className={styles.callModel}>{worst_call.model}</span>
             <span className={styles.callTicker}>{worst_call.ticker}</span>
             <span className={['mono', styles.callScoreNeg].join(' ')}>
-              {worst_call.score.toFixed(2)} pts
+              {worstScore == null ? '—' : `${worstScore.toFixed(2)} pts`}
             </span>
             <p className={styles.callSummary}>{worst_call.summary}</p>
           </div>
