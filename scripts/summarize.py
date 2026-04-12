@@ -12,6 +12,7 @@ Usage:
 import argparse
 import json
 import sys
+from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -44,6 +45,131 @@ def get_claude_client():
     if not api_key:
         raise RuntimeError("ANTHROPIC_API_KEY not set")
     return anthropic.Anthropic(api_key=api_key)
+
+
+def build_fallback_daily_summary(date_str: str, pred_summary: list[dict]) -> dict:
+    """Build a deterministic summary when the LLM summary step is unavailable."""
+    generated_at = datetime.now(timezone.utc).isoformat()
+    ticker_groups = defaultdict(list)
+    for pred in pred_summary:
+        ticker_groups[pred["ticker"]].append(pred)
+
+    consensus_picks = []
+    for ticker, picks in sorted(ticker_groups.items()):
+        direction_counts = Counter(p["direction"] for p in picks)
+        agreed_direction, agree_count = direction_counts.most_common(1)[0]
+        if agree_count < 2:
+            continue
+        consensus_picks.append({
+            "ticker": ticker,
+            "models_agreeing": [p["model"] for p in picks if p["direction"] == agreed_direction],
+            "agreed_direction": agreed_direction,
+            "outcome": "pending" if all(p["score"] is None for p in picks) else "split",
+            "note": f"{agree_count} models aligned on {ticker} {agreed_direction}.",
+        })
+
+    best_pred = max(pred_summary, key=lambda p: p["confidence"], default=None)
+    worst_pred = min(pred_summary, key=lambda p: p["confidence"], default=None)
+    unique_tickers = sorted({p["ticker"] for p in pred_summary})
+
+    return {
+        "date": date_str,
+        "generated_at": generated_at,
+        "headline": f"{len(pred_summary)} AI market calls queued for {date_str}",
+        "summary": (
+            f"{len(pred_summary)} predictions were generated across {len(unique_tickers)} tickers. "
+            "This fallback summary was created automatically because the narrative summary model was unavailable."
+        ),
+        "consensus_picks": consensus_picks[:5],
+        "best_call": ({
+            "prediction_id": None,
+            "model_display_name": best_pred["model"],
+            "ticker": best_pred["ticker"],
+            "score": best_pred["score"],
+            "summary": f"Highest-confidence call came from {best_pred['model']} on {best_pred['ticker']}.",
+        } if best_pred else None),
+        "worst_call": ({
+            "prediction_id": None,
+            "model_display_name": worst_pred["model"],
+            "ticker": worst_pred["ticker"],
+            "score": worst_pred["score"],
+            "summary": f"Lowest-confidence call came from {worst_pred['model']} on {worst_pred['ticker']}.",
+        } if worst_pred else None),
+    }
+
+
+def build_fallback_weekly_summary(
+    week_str: str,
+    monday: date,
+    friday: date,
+    all_results: list[dict],
+) -> dict:
+    """Build a deterministic weekly summary when the LLM summary step is unavailable."""
+    generated_at = datetime.now(timezone.utc).isoformat()
+    per_model = defaultdict(lambda: {"score": 0.0, "predictions": 0, "correct": 0})
+    ticker_groups = defaultdict(list)
+    for result in all_results:
+        model = result["model_display_name"]
+        per_model[model]["score"] += result["score"]
+        per_model[model]["predictions"] += 1
+        per_model[model]["correct"] += int(bool(result["direction_correct"]))
+        ticker_groups[(result.get("date"), result["ticker"])].append(result)
+
+    scores = []
+    for model, stats in per_model.items():
+        preds = stats["predictions"]
+        scores.append({
+            "model": model,
+            "weekly_score": round(stats["score"], 2),
+            "predictions": preds,
+            "accuracy": round(stats["correct"] / preds, 4) if preds else 0.0,
+            "rank_change": 0,
+        })
+    scores.sort(key=lambda item: item["weekly_score"], reverse=True)
+
+    best_call = max(all_results, key=lambda r: r["score"], default=None)
+    worst_call = min(all_results, key=lambda r: r["score"], default=None)
+
+    consensus_total = 0
+    consensus_correct = 0
+    for picks in ticker_groups.values():
+        if len(picks) < 2:
+            continue
+        directions = {p["predicted_direction"] for p in picks}
+        if len(directions) == 1:
+            consensus_total += 1
+            if all(p["direction_correct"] for p in picks):
+                consensus_correct += 1
+
+    leader = scores[0]["model"] if scores else "No model"
+    return {
+        "week": week_str,
+        "period": f"{monday.strftime('%b %-d')} – {friday.strftime('%b %-d, %Y')}",
+        "generated_at": generated_at,
+        "headline": f"{leader} led {week_str} on raw weekly score",
+        "summary": (
+            "This fallback weekly summary was created automatically because the narrative summary model "
+            "was unavailable."
+        ),
+        "scores": scores,
+        "best_call": ({
+            "model": best_call["model_display_name"],
+            "ticker": best_call["ticker"],
+            "score": best_call["score"],
+            "summary": f"Top single-call score of the week belonged to {best_call['model_display_name']}.",
+        } if best_call else None),
+        "worst_call": ({
+            "model": worst_call["model_display_name"],
+            "ticker": worst_call["ticker"],
+            "score": worst_call["score"],
+            "summary": f"Lowest single-call score of the week belonged to {worst_call['model_display_name']}.",
+        } if worst_call else None),
+        "consensus_accuracy": {
+            "total_consensus_calls": consensus_total,
+            "consensus_correct": consensus_correct,
+            "accuracy": round(consensus_correct / consensus_total, 4) if consensus_total else 0.0,
+        },
+    }
 
 
 # ── Daily summary ──────────────────────────────────────────────────────────────
@@ -152,7 +278,11 @@ Return ONLY valid JSON."""
     except Exception as e:
         log.error(f"Daily summary generation failed: {e}")
 
-    return None
+    fallback = build_fallback_daily_summary(date_str, pred_summary)
+    save_json(out_file, fallback)
+    sync_to_public(out_file)
+    log.warning(f"Daily summary fallback saved for {date_str}")
+    return fallback
 
 
 # ── Weekly summary ─────────────────────────────────────────────────────────────
@@ -254,7 +384,11 @@ Return ONLY valid JSON."""
     except Exception as e:
         log.error(f"Weekly summary generation failed: {e}")
 
-    return None
+    fallback = build_fallback_weekly_summary(week_str, monday, friday, all_results)
+    save_json(out_file, fallback)
+    sync_to_public(out_file)
+    log.warning(f"Weekly summary fallback saved for {week_str}")
+    return fallback
 
 
 def update_weeks_index():
