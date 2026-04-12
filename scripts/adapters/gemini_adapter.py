@@ -53,6 +53,41 @@ Respond with ONLY valid JSON — no markdown fences, no extra text:
   ]
 }}"""
 
+JSON_REPAIR_TEMPLATE = """Convert the following market prediction draft into valid JSON.
+
+Return ONLY a single valid JSON object matching this exact structure:
+{{
+  "date": "{date}",
+  "model": "{model_id}",
+  "model_display_name": "Gemini",
+  "generated_at": "{now}",
+  "market_context": "2-3 sentence summary of what you found",
+  "predictions": [
+    {{
+      "id": "pred_gemini_{date_compact}_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.00,
+      "current_price_at_prediction": 598.00,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Specific reasoning referencing data you found"
+    }}
+  ]
+}}
+
+Rules:
+- Keep only 3 to 5 predictions.
+- Preserve the original meaning as closely as possible.
+- Use only `up` or `down` for direction.
+- Use only `end_of_day`, `end_of_week`, or `end_of_month` for timeframe.
+- Output JSON only.
+
+Draft:
+{raw_text}
+"""
+
 
 def _clean_grounding_artifacts(text):
     """Strip Google Search grounding citations/markdown that corrupt JSON."""
@@ -61,6 +96,28 @@ def _clean_grounding_artifacts(text):
     # Remove bare citation markers: [1], [2], etc.
     text = re.sub(r'\[\d+\]', '', text)
     return text
+
+
+def _repair_to_json(client, raw_text: str, date_str: str, now: str, date_compact: str) -> dict | None:
+    """Second-pass repair: coerce Gemini's free-form text into strict JSON without tools."""
+    prompt = JSON_REPAIR_TEMPLATE.format(
+        date=date_str,
+        model_id=MODEL_ID,
+        now=now,
+        date_compact=date_compact,
+        raw_text=raw_text[:12000],
+    )
+    response = client.models.generate_content(
+        model=MODEL_ID,
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=0,
+            max_output_tokens=2048,
+            response_mime_type="application/json",
+        ),
+    )
+    text = response.text or ""
+    return extract_json_from_text(text)
 
 
 class GeminiAdapter:
@@ -113,8 +170,14 @@ class GeminiAdapter:
                     data["date"] = date_str
                     return data
                 else:
-                    self.last_error = "Gemini returned content that was not valid JSON"
-                    log.warning(f"Gemini attempt {attempt + 1}: could not parse JSON")
+                    log.warning(f"Gemini attempt {attempt + 1}: could not parse JSON, trying repair pass")
+                    repaired = _repair_to_json(client, cleaned or text, date_str, now, date_compact)
+                    if repaired:
+                        repaired["model"] = MODEL_ID
+                        repaired["model_display_name"] = DISPLAY_NAME
+                        repaired["date"] = date_str
+                        return repaired
+                    self.last_error = "Gemini returned content that could not be repaired into valid JSON"
                     log.info(f"Raw (first 500 chars): {text[:500]}")
             except Exception as e:
                 self.last_error = str(e)
