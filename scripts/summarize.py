@@ -417,8 +417,8 @@ def main():
         if result:
             log.info(f"Daily summary: {result.get('headline', 'done')}")
         else:
-            log.error("Daily summary failed")
-            sys.exit(1)
+            log.warning("Daily summary skipped — no predictions or summary data available")
+            sys.exit(0)
 
     elif args.weekly:
         if not args.week:
