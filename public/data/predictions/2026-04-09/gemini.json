@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-09",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-12T15:57:16.984772+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260409_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released earlier today."
+    },
+    {
+      "id": "pred_gemini_20260409_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of strong Q1 earnings report next week, coupled with positive analyst upgrades and increased consumer spending data."
+    },
+    {
+      "id": "pred_gemini_20260409_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays announced, combined with increased competition in the EV market and a general bearish sentiment for high-growth stocks today."
+    },
+    {
+      "id": "pred_gemini_20260409_004",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 173.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Continued strength in advertising revenue and cloud services, with new AI product announcements expected to boost investor confidence over the coming weeks."
+    }
+  ]
+}

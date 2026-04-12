@@ -18,6 +18,23 @@
       ],
       "confidence": 0.6233,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "AAPL",
+      "direction": "up",
+      "entry_price": 207.8,
+      "exit_price": null,
+      "shares": 149,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Grok",
+        "GPT-4o",
+        "Gemini"
+      ],
+      "confidence": 0.7233,
+      "status": "OPEN"
     }
   ]
 }
