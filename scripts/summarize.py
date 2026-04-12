@@ -34,6 +34,7 @@ from utils import (
 )
 
 log = get_logger("summarize")
+SUMMARY_MODEL_ID = "claude-3-5-haiku-latest"
 
 
 def get_claude_client():
@@ -135,7 +136,7 @@ Return ONLY valid JSON."""
     try:
         client = get_claude_client()
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model=SUMMARY_MODEL_ID,
             max_tokens=1024,
             messages=[{"role": "user", "content": prompt}],
         )
@@ -237,7 +238,7 @@ Return ONLY valid JSON."""
     try:
         client = get_claude_client()
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model=SUMMARY_MODEL_ID,
             max_tokens=1500,
             messages=[{"role": "user", "content": prompt}],
         )
