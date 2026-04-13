@@ -1,39 +1,20 @@
 {
   "date": "2026-04-13",
-  "generated_at": "2026-04-13T14:16:45.588349+00:00",
-  "headline": "Models Clash on SPY Direction Amid Iran Oil Blockade Crisis",
-  "summary": "Claude predicted a market selloff from Iran's oil blockade news, while Gemini, Grok, and Perplexity all saw buying opportunities in the same chaos. The energy sector (XLE) emerged as Claude's highest conviction play at 85% confidence, while models showed rare unanimity on NVDA's upward trajectory.",
+  "generated_at": "2026-04-13T23:06:28.409401+00:00",
+  "headline": "Models split on geopolitical fears as markets surge despite Iran tensions",
+  "summary": "Claude completely misread the market, predicting widespread selloffs from Iran blockade news while SPY actually gained to 686. Most other models correctly called the bullish day, with Gemini, GPT-4o, Grok, and Perplexity all nailing the upward moves in major indices and tech stocks.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
         "Gemini",
+        "GPT-4o",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models bet on SPY gains despite Claude's 75% confidence bearish call citing oil shock fears."
-    },
-    {
-      "ticker": "NVDA",
-      "models_agreeing": [
-        "Grok",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models cited strong momentum and tech sector tailwinds for NVDA around $188-192 targets."
-    },
-    {
-      "ticker": "AAPL",
-      "models_agreeing": [
-        "Gemini",
-        "Grok"
-      ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Gemini saw regulatory headwinds while Grok highlighted positive iPhone sales sentiment."
+      "outcome": "correct",
+      "note": "Four models correctly predicted SPY's rise to 686 while Claude alone called for a drop."
     },
     {
       "ticker": "QQQ",
@@ -42,22 +23,42 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models bullish on tech with Gemini citing earnings strength and Perplexity noting 3.8% momentum."
+      "outcome": "correct",
+      "note": "Both models accurately predicted tech strength with QQQ surging to 617."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Apple bulls were right as the stock climbed to 259, though Gemini saw weakness."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Both models caught NVDA's rise to 189 based on options flow and tech momentum."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Claude",
-    "ticker": "XLE",
-    "score": 0.0,
-    "summary": "Claude's 85% confidence energy play directly leveraged the Iran oil blockade catalyst."
+    "prediction_id": "pred_gpt4o_spy",
+    "model_display_name": "GPT-4o",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "GPT-4o's confident 70% SPY bullish call with a 690 target was nearly perfect as it closed at 686."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0.0,
-    "summary": "Results pending market close to determine worst performer."
+    "prediction_id": "pred_claude_xle",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.85,
+    "summary": "Claude's high-confidence XLE call for 98.5 based on oil surge fears crashed spectacularly as it closed at just 57.11."
   }
 }
