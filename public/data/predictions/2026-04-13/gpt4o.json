@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-13",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-13T18:32:42.190416+00:00",
+  "market_context": "U.S. stock futures are indicating a positive opening, with major indices showing gains in pre-market trading. Investors are anticipating the release of the Producer Price Index (PPI) data tomorrow, which is expected to provide insights into inflationary pressures. Additionally, earnings reports from major financial institutions are set to be released this week, starting with Goldman Sachs today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260413_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 690.0,
+      "current_price_at_prediction": 682.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive pre-market futures and anticipation of favorable earnings reports from major financial institutions suggest a bullish sentiment for the S&P 500. Additionally, the upcoming PPI data is expected to provide further clarity on inflation trends, potentially boosting investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260413_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 265.0,
+      "current_price_at_prediction": 258.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock has been on an upward trend, and with the overall positive market sentiment, it is likely to continue its ascent. The tech sector is expected to benefit from the current market dynamics."
+    },
+    {
+      "id": "pred_gpt4o_20260413_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 390.0,
+      "current_price_at_prediction": 382.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Microsoft's strong market position and the positive outlook for the tech sector contribute to the expectation of a price increase. The company's fundamentals remain solid, supporting this prediction."
+    },
+    {
+      "id": "pred_gpt4o_20260413_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 360.0,
+      "current_price_at_prediction": 351.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock is likely to benefit from the overall positive market sentiment and the company's recent developments in the electric vehicle market. However, the stock's volatility warrants a moderate confidence level."
+    },
+    {
+      "id": "pred_gpt4o_20260413_005",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 238.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Amazon's strong e-commerce presence and the positive market outlook suggest a potential price increase. The company's recent performance indicates resilience and growth potential."
+    }
+  ]
+}
