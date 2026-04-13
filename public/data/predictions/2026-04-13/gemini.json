@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-13",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-13T14:15:32.838735+00:00",
+  "market_context": "Market sentiment is mixed today, with tech stocks showing some resilience despite broader economic concerns. Inflation data released this morning suggests a potential slowdown in consumer spending.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260413_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in the last hour of trading, coupled with positive analyst revisions for key components."
+    },
+    {
+      "id": "pred_gemini_20260413_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 448.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector showing robust performance, driven by strong earnings reports from major constituents and increased institutional buying."
+    },
+    {
+      "id": "pred_gemini_20260413_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.55,
+      "reasoning": "Concerns over slowing iPhone demand in key international markets and potential regulatory headwinds could pressure the stock this week."
+    },
+    {
+      "id": "pred_gemini_20260413_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 428.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Continued strong growth in cloud services (Azure) and positive outlook for AI integration are expected to drive the stock higher over the month."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-13",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-13T14:16:31.330460+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside in tech stocks due to upcoming earnings. Pre-market futures for major indices are slightly up, with notable strength in QQQ. No major disruptive news or events are widely reported for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260413_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 685.0,
+      "current_price_at_prediction": 679.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY futures are showing a modest gain in pre-market trading as reported by Bloomberg data. Positive sentiment on X/Twitter regarding macroeconomic stability and declining VIX (-16.6% over 5 days) supports a potential upward movement. However, uncertainty remains due to the 10Y Treasury Yield at 4.32% signaling some caution."
+    },
+    {
+      "id": "pred_grok_20260413_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 192.0,
+      "current_price_at_prediction": 187.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing bullish chatter on X/Twitter, with users citing strong options flow data indicating heavy call buying. Recent web news from Reuters highlights continued demand for AI chips, which supports NVDA's growth narrative. Confidence is tempered by broader market volatility risks."
+    },
+    {
+      "id": "pred_grok_20260413_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.0,
+      "current_price_at_prediction": 352.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mixed sentiment on X/Twitter for TSLA, with some users pointing to potential production delays as per unconfirmed posts. Web searches indicate a minor uptick in short interest data on Finviz, suggesting bearish pressure. Confidence is low due to lack of concrete news catalysts today."
+    },
+    {
+      "id": "pred_grok_20260413_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 262.0,
+      "current_price_at_prediction": 257.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL sentiment on X/Twitter is positive, with discussions around strong iPhone sales expectations ahead of earnings. Web reports from CNBC suggest institutional buying interest based on recent filings. Confidence is moderate due to potential market-wide risks."
+    }
+  ]
+}

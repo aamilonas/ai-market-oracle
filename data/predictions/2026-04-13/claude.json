@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-13",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-13T09:15:00Z",
+  "market_context": "Markets opened down 1-2% after Trump announced Iran port blockade following failed peace talks. Oil surged 8% to $103+ while Goldman Sachs beat earnings but fell on weak trading. High volatility expected.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260413_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 675.5,
+      "current_price_at_prediction": 679.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Pre-market futures down 1.1% on Iran blockade news and oil price surge. Energy inflation concerns likely to weigh on broad market sentiment despite strong earnings season start."
+    },
+    {
+      "id": "pred_claude_20260413_002",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 98.5,
+      "current_price_at_prediction": 94.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Energy Select Sector SPDR should benefit directly from 8% oil price surge and supply disruption fears. Strait of Hormuz blockade threatens 20% of global oil transit."
+    },
+    {
+      "id": "pred_claude_20260413_003",
+      "ticker": "GS",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 435.0,
+      "current_price_at_prediction": 445.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Despite beating earnings with $17.55 EPS vs $16.49 expected, shares already down 3% pre-market on disappointing FICC trading results. Geopolitical uncertainty adds pressure."
+    },
+    {
+      "id": "pred_claude_20260413_004",
+      "ticker": "XLF",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 41.75,
+      "current_price_at_prediction": 42.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Financial sector faces headwinds from broader market selloff and Goldman's disappointing trading results setting negative tone ahead of JPM/WFC earnings Tuesday."
+    },
+    {
+      "id": "pred_claude_20260413_005",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 98.25,
+      "current_price_at_prediction": 96.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Flight to quality trade likely as geopolitical tensions escalate and oil-driven inflation concerns may delay Fed cuts. Long-term treasuries should benefit from safe haven demand."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-13",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-13T14:15:18Z",
+  "market_context": "Markets have shown strong momentum over the past 5 days with SPY up 3.1%, QQQ up 3.8%, and DIA up 2.2%, indicating broad-based strength across large-cap, tech, and Dow components. VIX has declined 16.6% over 5 days to 20.16, suggesting reduced volatility and risk-off sentiment easing. The 10Y Treasury yield at 4.32% and CPI at 3.49% YoY (March 2026) indicate moderating inflation pressures, which typically supports equity valuations.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260413_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 614.5,
+      "current_price_at_prediction": 611.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ has outperformed with a 3.8% 5-day gain and lower expense ratio (0.18%) supports long-term positioning. Tech strength combined with declining VIX and moderating Treasury yields typically favor growth equities. Modest intraday continuation expected given momentum, though high confidence is limited by afternoon session unpredictability."
+    },
+    {
+      "id": "pred_perplexity_20260413_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 681.25,
+      "current_price_at_prediction": 679.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY's 3.1% 5-day advance reflects broad market strength across the S&P 500. With annualized alpha of 2.82% and beta of 1.02 versus the index, the SPY+QQQ+DIA portfolio shows outperformance. Modest upside bias expected, though the YTD -3.68% decline suggests some profit-taking risk remains."
+    },
+    {
+      "id": "pred_perplexity_20260413_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 189.75,
+      "current_price_at_prediction": 187.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA at $187.90 benefits from QQQ's strong momentum (+3.8% 5-day) and tech sector tailwinds from declining rates and moderating inflation. As a major QQQ holding, NVDA typically leads during tech rallies. Modest intraday gains expected given sector strength."
+    },
+    {
+      "id": "pred_perplexity_20260413_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 19.5,
+      "current_price_at_prediction": 20.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "VIX has declined 16.6% over 5 days to 20.16, indicating sustained risk-off sentiment easing and investor confidence returning. Continued equity strength and lower Treasury yields support further VIX compression. Expect modest decline to 19.50 range by close."
+    }
+  ]
+}
