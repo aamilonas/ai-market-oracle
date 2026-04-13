@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import json
+import re
 import time
 from datetime import datetime, timezone
 
@@ -51,6 +52,22 @@ Return ONLY this JSON (no markdown):
 }}"""
 
 
+def _strip_search_citations(text: str) -> str:
+    """Remove gpt-4o-search-preview inline citations that corrupt JSON.
+
+    The search-preview model injects citations like 【4:0†source】 and
+    markdown links [text](url) into its response content.  These appear
+    inside JSON string values and break parsing.
+    """
+    # Remove fullwidth-bracket citation markers: 【...】
+    text = re.sub(r'【[^】]*】', '', text)
+    # Remove markdown links: [text](url) → text
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+    # Remove bare footnote markers: [1], [2], etc.
+    text = re.sub(r'\[\d+\]', '', text)
+    return text
+
+
 class OpenAIAdapter:
     model_id = MODEL_ID
     model_display_name = DISPLAY_NAME
@@ -82,15 +99,16 @@ class OpenAIAdapter:
                     max_tokens=2048,
                 )
 
-                # Extract text — may come from tool_calls or direct content
+                # Extract text from the search-preview response.
+                # msg.content contains the text but may include inline
+                # citations (【4:0†source】) injected by web_search_options.
                 text = ""
                 msg = response.choices[0].message
                 if msg.content:
                     text = msg.content
-                # If the model used web search and returned content via tool outputs,
-                # the final assistant message should still contain the JSON.
 
-                data = extract_json_from_text(text)
+                cleaned = _strip_search_citations(text)
+                data = extract_json_from_text(cleaned)
                 if data:
                     data["model"] = MODEL_ID
                     data["model_display_name"] = DISPLAY_NAME
