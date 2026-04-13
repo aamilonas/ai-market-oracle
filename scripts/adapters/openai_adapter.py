@@ -80,7 +80,6 @@ class OpenAIAdapter:
                         {"role": "user", "content": user_msg},
                     ],
                     max_tokens=2048,
-                    temperature=0.2,
                 )
 
                 # Extract text — may come from tool_calls or direct content
