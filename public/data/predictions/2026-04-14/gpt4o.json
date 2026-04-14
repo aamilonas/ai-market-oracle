@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-14",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-14T19:26:18.359783+00:00",
+  "market_context": "U.S. stock markets are approaching all-time highs, driven by easing oil prices and optimism over potential U.S.-Iran peace talks. The S&P 500 is up 1%, the Dow Jones has gained 0.6%, and the Nasdaq has risen 1.6%. Brent crude has fallen 3.8% to $95.56 per barrel, alleviating some inflation concerns. Investors are also anticipating upcoming earnings reports from major financial institutions and the release of the Producer Price Index (PPI) data, which will provide further insights into inflation trends.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260414_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 693.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 is nearing its all-time high, bolstered by easing oil prices and optimism surrounding potential U.S.-Iran peace talks. Additionally, strong earnings reports from major financial institutions are expected to provide further upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260414_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 635.0,
+      "current_price_at_prediction": 627.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The Nasdaq composite has gained 1.6%, driven by optimism over easing geopolitical tensions and strong performance in the technology sector. Continued positive sentiment and upcoming earnings reports from tech companies are likely to support further gains."
+    },
+    {
+      "id": "pred_gpt4o_20260414_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 265.0,
+      "current_price_at_prediction": 258.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock is positioned to benefit from the overall positive market sentiment and the strong performance of the technology sector. Anticipation of robust earnings reports from major tech companies adds to the bullish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260414_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 391.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Microsoft is likely to experience upward momentum due to the overall market optimism and strong performance in the technology sector. Positive earnings expectations further support this outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260414_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 375.0,
+      "current_price_at_prediction": 365.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock is expected to rise, benefiting from the broader market's positive sentiment and easing oil prices, which may enhance consumer interest in electric vehicles."
+    }
+  ]
+}
