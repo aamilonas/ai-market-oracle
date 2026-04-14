@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T19:14:22.379809+00:00",
+  "headline": "AI models unanimously bullish on SPY amid Iran peace talks and bank earnings",
+  "summary": "All four AI models predicted SPY would rise, with confidence levels ranging from 60-72%, citing strong momentum from Monday's gains and optimism around Iran diplomatic progress. The day's predictions centered on banking sector volatility from Q1 earnings misses and continued tech strength, with models split on individual names like TSLA while agreeing on broader market direction.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Rare unanimous agreement across all models on SPY upside, driven by peace talk optimism and momentum."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Models split on Tesla with Gemini bullish on product announcements while Grok sees downward pressure."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models see continued AI momentum pushing NVDA higher toward $199-200 resistance."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Gemini bearish on analyst downgrades while Perplexity sees intraday strength continuing upward."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "WFC",
+    "score": 0,
+    "summary": "Highest confidence prediction at 78% on Wells Fargo downside after Q1 earnings miss."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": 0,
+    "summary": "Lowest confidence at 55% with conflicting X/Twitter sentiment signals on Tesla direction."
+  }
+}

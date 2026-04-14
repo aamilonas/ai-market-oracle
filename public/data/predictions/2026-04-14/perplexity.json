@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-14T19:13:10Z",
+  "market_context": "No specific pre-market futures, overnight news, or economic events for April 14, 2026, are detailed in available data; recent trading shows AAPL active between $257.19-$261.93, closing around $258.87.[5] Broader market context from provided baselines indicates positive 5-day momentum in SPY (+5.2%), QQQ (+6.6%), and DIA (+4.2%), with declining VIX (-28.7%). Analyst consensus across sources points to AAPL upside potential, averaging $288-$297 targets over 12 months.[1][2][6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260414_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 698.0,
+      "current_price_at_prediction": 693.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY's 5-day gain of +5.2% reflects strong momentum amid falling VIX at 18.39 (-28.7%), signaling reduced volatility and risk appetite. Positive tech sector cues from AAPL's recent trading range ($257.19-$261.93) and analyst upside support broader index gains.[5] Baseline major indices momentum (QQQ +6.6%, DIA +4.2%) favors continuation."
+    },
+    {
+      "id": "pred_perplexity_20260414_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 262.0,
+      "current_price_at_prediction": 258.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL traded between $257.19-$261.93 on 2026-04-14, closing near $258.87, indicating intraday strength.[5] Wall Street consensus shows 12-month targets averaging $288-$297 (up 11-15% from current), with highs to $350-$367.[1][2][6] Short-term forecasts predict slight gains to $260.48 by Apr 14 end.[3]"
+    },
+    {
+      "id": "pred_perplexity_20260414_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 633.0,
+      "current_price_at_prediction": 627.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's strongest 5-day performance (+6.6%) outperforms SPY and DIA, driven by tech-heavy composition including AAPL and NVDA. AAPL's positive analyst outlook (average target $297)[1] and recent high of $261.93 support Nasdaq momentum.[5] Declining VIX to 18.39 enhances risk-on sentiment."
+    },
+    {
+      "id": "pred_perplexity_20260414_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 199.0,
+      "current_price_at_prediction": 196.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech sector momentum from QQQ (+6.6%) and AAPL's intraday high of $261.93 spills over to AI leader NVDA.[5] Broader market 5-day gains and low VIX (18.39) favor modest upside in high-momentum stocks like NVDA."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-14",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-14T09:15:00Z",
+  "market_context": "Markets are experiencing cautious optimism despite ongoing geopolitical tensions. The S&P 500 has erased war-related losses amid hopes for renewed US-Iran peace talks, while oil prices have pulled back from $100+ highs on diplomatic prospects. Bitcoin and Ethereum are surging on short squeezes and institutional flows, while bank earnings are mixed with JPMorgan beating expectations but Wells Fargo missing.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260414_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 701.0,
+      "current_price_at_prediction": 693.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Strong momentum from Monday's 1.02% S&P 500 gain and futures pointing higher on Iran peace talk optimism. Pre-market data shows continued diplomatic engagement which is reducing geopolitical risk premium. Tech sector strength and financial earnings beats (JPMorgan) provide fundamental support for further gains."
+    },
+    {
+      "id": "pred_claude_20260414_002",
+      "ticker": "WFC",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 67.5,
+      "current_price_at_prediction": 70.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Wells Fargo reported Q1 EPS of $1.56 vs $1.60 estimate and revenue of $21.45B vs $21.97B estimate - both misses. The bank is underperforming peers this year (-8% YTD) and has been downgraded by analysts. Earnings disappointment likely triggers further selling pressure."
+    },
+    {
+      "id": "pred_claude_20260414_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 74344.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Bitcoin broke above $74K resistance triggering a massive short squeeze with $430M in liquidations. Renewed Iran peace talk hopes are boosting risk assets, while institutional demand remains strong with ETF activity. Technical momentum suggests continuation toward $75K-$76K resistance zone."
+    },
+    {
+      "id": "pred_claude_20260414_004",
+      "ticker": "USO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 68.0,
+      "current_price_at_prediction": 72.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Oil prices have fallen from $100+ highs to mid-$90s as hopes for US-Iran diplomatic progress reduce supply disruption fears. WTI dropped 6% on talks of second round negotiations. Pakistan is reportedly arranging follow-up meetings, which would further ease energy shock concerns."
+    },
+    {
+      "id": "pred_claude_20260414_005",
+      "ticker": "JPM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 189.0,
+      "current_price_at_prediction": 192.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Despite JPMorgan beating Q1 estimates with record trading revenue ($11.6B), the stock fell 1% pre-market after lowering 2026 NII guidance from $104.5B to $103B. This guidance cut is concerning for future earnings potential, though strong trading results provide some offset to selling pressure."
+    }
+  ]
+}

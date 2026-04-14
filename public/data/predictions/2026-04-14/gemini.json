@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-14",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-14T19:13:17.732354+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, but recent economic data suggests a potential stabilization, leading to cautious optimism among investors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260414_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive sentiment from futures markets."
+    },
+    {
+      "id": "pred_gemini_20260414_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Recent analyst downgrades and concerns over Q2 sales forecasts are weighing on the stock, breaking key support levels."
+    },
+    {
+      "id": "pred_gemini_20260414_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 201.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements at the upcoming investor day and short covering activity could drive prices higher."
+    },
+    {
+      "id": "pred_gemini_20260414_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 428.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Strong cloud revenue growth reported in preliminary earnings and continued demand for AI-related services are positive catalysts."
+    }
+  ]
+}

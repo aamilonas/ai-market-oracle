@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-14",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-14T19:14:15.540695+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users citing strong tech earnings and declining VIX as positive signals. Pre-market futures for major indices are trending slightly upward, though some concern lingers around potential inflation data releases later this week.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260414_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 693.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to rise based on positive pre-market futures data from Bloomberg and a 5-day upward trend of +5.2%. Sentiment on X/Twitter shows retail investors are bullish on continued strength in major indices. However, uncertainty around upcoming economic data tempers confidence."
+    },
+    {
+      "id": "pred_grok_20260414_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is likely to see gains due to recent positive analyst upgrades mentioned on X/Twitter and a strong 5-day performance in the tech sector as reflected in QQQ (+6.6%). Web searches indicate high options flow activity favoring calls, suggesting bullish institutional sentiment."
+    },
+    {
+      "id": "pred_grok_20260414_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 360.0,
+      "current_price_at_prediction": 365.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may face downward pressure due to mixed sentiment on X/Twitter, with some users highlighting potential production delays reported in recent Reuters articles. While the broader market is up, specific concerns about TSLA's high valuation temper expectations for gains today."
+    }
+  ]
+}
