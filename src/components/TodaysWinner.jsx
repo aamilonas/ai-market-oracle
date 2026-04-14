@@ -28,6 +28,9 @@ export default function TodaysWinner({ winner }) {
 
       <div className={styles.main}>
         <span className={styles.ticker}>{winner.ticker}</span>
+        {winner.leveraged_ticker && (
+          <span className={styles.leveragedBadge}>Trading {winner.leveraged_ticker} (3x)</span>
+        )}
         <span className={[styles.dirBadge, isUp ? styles.up : styles.down].join(' ')}>
           {isUp ? '▲' : '▼'} {winner.direction.toUpperCase()}
         </span>

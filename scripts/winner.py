@@ -22,8 +22,10 @@ from utils import (
 
 log = get_logger("winner")
 
-EXCLUDED_TICKERS = {"SPY", "QQQ", "DIA", "VIX", "IWM"}
+EXCLUDED_TICKERS = {"DIA", "VIX", "IWM"}
 MIN_MODELS_AGREEING = 3
+ETF_LEVERAGE_MAP = {"SPY": "SPXL", "QQQ": "TQQQ"}
+ETF_MIN_MODELS = 4  # ETFs require 4/5 models to agree
 SIMULATOR_FILE = DATA_DIR / "simulator.json"
 WINNER_FILE = DATA_DIR / "winner-today.json"
 
@@ -87,7 +89,8 @@ def select_todays_winner(date_str):
     # Filter for groups with enough models agreeing
     candidates = []
     for (ticker, direction), picks in groups.items():
-        if len(picks) < MIN_MODELS_AGREEING:
+        min_required = ETF_MIN_MODELS if ticker in ETF_LEVERAGE_MAP else MIN_MODELS_AGREEING
+        if len(picks) < min_required:
             continue
 
         avg_confidence = sum(p["confidence"] for p in picks) / len(picks)
@@ -119,10 +122,20 @@ def select_todays_winner(date_str):
 
     # Return highest-scoring candidate
     winner = max(candidates, key=lambda c: c["score"])
-    log.info(
-        f"Today's winner: {winner['ticker']} {winner['direction'].upper()} "
-        f"({winner['model_count']} models, score={winner['score']:.2f})"
-    )
+
+    # ETF consensus: remap to 3x leveraged ticker for trading
+    if winner["ticker"] in ETF_LEVERAGE_MAP:
+        winner["leveraged_ticker"] = ETF_LEVERAGE_MAP[winner["ticker"]]
+        log.info(
+            f"Today's winner: {winner['ticker']} → {winner['leveraged_ticker']} "
+            f"{winner['direction'].upper()} ({winner['model_count']} models, "
+            f"score={winner['score']:.2f})"
+        )
+    else:
+        log.info(
+            f"Today's winner: {winner['ticker']} {winner['direction'].upper()} "
+            f"({winner['model_count']} models, score={winner['score']:.2f})"
+        )
     return winner
 
 
@@ -163,7 +176,19 @@ def open_trade(sim, winner, date_str):
         log.warning("Already have an open trade — skipping")
         return sim
 
-    entry_price = winner["avg_entry"]
+    trade_ticker = winner.get("leveraged_ticker", winner["ticker"])
+
+    # For leveraged ETFs, fetch the actual price of the leveraged instrument
+    if "leveraged_ticker" in winner:
+        from market_data import get_current_price
+        entry_price = get_current_price(trade_ticker)
+        if entry_price is None:
+            log.warning(f"Could not fetch price for {trade_ticker} — skipping trade")
+            return sim
+        log.info(f"Leveraged trade: {winner['ticker']} → {trade_ticker} @ ${entry_price:.2f}")
+    else:
+        entry_price = winner["avg_entry"]
+
     if entry_price <= 0:
         log.warning("Invalid entry price — skipping trade")
         return sim
@@ -176,7 +201,7 @@ def open_trade(sim, winner, date_str):
 
     trade = {
         "date": date_str,
-        "ticker": winner["ticker"],
+        "ticker": trade_ticker,
         "direction": winner["direction"],
         "entry_price": entry_price,
         "exit_price": None,
@@ -191,7 +216,7 @@ def open_trade(sim, winner, date_str):
     sim["trades"].append(trade)
     log.info(
         f"Opened trade: {winner['direction'].upper()} {shares} shares of "
-        f"{winner['ticker']} @ ${entry_price:.2f}"
+        f"{trade_ticker} @ ${entry_price:.2f}"
     )
     return sim
 

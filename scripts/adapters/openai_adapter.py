@@ -52,12 +52,51 @@ Return ONLY this JSON (no markdown):
 }}"""
 
 
+REPAIR_MODEL = "gpt-4o"
+
+JSON_REPAIR_TEMPLATE = """Convert the following market prediction draft into valid JSON.
+
+Return ONLY a single valid JSON object matching this exact structure:
+{{
+  "date": "{date}",
+  "model": "gpt-4o",
+  "model_display_name": "GPT-4o",
+  "generated_at": "{now}",
+  "market_context": "2-3 sentence summary",
+  "predictions": [
+    {{
+      "id": "pred_gpt4o_{date_compact}_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.00,
+      "current_price_at_prediction": 598.00,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "2-3 sentences with specific data"
+    }}
+  ]
+}}
+
+Rules:
+- Keep only 3 to 5 predictions.
+- Preserve the original meaning as closely as possible.
+- Use only `up` or `down` for direction.
+- Use only `end_of_day`, `end_of_week`, or `end_of_month` for timeframe.
+- Output JSON only.
+
+Draft:
+{raw_text}
+"""
+
+
 def _strip_search_citations(text: str) -> str:
     """Remove gpt-4o-search-preview inline citations that corrupt JSON.
 
-    The search-preview model injects citations like 【4:0†source】 and
-    markdown links [text](url) into its response content.  These appear
-    inside JSON string values and break parsing.
+    The search-preview model injects citations like 【4:0†source】,
+    markdown links [text](url), and sometimes ASCII control characters
+    into its response content.  These appear inside JSON string values
+    and break parsing.
     """
     # Remove fullwidth-bracket citation markers: 【...】
     text = re.sub(r'【[^】]*】', '', text)
@@ -65,7 +104,31 @@ def _strip_search_citations(text: str) -> str:
     text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
     # Remove bare footnote markers: [1], [2], etc.
     text = re.sub(r'\[\d+\]', '', text)
+    # Remove ASCII control characters (except newline/tab) that corrupt JSON
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
     return text
+
+
+def _repair_to_json(client, raw_text: str, date_str: str, now: str, date_compact: str) -> dict | None:
+    """Second-pass repair: use standard gpt-4o with JSON mode to fix malformed output."""
+    prompt = JSON_REPAIR_TEMPLATE.format(
+        date=date_str,
+        now=now,
+        date_compact=date_compact,
+        raw_text=raw_text[:12000],
+    )
+    try:
+        response = client.chat.completions.create(
+            model=REPAIR_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            max_tokens=2048,
+        )
+        text = response.choices[0].message.content or ""
+        return extract_json_from_text(text)
+    except Exception as e:
+        log.warning(f"GPT-4o repair pass failed: {e}")
+        return None
 
 
 class OpenAIAdapter:
@@ -115,8 +178,14 @@ class OpenAIAdapter:
                     data["date"] = date_str
                     return data
                 else:
-                    log.warning(f"GPT-4o attempt {attempt + 1}: could not parse JSON")
-                    log.debug(f"Raw: {text[:500]}")
+                    log.warning(f"GPT-4o attempt {attempt + 1}: could not parse JSON, trying repair pass")
+                    log.info(f"Raw (first 500 chars): {text[:500]}")
+                    repaired = _repair_to_json(client, cleaned or text, date_str, now, date_compact)
+                    if repaired:
+                        repaired["model"] = MODEL_ID
+                        repaired["model_display_name"] = DISPLAY_NAME
+                        repaired["date"] = date_str
+                        return repaired
             except Exception as e:
                 log.error(f"GPT-4o attempt {attempt + 1} failed: {e}")
 
