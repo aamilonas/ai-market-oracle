@@ -2,8 +2,9 @@ name: Morning — Generate Predictions
 
 on:
   schedule:
-    # 12:30 UTC = 8:30 AM EDT / 7:30 AM EST — always before 9:30 AM market open.
-    - cron: '30 12 * * 1-5'
+    # 10:30 UTC = 6:30 AM EDT — scheduled early to absorb GitHub Actions
+    # cron delays (typically 2-3 hours), targeting ~8:30-9:30 AM ET actual run.
+    - cron: '30 10 * * 1-5'
   workflow_dispatch:
     inputs:
       date:
