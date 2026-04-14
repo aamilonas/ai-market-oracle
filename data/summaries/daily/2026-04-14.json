@@ -1,30 +1,41 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-14T19:14:22.379809+00:00",
-  "headline": "AI models unanimously bullish on SPY amid Iran peace talks and bank earnings",
-  "summary": "All four AI models predicted SPY would rise, with confidence levels ranging from 60-72%, citing strong momentum from Monday's gains and optimism around Iran diplomatic progress. The day's predictions centered on banking sector volatility from Q1 earnings misses and continued tech strength, with models split on individual names like TSLA while agreeing on broader market direction.",
+  "generated_at": "2026-04-14T23:07:37.276520+00:00",
+  "headline": "AI Models Unite on SPY Rally While Claude Stumbles on Banking Calls",
+  "summary": "All five AI models correctly predicted SPY's upward movement, showing remarkable consensus on the broader market rally driven by easing geopolitical tensions. However, Claude's banking sector predictions went awry, incorrectly calling for declines in JPM and WFC despite both stocks posting significant gains.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
         "Claude",
         "Gemini",
+        "GPT-4o",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Rare unanimous agreement across all models on SPY upside, driven by peace talk optimism and momentum."
+      "outcome": "correct",
+      "note": "Perfect consensus with all five models correctly predicting SPY's rise, with scores ranging from 0.65 to 1.22."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "GPT-4o and Perplexity correctly called Apple's rise while Gemini wrongly predicted a decline."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
         "Gemini",
-        "Grok"
+        "GPT-4o"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Models split on Tesla with Gemini bullish on product announcements while Grok sees downward pressure."
+      "agreed_direction": "up",
+      "outcome": "split",
+      "note": "Mixed results as GPT-4o's bullish call was wrong while Grok correctly predicted Tesla's decline."
     },
     {
       "ticker": "NVDA",
@@ -33,32 +44,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models see continued AI momentum pushing NVDA higher toward $199-200 resistance."
-    },
-    {
-      "ticker": "AAPL",
-      "models_agreeing": [
-        "Gemini",
-        "Perplexity"
-      ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Gemini bearish on analyst downgrades while Perplexity sees intraday strength continuing upward."
+      "outcome": "correct",
+      "note": "Both models correctly anticipated NVIDIA's gains amid tech sector momentum."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_claude_spy",
     "model_display_name": "Claude",
-    "ticker": "WFC",
-    "score": 0,
-    "summary": "Highest confidence prediction at 78% on Wells Fargo downside after Q1 earnings miss."
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY call scored the day's best result, correctly reading momentum from Monday's gains and Iran peace talks."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Grok",
-    "ticker": "TSLA",
-    "score": 0,
-    "summary": "Lowest confidence at 55% with conflicting X/Twitter sentiment signals on Tesla direction."
+    "prediction_id": "pred_claude_wfc",
+    "model_display_name": "Claude",
+    "ticker": "WFC",
+    "score": -0.78,
+    "summary": "Claude's bearish Wells Fargo call backfired spectacularly as the stock surged despite the earnings miss Claude cited."
   }
 }
