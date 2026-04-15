@@ -22,8 +22,9 @@ export default function PredictionCard({ prediction, score, compact }) {
     reasoning,
   } = prediction
 
-  const pct = (((target_price - current_price_at_prediction) / current_price_at_prediction) * 100)
-  const pctStr = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%'
+  const hasPrices = typeof target_price === 'number' && typeof current_price_at_prediction === 'number' && current_price_at_prediction !== 0
+  const pct = hasPrices ? ((target_price - current_price_at_prediction) / current_price_at_prediction) * 100 : null
+  const pctStr = pct == null ? '—' : (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%'
   const timeframeLabel = {
     end_of_day: 'EOD',
     end_of_week: 'EOW',
@@ -52,14 +53,14 @@ export default function PredictionCard({ prediction, score, compact }) {
         <div className={styles.priceGroup}>
           <span className={styles.priceLabel}>Entry</span>
           <span className={[styles.priceValue, 'mono'].join(' ')}>
-            ${current_price_at_prediction.toFixed(2)}
+            {typeof current_price_at_prediction === 'number' ? `$${current_price_at_prediction.toFixed(2)}` : '—'}
           </span>
         </div>
         <div className={styles.arrow}>→</div>
         <div className={styles.priceGroup}>
           <span className={styles.priceLabel}>Target</span>
           <span className={[styles.priceValue, 'mono'].join(' ')}>
-            ${target_price.toFixed(2)}
+            {typeof target_price === 'number' ? `$${target_price.toFixed(2)}` : '—'}
           </span>
         </div>
         <span className={[styles.pct, direction === 'up' ? styles.up : styles.down].join(' ')}>

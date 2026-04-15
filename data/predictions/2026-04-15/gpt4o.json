@@ -26,18 +26,6 @@
       "timeframe": "end_of_day",
       "confidence": 0.65,
       "reasoning": "Microsoft's strong market position and recent positive performance suggest a continued upward trend in its stock price."
-    },
-    {
-      "id": "pred_gpt4o_20260415_003",
-      "ticker": "BTC-USD",
-      "prediction_type": "price_direction",
-      "direction": "down",
-      "target_price": 73,
-      "500.00current": -74,
-      "01ce": 9.43,
-      "timeframe": "end_of_day",
-      "confidence": 0.6,
-      "reasoning": "Bitcoin's recent volatility and slight downward movement indicate a potential decrease in price by the end of the day."
     }
   ]
 }

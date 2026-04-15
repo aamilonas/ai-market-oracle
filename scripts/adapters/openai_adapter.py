@@ -106,6 +106,14 @@ def _strip_search_citations(text: str) -> str:
     text = re.sub(r'\[\d+\]', '', text)
     # Remove ASCII control characters (except newline/tab) that corrupt JSON
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+    # Strip thousands-separator commas inside numeric literals (e.g. 73,500.00 → 73500.00).
+    # Matches a digit followed by ",<3 digits>" that's not itself followed by another digit.
+    # Applied repeatedly until stable to handle 1,234,567.
+    while True:
+        new = re.sub(r'(\d),(\d{3})(?!\d)', r'\1\2', text)
+        if new == text:
+            break
+        text = new
     return text
 
 
