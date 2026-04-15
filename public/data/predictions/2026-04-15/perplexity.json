@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-15",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-15T11:35:53Z",
+  "market_context": "Tech-heavy indices show strong 5-day momentum (QQQ +6.8%, SPY +5.3%) with low volatility (VIX 18.24, down 13.3%). Apple trades near analyst consensus targets ($288-299 range), supported by bullish analyst sentiment and 'Buy' ratings across 26+ covering analysts.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260415_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 632.5,
+      "current_price_at_prediction": 628.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ has gained 6.8% over 5 days with sustained momentum. Low VIX (18.24) and positive tech sentiment support continued strength. Modest intraday gain of 0.6% aligns with consolidation after strong rally."
+    },
+    {
+      "id": "pred_perplexity_20260415_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 261.5,
+      "current_price_at_prediction": 258.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Analyst consensus averages $296-299 (15-16% upside), with 26 analysts maintaining 'Buy' ratings[4]. Current price $258.83 sits below all major price targets[1][2][4][7]. Wedbush's $350 target and BofA's $325 target provide bullish anchors."
+    },
+    {
+      "id": "pred_perplexity_20260415_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 696.8,
+      "current_price_at_prediction": 694.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY +5.3% over 5 days reflects broad market strength. VIX compression (down 13.3%) indicates low fear and risk-on positioning. Intraday continuation of modest gains likely as momentum persists."
+    },
+    {
+      "id": "pred_perplexity_20260415_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 198.75,
+      "current_price_at_prediction": 196.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from QQQ momentum and tech sector strength. Current price near recent support; analyst sentiment remains constructive on AI/semiconductor demand. Modest 1.1% gain reflects participation in broader tech rally."
+    }
+  ]
+}

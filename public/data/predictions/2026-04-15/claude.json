@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-15",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-15T07:30:00Z",
+  "market_context": "Market showing resilience amid geopolitical tensions with oil retreating from recent highs as diplomatic hopes emerge. Strong earnings season continues with major banks and tech companies reporting today.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260415_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.25,
+      "current_price_at_prediction": 694.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 is within 1% of all-time high of 7,002.28 with strong momentum from recent rally. Oil price retreat from diplomatic progress and positive earnings sentiment should drive continued gains today."
+    },
+    {
+      "id": "pred_claude_20260415_002",
+      "ticker": "BAC",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 54.5,
+      "current_price_at_prediction": 52.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Bank of America reports Q1 earnings pre-market today with consensus EPS of $1.00-$1.01. Strong capital position with 11.4% CET1 ratio and potential for dividend hike announcement should drive upside."
+    },
+    {
+      "id": "pred_claude_20260415_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 196.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "ASML's strong Q1 results and raised guidance driven by AI chip demand validates semiconductor strength. Tech stocks outperforming with AI infrastructure spending continuing to accelerate capacity expansion plans."
+    },
+    {
+      "id": "pred_claude_20260415_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 115.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Oil prices retreating as diplomatic hopes emerge from Iran ceasefire talks. WTI down to $91 from triple-digit peaks as geopolitical risk premium erodes, pressuring energy stocks."
+    },
+    {
+      "id": "pred_claude_20260415_005",
+      "ticker": "ASML",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1540.0,
+      "current_price_at_prediction": 1500.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Strong Q1 beat with €8.8B sales vs €8.5B expected and raised 2026 guidance to €36-40B. Memory customers sold out through 2026 with supply constraints driving accelerated capacity expansion plans."
+    }
+  ]
+}

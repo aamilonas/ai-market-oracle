@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-15",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-15T11:36:50.908543+00:00",
+  "market_context": "U.S. stock futures are flat as the S&P 500 approaches its all-time high of 7,002.28, reached on January 28. Investors are monitoring upcoming earnings reports from major banks and geopolitical developments in the Middle East.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260415_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 694.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With the S&P 500 nearing its all-time high and positive investor sentiment, SPY is likely to experience upward momentum today."
+    },
+    {
+      "id": "pred_gpt4o_20260415_002",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 393.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Microsoft's strong market position and recent positive performance suggest a continued upward trend in its stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260415_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 73,
+      "500.00current": -74,
+      "01ce": 9.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin's recent volatility and slight downward movement indicate a potential decrease in price by the end of the day."
+    }
+  ]
+}

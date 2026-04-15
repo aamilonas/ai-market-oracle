@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-15T11:37:09.541256+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users citing strong tech earnings and positive pre-market futures as reasons for bullishness. However, concerns about rising 10Y Treasury yields at 4.26% are tempering enthusiasm. Major news today includes anticipated retail sales data release, which could influence market direction.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260415_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 694.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Pre-market futures for S&P 500 are up 0.5% as reported by Bloomberg, reflecting positive momentum. X sentiment shows a majority of posts expecting continued strength in major indices due to recent 5-day gains of +5.3%. However, uncertainty around retail sales data keeps confidence moderate."
+    },
+    {
+      "id": "pred_grok_20260415_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing positive buzz on X with mentions of strong AI sector demand and upcoming product announcements. Web searches indicate high options flow with bullish call buying reported on MarketWatch. Recent 5-day performance in tech-heavy QQQ (+6.8%) supports this upward trend."
+    },
+    {
+      "id": "pred_grok_20260415_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 360.0,
+      "current_price_at_prediction": 364.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X posts highlight mixed sentiment on TSLA, with some users concerned about potential delays in new model rollouts. Web news from Reuters mentions increased short interest in TSLA stock. Confidence is low due to lack of definitive negative catalysts today."
+    },
+    {
+      "id": "pred_grok_20260415_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 262.0,
+      "current_price_at_prediction": 258.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL sentiment on X is positive, with users discussing strong iPhone sales expectations ahead of quarterly reports. Web searches on Yahoo Finance show pre-market gains of 0.3%. Confidence is moderate due to potential volatility from broader market data releases."
+    }
+  ]
+}

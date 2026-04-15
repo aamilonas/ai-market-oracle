@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T11:37:24.475759+00:00",
+  "headline": "AI models unanimously bullish on SPY as market nears all-time highs",
+  "summary": "All models predicted SPY would rise today, with targets clustering around $700 as the S&P 500 approaches record territory. Strong consensus also emerged for NVDA and AAPL moving higher, while XOM predictions were split between Claude's bearish oil-price concerns and Gemini/Grok's bullish energy sector outlook.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Remarkable unanimity with all five models predicting SPY gains, targeting around $700."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models bullish on NVDA with AI demand and ASML's strong results as key catalysts."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Mixed signals with Gemini bearish on supply chain issues while Grok and Perplexity see upside."
+    },
+    {
+      "ticker": "XOM",
+      "models_agreeing": [
+        "Claude",
+        "Gemini"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude sees oil price weakness from Iran talks while Gemini expects energy sector strength."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending - market has not closed yet."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending - market has not closed yet."
+  }
+}
