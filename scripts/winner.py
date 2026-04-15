@@ -178,16 +178,22 @@ def open_trade(sim, winner, date_str):
 
     trade_ticker = winner.get("leveraged_ticker", winner["ticker"])
 
-    # For leveraged ETFs, fetch the actual price of the leveraged instrument
-    if "leveraged_ticker" in winner:
-        from market_data import get_current_price
+    # Always source entry price from yfinance's regular-session open (9:30 ET)
+    # rather than model-reported prices. This avoids hallucinated entries and
+    # gives a reproducible, real market fill benchmark.
+    from datetime import date as date_cls
+    from market_data import get_open_price, get_current_price
+    trade_date = date_cls.fromisoformat(date_str)
+    entry_price = get_open_price(trade_ticker, trade_date)
+    if entry_price is None:
+        # Fallback to current price if open isn't available yet (e.g. before 9:30 ET on same day)
         entry_price = get_current_price(trade_ticker)
         if entry_price is None:
-            log.warning(f"Could not fetch price for {trade_ticker} — skipping trade")
+            log.warning(f"Could not fetch entry price for {trade_ticker} — skipping trade")
             return sim
-        log.info(f"Leveraged trade: {winner['ticker']} → {trade_ticker} @ ${entry_price:.2f}")
+        log.info(f"Using current price fallback for {trade_ticker} @ ${entry_price:.2f}")
     else:
-        entry_price = winner["avg_entry"]
+        log.info(f"Entry (open) for {trade_ticker} @ ${entry_price:.2f}")
 
     if entry_price <= 0:
         log.warning("Invalid entry price — skipping trade")

@@ -181,3 +181,39 @@ def get_current_price(ticker: str) -> Optional[float]:
     except Exception as e:
         log.error(f"Could not get current price for {ticker}: {e}")
     return None
+
+
+def get_open_price(ticker: str, target_date: date, retries: int = 3) -> Optional[float]:
+    """
+    Fetch the regular-session opening price (9:30 ET) for a ticker on a specific date.
+    Used as the honest, reproducible entry price for paper trades.
+    """
+    start = target_date - timedelta(days=3)
+    end = target_date + timedelta(days=2)
+
+    for attempt in range(retries):
+        try:
+            yf_ticker = YFINANCE_TICKER_ALIASES.get(ticker, ticker)
+            ticker_obj = yf.Ticker(yf_ticker)
+            hist = ticker_obj.history(start=start.isoformat(), end=end.isoformat())
+
+            if hist.empty:
+                log.warning(f"No data for {ticker} ({yf_ticker}) around {target_date}")
+                return None
+
+            for idx in hist.index:
+                idx_date = idx.date() if hasattr(idx, "date") else idx
+                if idx_date == target_date:
+                    open_px = float(hist.loc[idx, "Open"])
+                    log.info(f"{ticker} open on {target_date}: ${open_px:.2f}")
+                    return round(open_px, 2)
+
+            log.warning(f"{ticker} ({yf_ticker}): no open price for {target_date}")
+            return None
+
+        except Exception as e:
+            log.error(f"yfinance open-price error for {ticker} (attempt {attempt + 1}): {e}")
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+
+    return None
