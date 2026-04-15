@@ -1,8 +1,8 @@
 {
   "date": "2026-04-15",
-  "generated_at": "2026-04-15T11:37:24.475759+00:00",
-  "headline": "AI models unanimously bullish on SPY as market nears all-time highs",
-  "summary": "All models predicted SPY would rise today, with targets clustering around $700 as the S&P 500 approaches record territory. Strong consensus also emerged for NVDA and AAPL moving higher, while XOM predictions were split between Claude's bearish oil-price concerns and Gemini/Grok's bullish energy sector outlook.",
+  "generated_at": "2026-04-15T23:05:52.385260+00:00",
+  "headline": "AI models nail tech rally but stumble on energy sector divergence",
+  "summary": "Models showed strong consensus on SPY and NVDA upward momentum, with all predictions proving correct for both tickers. The day's major miss came from energy predictions, where both Claude and Gemini incorrectly called XOM's direction despite oil price concerns, while the stock surged to $149.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Remarkable unanimity with all five models predicting SPY gains, targeting around $700."
+      "outcome": "correct",
+      "note": "All five models correctly predicted SPY's rise to near $700, showing strong consensus on broad market strength."
     },
     {
       "ticker": "NVDA",
@@ -25,8 +25,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models bullish on NVDA with AI demand and ASML's strong results as key catalysts."
+      "outcome": "correct",
+      "note": "Three models correctly anticipated NVDA's climb despite Claude's overly ambitious target."
     },
     {
       "ticker": "AAPL",
@@ -36,8 +36,8 @@
         "Perplexity"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Mixed signals with Gemini bearish on supply chain issues while Grok and Perplexity see upside."
+      "outcome": "split",
+      "note": "Gemini wrongly predicted a decline to $185 while Grok and Perplexity correctly called the rise to $266."
     },
     {
       "ticker": "XOM",
@@ -46,22 +46,22 @@
         "Gemini"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude sees oil price weakness from Iran talks while Gemini expects energy sector strength."
+      "outcome": "wrong",
+      "note": "Claude predicted down while Gemini predicted up, but both missed XOM's actual surge to $149."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending - market has not closed yet."
+    "prediction_id": "pred_claude_spy_up",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY call with precise target of $700.25 nearly matched the actual close of $699.94."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending - market has not closed yet."
+    "prediction_id": "pred_claude_asml_up",
+    "model_display_name": "Claude",
+    "ticker": "ASML",
+    "score": -0.78,
+    "summary": "Despite citing strong Q1 earnings beat, Claude's high-confidence ASML call missed as the stock fell to $1481.77."
   }
 }
