@@ -1,8 +1,8 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16T11:40:49.548957+00:00",
-  "headline": "AI Models Unite on Tech Rally as NVIDIA Quantum Launch Drives Consensus",
-  "summary": "Five AI models showed remarkable consensus on market direction, with strong agreement on SPY, QQQ, and NVDA moving higher amid NVIDIA's quantum AI announcement. The most notable split came on TSLA, where models were evenly divided between bullish momentum from AI chip news and bearish technical resistance concerns.",
+  "generated_at": "2026-04-16T23:06:22.121392+00:00",
+  "headline": "SPY Bulls Win Big as Tech Diverges on NVDA Weakness",
+  "summary": "Models showed strong consensus on SPY and QQQ upside, correctly anticipating broad market strength with impressive accuracy. However, NVDA proved to be the day's trap, with multiple models wrongly betting on continued momentum from its quantum AI announcement, while defensive plays like PEP delivered the day's best risk-adjusted returns.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -13,8 +13,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models aligned bullishly on SPY with targets around $600-705, citing positive economic indicators and declining VIX."
+      "outcome": "correct",
+      "note": "All four models correctly called SPY's rise with 60-70% confidence, validating the bullish pre-market indicators."
     },
     {
       "ticker": "QQQ",
@@ -25,20 +25,19 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech ETF saw unanimous bullish sentiment with all four models targeting $642-645 on strong 5-day momentum."
+      "outcome": "correct",
+      "note": "Strong consensus on tech sector strength proved accurate as QQQ closed near predicted targets."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
         "Claude",
         "Gemini",
-        "GPT-4o",
         "Grok"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Tesla divided the models 50-50, with bears citing resistance at $400 while bulls saw AI chip momentum continuing."
+      "agreed_direction": "down",
+      "outcome": "correct",
+      "note": "Bears correctly identified resistance near $400 despite GPT-4o's contrarian bullish call."
     },
     {
       "ticker": "NVDA",
@@ -48,33 +47,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models agreed on NVDA upside to $202-205, driven by quantum AI launch and 11-day winning streak."
-    },
-    {
-      "ticker": "AAPL",
-      "models_agreeing": [
-        "Gemini",
-        "GPT-4o",
-        "Perplexity"
-      ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Apple predictions split with Gemini bearish on supply chain issues while GPT-4o and Perplexity saw upside."
+      "outcome": "wrong",
+      "note": "The day's biggest consensus miss as quantum AI hype failed to sustain NVDA's 11-day winning streak."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Pending",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Best call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_pep_claude",
+    "model_display_name": "Claude",
+    "ticker": "PEP",
+    "score": 1.28,
+    "summary": "Claude's high-confidence PEP earnings play delivered the day's best score, nailing both direction and target with 78% confidence."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Pending",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Worst call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_nvda_grok",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": -0.75,
+    "summary": "Grok's 75% confidence NVDA bullish call backfired as the stock reversed despite strong options flow signals."
   }
 }
