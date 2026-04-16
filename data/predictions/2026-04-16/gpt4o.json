@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-16",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-16T11:40:20.549021+00:00",
+  "market_context": "U.S. stock futures are slightly positive ahead of the market open, with investors awaiting key economic data releases, including the Philadelphia Fed Manufacturing Index and initial jobless claims. Recent inflation data showed milder-than-expected wholesale inflation, suggesting manageable inflation levels despite earlier consumer price increases.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260416_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 699.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Given the recent milder-than-expected wholesale inflation data and positive pre-market futures, SPY is likely to experience a modest gain by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260416_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "current_price_at_prediction": 637.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With technology stocks showing resilience and positive pre-market indicators, QQQ is expected to trend upwards by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260416_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 270.0,
+      "current_price_at_prediction": 266.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's strong market position and recent positive sentiment in the tech sector suggest a slight upward movement by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260416_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 391.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Tesla's recent product announcements and stable market conditions may lead to a modest increase in its stock price by day's end."
+    },
+    {
+      "id": "pred_gpt4o_20260416_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 75000.0,
+      "current_price_at_prediction": 74446.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin's recent upward trend and positive market sentiment suggest a continuation of its price increase by the end of the day."
+    }
+  ]
+}

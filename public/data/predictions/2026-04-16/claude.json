@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-16",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-16T07:30:00Z",
+  "market_context": "Markets are riding record highs with futures up modestly on Iran peace talk optimism. Tech momentum continues with NVIDIA quantum AI launch and Tesla AI5 chip news, while key earnings from Netflix and PepsiCo loom after close.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260416_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "current_price_at_prediction": 637.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Nasdaq futures are up 0.08% and tech sector showing strong momentum with NVIDIA quantum AI launch and Tesla AI chip news. Record 11-day run suggests continued buying interest, though approaching resistance levels."
+    },
+    {
+      "id": "pred_claude_20260416_002",
+      "ticker": "NFLX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 590.0,
+      "current_price_at_prediction": 612.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Netflix faces high expectations with $12.16B revenue guidance and strong recent performance. Stock may experience profit-taking ahead of earnings, especially given recent analyst downgrades to EPS estimates."
+    },
+    {
+      "id": "pred_claude_20260416_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 391.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Tesla surged 7.6% yesterday on AI5 chip news but faces technical resistance near $400. Momentum appears overextended short-term with analysts noting probability of pullback is high given recent volatility."
+    },
+    {
+      "id": "pred_claude_20260416_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.5,
+      "current_price_at_prediction": 198.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "NVIDIA's quantum AI model launch is driving sector momentum with 11th consecutive daily gain. Strong analyst targets around $264 suggest continued upside, supported by quantum computing stock rally catalyst."
+    },
+    {
+      "id": "pred_claude_20260416_005",
+      "ticker": "PEP",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 158.5,
+      "current_price_at_prediction": 155.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "PepsiCo reports earnings today with 96.1% probability of beating $1.54 EPS consensus based on consistent earnings history. Strong fundamentals and positive analyst sentiment support upside into earnings."
+    }
+  ]
+}

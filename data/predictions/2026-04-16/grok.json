@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-16",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-16T11:40:40.668748+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users citing strong tech earnings as a driver for growth. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major disruptive news or events are widely reported for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260416_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 699.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY is expected to rise based on positive pre-market futures data from Bloomberg and a 3.5% 5-day gain. X sentiment shows bullishness among retail investors, particularly citing strength in tech and consumer sectors."
+    },
+    {
+      "id": "pred_grok_20260416_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 198.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "NVDA is likely to increase due to strong options flow indicating bullish calls, as reported by unusual_whales on X. Recent web news from Reuters highlights continued demand for AI chips, supporting positive momentum."
+    },
+    {
+      "id": "pred_grok_20260416_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 391.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA may see a slight decline due to mixed sentiment on X, with some users pointing to potential overvaluation. Web searches indicate a minor negative report on production delays from Electrek, which could weigh on price today."
+    },
+    {
+      "id": "pred_grok_20260416_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "current_price_at_prediction": 637.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ is predicted to rise, supported by a 5.2% 5-day gain and strong pre-market futures as per CNBC data. X discussions are overwhelmingly positive on tech stocks, especially with upcoming earnings expectations."
+    }
+  ]
+}

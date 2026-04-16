@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-16",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-16T11:39:32.242812+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260416_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released earlier today."
+    },
+    {
+      "id": "pred_gemini_20260416_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain disruptions and a downgrade from a major analyst firm suggest a short-term bearish trend."
+    },
+    {
+      "id": "pred_gemini_20260416_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive sentiment following a new AI partnership announcement and strong pre-market trading activity."
+    },
+    {
+      "id": "pred_gemini_20260416_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 173.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increased competition in the EV market and recent production cuts are likely to weigh on the stock's performance."
+    },
+    {
+      "id": "pred_gemini_20260416_005",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 165.0,
+      "current_price_at_prediction": 163.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Strong advertising revenue forecasts and continued growth in cloud services are expected to drive the stock higher."
+    }
+  ]
+}
