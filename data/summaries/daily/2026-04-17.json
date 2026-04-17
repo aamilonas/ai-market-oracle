@@ -1,8 +1,8 @@
 {
   "date": "2026-04-17",
-  "generated_at": "2026-04-17T11:33:16.790549+00:00",
-  "headline": "Models Split on SPY Direction While Agreeing on Tech Volatility",
-  "summary": "Five AI models made 21 predictions with notable disagreement on SPY's direction (3 up, 1 down) despite similar confidence levels. Models showed consensus on semiconductor weakness with both Claude and Grok predicting NVDA moves in opposite directions, while Netflix's post-earnings drop was only called by Claude.",
+  "generated_at": "2026-04-17T23:06:19.297447+00:00",
+  "headline": "Models Unite on SPY Rally While Split on Tech Giants",
+  "summary": "AI models showed remarkable consensus on SPY's upward movement, with all five models correctly predicting the index's rise to 710.14. However, they diverged sharply on individual tech stocks, particularly struggling with semiconductor plays like TSM and mixed results on NVDA.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -10,11 +10,12 @@
         "Claude",
         "Gemini",
         "GPT-4o",
-        "Grok"
+        "Grok",
+        "Perplexity"
       ],
-      "agreed_direction": "mostly up",
-      "outcome": "pending",
-      "note": "Four models predicted SPY up with 60-70% confidence while Perplexity went contrarian calling for a down day."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Perfect consensus call as all five models correctly predicted SPY's rise, though Perplexity went against the grain with a down call."
     },
     {
       "ticker": "NVDA",
@@ -24,8 +25,8 @@
         "Perplexity"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude predicted NVDA down citing chip sector weakness while Grok and Perplexity called for gains based on options flow and tech leadership."
+      "outcome": "split",
+      "note": "Claude incorrectly predicted down while Grok and Perplexity correctly called the upward move to 201.68."
     },
     {
       "ticker": "AAPL",
@@ -35,32 +36,32 @@
         "Grok"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Gemini called AAPL down on analyst downgrades while GPT-4o and Grok predicted gains on strong iPhone sales forecasts."
+      "outcome": "split",
+      "note": "Gemini missed with a down call while GPT-4o and Grok correctly predicted Apple's surge to 270.23."
     },
     {
-      "ticker": "TSLA",
+      "ticker": "QQQ",
       "models_agreeing": [
-        "GPT-4o",
-        "Grok"
+        "Claude",
+        "Perplexity"
       ],
-      "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models predicted Tesla weakness around $385 citing supply chain concerns and mixed sentiment."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Both models correctly predicted QQQ's rise to 648.85 with similar confidence levels around 62%."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Best call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_gpt4o_spy",
+    "model_display_name": "GPT-4o",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "GPT-4o's SPY call achieved the highest score with strong confidence (0.7) and the actual close exceeded the target by over 5 points."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Worst call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_claude_tsm",
+    "model_display_name": "Claude",
+    "ticker": "TSM",
+    "score": -0.72,
+    "summary": "Claude completely misread TSM's direction, predicting a drop to 190 when the stock actually soared to 370.50, nearly doubling the target."
   }
 }
