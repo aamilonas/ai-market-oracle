@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T11:33:16.790549+00:00",
+  "headline": "Models Split on SPY Direction While Agreeing on Tech Volatility",
+  "summary": "Five AI models made 21 predictions with notable disagreement on SPY's direction (3 up, 1 down) despite similar confidence levels. Models showed consensus on semiconductor weakness with both Claude and Grok predicting NVDA moves in opposite directions, while Netflix's post-earnings drop was only called by Claude.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "mostly up",
+      "outcome": "pending",
+      "note": "Four models predicted SPY up with 60-70% confidence while Perplexity went contrarian calling for a down day."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude predicted NVDA down citing chip sector weakness while Grok and Perplexity called for gains based on options flow and tech leadership."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Gemini called AAPL down on analyst downgrades while GPT-4o and Grok predicted gains on strong iPhone sales forecasts."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models predicted Tesla weakness around $385 citing supply chain concerns and mixed sentiment."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Best call cannot be determined until market close provides actual results."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Worst call cannot be determined until market close provides actual results."
+  }
+}

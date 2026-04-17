@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-17",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-17T11:32:34.078873+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260417_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying volume observed in the last hour of trading, indicating a potential end-of-day rally."
+    },
+    {
+      "id": "pred_gemini_20260417_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrade and weaker-than-expected iPhone sales reports are putting downward pressure on the stock."
+    },
+    {
+      "id": "pred_gemini_20260417_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 428.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Positive sentiment around upcoming AI product announcements and strong cloud growth projections for the quarter."
+    },
+    {
+      "id": "pred_gemini_20260417_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 115.0,
+      "current_price_at_prediction": 116.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Global oil demand forecasts have been revised downwards, coupled with increasing inventory levels, impacting energy sector outlook."
+    }
+  ]
+}

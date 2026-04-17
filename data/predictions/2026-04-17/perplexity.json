@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-17T11:32:06Z",
+  "market_context": "SPY closed down for the first time in 4 days after failing to hold resistance at 163.45, with support holding at 162.47-162.42[2]. QQQ maintained support at 72.52 despite weakness[2], while DIA showed indecision with minimal net movement[2]. Financial sector weakness (XLF down ~1%, GS down 1%) signals potential broader market headwinds[2].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260417_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 698.5,
+      "current_price_at_prediction": 701.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY failed to hold resistance at 163.45 and closed down after 4 consecutive up days[2]. Support at 162.47-162.42 held today, but financial sector weakness (XLF, GS) typically leads broader market declines[2]. Uptrend continuation requires closing above 163.37, which appears challenged given today's rejection."
+    },
+    {
+      "id": "pred_perplexity_20260417_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 643.2,
+      "current_price_at_prediction": 640.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ maintained support at 72.52 and avoided further downside despite market weakness[2]. QQQ's 5-day performance (+5.0%) significantly outpaces SPY (+3.2%) and DIA (+0.8%), reflecting continued tech strength[1]. RSI odds showed 80% bullish signal 4 days ago[1], suggesting momentum remains favorable for tech-heavy index."
+    },
+    {
+      "id": "pred_perplexity_20260417_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.15,
+      "current_price_at_prediction": 198.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ's outperformance (+5.0% 5-day) is driven by tech leadership, with NVDA as a core holding[1][3]. QQQ's 40.52% 1-year return versus SPY's 32.01% reflects sustained tech momentum[3]. NVDA's position in high-growth tech should benefit from continued QQQ strength despite broader market hesitation."
+    }
+  ]
+}

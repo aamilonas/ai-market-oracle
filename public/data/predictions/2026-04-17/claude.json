@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-17",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-17T07:30:00Z",
+  "market_context": "Markets are showing cautious optimism with <cite index=\"1-1,4-1\">S&P 500 futures up 0.24% and Dow futures up 0.38%</cite> amid <cite index=\"11-8,15-2\">renewed hopes for U.S.-Iran peace talks</cite>. <cite index=\"21-4,21-10,21-11\">TSMC reported strong Q1 earnings with 58% profit growth but stock declined</cite>, while <cite index=\"32-7,36-16\">Netflix beat Q1 estimates but fell 9-10% after hours on disappointing Q2 guidance</cite>.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260417_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 707.5,
+      "current_price_at_prediction": 701.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "<cite index=\"1-1,4-1\">S&P 500 futures are up 0.24% in premarket trading</cite> and <cite index=\"15-16,26-20\">overall market optimism is driven by hopes of progress in US-Iran peace talks</cite>. The geopolitical risk premium may continue to compress if diplomatic progress continues, supporting a modest upward move in the broader market."
+    },
+    {
+      "id": "pred_claude_20260417_002",
+      "ticker": "TSM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 190.0,
+      "current_price_at_prediction": 198.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "<cite index=\"21-4,22-10,26-10\">Despite TSMC beating Q1 estimates with 58% profit growth, shares are down 1.9% in premarket</cite>. <cite index=\"21-5,21-26\">This reflects how astronomical expectations have weighed on chipmaker stocks</cite>, suggesting the strong results were already priced in and profit-taking will continue."
+    },
+    {
+      "id": "pred_claude_20260417_003",
+      "ticker": "NFLX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 620.0,
+      "current_price_at_prediction": 676.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "<cite index=\"32-7,36-16\">Netflix fell 9-10% in after-hours trading despite beating Q1 estimates</cite> because <cite index=\"32-7\">Q2 guidance missed expectations</cite>. <cite index=\"37-13,37-14\">Given elevated expectations, forward guidance drives post-earnings reactions and failure to raise guidance could trigger profit-taking</cite>."
+    },
+    {
+      "id": "pred_claude_20260417_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 198.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "<cite index=\"22-15,26-14\">Chip stocks are leading losses on the Nasdaq with Nvidia, ASML and Micron all lower as investors take profits after the recent rally</cite>. <cite index=\"21-25,21-26\">The failure of TSMC and ASML to rally on strong earnings could be a bellwether for the wider chip industry</cite>, suggesting sector rotation out of semiconductors despite strong fundamentals."
+    },
+    {
+      "id": "pred_claude_20260417_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "current_price_at_prediction": 640.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "<cite index=\"4-1\">Nasdaq futures are up 0.18%</cite> and <cite index=\"26-21,26-22\">tech titans have been on \"an absolute tear\" since end of March with investors continuing to \"buy the dip\"</cite>. Despite some chip stock weakness, the broader tech sector momentum and geopolitical optimism should support modest gains in the tech-heavy QQQ."
+    }
+  ]
+}

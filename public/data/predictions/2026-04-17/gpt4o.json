@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-17",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-17T11:32:57.733815+00:00",
+  "market_context": "U.S. stock markets have been on an upward trend, with the S&P 500 reaching new record highs, driven by strong earnings reports from major companies. However, rising oil prices and geopolitical tensions, particularly in Iran, are contributing to inflation concerns and market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260417_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 701.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 has been on an upward trajectory, achieving new record highs due to robust earnings reports from major companies. This positive momentum is likely to continue, pushing SPY higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260417_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 265.5,
+      "current_price_at_prediction": 263.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's strong market position and recent positive earnings reports suggest continued investor confidence, likely leading to a modest increase in its stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260417_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 388.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has experienced volatility due to concerns over supply chain disruptions and increasing competition in the electric vehicle market, which may lead to a slight decline in its stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260417_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 75549.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Bitcoin has been on an upward trend, gaining 6.8% over the past five days, indicating strong investor interest and momentum that is likely to continue through the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260417_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 18.5,
+      "current_price_at_prediction": 17.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite recent market gains, rising oil prices and geopolitical tensions are contributing to increased market uncertainty, which may lead to a slight uptick in the VIX by the end of the day."
+    }
+  ]
+}

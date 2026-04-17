@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-17T11:33:06.125938+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users citing strong tech earnings and positive pre-market futures as reasons for bullishness. However, concerns about rising Treasury yields and geopolitical tensions are tempering enthusiasm. Pre-market data indicates a slight uptick in major index futures, with tech-heavy QQQ leading the gains.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260417_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 701.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to close higher based on positive pre-market futures data from Bloomberg and a 5-day upward trend of +3.2%. Sentiment on X shows retail investors are encouraged by recent economic data suggesting inflation may be cooling. However, the high 10Y Treasury yield at 4.31% introduces some uncertainty."
+    },
+    {
+      "id": "pred_grok_20260417_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 198.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is likely to see gains due to strong options flow data indicating heavy call buying, as reported by unusual_whales on X. Recent news from Reuters highlights NVIDIA's continued dominance in AI chip demand, supporting bullish sentiment. The 5-day performance of QQQ (+5.0%) also suggests strength in tech stocks."
+    },
+    {
+      "id": "pred_grok_20260417_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 388.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may face downward pressure due to mixed sentiment on X, with some users pointing to potential delays in new model rollouts as per a recent Electrek article. Additionally, high short interest data from Fintel suggests bearish bets are increasing. However, confidence is moderate due to TSLA's volatile nature."
+    },
+    {
+      "id": "pred_grok_20260417_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 266.0,
+      "current_price_at_prediction": 263.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL is predicted to rise based on positive mentions on X regarding strong iPhone sales forecasts for the quarter, corroborated by a recent Bloomberg report. Options flow data from Barchart shows increased call activity, signaling bullish sentiment. The overall tech sector strength (QQQ +5.0%) further supports this outlook."
+    }
+  ]
+}
