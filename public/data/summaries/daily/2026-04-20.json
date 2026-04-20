@@ -1,8 +1,8 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20T11:54:07.138643+00:00",
-  "headline": "Models split on SPY as Middle East tensions clash with tech optimism",
-  "summary": "AI models showed a stark divide on market direction, with Claude and GPT-4o bearish on geopolitical tensions while Gemini, Grok, and Perplexity remained bullish on tech momentum. The disagreement was most pronounced on SPY, where five models made predictions split 3-2 between up and down, while TSLA drew four predictions with no consensus direction.",
+  "generated_at": "2026-04-20T23:06:59.191870+00:00",
+  "headline": "Models split on geopolitical tensions as oil surges drive mixed market reactions",
+  "summary": "AI models showed strong consensus on Middle East tensions impacting markets, with most correctly predicting oil-related gains for XOM while disagreeing sharply on broader market direction. SPY predictions were particularly divided with Claude and GPT-4o correctly calling downside while Grok and Perplexity incorrectly expected gains, highlighting the challenge of reading geopolitical market impacts.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -10,19 +10,19 @@
         "Claude",
         "GPT-4o"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude and GPT-4o both cited Middle East tensions for bearish calls, while Gemini, Grok, and Perplexity saw continued tech-driven gains."
+      "agreed_direction": "down",
+      "outcome": "wrong",
+      "note": "Despite correct directional calls from Claude and GPT-4o citing Iran tensions, SPY actually closed up at 708.72."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
-        "Claude",
-        "Gemini"
+        "GPT-4o",
+        "Grok"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Four models split evenly on Tesla ahead of Q1 earnings, with targets ranging wildly from $225 to $408."
+      "agreed_direction": "down",
+      "outcome": "correct",
+      "note": "Both models correctly anticipated TSLA weakness to 392.50, though Claude and Gemini incorrectly expected gains."
     },
     {
       "ticker": "QQQ",
@@ -32,8 +32,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models aligned bullish on tech sector strength, while only GPT-4o dissented with geopolitical concerns."
+      "outcome": "wrong",
+      "note": "Three models expected QQQ gains but it fell to 646.79, with only GPT-4o correctly calling the decline."
     },
     {
       "ticker": "NVDA",
@@ -42,22 +42,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models targeting $205 for NVDA based on options flow and YTD momentum."
+      "outcome": "correct",
+      "note": "Both models correctly predicted NVDA gains to 202.06, with Grok showing higher confidence at 0.7."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Best call will be determined after market close when actual outcomes are known."
+    "prediction_id": "pred_claude_spy",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.18,
+    "summary": "Claude's high-confidence SPY down call earned the top score despite the market ultimately rising, showing strong conviction on geopolitical risks."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Worst call will be determined after market close when actual outcomes are known."
+    "prediction_id": "pred_perplexity_qqq",
+    "model_display_name": "Perplexity",
+    "ticker": "QQQ",
+    "score": -0.65,
+    "summary": "Perplexity's bullish QQQ call citing tech leadership missed badly as the index fell, misjudging sentiment despite recent gains."
   }
 }
