@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-20",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-20T11:53:50.321912+00:00",
+  "market_context": "U.S. stock futures are declining due to escalating tensions between Iran and Israel, leading to concerns over potential supply chain disruptions and higher energy prices. The closure of the Strait of Hormuz has caused oil prices to rise, contributing to a risk-off sentiment in global markets.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260420_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 710.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Escalating geopolitical tensions in the Middle East, particularly the reclosure of the Strait of Hormuz, have led to increased oil prices and a risk-off sentiment among investors. This is likely to result in a decline in the S&P 500 ETF (SPY) by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260420_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 640.0,
+      "current_price_at_prediction": 648.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The Nasdaq-100 ETF (QQQ) is expected to decline due to heightened geopolitical risks and potential disruptions in global supply chains, which could negatively impact technology stocks."
+    },
+    {
+      "id": "pred_gpt4o_20260420_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 485.0,
+      "current_price_at_prediction": 494.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow Jones Industrial Average ETF (DIA) may experience a downturn as investors react to geopolitical uncertainties and rising oil prices, which could affect industrial and energy sectors."
+    },
+    {
+      "id": "pred_gpt4o_20260420_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.0,
+      "current_price_at_prediction": 400.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock (TSLA) is likely to decline due to concerns over rising oil prices and potential supply chain disruptions stemming from Middle East tensions, which could impact production and sales."
+    },
+    {
+      "id": "pred_gpt4o_20260420_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 76000.0,
+      "current_price_at_prediction": 75213.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin (BTC-USD) may see an uptick as investors seek safe-haven assets amid escalating geopolitical tensions and market volatility."
+    }
+  ]
+}

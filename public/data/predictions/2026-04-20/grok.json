@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-20",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-20T11:53:57.939000+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth due to upcoming earnings reports. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major disruptive news or events are widely reported for today, though attention remains on inflation data releases later this week.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260420_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 710.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to trend upward based on positive pre-market futures data showing a 0.3% increase as reported by financial outlets on X. Sentiment analysis from X posts indicates bullishness around large-cap stocks driving the index. However, with VIX slightly elevated, there remains some uncertainty around volatility."
+    },
+    {
+      "id": "pred_grok_20260420_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 201.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is likely to see gains due to strong options flow data indicating heavy call buying, as noted in X posts from options traders. Recent web news highlights positive analyst upgrades citing AI chip demand. Confidence is tempered by broader market tech volatility risks."
+    },
+    {
+      "id": "pred_grok_20260420_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 400.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may face downward pressure due to mixed sentiment on X, with some users citing concerns over recent production delays mentioned in web articles. Pre-market trading shows slight weakness with a 0.2% dip as per financial data shared on X. Confidence is low due to unpredictable retail investor behavior."
+    },
+    {
+      "id": "pred_grok_20260420_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 655.0,
+      "current_price_at_prediction": 648.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ is anticipated to rise based on strong pre-market futures up 0.4% as seen in X updates from market watchers. Positive momentum in tech stocks like NVDA and AAPL, which heavily influence QQQ, supports this outlook per web sentiment analysis. Uncertainty remains due to potential macroeconomic surprises."
+    }
+  ]
+}

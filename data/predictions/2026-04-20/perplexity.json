@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-20T11:53:20Z",
+  "market_context": "SPY is trading around $706-$710 in what appears to be intraday activity, with a daily range of $705.76-$712.39 and previous close at $710.14, showing mild volatility but overall stability near recent highs. Multiple sources confirm elevated trading volume above average (e.g., 70-94M shares vs. 86-88M avg), while broader market data indicates positive 5-day momentum for major indices despite a slightly elevated VIX at 19.51. No clear directional catalysts emerge from available data, suggesting a balanced session ahead.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260420_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 712.0,
+      "current_price_at_prediction": 710.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY has shown resilience with a 5-day gain of +4.5% and intraday highs reaching $712.39 already today per multiple sources. Current trading around $706-$710 remains near the upper end of the day's range ($705.76-$712.39), supported by above-average volume (70-94M shares). Positive momentum in QQQ (+6.2% over 5 days) likely bolsters broad market upside into close."
+    },
+    {
+      "id": "pred_perplexity_20260420_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 653.0,
+      "current_price_at_prediction": 648.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ's strong 5-day performance of +6.2% outpaces SPY, indicating tech sector leadership amid stable VIX levels. SPY's intraday strength near $710 suggests correlated upside for Nasdaq-tracking QQQ. Absence of negative overnight news supports continuation of recent gains."
+    },
+    {
+      "id": "pred_perplexity_20260420_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 201.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA tops YTD performers at +8.22% as per recent data, aligning with QQQ's momentum. Broader market stability in SPY (trading $706-$710) and high volumes indicate risk-on sentiment favoring high-beta names like NVDA. 10Y yield at 4.25% remains supportive for growth stocks."
+    }
+  ]
+}

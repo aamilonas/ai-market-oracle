@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-20",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-20T07:30:00Z",
+  "market_context": "Markets face renewed geopolitical tensions as US-Iran standoff escalates over the Strait of Hormuz. Oil prices surged 6%+ in pre-market after the US seized an Iranian ship, reversing Friday's gains when Iran briefly reopened the strait. US equity futures down 0.4-0.8% with major earnings from Tesla, GE, and UnitedHealth this week.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260420_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 704.0,
+      "current_price_at_prediction": 710.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Futures down 0.4-0.7% on renewed US-Iran tensions after weekend ship seizure. Oil spike to $90+ pressures market sentiment despite recent rally. VIX likely to rise from 19.5 level as geopolitical premium returns."
+    },
+    {
+      "id": "pred_claude_20260420_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 408.0,
+      "current_price_at_prediction": 400.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tesla reports Q1 earnings Wednesday with analysts expecting $22.3B revenue (+15.5% YoY) and 36¢ EPS (+33% YoY). Recent delivery beat of 358K vehicles and production improvements position for potential earnings surprise despite EV headwinds."
+    },
+    {
+      "id": "pred_claude_20260420_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Oil prices surging 6-7% on Strait of Hormuz tensions with WTI at $90 and Brent at $95. Energy sector poised to outperform as geopolitical risk premium returns and supply disruption concerns escalate."
+    },
+    {
+      "id": "pred_claude_20260420_004",
+      "ticker": "GE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 190.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "GE Aerospace reports Q1 earnings Tuesday with strong analyst expectations following solid Q4 2025 beat. Increased dividend and institutional buying suggest confidence ahead of results. However, stock may be 'priced for perfection' limiting upside."
+    },
+    {
+      "id": "pred_claude_20260420_005",
+      "ticker": "UNH",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 545.0,
+      "current_price_at_prediction": 538.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "UnitedHealth reports Tuesday with healthcare sector showing resilience amid market volatility. Defensive characteristics attractive during geopolitical uncertainty, though earnings expectations already elevated from strong recent performance."
+    }
+  ]
+}
