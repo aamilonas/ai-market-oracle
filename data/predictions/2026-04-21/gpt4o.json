@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-21",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-21T13:30:56.621029+00:00",
+  "market_context": "U.S. stock futures are indicating a positive open, with E-mini S&P 500 contracts up about 0.25% and Nasdaq-100 minis up around 0.38%, driven by strong global demand for electronics and chips. However, geopolitical tensions in the Middle East, particularly the reclosure of the Strait of Hormuz by Iran, have led to a surge in oil prices, which may impact market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260421_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 709.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive pre-market futures and strong global demand for technology products suggest a bullish sentiment for the S&P 500. However, geopolitical tensions may introduce some volatility."
+    },
+    {
+      "id": "pred_gpt4o_20260421_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 201.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Record-high export orders for electronics and chips from Taiwan indicate strong demand in the semiconductor sector, potentially benefiting NVIDIA."
+    },
+    {
+      "id": "pred_gpt4o_20260421_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 391.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Rising oil prices due to Middle East tensions may increase production costs for Tesla, potentially impacting its stock price negatively."
+    },
+    {
+      "id": "pred_gpt4o_20260421_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 77000.0,
+      "current_price_at_prediction": 75966.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Increased market volatility and geopolitical uncertainties often drive investors towards alternative assets like Bitcoin, potentially boosting its price."
+    }
+  ]
+}
