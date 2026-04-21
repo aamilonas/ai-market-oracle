@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-21",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-21T09:15:00Z",
+  "market_context": "Markets face mixed signals with futures slightly positive as investors weigh potential Iran peace talks against continued oil price volatility. UnitedHealth earnings beat expectations, while March retail sales data due at 8:30 AM could provide crucial economic direction.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260421_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 704.5,
+      "current_price_at_prediction": 708.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Technical analysis shows overbought conditions with RSI at 73, while geopolitical uncertainty around Iran talks creates headwinds. Despite positive futures, the combination of stretched valuations and pending retail sales data suggests a pullback."
+    },
+    {
+      "id": "pred_claude_20260421_002",
+      "ticker": "UNH",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 550.0,
+      "current_price_at_prediction": 323.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.86,
+      "reasoning": "Strong Q1 earnings beat with $6.90 EPS vs $6.58 expected and raised full-year guidance to >$18.25 per share. Medical benefit ratio of 83.9% came in well below analyst expectations of 85.5%, showing excellent cost management."
+    },
+    {
+      "id": "pred_claude_20260421_003",
+      "ticker": "MRVL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 165.0,
+      "current_price_at_prediction": 202.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Reports indicate Google is in talks with Marvell to develop two new AI chips including TPU designs. This represents a significant competitive threat to Broadcom and validates Marvell's positioning in the AI chip market."
+    },
+    {
+      "id": "pred_claude_20260421_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 112.0,
+      "current_price_at_prediction": 109.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Oil futures remain elevated despite peace talk optimism, with WTI above $89. Energy stocks likely to benefit from continued supply disruption concerns, though peace progress could limit upside."
+    },
+    {
+      "id": "pred_claude_20260421_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 640.0,
+      "current_price_at_prediction": 646.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech-heavy QQQ shows overbought conditions with multiple technical indicators flashing sell signals. Fund outflows exceeding $8B recently and rotation away from high-valuation growth stocks amid rising yields creates downside pressure."
+    }
+  ]
+}

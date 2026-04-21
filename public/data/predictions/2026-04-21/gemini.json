@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-21",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-21T11:40:52.336655+00:00",
+  "market_context": "The market is showing mixed signals today. Technology stocks are experiencing a slight rebound after recent dips, while energy sectors are consolidating. Overall sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260421_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is showing strong momentum driven by positive tech earnings reports and a general market rebound. Volume is increasing, indicating buyer interest."
+    },
+    {
+      "id": "pred_gemini_20260421_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 447.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech-heavy QQQ is benefiting from renewed investor confidence in growth stocks. Key resistance levels have been broken, suggesting further upside."
+    },
+    {
+      "id": "pred_gemini_20260421_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.55,
+      "reasoning": "TSLA is facing headwinds from increased competition and recent production concerns. Technical indicators show a bearish divergence, suggesting a potential pullback."
+    },
+    {
+      "id": "pred_gemini_20260421_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.0,
+      "current_price_at_prediction": 86.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Energy sector (XLE) is showing signs of consolidation after a strong run. Oil prices are stabilizing, and demand forecasts are being revised downwards, putting pressure on energy stocks."
+    }
+  ]
+}

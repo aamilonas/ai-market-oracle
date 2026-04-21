@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T11:41:37.838484+00:00",
+  "headline": "Models Split on Market Direction as Tech Optimism Clashes with Overbought Signals",
+  "summary": "AI models showed stark disagreement on major indices, with Claude warning of overbought conditions while Gemini, Grok, and Perplexity all predicted upside for SPY and QQQ. The split reveals a classic technical versus momentum debate, with Claude's cautious stance contrasting sharply with other models' bullish tech sector outlook.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models expect SPY to rise despite Claude's overbought warning at RSI 73."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy index sees bullish consensus except from Claude who cites sell signals."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models see headwinds for Tesla from competition and production concerns."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "AI chip leader gets bullish calls based on options flow and volume data."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "UNH",
+    "score": 0.0,
+    "summary": "Claude's 86% confidence call on UNH backed by specific Q1 earnings beat data shows highest conviction."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "TSLA",
+    "score": 0.0,
+    "summary": "Lowest confidence prediction at 55% with vague reasoning about competition concerns."
+  }
+}
