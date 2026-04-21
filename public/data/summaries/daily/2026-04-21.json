@@ -1,64 +1,68 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21T11:41:37.838484+00:00",
-  "headline": "Models Split on Market Direction as Tech Optimism Clashes with Overbought Signals",
-  "summary": "AI models showed stark disagreement on major indices, with Claude warning of overbought conditions while Gemini, Grok, and Perplexity all predicted upside for SPY and QQQ. The split reveals a classic technical versus momentum debate, with Claude's cautious stance contrasting sharply with other models' bullish tech sector outlook.",
+  "generated_at": "2026-04-21T23:02:58.849550+00:00",
+  "headline": "Claude dominates with perfect 4-0 record while others stumble on tech rally",
+  "summary": "A stark divide emerged between models today, with Claude achieving a flawless 4-1 record by correctly calling SPY and QQQ declines while its peers mostly bet wrong on continued upside. The consensus bullish view on SPY from most models proved costly, as only Claude caught the reversal. TSLA shorts from both GPT-4o and Grok scored well as the stock pulled back slightly.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
         "Gemini",
+        "GPT-4o",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models expect SPY to rise despite Claude's overbought warning at RSI 73."
+      "outcome": "wrong",
+      "note": "Four models incorrectly predicted SPY would rise, missing the day's pullback to 704.08."
     },
     {
       "ticker": "QQQ",
       "models_agreeing": [
+        "Claude",
         "Gemini",
         "Grok",
         "Perplexity"
       ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude correctly called QQQ down while three others wrongly predicted upside."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy index sees bullish consensus except from Claude who cites sell signals."
+      "outcome": "wrong",
+      "note": "All three models betting on NVDA upside were burned as it closed at 199.88."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
         "Gemini",
+        "GPT-4o",
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models see headwinds for Tesla from competition and production concerns."
-    },
-    {
-      "ticker": "NVDA",
-      "models_agreeing": [
-        "Grok",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "AI chip leader gets bullish calls based on options flow and volume data."
+      "outcome": "correct",
+      "note": "The bearish consensus on TSLA paid off with the stock declining to 386.42."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_claude_spy_down",
     "model_display_name": "Claude",
-    "ticker": "UNH",
-    "score": 0.0,
-    "summary": "Claude's 86% confidence call on UNH backed by specific Q1 earnings beat data shows highest conviction."
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY short call based on overbought RSI readings scored brilliantly against the bullish consensus."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Gemini",
-    "ticker": "TSLA",
-    "score": 0.0,
-    "summary": "Lowest confidence prediction at 55% with vague reasoning about competition concerns."
+    "prediction_id": "pred_claude_mrvl_up",
+    "model_display_name": "Claude",
+    "ticker": "MRVL",
+    "score": -0.78,
+    "summary": "Despite Google AI chip partnership rumors, MRVL fell sharply, making Claude's confident bullish call its only miss."
   }
 }
