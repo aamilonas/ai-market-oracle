@@ -1,0 +1,70 @@
+name: Sync master → school
+
+# Fires after each cron workflow on master completes. Fast-forwards / merges
+# master into the `school` branch so data updates (predictions, scores, weekly
+# reports) flow through. Runs on the default branch (master) as required for
+# `workflow_run`, but checks out `school` and pushes back to it.
+#
+# On conflict the job fails loudly rather than attempting auto-resolution — a
+# conflict means master touched the same source files school did, which needs
+# human review. Typical runs are clean because master only modifies data/ and
+# public/data/.
+
+on:
+  workflow_run:
+    workflows:
+      - "Morning — Generate Predictions"
+      - "Evening — Score Predictions"
+      - "Weekly — Summary Report"
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  sync:
+    # Don't run on cancelled upstream runs, but do run on success AND failure
+    # (morning.yml fails when a single model errors, yet still pushes the
+    # partial data we want to propagate).
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion != 'cancelled' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout school
+        uses: actions/checkout@v4
+        with:
+          ref: school
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "AI Market Oracle Bot"
+          git config user.email "bot@ai-market-oracle.github.io"
+
+      - name: Merge master into school
+        id: merge
+        run: |
+          git fetch origin master
+          BEFORE=$(git rev-parse HEAD)
+          if git merge-base --is-ancestor origin/master HEAD; then
+            echo "school already contains all of master — nothing to do"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if git merge origin/master --no-edit -m "🔄 Auto-sync master → school"; then
+            AFTER=$(git rev-parse HEAD)
+            if [ "$BEFORE" = "$AFTER" ]; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "::error::Merge conflict syncing master → school. Resolve manually."
+            git merge --abort || true
+            exit 1
+          fi
+
+      - name: Push school
+        if: steps.merge.outputs.changed == 'true'
+        run: git push origin school
