@@ -105,11 +105,19 @@
 }
 
 .linkIcon {
-  font-size: 0.875rem;
-  width: 20px;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
-  line-height: 1;
+  color: currentColor;
+  opacity: 0.8;
+}
+
+.link:hover .linkIcon,
+.active .linkIcon {
+  opacity: 1;
 }
 
 .linkLabel {
@@ -121,6 +129,15 @@
 .bottom {
   padding: var(--space-3);
   border-top: 1px solid var(--border-primary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.themeRow {
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--space-1) var(--space-2);
 }
 
 .ctaLink {

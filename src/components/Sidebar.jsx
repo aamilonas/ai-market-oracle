@@ -1,36 +1,56 @@
 import { NavLink } from 'react-router-dom'
+import {
+  Trophy,
+  LineChart,
+  ClipboardList,
+  Newspaper,
+  Ruler,
+  Info,
+  LayoutDashboard,
+  Zap,
+  Briefcase,
+  Link2,
+  Bell,
+  Settings,
+  LogOut,
+  ArrowRight,
+} from 'lucide-react'
 import { useAuth } from '../context/useAuth'
+import ThemeToggle from './ThemeToggle'
 import styles from './Sidebar.module.css'
+
+const ICON_SIZE = 16
+const ICON_STROKE = 1.75
 
 const publicLinks = [
   { group: 'Analysis', items: [
-    { to: '/leaderboard', label: 'Leaderboard', icon: '📊' },
-    { to: '/analytics', label: 'Analytics', icon: '📈' },
-    { to: '/paper-trading', label: 'Paper Trading', icon: '📋' },
-    { to: '/weekly', label: 'Weekly Recap', icon: '📰' },
+    { to: '/leaderboard', label: 'Leaderboard', Icon: Trophy },
+    { to: '/analytics', label: 'Analytics', Icon: LineChart },
+    { to: '/paper-trading', label: 'Paper Trading', Icon: ClipboardList },
+    { to: '/weekly', label: 'Weekly Recap', Icon: Newspaper },
   ]},
   { group: 'Info', items: [
-    { to: '/methodology', label: 'Methodology', icon: '📐' },
-    { to: '/about', label: 'About', icon: '💡' },
+    { to: '/methodology', label: 'Methodology', Icon: Ruler },
+    { to: '/about', label: 'About', Icon: Info },
   ]},
 ]
 
 const authLinks = [
   { group: 'Trading', items: [
-    { to: '/dashboard', label: 'Dashboard', icon: '⌘' },
-    { to: '/signals', label: 'Signals', icon: '⚡' },
-    { to: '/portfolio', label: 'Portfolio', icon: '💼' },
+    { to: '/dashboard', label: 'Dashboard', Icon: LayoutDashboard },
+    { to: '/signals', label: 'Signals', Icon: Zap },
+    { to: '/portfolio', label: 'Portfolio', Icon: Briefcase },
   ]},
   { group: 'Analysis', items: [
-    { to: '/leaderboard', label: 'Leaderboard', icon: '📊' },
-    { to: '/analytics', label: 'Analytics', icon: '📈' },
-    { to: '/paper-trading', label: 'Paper Trading', icon: '📋' },
-    { to: '/weekly', label: 'Weekly Recap', icon: '📰' },
+    { to: '/leaderboard', label: 'Leaderboard', Icon: Trophy },
+    { to: '/analytics', label: 'Analytics', Icon: LineChart },
+    { to: '/paper-trading', label: 'Paper Trading', Icon: ClipboardList },
+    { to: '/weekly', label: 'Weekly Recap', Icon: Newspaper },
   ]},
   { group: 'Settings', items: [
-    { to: '/connect-brokerage', label: 'Brokerage', icon: '🔗' },
-    { to: '/alerts', label: 'Alerts', icon: '🔔' },
-    { to: '/settings', label: 'Configuration', icon: '⚙️' },
+    { to: '/connect-brokerage', label: 'Brokerage', Icon: Link2 },
+    { to: '/alerts', label: 'Alerts', Icon: Bell },
+    { to: '/settings', label: 'Configuration', Icon: Settings },
   ]},
 ]
 
@@ -51,7 +71,7 @@ export default function Sidebar() {
         {navGroups.map(({ group, items }) => (
           <div key={group} className={styles.group}>
             <span className={styles.groupLabel}>{group}</span>
-            {items.map(({ to, label, icon }) => (
+            {items.map(({ to, label, Icon }) => (
               <NavLink
                 key={to}
                 to={to}
@@ -59,7 +79,9 @@ export default function Sidebar() {
                   [styles.link, isActive ? styles.active : ''].join(' ')
                 }
               >
-                <span className={styles.linkIcon}>{icon}</span>
+                <span className={styles.linkIcon}>
+                  <Icon size={ICON_SIZE} strokeWidth={ICON_STROKE} />
+                </span>
                 <span className={styles.linkLabel}>{label}</span>
               </NavLink>
             ))}
@@ -70,15 +92,22 @@ export default function Sidebar() {
       <div className={styles.bottom}>
         {isLoggedIn ? (
           <button onClick={logout} className={styles.link}>
-            <span className={styles.linkIcon}>↩</span>
+            <span className={styles.linkIcon}>
+              <LogOut size={ICON_SIZE} strokeWidth={ICON_STROKE} />
+            </span>
             <span className={styles.linkLabel}>Log out</span>
           </button>
         ) : (
           <NavLink to="/signup" className={[styles.link, styles.ctaLink].join(' ')}>
-            <span className={styles.linkIcon}>→</span>
+            <span className={styles.linkIcon}>
+              <ArrowRight size={ICON_SIZE} strokeWidth={ICON_STROKE} />
+            </span>
             <span className={styles.linkLabel}>Get Started</span>
           </NavLink>
         )}
+        <div className={styles.themeRow}>
+          <ThemeToggle />
+        </div>
       </div>
     </aside>
   )

@@ -161,11 +161,11 @@ export default function Analytics() {
         <div className={styles.chart}>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={tickerChartData} barCategoryGap="20%">
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="ticker" tick={{ fill: '#888', fontSize: 12 }} />
-              <YAxis domain={[0, 100]} tick={{ fill: '#888', fontSize: 12 }} tickFormatter={v => `${v}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+              <XAxis dataKey="ticker" tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} tickFormatter={v => `${v}%`} />
               <Tooltip
-                contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8 }}
+                contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }}
                 formatter={(v) => `${v}%`}
               />
               <Legend />
@@ -220,11 +220,11 @@ export default function Analytics() {
         <div className={styles.chart}>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={calChartData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="confidence" tick={{ fill: '#888', fontSize: 12 }} />
-              <YAxis domain={[0, 100]} tick={{ fill: '#888', fontSize: 12 }} tickFormatter={v => `${v}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+              <XAxis dataKey="confidence" tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} tickFormatter={v => `${v}%`} />
               <Tooltip
-                contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8 }}
+                contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }}
                 formatter={(v) => `${v}%`}
               />
               <Legend />
@@ -291,11 +291,11 @@ export default function Analytics() {
         <div className={styles.chart} style={{ marginTop: '1rem' }}>
           <ResponsiveContainer width="100%" height={200}>
             <LineChart data={herdingData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="date" tick={{ fill: '#888', fontSize: 11 }} />
-              <YAxis domain={[0, 100]} tick={{ fill: '#888', fontSize: 11 }} tickFormatter={v => `${v}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+              <XAxis dataKey="date" tick={{ fill: 'var(--chart-axis)', fontSize: 11 }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'var(--chart-axis)', fontSize: 11 }} tickFormatter={v => `${v}%`} />
               <Tooltip
-                contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8 }}
+                contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }}
                 formatter={(v) => `${v}%`}
               />
               <Line dataKey="rate" name="Herding Rate" stroke="#8884d8" strokeWidth={2} dot={{ r: 3 }} />
@@ -310,10 +310,10 @@ export default function Analytics() {
         <div className={styles.chart}>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={cumulativeData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="date" tick={{ fill: '#888', fontSize: 11 }} />
-              <YAxis tick={{ fill: '#888', fontSize: 12 }} />
-              <Tooltip contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8 }} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+              <XAxis dataKey="date" tick={{ fill: 'var(--chart-axis)', fontSize: 11 }} />
+              <YAxis tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} />
+              <Tooltip contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }} />
               <Legend />
               <ReferenceLine y={0} stroke="#555" strokeDasharray="3 3" />
               {activeModels.map(m => (
@@ -329,11 +329,11 @@ export default function Analytics() {
         <div className={styles.chart}>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={rollingData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="date" tick={{ fill: '#888', fontSize: 11 }} />
-              <YAxis domain={[0, 100]} tick={{ fill: '#888', fontSize: 12 }} tickFormatter={v => `${v}%`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+              <XAxis dataKey="date" tick={{ fill: 'var(--chart-axis)', fontSize: 11 }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'var(--chart-axis)', fontSize: 12 }} tickFormatter={v => `${v}%`} />
               <Tooltip
-                contentStyle={{ background: '#1a1a1a', border: '1px solid #333', borderRadius: 8 }}
+                contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }}
                 formatter={(v) => `${v}%`}
               />
               <Legend />

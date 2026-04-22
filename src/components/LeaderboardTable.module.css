@@ -110,14 +110,19 @@
   opacity: 0.7;
 }
 
-.streakHot {
-  color: #f97316;
+.streakHot,
+.streakCold {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 0.8rem;
   font-family: 'Geist Mono', monospace;
 }
 
+.streakHot {
+  color: #f97316;
+}
+
 .streakCold {
   color: #60a5fa;
-  font-size: 0.8rem;
-  font-family: 'Geist Mono', monospace;
 }

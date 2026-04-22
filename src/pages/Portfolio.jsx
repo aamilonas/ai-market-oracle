@@ -109,7 +109,7 @@ export default function Portfolio() {
           <div className={styles.chart}>
             <ResponsiveContainer width="100%" height={200}>
               <LineChart data={equityData} margin={{ top: 8, right: 16, left: -10, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
                 <XAxis
                   dataKey="date"
                   tick={{ fill: 'var(--text-tertiary)', fontSize: 11, fontFamily: 'Geist Mono, monospace' }}

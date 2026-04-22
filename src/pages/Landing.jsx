@@ -1,12 +1,13 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { ArrowRight, Check, Minus } from 'lucide-react'
+import ThemeToggle from '../components/ThemeToggle'
+import LiveTickerStrip from '../components/LiveTickerStrip'
+import ConsensusSignalMockup from '../components/ConsensusSignalMockup'
+import TopModelsPreview from '../components/TopModelsPreview'
+import { loadSimulator, loadAnalytics } from '../data/useData'
+import { useCountUp } from '../hooks/useCountUp'
 import styles from './Landing.module.css'
-
-const stats = [
-  { value: '83%', label: 'Trade Win Rate' },
-  { value: '+20%', label: 'Gains/Month on Average' },
-  { value: '5', label: 'AI Models Working For You' },
-  { value: '$29/mo', label: 'Full Auto-Trading' },
-]
 
 const BASE = import.meta.env.BASE_URL
 
@@ -19,29 +20,116 @@ const brokerages = [
   { name: 'Interactive Brokers', logo: `${BASE}logos/interactive-brokers.svg` },
 ]
 
-const steps = [
-  { num: '01', title: 'Connect', desc: 'Link your brokerage account in seconds. We support Robinhood, Schwab, and more.' },
-  { num: '02', title: 'Configure', desc: 'Set your risk tolerance, position size, and preferred sectors. We adapt to you.' },
-  { num: '03', title: 'Auto-Trade', desc: 'When 3+ AI models agree on a trade, we execute automatically. You stay in control.' },
-]
-
-const models = [
-  { name: 'Claude', org: 'Anthropic', color: '#E07A3A' },
-  { name: 'GPT-4o', org: 'OpenAI', color: '#10A37F' },
-  { name: 'Gemini', org: 'Google', color: '#4285F4' },
-  { name: 'Perplexity', org: 'Perplexity AI', color: '#20B2AA' },
-  { name: 'Grok', org: 'xAI', color: '#C0C0C0' },
-]
-
 const tiers = [
-  { name: 'Free', price: '$0', period: 'forever', features: ['View daily predictions', 'Public leaderboard', 'Weekly recaps'], cta: 'Get Started', highlighted: false },
-  { name: 'Pro', price: '$29', period: '/month', features: ['Auto-trading execution', 'Real-time trade alerts', 'Custom model weighting', 'Full analytics dashboard', 'Priority support'], cta: 'Start Free Trial', highlighted: true },
-  { name: 'Institutional', price: '$499', period: '/month', features: ['Everything in Pro', 'API access', 'White-label options', 'Custom model ensemble', 'Dedicated account manager'], cta: 'Contact Sales', highlighted: false },
+  {
+    name: 'Free',
+    price: 0,
+    period: 'forever',
+    features: ['View daily predictions', 'Public leaderboard', 'Weekly recaps', 'Historical backtests'],
+    cta: 'Get Started',
+    ctaTo: '/signup',
+  },
+  {
+    name: 'Pro',
+    price: 29,
+    period: '/month',
+    features: ['Auto-trading execution', 'Real-time trade alerts', 'Custom model weighting', 'Full analytics dashboard', 'Priority support'],
+    cta: 'Start Free Trial',
+    ctaTo: '/signup',
+    highlighted: true,
+  },
+  {
+    name: 'Institutional',
+    price: 499,
+    period: '/month',
+    features: ['Everything in Pro', 'API access', 'White-label options', 'Custom model ensemble', 'Dedicated account manager'],
+    cta: 'Contact Sales',
+    ctaTo: '/signup',
+  },
 ]
+
+function HeroStats({ simReturnPct, simWinRate, totalPredictions, scoringDays }) {
+  const retAnim = useCountUp(simReturnPct, 900, 2)
+  const winAnim = useCountUp(simWinRate, 900, 1)
+  const predAnim = useCountUp(totalPredictions, 1000, 0)
+  const daysAnim = useCountUp(scoringDays, 800, 0)
+  const positive = simReturnPct >= 0
+
+  return (
+    <div className={styles.statsGrid}>
+      <div className={styles.statCard}>
+        <span className={styles.statValue} style={{ color: positive ? 'var(--positive)' : 'var(--negative)' }}>
+          {positive ? '+' : ''}{retAnim.toFixed(2)}%
+        </span>
+        <span className={styles.statLabel}>Simulator return</span>
+      </div>
+      <div className={styles.statCard}>
+        <span className={styles.statValue}>{winAnim.toFixed(1)}%</span>
+        <span className={styles.statLabel}>Win rate on consensus trades</span>
+      </div>
+      <div className={styles.statCard}>
+        <span className={styles.statValue}>{predAnim.toLocaleString()}</span>
+        <span className={styles.statLabel}>Predictions scored</span>
+      </div>
+      <div className={styles.statCard}>
+        <span className={styles.statValue}>{daysAnim}</span>
+        <span className={styles.statLabel}>Trading days tracked</span>
+      </div>
+    </div>
+  )
+}
+
+function FeatureBlock({ eyebrow, title, body, stat, statLabel, bullets, reverse, mockup }) {
+  return (
+    <section className={`${styles.feature} ${reverse ? styles.featureReverse : ''}`}>
+      <div className={styles.featureText}>
+        <span className={styles.eyebrow}>{eyebrow}</span>
+        <h2 className={styles.featureTitle}>{title}</h2>
+        <p className={styles.featureBody}>{body}</p>
+        {bullets && (
+          <ul className={styles.featureBullets}>
+            {bullets.map(b => (
+              <li key={b}>
+                <Check size={14} strokeWidth={2.5} /> {b}
+              </li>
+            ))}
+          </ul>
+        )}
+        {stat && (
+          <div className={styles.featureStat}>
+            <span className={styles.featureStatValue}>{stat}</span>
+            <span className={styles.featureStatLabel}>{statLabel}</span>
+          </div>
+        )}
+      </div>
+      <div className={styles.featureMockup}>{mockup}</div>
+    </section>
+  )
+}
 
 export default function Landing() {
+  const [sim, setSim] = useState(null)
+  const [analytics, setAnalytics] = useState(null)
+
+  useEffect(() => {
+    loadSimulator().then(setSim).catch(() => setSim(null))
+    loadAnalytics().then(setAnalytics).catch(() => setAnalytics(null))
+  }, [])
+
+  const simPnl = (sim?.balance ?? 25000) - (sim?.starting_balance ?? 25000)
+  const simReturnPct = sim?.starting_balance ? (simPnl / sim.starting_balance) * 100 : 0
+  const closed = (sim?.trades ?? []).filter(t => t.status === 'CLOSED')
+  const wins = closed.filter(t => (t.pnl ?? 0) > 0).length
+  const simWinRate = closed.length ? (wins / closed.length) * 100 : 0
+  const totalPredictions = analytics?.data_range?.total_predictions ?? 0
+  const scoringDays = analytics?.data_range?.scoring_days ?? 0
+
   return (
     <div className={styles.page}>
+      {/* Ambient grid background */}
+      <div className={styles.gridBackground} aria-hidden />
+      <div className={styles.radialGlow} aria-hidden />
+
       {/* Nav */}
       <nav className={styles.nav}>
         <div className={styles.navInner}>
@@ -53,6 +141,7 @@ export default function Landing() {
             <Link to="/leaderboard" className={styles.navLink}>Leaderboard</Link>
             <Link to="/analytics" className={styles.navLink}>Analytics</Link>
             <Link to="/methodology" className={styles.navLink}>Methodology</Link>
+            <ThemeToggle />
             <Link to="/signup" className={styles.navCta}>Get Started</Link>
           </div>
         </div>
@@ -60,33 +149,49 @@ export default function Landing() {
 
       {/* Hero */}
       <section className={styles.hero}>
-        <div className={`${styles.heroContent} animate-in`}>
-          <h1 className={styles.heroTitle}>Your AI Trading Team</h1>
+        <div className={styles.heroContent}>
+          <span className={styles.heroEyebrow}>
+            <span className={styles.heroEyebrowDot} />
+            Live trading · 4/5 consensus required
+          </span>
+          <h1 className={styles.heroTitle}>
+            The market&apos;s best idea,<br />every morning.
+          </h1>
           <p className={styles.heroSub}>
-            5 AI models analyze the market every morning. When 3 or more agree on a trade, we execute it automatically.
+            Five frontier AI models watch the open. When four agree, we trade for you.
           </p>
           <div className={styles.heroCtas}>
-            <Link to="/signup" className={styles.btnPrimary}>Get Started</Link>
-            <Link to="/leaderboard" className={styles.btnSecondary}>View Live Predictions</Link>
+            <Link to="/signup" className={styles.btnPrimary}>
+              Start free trial <ArrowRight size={16} />
+            </Link>
+            <Link to="/leaderboard" className={styles.btnSecondary}>See it live</Link>
           </div>
+        </div>
+        <div className={styles.heroMockup}>
+          <ConsensusSignalMockup />
         </div>
       </section>
 
-      {/* Stats */}
+      {/* Live ticker */}
+      <section className={styles.tickerSection}>
+        <LiveTickerStrip />
+      </section>
+
+      {/* Stats — real numbers */}
       <section className={styles.stats}>
-        <div className={`${styles.statsGrid} stagger`}>
-          {stats.map(s => (
-            <div key={s.label} className={styles.statCard}>
-              <span className={styles.statValue}>{s.value}</span>
-              <span className={styles.statLabel}>{s.label}</span>
-            </div>
-          ))}
-        </div>
+        <HeroStats
+          simReturnPct={simReturnPct}
+          simWinRate={simWinRate}
+          totalPredictions={totalPredictions}
+          scoringDays={scoringDays}
+        />
       </section>
 
       {/* Works With */}
       <section className={styles.partners}>
-        <span className={styles.partnersLabel}>Works with</span>
+        <h2 className={styles.partnersHeading}>
+          Painless integration with your favorite trading tool
+        </h2>
         <div className={styles.marqueeWrap}>
           <div className={styles.marquee}>
             {[...brokerages, ...brokerages].map((b, i) => (
@@ -98,66 +203,118 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>How It Works</h2>
-        <div className={`${styles.stepsGrid} stagger`}>
-          {steps.map(s => (
-            <div key={s.num} className={styles.stepCard}>
-              <span className={styles.stepNum}>{s.num}</span>
-              <h3 className={styles.stepTitle}>{s.title}</h3>
-              <p className={styles.stepDesc}>{s.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Feature blocks — replaces the old 3-card "How It Works" */}
+      <FeatureBlock
+        eyebrow="01 · Signals"
+        title="Consensus, not predictions."
+        body="Anyone can call a stock. Our pipeline only acts when four of five frontier models independently arrive at the same call — direction, price, and timeframe."
+        bullets={[
+          'Claude, GPT-4o, Gemini, Perplexity, Grok — each with internet access',
+          'Same prompt, same data, independent analysis',
+          'Conviction is scored against reality every single day',
+        ]}
+        mockup={<ConsensusSignalMockup />}
+      />
 
-      {/* Models */}
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>The Models</h2>
-        <p className={styles.sectionSub}>Five leading AI models analyze the market independently every morning. We only trade when they agree.</p>
-        <div className={`${styles.modelsGrid} stagger`}>
-          {models.map(m => (
-            <Link to={`/model/${m.name.toLowerCase().replace('-', '')}`} key={m.name} className={styles.modelCard}>
-              <span className={styles.modelDot} style={{ background: m.color }} />
-              <span className={styles.modelName}>{m.name}</span>
-              <span className={styles.modelOrg}>{m.org}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <FeatureBlock
+        reverse
+        eyebrow="02 · Execution"
+        title="Connected to your brokerage."
+        body="We link your existing account, not a walled-off wallet. Every trade executes through Robinhood, Schwab, Fidelity, or whoever you already trust with your money."
+        stat={`${totalPredictions.toLocaleString()}`}
+        statLabel="predictions scored to date — publicly, on every trading day"
+        mockup={
+          <div className={styles.logoCard}>
+            <div className={styles.logoCardGrid}>
+              {brokerages.map(b => (
+                <div key={b.name} className={styles.logoCardItem}>
+                  <img src={b.logo} alt={b.name} />
+                </div>
+              ))}
+            </div>
+          </div>
+        }
+      />
+
+      <FeatureBlock
+        eyebrow="03 · Receipts"
+        title="Every call, on the record."
+        body="We publish the full prediction log and a paper-traded portfolio updating live. No cherry-picked highlights, no backtests — just every decision and every outcome."
+        mockup={<TopModelsPreview />}
+      />
 
       {/* Pricing */}
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Pricing</h2>
-        <p className={styles.sectionSub}>Start free. Upgrade when you are ready to auto-trade.</p>
-        <div className={`${styles.pricingGrid} stagger`}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>Pricing</h2>
+          <p className={styles.sectionSub}>Start free. Upgrade when you&apos;re ready to auto-trade.</p>
+        </div>
+        <div className={styles.pricingGrid}>
           {tiers.map(t => (
             <div key={t.name} className={`${styles.tierCard} ${t.highlighted ? styles.tierHighlighted : ''}`}>
-              {t.highlighted && <span className={styles.tierBadge}>Most Popular</span>}
+              {t.highlighted && <span className={styles.tierBadge}>Most popular</span>}
               <h3 className={styles.tierName}>{t.name}</h3>
               <div className={styles.tierPrice}>
-                <span className={styles.tierAmount}>{t.price}</span>
+                <span className={styles.tierAmount}>${t.price}</span>
                 <span className={styles.tierPeriod}>{t.period}</span>
               </div>
+              <div className={styles.tierDivider} />
               <ul className={styles.tierFeatures}>
-                {t.features.map(f => <li key={f}>{f}</li>)}
+                {t.features.map(f => (
+                  <li key={f}>
+                    <Minus size={12} strokeWidth={2.5} className={styles.tierBullet} />
+                    {f}
+                  </li>
+                ))}
               </ul>
-              <Link to="/signup" className={t.highlighted ? styles.btnPrimary : styles.btnSecondary}>
+              <Link
+                to={t.ctaTo}
+                className={t.highlighted ? styles.btnPrimary : styles.btnSecondary}
+              >
                 {t.cta}
               </Link>
             </div>
           ))}
         </div>
+        <p className={styles.pricingNote}>
+          Cancel anytime. No credit card required for the free tier.
+        </p>
       </section>
 
       {/* Footer */}
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
-          <span className={styles.footerLogo}>
-            <span className={styles.logoMark}>◆</span> Oracle Trade
-          </span>
-          <span className={styles.footerNote}>Not financial advice. Past performance does not guarantee future results.</span>
+          <div className={styles.footerBrand}>
+            <span className={styles.footerLogo}>
+              <span className={styles.logoMark}>◆</span> Oracle Trade
+            </span>
+            <p className={styles.footerTagline}>
+              The market&apos;s best idea, every morning.
+            </p>
+          </div>
+          <div className={styles.footerCols}>
+            <div className={styles.footerCol}>
+              <span className={styles.footerColTitle}>Product</span>
+              <Link to="/dashboard" className={styles.footerLink}>Dashboard</Link>
+              <Link to="/signals" className={styles.footerLink}>Signals</Link>
+              <Link to="/portfolio" className={styles.footerLink}>Portfolio</Link>
+              <Link to="/leaderboard" className={styles.footerLink}>Leaderboard</Link>
+            </div>
+            <div className={styles.footerCol}>
+              <span className={styles.footerColTitle}>Company</span>
+              <Link to="/methodology" className={styles.footerLink}>Methodology</Link>
+              <Link to="/about" className={styles.footerLink}>About</Link>
+              <a href="#pricing" className={styles.footerLink}>Pricing</a>
+            </div>
+            <div className={styles.footerCol}>
+              <span className={styles.footerColTitle}>Legal</span>
+              <a href="#" className={styles.footerLink}>Terms</a>
+              <a href="#" className={styles.footerLink}>Privacy</a>
+              <span className={styles.footerDisclaimer}>
+                Not financial advice. Past performance does not guarantee future results.
+              </span>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

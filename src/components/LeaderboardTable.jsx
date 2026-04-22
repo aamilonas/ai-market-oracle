@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { Flame, Snowflake } from 'lucide-react'
 import { enrichModelsWithColors } from '../data/useData'
 import styles from './LeaderboardTable.module.css'
 
 function StreakBadge({ streak }) {
   if (streak === 0) return <span style={{ color: 'var(--text-muted)' }}>—</span>
   const isHot = streak > 0
+  const Icon = isHot ? Flame : Snowflake
   return (
     <span className={isHot ? styles.streakHot : styles.streakCold}>
-      {isHot ? '🔥' : '🧊'} {isHot ? '+' : ''}{streak}
+      <Icon size={12} strokeWidth={2} />
+      {isHot ? '+' : ''}{streak}
     </span>
   )
 }

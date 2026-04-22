@@ -126,13 +126,13 @@ export default function ModelPage() {
           <div className={styles.chart}>
             <ResponsiveContainer width="100%" height={220}>
               <LineChart data={chartData} margin={{ top: 8, right: 16, left: -10, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#1f1f1f" />
-                <XAxis dataKey="week" tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }} axisLine={false} tickLine={false} />
-                <YAxis tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }} axisLine={false} tickLine={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+                <XAxis dataKey="week" tick={{ fill: 'var(--chart-axis)', fontSize: 11, fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace' }} axisLine={false} tickLine={false} />
+                <YAxis tick={{ fill: 'var(--chart-axis)', fontSize: 11, fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace' }} axisLine={false} tickLine={false} />
                 <Tooltip
-                  contentStyle={{ background: '#161616', border: '1px solid #262626', borderRadius: 8 }}
-                  labelStyle={{ color: '#888', fontSize: 11 }}
-                  itemStyle={{ color: model.color, fontFamily: 'Geist Mono, monospace', fontSize: 12 }}
+                  contentStyle={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-primary)', borderRadius: 8, color: 'var(--text-primary)' }}
+                  labelStyle={{ color: 'var(--text-tertiary)', fontSize: 11 }}
+                  itemStyle={{ color: model.color, fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace', fontSize: 12 }}
                 />
                 <Line type="monotone" dataKey="score" stroke={model.color} strokeWidth={2} dot={{ r: 4, fill: model.color }} name="Cumulative" />
               </LineChart>

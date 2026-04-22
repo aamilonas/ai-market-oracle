@@ -1,53 +1,26 @@
 /* ============================================
    Oracle Trade — Design System
    Linear / Vercel aesthetic
+   Theme-aware via [data-theme="dark" | "light"]
    ============================================ */
 
+/* Shared tokens — same across both themes */
 :root {
-  /* Backgrounds — 4-level depth hierarchy */
-  --bg-primary:     #09090b;
-  --bg-secondary:   #0f0f11;
-  --bg-tertiary:    #141416;
-  --bg-quaternary:  #1a1a1e;
-
-  /* Borders */
-  --border-primary: rgba(255, 255, 255, 0.06);
-  --border-hover:   rgba(255, 255, 255, 0.1);
-  --border-active:  rgba(255, 255, 255, 0.15);
-
-  /* Text */
-  --text-primary:   #fafafa;
-  --text-secondary: #a1a1aa;
-  --text-tertiary:  #52525b;
-
-  /* Accent */
+  /* Accent (works on black and white) */
   --accent-primary: #6366f1;
   --accent-hover:   #818cf8;
 
-  /* Status */
+  /* Status — same hues across themes */
   --positive:       #22c55e;
   --negative:       #ef4444;
   --warning:        #eab308;
 
-  /* Model colors */
+  /* Model brand colors — same in both themes */
   --color-claude:     #E07A3A;
   --color-perplexity: #20B2AA;
   --color-gemini:     #4285F4;
   --color-gpt4o:      #10A37F;
   --color-grok:       #C0C0C0;
-
-  /* Legacy aliases — so existing components don't break */
-  --bg-card:        var(--bg-secondary);
-  --bg-card-hover:  var(--bg-tertiary);
-  --border:         rgba(255, 255, 255, 0.06);
-  --border-subtle:  rgba(255, 255, 255, 0.04);
-  --text-muted:     var(--text-tertiary);
-  --color-up:       var(--positive);
-  --color-down:     var(--negative);
-  --color-pending:  var(--text-tertiary);
-  --color-correct:  var(--positive);
-  --color-wrong:    var(--negative);
-  --color-neutral:  var(--text-tertiary);
 
   /* Spacing — 8px grid */
   --space-1:  4px;
@@ -68,12 +41,147 @@
   --radius-lg:  12px;
   --radius-xl:  16px;
 
+  /* Sidebar */
+  --sidebar-width: 240px;
+  --sidebar-collapsed: 60px;
+}
+
+/* ============ DARK (default) ============ */
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* 4-level depth hierarchy */
+  --bg-primary:     #09090b;
+  --bg-secondary:   #0f0f11;
+  --bg-tertiary:    #141416;
+  --bg-quaternary:  #1a1a1e;
+
+  /* Borders */
+  --border-primary: rgba(255, 255, 255, 0.06);
+  --border-hover:   rgba(255, 255, 255, 0.1);
+  --border-active:  rgba(255, 255, 255, 0.15);
+
+  /* Text */
+  --text-primary:   #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-tertiary:  #52525b;
+
   /* Shadows */
   --shadow-sm:  0 1px 2px rgba(0,0,0,0.4);
   --shadow-md:  0 2px 8px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.4);
   --shadow-lg:  0 8px 24px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);
 
-  /* Sidebar */
-  --sidebar-width: 240px;
-  --sidebar-collapsed: 60px;
+  /* Accent tints used for backgrounds */
+  --accent-tint:  rgba(99, 102, 241, 0.12);
+  --accent-glow:  rgba(99, 102, 241, 0.25);
+
+  /* Surface of the hero/landing grid bg */
+  --grid-line:    rgba(255, 255, 255, 0.04);
+  --grid-line-strong: rgba(255, 255, 255, 0.07);
+
+  /* Logo inversion — dark theme shows white-filled logos as-is */
+  --logo-filter: none;
+
+  /* Chart axis colors */
+  --chart-axis:   #52525b;
+  --chart-grid:   rgba(255, 255, 255, 0.06);
+
+  /* Legacy aliases */
+  --bg-card:        var(--bg-secondary);
+  --bg-card-hover:  var(--bg-tertiary);
+  --border:         var(--border-primary);
+  --border-subtle:  rgba(255, 255, 255, 0.04);
+  --text-muted:     var(--text-tertiary);
+  --color-up:       var(--positive);
+  --color-down:     var(--negative);
+  --color-pending:  var(--text-tertiary);
+  --color-correct:  var(--positive);
+  --color-wrong:    var(--negative);
+  --color-neutral:  var(--text-tertiary);
+}
+
+/* ============ LIGHT ============ */
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg-primary:     #ffffff;
+  --bg-secondary:   #fafafa;
+  --bg-tertiary:    #f4f4f5;
+  --bg-quaternary:  #e4e4e7;
+
+  --border-primary: rgba(0, 0, 0, 0.08);
+  --border-hover:   rgba(0, 0, 0, 0.12);
+  --border-active:  rgba(0, 0, 0, 0.18);
+
+  --text-primary:   #09090b;
+  --text-secondary: #52525b;
+  --text-tertiary:  #a1a1aa;
+
+  --shadow-sm:  0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md:  0 2px 8px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-lg:  0 8px 24px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.05);
+
+  --accent-tint:  rgba(99, 102, 241, 0.1);
+  --accent-glow:  rgba(99, 102, 241, 0.22);
+
+  --grid-line:    rgba(0, 0, 0, 0.035);
+  --grid-line-strong: rgba(0, 0, 0, 0.07);
+
+  /* Invert the logos that were fill-white in dark mode (E*TRADE, Fidelity, IB, Webull).
+     Brand-color logos (Robinhood green, Schwab blue) will hue-shift slightly — acceptable trade-off per design.md. */
+  --logo-filter: invert(1);
+
+  --chart-axis:   #71717a;
+  --chart-grid:   rgba(0, 0, 0, 0.06);
+
+  /* Legacy aliases */
+  --bg-card:        var(--bg-secondary);
+  --bg-card-hover:  var(--bg-tertiary);
+  --border:         var(--border-primary);
+  --border-subtle:  rgba(0, 0, 0, 0.04);
+  --text-muted:     var(--text-tertiary);
+  --color-up:       var(--positive);
+  --color-down:     var(--negative);
+  --color-pending:  var(--text-tertiary);
+  --color-correct:  var(--positive);
+  --color-wrong:    var(--negative);
+  --color-neutral:  var(--text-tertiary);
+}
+
+/* System preference fallback — if no data-theme set, follow OS */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+
+    --bg-primary:     #ffffff;
+    --bg-secondary:   #fafafa;
+    --bg-tertiary:    #f4f4f5;
+    --bg-quaternary:  #e4e4e7;
+
+    --border-primary: rgba(0, 0, 0, 0.08);
+    --border-hover:   rgba(0, 0, 0, 0.12);
+    --border-active:  rgba(0, 0, 0, 0.18);
+
+    --text-primary:   #09090b;
+    --text-secondary: #52525b;
+    --text-tertiary:  #a1a1aa;
+
+    --shadow-sm:  0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md:  0 2px 8px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-lg:  0 8px 24px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.05);
+
+    --accent-tint:  rgba(99, 102, 241, 0.1);
+    --accent-glow:  rgba(99, 102, 241, 0.22);
+
+    --grid-line:    rgba(0, 0, 0, 0.035);
+    --grid-line-strong: rgba(0, 0, 0, 0.07);
+
+    --logo-filter: invert(1);
+
+    --chart-axis:   #71717a;
+    --chart-grid:   rgba(0, 0, 0, 0.06);
+
+    --border-subtle:  rgba(0, 0, 0, 0.04);
+  }
 }

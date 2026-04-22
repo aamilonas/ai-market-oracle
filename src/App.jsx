@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
+import { ThemeProvider } from './context/ThemeContext'
 import Layout from './components/Layout'
 import ModelPage from './pages/ModelPage'
 import Scoreboard from './pages/Scoreboard'
@@ -22,40 +23,42 @@ const BASE = import.meta.env.BASE_URL
 
 export default function App() {
   return (
-    <AuthProvider>
-      <BrowserRouter basename={BASE}>
-        <Layout>
-          <Routes>
-            {/* Public — full width */}
-            <Route path="/" element={<Landing />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/onboarding" element={<Onboarding />} />
+    <ThemeProvider>
+      <AuthProvider>
+        <BrowserRouter basename={BASE}>
+          <Layout>
+            <Routes>
+              {/* Public — full width */}
+              <Route path="/" element={<Landing />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/onboarding" element={<Onboarding />} />
 
-            {/* Dashboard — sidebar layout */}
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/signals" element={<Signals />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/connect-brokerage" element={<ConnectBrokerage />} />
-            <Route path="/alerts" element={<Alerts />} />
-            <Route path="/settings" element={<Settings />} />
+              {/* Dashboard — sidebar layout */}
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/signals" element={<Signals />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/connect-brokerage" element={<ConnectBrokerage />} />
+              <Route path="/alerts" element={<Alerts />} />
+              <Route path="/settings" element={<Settings />} />
 
-            {/* Analysis — sidebar layout, public */}
-            <Route path="/leaderboard" element={<Scoreboard />} />
-            <Route path="/analytics" element={<Analytics />} />
-            <Route path="/paper-trading" element={<Simulator />} />
-            <Route path="/weekly" element={<Weekly />} />
-            <Route path="/model/:name" element={<ModelPage />} />
+              {/* Analysis — sidebar layout, public */}
+              <Route path="/leaderboard" element={<Scoreboard />} />
+              <Route path="/analytics" element={<Analytics />} />
+              <Route path="/paper-trading" element={<Simulator />} />
+              <Route path="/weekly" element={<Weekly />} />
+              <Route path="/model/:name" element={<ModelPage />} />
 
-            {/* Info */}
-            <Route path="/methodology" element={<Methodology />} />
-            <Route path="/about" element={<About />} />
+              {/* Info */}
+              <Route path="/methodology" element={<Methodology />} />
+              <Route path="/about" element={<About />} />
 
-            {/* Legacy redirects */}
-            <Route path="/scoreboard" element={<Scoreboard />} />
-            <Route path="/simulator" element={<Simulator />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
-    </AuthProvider>
+              {/* Legacy redirects */}
+              <Route path="/scoreboard" element={<Scoreboard />} />
+              <Route path="/simulator" element={<Simulator />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </AuthProvider>
+    </ThemeProvider>
   )
 }

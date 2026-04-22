@@ -14,17 +14,18 @@ const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null
   return (
     <div style={{
-      background: '#161616',
-      border: '1px solid #262626',
+      background: 'var(--bg-secondary)',
+      border: '1px solid var(--border-primary)',
       borderRadius: 8,
       padding: '0.625rem 0.875rem',
+      color: 'var(--text-primary)',
     }}>
-      <p style={{ color: '#888', fontSize: '0.75rem', marginBottom: '0.35rem' }}>{label}</p>
+      <p style={{ color: 'var(--text-tertiary)', fontSize: '0.75rem', marginBottom: '0.35rem' }}>{label}</p>
       {payload.map(entry => (
         <p key={entry.name} style={{
           color: entry.color,
           fontSize: '0.8rem',
-          fontFamily: 'Geist Mono, monospace',
+          fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace',
         }}>
           {entry.name}: {entry.value >= 0 ? '+' : ''}{entry.value.toFixed(1)}
         </p>
@@ -65,15 +66,15 @@ export default function ScoreChart({ models: rawModels }) {
   return (
     <ResponsiveContainer width="100%" height={280}>
       <LineChart data={cumulativeData} margin={{ top: 8, right: 16, left: -10, bottom: 0 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="#1f1f1f" />
+        <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
         <XAxis
           dataKey="week"
-          tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }}
+          tick={{ fill: 'var(--chart-axis)', fontSize: 11, fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace' }}
           axisLine={false}
           tickLine={false}
         />
         <YAxis
-          tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }}
+          tick={{ fill: 'var(--chart-axis)', fontSize: 11, fontFamily: 'Geist Mono Variable, Geist Mono, ui-monospace, monospace' }}
           axisLine={false}
           tickLine={false}
         />
