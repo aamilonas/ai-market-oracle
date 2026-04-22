@@ -28,7 +28,7 @@ export default function Scoreboard() {
   const headToHead = analytics?.head_to_head?.recent_clashes ?? []
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} animate-in`}>
       <div className={styles.heroRow}>
         <div>
           <h1 className={styles.title}>Scoreboard</h1>

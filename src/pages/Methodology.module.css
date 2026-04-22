@@ -7,7 +7,7 @@
 
 .title {
   font-size: 1.75rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .scheduleTime {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.85rem;
   font-weight: 700;
   color: #E07A3A;
@@ -88,7 +88,7 @@
 }
 
 .formulaLine {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.875rem;
   color: var(--text-secondary);
 }
@@ -150,7 +150,7 @@
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.25rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.78rem;
   color: var(--text-secondary);
   line-height: 1.6;
@@ -183,7 +183,7 @@
 .apiCard:hover { background: var(--bg-card-hover); }
 
 .apiModel { font-weight: 700; color: var(--text-primary); }
-.apiEndpoint { color: var(--text-secondary); font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; }
+.apiEndpoint { color: var(--text-secondary); font-family: 'Geist Mono', monospace; font-size: 0.72rem; }
 .apiSearch { color: #60a5fa; font-size: 0.75rem; }
 .apiNote { color: var(--text-muted); font-size: 0.72rem; }
 
@@ -193,7 +193,7 @@
 }
 
 .code {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   background: var(--bg-secondary);
   padding: 0.1rem 0.3rem;
   border-radius: 3px;

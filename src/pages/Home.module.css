@@ -21,7 +21,7 @@
 
 .title {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--text-primary);
   line-height: 1.1;
@@ -47,7 +47,7 @@
 }
 
 .datePill {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.7rem;
   color: var(--text-muted);
   white-space: nowrap;

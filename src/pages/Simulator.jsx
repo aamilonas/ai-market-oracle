@@ -27,7 +27,7 @@ export default function Simulator() {
   const sortedTrades = [...trades].reverse()
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} animate-in`}>
       <section className={styles.hero}>
         <h1 className={styles.title}>Paper Trading Simulator</h1>
         <p className={styles.tagline}>

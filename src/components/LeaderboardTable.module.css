@@ -55,7 +55,7 @@
 }
 
 .rank {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.8rem;
   color: var(--text-muted);
   font-weight: 600;
@@ -113,11 +113,11 @@
 .streakHot {
   color: #f97316;
   font-size: 0.8rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
 }
 
 .streakCold {
   color: #60a5fa;
   font-size: 0.8rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
 }

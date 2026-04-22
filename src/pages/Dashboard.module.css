@@ -1,0 +1,272 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+}
+
+/* Portfolio Stats Row */
+.statsRow {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.statItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
+  background: var(--bg-secondary);
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.statItem:hover {
+  border-color: var(--border-hover);
+}
+
+.statLabel {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.statValue {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.025em;
+}
+
+/* Consensus Hero */
+.heroCard {
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  background: var(--bg-secondary);
+  overflow: hidden;
+  margin-bottom: var(--space-8);
+}
+
+.heroTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.heroLabel {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.heroBadge {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  border-radius: 999px;
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--accent-primary);
+}
+
+.heroBody {
+  padding: var(--space-6);
+}
+
+.heroTicker {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.tickerName {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  font-family: 'Geist Mono', monospace;
+}
+
+.directionBadge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-sm);
+}
+
+.directionBadge.up {
+  background: rgba(34, 197, 94, 0.1);
+  color: var(--positive);
+}
+
+.directionBadge.down {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--negative);
+}
+
+.heroMeta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.heroMetaItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.heroMetaLabel {
+  font-size: 0.6875rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.heroMetaValue {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.heroModels {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.modelChip {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid;
+  border-radius: var(--radius-sm);
+}
+
+/* Signals Panel */
+.panel {
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.panelTitle {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.panelLink {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.panelLink:hover {
+  color: var(--accent-primary);
+}
+
+.emptyState {
+  padding: var(--space-8);
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+}
+
+/* Signal List */
+.signalList {
+  display: flex;
+  flex-direction: column;
+}
+
+.signalRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  border-bottom: 1px solid var(--border-primary);
+  font-size: 0.8125rem;
+  transition: background 0.1s ease;
+}
+
+.signalRow:last-child {
+  border-bottom: none;
+}
+
+.signalRow:hover {
+  background: var(--bg-tertiary);
+}
+
+.signalTicker {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: 'Geist Mono', monospace;
+  min-width: 56px;
+}
+
+.signalDir {
+  font-weight: 700;
+  font-size: 0.875rem;
+  width: 20px;
+  text-align: center;
+}
+
+.signalDir.up {
+  color: var(--positive);
+}
+
+.signalDir.down {
+  color: var(--negative);
+}
+
+.signalTarget {
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+  flex: 1;
+}
+
+.signalConf {
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+  min-width: 32px;
+  text-align: right;
+}
+
+.signalModel {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  min-width: 64px;
+  text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .statsRow {
+    flex-direction: column;
+  }
+
+  .heroMeta {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -30,14 +30,14 @@
 }
 
 .ticker {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-weight: 700;
   font-size: 0.95rem;
 }
 
 .dirBadge {
   font-size: 0.7rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-weight: 700;
   padding: 0.15rem 0.4rem;
   border-radius: 4px;

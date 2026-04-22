@@ -25,7 +25,7 @@ Respond with ONLY valid JSON in the exact schema provided.`
 
 export default function Methodology() {
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} animate-in`}>
       <h1 className={styles.title}>Methodology</h1>
       <p className={styles.intro}>
         Full transparency on how predictions are generated, scored, and displayed.

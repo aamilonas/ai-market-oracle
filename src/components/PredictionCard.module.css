@@ -36,7 +36,7 @@
 }
 
 .ticker {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-weight: 600;
   font-size: 1rem;
   color: var(--text-primary);
@@ -47,7 +47,7 @@
   font-weight: 700;
   padding: 0.2rem 0.45rem;
   border-radius: 4px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   letter-spacing: 0.03em;
 }
 
@@ -72,7 +72,7 @@
 .timeframe {
   font-size: 0.7rem;
   color: var(--text-muted);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   background: var(--bg-secondary);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
@@ -80,7 +80,7 @@
 }
 
 .scoreChip {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.2rem 0.5rem;
@@ -131,7 +131,7 @@
 }
 
 .pct {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.8rem;
   font-weight: 600;
   margin-top: 0.75rem;

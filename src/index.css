@@ -1,36 +1,21 @@
+@import './styles/design-system.css';
+@import './styles/animations.css';
+
+/* ============================================
+   Oracle Trade — Global Styles
+   ============================================ */
+
 :root {
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #111111;
-  --bg-card: #161616;
-  --bg-card-hover: #1e1e1e;
-  --border: #262626;
-  --border-subtle: #1a1a1a;
-  --text-primary: #f0f0f0;
-  --text-secondary: #888888;
-  --text-muted: #555555;
-
-  /* Model colors */
-  --color-claude: #E07A3A;
-  --color-perplexity: #20B2AA;
-  --color-gemini: #4285F4;
-  --color-gpt4o: #10A37F;
-  --color-grok: #C0C0C0;
-
-  /* Status colors */
-  --color-up: #22c55e;
-  --color-down: #ef4444;
-  --color-pending: #6b7280;
-  --color-correct: #22c55e;
-  --color-wrong: #ef4444;
-  --color-neutral: #6b7280;
-
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Geist', system-ui, -apple-system, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   color: var(--text-primary);
   background-color: var(--bg-primary);
   color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv02', 'cv03', 'cv04';
 }
 
 * {
@@ -52,31 +37,53 @@ a {
 button {
   cursor: pointer;
   font-family: inherit;
+  border: none;
+  background: none;
 }
 
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Monospace utility */
 .mono {
-  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-family: 'Geist Mono', 'Geist Mono', 'Courier New', monospace;
+  font-variant-numeric: tabular-nums;
 }
 
-/* Scrollbar styling */
+/* Tabular nums on all number-heavy elements */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scrollbar — thin and dark */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  background: rgba(255, 255, 255, 0.12);
 }
 
-/* Recharts tooltip customization */
+/* Recharts tooltip — match design system */
 .recharts-tooltip-wrapper .recharts-default-tooltip {
-  background: var(--bg-card) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 6px !important;
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-primary) !important;
+  border-radius: var(--radius-md) !important;
+  font-family: 'Geist', system-ui, sans-serif !important;
+  font-size: 0.8125rem !important;
+}
+
+/* Selection */
+::selection {
+  background: rgba(99, 102, 241, 0.3);
+  color: var(--text-primary);
 }

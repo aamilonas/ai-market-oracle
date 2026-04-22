@@ -48,7 +48,7 @@ export default function Weekly() {
   const weekScores = liveWeekScores?.length ? liveWeekScores : weekly?.scores
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} animate-in`}>
       <div className={styles.headerRow}>
         <div>
           <h1 className={styles.title}>Weekly Report</h1>

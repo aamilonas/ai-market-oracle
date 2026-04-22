@@ -1,26 +1,27 @@
-import Navbar from './Navbar'
+import { useLocation } from 'react-router-dom'
+import Sidebar from './Sidebar'
 import styles from './Layout.module.css'
 
+const FULL_WIDTH_ROUTES = ['/', '/signup', '/onboarding']
+
 export default function Layout({ children }) {
+  const { pathname } = useLocation()
+  const isFullWidth = FULL_WIDTH_ROUTES.includes(pathname)
+
+  if (isFullWidth) {
+    return <div className={styles.fullWidth}>{children}</div>
+  }
+
   return (
     <div className={styles.root}>
-      <Navbar />
-      <main className={styles.main}>{children}</main>
-      <footer className={styles.footer}>
-        <div className={styles.footerInner}>
-          <span className="mono" style={{ color: 'var(--text-muted)', fontSize: '0.75rem' }}>
-            AI Market Oracle — Not financial advice. This is an experiment.
-          </span>
-          <a
-            href="https://github.com/aamilonas/ai-market-oracle"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'var(--text-muted)', fontSize: '0.75rem' }}
-          >
-            Source on GitHub →
-          </a>
-        </div>
-      </footer>
+      <Sidebar />
+      <main className={styles.main}>
+        <div className={styles.content}>{children}</div>
+        <footer className={styles.footer}>
+          <span className="mono">Oracle Trade</span>
+          <span>Prototype — Not financial advice</span>
+        </footer>
+      </main>
     </div>
   )
 }

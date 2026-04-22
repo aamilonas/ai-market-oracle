@@ -23,7 +23,7 @@
 
 .title {
   font-size: 1.75rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .updated {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.7rem;
   color: var(--text-muted);
   margin-top: 0.5rem;
@@ -146,14 +146,14 @@
 }
 
 .h2hTicker {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--text-primary);
 }
 
 .h2hDate {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.7rem;
   color: var(--text-muted);
 }

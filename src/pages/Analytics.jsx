@@ -120,7 +120,7 @@ export default function Analytics() {
   )
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} animate-in`}>
       {/* Hero */}
       <div className={styles.hero}>
         <h1 className={styles.title}>Performance Analytics</h1>

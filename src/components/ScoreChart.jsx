@@ -24,7 +24,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         <p key={entry.name} style={{
           color: entry.color,
           fontSize: '0.8rem',
-          fontFamily: 'IBM Plex Mono, monospace',
+          fontFamily: 'Geist Mono, monospace',
         }}>
           {entry.name}: {entry.value >= 0 ? '+' : ''}{entry.value.toFixed(1)}
         </p>
@@ -68,12 +68,12 @@ export default function ScoreChart({ models: rawModels }) {
         <CartesianGrid strokeDasharray="3 3" stroke="#1f1f1f" />
         <XAxis
           dataKey="week"
-          tick={{ fill: '#555', fontSize: 11, fontFamily: 'IBM Plex Mono, monospace' }}
+          tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }}
           axisLine={false}
           tickLine={false}
         />
         <YAxis
-          tick={{ fill: '#555', fontSize: 11, fontFamily: 'IBM Plex Mono, monospace' }}
+          tick={{ fill: '#555', fontSize: 11, fontFamily: 'Geist Mono, monospace' }}
           axisLine={false}
           tickLine={false}
         />

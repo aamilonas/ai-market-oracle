@@ -15,7 +15,7 @@
 }
 
 .week {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.75rem;
   color: var(--text-muted);
   background: var(--bg-secondary);
@@ -78,7 +78,7 @@
 }
 
 .callTicker {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.8rem;
   color: var(--text-secondary);
 }
