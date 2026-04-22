@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "winner": {
-    "ticker": "NVDA",
-    "direction": "up",
-    "avg_confidence": 0.69,
-    "avg_target": 205.33,
-    "avg_entry": 202.01,
-    "expected_move_pct": 1.65,
-    "score": 1.1363,
+    "ticker": "TSLA",
+    "direction": "down",
+    "avg_confidence": 0.6733,
+    "avg_target": 310.0,
+    "avg_entry": 316.05,
+    "expected_move_pct": 1.91,
+    "score": 1.2882,
     "models": [
       "Grok",
-      "Perplexity",
-      "GPT-4o"
+      "Gemini",
+      "Claude"
     ],
     "model_count": 3,
     "high_conviction": false

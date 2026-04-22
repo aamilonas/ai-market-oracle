@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T11:40:28.191921+00:00",
+  "headline": "AI Models Rally Behind SPY Gains as Trump's Iran Ceasefire Boosts Markets",
+  "summary": "All five AI models unanimously predicted SPY would rise, citing Trump's Iran ceasefire extension and positive pre-market futures. Tesla predictions split sharply with Claude, Gemini, and Grok expecting declines ahead of earnings while GPT-4o remained optimistic. The Marvell-Google chip partnership news created divergent views on semiconductor stocks, with Claude bullish on MRVL but bearish on NVDA.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Rare unanimous agreement across all models on SPY upside, driven by geopolitical de-escalation."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Three models expect Tesla weakness ahead of Q1 earnings, while GPT-4o stands alone predicting gains."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Split view on Nvidia with Claude seeing competitive pressure while others expect AI momentum to continue."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Mixed signals on Apple with Gemini bearish on iPhone concerns while others see broad market lift."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "MRVL",
+    "score": 0,
+    "summary": "Highest confidence pick at 78% on Marvell's Google chip partnership news driving 6.9% pre-market surge."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "TSLA",
+    "score": 0,
+    "summary": "Extremely bearish $170 target (55% drop) seems overdone despite legitimate EV competition concerns."
+  }
+}

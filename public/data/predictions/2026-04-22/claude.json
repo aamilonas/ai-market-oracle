@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-22",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-22T07:30:00Z",
+  "market_context": "Futures point higher (+0.53% S&P, +0.70% Nasdaq) despite Middle East tensions as U.S.-Iran ceasefire extended. Tesla reports Q1 earnings after close with mixed expectations. Oil prices up 0.79% on geopolitical uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260422_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 707.5,
+      "current_price_at_prediction": 704.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Premarket futures show +0.53% gain as Trump extended Iran ceasefire, reducing immediate war risks. Strong earnings expectations with Q1 growth forecasted at 12.5% for S&P 500 companies should support upward momentum despite geopolitical overhang."
+    },
+    {
+      "id": "pred_claude_20260422_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 378.0,
+      "current_price_at_prediction": 386.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Tesla reports Q1 earnings after close with consensus EPS of $0.33-0.37 vs $0.50 last quarter. Company missed delivery targets by 7,600 units and has 50,000+ vehicle inventory buildup. Energy storage segment halved sequentially, creating multiple headwinds."
+    },
+    {
+      "id": "pred_claude_20260422_003",
+      "ticker": "MRVL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 158.0,
+      "current_price_at_prediction": 151.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Marvell surged 6.9% premarket on reports of Google chip partnership talks for two new AI processors. Stock up 75% YTD with strong AI infrastructure demand. Recent Nvidia $2B investment adds credibility to AI transformation thesis."
+    },
+    {
+      "id": "pred_claude_20260422_004",
+      "ticker": "UNH",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 495.0,
+      "current_price_at_prediction": 490.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "UnitedHealth beat Q1 expectations with $111.7B revenue vs $109.66B consensus and raised 2026 EPS guidance above $18.25. Healthcare sector benefits from stable demand and the company showed strong operational execution in earnings call."
+    },
+    {
+      "id": "pred_claude_20260422_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 196.5,
+      "current_price_at_prediction": 199.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nvidia faces competitive pressure from Marvell-Google chip partnership news and broader market rotation. Despite strong fundamentals, stock may see profit-taking as investors digest news that major cloud providers are developing alternative AI chip solutions."
+    }
+  ]
+}

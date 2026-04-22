@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-22",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-22T11:39:39Z",
+  "market_context": "SPY is trading around $706-707 during market hours, up from previous close of $704.08, with intraday range $702.64-$711.28 and elevated volume above average. Data shows minor fluctuations across sources, with recent rebound in tech stocks noted. No specific overnight news or futures detailed in results, but VIX at 19.17 indicates moderate volatility.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260422_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 708.5,
+      "current_price_at_prediction": 704.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY opened at $710.28 and reached a high of $711.28 today, currently trading around $706-707 per multiple sources[1][2][3][5]. This builds on the 5-day +1.4% gain and recent tech rebound ending a losing streak[1]. Elevated volume (58-94M vs avg 85-88M) supports continued upside momentum[1][2]."
+    },
+    {
+      "id": "pred_perplexity_20260422_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 650.0,
+      "current_price_at_prediction": 644.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ's strong 5-day +2.5% gain aligns with SPY's intraday strength and tech rebound noted in SPY data[1]. Broader market momentum from S&P 500 ETF uptrend suggests Nasdaq trackers will follow. VIX rise to 19.17 tempers but doesn't halt upside in recent context."
+    },
+    {
+      "id": "pred_perplexity_20260422_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 203.0,
+      "current_price_at_prediction": 199.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY sources highlight rebound ahead of Nvidia-related tech momentum[1]. NVDA as key tech driver likely benefits from intraday SPY/QQQ strength and 52-week highs near for indices[2]. Moderate VIX supports selective tech gains despite 10Y yield at 4.29%."
+    },
+    {
+      "id": "pred_perplexity_20260422_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 79200.0,
+      "current_price_at_prediction": 78282.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "BTC's 5-day +1.5% aligns with equity upside in SPY/QQQ. Crypto often tracks risk-on sentiment in bull market phases. No counter news; moderate VIX doesn't signal broad risk-off."
+    }
+  ]
+}
