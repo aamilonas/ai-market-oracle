@@ -1,8 +1,8 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22T11:40:28.191921+00:00",
-  "headline": "AI Models Rally Behind SPY Gains as Trump's Iran Ceasefire Boosts Markets",
-  "summary": "All five AI models unanimously predicted SPY would rise, citing Trump's Iran ceasefire extension and positive pre-market futures. Tesla predictions split sharply with Claude, Gemini, and Grok expecting declines ahead of earnings while GPT-4o remained optimistic. The Marvell-Google chip partnership news created divergent views on semiconductor stocks, with Claude bullish on MRVL but bearish on NVDA.",
+  "generated_at": "2026-04-22T23:10:05.049958+00:00",
+  "headline": "AI models nail SPY rally but split on Tesla ahead of earnings",
+  "summary": "All five AI models correctly predicted SPY's rise to $711.21, driven by Trump's Iran ceasefire extension easing geopolitical tensions. Tesla proved divisive with models split 3-2 on direction ahead of Q1 earnings, while NVDA confounded bearish calls by holding above $202 despite competitive pressure from the Marvell-Google partnership news.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Rare unanimous agreement across all models on SPY upside, driven by geopolitical de-escalation."
+      "outcome": "correct",
+      "note": "Perfect consensus as all five models correctly called SPY's rise with similar confidence levels around 0.65."
     },
     {
       "ticker": "TSLA",
@@ -25,8 +25,8 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Three models expect Tesla weakness ahead of Q1 earnings, while GPT-4o stands alone predicting gains."
+      "outcome": "wrong",
+      "note": "Three bearish models were wrong as TSLA held at $387.51 despite earnings concerns, while GPT-4o's bullish call proved correct."
     },
     {
       "ticker": "NVDA",
@@ -35,32 +35,32 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Split view on Nvidia with Claude seeing competitive pressure while others expect AI momentum to continue."
+      "outcome": "correct",
+      "note": "Bullish models prevailed over Claude's bearish view, correctly predicting NVDA would hold above $202 despite competitive threats."
     },
     {
-      "ticker": "AAPL",
+      "ticker": "BTC-USD",
       "models_agreeing": [
         "GPT-4o",
-        "Grok"
+        "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Mixed signals on Apple with Gemini bearish on iPhone concerns while others see broad market lift."
+      "outcome": "correct",
+      "note": "Both models correctly but tentatively called Bitcoin's modest rise to $78,577 with low 0.5 confidence."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_MRVL_Claude",
     "model_display_name": "Claude",
     "ticker": "MRVL",
-    "score": 0,
-    "summary": "Highest confidence pick at 78% on Marvell's Google chip partnership news driving 6.9% pre-market surge."
+    "score": 1.28,
+    "summary": "Claude's high-confidence MRVL call capitalized perfectly on the Google chip partnership news catalyst for the day's best score."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Gemini",
+    "prediction_id": "pred_TSLA_Claude",
+    "model_display_name": "Claude",
     "ticker": "TSLA",
-    "score": 0,
-    "summary": "Extremely bearish $170 target (55% drop) seems overdone despite legitimate EV competition concerns."
+    "score": -0.72,
+    "summary": "Claude's bearish TSLA call with 0.72 confidence backfired as the stock rose despite pending earnings, marking the day's worst prediction."
   }
 }
