@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-22",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-22T11:40:06.025267+00:00",
+  "market_context": "U.S. stock futures are rising following President Trump's indefinite extension of the Iran ceasefire, with Dow e-minis up 0.35%, S&P 500 E-minis up 0.44%, and Nasdaq 100 E-minis up 0.58%. Additionally, March retail sales increased by 1.7%, indicating strong consumer spending. No major economic reports are scheduled for release today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260422_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 710.0,
+      "current_price_at_prediction": 704.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The indefinite extension of the Iran ceasefire has improved market sentiment, leading to a rise in stock futures. Additionally, the 1.7% increase in March retail sales suggests strong consumer spending, which could positively impact the broader market."
+    },
+    {
+      "id": "pred_gpt4o_20260422_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 650.0,
+      "current_price_at_prediction": 644.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The Nasdaq 100 E-minis are up 0.58% in pre-market trading, indicating positive momentum in the technology sector. The extension of the Iran ceasefire and strong retail sales data further support this upward trend."
+    },
+    {
+      "id": "pred_gpt4o_20260422_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 270.0,
+      "current_price_at_prediction": 266.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock is likely to benefit from the overall positive market sentiment driven by the extended Iran ceasefire and strong consumer spending data. Additionally, the technology sector is showing pre-market gains, which could positively impact Apple's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260422_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 390.0,
+      "current_price_at_prediction": 386.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tesla's stock may see a modest increase due to the overall positive market sentiment and strong retail sales data. However, the stock's recent volatility and sector-specific factors may limit the extent of the gain."
+    },
+    {
+      "id": "pred_gpt4o_20260422_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 79000.0,
+      "current_price_at_prediction": 78282.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Bitcoin's price may experience a slight increase as investors seek alternative assets amid geopolitical developments. However, the cryptocurrency market's inherent volatility makes this prediction less certain."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-22",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-22T11:39:44.986011+00:00",
+  "market_context": "Today's market sentiment is influenced by strong tech earnings reports and a slight uptick in consumer confidence data. However, ongoing geopolitical tensions are introducing a degree of caution, leading to mixed sector performance.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260422_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released this morning, suggests a continued upward trend for the broader market."
+    },
+    {
+      "id": "pred_gemini_20260422_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 182.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key international markets are likely to put downward pressure on the stock throughout the week."
+    },
+    {
+      "id": "pred_gemini_20260422_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 428.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive news regarding new AI partnerships and robust cloud service growth continues to fuel investor optimism, pushing the stock higher."
+    },
+    {
+      "id": "pred_gemini_20260422_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 175.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increased competition in the EV market and recent production cuts are expected to weigh heavily on TSLA's performance over the coming weeks, leading to a potential price decline."
+    }
+  ]
+}

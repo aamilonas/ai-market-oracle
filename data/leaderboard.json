@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-04-20T23:06:59.043507+00:00",
+  "last_updated": "2026-04-21T23:02:58.706305+00:00",
   "models": [
     {
       "model_id": "claude-sonnet-4-20250514",
       "model_display_name": "Claude",
-      "total_predictions": 155,
-      "correct_directions": 81,
-      "direction_accuracy": 0.5226,
-      "total_score": 21.96,
-      "avg_confidence": 0.7301,
-      "current_streak": -1,
+      "total_predictions": 160,
+      "correct_directions": 85,
+      "direction_accuracy": 0.5312,
+      "total_score": 25.09,
+      "avg_confidence": 0.7303,
+      "current_streak": 2,
       "best_streak": 15,
       "worst_streak": -8,
       "weekly_scores": [
@@ -63,21 +63,21 @@
         },
         {
           "week": "2026-W17",
-          "score": 1.34,
-          "predictions": 5,
-          "accuracy": 0.6
+          "score": 4.47,
+          "predictions": 10,
+          "accuracy": 0.7
         }
       ]
     },
     {
       "model_id": "gpt-4o",
       "model_display_name": "GPT-4o",
-      "total_predictions": 118,
-      "correct_directions": 96,
-      "direction_accuracy": 0.8136,
-      "total_score": 53.82,
-      "avg_confidence": 0.6471,
-      "current_streak": 2,
+      "total_predictions": 122,
+      "correct_directions": 97,
+      "direction_accuracy": 0.7951,
+      "total_score": 52.82,
+      "avg_confidence": 0.648,
+      "current_streak": -1,
       "best_streak": 12,
       "worst_streak": -2,
       "weekly_scores": [
@@ -131,23 +131,23 @@
         },
         {
           "week": "2026-W17",
-          "score": 2.9,
-          "predictions": 5,
-          "accuracy": 0.8
+          "score": 1.9,
+          "predictions": 9,
+          "accuracy": 0.5556
         }
       ]
     },
     {
       "model_id": "grok-3",
       "model_display_name": "Grok",
-      "total_predictions": 110,
-      "correct_directions": 72,
-      "direction_accuracy": 0.6545,
-      "total_score": 27.78,
-      "avg_confidence": 0.6398,
+      "total_predictions": 114,
+      "correct_directions": 73,
+      "direction_accuracy": 0.6404,
+      "total_score": 26.88,
+      "avg_confidence": 0.6393,
       "current_streak": -1,
       "best_streak": 6,
-      "worst_streak": -2,
+      "worst_streak": -3,
       "weekly_scores": [
         {
           "week": "2026-W09",
@@ -199,21 +199,21 @@
         },
         {
           "week": "2026-W17",
-          "score": 0.5,
-          "predictions": 4,
-          "accuracy": 0.5
+          "score": -0.4,
+          "predictions": 8,
+          "accuracy": 0.375
         }
       ]
     },
     {
       "model_id": "sonar-pro",
       "model_display_name": "Perplexity",
-      "total_predictions": 130,
+      "total_predictions": 134,
       "correct_directions": 63,
-      "direction_accuracy": 0.4846,
-      "total_score": 3.69,
-      "avg_confidence": 0.6528,
-      "current_streak": 1,
+      "direction_accuracy": 0.4701,
+      "total_score": 1.27,
+      "avg_confidence": 0.6514,
+      "current_streak": -4,
       "best_streak": 14,
       "worst_streak": -8,
       "weekly_scores": [
@@ -267,22 +267,22 @@
         },
         {
           "week": "2026-W17",
-          "score": -0.7,
-          "predictions": 3,
-          "accuracy": 0.3333
+          "score": -3.12,
+          "predictions": 7,
+          "accuracy": 0.1429
         }
       ]
     },
     {
       "model_id": "gemini-2.5-flash",
       "model_display_name": "Gemini",
-      "total_predictions": 12,
-      "correct_directions": 8,
-      "direction_accuracy": 0.6667,
-      "total_score": 2.56,
-      "avg_confidence": 0.67,
-      "current_streak": 2,
-      "best_streak": 3,
+      "total_predictions": 14,
+      "correct_directions": 10,
+      "direction_accuracy": 0.7143,
+      "total_score": 3.91,
+      "avg_confidence": 0.6707,
+      "current_streak": 4,
+      "best_streak": 4,
       "worst_streak": -1,
       "weekly_scores": [
         {
@@ -293,8 +293,8 @@
         },
         {
           "week": "2026-W17",
-          "score": 1.35,
-          "predictions": 2,
+          "score": 2.7,
+          "predictions": 4,
           "accuracy": 1.0
         }
       ]
