@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-23T11:41:30Z",
+  "market_context": "SPY closed at $711.21 yesterday with a 5-day gain of +1.6%, but pre-market trading shows it at $707.24, down 0.56%[5]. VIX is elevated at 19.62 with a +9.4% 5-day increase, signaling higher volatility, while 10Y Treasury Yield stands at 4.29%. No major economic releases or overnight news dominate, suggesting a cautious open amid recent minor gains in major indices.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260423_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.5,
+      "current_price_at_prediction": 711.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Pre-market price is $707.24, down 0.56% from yesterday's close of $711.21[5]. Elevated VIX at 19.62 (+9.4% over 5 days) indicates increased market fear, pressuring broad indices lower. Recent 1D range was $708.22-$711.45, supporting potential close near the lower end[2]."
+    },
+    {
+      "id": "pred_perplexity_20260423_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 651.0,
+      "current_price_at_prediction": 655.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ's 5-day gain of +2.8% may face pullback amid SPY pre-market weakness at $707.24 (-0.56%)[5] and rising VIX. Tech-heavy QQQ often correlates with SPY, with no countering positive news. Expected range aligns with broader market caution from 10Y yield at 4.29%."
+    },
+    {
+      "id": "pred_perplexity_20260423_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 202.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from ongoing AI momentum despite market softness, with QQQ's recent +2.8% 5-day performance. SPY's minor pre-market dip to $707.24 unlikely to derail semiconductor strength[5]. Volatility via VIX may create intraday buying opportunities."
+    },
+    {
+      "id": "pred_perplexity_20260423_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78500.0,
+      "current_price_at_prediction": 77535.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC shows +2.4% 5-day strength amid equity caution, often decoupling positively from VIX spikes. No adverse crypto news; risk-off in stocks (SPY pre-market -0.56%) may boost safe-haven flows[5]. Recent momentum supports modest extension."
+    }
+  ]
+}
