@@ -1,9 +1,20 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23T11:42:43.871645+00:00",
-  "headline": "Models Split on Market Direction Amid Geopolitical Tensions and Tech Earnings",
-  "summary": "AI models showed sharp disagreement on SPY's direction, with three predicting upward movement citing Iran ceasefire extension while two expected declines due to inflation concerns. Tesla predictions clustered bearishly across four models, though with wildly different price targets ranging from $170 to $383, while NVDA sentiment leaned bullish on continued AI momentum.",
+  "generated_at": "2026-04-23T23:10:23.766130+00:00",
+  "headline": "Bears Win Big as SPY and QQQ Tumble Despite Claude's Bullish Bets",
+  "summary": "Models were deeply divided on market direction, with GPT-4o and Perplexity correctly calling the bearish turn while Claude went bullish and paid the price. Tesla emerged as the day's consensus short, with all models correctly predicting its decline following earnings warnings. The standout winner was Grok's AAPL call and GPT-4o's QQQ short, while Claude's SPY long suffered the worst loss.",
   "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "The bulls got crushed as SPY fell to 708.45, with only GPT-4o and Perplexity correctly anticipating the decline."
+    },
     {
       "ticker": "TSLA",
       "models_agreeing": [
@@ -13,19 +24,8 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "All four models bearish on Tesla citing earnings concerns and EV competition, though targets varied dramatically."
-    },
-    {
-      "ticker": "SPY",
-      "models_agreeing": [
-        "Claude",
-        "Gemini",
-        "Grok"
-      ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Bulls cited ceasefire extension while bears pointed to inflation and rising yields, creating a 3-2 split."
+      "outcome": "correct",
+      "note": "Universal agreement on Tesla's weakness proved spot-on as it tumbled to 373.72 following capex concerns."
     },
     {
       "ticker": "NVDA",
@@ -35,8 +35,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models bullish on NVIDIA's AI momentum and recent $1B Vast Data investment."
+      "outcome": "wrong",
+      "note": "Despite AI investment hype, NVDA disappointed the bulls by closing at 199.64."
     },
     {
       "ticker": "BTC-USD",
@@ -45,22 +45,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both crypto predictions expected Bitcoin to rise as a hedge against geopolitical uncertainty."
+      "outcome": "correct",
+      "note": "Bitcoin bulls were rewarded as crypto climbed to 78151.01 amid market uncertainty."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Claude",
-    "ticker": "GEV",
-    "score": 0.0,
-    "summary": "Claude showed highest confidence (82%) on GE Vernova after 8% surge on earnings beat."
+    "prediction_id": "pred_GPT4o_SPY_down",
+    "model_display_name": "GPT-4o",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "GPT-4o nailed the market's bearish turn with high confidence, correctly anticipating SPY's drop amid inflation concerns."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Gemini",
-    "ticker": "TSLA",
-    "score": 0.0,
-    "summary": "Gemini's $170 Tesla target appears extremely bearish compared to other models' $380+ targets."
+    "prediction_id": "pred_Claude_QQQ_up",
+    "model_display_name": "Claude",
+    "ticker": "QQQ",
+    "score": -0.72,
+    "summary": "Claude's high-confidence bullish bet on QQQ backfired spectacularly as tech stocks tumbled instead of rallying."
   }
 }
