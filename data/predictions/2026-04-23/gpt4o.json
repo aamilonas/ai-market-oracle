@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-23",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-23T11:42:25.053286+00:00",
+  "market_context": "U.S. stock futures are indicating a lower open today, with S&P 500 futures down approximately 0.4%, as investors react to rising oil prices above $100 per barrel and ongoing geopolitical tensions in the Middle East. Key economic data releases scheduled for today include weekly jobless claims and the preliminary S&P Global Manufacturing and Services PMIs for April.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260423_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 711.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the pre-market decline in S&P 500 futures and the upward pressure on oil prices due to Middle East tensions, it's likely that SPY will close lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260423_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "current_price_at_prediction": 655.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The tech-heavy Nasdaq is sensitive to rising interest rates and inflation concerns. With the 10-year Treasury yield at 4.29% and inflation worries persisting, QQQ may experience downward pressure today."
+    },
+    {
+      "id": "pred_gpt4o_20260423_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 387.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock is likely to be impacted by the broader market downturn and concerns over electric vehicle demand amid rising oil prices and geopolitical uncertainties."
+    },
+    {
+      "id": "pred_gpt4o_20260423_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78500.0,
+      "current_price_at_prediction": 77535.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin often acts as a hedge during times of geopolitical tension and inflation concerns. With current market uncertainties, BTC may see increased demand, pushing its price higher."
+    }
+  ]
+}

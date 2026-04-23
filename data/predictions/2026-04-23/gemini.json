@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-23",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-23T11:41:37.386360+00:00",
+  "market_context": "Market sentiment is currently mixed, with strong tech earnings offset by concerns over rising interest rates. Inflation data released this morning showed a slight increase, leading to some volatility in early trading.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260423_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive analyst revisions for key components."
+    },
+    {
+      "id": "pred_gemini_20260423_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain reports indicate potential delays for upcoming product launches, leading to investor caution."
+    },
+    {
+      "id": "pred_gemini_20260423_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 418.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.75,
+      "reasoning": "Cloud computing division continues to show robust growth, and a new partnership announcement is expected by week's end."
+    },
+    {
+      "id": "pred_gemini_20260423_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 173.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent price cuts are putting pressure on profit margins, impacting long-term outlook."
+    }
+  ]
+}

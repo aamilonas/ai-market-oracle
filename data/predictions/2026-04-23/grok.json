@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-23",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-23T11:42:34.079078+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth despite lingering inflation concerns. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major economic data releases are scheduled for today, but earnings from key tech firms are anticipated after hours.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260423_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 711.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to close higher based on positive pre-market futures data from Bloomberg and a generally upbeat sentiment on X/Twitter regarding economic recovery. The 5-day trend of +1.6% supports a continuation of upward momentum, though elevated VIX at 19.62 suggests some volatility risk."
+    },
+    {
+      "id": "pred_grok_20260423_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 202.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is likely to see gains due to strong options flow indicating bullish sentiment, as reported by unusual_whales on X. Additionally, web searches highlight upcoming product announcements that could drive investor interest. The tech sector's strength in QQQ (+2.8% over 5 days) further supports this outlook."
+    },
+    {
+      "id": "pred_grok_20260423_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 383.0,
+      "current_price_at_prediction": 387.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may face downward pressure due to mixed sentiment on X/Twitter, with some users citing concerns over recent production delays reported by Reuters. While the stock has shown resilience, short interest data from web sources suggests potential selling pressure today."
+    },
+    {
+      "id": "pred_grok_20260423_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 273.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL is expected to rise slightly based on positive buzz on X/Twitter about potential new product leaks, as well as web reports of strong institutional buying. The overall tech sector momentum reflected in QQQ's 5-day +2.8% gain supports a modest uptick."
+    }
+  ]
+}

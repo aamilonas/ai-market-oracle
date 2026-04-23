@@ -1,19 +1,20 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "winner": {
     "ticker": "TSLA",
     "direction": "down",
-    "avg_confidence": 0.6733,
-    "avg_target": 310.0,
-    "avg_entry": 316.05,
-    "expected_move_pct": 1.91,
-    "score": 1.2882,
+    "avg_confidence": 0.6325,
+    "avg_target": 328.25,
+    "avg_entry": 334.01,
+    "expected_move_pct": 1.72,
+    "score": 1.0903,
     "models": [
+      "Claude",
       "Grok",
-      "Gemini",
-      "Claude"
+      "GPT-4o",
+      "Gemini"
     ],
-    "model_count": 3,
+    "model_count": 4,
     "high_conviction": false
   }
 }

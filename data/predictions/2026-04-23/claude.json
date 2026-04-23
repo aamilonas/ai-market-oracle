@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-23",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-23T06:30:00Z",
+  "market_context": "Markets are rallying on extended Iran ceasefire that removed binary geopolitical risk, though oil remains elevated. Strong earnings season continues with 75% of S&P 500 companies beating expectations, led by tech and energy sectors.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260423_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 662.0,
+      "current_price_at_prediction": 655.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "QQQ's pre-market is showing at 650.05 indicating initial weakness, but the Iran ceasefire extension is driving strong risk-on sentiment with tech benefiting most from reduced geopolitical uncertainty. Broadcom and semiconductors rallied 5-8% yesterday on AI datacenter demand, and technical indicators show 'Strong Buy' signals."
+    },
+    {
+      "id": "pred_claude_20260423_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 387.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Tesla reported Q1 earnings that beat on revenue ($22.4B) but warned of 'substantial' capex increases exceeding $25B in 2026, impacting free cash flow. Stock initially rose but fell 3% after Musk's guidance on elevated spending for AI and robotics initiatives."
+    },
+    {
+      "id": "pred_claude_20260423_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.0,
+      "current_price_at_prediction": 711.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "S&P 500 futures were up 0.56% pre-market following ceasefire extension which removed major binary risk. VIX dropped from 19.62 to near 20 as volatility premium deflated. Strong earnings season with 75% of companies beating estimates supports upside momentum despite oil price concerns."
+    },
+    {
+      "id": "pred_claude_20260423_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 207.5,
+      "current_price_at_prediction": 202.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NVIDIA continues aggressive investment spree with $1B funding of Vast Data at $30B valuation, cementing AI ecosystem dominance. Despite Google's new TPU competition, NVIDIA reported strong Q4 revenue growth of 73% YoY and benefits from reduced geopolitical uncertainty driving tech rally."
+    },
+    {
+      "id": "pred_claude_20260423_005",
+      "ticker": "GEV",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 115.0,
+      "current_price_at_prediction": 108.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "GE Vernova soared 8% yesterday after beating earnings and raising 2026 guidance, driven by massive datacenter power equipment demand. Company raised revenue outlook to $44.5-45.5B with $2.4B in Q1 datacenter orders alone, more than all of 2025 combined. Momentum should continue today."
+    }
+  ]
+}

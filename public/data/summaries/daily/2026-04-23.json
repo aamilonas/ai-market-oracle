@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T11:42:43.871645+00:00",
+  "headline": "Models Split on Market Direction Amid Geopolitical Tensions and Tech Earnings",
+  "summary": "AI models showed sharp disagreement on SPY's direction, with three predicting upward movement citing Iran ceasefire extension while two expected declines due to inflation concerns. Tesla predictions clustered bearishly across four models, though with wildly different price targets ranging from $170 to $383, while NVDA sentiment leaned bullish on continued AI momentum.",
+  "consensus_picks": [
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "All four models bearish on Tesla citing earnings concerns and EV competition, though targets varied dramatically."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Bulls cited ceasefire extension while bears pointed to inflation and rising yields, creating a 3-2 split."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models bullish on NVIDIA's AI momentum and recent $1B Vast Data investment."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both crypto predictions expected Bitcoin to rise as a hedge against geopolitical uncertainty."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "GEV",
+    "score": 0.0,
+    "summary": "Claude showed highest confidence (82%) on GE Vernova after 8% surge on earnings beat."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "TSLA",
+    "score": 0.0,
+    "summary": "Gemini's $170 Tesla target appears extremely bearish compared to other models' $380+ targets."
+  }
+}
