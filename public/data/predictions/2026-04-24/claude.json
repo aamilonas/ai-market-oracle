@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-24",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-24T07:00:00Z",
+  "market_context": "Markets facing volatile conditions with oil surging above $105/bbl due to Iran-US tensions and Strait of Hormuz disruptions. Tesla's mixed Q1 earnings beat expectations but guidance disappointed, while geopolitical uncertainty continues to impact sentiment despite extended ceasefire.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260424_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.5,
+      "current_price_at_prediction": 708.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Oil prices surging above $105/bbl creates inflation concerns and margin pressure for broad market. Despite ceasefire extension, shipping disruptions in Strait of Hormuz continue with 4-5M barrels/day demand destruction. Rising VIX (+5.6%) signals increased volatility ahead."
+    },
+    {
+      "id": "pred_claude_20260424_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 365.0,
+      "current_price_at_prediction": 373.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Tesla's Q1 earnings beat ($0.41 vs $0.37 expected) but revenue missed and management announced $25B capex guidance vs prior $20B. Stock initially rose 4% after-hours but gave up gains after Musk's spending warnings. Negative sentiment likely to persist into regular trading."
+    },
+    {
+      "id": "pred_claude_20260424_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.25,
+      "current_price_at_prediction": 90.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Oil prices have surged from ~$94 to over $105/bbl in recent days on Iran-US tensions. Brent crude at $107.14 and WTI at $97.40 with supply disruption fears intact. Energy sector should benefit directly from sustained higher oil prices and geopolitical risk premium."
+    },
+    {
+      "id": "pred_claude_20260424_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 98.75,
+      "current_price_at_prediction": 96.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Rising geopolitical tensions and oil-driven inflation concerns could drive flight-to-safety flows into Treasuries. Initial jobless claims data (forecast 212K vs 207K prior) may show labor market softening. 10Y yield at 4.32% provides potential for bond rally if risk-off sentiment dominates."
+    },
+    {
+      "id": "pred_claude_20260424_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 199.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Broad tech weakness expected as oil surge threatens margins and growth outlook. Tesla's guidance disappointment may weigh on high-multiple tech names. Despite AI optimism, geopolitical uncertainty and rising energy costs create headwinds for semiconductor stocks trading at premium valuations."
+    }
+  ]
+}
