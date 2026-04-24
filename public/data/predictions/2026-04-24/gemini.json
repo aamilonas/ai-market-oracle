@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-24",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-24T11:42:24.108002+00:00",
+  "market_context": "The market is showing mixed signals with strong tech sector performance counterbalanced by concerns over global supply chains. Inflation data released this morning was slightly higher than expected, leading to some volatility.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260424_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in tech sector, likely to pull broader market up."
+    },
+    {
+      "id": "pred_gemini_20260424_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 172.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain disruptions and analyst downgrades suggest a short-term pullback."
+    },
+    {
+      "id": "pred_gemini_20260424_003",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Upcoming earnings report expected to be positive, driving investor optimism."
+    }
+  ]
+}

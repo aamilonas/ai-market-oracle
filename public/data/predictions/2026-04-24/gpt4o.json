@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-24",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-24T11:42:45.799958+00:00",
+  "market_context": "As of April 24, 2026, the U.S. stock market is experiencing slight declines across major indices, with SPY at $708.45 (-0.39%), QQQ at $651.42 (-0.54%), and DIA at $493.00 (-0.36%). Key economic indicators include the VIX at 18.46 (+5.6% over 5 days) and the 10-year Treasury yield at 4.32%. Notable economic events today are the release of the Advance Report on Durable Goods and the University of Michigan Consumer Sentiment Index.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260424_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 708.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the current market context, with SPY trading at $708.45 and a slight decline of 0.39%, coupled with the VIX at 18.46 (+5.6% over 5 days) indicating increased market volatility, and the 10-year Treasury yield at 4.32% suggesting potential shifts in investor sentiment, there is a reasonable expectation for SPY to experience a further decline by the end of the day. Additionally, upcoming economic reports, such as the Advance Report on Durable Goods and the University of Michigan Consumer Sentiment Index, may introduce additional market uncertainty."
+    },
+    {
+      "id": "pred_gpt4o_20260424_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 273.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple Inc. (AAPL) is currently trading at $273.43, with a slight increase of 0.12%. Despite the broader market's downward trend, AAPL's resilience suggests potential for modest gains. The company's strong market position and recent product announcements may contribute to positive investor sentiment, leading to a potential increase in its stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260424_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 79000.0,
+      "current_price_at_prediction": 78288.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin (BTC) is currently trading at $78288, with a 5-day increase of 6.0%. The cryptocurrency market has shown resilience amid recent market volatility, and BTC's upward momentum suggests a potential continuation of this trend. Factors such as increased institutional adoption and positive market sentiment may contribute to BTC reaching $79000 by the end of the day."
+    }
+  ]
+}

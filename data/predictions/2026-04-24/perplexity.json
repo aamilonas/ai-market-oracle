@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-24T11:42:19Z",
+  "market_context": "Search results primarily reflect yesterday's (2026-04-23) SPY trading data, showing a previous close of $708.45, with a daily range of $702.29-$712.35 and recent prices around $708.42-$711.10 across sources[1][3][5]. No specific futures, pre-market movers, overnight news, or economic calendar details for 2026-04-24 are available in the results, limiting insights into today's open. VIX at 18.46 (up 5.6% over 5 days) suggests moderately elevated volatility[provided data].",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260424_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 710.5,
+      "current_price_at_prediction": 708.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Yesterday's range reached a high of $712.35-$712.39 with close at $708.45, indicating bullish intraday momentum[1][2][5]. 5-day performance +1.0% and recent gain of 0.39% ending a losing streak support modest upside[1][provided data]. Elevated VIX at 18.46 may cap gains, but lack of negative news points to slight EOD increase."
+    },
+    {
+      "id": "pred_perplexity_20260424_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 655.0,
+      "current_price_at_prediction": 651.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ's stronger 5-day gain of +1.7% outperforms SPY's +1.0%, suggesting tech sector resilience[provided data]. SPY's yesterday high of $712.35 correlates with broad market strength potentially lifting QQQ[1][5]. Limited specific data tempers confidence, but momentum favors upside."
+    },
+    {
+      "id": "pred_perplexity_20260424_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 199.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA aligns with QQQ's tech momentum (+1.7% 5-day)[provided data]. SPY's recent range expansion to $712.35 supports large-cap tech gains[2][5]. No contradictory news in results, but uncertainty from VIX rise (+5.6%) warrants neutral confidence."
+    },
+    {
+      "id": "pred_perplexity_20260424_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 79200.0,
+      "current_price_at_prediction": 78317.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC-USD shows strong 5-day +6.0% gain, outpacing equities[provided data]. Equity futures implied by SPY's yesterday strength ($708.45 close, $712 high) often correlate with crypto rallies[1][5]. Elevated VIX may introduce volatility, but momentum persists."
+    }
+  ]
+}

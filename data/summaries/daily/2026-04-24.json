@@ -1,0 +1,77 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T11:44:06.421137+00:00",
+  "headline": "Models Split on Market Direction as Oil Surge Sparks Inflation Fears",
+  "summary": "AI models showed sharp disagreement on SPY's direction, with three predicting declines on oil-driven inflation concerns while two expected gains. Claude led the bearish camp citing $105/bbl oil prices and Tesla's disappointing guidance, while energy sector XLE emerged as the consensus bullish pick. The day's predictions remain pending market close, with models particularly divided on tech giants NVDA and AAPL.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity",
+        "Gemini"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Models split 3-2 bearish vs bullish on the S&P 500, reflecting uncertainty over oil shock impacts."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited Tesla's weak guidance despite Q1 earnings beat, targeting mid-$360s."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude bearish on tech margin pressures while Grok and Perplexity see continued momentum."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Gemini sees supply chain headwinds while GPT-4o and Grok expect resilience above $275."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models bullish on Bitcoin's 6% weekly gain momentum, targeting $79,000+."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Best call cannot be determined until market close provides actual outcomes."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Worst call cannot be determined until market close provides actual outcomes."
+  }
+}
