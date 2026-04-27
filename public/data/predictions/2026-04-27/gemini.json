@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-27",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-27T12:09:14.542385+00:00",
+  "market_context": "Market sentiment is generally positive due to strong earnings reports from tech giants. However, inflation concerns persist, leading to some volatility in the broader market.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260427_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260427_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week is driving investor interest, and recent analyst upgrades support an upward trend."
+    },
+    {
+      "id": "pred_gemini_20260427_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays reported in the news, combined with a general market pullback in high-growth stocks, suggest a short-term dip."
+    }
+  ]
+}
