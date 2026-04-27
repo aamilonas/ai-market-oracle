@@ -1,22 +1,9 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T12:09:57.686117+00:00",
-  "headline": "Models Split on SPY While Tech Bulls Unite on Apple and NVDA",
-  "summary": "AI models showed strong disagreement on SPY's direction with three predicting up and one down, while demonstrating remarkable consensus on tech giants AAPL (5 models bullish) and energy plays. The day's predictions highlighted a clear tech sector optimism ahead of major earnings, with models citing everything from Azure growth expectations to iPhone sales projections.",
+  "generated_at": "2026-04-27T23:14:45.922816+00:00",
+  "headline": "Models nail tech rally while Apple disappoints across the board",
+  "summary": "AI models showed strong consensus on SPY and QQQ upside, correctly predicting the market's bullish momentum with tech stocks leading the charge. However, all four models that predicted Apple would rise were wrong, as AAPL closed at $267.61 despite widespread optimism about upcoming earnings.",
   "consensus_picks": [
-    {
-      "ticker": "AAPL",
-      "models_agreeing": [
-        "Claude",
-        "Gemini",
-        "GPT-4o",
-        "Grok",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "All five models bullish on Apple ahead of Thursday's earnings, with targets ranging from $220 to $275."
-    },
     {
       "ticker": "SPY",
       "models_agreeing": [
@@ -25,9 +12,9 @@
         "Grok",
         "Perplexity"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Four models predict SPY up while Claude stands alone bearish, citing Fed meeting uncertainty."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Four models correctly called SPY's rise to $715.17, while only Claude dissented with a bearish view."
     },
     {
       "ticker": "QQQ",
@@ -37,8 +24,30 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy QQQ gets unanimous bullish calls from all three models covering it."
+      "outcome": "correct",
+      "note": "All three models targeting QQQ nailed the tech-heavy index's climb to $664.23."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "A rare unanimous miss as all four models expected Apple to rise ahead of earnings, but it fell to $267.61."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Both models correctly identified NVDA's continued strength, with the stock reaching $216.61."
     },
     {
       "ticker": "TSLA",
@@ -47,22 +56,22 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models covering Tesla predict downside, citing production delays and model rollout concerns."
+      "outcome": "wrong",
+      "note": "Both bearish calls on Tesla were wrong as the stock surged to $378.67, defying production delay concerns."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": null,
-    "summary": "Best call cannot be determined until market close provides actual outcomes."
+    "prediction_id": "pred_QQQ_Perplexity",
+    "model_display_name": "Perplexity",
+    "ticker": "QQQ",
+    "score": 1.15,
+    "summary": "Perplexity's QQQ call earned the day's highest score, correctly identifying tech momentum with strong 65% confidence."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": null,
-    "summary": "Worst call cannot be determined until market close provides actual outcomes."
+    "prediction_id": "pred_AAPL_Claude",
+    "model_display_name": "Claude",
+    "ticker": "AAPL",
+    "score": -0.72,
+    "summary": "Claude's high-confidence Apple bull call backfired the most, expecting $275 but getting $267.61 instead."
   }
 }
