@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-27",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-27T09:00:00Z",
+  "market_context": "Markets face a critical week with Fed meeting (likely Powell's last), major tech earnings from 5 of Magnificent Seven companies, and ongoing Iran tensions keeping oil above $105. Pre-market futures show mixed signals with oil pressures offsetting tech optimism.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260427_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.0,
+      "current_price_at_prediction": 713.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Fed meeting uncertainty and elevated oil prices create headwinds despite strong tech sector momentum. Pre-market futures showing flat to slightly negative, suggesting profit-taking ahead of major catalysts."
+    },
+    {
+      "id": "pred_claude_20260427_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 271.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Apple reports Thursday after close, but anticipation builds today. New CEO John Tenrus transition narrative and strong Q1 expectations (EPS growth ~20%) should drive pre-earnings momentum."
+    },
+    {
+      "id": "pred_claude_20260427_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 424.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Reports Wednesday after close with strong Azure growth expectations (+25%) and positive revision trends. AI infrastructure investments showing ROI, positioning well for earnings beat."
+    },
+    {
+      "id": "pred_claude_20260427_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 129.5,
+      "current_price_at_prediction": 126.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Oil majors benefit directly from sustained high oil prices ($105+ Brent). Iran tensions keeping energy prices elevated with Strait of Hormuz disruptions continuing. Reports this week should show strong margins."
+    },
+    {
+      "id": "pred_claude_20260427_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 668.0,
+      "current_price_at_prediction": 663.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Tech earnings anticipation and pre-market Nasdaq futures +0.2% suggest modest gains. Five Magnificent Seven companies reporting this week creates upside potential despite broader market caution."
+    }
+  ]
+}

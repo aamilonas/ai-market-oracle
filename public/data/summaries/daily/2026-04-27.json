@@ -1,0 +1,68 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T12:09:57.686117+00:00",
+  "headline": "Models Split on SPY While Tech Bulls Unite on Apple and NVDA",
+  "summary": "AI models showed strong disagreement on SPY's direction with three predicting up and one down, while demonstrating remarkable consensus on tech giants AAPL (5 models bullish) and energy plays. The day's predictions highlighted a clear tech sector optimism ahead of major earnings, with models citing everything from Azure growth expectations to iPhone sales projections.",
+  "consensus_picks": [
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "All five models bullish on Apple ahead of Thursday's earnings, with targets ranging from $220 to $275."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Four models predict SPY up while Claude stands alone bearish, citing Fed meeting uncertainty."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy QQQ gets unanimous bullish calls from all three models covering it."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models covering Tesla predict downside, citing production delays and model rollout concerns."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": null,
+    "summary": "Best call cannot be determined until market close provides actual outcomes."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": null,
+    "summary": "Worst call cannot be determined until market close provides actual outcomes."
+  }
+}

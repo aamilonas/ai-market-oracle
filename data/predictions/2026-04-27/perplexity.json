@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-27T12:09:08Z",
+  "market_context": "Search results indicate NVDA trading around $208-210 in recent sessions, consistent with the provided previous close of $208.27, showing intraday gains up to +4.3% on April 26 amid high volume of 214M shares[1][2]. No specific futures, pre-market, or economic data for April 27 available in results; major indices like SPY and QQQ closed higher over 5 days with stable VIX at 18.96. Limited overnight news points to ongoing NVDA strength in AI sector.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260427_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.0,
+      "current_price_at_prediction": 713.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY's 5-day gain of +0.5% and stable VIX at 18.96 suggest continued mild upside momentum into Monday. NVDA's recent +4.3% intraday strength to $210.85 on high volume could lift broader market[1]. Low Treasury yield at 4.31% supports risk assets without major counterindicators."
+    },
+    {
+      "id": "pred_perplexity_20260427_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 669.0,
+      "current_price_at_prediction": 663.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ's stronger 5-day performance of +2.3% aligns with NVDA trading near $208-210 and +0.36% intraday moves[1][2]. Tech sector resilience evident in NVDA's volume surge to 214M shares vs. average 144M[1]. Absence of negative news supports end-of-day gains."
+    },
+    {
+      "id": "pred_perplexity_20260427_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 211.0,
+      "current_price_at_prediction": 208.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA showed +4.3% intraday to $210.85 on April 26 with volume 214M exceeding average 144M[1]. Current quotes cluster at $208-210 across sources, with +0.36% open move[2]. Analyst target of $267.55 indicates sustained bullish outlook[4]."
+    },
+    {
+      "id": "pred_perplexity_20260427_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 273.0,
+      "current_price_at_prediction": 271.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech peers like NVDA and QQQ exhibit positive momentum (+2.3% 5-day for QQQ)[baseline]. Stable market indicators (VIX +0.5%) favor modest gains in mega-caps like AAPL. No adverse news in results supports alignment with sector uptrend."
+    }
+  ]
+}

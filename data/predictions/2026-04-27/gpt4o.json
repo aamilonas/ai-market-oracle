@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-27",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-27T12:09:36.709901+00:00",
+  "market_context": "As of April 27, 2026, the S&P 500 ETF (SPY) closed at $713.94, up 0.5% over the past five days. The Nasdaq-100 ETF (QQQ) closed at $663.88, gaining 2.3% in the same period. The VIX stands at 18.96, indicating moderate market volatility. The 10-year Treasury yield is at 4.31%. Bitcoin (BTC) is priced at $77779.14, down 0.5% over the past five days, while Ethereum (ETH) is at $2318.19, down 2.4%.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260427_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 713.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY has shown a steady 0.5% increase over the past five days, indicating positive momentum. With no significant economic reports scheduled for today, the market is likely to maintain its current trajectory. Additionally, the VIX at 18.96 suggests moderate volatility, supporting a stable upward trend."
+    },
+    {
+      "id": "pred_gpt4o_20260427_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 670.0,
+      "current_price_at_prediction": 663.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The QQQ has gained 2.3% over the past five days, reflecting strong performance in the technology sector. With no major economic events today, this positive trend is expected to continue. The current market conditions and investor sentiment favor further gains in tech stocks."
+    },
+    {
+      "id": "pred_gpt4o_20260427_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 271.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has been relatively stable, with a slight decrease of 0.86% recently. However, the overall positive momentum in the tech sector, as indicated by the QQQ's performance, suggests that AAPL may experience a modest uptick by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260427_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 77000.0,
+      "current_price_at_prediction": 77779.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has declined by 0.5% over the past five days, indicating a slight downward trend. Given the absence of significant market catalysts today, this trend may persist, leading to a modest decrease in BTC's price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260427_005",
+      "ticker": "ETH-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 2300.0,
+      "current_price_at_prediction": 2318.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Ethereum has experienced a 2.4% decline over the past five days, suggesting a stronger downward momentum compared to Bitcoin. In the absence of significant market events today, it's likely that ETH will continue its downward trajectory, resulting in a slight decrease by the end of the day."
+    }
+  ]
+}
