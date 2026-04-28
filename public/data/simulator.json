@@ -1,5 +1,5 @@
 {
-  "balance": 27503.53,
+  "balance": 28106.53,
   "starting_balance": 25000,
   "trades": [
     {
@@ -110,12 +110,12 @@
     {
       "date": "2026-04-21",
       "ticker": "NVDA",
-      "direction": "up",
+      "direction": "down",
       "entry_price": 202.13,
       "exit_price": 199.88,
       "shares": 134,
-      "pnl": -301.5,
-      "pnl_pct": -1.11,
+      "pnl": 301.5,
+      "pnl_pct": 1.11,
       "models": [
         "Grok",
         "Perplexity",
