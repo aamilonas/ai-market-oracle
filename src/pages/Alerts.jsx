@@ -12,7 +12,7 @@ const MOCK_ALERTS = [
 ]
 
 const NOTIFICATION_SETTINGS = [
-  { key: 'consensus', label: 'Consensus Signals', desc: 'When 3+ models agree on a direction' },
+  { key: 'consensus', label: 'Consensus Signals', desc: 'When 4+ models agree on a direction' },
   { key: 'highConviction', label: 'High Conviction Alerts', desc: 'When 4+ models agree with >70% confidence' },
   { key: 'tradeExecution', label: 'Trade Executions', desc: 'When auto-trade places or closes a position' },
   { key: 'dailyScores', label: 'Daily Score Reports', desc: 'Evening summary of model performance' },

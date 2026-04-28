@@ -31,9 +31,9 @@ const tiers = [
   },
   {
     name: 'Pro',
-    price: 29,
-    period: '/month',
-    features: ['Auto-trading execution', 'Real-time trade alerts', 'Custom model weighting', 'Full analytics dashboard', 'Priority support'],
+    price: 100,
+    period: '/mo · accounts under $25K',
+    features: ['Accounts $25K+: 5% of returns (no monthly fee)', 'Auto-trading execution', 'Real-time trade alerts', 'Custom model weighting', 'Full analytics dashboard', 'Priority support'],
     cta: 'Start Free Trial',
     ctaTo: '/signup',
     highlighted: true,

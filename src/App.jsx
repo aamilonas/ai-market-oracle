@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import { ThemeProvider } from './context/ThemeContext'
 import Layout from './components/Layout'
+import Home from './pages/Home'
 import ModelPage from './pages/ModelPage'
 import Scoreboard from './pages/Scoreboard'
 import Simulator from './pages/Simulator'
@@ -42,6 +43,7 @@ export default function App() {
               <Route path="/settings" element={<Settings />} />
 
               {/* Analysis — sidebar layout, public */}
+              <Route path="/predictions" element={<Home />} />
               <Route path="/leaderboard" element={<Scoreboard />} />
               <Route path="/analytics" element={<Analytics />} />
               <Route path="/paper-trading" element={<Simulator />} />

@@ -174,7 +174,7 @@ export default function Simulator() {
 
       {trades.length === 0 && (
         <div className={styles.empty}>
-          No trades yet. The simulator will open its first trade when 3+ models agree on a stock pick.
+          No trades yet. The simulator will open its first trade when 4+ models agree on a stock pick.
         </div>
       )}
     </div>

@@ -1,7 +1,7 @@
 """
 Today's Winner selection and paper trading simulator.
 
-Finds the highest-conviction individual stock pick where 3+ models agree
+Finds the highest-conviction individual stock pick where 4+ models agree
 on direction, then manages simulated trades in data/simulator.json.
 """
 
@@ -23,7 +23,7 @@ from utils import (
 log = get_logger("winner")
 
 EXCLUDED_TICKERS = {"DIA", "VIX", "IWM"}
-MIN_MODELS_AGREEING = 3
+MIN_MODELS_AGREEING = 4
 ETF_LEVERAGE_MAP = {"SPY": "SPXL", "QQQ": "TQQQ"}
 ETF_MIN_MODELS = 4  # ETFs require 4/5 models to agree
 SIMULATOR_FILE = DATA_DIR / "simulator.json"
@@ -42,7 +42,7 @@ DEFAULT_WINNER = {
 
 
 def select_todays_winner(date_str):
-    """Find the highest-conviction stock pick where 3+ models agree."""
+    """Find the highest-conviction stock pick where 4+ models agree."""
     pred_dir = PREDICTIONS_DIR / date_str
     if not pred_dir.exists():
         log.warning(f"No predictions directory for {date_str}")
@@ -117,7 +117,7 @@ def select_todays_winner(date_str):
         })
 
     if not candidates:
-        log.info(f"No consensus winner for {date_str} (no ticker with 3+ models agreeing)")
+        log.info(f"No consensus winner for {date_str} (no ticker with 4+ models agreeing)")
         return None
 
     # Return highest-scoring candidate

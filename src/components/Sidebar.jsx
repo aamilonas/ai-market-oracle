@@ -7,6 +7,7 @@ import {
   Ruler,
   Info,
   LayoutDashboard,
+  LayoutGrid,
   Zap,
   Briefcase,
   Link2,
@@ -24,6 +25,7 @@ const ICON_STROKE = 1.75
 
 const publicLinks = [
   { group: 'Analysis', items: [
+    { to: '/predictions', label: 'Predictions', Icon: LayoutGrid },
     { to: '/leaderboard', label: 'Leaderboard', Icon: Trophy },
     { to: '/analytics', label: 'Analytics', Icon: LineChart },
     { to: '/paper-trading', label: 'Paper Trading', Icon: ClipboardList },
@@ -42,6 +44,7 @@ const authLinks = [
     { to: '/portfolio', label: 'Portfolio', Icon: Briefcase },
   ]},
   { group: 'Analysis', items: [
+    { to: '/predictions', label: 'Predictions', Icon: LayoutGrid },
     { to: '/leaderboard', label: 'Leaderboard', Icon: Trophy },
     { to: '/analytics', label: 'Analytics', Icon: LineChart },
     { to: '/paper-trading', label: 'Paper Trading', Icon: ClipboardList },
