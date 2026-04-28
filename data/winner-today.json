@@ -1,21 +1,19 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "winner": {
-    "ticker": "AAPL",
+    "ticker": "NVDA",
     "direction": "up",
-    "avg_confidence": 0.648,
-    "avg_target": 263.5,
-    "avg_entry": 260.63,
-    "expected_move_pct": 1.1,
-    "score": 0.7141,
+    "avg_confidence": 0.6167,
+    "avg_target": 220.0,
+    "avg_entry": 216.61,
+    "expected_move_pct": 1.57,
+    "score": 0.9651,
     "models": [
-      "Claude",
       "Grok",
-      "Perplexity",
       "GPT-4o",
-      "Gemini"
+      "Perplexity"
     ],
-    "model_count": 5,
+    "model_count": 3,
     "high_conviction": false
   }
 }

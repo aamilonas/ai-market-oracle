@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-28",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-28T09:00:00Z",
+  "market_context": "Markets face mixed signals with S&P 500 futures down 0.1% pre-market amid Iran conflict stalemate pushing oil prices higher. Fed meeting starts today with 99.9% probability of holding rates at 3.5-3.75%. Big Tech earnings season is in full swing with concerns about OpenAI revenue growth and Microsoft partnership changes.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260428_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.5,
+      "current_price_at_prediction": 715.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures are down 0.1% pre-market with oil prices surging due to Iran conflict stalemate. Fed meeting uncertainty and OpenAI revenue concerns weighing on tech sentiment suggest modest decline despite recent record highs."
+    },
+    {
+      "id": "pred_claude_20260428_002",
+      "ticker": "ORCL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 167.5,
+      "current_price_at_prediction": 175.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Oracle shares falling 5.2% pre-market amid concerns about OpenAI partnership changes and slower-than-expected revenue growth at OpenAI. Microsoft ending exclusive revenue sharing arrangements creates uncertainty for Oracle's AI cloud strategy."
+    },
+    {
+      "id": "pred_claude_20260428_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 428.0,
+      "current_price_at_prediction": 424.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Microsoft benefits from ending OpenAI revenue sharing payments while maintaining primary cloud provider status. This reduces costs and increases flexibility, though OpenAI concerns create some headwinds."
+    },
+    {
+      "id": "pred_claude_20260428_004",
+      "ticker": "GM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 82.0,
+      "current_price_at_prediction": 77.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "GM significantly beat Q1 earnings expectations with $3.70 EPS vs $2.62 expected and raised 2026 guidance by $500M due to Supreme Court tariff refund. Stock up 5% pre-market with strong fundamentals supporting continued momentum."
+    },
+    {
+      "id": "pred_claude_20260428_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 21.5,
+      "current_price_at_prediction": 19.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Iran conflict stalemate with oil prices surging above $100/barrel, Fed meeting uncertainty, and tech sector concerns about OpenAI revenue growth should drive volatility higher from current subdued levels."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-28T12:12:24.794721+00:00",
+  "market_context": "Recent economic indicators suggest a mixed sentiment, with inflation concerns persisting but corporate earnings showing resilience. Technology stocks continue to drive market momentum, while interest rate hike expectations remain a key factor influencing investor decisions.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260428_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q1 earnings reports from major tech components are expected to push the index higher, overcoming minor inflation jitters."
+    },
+    {
+      "id": "pred_gemini_20260428_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 448.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Continued investor enthusiasm for growth stocks and positive analyst revisions for key tech giants will likely drive the Nasdaq up."
+    },
+    {
+      "id": "pred_gemini_20260428_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.58,
+      "reasoning": "Recent production slowdown reports and increased competition in the EV market are creating downward pressure, despite long-term growth prospects."
+    },
+    {
+      "id": "pred_gemini_20260428_004",
+      "ticker": "JPM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 203.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.62,
+      "reasoning": "Anticipated interest rate stability and robust performance in investment banking divisions are expected to support a modest rise by month-end."
+    }
+  ]
+}

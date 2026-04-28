@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-04-28T12:12:57.121632+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth despite mixed economic signals. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major unexpected news or events are dominating headlines today, though upcoming earnings from key tech firms are generating buzz.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260428_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 715.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to rise slightly by end of day due to positive pre-market futures and stable VIX levels indicating lower volatility. Sentiment on X shows retail investors are bullish on broad market recovery. This prediction aligns with the 5-day trend of +0.9%."
+    },
+    {
+      "id": "pred_grok_20260428_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 216.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is likely to see a modest increase due to positive chatter on X about AI and semiconductor demand. Web searches indicate upcoming product announcements that could drive interest. Options flow data suggests increased call buying activity."
+    },
+    {
+      "id": "pred_grok_20260428_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 375.0,
+      "current_price_at_prediction": 378.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may dip slightly by end of day as X sentiment shows mixed reactions to recent production updates. Web news highlights potential supply chain concerns that could weigh on the stock. Confidence is lower due to volatility in the EV sector."
+    },
+    {
+      "id": "pred_grok_20260428_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 670.0,
+      "current_price_at_prediction": 664.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ is predicted to rise based on strong pre-market futures and a 5-day trend of +2.7%. X discussions are heavily focused on tech earnings optimism, particularly for major constituents like AAPL and MSFT. Web searches confirm positive analyst outlooks for the Nasdaq."
+    }
+  ]
+}
