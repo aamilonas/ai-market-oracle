@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T12:13:06.616028+00:00",
+  "headline": "AI Models Split on SPY Direction Amid Iran Tensions and GM Earnings Beat",
+  "summary": "Models showed stark disagreement on market direction, with Claude bearish on SPY citing Iran conflict and oil surge above $100, while other models remained bullish on tech momentum. GM emerged as the highest conviction call at 85% confidence after beating Q1 earnings with $3.70 EPS vs $2.62 expected.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude and GPT-4o predicted down citing geopolitical tensions, while Gemini, Grok, and Perplexity saw upside."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models agreed NVDA would reach $220 on continued semiconductor demand and AI enthusiasm."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy index saw bullish consensus with targets around $450-670 based on strong 5-day momentum."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models cited production concerns and EV competition pressuring Tesla lower."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "GM",
+    "score": null,
+    "summary": "Claude's 85% confidence GM call backed by specific earnings beat data ($3.70 vs $2.62 EPS) and raised guidance stands out as most conviction."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": null,
+    "summary": "Results pending - market close needed to determine worst performer."
+  }
+}

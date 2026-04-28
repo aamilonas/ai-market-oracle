@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-28T12:12:47.577367+00:00",
+  "market_context": "U.S. stock futures are slightly down amid ongoing geopolitical tensions in the Middle East, particularly the U.S.-Iran impasse, which is keeping oil prices elevated. Investors are also anticipating key economic data releases and corporate earnings reports this week.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260428_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.0,
+      "current_price_at_prediction": 715.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the slight decline in U.S. stock futures due to unresolved U.S.-Iran tensions and elevated oil prices, there is a moderate likelihood that SPY will close lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260428_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 265.0,
+      "current_price_at_prediction": 267.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock may experience a slight decline today, influenced by broader market sentiment and the anticipation of upcoming earnings reports."
+    },
+    {
+      "id": "pred_gpt4o_20260428_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 216.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA's recent positive momentum, coupled with strong demand in the semiconductor sector, suggests a potential modest gain by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260428_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 75000.0,
+      "current_price_at_prediction": 76238.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has been experiencing a downward trend over the past five days, and this momentum may continue, leading to a further decline by the end of today."
+    }
+  ]
+}
