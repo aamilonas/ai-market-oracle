@@ -1,8 +1,8 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T12:13:06.616028+00:00",
-  "headline": "AI Models Split on SPY Direction Amid Iran Tensions and GM Earnings Beat",
-  "summary": "Models showed stark disagreement on market direction, with Claude bearish on SPY citing Iran conflict and oil surge above $100, while other models remained bullish on tech momentum. GM emerged as the highest conviction call at 85% confidence after beating Q1 earnings with $3.70 EPS vs $2.62 expected.",
+  "generated_at": "2026-04-28T23:14:57.508778+00:00",
+  "headline": "Models Split on Market Direction as Claude Dominates with Perfect 4-0 Record",
+  "summary": "Claude achieved a flawless performance going 4-0 with high confidence calls, particularly nailing the Oracle decline and Microsoft rise amid OpenAI partnership shifts. The models were deeply divided on SPY's direction with Claude and GPT-4o correctly predicting a decline while Gemini, Grok, and Perplexity wrongly expected gains, resulting in SPY closing down at 711.69.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -10,9 +10,9 @@
         "Claude",
         "GPT-4o"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude and GPT-4o predicted down citing geopolitical tensions, while Gemini, Grok, and Perplexity saw upside."
+      "agreed_direction": "down",
+      "outcome": "correct",
+      "note": "Claude and GPT-4o correctly anticipated market weakness from Iran tensions while three other models wrongly expected gains."
     },
     {
       "ticker": "NVDA",
@@ -22,8 +22,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models agreed NVDA would reach $220 on continued semiconductor demand and AI enthusiasm."
+      "outcome": "wrong",
+      "note": "Three models incorrectly predicted NVDA would rise to 220, but it actually fell to 213.17."
     },
     {
       "ticker": "QQQ",
@@ -33,32 +33,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy index saw bullish consensus with targets around $450-670 based on strong 5-day momentum."
-    },
-    {
-      "ticker": "TSLA",
-      "models_agreeing": [
-        "Gemini",
-        "Grok"
-      ],
-      "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models cited production concerns and EV competition pressuring Tesla lower."
+      "outcome": "split",
+      "note": "While QQQ did rise to 657.55, all three models significantly overshot with targets around 670."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_oracle_claude",
     "model_display_name": "Claude",
-    "ticker": "GM",
-    "score": null,
-    "summary": "Claude's 85% confidence GM call backed by specific earnings beat data ($3.70 vs $2.62 EPS) and raised guidance stands out as most conviction."
+    "ticker": "ORCL",
+    "score": 1.28,
+    "summary": "Claude perfectly predicted Oracle's sharp 5.2% pre-market decline due to OpenAI partnership concerns, with high 0.78 confidence."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": null,
-    "summary": "Results pending - market close needed to determine worst performer."
+    "prediction_id": "pred_nvda_grok",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Grok confidently predicted NVDA would rise to 220 based on AI sentiment, but it fell to 213.17 instead."
   }
 }
