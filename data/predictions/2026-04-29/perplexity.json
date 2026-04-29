@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-29",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-29T12:05:00Z",
+  "market_context": "Tech-heavy indices showing strength with QQQ up 2.0% over 5 days and SPY up 1.1%, while VIX has declined 4.8% indicating reduced volatility. Apple trades near analyst consensus targets with 12-month average price target of $288.55, suggesting modest upside from current $270.71 level. Market breadth appears positive with low Treasury yields at 4.35% supporting equity valuations.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260429_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 714.5,
+      "current_price_at_prediction": 711.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY has gained 1.1% over 5 days with declining VIX (18.01, down 4.8%), suggesting continued momentum. Broad market strength in tech (QQQ +2.0%) typically supports large-cap index performance. Modest intraday gain of 0.4% aligns with reduced volatility environment."
+    },
+    {
+      "id": "pred_perplexity_20260429_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 273.5,
+      "current_price_at_prediction": 270.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "AAPL trades below consensus 12-month target of $288.55 with 76 Buy ratings versus 9 Sell ratings[1]. UBS recently raised target to $287[6]. Current price of $270.71 represents 6.0% discount to average analyst target, providing technical support for modest intraday appreciation."
+    },
+    {
+      "id": "pred_perplexity_20260429_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 660.25,
+      "current_price_at_prediction": 657.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ has outperformed with 2.0% 5-day gain, indicating strong tech sector momentum. Declining VIX and positive analyst sentiment on mega-cap tech (AAPL, MSFT, NVDA) support continued strength. Intraday continuation of uptrend likely given reduced volatility environment."
+    },
+    {
+      "id": "pred_perplexity_20260429_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 431.75,
+      "current_price_at_prediction": 429.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "MSFT benefits from broad tech sector momentum (QQQ +2.0% 5-day) and positive market breadth. As QQQ component with strong institutional support, modest intraday appreciation aligns with index performance and reduced volatility backdrop."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-29",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-29T08:30:00Z",
+  "market_context": "Markets face three major catalysts today: Fed's rate decision (100% expected hold at 3.5%-3.75%), Powell's final press conference, and Big Tech earnings from MSFT, META, GOOGL, and AMZN after close. Oil remains elevated above $110 due to Iran-Strait of Hormuz tensions despite diplomatic proposals.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260429_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 711.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Fed meeting typically creates volatility with 'buy the rumor, sell the news' pattern. Rising oil prices and OpenAI concerns about AI spending effectiveness weigh on sentiment. Expect modest pullback before Big Tech earnings drive direction."
+    },
+    {
+      "id": "pred_claude_20260429_002",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 365.0,
+      "current_price_at_prediction": 349.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Alphabet has outperformed Mag 7 peers with stock doubling in past year. Cloud growth accelerated to +48% in Q4 2025, expecting further acceleration. AI monetization progress and strong search trends support bullish case despite high expectations."
+    },
+    {
+      "id": "pred_claude_20260429_003",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "current_price_at_prediction": 671.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Meta up 29% in one month creates vulnerability to profit-taking. Massive AI capex guidance of $115-135B raises concerns about returns on investment. Recent 8,000 layoffs suggest cost pressures despite revenue growth expectations."
+    },
+    {
+      "id": "pred_claude_20260429_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 665.0,
+      "current_price_at_prediction": 657.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 futures already up 0.3% in premarket. Tech sector estimate revisions remain positive, and Seagate's strong AI guidance (+17% premarket) boosts data storage/AI infrastructure sentiment despite OpenAI concerns."
+    },
+    {
+      "id": "pred_claude_20260429_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 213.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia benefits from hyperscaler capex commentary even without reporting. Combined $600B+ AI infrastructure spending from MSFT/META/GOOGL/AMZN supports demand outlook. Semiconductor sector showing extreme momentum with RSI above 80."
+    }
+  ]
+}

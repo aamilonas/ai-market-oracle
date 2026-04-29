@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T12:06:21.600643+00:00",
+  "headline": "AI Models Split on Market Direction Ahead of Fed Meeting",
+  "summary": "Models showed mixed sentiment with notable disagreements on key tech stocks, particularly SPY and QQQ. While most models favored bullish positions overall, confidence levels remained moderate (50-78%), suggesting uncertainty around the Fed meeting impact and tech earnings.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models predicted SPY upside despite Claude's contrarian Fed volatility call."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strong consensus on NVDA benefiting from hyperscaler AI infrastructure spending."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy index saw bullish consensus except Gemini's contrarian rate-driven bearish call."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Apple drew unanimous bullish sentiment from all models that covered it."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending market close to determine best performing prediction."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending market close to determine worst performing prediction."
+  }
+}

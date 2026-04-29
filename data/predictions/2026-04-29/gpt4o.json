@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-29",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-29T12:05:53.684602+00:00",
+  "market_context": "U.S. stock futures are slightly higher ahead of today's Federal Reserve policy announcement and earnings reports from major tech companies. The Fed is expected to maintain the federal funds rate at 3.50% to 3.75%, and investors are keenly awaiting earnings from Alphabet, Amazon, Meta Platforms, and Microsoft, which will provide insights into their AI investments. Oil prices have risen over 2.5% due to uncertainty surrounding the reopening of the Strait of Hormuz.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260429_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.0,
+      "current_price_at_prediction": 711.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With U.S. stock futures slightly higher and anticipation of the Federal Reserve maintaining current interest rates, investor sentiment appears positive. Additionally, upcoming earnings reports from major tech companies could provide further market support."
+    },
+    {
+      "id": "pred_gpt4o_20260429_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 665.0,
+      "current_price_at_prediction": 657.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq Composite, represented by QQQ, is poised to benefit from anticipated positive earnings reports from major tech firms like Alphabet, Amazon, Meta Platforms, and Microsoft. This optimism may drive QQQ higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260429_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 213.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite recent declines in AI and semiconductor stocks, Nvidia's strong position in the AI sector and potential positive market sentiment following tech earnings could lead to a rebound in its stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260429_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 265.0,
+      "current_price_at_prediction": 259.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Amazon's upcoming earnings report is expected to highlight growth in its cloud and e-commerce segments, potentially boosting investor confidence and driving the stock price higher."
+    },
+    {
+      "id": "pred_gpt4o_20260429_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78500.0,
+      "current_price_at_prediction": 77507.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Bitcoin has shown resilience with a slight upward trend over the past five days. Continued investor interest and market stability may contribute to a modest increase by the end of the day."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-29",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-29T12:05:06.614167+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing some volatility while broader indices like SPY are holding steady. Inflation concerns continue to be a backdrop, but strong corporate earnings reports are providing some upward momentum for specific sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260429_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to close higher due to positive sentiment from recent economic data releases and a late-day buying surge in blue-chip stocks."
+    },
+    {
+      "id": "pred_gemini_20260429_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 520.0,
+      "current_price_at_prediction": 525.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Tech sector faces headwinds from rising interest rate expectations, leading to profit-taking in high-growth stocks throughout the week."
+    },
+    {
+      "id": "pred_gemini_20260429_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 215.25,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Apple's upcoming product announcements and strong Q2 earnings forecast are likely to drive its stock price higher by month-end."
+    },
+    {
+      "id": "pred_gemini_20260429_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Microsoft is benefiting from continued strong demand for cloud services and positive analyst upgrades, pushing its stock up today."
+    },
+    {
+      "id": "pred_gemini_20260429_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 180.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tesla is experiencing pressure from increased competition in the EV market and recent production guidance concerns, likely leading to a weekly decline."
+    }
+  ]
+}

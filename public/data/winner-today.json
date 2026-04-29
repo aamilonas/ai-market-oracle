@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-29",
   "winner": {
     "ticker": "NVDA",
     "direction": "up",
-    "avg_confidence": 0.6167,
-    "avg_target": 220.0,
-    "avg_entry": 216.61,
-    "expected_move_pct": 1.57,
-    "score": 0.9651,
+    "avg_confidence": 0.6667,
+    "avg_target": 218.67,
+    "avg_entry": 213.17,
+    "expected_move_pct": 2.58,
+    "score": 1.719,
     "models": [
+      "Claude",
       "Grok",
-      "GPT-4o",
-      "Perplexity"
+      "GPT-4o"
     ],
     "model_count": 3,
     "high_conviction": false
