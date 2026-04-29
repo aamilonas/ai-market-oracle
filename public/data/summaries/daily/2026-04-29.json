@@ -1,31 +1,17 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-04-29T12:06:21.600643+00:00",
-  "headline": "AI Models Split on Market Direction Ahead of Fed Meeting",
-  "summary": "Models showed mixed sentiment with notable disagreements on key tech stocks, particularly SPY and QQQ. While most models favored bullish positions overall, confidence levels remained moderate (50-78%), suggesting uncertainty around the Fed meeting impact and tech earnings.",
+  "generated_at": "2026-04-29T23:15:22.287384+00:00",
+  "headline": "Models Split on SPY Direction While Tech Consensus Delivers Mixed Results",
+  "summary": "A day of divided predictions saw models disagreeing sharply on SPY's direction, with Claude correctly calling it down while three others expected gains. Tech stock predictions showed better consensus on QQQ's upward move, though NVDA surprised all bullish models by declining despite strong AI infrastructure spending narratives.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
-        "Gemini",
-        "GPT-4o",
-        "Grok",
-        "Perplexity"
+        "Claude"
       ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models predicted SPY upside despite Claude's contrarian Fed volatility call."
-    },
-    {
-      "ticker": "NVDA",
-      "models_agreeing": [
-        "Claude",
-        "GPT-4o",
-        "Grok"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Strong consensus on NVDA benefiting from hyperscaler AI infrastructure spending."
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Claude stood alone predicting SPY's decline citing Fed volatility, while GPT-4o, Gemini, Grok, and Perplexity all incorrectly expected gains."
     },
     {
       "ticker": "QQQ",
@@ -35,33 +21,43 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy index saw bullish consensus except Gemini's contrarian rate-driven bearish call."
+      "outcome": "correct",
+      "note": "Three models correctly anticipated QQQ's rise based on tech sector momentum and positive premarket futures."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "All three models wrongly predicted NVDA gains despite citing strong AI capex tailwinds, with the stock declining to $209.25."
     },
     {
       "ticker": "AAPL",
       "models_agreeing": [
-        "Gemini",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Apple drew unanimous bullish sentiment from all models that covered it."
+      "outcome": "wrong",
+      "note": "Both models incorrectly predicted Apple gains, with the stock actually falling to $270.17."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending market close to determine best performing prediction."
+    "prediction_id": "pred_claude_spy_down",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's contrarian SPY short call based on Fed meeting volatility patterns proved prescient while four other models got it wrong."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending market close to determine worst performing prediction."
+    "prediction_id": "pred_claude_nvda_up",
+    "model_display_name": "Claude",
+    "ticker": "NVDA",
+    "score": -0.75,
+    "summary": "Despite citing compelling $600B+ hyperscaler AI infrastructure spending, Claude's high-confidence NVDA bull call missed badly as the stock fell 4.7%."
   }
 }
