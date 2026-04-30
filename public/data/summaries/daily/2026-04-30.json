@@ -1,19 +1,20 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T12:01:48.619305+00:00",
-  "headline": "Models Split on Market Direction Amid Oil Shock and Tech Earnings",
-  "summary": "AI models showed stark disagreement on market direction, with SPY predictions ranging from bearish (Claude citing $126 oil) to bullish (GPT-4o, Grok, Perplexity expecting tech-driven rally). The day highlighted a classic tension between geopolitical risks and earnings optimism, with models diverging sharply on whether oil inflation or tech strength would dominate.",
+  "generated_at": "2026-04-30T23:15:17.349189+00:00",
+  "headline": "Models split on SPY direction while XOM surges 20% on oil tensions",
+  "summary": "A day of mixed signals saw models disagreeing on broader market direction, with SPY predictions split 4-2 bullish despite oil hitting $126. Energy plays dominated with XOM rocketing past all targets, while tech names showed surprising strength despite inflation concerns. Volatility predictions completely missed as VIX dropped despite geopolitical tensions.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
+        "Gemini",
         "GPT-4o",
         "Grok",
         "Perplexity"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude went bearish on oil inflation fears while three models stayed bullish on tech strength, showing a 3-1 split."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Four models correctly called SPY's rise to 718.66 despite Claude's bearish oil-driven concerns."
     },
     {
       "ticker": "AAPL",
@@ -23,8 +24,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models aligned bullish on Apple with $275 targets, while only Gemini dissented with a bearish $185.50 call."
+      "outcome": "correct",
+      "note": "Three models correctly predicted Apple's gain to 271.35, with only Gemini calling for a decline."
     },
     {
       "ticker": "NVDA",
@@ -33,32 +34,32 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models citing AI momentum agreed on NVDA upside around $212-215 range."
+      "outcome": "wrong",
+      "note": "Both models wrongly predicted NVDA would rise, missing its drop to 199.57."
     },
     {
-      "ticker": "TSLA",
+      "ticker": "QQQ",
       "models_agreeing": [
-        "Gemini",
-        "Grok"
+        "GPT-4o",
+        "Perplexity"
       ],
-      "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Two models agreed on Tesla weakness citing production concerns, though with vastly different target levels."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Tech-heavy QQQ rose as predicted by both models, closing near their targets at 667.74."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_xom_claude",
     "model_display_name": "Claude",
     "ticker": "XOM",
-    "score": 0.0,
-    "summary": "Claude's 85% confidence XOM call based on Iran blockade and $126 oil showed strongest conviction of the day."
+    "score": 0.85,
+    "summary": "Claude's high-confidence XOM call captured a massive 20% surge to 154.33 on Iran blockade tensions."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_aapl_gemini",
     "model_display_name": "Gemini",
     "ticker": "AAPL",
-    "score": 0.0,
-    "summary": "Gemini's contrarian $185.50 AAPL target went against both Goldman upgrade and peer consensus at $275."
+    "score": -0.72,
+    "summary": "Gemini's bearish AAPL call targeting 185.50 completely missed as the stock soared to 271.35."
   }
 }

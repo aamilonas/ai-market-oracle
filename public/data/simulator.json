@@ -1,5 +1,5 @@
 {
-  "balance": 26576.17,
+  "balance": 26691.81,
   "starting_balance": 25000,
   "trades": [
     {
@@ -217,17 +217,17 @@
       "ticker": "AAPL",
       "direction": "up",
       "entry_price": 270.17,
-      "exit_price": null,
+      "exit_price": 271.35,
       "shares": 98,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 115.64,
+      "pnl_pct": 0.44,
       "models": [
         "Claude",
         "Perplexity",
         "GPT-4o"
       ],
       "confidence": 0.6933,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
