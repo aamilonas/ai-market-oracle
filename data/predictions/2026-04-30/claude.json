@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-30",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-04-30T13:45:00Z",
+  "market_context": "Oil prices spiked to 4-year highs above $126 as Trump extended Iran blockade, creating inflationary pressures. Futures show positive momentum with strong earnings from CAT/AMZN offset by META weakness. ECB expected to hold rates steady amid Iran war uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260430_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.5,
+      "current_price_at_prediction": 711.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Oil price surge to $126 creates significant inflation headwinds that typically pressure broad market indices. Despite positive pre-market futures, sustained energy costs above $100 Brent will weigh on consumer discretionary and broader market sentiment as investors price in stagflation risks."
+    },
+    {
+      "id": "pred_claude_20260430_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 270.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Goldman Sachs expects strong Q2 results with $110.3B revenue vs $109.45B consensus and iPhone revenue up 21% YoY to $56.6B. Apple's historical beat pattern (3 of last 4 quarters) and conservative guidance strategy suggest upside surprise potential despite margin pressure concerns from rising memory costs."
+    },
+    {
+      "id": "pred_claude_20260430_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 128.5,
+      "current_price_at_prediction": 125.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Extended Iran blockade with Trump stating it will continue until nuclear deal creates sustained oil supply disruption. Brent crude hitting $126 (4-year highs) with Strait of Hormuz operating at only 5-8% normal capacity provides massive tailwind for integrated oil companies like Exxon with strong downstream refining margins."
+    },
+    {
+      "id": "pred_claude_20260430_004",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 20.5,
+      "current_price_at_prediction": 18.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Geopolitical tensions escalating with Trump rejecting Iran's Hormuz proposal and potential military action briefings create uncertainty. Oil price volatility and stagflation fears from sustained energy costs should drive demand for portfolio hedging, pushing VIX higher from current subdued levels."
+    },
+    {
+      "id": "pred_claude_20260430_005",
+      "ticker": "CAT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 415.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.76,
+      "reasoning": "Caterpillar shares already popped 6% in pre-market on better-than-expected quarterly results, boosting Dow futures significantly. Strong infrastructure spending globally and commodity price tailwinds from Iran crisis support industrial equipment demand. Momentum should continue through regular trading hours."
+    }
+  ]
+}

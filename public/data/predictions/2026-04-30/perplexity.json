@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-30",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-04-30T12:00:55Z",
+  "market_context": "Search results show mixed short-term forecasts for AAPL with recent trading around $270 and analyst 12-month targets averaging $288-$299, indicating moderate upside potential. No specific futures, pre-market, or overnight news data available in results for major indices like SPY, QQQ, DIA today. Recent closes reflect flat to slightly positive 5-day performance in SPY and QQQ amid declining VIX.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260430_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 714.5,
+      "current_price_at_prediction": 711.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY's 5-day gain of +0.1% and declining VIX at 18.04 (-4.7%) suggest reduced volatility and potential for modest continuation. QQQ's stronger +1.0% 5-day performance supports broader market upside. Analyst optimism in tech stocks like AAPL reinforces index gains."
+    },
+    {
+      "id": "pred_perplexity_20260430_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 273.5,
+      "current_price_at_prediction": 270.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Consensus analyst 12-month targets average $288-$299 from 27-42 analysts, implying 4.8-11% upside from recent levels around $270. Recent trading shows resilience with pre-market at $268.68 and closes near $270. Moderate Buy ratings dominate with 76 Buy vs. 40 Hold in recent month."
+    },
+    {
+      "id": "pred_perplexity_20260430_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 666.0,
+      "current_price_at_prediction": 661.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's 5-day +1.0% outperforms SPY, driven by tech strength as seen in AAPL's positive analyst forecasts. Declining VIX supports risk-on sentiment for Nasdaq index. Flat DIA (-1.2%) highlights relative tech outperformance."
+    }
+  ]
+}

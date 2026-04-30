@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-30",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-04-30T12:01:23.963683+00:00",
+  "market_context": "U.S. stock futures are rising, driven by strong tech earnings and positive economic indicators. The Federal Reserve maintained interest rates at 3.75%, and upcoming GDP and PCE data releases are anticipated.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260430_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 711.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive tech earnings and strong economic data are likely to boost investor confidence, leading to an upward movement in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260430_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 670.0,
+      "current_price_at_prediction": 661.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong earnings from major tech companies are expected to drive QQQ higher, reflecting investor optimism in the tech sector."
+    },
+    {
+      "id": "pred_gpt4o_20260430_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 270.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Anticipation of strong quarterly results and positive market sentiment are likely to push AAPL's stock price higher."
+    },
+    {
+      "id": "pred_gpt4o_20260430_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 424.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Robust earnings and continued growth in cloud services position MSFT for a positive price movement."
+    },
+    {
+      "id": "pred_gpt4o_20260430_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 209.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Strong demand for GPUs and positive industry trends suggest an upward trajectory for NVDA's stock price."
+    }
+  ]
+}

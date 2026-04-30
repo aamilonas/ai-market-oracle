@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-30",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-04-30T12:01:00.472411+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260430_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying volume observed in the last hour of trading, indicating a potential end-of-day rally. Technical indicators suggest an upward trend."
+    },
+    {
+      "id": "pred_gemini_20260430_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and a slight miss on supply chain expectations are weighing on the stock. Selling pressure increased after midday."
+    },
+    {
+      "id": "pred_gemini_20260430_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.8,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Positive sentiment around upcoming cloud earnings report and new AI product announcements. Institutional buying interest is strong."
+    },
+    {
+      "id": "pred_gemini_20260430_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 175.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Concerns over production slowdowns in key markets and increased competition are impacting investor confidence. Technical breakdown below key support levels."
+    }
+  ]
+}

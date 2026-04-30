@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T12:01:48.619305+00:00",
+  "headline": "Models Split on Market Direction Amid Oil Shock and Tech Earnings",
+  "summary": "AI models showed stark disagreement on market direction, with SPY predictions ranging from bearish (Claude citing $126 oil) to bullish (GPT-4o, Grok, Perplexity expecting tech-driven rally). The day highlighted a classic tension between geopolitical risks and earnings optimism, with models diverging sharply on whether oil inflation or tech strength would dominate.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude went bearish on oil inflation fears while three models stayed bullish on tech strength, showing a 3-1 split."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models aligned bullish on Apple with $275 targets, while only Gemini dissented with a bearish $185.50 call."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models citing AI momentum agreed on NVDA upside around $212-215 range."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Two models agreed on Tesla weakness citing production concerns, though with vastly different target levels."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "XOM",
+    "score": 0.0,
+    "summary": "Claude's 85% confidence XOM call based on Iran blockade and $126 oil showed strongest conviction of the day."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "AAPL",
+    "score": 0.0,
+    "summary": "Gemini's contrarian $185.50 AAPL target went against both Goldman upgrade and peer consensus at $275."
+  }
+}
