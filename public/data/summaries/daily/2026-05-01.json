@@ -1,8 +1,8 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T11:41:15.317579+00:00",
-  "headline": "Models split on tech while agreeing on energy surge from $111 oil",
-  "summary": "AI models showed strong consensus on SPY's upward movement with 4 of 5 models bullish, while dramatically disagreeing on Apple despite its earnings beat. Energy sector predictions aligned with oil's surge to $111, as models recognized the geopolitical tensions driving commodity prices higher.",
+  "generated_at": "2026-05-01T23:11:45.925807+00:00",
+  "headline": "Models nail Apple surge while oil predictions crash spectacularly",
+  "summary": "AI models showed strong consensus on major indices and Apple, correctly predicting upward movement as AAPL soared past $280 on earnings beats. However, energy sector predictions were catastrophically wrong, with XLE plummeting to $58.85 despite unanimous bullish sentiment on oil prices above $100.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Rare 5-model consensus on SPY moving higher, with targets ranging from $600 to $725."
+      "outcome": "correct",
+      "note": "All five models correctly predicted SPY's rise to $720.65, showing strong consensus on market direction."
     },
     {
       "ticker": "AAPL",
@@ -25,8 +25,8 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Despite Apple's earnings beat, Gemini went contrarian with a bearish call citing analyst downgrades."
+      "outcome": "correct",
+      "note": "Three models correctly called Apple's surge to $280.14 following earnings beat, while Gemini incorrectly predicted a decline."
     },
     {
       "ticker": "QQQ",
@@ -35,32 +35,32 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Claude stood alone predicting tech weakness while others saw continued momentum."
+      "outcome": "correct",
+      "note": "GPT-4o and Perplexity correctly predicted QQQ's rise while Claude wrongly called for a decline despite Apple's strength."
     },
     {
-      "ticker": "TSLA",
+      "ticker": "BTC-USD",
       "models_agreeing": [
-        "Gemini",
-        "Grok"
+        "GPT-4o",
+        "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models citing different concerns - competition for Gemini, production updates for Grok."
+      "outcome": "wrong",
+      "note": "Both models incorrectly predicted Bitcoin's decline, missing its rise to $78,169."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_001",
     "model_display_name": "Claude",
-    "ticker": "XLE",
-    "score": 0,
-    "summary": "Claude's 78% confidence energy call directly tied to oil's surge above $111 shows strong macro awareness."
+    "ticker": "AAPL",
+    "score": 1.35,
+    "summary": "Claude's high-confidence Apple call with 85% certainty perfectly captured the earnings-driven surge past $280."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Gemini",
-    "ticker": "AAPL",
-    "score": 0,
-    "summary": "Gemini's bearish Apple call with $185.50 target seems disconnected from the strong earnings beat Claude highlighted."
+    "prediction_id": "pred_004",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.78,
+    "summary": "Claude's confident energy sector bet failed catastrophically as XLE crashed to $58.85 despite oil price reasoning."
   }
 }
