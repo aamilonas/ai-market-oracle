@@ -1,16 +1,16 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "winner": {
     "ticker": "AAPL",
     "direction": "up",
-    "avg_confidence": 0.6933,
-    "avg_target": 274.5,
-    "avg_entry": 270.17,
-    "expected_move_pct": 1.6,
-    "score": 1.1112,
+    "avg_confidence": 0.7,
+    "avg_target": 275.67,
+    "avg_entry": 271.35,
+    "expected_move_pct": 1.59,
+    "score": 1.1136,
     "models": [
       "Claude",
-      "Perplexity",
+      "Grok",
       "GPT-4o"
     ],
     "model_count": 3,

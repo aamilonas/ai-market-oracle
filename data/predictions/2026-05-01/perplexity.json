@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-01T11:40:14Z",
+  "market_context": "No search results available for current market conditions, futures, pre-market movers, overnight news, or economic calendar on 2026-05-01. Baseline prices from Yahoo Finance show SPY at $718.66, QQQ at $667.74, and DIA at $496.65 previous close, with recent 5-day gains in major indices and declining VIX indicating lower volatility.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260501_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 718.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's 5-day gain of +1.4% suggests short-term upward momentum continuing into today. VIX at 17.06 with -8.8% 5-day decline points to reduced market fear, supporting gains in broad indices. Without contrary news or futures data, baseline trends favor a modest close above previous levels."
+    },
+    {
+      "id": "pred_perplexity_20260501_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 672.0,
+      "current_price_at_prediction": 667.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ shows stronger 5-day performance at +2.5% compared to SPY, indicating tech sector resilience. Declining VIX supports risk-on sentiment beneficial for Nasdaq trackers. Absent negative pre-market indicators, expect continuation of recent gains."
+    },
+    {
+      "id": "pred_perplexity_20260501_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 199.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA aligns with QQQ's tech momentum from +2.5% 5-day gain. Low VIX environment favors high-beta AI stocks like NVDA. Limited data increases uncertainty, but trend supports slight upside."
+    },
+    {
+      "id": "pred_perplexity_20260501_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 77358.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "BTC-USD's 5-day decline of -1.6% indicates ongoing weakness, potentially extending with equity markets open. Elevated 10Y Treasury Yield at 4.39% may pressure risk assets like crypto. No bullish catalysts in available data."
+    }
+  ]
+}

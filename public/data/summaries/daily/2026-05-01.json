@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T11:41:15.317579+00:00",
+  "headline": "Models split on tech while agreeing on energy surge from $111 oil",
+  "summary": "AI models showed strong consensus on SPY's upward movement with 4 of 5 models bullish, while dramatically disagreeing on Apple despite its earnings beat. Energy sector predictions aligned with oil's surge to $111, as models recognized the geopolitical tensions driving commodity prices higher.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Rare 5-model consensus on SPY moving higher, with targets ranging from $600 to $725."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Despite Apple's earnings beat, Gemini went contrarian with a bearish call citing analyst downgrades."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Claude stood alone predicting tech weakness while others saw continued momentum."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models citing different concerns - competition for Gemini, production updates for Grok."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": 0,
+    "summary": "Claude's 78% confidence energy call directly tied to oil's surge above $111 shows strong macro awareness."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "AAPL",
+    "score": 0,
+    "summary": "Gemini's bearish Apple call with $185.50 target seems disconnected from the strong earnings beat Claude highlighted."
+  }
+}

@@ -228,6 +228,23 @@
       ],
       "confidence": 0.6933,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-05-01",
+      "ticker": "AAPL",
+      "direction": "up",
+      "entry_price": 271.35,
+      "exit_price": null,
+      "shares": 98,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Claude",
+        "Grok",
+        "GPT-4o"
+      ],
+      "confidence": 0.7,
+      "status": "OPEN"
     }
   ]
 }

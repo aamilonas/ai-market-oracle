@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-01",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-01T11:40:19.459293+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, but recent jobless claims data suggests a resilient labor market, preventing a broader market downturn.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260501_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to recover slightly by end of day due to strong opening performance in key large-cap tech components and positive sentiment from early earnings reports."
+    },
+    {
+      "id": "pred_gemini_20260501_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "AAPL is facing selling pressure after a downgrade from a major analyst firm and concerns over slowing iPhone demand in key international markets."
+    },
+    {
+      "id": "pred_gemini_20260501_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 123.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "ExxonMobil is poised for gains this week as crude oil prices continue their upward trend, driven by geopolitical tensions and robust demand forecasts."
+    },
+    {
+      "id": "pred_gemini_20260501_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 173.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Tesla faces headwinds throughout the month due to increased competition in the EV market, production challenges, and recent negative sentiment regarding its autonomous driving technology."
+    }
+  ]
+}

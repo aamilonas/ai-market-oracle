@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-01",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-01T11:40:42.254547+00:00",
+  "market_context": "U.S. stock futures are slightly higher following record highs in major indices, with the S&P 500 closing above 7200. Key economic data releases today include the ISM Manufacturing Index and Construction Spending, which may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260501_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 718.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY has been on an upward trend, closing at $718.66 with a 5-day gain of 1.4%. Positive pre-market futures and strong corporate earnings suggest continued momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260501_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 675.0,
+      "current_price_at_prediction": 667.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ has gained 2.5% over the past 5 days, reflecting strength in the tech sector. Continued investor interest in technology stocks supports a positive outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260501_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 275.0,
+      "current_price_at_prediction": 271.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has been stable, closing at $271.35. Anticipation of upcoming product announcements and strong earnings may drive the stock higher."
+    },
+    {
+      "id": "pred_gpt4o_20260501_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 600.0,
+      "current_price_at_prediction": 611.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite strong profits, Meta's shares fell 8.7% due to rising capital expenditure concerns. This trend may continue, leading to further declines."
+    },
+    {
+      "id": "pred_gpt4o_20260501_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76000.0,
+      "current_price_at_prediction": 77358.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has declined 1.6% over the past 5 days. Continued profit-taking and regulatory concerns may apply downward pressure."
+    }
+  ]
+}
