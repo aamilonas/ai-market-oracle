@@ -1,0 +1,74 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T12:12:02.303747+00:00",
+  "headline": "AI models clash on market direction amid GameStop-eBay drama",
+  "summary": "Models showed sharp disagreement on overall market direction, with SPY predictions split 3-2 bullish despite geopolitical tensions. Claude stood out with aggressive calls on the GameStop-eBay situation, while both Claude and Gemini aligned on XOM's oil-driven rally at exactly $135 target.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models bet on SPY recovery despite GPT-4o's bearish stance on geopolitical risks."
+    },
+    {
+      "ticker": "XOM",
+      "models_agreeing": [
+        "Claude",
+        "Gemini"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models identically targeted $135 on crude oil surge from Iran tensions."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Gemini bearish on iPhone concerns while GPT-4o and Grok see upside, with wildly different targets from $210 to $285."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Both models bearish on Tesla citing EV competition and mixed sentiment."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Crypto bulls see momentum continuing with targets near $80,000."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending - Claude's 85% confidence EBAY surge call on GameStop bid news looks promising."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Results pending - models await market close to determine accuracy."
+  }
+}

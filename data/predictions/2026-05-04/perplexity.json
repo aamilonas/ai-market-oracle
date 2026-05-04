@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-04",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-04T12:11:12Z",
+  "market_context": "No search results available for current market conditions, futures, pre-market movers, overnight news, or economic calendar on 2026-05-04. Baseline prices from Yahoo Finance show major indices with modest 5-day gains (SPY +0.9%, QQQ +1.6%, DIA +0.6%), low VIX at 18.08, and steady 10Y yield at 4.38%. Crypto shows strength with BTC and ETH up over 3.5% in 5 days.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260504_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "current_price_at_prediction": 720.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's 5-day gain of +0.9% and low VIX of 18.08 indicate stable momentum into Monday. Without negative overnight news or search data signaling reversal, modest continuation upward is likely. Target assumes ~0.5% gain, aligning with recent trend."
+    },
+    {
+      "id": "pred_perplexity_20260504_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 679.0,
+      "current_price_at_prediction": 674.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ leads with strongest 5-day performance at +1.6%, driven by tech strength seen in NVDA and AAPL baselines. Absence of search results on adverse tech news supports further gains. Target reflects ~0.7% upside continuation."
+    },
+    {
+      "id": "pred_perplexity_20260504_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 201.0,
+      "current_price_at_prediction": 198.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA aligns with QQQ's tech momentum (+1.6% 5-day), and crypto surge (+3.9% BTC) hints at AI/risk-on sentiment spillover. No search data indicates pullback risks. Conservative ~1.3% gain targeted amid uncertainty."
+    },
+    {
+      "id": "pred_perplexity_20260504_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 80000.0,
+      "current_price_at_prediction": 78756.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC's robust 5-day +3.9% gain suggests momentum persistence, potentially boosting risk assets like SPY/QQQ. Stable VIX supports no broad risk-off. Target ~1.6% higher, fitting recent pattern."
+    }
+  ]
+}

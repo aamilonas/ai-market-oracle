@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-04",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-04T07:30:00Z",
+  "market_context": "Mixed pre-market sentiment with futures showing moderate weakness. <cite index='6-1,6-3'>S&P futures down -16.50 (-0.23%), Dow futures down -231.00 (-0.47%), Nasdaq futures down -30.50 (-0.11%)</cite>. Oil prices surging on Iran conflict developments with <cite index='6-3'>crude oil up +3.05 (+2.99%)</cite>. Major catalysts include GameStop's $56B eBay takeover bid and key earnings reports today.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260504_001",
+      "ticker": "EBAY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 118.0,
+      "current_price_at_prediction": 268.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "<cite index='22-1,22-14'>Shares surged 13.4% in after-hours trading to around $118 on GameStop's $125 per share takeover offer</cite>. While the deal faces skepticism due to GameStop's smaller market cap, the 20% premium creates strong technical support and M&A speculation should drive continued upside despite financing concerns."
+    },
+    {
+      "id": "pred_claude_20260504_002",
+      "ticker": "GME",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 24.5,
+      "current_price_at_prediction": 390.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "<cite index='22-15'>GameStop CEO Cohen told CNBC he hasn't started any conversation with eBay's management</cite>. <cite index='22-17'>Market value is only a fraction of the $56 billion deal size</cite>. Initial speculation boost likely to fade as financing reality sets in, creating selling pressure from profit-taking."
+    },
+    {
+      "id": "pred_claude_20260504_003",
+      "ticker": "PLTR",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 42.5,
+      "current_price_at_prediction": 198.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "<cite index='4-4'>Palantir climbing ahead of first-quarter earnings report due after market close today</cite>. <cite index='19-9,19-10'>Wall Street analysts eye 115% earnings jump</cite>. Strong AI infrastructure demand and government contracts should support positive earnings surprise and continued momentum."
+    },
+    {
+      "id": "pred_claude_20260504_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 670.0,
+      "current_price_at_prediction": 674.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "<cite index='18-24,18-25'>Market breadth dropped to narrowest level since dotcom era with gains concentrated in handful of mega-cap AI names</cite>. <cite index='6-3'>Nasdaq futures down -0.11% in pre-market</cite>. Rising oil prices and geopolitical concerns should pressure tech-heavy index despite strong April performance."
+    },
+    {
+      "id": "pred_claude_20260504_005",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "current_price_at_prediction": 280.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "<cite index='6-3'>Crude oil up +2.99% on Iran conflict developments</cite>. <cite index='10-14,10-15'>WTI futures up 0.98% to $102.92, Brent up 1.07% to $109.31</cite>. Energy sector should benefit significantly from sustained oil price strength and geopolitical risk premium in Middle East tensions."
+    }
+  ]
+}

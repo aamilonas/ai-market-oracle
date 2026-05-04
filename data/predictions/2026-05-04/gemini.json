@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-04",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-04T12:11:22.790645+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback after a strong rally, while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, but recent jobless claims data suggests a resilient labor market.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260504_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to recover from early session dips, driven by strong corporate earnings reports from key constituents and positive consumer sentiment data released this morning."
+    },
+    {
+      "id": "pred_gemini_20260504_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.5,
+      "current_price_at_prediction": 212.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "AAPL faces headwinds from a downgrade by a major investment bank and concerns over slowing iPhone sales in international markets, leading to profit-taking."
+    },
+    {
+      "id": "pred_gemini_20260504_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "current_price_at_prediction": 133.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "ExxonMobil is poised for gains as crude oil prices continue their upward trend, supported by geopolitical tensions and robust demand forecasts for the coming quarter."
+    },
+    {
+      "id": "pred_gemini_20260504_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Tesla is experiencing pressure from increased competition in the EV market and recent production delays, which are impacting investor confidence and short-term outlook."
+    },
+    {
+      "id": "pred_gemini_20260504_005",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 447.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Microsoft's strong performance in cloud computing (Azure) and AI integration continues to drive growth, with analysts raising price targets based on future revenue projections."
+    }
+  ]
+}

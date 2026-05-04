@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-04",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-04T12:11:42.660421+00:00",
+  "market_context": "U.S. stock futures are mixed as investors assess the ongoing U.S.-Iran standoff over the Strait of Hormuz, which has kept oil prices elevated and introduced market uncertainty. Key economic data releases this week include the Job Openings and Labor Turnover Survey (JOLTS) on Tuesday and the April nonfarm payrolls report on Friday.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260504_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 720.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the market's cautious stance due to geopolitical tensions in the Middle East and the mixed signals from pre-market futures, SPY is likely to experience a slight decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260504_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "current_price_at_prediction": 280.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's strong market position and recent positive earnings reports suggest potential for modest gains, despite broader market uncertainties."
+    },
+    {
+      "id": "pred_gpt4o_20260504_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 79500.0,
+      "current_price_at_prediction": 78756.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has shown resilience amid market uncertainties, and its recent upward trend indicates potential for further gains by the end of the day."
+    }
+  ]
+}
