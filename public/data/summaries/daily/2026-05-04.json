@@ -1,8 +1,8 @@
 {
   "date": "2026-05-04",
-  "generated_at": "2026-05-04T12:12:02.303747+00:00",
-  "headline": "AI models clash on market direction amid GameStop-eBay drama",
-  "summary": "Models showed sharp disagreement on overall market direction, with SPY predictions split 3-2 bullish despite geopolitical tensions. Claude stood out with aggressive calls on the GameStop-eBay situation, while both Claude and Gemini aligned on XOM's oil-driven rally at exactly $135 target.",
+  "generated_at": "2026-05-04T23:14:48.045572+00:00",
+  "headline": "Mixed AI predictions struggle with tech giants while crypto calls shine",
+  "summary": "AI models showed divergent views on major tech stocks, with most incorrectly predicting AAPL's direction and missing badly on PLTR's actual close. Bitcoin predictions proved most accurate, with multiple models correctly calling its upward movement, while disagreement on SPY's direction led to a split outcome.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -12,18 +12,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models bet on SPY recovery despite GPT-4o's bearish stance on geopolitical risks."
-    },
-    {
-      "ticker": "XOM",
-      "models_agreeing": [
-        "Claude",
-        "Gemini"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models identically targeted $135 on crude oil surge from Iran tensions."
+      "outcome": "wrong",
+      "note": "Three models predicted SPY would rise but it closed at 718.01, below most targets."
     },
     {
       "ticker": "AAPL",
@@ -33,18 +23,18 @@
         "Grok"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Gemini bearish on iPhone concerns while GPT-4o and Grok see upside, with wildly different targets from $210 to $285."
+      "outcome": "split",
+      "note": "Models disagreed on direction with Gemini bearish and GPT-4o/Grok bullish, but all were wrong about the magnitude."
     },
     {
-      "ticker": "TSLA",
+      "ticker": "XOM",
       "models_agreeing": [
-        "Gemini",
-        "Grok"
+        "Claude",
+        "Gemini"
       ],
-      "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Both models bearish on Tesla citing EV competition and mixed sentiment."
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "Both models predicted the same $135 target for XOM but actual close was significantly higher at $153.69."
     },
     {
       "ticker": "BTC-USD",
@@ -53,22 +43,32 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Crypto bulls see momentum continuing with targets near $80,000."
+      "outcome": "correct",
+      "note": "Both models correctly predicted Bitcoin's rise to near $80,000, capturing the crypto momentum."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Both models correctly called NVDA's upward movement, though actual gains were modest."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending - Claude's 85% confidence EBAY surge call on GameStop bid news looks promising."
+    "prediction_id": "pred_gpt4o_btc",
+    "model_display_name": "GPT-4o",
+    "ticker": "BTC-USD",
+    "score": 1.15,
+    "summary": "GPT-4o's Bitcoin call earned the highest score with strong confidence in crypto's resilience amid market uncertainties."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending - models await market close to determine accuracy."
+    "prediction_id": "pred_claude_ebay",
+    "model_display_name": "Claude",
+    "ticker": "EBAY",
+    "score": -0.85,
+    "summary": "Claude's high-confidence EBAY prediction missed badly, expecting $118 based on GameStop news but actual close was only $109.33."
   }
 }
