@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-05",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-05T11:50:44.484212+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth despite mixed economic signals. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major unexpected news events are dominating headlines today, though upcoming earnings from key players are generating buzz.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260505_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 718.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY futures are showing a modest pre-market gain of 0.3% as per web data from financial portals like Bloomberg. Sentiment on X indicates retail investors are bullish on broad market recovery, supported by stable VIX levels at 17.67. However, uncertainty around the 10Y Treasury Yield at 4.45% tempers confidence."
+    },
+    {
+      "id": "pred_grok_20260505_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 198.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is seeing positive chatter on X/Twitter, with users highlighting strong AI sector momentum and upcoming product announcements mentioned in recent tech blogs. Options flow data from web sources like MarketWatch indicates heavy call buying at strike prices above $200. Confidence is moderated by potential overvaluation concerns."
+    },
+    {
+      "id": "pred_grok_20260505_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 388.0,
+      "current_price_at_prediction": 392.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Negative sentiment on X/Twitter around TSLA is driven by recent posts citing production delays and competitive pressures in the EV space. Web searches reveal a bearish analyst note from Seeking Alpha projecting short-term weakness. Confidence is low due to TSLA's historical volatility."
+    },
+    {
+      "id": "pred_grok_20260505_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 678.0,
+      "current_price_at_prediction": 672.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ futures are up 0.4% pre-market according to data from Yahoo Finance, reflecting strength in tech stocks like NVDA and AAPL. X sentiment is positive with discussions around AI and cloud computing growth driving Nasdaq optimism. Confidence is tempered by broader market yield concerns."
+    }
+  ]
+}

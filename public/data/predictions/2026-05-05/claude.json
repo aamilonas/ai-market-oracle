@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-05",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-05T07:30:00Z",
+  "market_context": "Markets showing positive pre-market momentum after Monday's Iran-related selloff, with futures up across indices. Strong earnings season continues with Palantir's massive beat driving AI optimism, though geopolitical tensions and oil price volatility remain key concerns.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260505_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.5,
+      "current_price_at_prediction": 718.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Positive pre-market futures (+0.35%) and strong earnings momentum should drive recovery from Monday's geopolitical selloff. However, ongoing Iran tensions and oil volatility cap upside potential."
+    },
+    {
+      "id": "pred_claude_20260505_002",
+      "ticker": "PLTR",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 198.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Despite massive earnings beat and raised guidance, stock faces 'sell the news' pressure after minimal aftermarket reaction (+1.47%). High valuation (233x P/E) makes it vulnerable to profit-taking."
+    },
+    {
+      "id": "pred_claude_20260505_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 198.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Oversold RSI of 32.5 and positive Nasdaq futures (+0.55%) suggest technical bounce. Recent 4-day decline creates opportunity for recovery, though broader AI sector volatility remains a risk."
+    },
+    {
+      "id": "pred_claude_20260505_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 89.2,
+      "current_price_at_prediction": 91.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Oil futures showing decline (-2.08% for crude) as Middle East tensions ease from Monday's peak. Energy sector likely to give back some gains as geopolitical premium reduces."
+    },
+    {
+      "id": "pred_claude_20260505_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 678.0,
+      "current_price_at_prediction": 672.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.69,
+      "reasoning": "Strongest pre-market futures performance (+0.55%) and Palantir's AI success should drive tech optimism. Strong earnings backdrop supports Nasdaq outperformance despite recent volatility."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-05",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-05T11:49:56Z",
+  "market_context": "No search results available for current market conditions, futures, pre-market movers, overnight news, or economic calendar on 2026-05-05. Baseline data shows mixed major indices performance with SPY up 0.4% over 5 days, QQQ up 1.3%, and DIA down 0.5%; VIX at 17.67 with slight decline. Crypto strong with BTC up 6.2% and ETH up 5.4% over 5 days, while 10Y Treasury Yield steady at 4.45%.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260505_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.5,
+      "current_price_at_prediction": 718.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's 5-day gain of +0.4% indicates mild positive momentum amid stable VIX at 17.67 (-0.9%). Tech-heavy QQQ's stronger +1.3% performance and crypto surge (BTC +6.2%) suggest broader risk-on sentiment spillover. Without contrary news, expect modest continuation to $722.50."
+    },
+    {
+      "id": "pred_perplexity_20260505_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 678.0,
+      "current_price_at_prediction": 672.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ leads majors with +1.3% over 5 days, supported by key holdings like NVDA ($198.48), AAPL ($276.83), and MSFT ($413.62). Crypto strength (ETH +5.4%) reinforces tech growth narrative. Steady 10Y yield at 4.45% limits bond competition, favoring upside to $678."
+    },
+    {
+      "id": "pred_perplexity_20260505_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 83000.0,
+      "current_price_at_prediction": 81011.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "BTC's robust +6.2% 5-day gain signals continued momentum in risk assets. Correlates with QQQ strength and low VIX, potentially extending rally. Targets $83,000 as minor extension of recent trend without offsetting news."
+    }
+  ]
+}

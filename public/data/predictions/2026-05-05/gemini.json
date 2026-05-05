@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-05",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-05T11:50:05.422056+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260505_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise slightly by end of day due to positive early trading indicators and strong tech sector performance."
+    },
+    {
+      "id": "pred_gemini_20260505_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.5,
+      "current_price_at_prediction": 183.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Apple's stock is showing strong momentum following recent product announcements and positive analyst upgrades for the week."
+    },
+    {
+      "id": "pred_gemini_20260505_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.0,
+      "current_price_at_prediction": 112.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "ExxonMobil is likely to decline today as global oil prices continue to fall, impacting energy sector profitability."
+    },
+    {
+      "id": "pred_gemini_20260505_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 190.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Tesla is anticipated to recover by month-end, driven by increased production targets and potential new market expansions."
+    }
+  ]
+}

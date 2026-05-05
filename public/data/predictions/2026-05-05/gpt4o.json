@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-05",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-05T11:50:28.277283+00:00",
+  "market_context": "U.S. stock futures are rising as oil prices dip, despite lingering Middle East tensions. Key economic data releases today include the ISM Services PMI and the JOLTS report for March.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260505_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 718.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "U.S. stock futures are indicating a positive open, and the release of the ISM Services PMI and JOLTS report may provide further support if the data is favorable."
+    },
+    {
+      "id": "pred_gpt4o_20260505_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 680.0,
+      "current_price_at_prediction": 672.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive pre-market sentiment and potential strength in the technology sector could drive QQQ higher, especially if economic data supports growth."
+    },
+    {
+      "id": "pred_gpt4o_20260505_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 280.0,
+      "current_price_at_prediction": 276.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's recent strong earnings report and overall market optimism may lead to a modest gain in its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260505_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 82000.0,
+      "current_price_at_prediction": 81011.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown a 6.2% increase over the past five days, and continued investor interest may push the price higher."
+    },
+    {
+      "id": "pred_gpt4o_20260505_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 392.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Tesla's stock may benefit from overall market positivity, though its high valuation and recent volatility suggest a moderate confidence level."
+    }
+  ]
+}

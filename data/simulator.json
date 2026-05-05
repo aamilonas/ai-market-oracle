@@ -245,6 +245,24 @@
       ],
       "confidence": 0.7,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-05-05",
+      "ticker": "TQQQ",
+      "direction": "up",
+      "entry_price": 64.91,
+      "exit_price": null,
+      "shares": 424,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Claude",
+        "Grok",
+        "Perplexity",
+        "GPT-4o"
+      ],
+      "confidence": 0.635,
+      "status": "OPEN"
     }
   ]
 }
