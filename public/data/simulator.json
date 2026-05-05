@@ -1,5 +1,5 @@
 {
-  "balance": 27553.23,
+  "balance": 28604.75,
   "starting_balance": 25000,
   "trades": [
     {
@@ -251,10 +251,10 @@
       "ticker": "TQQQ",
       "direction": "up",
       "entry_price": 64.91,
-      "exit_price": null,
+      "exit_price": 67.39,
       "shares": 424,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 1051.52,
+      "pnl_pct": 3.82,
       "models": [
         "Claude",
         "Grok",
@@ -262,7 +262,7 @@
         "GPT-4o"
       ],
       "confidence": 0.635,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

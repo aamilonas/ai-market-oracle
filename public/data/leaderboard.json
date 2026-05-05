@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-05-04T23:14:47.878576+00:00",
+  "last_updated": "2026-05-05T23:15:55.058618+00:00",
   "models": [
     {
       "model_id": "claude-sonnet-4-20250514",
       "model_display_name": "Claude",
-      "total_predictions": 205,
-      "correct_directions": 108,
-      "direction_accuracy": 0.5268,
-      "total_score": 31.73,
-      "avg_confidence": 0.7301,
-      "current_streak": -1,
+      "total_predictions": 210,
+      "correct_directions": 112,
+      "direction_accuracy": 0.5333,
+      "total_score": 34.87,
+      "avg_confidence": 0.7291,
+      "current_streak": 2,
       "best_streak": 15,
       "worst_streak": -8,
       "weekly_scores": [
@@ -75,21 +75,21 @@
         },
         {
           "week": "2026-W19",
-          "score": -0.55,
-          "predictions": 5,
-          "accuracy": 0.4
+          "score": 2.59,
+          "predictions": 10,
+          "accuracy": 0.6
         }
       ]
     },
     {
       "model_id": "gpt-4o",
       "model_display_name": "GPT-4o",
-      "total_predictions": 161,
-      "correct_directions": 122,
-      "direction_accuracy": 0.7578,
-      "total_score": 70.07,
-      "avg_confidence": 0.6429,
-      "current_streak": 1,
+      "total_predictions": 166,
+      "correct_directions": 125,
+      "direction_accuracy": 0.753,
+      "total_score": 71.77,
+      "avg_confidence": 0.641,
+      "current_streak": -2,
       "best_streak": 12,
       "worst_streak": -4,
       "weekly_scores": [
@@ -155,21 +155,21 @@
         },
         {
           "week": "2026-W19",
-          "score": 1.75,
-          "predictions": 3,
-          "accuracy": 0.6667
+          "score": 3.45,
+          "predictions": 8,
+          "accuracy": 0.625
         }
       ]
     },
     {
       "model_id": "grok-3",
       "model_display_name": "Grok",
-      "total_predictions": 149,
-      "correct_directions": 88,
-      "direction_accuracy": 0.5906,
-      "total_score": 28.33,
-      "avg_confidence": 0.6358,
-      "current_streak": -2,
+      "total_predictions": 153,
+      "correct_directions": 91,
+      "direction_accuracy": 0.5948,
+      "total_score": 30.93,
+      "avg_confidence": 0.6355,
+      "current_streak": 2,
       "best_streak": 6,
       "worst_streak": -4,
       "weekly_scores": [
@@ -235,21 +235,21 @@
         },
         {
           "week": "2026-W19",
-          "score": -1.1,
-          "predictions": 4,
-          "accuracy": 0.25
+          "score": 1.5,
+          "predictions": 8,
+          "accuracy": 0.5
         }
       ]
     },
     {
       "model_id": "sonar-pro",
       "model_display_name": "Perplexity",
-      "total_predictions": 169,
-      "correct_directions": 85,
-      "direction_accuracy": 0.503,
-      "total_score": 15.89,
-      "avg_confidence": 0.6364,
-      "current_streak": 2,
+      "total_predictions": 172,
+      "correct_directions": 87,
+      "direction_accuracy": 0.5058,
+      "total_score": 17.52,
+      "avg_confidence": 0.635,
+      "current_streak": -1,
       "best_streak": 14,
       "worst_streak": -8,
       "weekly_scores": [
@@ -315,20 +315,20 @@
         },
         {
           "week": "2026-W19",
-          "score": 0.4,
-          "predictions": 4,
-          "accuracy": 0.5
+          "score": 2.03,
+          "predictions": 7,
+          "accuracy": 0.5714
         }
       ]
     },
     {
       "model_id": "gemini-2.5-flash",
       "model_display_name": "Gemini",
-      "total_predictions": 31,
-      "correct_directions": 21,
-      "direction_accuracy": 0.6774,
-      "total_score": 7.42,
-      "avg_confidence": 0.6671,
+      "total_predictions": 33,
+      "correct_directions": 22,
+      "direction_accuracy": 0.6667,
+      "total_score": 7.47,
+      "avg_confidence": 0.6645,
       "current_streak": -1,
       "best_streak": 7,
       "worst_streak": -1,
@@ -353,8 +353,8 @@
         },
         {
           "week": "2026-W19",
-          "score": -0.07,
-          "predictions": 2,
+          "score": -0.02,
+          "predictions": 4,
           "accuracy": 0.5
         }
       ]

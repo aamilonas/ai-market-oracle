@@ -1,8 +1,8 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T11:50:58.922296+00:00",
-  "headline": "AI Models Unite on Tech Rally While Split on Tesla's Direction",
-  "summary": "All five AI models showed remarkable consensus on SPY and QQQ moving higher, with tech optimism driven by strong pre-market futures and Palantir's earnings beat. The models diverged sharply on Tesla, with GPT-4o and Grok taking opposite sides, while energy sector predictions aligned on downward pressure from falling oil prices.",
+  "generated_at": "2026-05-05T23:15:55.613015+00:00",
+  "headline": "AI Models Nail SPY and QQQ Rally While Missing Energy Sector Chaos",
+  "summary": "AI models showed strong consensus on SPY and QQQ's upward movement, with all five models correctly predicting the rally. However, predictions diverged wildly on individual stocks, with PLTR's massive 30% crash to $135.91 and XLE's stunning 33% plunge to $59.45 catching most models off-guard despite correct directional calls.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Unprecedented unanimous bullish call across all models citing positive futures and earnings momentum."
+      "outcome": "correct",
+      "note": "All five models correctly predicted SPY's rise to $723.77, showing perfect consensus on the broader market rally."
     },
     {
       "ticker": "QQQ",
@@ -26,8 +26,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Strong tech sector consensus with all predicting models bullish on Nasdaq leadership."
+      "outcome": "correct",
+      "note": "Four models correctly anticipated QQQ's tech-driven surge to $681.61, with strong confidence levels."
     },
     {
       "ticker": "NVDA",
@@ -36,8 +36,8 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models cited oversold conditions and AI momentum for a technical bounce."
+      "outcome": "wrong",
+      "note": "Both models incorrectly predicted NVDA would bounce from oversold conditions, but it continued declining to $196.50."
     },
     {
       "ticker": "TSLA",
@@ -47,32 +47,22 @@
         "Grok"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Sharp disagreement with Grok bearish on production concerns while Gemini and GPT-4o expect recovery."
-    },
-    {
-      "ticker": "BTC-USD",
-      "models_agreeing": [
-        "GPT-4o",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models pointed to strong 5-day momentum continuing into today's session."
+      "outcome": "split",
+      "note": "Models disagreed on Tesla's direction, with Grok correctly calling the slight decline while others expected gains."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Awaiting market close to determine which prediction performed best."
+    "prediction_id": "pred_claude_spy",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY call perfectly captured the market's recovery rally with the highest score of the day."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Awaiting market close to determine which prediction performed worst."
+    "prediction_id": "pred_grok_nvda",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Grok's confident NVDA bounce prediction failed as the stock continued its decline despite positive AI sector sentiment."
   }
 }
