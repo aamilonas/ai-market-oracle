@@ -1,8 +1,8 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T12:17:25.114063+00:00",
-  "headline": "AI models unanimously bullish on SPY amid easing Middle East tensions",
-  "summary": "All five AI models predicted SPY would rise today, with confidence levels ranging from 0.6 to 0.72, driven by cooling geopolitical tensions and strong tech sector momentum. The models showed strong consensus on major tech names like NVDA and GOOGL moving higher, while disagreeing on legacy tech plays like AAPL and TSLA.",
+  "generated_at": "2026-05-06T23:11:10.888543+00:00",
+  "headline": "AI Models Nail Tech Rally as Middle East Tensions Ease",
+  "summary": "Models showed remarkable consensus on a broad market rally, with SPY predictions from all five models proving correct as the index surged to $733.83. Tech stocks led the charge with NVDA and AMD posting strong gains, while energy sector predictions correctly anticipated XLE's dramatic plunge following overnight oil price collapse.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Rare unanimous agreement across all models citing pre-market futures strength and reduced geopolitical risk."
+      "outcome": "correct",
+      "note": "All five models correctly predicted SPY's rally, citing easing geopolitical tensions and tech momentum."
     },
     {
       "ticker": "NVDA",
@@ -25,18 +25,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models targeted the psychological $200 level for NVDA on continued AI optimism."
-    },
-    {
-      "ticker": "GOOGL",
-      "models_agreeing": [
-        "Gemini",
-        "GPT-4o"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models cited upcoming earnings and AI innovation as catalysts, though with wildly different price targets."
+      "outcome": "correct",
+      "note": "Three models accurately forecasted NVDA's surge past $200 on AI sector optimism."
     },
     {
       "ticker": "QQQ",
@@ -45,22 +35,32 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech ETF expected to benefit from broad sector strength with both models seeing continuation of the 5-day rally."
+      "outcome": "correct",
+      "note": "Both models correctly anticipated the Nasdaq's tech-driven rally to $695.77."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "Both models missed Bitcoin's decline despite predicting continuation of the uptrend."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Best call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_001",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY call perfectly captured the day's geopolitical-driven rally with the highest score."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Worst call cannot be determined until market close provides actual results."
+    "prediction_id": "pred_014",
+    "model_display_name": "GPT-4o",
+    "ticker": "BTC-USD",
+    "score": -0.6,
+    "summary": "GPT-4o's Bitcoin prediction missed badly as crypto declined over 2% despite positive market sentiment."
   }
 }
