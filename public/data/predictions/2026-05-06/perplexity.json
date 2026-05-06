@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-06T12:16:00Z",
+  "market_context": "No search results available for current market conditions, futures, pre-market movers, or overnight news. Baseline data shows positive momentum in major indices over the past 5 days (SPY +1.7%, QQQ +3.7%) with VIX declining 12.6% to 16.45, suggesting reduced volatility. Midday on market open day with limited real-time updates.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260506_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 728.0,
+      "current_price_at_prediction": 723.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY has gained 1.7% over the past 5 days amid broader market strength, supported by falling VIX to 16.45 indicating lower fear. Tech-heavy peers like QQQ up 3.7% suggest continued upside momentum. Without negative news, modest intraday gains to $728 likely by close."
+    },
+    {
+      "id": "pred_perplexity_20260506_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 690.0,
+      "current_price_at_prediction": 681.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ shows strongest 5-day performance at +3.7%, driven by key holdings like NVDA ($196.50) and AAPL ($284.18). Declining VIX supports risk-on sentiment in tech sector. Expect extension of recent gains to $690 by end of day."
+    },
+    {
+      "id": "pred_perplexity_20260506_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA aligns with QQQ's 3.7% 5-day rise and crypto strength (BTC +5.3%), reflecting AI and tech enthusiasm. Stable Treasury yields at 4.42% favor growth stocks. Targeting $200 assumes continuation without adverse news."
+    },
+    {
+      "id": "pred_perplexity_20260506_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 84500.0,
+      "current_price_at_prediction": 82290.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "BTC has risen 5.3% over 5 days, mirroring risk-on equities with low VIX. No search results indicate disruptions, supporting modest extension. High uncertainty in crypto warrants lower confidence."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-06",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-06T12:17:01.509557+00:00",
+  "market_context": "U.S. stock futures are rising, driven by optimism over potential U.S.-Iran peace talks and strong earnings in the AI sector. The S&P 500 and Nasdaq recently reached record highs, with the S&P 500 closing at 7259.22 and the Nasdaq at 25326.13.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260506_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "current_price_at_prediction": 723.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive market sentiment from potential U.S.-Iran peace talks and strong AI sector earnings are likely to drive SPY higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260506_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "NVIDIA is expected to benefit from the ongoing AI optimism and strong demand for data-center chips, supporting a price increase."
+    },
+    {
+      "id": "pred_gpt4o_20260506_003",
+      "ticker": "AMD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 120.0,
+      "current_price_at_prediction": 115.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "AMD's better-than-expected revenue forecast, driven by robust demand for data-center chips, is likely to boost its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260506_004",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 388.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Alphabet's involvement in AI and the positive market sentiment surrounding the sector may contribute to a modest price increase."
+    },
+    {
+      "id": "pred_gpt4o_20260506_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 83500.0,
+      "current_price_at_prediction": 82290.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin's recent upward trend and positive market sentiment may lead to a continued price increase today."
+    }
+  ]
+}

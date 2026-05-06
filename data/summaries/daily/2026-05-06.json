@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T12:17:25.114063+00:00",
+  "headline": "AI models unanimously bullish on SPY amid easing Middle East tensions",
+  "summary": "All five AI models predicted SPY would rise today, with confidence levels ranging from 0.6 to 0.72, driven by cooling geopolitical tensions and strong tech sector momentum. The models showed strong consensus on major tech names like NVDA and GOOGL moving higher, while disagreeing on legacy tech plays like AAPL and TSLA.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Rare unanimous agreement across all models citing pre-market futures strength and reduced geopolitical risk."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Three models targeted the psychological $200 level for NVDA on continued AI optimism."
+    },
+    {
+      "ticker": "GOOGL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models cited upcoming earnings and AI innovation as catalysts, though with wildly different price targets."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech ETF expected to benefit from broad sector strength with both models seeing continuation of the 5-day rally."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Best call cannot be determined until market close provides actual results."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Worst call cannot be determined until market close provides actual results."
+  }
+}

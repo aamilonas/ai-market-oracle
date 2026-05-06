@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-06T12:17:08.389810+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential upside in tech stocks due to upcoming product announcements. Pre-market futures for major indices are slightly up, with notable strength in Nasdaq futures. No major unexpected news or events are dominating headlines today, though earnings reports from key tech firms are anticipated after hours.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260506_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 728.0,
+      "current_price_at_prediction": 723.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to rise slightly by end of day based on positive pre-market futures data showing a 0.3% increase as reported by Bloomberg. X sentiment reflects optimism around broader market stability with low VIX at 16.45 supporting reduced fear. However, upside may be limited by high 10Y Treasury Yield at 4.42% signaling potential rate concerns."
+    },
+    {
+      "id": "pred_grok_20260506_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is predicted to increase based on strong X chatter about AI sector growth and upcoming product reveals as seen in posts from key tech influencers. Pre-market data from Yahoo Finance shows NVDA up 1.2%, supporting bullish momentum. Options flow indicates heavy call buying for May expirations per recent TradeAlert data."
+    },
+    {
+      "id": "pred_grok_20260506_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 389.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may see a slight decline due to mixed sentiment on X with concerns over recent production delays mentioned in posts citing Reuters. Pre-market trading shows a minor dip of 0.5% as per Yahoo Finance data. Confidence is lower due to potential volatility from Elon Musk-related tweets."
+    },
+    {
+      "id": "pred_grok_20260506_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 287.0,
+      "current_price_at_prediction": 284.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL is expected to edge higher with positive buzz on X about new product launches and strong retail sentiment as seen in user posts. Pre-market data from MarketWatch indicates a 0.8% uptick. Upcoming earnings after hours could provide further catalyst if results exceed expectations."
+    }
+  ]
+}

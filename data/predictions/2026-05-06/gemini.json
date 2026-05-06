@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-06",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-06T12:16:39.292238+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing some volatility. Inflation concerns persist, but strong corporate earnings in certain sectors are providing support. Overall, investor sentiment remains cautious.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260506_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in tech sector, pushing index futures higher despite initial dips."
+    },
+    {
+      "id": "pred_gemini_20260506_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 187.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrade and concerns over Q2 sales figures are weighing on the stock, with no immediate catalysts for recovery."
+    },
+    {
+      "id": "pred_gemini_20260506_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 205.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive news regarding new factory expansion in Europe driving investor sentiment, coupled with short covering activity."
+    },
+    {
+      "id": "pred_gemini_20260506_004",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 173.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Strong earnings report expected next week, coupled with continued AI innovation and positive market reception to new product announcements."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-06",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-06T07:45:00Z",
+  "market_context": "Markets showing positive momentum with pre-market futures up 1-2% after cooling Middle East tensions. Intel surged 13% yesterday on Apple partnership rumors, while energy stocks declined as oil prices fell on diplomatic progress.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260506_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 731.5,
+      "current_price_at_prediction": 723.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Pre-market futures up 1% with cooling Middle East tensions reducing geopolitical risk premium. Energy sector weakness offsetting tech strength suggests modest gains for the broad index."
+    },
+    {
+      "id": "pred_claude_20260506_002",
+      "ticker": "INTC",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 112.0,
+      "current_price_at_prediction": 108.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Apple foundry partnership talks continue driving momentum after 13% surge yesterday. Retail enthusiasm evident but high forward P/E of 125x creates vulnerability if no concrete developments emerge."
+    },
+    {
+      "id": "pred_claude_20260506_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.2,
+      "current_price_at_prediction": 87.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Oil prices down 11.7% overnight as Middle East tensions ease with Trump pausing Strait of Hormuz operations. Energy sector faces continued pressure as diplomatic progress reduces geopolitical premium."
+    },
+    {
+      "id": "pred_claude_20260506_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 688.5,
+      "current_price_at_prediction": 681.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures up 1.66% with tech momentum from Intel rally and strong Q1 earnings from major tech names. VIX declining suggests continued risk-on sentiment favoring growth stocks."
+    },
+    {
+      "id": "pred_claude_20260506_005",
+      "ticker": "DIS",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 118.75,
+      "current_price_at_prediction": 121.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Disney reports earnings today with high expectations already priced in. Streaming competition remains intense and theme park attendance concerns persist, creating downside risk on any guidance disappointments."
+    }
+  ]
+}
