@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-07",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-07T12:18:55.773956+00:00",
+  "market_context": "As of May 7, 2026, the U.S. stock market has shown positive momentum over the past five days, with major indices like SPY, QQQ, and DIA experiencing gains. Key economic indicators, including the VIX and 10-year Treasury yield, suggest a cautiously optimistic market sentiment. Upcoming economic data releases, such as the Productivity and Costs report and Initial Jobless Claims, are anticipated to influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260507_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 733.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY has gained 3.1% over the past five days, indicating strong upward momentum. With the VIX at 17.43, suggesting moderate market volatility, and the 10-year Treasury yield at 4.36%, reflecting stable economic conditions, SPY is likely to continue its upward trend by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260507_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 290.0,
+      "current_price_at_prediction": 287.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. has shown resilience in recent trading sessions. Given the overall positive market sentiment and the company's strong fundamentals, AAPL is expected to experience a modest increase by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260507_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 80000.0,
+      "current_price_at_prediction": 81000.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has experienced a 3.0% increase over the past five days. However, given its inherent volatility and recent market dynamics, a slight pullback is anticipated by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260507_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 695.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ has gained 5.2% over the past five days, reflecting strong performance in the technology sector. With positive market sentiment and stable economic indicators, QQQ is expected to continue its upward trajectory by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260507_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 405.0,
+      "current_price_at_prediction": 398.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Tesla Inc. has shown positive momentum in recent trading sessions. Considering the overall market uptrend and the company's strong position in the electric vehicle market, TSLA is likely to see a modest increase by the end of the day."
+    }
+  ]
+}

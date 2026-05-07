@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-07",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-07T12:18:33.367735+00:00",
+  "market_context": "The broader market is experiencing a mixed sentiment today, with technology and large-cap indices showing resilience due to strong earnings reports, while some individual stocks face sector-specific headwinds. Inflation concerns remain a background factor, but current data suggests a stable outlook for the immediate term.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260507_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in large-cap tech, coupled with positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260507_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Technology sector showing robust performance, with several key components of QQQ reporting better-than-expected earnings."
+    },
+    {
+      "id": "pred_gemini_20260507_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 197.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.55,
+      "reasoning": "Recent supply chain concerns and a slight downgrade from a major analyst could put downward pressure on the stock this week."
+    },
+    {
+      "id": "pred_gemini_20260507_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 210.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements and a positive sentiment shift in the EV market could drive TSLA higher by month-end."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-07",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-07T07:53:00Z",
+  "market_context": "Markets are riding high on U.S.-Iran peace deal optimism and AMD's blowout earnings that beat on all metrics. Pre-market futures show continued strength with geopolitical tensions easing and AI demand accelerating across semiconductor names.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260507_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 695.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Strong pre-market momentum (+0.07%) combined with AMD's AI earnings beat creating sector tailwinds. Tech-heavy QQQ should benefit from continued semiconductor rotation and reduced geopolitical risk premium from Iran peace hopes."
+    },
+    {
+      "id": "pred_claude_20260507_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 207.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "AMD's AI surge validates broader chip demand thesis and rising tide lifts all boats. NVDA already gained 5.3% yesterday on AMD's coattails, showing strong correlation. Continued AI infrastructure spending narrative strengthens."
+    },
+    {
+      "id": "pred_claude_20260507_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.0,
+      "current_price_at_prediction": 398.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Q1 earnings already reported with mixed results - beat EPS but missed delivery expectations. With semiconductor names stealing spotlight and no new catalysts, TSLA likely to lag broader market strength as attention shifts elsewhere."
+    },
+    {
+      "id": "pred_claude_20260507_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 413.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Pre-market already showing strength at $414.36. AI infrastructure beneficiary from AMD's validation of CPU demand surge. News about renewable energy delays is minor compared to AI tailwinds driving enterprise cloud adoption."
+    },
+    {
+      "id": "pred_claude_20260507_005",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 82.0,
+      "current_price_at_prediction": 85.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Oil prices already dropped 3.59% overnight on Iran peace deal hopes. Energy sector was the only red GICS sector yesterday falling 4.2%. Continued diplomatic progress likely to pressure oil prices further, weighing on energy ETF."
+    }
+  ]
+}

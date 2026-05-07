@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-07",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-07T12:18:00Z",
+  "market_context": "No search results available for current market conditions, futures, pre-market movers, or overnight news. Relying on provided previous close data showing positive 5-day momentum in major indices (SPY +3.1%, QQQ +5.2%) with moderately elevated VIX at 17.43. Midday UTC with US markets open, but lacking real-time updates introduces high uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260507_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 736.5,
+      "current_price_at_prediction": 733.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's 5-day gain of +3.1% indicates short-term bullish momentum continuing into today. VIX at 17.43 suggests moderate volatility without panic selling. Expect modest intraday gains to push close above previous levels absent negative news."
+    },
+    {
+      "id": "pred_perplexity_20260507_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 695.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ leads with strongest 5-day performance at +5.2%, driven by tech sector strength in NVDA ($207.83) and AAPL ($287.51). Tech-heavy index likely extends gains midday. 10Y yield at 4.36% remains stable, supporting growth stocks."
+    },
+    {
+      "id": "pred_perplexity_20260507_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 207.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA benefits from QQQ's tech momentum (+5.2% over 5 days). AI chip demand persists as key driver. Lacking contrary news, aligns with broader Nasdaq uptrend but tempered confidence due to no real-time data."
+    },
+    {
+      "id": "pred_perplexity_20260507_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 398.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "TSLA lags major indices with no specific 5-day change noted, potentially underperforming amid high valuation. VIX uptick (+3.2%) may pressure volatile growth stocks like TSLA. Prediction cautious without fresh catalysts or pre-market data."
+    }
+  ]
+}
