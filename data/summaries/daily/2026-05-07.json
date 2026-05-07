@@ -1,21 +1,9 @@
 {
   "date": "2026-05-07",
-  "generated_at": "2026-05-07T12:19:42.142668+00:00",
-  "headline": "Tech Bulls Unite as AI Models Bet on QQQ and NVDA Rally",
-  "summary": "All five AI models showed remarkable consensus on tech sector strength, with unanimous bullish calls on QQQ (ranging from $455 to $705 targets) and near-unanimous agreement on NVDA's upside. The models split on TSLA direction, with Claude and Grok bearish while Gemini and GPT-4o remained optimistic, highlighting divergent views on the EV maker's prospects amid mixed Q1 results.",
+  "generated_at": "2026-05-07T23:15:44.122980+00:00",
+  "headline": "Tech bulls triumph as NVDA soars while energy craters on peace hopes",
+  "summary": "Models showed strong consensus on tech direction with NVDA calls proving particularly prescient, while energy sector XLE cratered to $55.95 from $82+ predictions. Despite bullish tech consensus, most models underestimated the actual moves with SPY closing at $731.58 and QQQ at $694.94, far exceeding even optimistic targets.",
   "consensus_picks": [
-    {
-      "ticker": "QQQ",
-      "models_agreeing": [
-        "Claude",
-        "Gemini",
-        "GPT-4o",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models aligned bullish on QQQ with confidence levels between 0.6-0.78, citing tech sector strength and AMD earnings spillover."
-    },
     {
       "ticker": "SPY",
       "models_agreeing": [
@@ -25,8 +13,20 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "All four models predicting SPY went bullish with moderate confidence (0.55-0.7), expecting continued momentum from the 3.1% five-day gain."
+      "outcome": "split",
+      "note": "All four models called SPY higher but only Gemini got it right as others set targets above actual close."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "Gemini",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "split",
+      "note": "Tech ETF consensus was directionally right for Gemini only, with others setting targets too high despite correct direction."
     },
     {
       "ticker": "NVDA",
@@ -36,35 +36,43 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Three models agreed on NVDA upside with Grok most confident at 0.7, all citing AI chip demand and AMD earnings validation."
+      "outcome": "correct",
+      "note": "All three models correctly called NVDA's rise with Grok's $212 target nearly perfect at $211.50 close."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
         "Claude",
         "Grok",
-        "Gemini",
-        "GPT-4o",
         "Perplexity"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Sharp division with Claude and Grok bearish citing Q1 delivery miss, while Gemini and GPT-4o bullish on product announcement hopes."
+      "agreed_direction": "down",
+      "outcome": "wrong",
+      "note": "Bears got crushed as TSLA rallied to $411.79, defying all three models predicting decline to ~$390-395."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "Both models called for $290 but Apple fell short at $287.44, missing targets by over $2."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Claude",
-    "ticker": "QQQ",
-    "score": 0.0,
-    "summary": "Claude showed highest conviction (0.78) on QQQ reaching $705, backed by specific pre-market data and AMD earnings catalyst."
+    "prediction_id": "pred_nvda_grok",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": 1.2,
+    "summary": "Grok nailed NVDA's move with 70% confidence, citing options flow data showing heavy call buying that played out perfectly."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Perplexity",
-    "ticker": "TSLA",
-    "score": 0.0,
-    "summary": "Perplexity's weak 0.45 confidence on TSLA downside reflected uncertainty rather than conviction in either direction."
+    "prediction_id": "pred_qqq_claude",
+    "model_display_name": "Claude",
+    "ticker": "QQQ",
+    "score": -0.78,
+    "summary": "Claude's high-confidence QQQ call for $705 missed badly as the ETF closed at $694.94 despite correct directional call."
   }
 }
