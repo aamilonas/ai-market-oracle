@@ -1,8 +1,8 @@
 {
   "date": "2026-05-08",
-  "generated_at": "2026-05-08T11:56:23.380173+00:00",
-  "headline": "AI Models Unite on Tech Rally Amid Geopolitical Oil Tensions",
-  "summary": "All five AI models showed remarkable consensus on bullish tech positions, with SPY and QQQ receiving unanimous upward predictions across the board. Claude stood out with aggressive energy sector plays citing Strait of Hormuz disruptions, while models diverged sharply on Tesla's direction with three predicting declines.",
+  "generated_at": "2026-05-08T23:15:45.166010+00:00",
+  "headline": "Models nail tech rally while Claude's XLE oil bet crashes spectacularly",
+  "summary": "AI models showed strong consensus on tech and broad market gains, with SPY and QQQ predictions proving remarkably accurate across the board. Claude's high-confidence XLE call expecting $98.50 catastrophically missed as the energy ETF plummeted to $55.70, despite reasoning about Strait of Hormuz disruptions.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -14,8 +14,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Perfect consensus with all five models bullish on S&P 500, confidence ranging from 60-67%."
+      "outcome": "correct",
+      "note": "All five models correctly predicted SPY's rise to $737.62, showing strong consensus on broad market strength."
     },
     {
       "ticker": "QQQ",
@@ -26,8 +26,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Strong tech optimism with four models predicting Nasdaq gains, Claude showing highest confidence at 72%."
+      "outcome": "correct",
+      "note": "Four models unanimously called QQQ's surge to $711.23, capturing the tech sector's outperformance."
     },
     {
       "ticker": "TSLA",
@@ -37,32 +37,22 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Three models bearish on Tesla citing production delays and mixed sentiment, all targeting $405 or below."
-    },
-    {
-      "ticker": "NVDA",
-      "models_agreeing": [
-        "Grok",
-        "Perplexity"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Both models bullish on AI chip leader, with Grok more confident at 70% on potential hardware announcements."
+      "outcome": "split",
+      "note": "Three models incorrectly predicted TSLA would fall, but it rallied to $428.35 instead."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Claude",
-    "ticker": "XLE",
-    "score": 0.0,
-    "summary": "Claude's 78% confidence energy play based on Strait of Hormuz shipping crisis shows highest conviction of the day."
+    "prediction_id": "pred_nvda_grok",
+    "model_display_name": "Grok",
+    "ticker": "NVDA",
+    "score": 1.2,
+    "summary": "Grok's 70% confidence NVDA call perfectly nailed the $215.20 close with impressive precision on AI hardware buzz."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Gemini",
-    "ticker": "XOM",
-    "score": 0.0,
-    "summary": "Gemini's bearish XOM call directly contradicts Claude's bullish energy thesis despite same geopolitical backdrop."
+    "prediction_id": "pred_xle_claude",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.78,
+    "summary": "Claude's 78% confidence XLE prediction expecting $98.50 crashed as the ETF inexplicably fell to $55.70, a stunning 43% miss."
   }
 }
