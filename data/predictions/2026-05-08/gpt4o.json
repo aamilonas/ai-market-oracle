@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-08",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-08T11:55:56.678143+00:00",
+  "market_context": "As of May 8, 2026, the U.S. stock market is poised for potential volatility due to the release of key economic indicators, including the April nonfarm payrolls and unemployment rate. The S&P 500 futures are trading near 7200, indicating a cautious market sentiment ahead of these reports.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260508_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 731.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The SPY ETF, representing the S&P 500, is currently trading at $731.58. With S&P 500 futures indicating stability around 7200 and the anticipation of positive nonfarm payroll data, there is a moderate likelihood of an upward movement by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260508_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 694.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The QQQ ETF, tracking the Nasdaq-100, is currently priced at $694.94. Given the recent 4.1% gain over the past five days and the potential for favorable economic data, there is a moderate chance of a slight increase by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260508_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 290.0,
+      "current_price_at_prediction": 287.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. shares are currently trading at $287.44. With a stable market outlook and no adverse company-specific news, there is a reasonable expectation for a modest price increase by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260508_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 405.0,
+      "current_price_at_prediction": 411.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla Inc. shares are currently at $411.79. Considering the stock's recent volatility and potential profit-taking, there is a moderate likelihood of a slight decline by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260508_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 79500.0,
+      "current_price_at_prediction": 80263.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is currently trading at $80263.41. Given the recent 2.2% gain over the past five days and typical market corrections, there is a moderate chance of a slight decrease by the end of the day."
+    }
+  ]
+}

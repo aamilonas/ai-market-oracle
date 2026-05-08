@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-08",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-08T11:55:38.212651+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound after recent dips, while energy sectors remain volatile due to fluctuating oil prices. Investor sentiment appears cautious ahead of upcoming inflation data, leading to potential short-term price movements.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260508_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive sentiment from tech earnings reports."
+    },
+    {
+      "id": "pred_gemini_20260508_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Positive analyst upgrades and strong pre-market trading volume suggest continued upward momentum for Apple shares."
+    },
+    {
+      "id": "pred_gemini_20260508_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 178.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays and increased competition in the EV market are likely to put downward pressure on the stock by week's end."
+    },
+    {
+      "id": "pred_gemini_20260508_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 115.0,
+      "current_price_at_prediction": 116.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "A sudden drop in crude oil futures prices is expected to negatively impact energy sector stocks, including ExxonMobil."
+    }
+  ]
+}

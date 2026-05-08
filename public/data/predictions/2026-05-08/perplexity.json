@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-08",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-08T11:55:00Z",
+  "market_context": "No search results available for current futures, pre-market data, or news. Relying on previous close prices and 5-day trends showing modest gains in SPY (+1.8%) and QQQ (+4.1%), with DIA flat (-0.1%) and VIX slightly elevated at 17.06. Market at 11:55 AM UTC (7:55 AM ET) likely in early trading with limited directional momentum evident.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260508_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 734.5,
+      "current_price_at_prediction": 731.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY's 5-day gain of +1.8% indicates short-term bullish momentum, supported by stable VIX at 17.06. Tech-heavy peers like QQQ up +4.1% suggest spillover strength. Targeting modest +0.4% gain to $734.50 assuming no major reversals."
+    },
+    {
+      "id": "pred_perplexity_20260508_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 694.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ shows strongest 5-day performance at +4.1%, driven by tech sector resilience amid 10Y yield at 4.39%. Key holdings like NVDA ($211.50) and AAPL ($287.44) align with upward trend. Expect continuation to $700 (+0.7%) on positive inertia."
+    },
+    {
+      "id": "pred_perplexity_20260508_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.0,
+      "current_price_at_prediction": 211.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from QQQ's +4.1% 5-day surge as a key AI chip leader. Broader Nasdaq strength and lack of negative catalysts support mild upside. Targeting +1.2% to $214, tempered by VIX uptick."
+    }
+  ]
+}
