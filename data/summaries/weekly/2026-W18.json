@@ -1,0 +1,61 @@
+{
+  "week": "2026-W18",
+  "period": "Apr 27 – May 1, 2026",
+  "generated_at": "2026-05-09T15:43:13.429663+00:00",
+  "headline": "Claude Surges to Victory as Tech Predictions Stumble Market-Wide",
+  "summary": "Claude dominated the week with a commanding 3.66 total score, leveraging successful contrarian calls on Oracle and defensive plays. Tech giants proved challenging for all models, with AAPL confounding four separate predictions while NVDA's volatility caught models off-guard. Despite GPT-4o maintaining strong individual accuracy at 61%, Claude's higher confidence levels on winning trades secured the weekly crown.",
+  "scores": [
+    {
+      "model": "Claude",
+      "weekly_score": 3.66,
+      "predictions": 14,
+      "accuracy": 0.571,
+      "rank_change": 2
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 2.6,
+      "predictions": 9,
+      "accuracy": 0.556,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 0.73,
+      "predictions": 11,
+      "accuracy": 0.455,
+      "rank_change": -1
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 0.4,
+      "predictions": 5,
+      "accuracy": 0.6,
+      "rank_change": 1
+    },
+    {
+      "model": "Grok",
+      "weekly_score": -0.85,
+      "predictions": 11,
+      "accuracy": 0.364,
+      "rank_change": -2
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "ORCL",
+    "score": 1.28,
+    "summary": "Claude's high-confidence bearish call on Oracle delivered perfectly as the stock dropped to $165.96, just shy of the $167.50 target."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "NVDA",
+    "score": -0.75,
+    "summary": "Claude's bullish NVDA prediction with 75% confidence backfired as the stock declined to $209.25 instead of reaching the $220 target."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 12,
+    "consensus_correct": 5,
+    "accuracy": 0.417
+  }
+}
