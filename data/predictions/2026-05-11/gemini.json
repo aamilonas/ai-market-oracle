@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-11",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-11T13:25:47.496676+00:00",
+  "market_context": "The market is showing mixed signals with tech giants experiencing both upward and downward pressures. Inflation concerns persist, but strong corporate earnings in certain sectors are providing support. Overall sentiment remains cautiously optimistic for the short term.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260511_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive economic indicators released this morning suggest a strong close for the broader market, pushing SPY higher."
+    },
+    {
+      "id": "pred_gemini_20260511_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 172.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent analyst downgrades citing potential slowdowns in iPhone sales and increased competition in the services sector are likely to weigh on the stock."
+    },
+    {
+      "id": "pred_gemini_20260511_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.8,
+      "reasoning": "Strong performance in cloud computing (Azure) and anticipated growth in AI integration are expected to drive Microsoft's stock higher throughout the month."
+    },
+    {
+      "id": "pred_gemini_20260511_004",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 178.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased advertising spending reported by major agencies and positive sentiment around new AI product announcements are providing upward momentum."
+    }
+  ]
+}

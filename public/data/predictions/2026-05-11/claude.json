@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-11",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-11T09:00:00Z",
+  "market_context": "Markets face headwinds from escalating U.S.-Iran tensions as Trump rejects latest proposal, driving oil prices up 2-3%. Futures are slightly negative despite recent six-week rally in major indices. Tomorrow's CPI report expected to show elevated inflation.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260511_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.0,
+      "current_price_at_prediction": 737.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Rising oil prices from Iran conflict rejection and negative futures suggest market digestion after six-week rally. VIX at 18.24 shows building uncertainty ahead of Tuesday's CPI report which could show 3.8% annual inflation."
+    },
+    {
+      "id": "pred_claude_20260511_002",
+      "ticker": "INTC",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "current_price_at_prediction": 124.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Preliminary Apple chip deal momentum continues with premarket gains. Stock hit all-time high of $130.57 Friday and has surged 240% YTD. Strong foundry validation from Apple partnership should drive further institutional buying."
+    },
+    {
+      "id": "pred_claude_20260511_003",
+      "ticker": "MRNA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 55.0,
+      "current_price_at_prediction": 48.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Hantavirus vaccine development news drove 7.5% premarket spike as outbreak concerns persist from cruise ship incident. mRNA platform validation for rare diseases supports pipeline diversification story beyond COVID revenues."
+    },
+    {
+      "id": "pred_claude_20260511_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 98.5,
+      "current_price_at_prediction": 95.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "WTI crude up 2.59% to $97.89 on Iran conflict escalation after Trump rejects proposal. Energy sector should benefit from sustained higher oil prices with Strait of Hormuz tensions unresolved and limited supply alternatives."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-11",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-11T13:26:09.615209+00:00",
+  "market_context": "U.S. markets are near all-time highs, with oil prices rising over 2% due to geopolitical tensions following President Trump's rejection of Iran's peace proposal. Investors are also anticipating upcoming inflation data and a summit between President Trump and Chinese President Xi Jinping.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260511_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 737.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The recent surge in oil prices due to geopolitical tensions is likely to increase market volatility and put downward pressure on equities. Additionally, investors may adopt a cautious stance ahead of the upcoming inflation data and the U.S.-China summit, leading to a potential decline in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260511_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 290.0,
+      "current_price_at_prediction": 293.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock may face downward pressure due to broader market concerns stemming from rising energy costs and geopolitical uncertainties. Investors might be cautious, leading to a slight decline in AAPL's price."
+    },
+    {
+      "id": "pred_gpt4o_20260511_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 82500.0,
+      "current_price_at_prediction": 81261.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "In times of geopolitical uncertainty and rising inflation concerns, investors often turn to alternative assets like Bitcoin as a hedge. This trend could lead to an increase in BTC-USD's price."
+    }
+  ]
+}

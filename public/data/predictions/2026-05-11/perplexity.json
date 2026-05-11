@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-11",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-11T13:25:00Z",
+  "market_context": "US stock futures are pointing to a modestly higher open amid mixed pre-market signals, with tech leading gains after strong weekend sentiment on AI developments. VIX at 18.24 remains elevated but stable, while 10Y Treasury yield at 4.38% reflects ongoing caution ahead of key economic data releases this week including CPI on Wednesday. QQQ's recent 5-day +5.5% outperformance suggests continued rotation into Nasdaq amid broader market resilience.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260511_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.5,
+      "current_price_at_prediction": 737.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "SPY's 5-day gain of +2.4% builds momentum into Monday with futures implying a 0.3-0.5% open higher. Stable VIX at 18.24 and DIA's resilience (+0.2% over 5 days) support broad market upside without major overhead resistance near $740. Economic calendar lacks high-impact events today, favoring continuation of last week's trend."
+    },
+    {
+      "id": "pred_perplexity_20260511_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 711.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "QQQ's strong 5-day +5.5% surge reflects tech sector strength, amplified by positive overnight news on NVDA and AI chip demand. Pre-market Nasdaq futures are up ~0.6%, targeting a break above recent highs with low VIX volatility. Key holdings like AAPL ($293.32) and MSFT ($415.12) show no major red flags."
+    },
+    {
+      "id": "pred_perplexity_20260511_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 219.5,
+      "current_price_at_prediction": 215.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NVDA benefits from QQQ's tech momentum (+5.5% 5-day) and recent reports of robust AI infrastructure spending. Pre-market activity shows semis leading gains, with no negative catalysts amid stable crypto (BTC -0.2%). Target assumes 2% intraday move aligned with sector futures."
+    },
+    {
+      "id": "pred_perplexity_20260511_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 422.0,
+      "current_price_at_prediction": 428.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA underperforms peers amid weekend noise on EV demand slowdown and high valuation, contrasting QQQ's tech rally. 5-day data unavailable but DIA's mere +0.2% highlights rotation away from cyclicals like autos. Elevated 10Y yield at 4.38% pressures growth names like TSLA."
+    }
+  ]
+}

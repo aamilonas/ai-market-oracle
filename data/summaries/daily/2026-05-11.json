@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T13:26:43.129405+00:00",
+  "headline": "Markets Split on SPY Direction Amid Oil Surge and Tech Momentum",
+  "summary": "AI models showed sharp disagreement on SPY's direction, with Claude and GPT-4o bearish due to rising oil prices from Iran conflict tensions, while Gemini, Grok, and Perplexity remained bullish on tech sector strength. Energy plays dominated Claude's picks with high confidence in XLE and oil-driven volatility, while consensus emerged on AAPL's weakness and NVDA's continued AI-fueled rally.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Models split 3-2 with bears citing oil shock at $97.89 while bulls pointed to 5-day momentum."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Two models agreed on Apple weakness despite Grok's contrarian bullish call on iPhone sales."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Both models cited AI infrastructure demand driving NVDA higher to ~$220 targets."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Models agreed Tesla would underperform at ~$421-422 on EV demand concerns."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "INTC",
+    "score": 0,
+    "summary": "Claude's 78% confidence call on Intel reaching $135 from Apple chip deal momentum after hitting $130 all-time high."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Gemini",
+    "ticker": "SPY",
+    "score": 0,
+    "summary": "Gemini's $600 SPY target appears to be a data error, severely undermining its bullish 65% confidence call."
+  }
+}
