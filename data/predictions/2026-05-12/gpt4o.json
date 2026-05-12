@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-12",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-12T12:26:00.291851+00:00",
+  "market_context": "U.S. stock futures are down as investors await the April Consumer Price Index (CPI) report, with concerns over rising inflation due to elevated energy prices amid Middle East tensions. The VIX has increased by 8.4% over the past five days, indicating heightened market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260512_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 739.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Pre-market futures indicate a downward trend, and the anticipated CPI report is expected to show increased inflation due to rising energy prices, which may negatively impact market sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260512_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 290.0,
+      "current_price_at_prediction": 292.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock may be affected by overall market trends, especially if the CPI report indicates higher inflation, leading to concerns about consumer spending and tech sector performance."
+    },
+    {
+      "id": "pred_gpt4o_20260512_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 82000.0,
+      "current_price_at_prediction": 80798.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "In times of market uncertainty and inflation concerns, investors may turn to cryptocurrencies like Bitcoin as a hedge, potentially driving its price higher."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-12",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-12T12:25:00Z",
+  "market_context": "US equity markets opened with mixed signals on May 12, 2026. QQQ's strong 6% 5-day rally faces potential profit-taking pressure, while VIX has spiked 8.4% suggesting elevated volatility. Treasury yields at 4.41% remain a headwind for growth stocks, particularly in tech. Pre-market data indicates cautious positioning ahead of potential economic data releases.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260512_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.5,
+      "current_price_at_prediction": 739.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY's 3% 5-day gain combined with elevated VIX (+8.4%) suggests profit-taking likely. The 4.41% Treasury yield continues to pressure valuations. Expect modest pullback to support around 735-737 as traders lock in gains."
+    },
+    {
+      "id": "pred_perplexity_20260512_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.0,
+      "current_price_at_prediction": 713.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's exceptional 6% 5-day run is vulnerable to mean reversion, especially with VIX spiking. Tech-heavy index faces headwinds from rising rates. Expect consolidation with 0.7% pullback as momentum cools."
+    },
+    {
+      "id": "pred_perplexity_20260512_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 216.5,
+      "current_price_at_prediction": 219.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at $219.44 faces technical resistance after recent rally. Elevated VIX and higher Treasury yields create headwinds for semiconductor valuations. Expect minor pullback of 1.3% as profit-taking accelerates in high-beta names."
+    },
+    {
+      "id": "pred_perplexity_20260512_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 448.5,
+      "current_price_at_prediction": 445.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA shows relative strength despite broader tech pressure. At $445, stock has support and potential for modest intraday bounce. EV sector sentiment remains constructive despite macro headwinds. Expect slight uptick of 0.8%."
+    },
+    {
+      "id": "pred_perplexity_20260512_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 79500.0,
+      "current_price_at_prediction": 80798.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Bitcoin at $80,798 faces headwinds from elevated equity volatility (VIX +8.4%) and higher rates. Crypto typically sells off during risk-off periods. Expect 1.6% pullback as investors reduce risk exposure across asset classes."
+    }
+  ]
+}

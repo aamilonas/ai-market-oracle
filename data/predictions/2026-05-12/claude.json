@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-12",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-12T08:15:00Z",
+  "market_context": "Futures are down 0.4% ahead of April CPI release at 8:30 AM, with economists expecting 3.7-3.8% headline inflation driven by energy costs. Oil remains elevated at $100/barrel amid U.S.-Iran conflict and Strait of Hormuz closure.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260512_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 739.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Hot CPI print of 3.7-3.8% expected due to energy price surge will likely trigger risk-off sentiment and concern about persistent inflation. Fed rate cut expectations will be pushed further out, pressuring equities despite recent strength."
+    },
+    {
+      "id": "pred_claude_20260512_002",
+      "ticker": "INTC",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 219.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Already down 4.3% in premarket on profit-taking after 500% run-up. Trading at extreme 119x forward P/E with Apple foundry talks still unconfirmed. High RSI and parabolic move create asymmetric downside risk on any disappointment."
+    },
+    {
+      "id": "pred_claude_20260512_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.0,
+      "current_price_at_prediction": 92.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Oil at $100+ with Strait of Hormuz effectively closed and no clear resolution to U.S.-Iran conflict. Energy sector should outperform on continued supply disruption fears and inflation data confirming energy price impact."
+    },
+    {
+      "id": "pred_claude_20260512_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 88.0,
+      "current_price_at_prediction": 90.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Hot CPI will reinforce Fed hawkishness and push rate cut expectations further into 2027. Higher inflation expectations will pressure long-duration bonds despite any flight-to-quality bid from geopolitical tensions."
+    },
+    {
+      "id": "pred_claude_20260512_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 22.0,
+      "current_price_at_prediction": 18.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "CPI surprise risk combined with ongoing Middle East tensions and uncertain Iran peace negotiations should drive volatility higher. Current VIX level appears complacent given multiple risk factors converging today."
+    }
+  ]
+}

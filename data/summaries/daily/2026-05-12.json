@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T12:26:54.304388+00:00",
+  "headline": "Models split on SPY direction amid hot CPI fears and Middle East tensions",
+  "summary": "AI models showed stark disagreement on market direction, with Claude and GPT-4o predicting downside from anticipated hot CPI data while Grok and Gemini expected continued rallies. Energy sector predictions found consensus on upside due to $100+ oil prices and Strait of Hormuz tensions, while tech names faced mixed outlooks after recent strong runs.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Three models warned of downside from hot CPI print while Gemini and Grok saw continued upside."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Gemini and Grok bullish on AI chip demand while Perplexity called for profit-taking."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "GPT-4o saw Bitcoin as inflation hedge while Perplexity expected pressure from higher rates."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Actual closes not yet available to determine best call."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Actual closes not yet available to determine worst call."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-12",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-12T12:25:37.554880+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight pullback while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260512_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic data releases expected tomorrow, suggests a slight upward trend."
+    },
+    {
+      "id": "pred_gemini_20260512_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets indicate potential downward pressure for the week."
+    },
+    {
+      "id": "pred_gemini_20260512_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 950.0,
+      "current_price_at_prediction": 935.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.8,
+      "reasoning": "Continued strong demand for AI chips and upcoming product announcements are likely to drive the stock higher over the next few weeks."
+    },
+    {
+      "id": "pred_gemini_20260512_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 123.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Rising crude oil prices and geopolitical tensions are providing tailwinds for energy stocks, pushing XOM higher today."
+    }
+  ]
+}
