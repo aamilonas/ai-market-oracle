@@ -1,8 +1,8 @@
 {
   "date": "2026-05-12",
-  "generated_at": "2026-05-12T12:26:54.304388+00:00",
-  "headline": "Models split on SPY direction amid hot CPI fears and Middle East tensions",
-  "summary": "AI models showed stark disagreement on market direction, with Claude and GPT-4o predicting downside from anticipated hot CPI data while Grok and Gemini expected continued rallies. Energy sector predictions found consensus on upside due to $100+ oil prices and Strait of Hormuz tensions, while tech names faced mixed outlooks after recent strong runs.",
+  "generated_at": "2026-05-12T23:32:53.944914+00:00",
+  "headline": "Models nail tech selloff but miss energy collapse despite $100 oil",
+  "summary": "AI models successfully predicted a broad market decline with SPY and QQQ falling, though disagreed on magnitude. The day's biggest surprise was XLE's massive 40% crash despite oil hitting $100+ and Middle East tensions, catching both Claude and Gemini completely wrong on energy plays.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -12,8 +12,8 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Three models warned of downside from hot CPI print while Gemini and Grok saw continued upside."
+      "outcome": "correct",
+      "note": "Three models correctly called SPY's decline citing hot CPI concerns, while Gemini and Grok went contrarian and got burned."
     },
     {
       "ticker": "NVDA",
@@ -22,8 +22,18 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Gemini and Grok bullish on AI chip demand while Perplexity called for profit-taking."
+      "outcome": "correct",
+      "note": "Both models correctly bet on NVDA's continued AI momentum while Perplexity wrongly called for profit-taking."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "Grok expected continuation of the 6% rally while Perplexity correctly called mean reversion."
     },
     {
       "ticker": "BTC-USD",
@@ -32,22 +42,22 @@
         "Perplexity"
       ],
       "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "GPT-4o saw Bitcoin as inflation hedge while Perplexity expected pressure from higher rates."
+      "outcome": "split",
+      "note": "GPT-4o saw crypto as inflation hedge while Perplexity correctly predicted pressure from rising rates."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Actual closes not yet available to determine best call."
+    "prediction_id": "pred_perplexity_qqq",
+    "model_display_name": "Perplexity",
+    "ticker": "QQQ",
+    "score": 1.12,
+    "summary": "Perplexity perfectly timed QQQ's mean reversion after a 6% rally, nailing both direction and magnitude."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Actual closes not yet available to determine worst call."
+    "prediction_id": "pred_claude_xle",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.7,
+    "summary": "Claude's high-conviction energy bet backfired spectacularly as XLE crashed 40% despite $100 oil and Middle East tensions."
   }
 }
