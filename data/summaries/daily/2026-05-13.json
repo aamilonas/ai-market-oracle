@@ -1,0 +1,65 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T12:30:33.506836+00:00",
+  "headline": "Models Split on Market Direction Amid Inflation Concerns and Tech Volatility",
+  "summary": "AI models showed sharp disagreements on market direction, with Claude bearish on major indices citing hot inflation data while GPT-4o, Grok, and Perplexity remained bullish on tech rebounds. The most contentious ticker was TSLA, with models evenly split between bullish and bearish calls, while NVDA saw unanimous optimism across all models predicting gains.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity",
+        "Gemini"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models bullish on SPY despite Claude's bearish warning about hot CPI data."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "All three models targeting NVDA agreed on upside, citing AI momentum and semiconductor rebounds."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Claude",
+        "Gemini"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Tesla predictions were evenly split with Claude and Gemini bullish while GPT-4o and Grok bearish."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy QQQ saw bullish calls from Gemini and Perplexity against Claude's bearish view."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "pending",
+    "ticker": "pending",
+    "score": 0,
+    "summary": "Best call cannot be determined as all predictions are still pending market close."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "pending",
+    "ticker": "pending",
+    "score": 0,
+    "summary": "Worst call cannot be determined as all predictions are still pending market close."
+  }
+}

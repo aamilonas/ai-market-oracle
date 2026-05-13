@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-13",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-13T12:29:16.812748+00:00",
+  "market_context": "Market sentiment is mixed following recent inflation data, with tech stocks showing resilience while broader indices consolidate. Investors are closely watching upcoming Fed speeches for further guidance on interest rates.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260513_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from strong tech earnings is expected to carry SPY higher, with key support levels holding firm."
+    },
+    {
+      "id": "pred_gemini_20260513_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 515.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Continued strength in mega-cap tech stocks, driven by AI optimism and robust Q1 results, suggests further upside for QQQ this week."
+    },
+    {
+      "id": "pred_gemini_20260513_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Concerns over slowing iPhone demand in key markets and a recent analyst downgrade could put downward pressure on AAPL today."
+    },
+    {
+      "id": "pred_gemini_20260513_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 191.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.55,
+      "reasoning": "Anticipation of new product announcements and a potential rebound in EV sales figures towards month-end could provide a boost to TSLA."
+    }
+  ]
+}

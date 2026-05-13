@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-13",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-13T12:29:54.504816+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth amid upcoming earnings reports. Pre-market futures for major indices are slightly up, with notable positive movement in tech-heavy QQQ. No major unexpected news events are dominating headlines, though anticipation for Federal Reserve commentary later this week is noted.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260513_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is expected to rise slightly by end of day based on positive pre-market futures data showing a 0.3% uptick as reported by Bloomberg. X sentiment reflects optimism around stable macroeconomic indicators and a lack of negative catalysts. However, confidence is moderate due to potential volatility from the VIX at 17.86."
+    },
+    {
+      "id": "pred_grok_20260513_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is predicted to increase based on strong X chatter about AI sector momentum and recent positive analyst upgrades mentioned in posts citing Seeking Alpha. Options flow data from web sources indicates heavy call buying for NVDA this week. Confidence is tempered by broader market uncertainty."
+    },
+    {
+      "id": "pred_grok_20260513_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 428.0,
+      "current_price_at_prediction": 433.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may see a slight decline due to mixed sentiment on X, with some users highlighting concerns over recent production delays reported by Reuters. Pre-market trading shows minor weakness with a 0.2% drop as per Yahoo Finance data. Confidence is low due to TSLA's high volatility and unpredictable news cycle."
+    },
+    {
+      "id": "pred_grok_20260513_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 298.0,
+      "current_price_at_prediction": 294.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL is expected to edge higher based on positive X discussions around new product rumors and strong retail investor interest noted in trending hashtags. Web searches confirm analyst optimism from recent Barron’s coverage on upcoming iPhone sales. Confidence remains moderate due to potential broader market pullbacks."
+    }
+  ]
+}

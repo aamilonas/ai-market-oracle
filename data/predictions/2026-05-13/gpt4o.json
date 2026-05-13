@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-13",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-13T12:29:39.089102+00:00",
+  "market_context": "As of May 13, 2026, U.S. stock futures indicate a mixed opening: S&P 500 futures are up 0.17%, Dow Jones futures are up 0.06%, and Nasdaq futures are up 0.38%. The technology sector is rebounding, with semiconductor stocks like Intel, Micron, and Qualcomm recovering from recent declines. President Donald Trump's visit to China to meet with President Xi Jinping is expected to focus on trade and artificial intelligence. Oil prices remain volatile, hovering around $101 per barrel, amid ongoing tensions in the Persian Gulf.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260513_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The S&P 500 futures are up 0.17% pre-market, indicating a positive opening. The rebound in technology stocks, particularly in the semiconductor sector, suggests renewed investor confidence. Additionally, President Trump's meeting with President Xi Jinping may lead to favorable trade discussions, further boosting market sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260513_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia has been a significant beneficiary of the AI boom, and the recent rebound in semiconductor stocks indicates strong investor interest. The company's fundamentals remain robust, and the positive pre-market movement suggests continued upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260513_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 425.0,
+      "current_price_at_prediction": 433.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has shown volatility amid broader market fluctuations. While the tech sector is rebounding, Tesla's recent performance and market sentiment suggest a potential slight decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260513_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 81000.0,
+      "current_price_at_prediction": 80324.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown resilience amid market volatility, with a slight upward trend in recent days. The current market context and investor sentiment suggest a modest increase by the end of the day."
+    }
+  ]
+}

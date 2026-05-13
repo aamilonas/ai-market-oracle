@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-13",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-13T06:30:00Z",
+  "market_context": "Markets face significant headwinds with April CPI at 3.8% exceeding expectations, oil prices volatile around $102-107 due to Iran war tensions, and key PPI data release at 8:30 AM with expectations of 0.5% monthly gain. Futures are mixed with tech weakness continuing after recent AI rally pullback.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260513_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.0,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Premarket data shows SPY futures down 0.20% with hot CPI data yesterday pressuring markets. PPI at 8:30 AM expected to show continued inflation pressure at 0.5% monthly, matching March's increase. Oil volatility and geopolitical tensions with Iran war creating risk-off sentiment."
+    },
+    {
+      "id": "pred_claude_20260513_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 440.0,
+      "current_price_at_prediction": 433.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tesla shares rose 1.5% premarket as Musk joins Trump's high-stakes China trip focused on trade and FSD approval. Despite recent 28% rally creating vulnerability, the diplomatic significance and potential for China FSD breakthrough outweighs near-term headwinds from robotaxi glitches."
+    },
+    {
+      "id": "pred_claude_20260513_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.5,
+      "current_price_at_prediction": 93.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Oil complex remains supported by Iran war tensions with WTI at $101.50 and Brent at $107.40. Trump dismissed Iran's peace proposal as 'garbage' and ceasefire on 'massive life support.' Saudi Aramco CEO warns market losing 100M barrels weekly with normalization possibly delayed to 2027."
+    },
+    {
+      "id": "pred_claude_20260513_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 89.2,
+      "current_price_at_prediction": 90.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Hot CPI at 3.8% and expected strong PPI data reduces Fed rate cut expectations for 2026. Rising oil prices adding to inflation pressures while geopolitical tensions typically don't drive sustained Treasury rallies when inflation is elevated above Fed targets."
+    },
+    {
+      "id": "pred_claude_20260513_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 707.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech futures down 0.33% premarket after Tuesday's pullback from AI rally highs. Qualcomm plunged 13% yesterday in worst session since 2020, chip sector ETF down 5%. Rising yields from inflation concerns and profit-taking after massive semiconductor gains creating continued selling pressure."
+    }
+  ]
+}
