@@ -1,5 +1,5 @@
 {
-  "balance": 29554.31,
+  "balance": 30225.96,
   "starting_balance": 25000,
   "trades": [
     {
@@ -320,17 +320,17 @@
       "ticker": "NVDA",
       "direction": "up",
       "entry_price": 220.78,
-      "exit_price": null,
+      "exit_price": 225.83,
       "shares": 133,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 671.65,
+      "pnl_pct": 2.29,
       "models": [
         "Grok",
         "Perplexity",
         "GPT-4o"
       ],
       "confidence": 0.7,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

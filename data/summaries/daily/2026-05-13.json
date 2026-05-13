@@ -1,20 +1,20 @@
 {
   "date": "2026-05-13",
-  "generated_at": "2026-05-13T12:30:33.506836+00:00",
-  "headline": "Models Split on Market Direction Amid Inflation Concerns and Tech Volatility",
-  "summary": "AI models showed sharp disagreements on market direction, with Claude bearish on major indices citing hot inflation data while GPT-4o, Grok, and Perplexity remained bullish on tech rebounds. The most contentious ticker was TSLA, with models evenly split between bullish and bearish calls, while NVDA saw unanimous optimism across all models predicting gains.",
+  "generated_at": "2026-05-13T23:34:32.689743+00:00",
+  "headline": "AI models nail tech rally while Claude catastrophically misreads energy sector",
+  "summary": "Models showed strong consensus on tech strength with SPY and NVDA calls proving highly accurate, while disagreement on TSLA saw bears get burned as it surged. Claude's XLE prediction stands out as the day's biggest disaster, expecting $95.50 but seeing the stock crash to $57.63, suggesting a major data error or market shock.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
+        "Gemini",
         "GPT-4o",
         "Grok",
-        "Perplexity",
-        "Gemini"
+        "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models bullish on SPY despite Claude's bearish warning about hot CPI data."
+      "outcome": "correct",
+      "note": "Four models correctly called SPY's rise to 742.31, while only Claude went bearish and paid for it."
     },
     {
       "ticker": "NVDA",
@@ -24,42 +24,33 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "All three models targeting NVDA agreed on upside, citing AI momentum and semiconductor rebounds."
+      "outcome": "correct",
+      "note": "Perfect consensus on NVDA's continued AI-driven momentum, with all three models scoring 1.2."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
-        "Claude",
-        "Gemini"
-      ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Tesla predictions were evenly split with Claude and Gemini bullish while GPT-4o and Grok bearish."
-    },
-    {
-      "ticker": "QQQ",
-      "models_agreeing": [
-        "Gemini",
+        "GPT-4o",
+        "Grok",
         "Perplexity"
       ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy QQQ saw bullish calls from Gemini and Perplexity against Claude's bearish view."
+      "agreed_direction": "down",
+      "outcome": "wrong",
+      "note": "Three models expected TSLA weakness around $428, but the stock rallied to $445.27, with only Claude and Gemini calling it right."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "pending",
-    "ticker": "pending",
-    "score": 0,
-    "summary": "Best call cannot be determined as all predictions are still pending market close."
+    "prediction_id": "pred_nvda_gpt4o",
+    "model_display_name": "GPT-4o",
+    "ticker": "NVDA",
+    "score": 1.2,
+    "summary": "Perfectly nailed NVDA's close at $225.83 with 70% confidence, capitalizing on AI semiconductor momentum."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "pending",
-    "ticker": "pending",
-    "score": 0,
-    "summary": "Worst call cannot be determined as all predictions are still pending market close."
+    "prediction_id": "pred_xle_claude",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.78,
+    "summary": "Claude's high-confidence call for XLE at $95.50 crashed spectacularly as the energy ETF closed at $57.63, a 40% miss suggesting major data issues."
   }
 }
