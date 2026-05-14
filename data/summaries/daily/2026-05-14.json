@@ -1,8 +1,8 @@
 {
   "date": "2026-05-14",
-  "generated_at": "2026-05-14T12:13:27.002872+00:00",
-  "headline": "AI Models Split on Tech Rally as NVDA and TSLA Divide Predictions",
-  "summary": "Models showed strong consensus on SPY and QQQ upside, with tech optimism driving most predictions despite rising yields and VIX concerns. Notable disagreements emerged on NVDA (Claude bullish vs Perplexity bearish) and TSLA (GPT-4o and Grok split), while all models correctly identified bond weakness with TLT calls.",
+  "generated_at": "2026-05-14T23:14:38.124118+00:00",
+  "headline": "Tech Rally Dominates as SPY and QQQ Surge Past Targets",
+  "summary": "A strong tech-led rally saw the major indices blow past predictions, with SPY closing at 748.17 and QQQ at 719.79. While most models correctly called the upward direction for tech stocks, several dramatically underestimated the magnitude of moves, particularly in TSLA which closed at 443.30 despite bearish calls. Energy predictions were catastrophically wrong with XLE closing at 58.07 versus a 95.50 target.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -13,8 +13,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models agreed on SPY upside with moderate confidence around 60-65%, citing positive momentum and economic data."
+      "outcome": "correct",
+      "note": "All four models correctly called SPY's direction, with the index surging well past their targets."
     },
     {
       "ticker": "QQQ",
@@ -24,8 +24,8 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Tech-heavy QQQ saw bullish consensus with models citing semiconductor strength and 2.7% five-day gains."
+      "outcome": "correct",
+      "note": "Tech ETF consensus proved correct as QQQ rallied to 719.79, validating the bullish tech thesis."
     },
     {
       "ticker": "NVDA",
@@ -34,8 +34,8 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Claude showed highest conviction at 85% on NVDA's China delegation news, while Perplexity went contrarian bearish."
+      "outcome": "correct",
+      "note": "Both models nailed NVDA's surge to 235.74, with Claude's China delegation reasoning proving prescient."
     },
     {
       "ticker": "TSLA",
@@ -45,32 +45,22 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Three models predicted TSLA weakness citing competition and production concerns, while GPT-4o stood alone bullish."
-    },
-    {
-      "ticker": "AAPL",
-      "models_agreeing": [
-        "GPT-4o",
-        "Grok"
-      ],
-      "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Split decision on Apple with GPT-4o and Grok bullish on product rumors versus Gemini's bearish iPhone sales concerns."
+      "outcome": "split",
+      "note": "Mixed results as only Grok and Perplexity were technically correct despite TSLA closing near 443."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_nvda_claude",
     "model_display_name": "Claude",
-    "ticker": "TLT",
-    "score": 0.0,
-    "summary": "Claude's 80% confidence TLT short call aligned perfectly with hot PPI data and rising yields narrative."
+    "ticker": "NVDA",
+    "score": 1.35,
+    "summary": "Claude's high-confidence NVDA call with 85% confidence perfectly caught the semiconductor rally driven by Jensen Huang's China delegation news."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Pending",
-    "ticker": "TBD",
-    "score": 0.0,
-    "summary": "Results pending market close to determine worst performing prediction."
+    "prediction_id": "pred_xle_claude",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.7,
+    "summary": "Claude's XLE prediction was spectacularly wrong, targeting 95.50 when it actually closed at 58.07, a massive 38% miss."
   }
 }
