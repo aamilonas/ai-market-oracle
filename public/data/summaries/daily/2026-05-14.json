@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T12:13:27.002872+00:00",
+  "headline": "AI Models Split on Tech Rally as NVDA and TSLA Divide Predictions",
+  "summary": "Models showed strong consensus on SPY and QQQ upside, with tech optimism driving most predictions despite rising yields and VIX concerns. Notable disagreements emerged on NVDA (Claude bullish vs Perplexity bearish) and TSLA (GPT-4o and Grok split), while all models correctly identified bond weakness with TLT calls.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models agreed on SPY upside with moderate confidence around 60-65%, citing positive momentum and economic data."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Tech-heavy QQQ saw bullish consensus with models citing semiconductor strength and 2.7% five-day gains."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Claude showed highest conviction at 85% on NVDA's China delegation news, while Perplexity went contrarian bearish."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Three models predicted TSLA weakness citing competition and production concerns, while GPT-4o stood alone bullish."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Split decision on Apple with GPT-4o and Grok bullish on product rumors versus Gemini's bearish iPhone sales concerns."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Claude",
+    "ticker": "TLT",
+    "score": 0.0,
+    "summary": "Claude's 80% confidence TLT short call aligned perfectly with hot PPI data and rising yields narrative."
+  },
+  "worst_call": {
+    "prediction_id": "pred_pending",
+    "model_display_name": "Pending",
+    "ticker": "TBD",
+    "score": 0.0,
+    "summary": "Results pending market close to determine worst performing prediction."
+  }
+}

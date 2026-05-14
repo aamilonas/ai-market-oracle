@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-14",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-14T14:30:00Z",
+  "market_context": "Markets face hot PPI data pushing yields to 2026 highs, while tech leads with Nvidia surging on China trip news. Oil remains elevated near $101-106 amid Iran war tensions.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260514_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 714.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong tech momentum with Nasdaq futures up 0.2% and semiconductor sector rallying on Nvidia China news. Despite hot PPI data, tech stocks have shown resilience to rate concerns given AI demand backdrop."
+    },
+    {
+      "id": "pred_claude_20260514_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 235.0,
+      "current_price_at_prediction": 225.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Strong premarket gains of 2.4% on Jensen Huang joining Trump's China delegation. This signals potential easing of export restrictions and access to Chinese markets, a major positive catalyst for the stock."
+    },
+    {
+      "id": "pred_claude_20260514_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 494.0,
+      "current_price_at_prediction": 497.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow underperforming with 5-day decline of 0.4% and pressure from rising yields hitting rate-sensitive sectors. Hot PPI data reinforces hawkish Fed expectations, weighing on traditional blue-chip stocks."
+    },
+    {
+      "id": "pred_claude_20260514_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.5,
+      "current_price_at_prediction": 92.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Oil prices remain elevated with WTI above $100 and Brent near $106 due to Iran war supply disruptions. IEA warned inventories falling at record pace, supporting energy sector despite broader market uncertainty."
+    },
+    {
+      "id": "pred_claude_20260514_005",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 89.0,
+      "current_price_at_prediction": 91.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Hot PPI data pushed 10-year yields to 2026 highs at 4.48%, with bond auction showing tepid demand. Rising rate hike odds and reduced 2026 cut expectations create strong headwinds for long-term Treasuries."
+    }
+  ]
+}

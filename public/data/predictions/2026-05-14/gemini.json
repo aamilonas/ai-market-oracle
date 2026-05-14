@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-14",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-14T12:12:24.228425+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors are gaining momentum due to recent geopolitical events. Inflation concerns remain, but consumer spending data suggests resilience in certain areas.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260514_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released earlier today."
+    },
+    {
+      "id": "pred_gemini_20260514_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 187.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets are likely to put downward pressure on the stock."
+    },
+    {
+      "id": "pred_gemini_20260514_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 123.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising crude oil prices and strong Q1 earnings report indicate continued growth for the energy sector."
+    },
+    {
+      "id": "pred_gemini_20260514_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 172.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and a recent recall announcement are weighing on investor sentiment."
+    }
+  ]
+}

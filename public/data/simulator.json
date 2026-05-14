@@ -331,6 +331,23 @@
       ],
       "confidence": 0.7,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "TSLA",
+      "direction": "down",
+      "entry_price": 445.27,
+      "exit_price": null,
+      "shares": 67,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Grok",
+        "Perplexity",
+        "Gemini"
+      ],
+      "confidence": 0.56,
+      "status": "OPEN"
     }
   ]
 }

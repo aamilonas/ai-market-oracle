@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-14",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-14T12:12:47.106113+00:00",
+  "market_context": "As of May 14, 2026, the S&P 500 ETF (SPY) closed at $742.31, up 1.2% over the past five days. The VIX stands at 17.84, indicating moderate market volatility. Key economic indicators, including retail sales and import price index data, are scheduled for release today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260514_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 742.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Given the recent upward trend of 1.2% over the past five days and the scheduled release of retail sales data, which is expected to show a 0.5% month-over-month increase, investor sentiment may remain positive, potentially driving SPY higher."
+    },
+    {
+      "id": "pred_gpt4o_20260514_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 305.0,
+      "current_price_at_prediction": 298.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has shown resilience, and with the broader market's positive momentum, AAPL may experience gains, especially if retail sales data meets or exceeds expectations."
+    },
+    {
+      "id": "pred_gpt4o_20260514_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 78000.0,
+      "current_price_at_prediction": 79362.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has declined by 1.6% over the past five days. With the release of economic data potentially strengthening the U.S. dollar, BTC may face further downward pressure."
+    },
+    {
+      "id": "pred_gpt4o_20260514_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 445.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has been on an upward trajectory, and positive retail sales data could bolster consumer confidence, potentially benefiting TSLA's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260514_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 714.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq-100 ETF has gained 2.7% over the past five days. Anticipation of favorable economic data releases today may continue to support this upward trend."
+    }
+  ]
+}

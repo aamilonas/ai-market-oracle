@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-14T12:12:00Z",
+  "market_context": "US equity markets are mid-session on Thursday with mixed signals: QQQ up 2.7% over 5 days showing tech strength, but VIX elevated at 17.84 (+4.5% 5-day) indicating underlying volatility concerns. Treasury yields stable at 4.48% with crypto weakness (BTC -1.6%, ETH -3.1%) potentially pressuring risk appetite into close.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260514_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.2,
+      "current_price_at_prediction": 742.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY showing modest 5-day gains (+1.2%) with QQQ outperforming (+2.7%), suggesting selective tech rotation. VIX elevation to 17.84 creates mild headwind, but stable Treasury yields and mid-day positioning favor modest close above resistance. Target reflects +0.39% move."
+    },
+    {
+      "id": "pred_perplexity_20260514_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.5,
+      "current_price_at_prediction": 714.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ momentum strongest among indices (+2.7% 5-day). NVDA, MSFT, AAPL collectively driving tech strength. Crypto weakness (ETH -3.1%) is headwind but not sufficient to reverse intraday trend. Target +0.53% reflects continuation of established uptrend."
+    },
+    {
+      "id": "pred_perplexity_20260514_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 223.15,
+      "current_price_at_prediction": 225.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at $225.83 showing vulnerability as VIX rises and crypto weakness signals risk-off sentiment. Semiconductor sector often leads reversals in volatility spikes. Elevated VIX (+4.5% 5-day) suggests profit-taking into close. Target -1.18% reflects modest pullback."
+    },
+    {
+      "id": "pred_perplexity_20260514_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 441.8,
+      "current_price_at_prediction": 445.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "TSLA at $445.27 vulnerable to broader risk-off as VIX elevation and crypto weakness suggest flight to safety. Growth stocks typically underperform in volatility regimes. DIA weakness (-0.4% 5-day) indicates defensive rotation. Target -0.78% reflects modest reversion."
+    },
+    {
+      "id": "pred_perplexity_20260514_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 78200.0,
+      "current_price_at_prediction": 79362.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Bitcoin already down 1.6% over 5 days at $79,362.80 with elevated VIX suggesting continued risk-off. Treasury yields stable at 4.48% reduce carry-trade appeal. Crypto weakness typically accelerates into US market close. Target -1.46% reflects continuation of downtrend."
+    }
+  ]
+}
