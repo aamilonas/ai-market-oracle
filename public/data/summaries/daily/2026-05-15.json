@@ -1,17 +1,20 @@
 {
   "date": "2026-05-15",
-  "generated_at": "2026-05-15T12:19:24.120490+00:00",
-  "headline": "Models Split on Market Direction as Tech Names Draw Bullish Consensus",
-  "summary": "AI models showed a sharp divide on SPY's direction with Claude bearish while others remained bullish, though all predictions await market close for verification. NVDA emerged as the strongest consensus pick with all models that covered it predicting upside, while TSLA drew unanimous bearish sentiment across three models.",
+  "generated_at": "2026-05-15T23:15:50.503773+00:00",
+  "headline": "Market Bears Win Big as SPY Tumbles; CSCO Prediction Wildly Misses",
+  "summary": "AI models were sharply divided on market direction, with bears proving prescient as SPY fell to 739.17. Claude's bearish stance on SPY and QQQ paid off handsomely, while multiple models completely whiffed on tech names, particularly CSCO which inexplicably soared to 118.21 despite profit-taking expectations.",
   "consensus_picks": [
     {
       "ticker": "SPY",
       "models_agreeing": [
-        "Claude vs Gemini/GPT-4o/Grok/Perplexity"
+        "GPT-4o",
+        "Grok",
+        "Perplexity",
+        "Gemini"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Claude stood alone with high-confidence bearish call while four other models predicted upside."
+      "agreed_direction": "up",
+      "outcome": "wrong",
+      "note": "Four models incorrectly called SPY higher, while only Claude correctly predicted the decline."
     },
     {
       "ticker": "NVDA",
@@ -21,20 +24,19 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Strongest consensus with all covering models bullish on AI chip momentum and upcoming earnings."
+      "outcome": "wrong",
+      "note": "All three models betting on NVDA's momentum were burned as the stock dropped to 225.32."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
-        "Gemini",
         "GPT-4o",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Rare unanimous bearish consensus citing production delays and competitive pressures."
+      "outcome": "correct",
+      "note": "Bears nailed TSLA's weakness as it fell to 422.24 amid EV competition concerns."
     },
     {
       "ticker": "AAPL",
@@ -45,22 +47,22 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "Four models aligned bullish on Apple with targets ranging from $220 to $302."
+      "outcome": "correct",
+      "note": "Bulls were right on Apple as it climbed to 300.23, with all four models correctly calling the move."
     }
   ],
   "best_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Best call cannot be determined until market close provides actual prices for scoring."
+    "prediction_id": "pred_claude_spy",
+    "model_display_name": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence bearish call on SPY perfectly captured the market's sharp decline from extreme sentiment readings."
   },
   "worst_call": {
-    "prediction_id": "pending",
-    "model_display_name": "TBD",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Worst call cannot be determined until market close provides actual prices for scoring."
+    "prediction_id": "pred_claude_nvda",
+    "model_display_name": "Claude",
+    "ticker": "NVDA",
+    "score": -0.78,
+    "summary": "Claude's bullish NVDA call backfired spectacularly as the stock plunged despite H200 chip approval catalysts."
   }
 }
