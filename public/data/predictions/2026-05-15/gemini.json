@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-15",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-15T12:18:39.685969+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260515_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap tech, pushing the broader market higher despite some sector-specific headwinds."
+    },
+    {
+      "id": "pred_gemini_20260515_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Positive analyst reports and strong pre-market trading volume suggest continued upward momentum for Apple shares."
+    },
+    {
+      "id": "pred_gemini_20260515_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays and increased competition in the EV market are likely to put downward pressure on TSLA stock this week."
+    },
+    {
+      "id": "pred_gemini_20260515_004",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "current_price_at_prediction": 173.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Robust advertising revenue forecasts and new AI product announcements are driving investor optimism for Google."
+    }
+  ]
+}

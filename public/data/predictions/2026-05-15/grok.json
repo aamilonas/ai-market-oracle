@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-15T12:19:09.678489+00:00",
+  "market_context": "Market sentiment on X/Twitter is cautiously optimistic, with many users discussing potential tech sector growth despite mixed economic signals. Pre-market futures for major indices are slightly up, with notable attention on upcoming economic data releases. No major unexpected events are reported, but inflation concerns linger in discussions.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260515_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.0,
+      "current_price_at_prediction": 748.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY futures are showing a modest pre-market gain of 0.3% as per web data from financial news outlets. Sentiment on X indicates optimism around tech earnings supporting broader market gains. However, elevated VIX at 19.03 suggests some underlying volatility risk."
+    },
+    {
+      "id": "pred_grok_20260515_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 240.0,
+      "current_price_at_prediction": 235.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVDA is trending positively on X with mentions of strong AI chip demand and upcoming product announcements. Web searches confirm analyst upgrades citing robust quarterly expectations. Options flow data from public sources shows increased call buying activity."
+    },
+    {
+      "id": "pred_grok_20260515_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 438.0,
+      "current_price_at_prediction": 443.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Negative sentiment on X regarding TSLA centers around potential delays in new model rollouts and competitive pressures. Web news highlights a bearish analyst note on margin concerns. Confidence is moderate due to mixed signals in short interest data."
+    },
+    {
+      "id": "pred_grok_20260515_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.0,
+      "current_price_at_prediction": 298.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL sentiment on X is bullish with discussions around strong iPhone sales forecasts. Web searches indicate positive pre-market movement and analyst optimism for upcoming product events. Confidence tempered by broader market uncertainty with 10Y Treasury Yield at 4.46%."
+    }
+  ]
+}

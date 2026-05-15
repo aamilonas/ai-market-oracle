@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-15",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-15T12:18:00Z",
+  "market_context": "US equities enter the session after a strong 5-day run in large-cap growth, with QQQ outperforming SPY and VIX rising to 19.03, suggesting investors are still buying dip-resistant mega-cap tech but with somewhat higher hedging demand. Treasury yields remain elevated at 4.46%, which is a mild headwind for long-duration growth, while crypto weakness and the recent VIX uptick point to a more cautious intraday tone than the recent trend implies.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260515_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.8,
+      "current_price_at_prediction": 748.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "SPY has momentum from a +2.3% five-day move and is still being supported by leadership in mega-cap tech. The elevated VIX and 10Y yield at 4.46% may cap upside, so I expect a modest gain rather than a breakout."
+    },
+    {
+      "id": "pred_perplexity_20260515_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.2,
+      "current_price_at_prediction": 719.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "QQQ has outperformed recently (+3.6% over 5 days), and the market is still rewarding large-cap growth leadership. Higher rates are a headwind, but the recent relative strength makes a small additional upside move more likely than a reversal."
+    },
+    {
+      "id": "pred_perplexity_20260515_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 239.8,
+      "current_price_at_prediction": 235.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA remains the clearest beneficiary of the current tech-led tape and tends to move with QQQ strength. With sentiment still constructive for AI leaders, I expect a modest continuation higher, though the rise in volatility keeps conviction moderate."
+    },
+    {
+      "id": "pred_perplexity_20260515_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 301.0,
+      "current_price_at_prediction": 298.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "AAPL is close to a psychologically important round level and often tracks broad mega-cap risk appetite. The stock should benefit if the market keeps favoring large-cap defensives-with-growth characteristics, but the elevated yield backdrop limits confidence."
+    },
+    {
+      "id": "pred_perplexity_20260515_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 437.9,
+      "current_price_at_prediction": 443.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA is more sensitive than the index to any risk-off shift, and the combination of rising VIX and higher yields is a mild negative for high-beta names. Even with a supportive tape, I expect some intraday giveback versus yesterday's close."
+    }
+  ]
+}

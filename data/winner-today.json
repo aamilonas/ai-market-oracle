@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.56,
-    "avg_target": 350.6,
-    "avg_entry": 354.45,
-    "expected_move_pct": 1.09,
-    "score": 0.6077,
+    "ticker": "NVDA",
+    "direction": "up",
+    "avg_confidence": 0.68,
+    "avg_target": 240.6,
+    "avg_entry": 235.74,
+    "expected_move_pct": 2.06,
+    "score": 1.4019,
     "models": [
+      "Claude",
       "Grok",
-      "Perplexity",
-      "Gemini"
+      "Perplexity"
     ],
     "model_count": 3,
     "high_conviction": false

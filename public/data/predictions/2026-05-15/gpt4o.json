@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-15",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-15T12:19:02.127290+00:00",
+  "market_context": "Major U.S. stock indices have recently reached record highs, driven by strong corporate earnings and stable oil prices. However, upcoming economic data releases, including the Empire State Manufacturing Index and Industrial Production figures, may influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260515_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 748.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY has been on an upward trend, reaching a record high of 748.17. Strong corporate earnings and stable oil prices support continued positive momentum. However, upcoming economic data releases may introduce volatility."
+    },
+    {
+      "id": "pred_gpt4o_20260515_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 719.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ has recently achieved record highs, driven by strong performance in technology stocks. Continued investor optimism in the tech sector suggests potential for further gains, though upcoming economic indicators may impact market dynamics."
+    },
+    {
+      "id": "pred_gpt4o_20260515_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 300.0,
+      "current_price_at_prediction": 298.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's stock has been performing well, reflecting strong earnings and product demand. The overall positive sentiment in the tech sector supports a modest increase, though market reactions to economic data releases could affect this trajectory."
+    },
+    {
+      "id": "pred_gpt4o_20260515_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 440.0,
+      "current_price_at_prediction": 443.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Tesla's stock has shown volatility amid broader market fluctuations. While the company maintains strong fundamentals, potential market reactions to upcoming economic data may lead to a slight decline in its stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260515_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 81000.0,
+      "current_price_at_prediction": 80453.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has experienced a slight decline over the past five days. However, its recent intraday high of 81974.00 suggests potential for recovery, supported by ongoing interest in cryptocurrencies."
+    }
+  ]
+}

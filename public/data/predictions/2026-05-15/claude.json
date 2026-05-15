@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-15",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-15T09:00:00Z",
+  "market_context": "Markets hit new records Thursday with S&P 500 crossing 7,500 amid AI rally and US-China summit optimism. However, S&P futures down 0.37% pre-market with 99% probability of lower open according to prediction markets. Industrial production data releases today.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260515_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 745.5,
+      "current_price_at_prediction": 748.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Strong pre-market futures weakness (-0.37%) and extreme bearish sentiment (99% probability of lower open) suggest profit-taking after record highs. Tech concentration concerns and rising yields create headwinds despite yesterday's AI-driven rally."
+    },
+    {
+      "id": "pred_claude_20260515_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 242.0,
+      "current_price_at_prediction": 235.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Strong momentum from US approval of H200 chip sales to Chinese companies and upcoming earnings on May 20th. Analyst price targets averaging $272 with 'Strong Buy' ratings provide upside catalyst despite broader market weakness."
+    },
+    {
+      "id": "pred_claude_20260515_003",
+      "ticker": "CSCO",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 65.5,
+      "current_price_at_prediction": 70.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "After surging 13.4% yesterday on earnings beat and guidance raise, stock likely faces profit-taking. The magnitude of yesterday's move suggests much of the positive news is now priced in, making it vulnerable to broader market weakness."
+    },
+    {
+      "id": "pred_claude_20260515_004",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 20.5,
+      "current_price_at_prediction": 19.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Pre-market futures weakness and extreme bearish sentiment suggest volatility spike likely. VIX has already risen 10.7% over 5 days, and broader market pullback from record highs typically drives fear gauge higher."
+    },
+    {
+      "id": "pred_claude_20260515_005",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 719.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech-heavy index faces concentration risk concerns and rising yields pressure. Despite NVDA strength, broader tech weakness likely as investors take profits after strong rally that brought index to new highs."
+    }
+  ]
+}

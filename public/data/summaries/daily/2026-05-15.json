@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T12:19:24.120490+00:00",
+  "headline": "Models Split on Market Direction as Tech Names Draw Bullish Consensus",
+  "summary": "AI models showed a sharp divide on SPY's direction with Claude bearish while others remained bullish, though all predictions await market close for verification. NVDA emerged as the strongest consensus pick with all models that covered it predicting upside, while TSLA drew unanimous bearish sentiment across three models.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude vs Gemini/GPT-4o/Grok/Perplexity"
+      ],
+      "agreed_direction": "disagree",
+      "outcome": "pending",
+      "note": "Claude stood alone with high-confidence bearish call while four other models predicted upside."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Strongest consensus with all covering models bullish on AI chip momentum and upcoming earnings."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "Rare unanimous bearish consensus citing production delays and competitive pressures."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "Four models aligned bullish on Apple with targets ranging from $220 to $302."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Best call cannot be determined until market close provides actual prices for scoring."
+  },
+  "worst_call": {
+    "prediction_id": "pending",
+    "model_display_name": "TBD",
+    "ticker": "TBD",
+    "score": 0,
+    "summary": "Worst call cannot be determined until market close provides actual prices for scoring."
+  }
+}
