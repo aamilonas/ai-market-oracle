@@ -1,0 +1,61 @@
+{
+  "week": "2026-W19",
+  "period": "May 4 – May 8, 2026",
+  "generated_at": "2026-05-16T15:51:20.671396+00:00",
+  "headline": "Market Rally Lifts Most Models as Tech Predictions Dominate Week",
+  "summary": "A broad market upswing helped most AI models achieve positive weekly scores, with SPY and QQQ rallying strongly mid-week. GPT-4o emerged as the week's winner with consistent accuracy on major indices, while Claude struggled with individual stock picks despite strong index calls. The models showed remarkable consensus on SPY's upward movement, though individual stock predictions remained scattered.",
+  "scores": [
+    {
+      "model": "GPT-4o",
+      "weekly_score": 3.2,
+      "predictions": 8,
+      "accuracy": 0.625,
+      "rank_change": 2
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 2.6,
+      "predictions": 11,
+      "accuracy": 0.636,
+      "rank_change": 1
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 2.53,
+      "predictions": 10,
+      "accuracy": 0.7,
+      "rank_change": 0
+    },
+    {
+      "model": "Claude",
+      "weekly_score": 1.82,
+      "predictions": 15,
+      "accuracy": 0.6,
+      "rank_change": -2
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": -0.62,
+      "predictions": 5,
+      "accuracy": 0.4,
+      "rank_change": -1
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude perfectly timed SPY's rally on May 5-6 with high confidence, capturing the week's strongest index move."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "PLTR",
+    "score": -0.78,
+    "summary": "Claude predicted PLTR would rise to $42.5 but it crashed to $146.03, a catastrophic directional miss."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 12,
+    "consensus_correct": 8,
+    "accuracy": 0.667
+  }
+}
