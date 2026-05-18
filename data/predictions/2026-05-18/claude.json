@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-18",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-18T09:15:00Z",
+  "market_context": "Markets face significant headwinds with Treasury yields at one-year highs amid Iran war inflation concerns. Fed rate hike odds jumped to 45% as oil prices surge and geopolitical tensions persist. NVIDIA earnings Wednesday create binary outcome potential for tech sector.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260518_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.5,
+      "current_price_at_prediction": 739.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Treasury yields hitting one-year highs at 4.63% with Fed rate hike odds at 45% creates significant headwind for equities. Pre-market Dow futures down -535 points to 49,617 signals broad market weakness driven by inflation concerns from Iran conflict."
+    },
+    {
+      "id": "pred_claude_20260518_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 240.0,
+      "current_price_at_prediction": 225.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "KeyBanc raised price target to $300 expecting strong Q1 results Wednesday with 150k-200k Blackwell GPU shipments adding $5-7B revenue. Options market pricing 8-10% move with 90% probability of earnings beat on Polymarket creates positive momentum ahead of print."
+    },
+    {
+      "id": "pred_claude_20260518_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 708.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Tech-heavy index faces pressure from rising yields despite NVIDIA strength. Broader tech selloff Friday with QQQ down 1.69% in pre-market shows vulnerability to rate hike fears. Rising bond yields create multiple compression headwinds for growth stocks."
+    },
+    {
+      "id": "pred_claude_20260518_004",
+      "ticker": "RKLB",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "current_price_at_prediction": 129.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Rocket Lab up 4.1% in pre-market after beating Q1 earnings expectations May 7th. Stock near all-time high of $133.18 with aerospace momentum continuing. Defense/space stocks often benefit during geopolitical tensions as Iran conflict persists."
+    },
+    {
+      "id": "pred_claude_20260518_005",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 105.0,
+      "current_price_at_prediction": 98.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.81,
+      "reasoning": "Energy sector benefits from oil price surge with WTI up 4.2% amid Iran conflict. Strait of Hormuz closure continues disrupting 20% of global oil supply. IEA warns commercial inventories depleting rapidly with only weeks of supply remaining, supporting energy stock momentum."
+    }
+  ]
+}

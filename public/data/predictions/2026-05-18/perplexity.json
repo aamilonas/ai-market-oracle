@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-18",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-18T14:07:00Z",
+  "market_context": "U.S. equity futures are modestly higher ahead of the open, with S&P 500 and Nasdaq futures indicating a slightly positive bias after a mixed prior week. Treasury yields are roughly stable around 4.6% on the 10Y, and there are no major economic data releases scheduled today, so trading is likely to be driven by residual earnings/news flow and positioning rather than macro surprises. Volatility remains contained with the VIX in the high teens, suggesting a normal-risk session absent unexpected headlines.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260518_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 746.0,
+      "current_price_at_prediction": 739.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are modestly green in pre-market trading, indicating a slightly positive open after a flat-to-up 5-day change of +0.1% for SPY. With the VIX only mildly elevated at 18.47 and no major data releases today, the risk of a sharp macro-driven selloff appears limited. Given stable 10Y yields around 4.57% and supportive large-cap tech leadership, a mild intraday gain toward roughly +0.8% (around $746) by the close is somewhat more likely than a decline."
+    },
+    {
+      "id": "pred_perplexity_20260518_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 714.0,
+      "current_price_at_prediction": 708.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq futures are slightly positive pre-market despite a -0.7% 5-day move in QQQ, suggesting potential for a modest rebound as traders buy the recent dip in mega-cap tech. Key components like MSFT, AMZN, and GOOGL show no major negative catalysts overnight, and the stable rate backdrop (10Y at 4.57%) helps growth valuations. This supports a small bounce of roughly +0.8% toward $714 by the close, though tech’s recent underperformance tempers conviction."
+    },
+    {
+      "id": "pred_perplexity_20260518_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.5,
+      "current_price_at_prediction": 225.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Chip and AI-related stocks are indicated slightly higher in pre-market action, with no new negative company-specific headlines for NVDA and ongoing positive sentiment around AI infrastructure spending. After recent consolidation and a 5-day pullback in broader tech, NVDA has room for a modest relief move as long as QQQ stays firm. A gain of roughly +2% toward about $230.50 by the close is somewhat more likely than a decline, though AI names remain volatile intraday."
+    },
+    {
+      "id": "pred_perplexity_20260518_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 408.0,
+      "current_price_at_prediction": 416.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA has recently been volatile and sensitive to both EV demand headlines and rate expectations, and there are no strong positive catalysts in the overnight news flow. With the 10Y yield still elevated around 4.57%, high-duration growth and speculative auto names can face pressure, especially after recent sharp rallies. Given this backdrop, a modest pullback of around -2% toward $408 by the close is slightly more likely than further upside, though intraday reversals are common in TSLA."
+    },
+    {
+      "id": "pred_perplexity_20260518_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.0,
+      "current_price_at_prediction": 297.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "AAPL tends to trade in line with overall large-cap indices, and with S&P and Nasdaq futures slightly positive, the stock has a supportive macro and risk-on backdrop. There are no major negative company-specific headlines overnight, while ongoing expectations around AI features and services growth continue to underpin sentiment. This makes a modest gain of roughly +1.5% toward about $302 by today’s close more probable than a decline, barring unexpected news."
+    }
+  ]
+}

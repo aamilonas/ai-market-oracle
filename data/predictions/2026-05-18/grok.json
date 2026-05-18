@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-18",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-18T14:08:13.494252+00:00",
+  "market_context": "X sentiment is cautiously optimistic with AI and tech stocks dominating positive chatter despite VIX at 18.47. Pre-market futures point to modest gains amid low volume. No major economic releases today but options flow shows heavy call buying in NVDA and SPY.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260518_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 739.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures indicate +0.4% open with X volume favoring bulls on stable 10Y yield. SPY has held above 735 support per recent 5-day trend."
+    },
+    {
+      "id": "pred_grok_20260518_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 232.0,
+      "current_price_at_prediction": 225.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Heavy call options flow noted on X from traders citing AI demand. NVDA up 3% in pre-market per scanner data."
+    },
+    {
+      "id": "pred_grok_20260518_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 408.0,
+      "current_price_at_prediction": 416.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Short interest signals rising on X with delivery concerns. TSLA underperforming QQQ by 1.2% in recent sessions."
+    },
+    {
+      "id": "pred_grok_20260518_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 712.0,
+      "current_price_at_prediction": 708.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech sentiment positive on X despite 5-day dip. QQQ futures +0.3% with META and MSFT leading."
+    }
+  ]
+}

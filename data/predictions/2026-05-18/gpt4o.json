@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-18",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-18T14:07:59.511836+00:00",
+  "market_context": "U.S. stock futures are indicating a lower open, with S&P 500 futures down 0.30% and Dow Jones futures down 0.61%. Investors are cautious ahead of the release of the April FOMC meeting minutes later this week, which may provide insights into future monetary policy amid ongoing inflation concerns.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260518_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 739.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the pre-market decline in S&P 500 futures and investor caution ahead of the FOMC minutes release, SPY is likely to close lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260518_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 708.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Technology stocks have been under pressure recently, and with Nasdaq futures slightly down pre-market, QQQ may experience a decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260518_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 490.0,
+      "current_price_at_prediction": 496.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow Jones futures are down pre-market, and with investor focus on upcoming economic data, DIA is expected to close lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260518_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 295.0,
+      "current_price_at_prediction": 297.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock may be affected by the broader market downturn and recent pressure on technology stocks, leading to a potential decline by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260518_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 75000.0,
+      "current_price_at_prediction": 76770.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has been experiencing a downward trend over the past week, and with the current market sentiment, it may continue to decline by the end of the day."
+    }
+  ]
+}

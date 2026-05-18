@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-18",
   "winner": {
     "ticker": "NVDA",
     "direction": "up",
-    "avg_confidence": 0.68,
-    "avg_target": 240.6,
-    "avg_entry": 235.74,
-    "expected_move_pct": 2.06,
-    "score": 1.4019,
+    "avg_confidence": 0.6667,
+    "avg_target": 234.17,
+    "avg_entry": 225.6,
+    "expected_move_pct": 3.8,
+    "score": 2.5315,
     "models": [
-      "Claude",
+      "Perplexity",
       "Grok",
-      "Perplexity"
+      "Claude"
     ],
     "model_count": 3,
     "high_conviction": false
