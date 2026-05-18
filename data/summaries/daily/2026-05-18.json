@@ -1,8 +1,8 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-18T14:08:26.039688+00:00",
-  "headline": "Models split on market direction amid rate fears and tech volatility",
-  "summary": "AI models showed stark disagreement on SPY's direction, with Claude and GPT-4o bearish while Gemini, Grok, and Perplexity turned bullish. The most consensus appeared on NVDA with three models predicting upside, citing AI demand and upcoming earnings. Energy emerged as a wildcard with Claude bullish on XLE due to Iran tensions while Gemini called XOM lower on falling crude.",
+  "generated_at": "2026-05-18T23:34:00.846551+00:00",
+  "headline": "Models split on tech while nailing SPY's decline amid rate hike fears",
+  "summary": "Five AI models showed strong consensus on SPY's downward movement driven by rising Treasury yields and Fed rate hike concerns, with Claude and GPT-4o scoring particularly well. However, the models struggled with individual stocks, notably missing NVDA's drop and XLE's dramatic plunge, while successfully catching TSLA's slight decline.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -10,9 +10,19 @@
         "Claude",
         "GPT-4o"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Bears cited rising yields while bulls saw support at 735 level."
+      "agreed_direction": "down",
+      "outcome": "correct",
+      "note": "Both models correctly predicted SPY's decline citing Fed concerns and rising yields."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude",
+        "GPT-4o"
+      ],
+      "agreed_direction": "down",
+      "outcome": "correct",
+      "note": "Tech-heavy index correctly called lower by both models amid broader tech pressure."
     },
     {
       "ticker": "NVDA",
@@ -22,29 +32,18 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
-      "note": "All three models bullish on AI demand and Q1 earnings expectations."
-    },
-    {
-      "ticker": "QQQ",
-      "models_agreeing": [
-        "Claude",
-        "GPT-4o"
-      ],
-      "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Tech-heavy index seen vulnerable to yield pressure despite some individual strength."
+      "outcome": "wrong",
+      "note": "Three models wrongly bet on NVDA gains despite analyst upgrades, missing a significant drop."
     },
     {
       "ticker": "TSLA",
       "models_agreeing": [
-        "Gemini",
         "Grok",
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
-      "note": "Three models bearish on production delays and delivery concerns."
+      "outcome": "correct",
+      "note": "Both models accurately predicted Tesla's slight decline citing delivery concerns."
     },
     {
       "ticker": "AAPL",
@@ -52,23 +51,23 @@
         "Gemini",
         "Perplexity"
       ],
-      "agreed_direction": "disagree",
-      "outcome": "pending",
-      "note": "Gemini bullish on analyst upgrades while GPT-4o saw tech pressure."
+      "agreed_direction": "up",
+      "outcome": "correct",
+      "note": "Correctly called Apple's rise despite GPT-4o's contrarian bearish stance."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_pending",
+    "prediction_id": "pred_001",
     "model_display_name": "Claude",
-    "ticker": "XLE",
-    "score": 0,
-    "summary": "Highest confidence call at 81% on energy sector strength from Iran tensions."
+    "ticker": "SPY",
+    "score": 1.22,
+    "summary": "Claude's high-confidence SPY short call perfectly captured the market's reaction to rising Treasury yields and Fed rate hike fears."
   },
   "worst_call": {
-    "prediction_id": "pred_pending",
-    "model_display_name": "Pending",
-    "ticker": "TBD",
-    "score": 0,
-    "summary": "Results pending market close."
+    "prediction_id": "pred_005",
+    "model_display_name": "Claude",
+    "ticker": "XLE",
+    "score": -0.81,
+    "summary": "Claude's bullish XLE call targeting $105 spectacularly missed as the ETF crashed to $60.58 despite oil price surge predictions."
   }
 }
