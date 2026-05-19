@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "model": "claude-sonnet-4-20250514",
+  "model_display_name": "Claude",
+  "generated_at": "2026-05-19T14:30:00Z",
+  "market_context": "Futures pointing lower on tech sell-off continuation and inflation concerns, though Iran conflict de-escalation provides some relief. Nvidia earnings Wednesday is major catalyst with high expectations.",
+  "predictions": [
+    {
+      "id": "pred_claude_20260519_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.5,
+      "current_price_at_prediction": 734.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Futures down 0.4% premarket with tech sell-off continuing from previous session. Semiconductor weakness and profit-taking pressure outweigh Iran conflict de-escalation relief."
+    },
+    {
+      "id": "pred_claude_20260519_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Pre-earnings positioning likely as analysts expect strong beat with 120% YoY EPS growth. Despite recent tech weakness, AI demand narrative remains intact ahead of Wednesday results."
+    },
+    {
+      "id": "pred_claude_20260519_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 701.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Tech-heavy index under pressure from semiconductor sell-off continuation. High RSI levels suggest overbought conditions warranting correction despite long-term AI tailwinds."
+    },
+    {
+      "id": "pred_claude_20260519_004",
+      "ticker": "HD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 295.0,
+      "current_price_at_prediction": 297.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Already down 1% premarket after Q1 earnings showed profit decline despite beating estimates. Housing affordability pressures and consumer uncertainty continue to weigh on outlook."
+    }
+  ]
+}

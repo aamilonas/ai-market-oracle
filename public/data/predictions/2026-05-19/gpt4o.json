@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-19T13:43:21.377858+00:00",
+  "market_context": "U.S. stock futures are declining due to continued weakness in semiconductor stocks and persistent inflation concerns. Investors are cautious ahead of the release of the Federal Open Market Committee (FOMC) meeting minutes scheduled for Wednesday, which may provide insights into future monetary policy.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260519_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 734.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Pre-market futures indicate a downward trend, influenced by declines in semiconductor stocks and ongoing inflation concerns. The upcoming FOMC meeting minutes release adds to market uncertainty."
+    },
+    {
+      "id": "pred_gpt4o_20260519_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.0,
+      "current_price_at_prediction": 220.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia is experiencing pre-market declines, continuing a three-day downward trend as investors reassess valuations in the semiconductor sector amid inflation worries."
+    },
+    {
+      "id": "pred_gpt4o_20260519_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 701.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The Nasdaq-focused QQQ ETF is likely to decline due to weakness in technology stocks, particularly semiconductors, and broader market concerns about inflation and monetary policy."
+    },
+    {
+      "id": "pred_gpt4o_20260519_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 75000.0,
+      "current_price_at_prediction": 76726.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has been on a downward trend over the past five days, and current market sentiment suggests continued pressure, possibly influenced by broader risk-off behavior in financial markets."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-19",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-19T13:42:00Z",
+  "market_context": "I don’t have live web-browsing results available in this session, so I’m basing today’s call on the provided Yahoo Finance baseline plus the recent tape: major indices are slightly weaker over 5 days, VIX is subdued at 17.98, and the 10Y yield remains elevated at 4.65%. That backdrop suggests a modestly defensive, range-bound session rather than a strong trend day, with large-cap growth still vulnerable if rates stay firm.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260519_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.85,
+      "current_price_at_prediction": 734.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY enters the day with a mild 5-day downtrend and a still-high 10Y yield at 4.65%, which can pressure equity multiples. With VIX not signaling panic but also not ultra-compressed, I expect a small drift lower or flat-to-down finish rather than a meaningful breakout."
+    },
+    {
+      "id": "pred_perplexity_20260519_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 697.8,
+      "current_price_at_prediction": 701.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ has been slightly weaker than SPY over the last week and is more exposed to rate sensitivity through mega-cap growth. Elevated yields and the recent -0.8% 5-day move argue for continued relative softness versus the broad market."
+    },
+    {
+      "id": "pred_perplexity_20260519_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.1,
+      "current_price_at_prediction": 299.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "AAPL is close to a psychologically important round number near $300, which often attracts dip-buying if the broader tape is only mildly risk-off. Relative to more rate-sensitive mega-cap names, Apple can act as a defensive large-cap with steadier intraday demand."
+    },
+    {
+      "id": "pred_perplexity_20260519_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 218.2,
+      "current_price_at_prediction": 220.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA typically trades with higher beta to risk sentiment and long-duration discount rates, so a 4.65% 10Y yield keeps the setup somewhat pressured. With the stock already near recent highs, I see more room for consolidation than immediate upside continuation."
+    },
+    {
+      "id": "pred_perplexity_20260519_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 74850.0,
+      "current_price_at_prediction": 76726.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has lost 5.3% over the last five days, which suggests persistent risk-off or de-leveraging pressure. If equities are also soft and yields stay high, crypto could extend the drawdown modestly into the close."
+    }
+  ]
+}

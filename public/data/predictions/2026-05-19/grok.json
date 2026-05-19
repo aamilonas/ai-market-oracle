@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-19T13:43:27.583552+00:00",
+  "market_context": "X/Twitter sentiment shows cautious optimism with traders highlighting stabilizing VIX at 17.98 and potential tech rebound after 5-day dips in QQQ and SPY. Pre-market futures indicate modest gains amid low volume; no major macro events but options flow suggests buying interest in NVDA calls.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260519_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 738.5,
+      "current_price_at_prediction": 734.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 734.10 with 5-day decline of 0.6%; X chatter points to oversold bounce and stable 10Y yield at 4.65%. Pre-market futures lean positive with VIX holding below 18."
+    },
+    {
+      "id": "pred_grok_20260519_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.4,
+      "current_price_at_prediction": 220.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Options flow shows heavy call buying in NVDA per recent X scans; stock at 220.88 after recent pullback. Sentiment on X favors AI momentum continuation into close."
+    },
+    {
+      "id": "pred_grok_20260519_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 401.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 401.72 with crypto weakness (BTC -5.3%) weighing on sentiment; X posts flag short interest signals and lack of positive catalysts today."
+    },
+    {
+      "id": "pred_grok_20260519_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.2,
+      "current_price_at_prediction": 701.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ down 0.8% over 5 days but X sentiment improving on low VIX and potential reversal; aligns with broader index futures pointing mildly higher."
+    }
+  ]
+}
