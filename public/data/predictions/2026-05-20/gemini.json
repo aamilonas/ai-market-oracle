@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-20",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-20T12:42:54.111932+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure. Inflation concerns continue to influence investor sentiment, leading to cautious trading across major indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260520_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in broad market ETFs, supported by positive economic data releases this morning."
+    },
+    {
+      "id": "pred_gemini_20260520_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets are weighing on the stock."
+    },
+    {
+      "id": "pred_gemini_20260520_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 447.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Continued strong performance in cloud services and AI initiatives are expected to drive positive sentiment through the week."
+    },
+    {
+      "id": "pred_gemini_20260520_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 170.0,
+      "current_price_at_prediction": 173.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increased competition in the EV market and recent production challenges are likely to put downward pressure on the stock over the coming weeks."
+    }
+  ]
+}

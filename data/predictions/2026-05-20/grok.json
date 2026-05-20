@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-20",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-20T12:43:41.323483+00:00",
+  "market_context": "X/Twitter sentiment is cautiously bearish with traders noting the 5-day declines across SPY, QQQ and crypto amid elevated VIX. Pre-market futures point to a flat-to-down open and no major catalysts expected today beyond routine earnings. Options flow shows light put buying on tech names.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260520_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 731.5,
+      "current_price_at_prediction": 733.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 733.73 after a 0.6% 5-day drop and VIX at 17.91 signals lingering caution. X chatter highlights profit-taking and no strong bullish catalysts for today. Expect a modest decline to around 731.50 by close."
+    },
+    {
+      "id": "pred_grok_20260520_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 223.4,
+      "current_price_at_prediction": 220.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA has shown relative resilience versus the broader market pullback. Light call flow observed in recent sessions and positive AI-related mentions on X support a rebound toward 223.40."
+    },
+    {
+      "id": "pred_grok_20260520_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 404.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA remains extended after recent gains and crypto weakness (BTC -2%) often correlates with selling in the name. X volume shows increased bearish commentary today."
+    },
+    {
+      "id": "pred_grok_20260520_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 77457.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin already down 2% over five days with ETH underperforming further. X sentiment reflects risk-off flows and no immediate positive catalysts visible in pre-market."
+    }
+  ]
+}

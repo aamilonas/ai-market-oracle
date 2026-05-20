@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-20",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-20T12:43:17.235344+00:00",
+  "market_context": "U.S. stock futures indicate a positive opening, with the S&P 500 up 0.4%, Dow Jones up 0.2%, and Nasdaq up 0.7%. This optimism is driven by easing bond yields and declining oil prices. Investors are also anticipating the release of the FOMC meeting minutes later today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260520_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 733.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With U.S. stock futures indicating a positive opening and easing bond yields, SPY is likely to close higher today. The anticipation of the FOMC meeting minutes release may also contribute to market optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260520_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "NVIDIA is set to release its earnings report today, which could positively influence its stock price. The overall positive market sentiment may further support an upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260520_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.0,
+      "current_price_at_prediction": 298.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock may benefit from the overall positive market sentiment and easing bond yields, leading to a modest increase by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260520_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78000.0,
+      "current_price_at_prediction": 77457.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown resilience despite recent declines. The positive sentiment in traditional markets may spill over into the cryptocurrency market, leading to a slight increase in BTC's price."
+    }
+  ]
+}

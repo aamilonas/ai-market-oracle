@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-20T12:42:00Z",
+  "market_context": "U.S. equity futures are slightly negative to flat in pre-market trading, with S&P 500 and Nasdaq futures drifting lower amid cautious sentiment after recent modest declines. The 10Y yield around 4.65% and a mildly elevated VIX near 18 reflect some risk aversion ahead of this week’s Fed speaker slate and housing data, but no major economic releases or shock news are hitting this morning. Mega-cap tech is mixed in pre-market action, while crypto remains soft after recent pullbacks in BTC and ETH.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260520_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 727.0,
+      "current_price_at_prediction": 733.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "S&P 500 futures are modestly red in pre-market trading and recent 5-day performance for SPY is already slightly negative (-0.6%), suggesting waning momentum near all-time-high territory. The VIX at 17.9 is elevated relative to recent lows and the 10Y yield at 4.65% keeps pressure on equity valuations, particularly with no clear bullish catalyst on today’s economic calendar. I expect mild risk-off flows to persist through the session, leading to a small pullback toward the mid-$720s to high-$720s area by the close."
+    },
+    {
+      "id": "pred_perplexity_20260520_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 693.0,
+      "current_price_at_prediction": 701.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Nasdaq 100 futures are slightly underperforming S&P futures in early trade, and QQQ has already slipped about 0.8% over the past 5 days amid consolidation in mega-cap tech. Rising long yields around 4.65% typically weigh more on growth and high-duration tech stocks, while there is no major tech-specific positive catalyst today. Given this backdrop and modest risk-off tone, I expect QQQ to drift lower intraday, closing a bit below $700, around the low-$690s to mid-$690s range."
+    },
+    {
+      "id": "pred_perplexity_20260520_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 226.5,
+      "current_price_at_prediction": 220.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA remains in a strong structural uptrend driven by AI and data center demand, and recent news and commentary continue to highlight robust GPU orders and hyperscaler capex, even as the broader tech sector consolidates. Pre-market indications show NVDA relatively resilient versus some other mega-cap tech names, suggesting dip buying interest near the low-$220s. Despite a slightly risk-off index backdrop, I expect stock-specific strength and AI enthusiasm to push NVDA modestly higher by the close, toward the mid-$220s."
+    },
+    {
+      "id": "pred_perplexity_20260520_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 293.0,
+      "current_price_at_prediction": 298.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Apple shares have recently rallied on AI and services optimism but now face some consolidation risk given the slightly weaker 5-day performance in major indices and modestly risk-off macro tone. With 10Y yields elevated and no major Apple-specific catalysts scheduled for today, the stock is more likely to trade in line with or slightly below the broader market. I expect a modest pullback from just under $300 toward the low-$290s as traders lighten exposure in large-cap tech ahead of upcoming events and data."
+    },
+    {
+      "id": "pred_perplexity_20260520_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 75500.0,
+      "current_price_at_prediction": 77457.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has declined about 2% over the past 5 days and remains in a choppy consolidation phase near elevated levels, with risk sentiment in traditional markets moderately cautious. Overnight crypto flows and funding rates indicate subdued leveraged long appetite, and there are no strong near-term bullish catalysts today. In a slightly risk-off macro environment and with ETH also soft, I expect BTC to drift modestly lower intraday, ending the day a bit below $77k toward the mid-$75k range."
+    }
+  ]
+}
