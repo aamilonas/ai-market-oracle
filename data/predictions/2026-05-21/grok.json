@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-21",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-21T13:45:50.628837+00:00",
+  "market_context": "X sentiment shows cautious optimism on AI recovery despite recent dips, with traders noting VIX at 17.72 and 10Y yield at 4.61%. Pre-market futures point to a flat open amid crypto weakness. No major events but options flow suggests buying in tech names.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260521_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.5,
+      "current_price_at_prediction": 737.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Positive X chatter on tech stabilization after 5-day -1.4% drop. Pre-market futures mildly supportive and VIX not spiking. Expect modest rebound by close."
+    },
+    {
+      "id": "pred_grok_20260521_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 708.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Continued pressure from 5-day -1.5% slide and ETH weakness spilling into growth stocks. X flow shows profit-taking in mega-caps. Target reflects modest follow-through selling."
+    },
+    {
+      "id": "pred_grok_20260521_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 229.0,
+      "current_price_at_prediction": 223.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Bullish options flow and AI narrative dominating X feeds today. Stock bounced from recent lows with volume support. Expect close above 228."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-21",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-21T13:45:19.667222+00:00",
+  "market_context": "Recent economic data indicates strong consumer spending, particularly in the tech sector, while inflation concerns appear to be moderating. Geopolitical tensions remain a background factor but are not currently driving significant market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260521_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q1 earnings reports from major S&P 500 components, coupled with positive analyst revisions, suggest continued upward momentum. Technical indicators show SPY breaking above a key resistance level."
+    },
+    {
+      "id": "pred_gemini_20260521_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.75,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week is driving investor interest. Supply chain improvements and strong pre-order numbers for upcoming devices are positive catalysts."
+    },
+    {
+      "id": "pred_gemini_20260521_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent production slowdowns in key factories are weighing on investor sentiment. A technical breakdown below its 50-day moving average suggests further downside."
+    },
+    {
+      "id": "pred_gemini_20260521_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Continued strong growth in cloud services (Azure) and positive outlook for AI integration across its product suite are driving optimism. Analyst upgrades reflect robust enterprise demand."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-21",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-21T13:45:00Z",
+  "market_context": "Overnight, U.S. equity futures are modestly higher after recent declines, with S&P 500 and Nasdaq 100 futures up roughly 0.3–0.5%, while Treasury yields remain elevated near 4.6% on the 10Y. There are no major surprise macro releases this morning, and focus is on ongoing Fed rhetoric about staying restrictive for longer plus rotation within megacap tech after recent profit-taking. Crypto is stabilizing after a mild pullback, and volatility (VIX in the high teens) suggests a slightly risk-off but not stressed backdrop.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260521_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 744.0,
+      "current_price_at_prediction": 737.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are trading modestly higher pre-market following a 5‑day pullback of about 1.4% in SPY, suggesting some dip-buying as macro data today is relatively light. Elevated but stable 10Y yields around 4.6% and a VIX under 20 indicate a controlled environment rather than a risk-off shock. I expect SPY to close slightly higher, recapturing a portion of recent losses, with an end-of-day level near 744 implied by current futures pricing and typical intraday volatility."
+    },
+    {
+      "id": "pred_perplexity_20260521_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 714.0,
+      "current_price_at_prediction": 708.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq 100 futures are slightly outperforming S&P futures pre-market after a roughly 1.5% 5‑day slide in QQQ, indicating room for a modest rebound in growth and megacap tech. While higher yields (10Y near 4.6%) are a headwind, there is no new hawkish data today, and recent downside has already repriced some rate risk. I expect QQQ to end modestly green, with an intraday move of about +0.7–1.0% toward 714 assuming futures strength holds through the cash session."
+    },
+    {
+      "id": "pred_perplexity_20260521_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 229.0,
+      "current_price_at_prediction": 223.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA has recently pulled back with the broader AI complex but remains in a strong fundamental uptrend, and pre-market indications show modest buying interest in semiconductor names alongside firmer Nasdaq futures. There is no company-specific negative catalyst today, and options positioning around key strike levels tends to attract dip-buyers into mild weakness. I expect NVDA to close higher, with a move of roughly +2–3% toward the high‑220s if tech sentiment stays constructive through the session."
+    },
+    {
+      "id": "pred_perplexity_20260521_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 412.0,
+      "current_price_at_prediction": 422.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA has rallied strongly in recent weeks and is vulnerable to profit-taking amid ongoing concerns about EV demand, pricing pressure, and margin compression highlighted in recent analyst notes. With rates still elevated and risk sentiment only cautiously positive, higher-beta growth names like TSLA often underperform on days when the broader tape is only modestly green. I expect TSLA to close lower, retracing roughly 2–3% toward the low‑410s as traders fade recent strength and rotate toward more diversified tech exposure."
+    },
+    {
+      "id": "pred_perplexity_20260521_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 306.0,
+      "current_price_at_prediction": 301.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "AAPL has lagged some AI leaders but tends to act as a defensive megacap within tech, benefiting when investors seek quality exposure during periods of rate uncertainty. With QQQ and S&P futures modestly higher and no negative Apple-specific headlines overnight, incremental flows into large, liquid names could support a grind higher. I expect AAPL to end up about 1–1.5% on the day, closing near 306 as part of a broader megacap stabilization move."
+    }
+  ]
+}

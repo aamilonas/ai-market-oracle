@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-21",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-21T13:45:41.870807+00:00",
+  "market_context": "U.S. stock markets are experiencing early declines due to rising oil prices and increasing Treasury yields, influenced by ongoing tensions related to the war with Iran. The S&P 500 has dropped 0.4%, the Dow Jones Industrial Average is down 160 points, and the Nasdaq has lost 0.5%. Brent crude prices have risen by 3% to $106.48 per barrel, while the 10-year Treasury yield has reached 4.60%.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260521_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 738.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The rise in oil prices and Treasury yields, coupled with geopolitical tensions, are likely to exert downward pressure on the S&P 500 ETF (SPY) throughout the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260521_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 221.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia's strong quarterly earnings, driven by an 85% increase in AI chip sales and tripled profits, are expected to positively influence its stock price despite broader market declines."
+    },
+    {
+      "id": "pred_gpt4o_20260521_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 260.0,
+      "current_price_at_prediction": 262.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Amazon's stock may face downward pressure due to the overall market decline influenced by rising oil prices and Treasury yields, despite the company's strong fundamentals."
+    },
+    {
+      "id": "pred_gpt4o_20260521_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76000.0,
+      "current_price_at_prediction": 76764.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin's price is likely to decline slightly, reflecting the broader market sentiment and increased risk aversion among investors amid geopolitical tensions."
+    }
+  ]
+}

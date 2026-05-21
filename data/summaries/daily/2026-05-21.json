@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T13:46:16.694418+00:00",
+  "headline": "16 AI market calls queued for 2026-05-21",
+  "summary": "16 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on AAPL up."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on NVDA up."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on SPY up."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models aligned on TSLA down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "Gemini",
+    "ticker": "AAPL",
+    "score": null,
+    "summary": "Highest-confidence call came from Gemini on AAPL."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "Grok",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Lowest-confidence call came from Grok on QQQ."
+  }
+}
