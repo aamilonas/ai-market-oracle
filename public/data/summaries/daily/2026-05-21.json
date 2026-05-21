@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "generated_at": "2026-05-21T13:46:16.694418+00:00",
+  "generated_at": "2026-05-21T23:32:00.712126+00:00",
   "headline": "16 AI market calls queued for 2026-05-21",
   "summary": "16 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on NVDA up."
     },
     {
@@ -33,7 +33,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     },
     {
@@ -43,7 +43,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on TSLA down."
     }
   ],
@@ -58,7 +58,7 @@
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "QQQ",
-    "score": null,
+    "score": -0.52,
     "summary": "Lowest-confidence call came from Grok on QQQ."
   }
 }
