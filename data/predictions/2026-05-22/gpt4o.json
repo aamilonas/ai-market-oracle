@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-22",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-22T12:40:47.073779+00:00",
+  "market_context": "U.S. stock futures are modestly higher in pre-market trading, with the S&P 500, Nasdaq, and Dow Jones Industrial Average all showing slight gains. Oil prices have surged due to geopolitical tensions surrounding the Iran conflict, with Brent crude reaching $104.44 per barrel. The 10-year Treasury yield has eased to 4.55%, reflecting investor caution amid ongoing uncertainties.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260522_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 742.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Pre-market futures indicate a modest upward trend for the S&P 500, suggesting potential gains for SPY. However, ongoing geopolitical tensions and rising oil prices may introduce volatility, warranting cautious optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260522_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 310.0,
+      "current_price_at_prediction": 304.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's strong market position and recent product announcements may drive investor interest. However, broader market uncertainties could temper gains."
+    },
+    {
+      "id": "pred_gpt4o_20260522_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.0,
+      "current_price_at_prediction": 219.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVIDIA's stock has experienced significant gains recently, leading to potential profit-taking. Additionally, concerns over supply chain disruptions may impact investor sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260522_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78000.0,
+      "current_price_at_prediction": 77357.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown resilience amid market uncertainties, with investors viewing it as a hedge against inflation. Continued institutional interest may support upward momentum."
+    }
+  ]
+}

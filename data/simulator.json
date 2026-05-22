@@ -416,6 +416,24 @@
       ],
       "confidence": 0.5967,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "SPXL",
+      "direction": "up",
+      "entry_price": 270.24,
+      "exit_price": null,
+      "shares": 103,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "GPT-4o",
+        "Gemini",
+        "Perplexity",
+        "Grok"
+      ],
+      "confidence": 0.6225,
+      "status": "OPEN"
     }
   ]
 }

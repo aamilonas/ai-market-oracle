@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-22",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-22T12:39:00Z",
+  "market_context": "U.S. equity futures and broad risk sentiment appeared mildly constructive into the open, with the major indexes coming off a modestly mixed/flat stretch rather than a strong trend. Volatility is subdued (VIX 16.8) and the 10Y yield remains elevated at 4.55%, which supports a choppy but still resilient equity tape; recent market commentary also pointed to strength in growth names like RKLB, APLD, and the Nasdaq complex.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260522_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 746.85,
+      "current_price_at_prediction": 742.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "The index is only slightly below recent highs and the low VIX suggests limited near-term stress. With the broader market showing resilience and growth leadership still present, I expect a modest upward drift rather than a sharp move."
+    },
+    {
+      "id": "pred_perplexity_20260522_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.4,
+      "current_price_at_prediction": 714.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq leadership has been stronger than the broader market, and recent commentary highlighted support in several growth names. QQQ should benefit if mega-cap tech remains firm, though the upside may be capped by rate sensitivity from the 10Y yield."
+    },
+    {
+      "id": "pred_perplexity_20260522_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 501.9,
+      "current_price_at_prediction": 503.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The Dow has outperformed on the 5-day basis, making it slightly more vulnerable to mean reversion if cyclicals and defensives cool off. Compared with the Nasdaq, the index has less direct momentum support from the recent growth-led tape."
+    },
+    {
+      "id": "pred_perplexity_20260522_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 307.6,
+      "current_price_at_prediction": 304.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Apple is trading near a psychologically important level and tends to move with broader risk-on sentiment when volatility is contained. A modest rebound is more likely than a large breakout, given the still-elevated rates backdrop."
+    },
+    {
+      "id": "pred_perplexity_20260522_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.9,
+      "current_price_at_prediction": 219.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Semiconductor leadership has been a recurring driver for the Nasdaq, and NVDA remains a primary high-beta beneficiary when the market leans risk-on. The recent constructive tone in growth stocks increases the odds of a small positive close."
+    }
+  ]
+}

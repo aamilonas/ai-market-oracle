@@ -1,19 +1,21 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "winner": {
-    "ticker": "NVDA",
+    "ticker": "SPY",
     "direction": "up",
-    "avg_confidence": 0.5967,
-    "avg_target": 227.67,
-    "avg_entry": 222.94,
-    "expected_move_pct": 2.12,
-    "score": 1.265,
+    "avg_confidence": 0.6225,
+    "avg_target": 710.59,
+    "avg_entry": 706.54,
+    "expected_move_pct": 0.57,
+    "score": 0.3566,
     "models": [
       "GPT-4o",
+      "Gemini",
       "Perplexity",
       "Grok"
     ],
-    "model_count": 3,
-    "high_conviction": false
+    "model_count": 4,
+    "high_conviction": false,
+    "leveraged_ticker": "SPXL"
   }
 }

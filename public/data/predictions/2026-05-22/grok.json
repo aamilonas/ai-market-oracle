@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-22",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-22T12:40:56.421557+00:00",
+  "market_context": "X sentiment shows cautious optimism around tech resilience despite mixed index moves, with traders highlighting NVDA stability and low VIX. Pre-market futures point to modest gains in QQQ while 10Y yields hold at 4.55%. No major catalysts expected but options flow suggests defensive positioning into the weekend.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260522_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 742.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 742.72 with VIX down 8.8% signaling reduced fear; X chatter focuses on AI momentum supporting a modest rebound. Pre-market data shows slight positive futures bias into open."
+    },
+    {
+      "id": "pred_grok_20260522_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.0,
+      "current_price_at_prediction": 219.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA at 219.51 benefits from ongoing X bullish threads on AI demand; low volatility environment favors continuation of recent strength."
+    },
+    {
+      "id": "pred_grok_20260522_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 412.0,
+      "current_price_at_prediction": 417.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 417.85 faces profit-taking pressure per recent X sentiment scans; 5-day negative drift and lack of fresh catalysts point to intraday weakness."
+    },
+    {
+      "id": "pred_grok_20260522_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 78500.0,
+      "current_price_at_prediction": 77357.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "BTC near 77357 shows resilience on X with stable ETH correlation; risk-on tone from equities could lift crypto into close."
+    }
+  ]
+}

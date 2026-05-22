@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-22",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-22T12:40:01.195557+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, influencing investor sentiment, but strong corporate earnings reports from select companies are providing some counter-balance.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260522_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to close higher due to late-day buying interest in large-cap tech, despite earlier market volatility. Positive economic data released mid-day provided a boost."
+    },
+    {
+      "id": "pred_gemini_20260522_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.5,
+      "current_price_at_prediction": 197.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "AAPL is facing selling pressure after a key analyst downgrade and concerns over slowing iPhone sales in international markets. Technical indicators suggest a short-term downtrend."
+    },
+    {
+      "id": "pred_gemini_20260522_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.8,
+      "current_price_at_prediction": 124.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "ExxonMobil is projected to rise by week's end, driven by increasing crude oil prices and strong demand forecasts for the summer driving season. Geopolitical tensions are also supporting energy prices."
+    },
+    {
+      "id": "pred_gemini_20260522_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Tesla is likely to experience further declines this week due to ongoing concerns about production delays for its new models and increased competition in the EV market. CEO's recent comments also added to investor uncertainty."
+    },
+    {
+      "id": "pred_gemini_20260522_005",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Microsoft is expected to trend upwards through the end of the month, buoyed by strong performance in its cloud computing division and continued growth in AI-related services. Upcoming product announcements are also anticipated to boost sentiment."
+    }
+  ]
+}
