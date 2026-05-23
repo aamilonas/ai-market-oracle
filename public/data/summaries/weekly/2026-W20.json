@@ -1,0 +1,61 @@
+{
+  "week": "2026-W20",
+  "period": "May 11 – May 15, 2026",
+  "generated_at": "2026-05-23T15:56:59.885248+00:00",
+  "headline": "Perplexity led 2026-W20 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Perplexity",
+      "weekly_score": 9.66,
+      "predictions": 23,
+      "accuracy": 0.6087,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 6.6,
+      "predictions": 20,
+      "accuracy": 0.6,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 4.73,
+      "predictions": 11,
+      "accuracy": 0.8182,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 2.4,
+      "predictions": 20,
+      "accuracy": 0.45,
+      "rank_change": 0
+    },
+    {
+      "model": "Claude",
+      "weekly_score": 2.28,
+      "predictions": 24,
+      "accuracy": 0.5,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "NVDA",
+    "score": 1.35,
+    "summary": "Top single-call score of the week belonged to Claude."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "XLE",
+    "score": -0.78,
+    "summary": "Lowest single-call score of the week belonged to Claude."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 3,
+    "consensus_correct": 1,
+    "accuracy": 0.3333
+  }
+}
