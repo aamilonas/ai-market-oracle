@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-26T13:28:18.618383+00:00",
+  "market_context": "X sentiment shows mild bullishness on tech with NVDA and MSFT seeing positive chatter amid low VIX. Pre-market futures indicate flat to slightly up open with no major catalysts. Options flow light and no notable short interest spikes reported.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260526_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.5,
+      "current_price_at_prediction": 745.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up on continued low VIX at 16.77 and positive 5-day trend. X shows steady retail optimism without major negative headlines."
+    },
+    {
+      "id": "pred_grok_20260526_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 218.0,
+      "current_price_at_prediction": 215.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA benefits from ongoing AI narrative on X with volume increasing. Follows QQQ strength."
+    },
+    {
+      "id": "pred_grok_20260526_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 426.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA faces mild profit-taking after recent run; X volume neutral but crypto correlation weighs slightly negative."
+    },
+    {
+      "id": "pred_grok_20260526_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 717.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ supported by MSFT and NVDA flows; futures point to continuation of 5-day +1.2% trend."
+    }
+  ]
+}

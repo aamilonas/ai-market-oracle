@@ -1,21 +1,19 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-26",
   "winner": {
-    "ticker": "SPY",
-    "direction": "up",
-    "avg_confidence": 0.6225,
-    "avg_target": 710.59,
-    "avg_entry": 706.54,
-    "expected_move_pct": 0.57,
-    "score": 0.3566,
+    "ticker": "TSLA",
+    "direction": "down",
+    "avg_confidence": 0.5667,
+    "avg_target": 354.33,
+    "avg_entry": 360.17,
+    "expected_move_pct": 1.62,
+    "score": 0.9188,
     "models": [
-      "GPT-4o",
       "Gemini",
       "Perplexity",
       "Grok"
     ],
-    "model_count": 4,
-    "high_conviction": false,
-    "leveraged_ticker": "SPXL"
+    "model_count": 3,
+    "high_conviction": false
   }
 }

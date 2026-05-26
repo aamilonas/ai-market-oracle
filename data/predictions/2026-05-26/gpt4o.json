@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-26T13:28:10.890307+00:00",
+  "market_context": "U.S. stock futures are indicating a positive opening following the Memorial Day holiday, with S&P 500 futures trading near 7532.75, up from the previous close of 7473.47. Investors are anticipating the release of the Consumer Confidence Index at 10:00 AM ET, which may influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260526_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 745.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Pre-market futures indicate a positive opening for the S&P 500, suggesting that SPY may experience gains today. Additionally, the upcoming Consumer Confidence Index release could provide further insights into economic sentiment, potentially supporting upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260526_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 312.0,
+      "current_price_at_prediction": 308.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock has been on an upward trend, and with the overall market sentiment being positive, AAPL is likely to continue its ascent. The company's strong fundamentals and recent product announcements may also contribute to investor confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260526_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 426.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has shown resilience amid market fluctuations. With the broader market poised for gains and continued interest in electric vehicles, TSLA may see a modest increase today."
+    },
+    {
+      "id": "pred_gpt4o_20260526_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76000.0,
+      "current_price_at_prediction": 76718.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has experienced slight declines over the past five days. Given the current market dynamics and potential profit-taking, BTC-USD may continue to face downward pressure in the short term."
+    }
+  ]
+}

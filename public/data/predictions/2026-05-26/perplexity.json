@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-26",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-26T13:27:35Z",
+  "market_context": "U.S. equity indices continue to trade near record highs, supported by strong earnings and resilient macro data, with the broad US500 index up about 0.6% today and the 10Y Treasury yield hovering in the mid‑4% range.[2][1] Volatility remains subdued with the VIX in the mid-teens, while mega-cap tech leadership persists despite some consolidation in cryptocurrencies and a modest pullback in recent days for BTC and ETH.[2] The backdrop is one of constructive risk sentiment but with elevated valuations, suggesting a moderate upside bias alongside intraday headline sensitivity.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260526_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 751.0,
+      "current_price_at_prediction": 745.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is trading near record highs, mirroring the US500 index, which is up about 0.6–0.7% today on continued strength in earnings and risk appetite.[2][3] With the 10Y yield steady in the mid‑4% area and the VIX in the mid‑teens, the risk backdrop supports a modest continuation of the recent uptrend rather than a sharp reversal.[1] I expect a small additional gain into the close, targeting roughly a 0.7% intraday move from yesterday’s close, while acknowledging that stretched valuations cap confidence."
+    },
+    {
+      "id": "pred_perplexity_20260526_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 723.0,
+      "current_price_at_prediction": 717.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Mega-cap growth and tech have been key drivers of the broader market’s push to record levels as earnings strength and AI-related optimism support the Nasdaq complex.[3] With the US500 up around 0.6% today and no clear risk-off trigger in rates or volatility, QQQ is likely to participate with a modest positive move, though its recent outperformance and rich multiples temper conviction.[2] I expect a roughly 0.7–0.8% gain from the last close by the end of the session, barring a sudden reversal in yields or a negative tech headline."
+    },
+    {
+      "id": "pred_perplexity_20260526_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 313.0,
+      "current_price_at_prediction": 308.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "AAPL has been part of the broader mega-cap complex benefiting from strong index-level momentum and optimism around ongoing product and AI ecosystem developments, helping drive the S&P 500 and Nasdaq to or near record highs.[2][3] With overall risk sentiment constructive and no company-specific negative catalysts in today’s early news flow, AAPL is likely to track or slightly outperform the major indices on the day. I therefore expect a modest advance of around 1–1.5% from the prior close into the end of the session."
+    },
+    {
+      "id": "pred_perplexity_20260526_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 221.0,
+      "current_price_at_prediction": 215.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVDA remains a core beneficiary of the AI and data center investment cycle that has supported record levels in the broader indices and sustained strength in semiconductor benchmarks.[3] In an environment where the US500 is advancing and tech leadership is intact, NVDA tends to exhibit higher beta, often moving more than the overall market on positive days.[2] I expect a moderately stronger-than-index move of roughly 2.5–3% from yesterday’s close, while recognizing that elevated expectations and valuations limit confidence from being higher."
+    },
+    {
+      "id": "pred_perplexity_20260526_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 418.0,
+      "current_price_at_prediction": 426.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA has been more volatile and idiosyncratic than other mega-caps, with sentiment sensitive to EV demand headlines, pricing, and policy news, even when the broader indices are firm.[3] With the market at or near record highs, profit-taking often rotates into more speculative or higher-beta names like TSLA after strong runs, especially if there is no fresh positive catalyst on the day.[2] I expect TSLA to underperform the indices and close modestly lower, around 2% below the previous close, despite the generally positive risk environment."
+    }
+  ]
+}

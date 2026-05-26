@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-26T13:27:47.702753+00:00",
+  "market_context": "The market is currently experiencing strong bullish sentiment, primarily driven by robust corporate earnings reports from the technology sector and a generally positive economic outlook. Investor confidence remains high, with significant capital inflows observed across major indices. However, some volatility is anticipated as inflation data approaches.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260526_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to close higher due to strong buying pressure observed in the last hour of trading, coupled with positive news regarding a new infrastructure bill."
+    },
+    {
+      "id": "pred_gemini_20260526_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 510.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "The tech sector continues its rally, with QQQ benefiting from robust Q1 earnings from major components and increased institutional investment in AI-related stocks."
+    },
+    {
+      "id": "pred_gemini_20260526_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 228.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA faces headwinds today due to a new competitor announcement in the EV market and a slight downgrade from a prominent analyst firm."
+    },
+    {
+      "id": "pred_gemini_20260526_004",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 179.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Google's strong performance in cloud services and ongoing innovation in AI are expected to drive its stock price higher by month-end, supported by positive analyst revisions."
+    }
+  ]
+}
