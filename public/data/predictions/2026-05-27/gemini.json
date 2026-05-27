@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-27T13:59:25.591129+00:00",
+  "market_context": "Recent economic data indicates a slight slowdown in inflation, leading to increased speculation about potential interest rate cuts. Technology stocks are showing resilience, while energy sectors are reacting to fluctuating oil prices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260527_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q1 earnings reports from major tech components within the S&P 500 are driving positive sentiment, with institutional buying observed."
+    },
+    {
+      "id": "pred_gemini_20260527_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Continued investor enthusiasm for AI-related stocks and robust performance from key technology giants are expected to push the index higher."
+    },
+    {
+      "id": "pred_gemini_20260527_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 397.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Concerns over manufacturing data and a slight uptick in unemployment claims are creating downward pressure on industrial stocks."
+    },
+    {
+      "id": "pred_gemini_20260527_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 190.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Geopolitical tensions in Eastern Europe and a weakening dollar are increasing demand for safe-haven assets like gold."
+    }
+  ]
+}

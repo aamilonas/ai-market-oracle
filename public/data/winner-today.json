@@ -1,19 +1,21 @@
 {
-  "date": "2026-05-26",
+  "date": "2026-05-27",
   "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.5667,
-    "avg_target": 354.33,
-    "avg_entry": 360.17,
-    "expected_move_pct": 1.62,
-    "score": 0.9188,
+    "ticker": "QQQ",
+    "direction": "up",
+    "avg_confidence": 0.6275,
+    "avg_target": 665.25,
+    "avg_entry": 659.85,
+    "expected_move_pct": 0.82,
+    "score": 0.514,
     "models": [
-      "Gemini",
+      "GPT-4o",
+      "Grok",
       "Perplexity",
-      "Grok"
+      "Gemini"
     ],
-    "model_count": 3,
-    "high_conviction": false
+    "model_count": 4,
+    "high_conviction": false,
+    "leveraged_ticker": "TQQQ"
   }
 }

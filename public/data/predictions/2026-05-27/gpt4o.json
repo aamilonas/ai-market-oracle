@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-27",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-27T13:59:46.501835+00:00",
+  "market_context": "U.S. stock markets have recently reached new all-time highs, driven by optimism over potential peace negotiations with Iran. However, upcoming economic data releases, including the Richmond Fed Manufacturing Index and EIA Crude Oil Inventory, may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260527_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 749.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Recent market optimism due to potential peace negotiations with Iran has propelled major indices to new highs. This positive sentiment is likely to continue influencing SPY's performance today."
+    },
+    {
+      "id": "pred_gpt4o_20260527_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 728.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The tech-heavy Nasdaq Composite has been leading recent gains, suggesting continued strength in technology stocks, which could drive QQQ higher."
+    },
+    {
+      "id": "pred_gpt4o_20260527_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 310.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's stock has shown resilience amid market fluctuations, and the overall positive market sentiment may further bolster its price today."
+    },
+    {
+      "id": "pred_gpt4o_20260527_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 74000.0,
+      "current_price_at_prediction": 75086.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has experienced a slight decline over the past five days, and without significant positive catalysts, this trend may continue in the short term."
+    },
+    {
+      "id": "pred_gpt4o_20260527_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 445.0,
+      "current_price_at_prediction": 437.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has been on an upward trajectory, and the current market optimism may provide additional support for its price increase today."
+    }
+  ]
+}

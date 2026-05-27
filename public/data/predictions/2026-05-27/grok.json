@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-27T14:06:15.375663+00:00",
+  "market_context": "X/Twitter shows moderately bullish sentiment with heavy focus on AI and tech recovery, NVDA and MSFT mentions up 25% in positive volume. Pre-market futures point to +0.4% open, no major negative catalysts beyond routine Fed commentary.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260527_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 753.5,
+      "current_price_at_prediction": 750.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 750.12 with 5-day gain of 2.2% and VIX at 17.04 signaling low fear. X volume shows retail buying interest in broad indices ahead of Fed remarks."
+    },
+    {
+      "id": "pred_grok_20260527_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 729.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ 5-day rally of 4.0% and positive options flow on mega-cap tech support continued upside. X sentiment highlights AI narrative strength."
+    },
+    {
+      "id": "pred_grok_20260527_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 211.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from sustained X bullish chatter and sector rotation into semiconductors. Low VIX environment favors growth names."
+    },
+    {
+      "id": "pred_grok_20260527_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 435.0,
+      "current_price_at_prediction": 440.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA shows relative weakness versus peers on X with rising short-interest chatter and no fresh catalyst today."
+    }
+  ]
+}

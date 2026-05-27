@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-27T13:59:20Z",
+  "market_context": "U.S. equity index futures/market breadth data were limited in the available results, but the main U.S. index was already up modestly on the day and Nasdaq described the major equity indexes as sitting at record highs amid a strong earnings season.[1][2] With VIX still relatively contained near 17 and the 10-year yield elevated at 4.47%, the setup favors continued but somewhat selective risk-on trading rather than a broad, low-volatility melt-up.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260527_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 753.5,
+      "current_price_at_prediction": 750.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The broad U.S. market was already positive, with the main index up 0.31% on the session in the available market data.[1] Record-high equity pricing and supportive earnings-season commentary from Nasdaq suggest a modest bid can persist, though the elevated 10-year yield limits upside conviction.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260527_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 736.0,
+      "current_price_at_prediction": 729.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The tech-heavy Nasdaq complex is benefiting from the earnings-driven equity strength described by Nasdaq, which is typically supportive for QQQ relative to the broad market.[2] Given the existing 5-day outperformance versus SPY and a still-moderate VIX, a slightly stronger close than the index baseline is the most likely outcome.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260527_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.8,
+      "current_price_at_prediction": 211.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA should remain supported if the market continues to favor large-cap growth and earnings momentum, both of which are consistent with the Nasdaq commentary on record highs.[2] The stock’s high beta makes it more likely than the broader index to extend a modest risk-on session, but elevated rates keep the move from being highly certain."
+    },
+    {
+      "id": "pred_perplexity_20260527_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 414.9,
+      "current_price_at_prediction": 411.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "MSFT is positioned to track the broad large-cap bid implied by the record-high equity backdrop and positive market tone.[2] Because the day’s macro backdrop includes a 4.47% 10-year yield, I expect only a small gain rather than a sharp continuation move."
+    },
+    {
+      "id": "pred_perplexity_20260527_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 434.0,
+      "current_price_at_prediction": 440.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "TSLA’s high volatility makes it more vulnerable to a rotation away from the most speculative growth names when rates remain elevated and the market advances only modestly.[1] With the broad tape constructive but not euphoric, a small pullback is more likely than another outsized upside move."
+    }
+  ]
+}
