@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-28",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-28T14:10:58.021554+00:00",
+  "market_context": "X/Twitter shows moderately bullish sentiment on tech and AI names with NVDA and MSFT seeing positive volume spikes; pre-market futures point to modest gains amid low VIX. No major macro events scheduled but options flow indicates call buying in QQQ. Crypto weakness noted but equities holding steady.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260528_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 753.2,
+      "current_price_at_prediction": 750.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX at 16.20 and positive X chatter on AI suggest buying pressure. 5-day SPY gain of 1.3% likely extends modestly into today's session."
+    },
+    {
+      "id": "pred_grok_20260528_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 733.1,
+      "current_price_at_prediction": 729.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tech-heavy QQQ benefits from continued NVDA momentum seen in options flow. Pre-market futures align with 2.3% 5-day uptrend."
+    },
+    {
+      "id": "pred_grok_20260528_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.5,
+      "current_price_at_prediction": 212.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X sentiment highlights fresh AI chip demand; call buying in options supports upside from current levels."
+    },
+    {
+      "id": "pred_grok_20260528_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 433.0,
+      "current_price_at_prediction": 438.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Crypto weakness and broader EV sector rotation on X point to mild profit-taking in TSLA today."
+    }
+  ]
+}

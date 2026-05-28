@@ -1,21 +1,4 @@
 {
-  "date": "2026-05-27",
-  "winner": {
-    "ticker": "QQQ",
-    "direction": "up",
-    "avg_confidence": 0.6275,
-    "avg_target": 665.25,
-    "avg_entry": 659.85,
-    "expected_move_pct": 0.82,
-    "score": 0.514,
-    "models": [
-      "GPT-4o",
-      "Grok",
-      "Perplexity",
-      "Gemini"
-    ],
-    "model_count": 4,
-    "high_conviction": false,
-    "leveraged_ticker": "TQQQ"
-  }
+  "date": "2026-05-28",
+  "winner": null
 }

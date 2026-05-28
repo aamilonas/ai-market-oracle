@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-28",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-28T14:10:51.183165+00:00",
+  "market_context": "U.S. stock futures are slightly down due to escalating U.S.-Iran tensions, with oil prices rising over 2%. Investors are awaiting key economic data releases, including the PCE index and Q1 GDP estimate, which could influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260528_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 745.0,
+      "current_price_at_prediction": 749.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Escalating geopolitical tensions between the U.S. and Iran have led to increased oil prices and market uncertainty. Additionally, upcoming economic data releases may introduce volatility, potentially leading to a slight decline in SPY by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260528_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 727.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The technology sector, represented by QQQ, may experience a minor pullback due to market uncertainty stemming from geopolitical tensions and anticipation of economic data releases. This could result in a slight decrease in QQQ's price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260528_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 308.0,
+      "current_price_at_prediction": 310.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock may face a modest decline due to broader market concerns related to geopolitical tensions and upcoming economic data. While the company's fundamentals remain strong, short-term market sentiment could lead to a slight decrease in its stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260528_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 72000.0,
+      "current_price_at_prediction": 72676.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has been experiencing a downward trend over the past five days, and current market uncertainties may contribute to continued pressure on its price. However, the cryptocurrency market is highly volatile, and this prediction carries moderate confidence."
+    },
+    {
+      "id": "pred_gpt4o_20260528_005",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 422.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft's stock may see a slight decline due to overall market sentiment influenced by geopolitical tensions and anticipation of economic data. While the company's performance remains strong, short-term market factors could lead to a minor decrease in its stock price."
+    }
+  ]
+}

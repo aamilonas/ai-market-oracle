@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-28",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-28T14:10:14Z",
+  "market_context": "U.S. equity index futures are modestly lower to flat after recent record highs, as traders digest higher-for-longer rate expectations amid a 10Y yield around 4.5% and a still-subdued VIX near 16, indicating only mild risk aversion.[1] Mega-cap tech remains the primary driver of index performance, but crypto weakness over the past week signals some risk-asset fatigue and tighter liquidity conditions. With no major surprise macro data hitting this morning, price action is likely to be driven by positioning, end-of-month flows, and sector rotation rather than a single dominant news catalyst.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260528_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.0,
+      "current_price_at_prediction": 750.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY is coming off recent record levels and is tightly correlated with the S&P 500, which is showing intraday softness as the US500 index dips slightly after its latest high.[1] The 10Y Treasury yield near 4.5% continues to pressure equity valuations at the margin, and the VIX near 16 leaves room for a modest pickup in volatility from currently complacent levels. With no strong positive macro catalyst today and end-of-month rebalancing flows likely to involve some selling of outperforming large-cap equities, a small pullback toward the mid-$740s by the close is more likely than another leg higher."
+    },
+    {
+      "id": "pred_perplexity_20260528_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 736.0,
+      "current_price_at_prediction": 729.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ has outperformed over the last five days, reflecting strong momentum in mega-cap growth and AI-related names, which remain in favor despite higher yields.[1] The still-low VIX and lack of major tech-specific negative headlines this morning suggest that dip-buying interest in large-cap tech remains intact. Given QQQ’s higher beta and recent relative strength versus the broader market, it has a reasonable chance of closing modestly green even if the broader tape is flat to slightly negative."
+    },
+    {
+      "id": "pred_perplexity_20260528_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 317.0,
+      "current_price_at_prediction": 311.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Apple continues to trade as a core defensive mega-cap growth holding, benefiting from steady buy-and-hold institutional demand even on days when cyclicals underperform.[1] Recent strength in large-cap tech indices and anticipation around upcoming product and AI-related announcements provide a supportive backdrop for a modest intraday bid. With volatility subdued and the stock near recent consolidation levels, a drift higher of around 1–2% into the close is more likely than a sharp downside move absent company-specific negative news."
+    },
+    {
+      "id": "pred_perplexity_20260528_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 219.0,
+      "current_price_at_prediction": 212.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA remains the flagship AI beneficiary and has recently shown strong dip-buying after pullbacks, driven by sustained demand for its data center GPUs and hyperscaler capex.[1] QQQ’s positive recent performance and continued market focus on AI infrastructure provide a constructive technical and narrative backdrop. While the stock is volatile, the underlying trend and positioning favor a modest rebound intraday toward the high $210s or low $220s over a deeper selloff in the absence of negative company-specific headlines."
+    },
+    {
+      "id": "pred_perplexity_20260528_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 71000.0,
+      "current_price_at_prediction": 72721.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Bitcoin has declined more than 5% over the past five days, indicating waning risk appetite and some de-leveraging in crypto markets.[1] Higher real and nominal yields reduce the relative appeal of non-yielding assets, and the recent volatility in BTC suggests that rallies are being sold rather than extended. With no clear upside catalyst today and broader risk assets showing only cautious sentiment, a further modest drift lower toward the low $70Ks by the close is more likely than a sharp recovery back above recent highs."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-28",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-28T14:10:28.405174+00:00",
+  "market_context": "Market sentiment is mixed today, with technology stocks showing some resilience while broader indices face headwinds from inflation concerns. Investors are closely watching upcoming economic data releases for further direction.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260528_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Strong buying interest observed in large-cap tech, pushing the broader market higher despite initial resistance."
+    },
+    {
+      "id": "pred_gemini_20260528_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.8,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Positive earnings reports from key tech companies are expected to drive momentum through the week, overcoming minor pullbacks."
+    },
+    {
+      "id": "pred_gemini_20260528_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 397.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Rising commodity prices and supply chain concerns are putting pressure on industrial stocks, leading to a potential daily decline."
+    },
+    {
+      "id": "pred_gemini_20260528_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 95.5,
+      "current_price_at_prediction": 96.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Anticipation of hawkish central bank comments later in the month is likely to push bond yields higher, negatively impacting TLT."
+    }
+  ]
+}
