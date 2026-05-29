@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-29",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-05-29T13:43:32Z",
+  "market_context": "U.S. equity indices are coming off a strong week with SPY and QQQ at or near record highs, supported by robust earnings and still-elevated but stable 10Y yields around 4.4%.[1][2] VIX near 15 suggests muted volatility expectations, while recent weakness in Bitcoin and Ethereum points to some de-risking in speculative assets. There are no major shock headlines on growth, inflation, or Fed policy overnight, so index moves are likely to be driven by position‑squaring into the weekend and follow‑through on the recent tech-led rally.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260529_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.0,
+      "current_price_at_prediction": 757.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY is up about 2% over the past five days and trading near record highs, with a low VIX (15.70) indicating complacency and limited hedging demand. With the 10Y yield elevated at 4.44%, equity risk premia are compressed, and into a Friday close investors often trim risk after a strong run. I expect modest mean reversion and some profit‑taking in broad large‑cap exposure, leading SPY to finish slightly lower but still near current highs."
+    },
+    {
+      "id": "pred_perplexity_20260529_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 746.0,
+      "current_price_at_prediction": 739.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ has outperformed over the last five days (+3.5%), driven by large-cap tech strength (MSFT, NVDA, META, GOOGL all near highs) and strong earnings momentum.[1] With VIX subdued and no major negative tech-specific macro catalyst overnight, dip-buying behavior in growth and AI-related names is likely to persist. I expect QQQ to grind modestly higher on continued inflows into mega-cap tech, even if broader indices see some profit-taking."
+    },
+    {
+      "id": "pred_perplexity_20260529_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.0,
+      "current_price_at_prediction": 215.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA remains a key AI bellwether and has been a primary driver of QQQ’s recent outperformance amid a strong earnings season for semiconductor and AI-related hardware.[1] With broad tech momentum intact and no negative company-specific news overnight, traders are likely to continue buying any intraday dips. I expect NVDA to finish the session modestly higher as investors extend positioning in AI beneficiaries into the weekend."
+    },
+    {
+      "id": "pred_perplexity_20260529_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 428.0,
+      "current_price_at_prediction": 439.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA has rebounded strongly alongside the broader market but continues to face headwinds from EV pricing pressure and competition, which have been recurring themes in recent quarters.[1] In a risk-on tape led by mega-cap software and AI hardware, higher-beta names with more idiosyncratic fundamental concerns can lag as traders rotate into clearer earnings winners. I expect TSLA to underperform the broader tech complex today and close modestly lower on some profit-taking."
+    },
+    {
+      "id": "pred_perplexity_20260529_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 71500.0,
+      "current_price_at_prediction": 73126.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin is down about 5% over the last five days, indicating recent selling pressure even as equities hit highs, suggesting some de-risking in more volatile assets. With real yields elevated via a 10Y nominal yield of 4.44% and no major new crypto-specific positive catalysts overnight, the risk-reward in BTC looks skewed to further consolidation or mild downside. I expect BTC to drift slightly lower or remain under its recent highs, ending the day below the current reference price."
+    }
+  ]
+}

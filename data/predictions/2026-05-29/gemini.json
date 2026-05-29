@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-29",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-05-29T13:43:44.125154+00:00",
+  "market_context": "The market is currently reacting to stronger-than-expected inflation data, leading to concerns about potential interest rate hikes. However, strong corporate earnings reports from key tech companies are providing some underlying support, creating a mixed sentiment among investors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260529_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from tech earnings is expected to carry through the end of the trading day, pushing the broader market slightly higher."
+    },
+    {
+      "id": "pred_gemini_20260529_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Strong pre-orders for the new Vision Pro model and positive analyst upgrades are likely to drive AAPL's stock up by the end of the week."
+    },
+    {
+      "id": "pred_gemini_20260529_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays for the Cybertruck and increased competition in the EV market are putting downward pressure on TSLA shares today."
+    },
+    {
+      "id": "pred_gemini_20260529_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Continued strong growth in Azure cloud services and anticipated AI product announcements are expected to boost MSFT's value significantly by month-end."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-29",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-05-29T13:44:06.145591+00:00",
+  "market_context": "U.S. stock markets have been reaching new highs, driven by strong corporate earnings and optimism over a tentative 60-day ceasefire extension in the Iran conflict, which has helped stabilize oil prices. Treasury yields have declined, reflecting a cautious yet optimistic market outlook.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260529_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 757.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 has been on an upward trend, supported by strong corporate earnings and positive geopolitical developments. The tentative 60-day ceasefire extension in the Iran conflict has contributed to market optimism, suggesting that SPY may continue its upward trajectory."
+    },
+    {
+      "id": "pred_gpt4o_20260529_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The Nasdaq Composite has been climbing, driven by strong performances in the technology sector. Continued investor confidence in tech stocks, coupled with positive market sentiment, suggests that QQQ may see further gains."
+    },
+    {
+      "id": "pred_gpt4o_20260529_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 318.0,
+      "current_price_at_prediction": 314.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple has been benefiting from strong product sales and positive market sentiment. The overall bullish trend in the tech sector supports the likelihood of AAPL's price increasing."
+    },
+    {
+      "id": "pred_gpt4o_20260529_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 445.0,
+      "current_price_at_prediction": 440.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft's recent earnings reports have exceeded expectations, and the company's involvement in significant contracts, such as the $9.7 billion Pentagon contract, positions it favorably for continued growth."
+    },
+    {
+      "id": "pred_gpt4o_20260529_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 72000.0,
+      "current_price_at_prediction": 73126.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has experienced a 5% decline over the past five days. Given the recent downward trend and potential profit-taking by investors, BTC-USD may continue to decrease in value."
+    }
+  ]
+}

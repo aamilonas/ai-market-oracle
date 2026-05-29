@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-29",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-05-29T13:44:12.969768+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech with low VIX cited as support, though crypto weakness is noted. Pre-market futures flat to slightly up amid no major catalysts. Focus on potential Fed speakers and options flow favoring SPY calls.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260529_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.5,
+      "current_price_at_prediction": 757.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Low VIX at 15.70 and recent 5-day gains support continuation. X chatter highlights bullish options flow into SPY. Flat pre-market futures likely to turn positive on open."
+    },
+    {
+      "id": "pred_grok_20260529_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tech-heavy QQQ benefits from NVDA and MSFT momentum per X sentiment. 5-day +3.5% streak and low volatility environment favor upside. No negative news expected pre-open."
+    },
+    {
+      "id": "pred_grok_20260529_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 215.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X volume spikes on AI chip demand narratives. Recent index gains and low VIX create tailwinds. Options flow shows call buying into close."
+    },
+    {
+      "id": "pred_grok_20260529_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 432.0,
+      "current_price_at_prediction": 439.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto weakness spills over to TSLA per X discussion. Short interest signals and lack of positive catalysts point to pullback despite broader market strength."
+    }
+  ]
+}
