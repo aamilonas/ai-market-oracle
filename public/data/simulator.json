@@ -1,5 +1,5 @@
 {
-  "balance": 27487.13,
+  "balance": 27738.85,
   "starting_balance": 25000,
   "trades": [
     {
@@ -475,17 +475,17 @@
       "ticker": "TSLA",
       "direction": "down",
       "entry_price": 439.85,
-      "exit_price": null,
+      "exit_price": 435.79,
       "shares": 62,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 251.72,
+      "pnl_pct": 0.92,
       "models": [
         "Grok",
         "Perplexity",
         "Gemini"
       ],
       "confidence": 0.6,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
