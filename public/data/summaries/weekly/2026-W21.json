@@ -1,0 +1,61 @@
+{
+  "week": "2026-W21",
+  "period": "May 18 – May 22, 2026",
+  "generated_at": "2026-05-30T15:59:44.020703+00:00",
+  "headline": "GPT-4o led 2026-W21 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "GPT-4o",
+      "weekly_score": 6.25,
+      "predictions": 21,
+      "accuracy": 0.5238,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 6.12,
+      "predictions": 25,
+      "accuracy": 0.56,
+      "rank_change": 0
+    },
+    {
+      "model": "Claude",
+      "weekly_score": 2.1,
+      "predictions": 9,
+      "accuracy": 0.5556,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 0.8,
+      "predictions": 11,
+      "accuracy": 0.5455,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": -3.16,
+      "predictions": 19,
+      "accuracy": 0.2632,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "Claude",
+    "ticker": "QQQ",
+    "score": 1.25,
+    "summary": "Top single-call score of the week belonged to Claude."
+  },
+  "worst_call": {
+    "model": "Claude",
+    "ticker": "XLE",
+    "score": -0.81,
+    "summary": "Lowest single-call score of the week belonged to Claude."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 2,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
