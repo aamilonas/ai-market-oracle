@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-01",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-01T16:22:18.682468+00:00",
+  "market_context": "U.S. stock index futures are climbing as Nvidia and Microsoft's latest AI advancements boost investor sentiment, despite ongoing Middle East tensions. Key economic indicators, including the ISM Manufacturing Index and Construction Spending data, are scheduled for release today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260601_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 756.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive pre-market momentum driven by AI sector advancements, coupled with anticipated favorable economic data releases, suggests a potential upward movement in SPY by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260601_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia's announcement of a new AI-capable chip, developed in partnership with Microsoft, is likely to drive investor interest and push NVDA's stock price higher by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260601_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 465.0,
+      "current_price_at_prediction": 459.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Microsoft's collaboration with Nvidia on AI technology is expected to enhance its market position, potentially leading to a modest increase in MSFT's stock price by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260601_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 740.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The tech-heavy QQQ is likely to benefit from the positive developments in the AI sector, particularly the advancements by Nvidia and Microsoft, suggesting a potential uptick by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260601_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 70000.0,
+      "current_price_at_prediction": 70791.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has experienced a 4.8% decline over the past five days, and without significant positive catalysts, it may continue to face downward pressure, potentially closing below its current price by the end of the day."
+    }
+  ]
+}

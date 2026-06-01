@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-01",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-01T16:22:31.147285+00:00",
+  "market_context": "X/Twitter sentiment shows cautious optimism with tech stocks trending positively amid low VIX at 16.04. Pre-market futures point to a flat-to-up open, with no major negative catalysts reported. BTC weakness noted in crypto discussions but equities holding steady.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260601_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.5,
+      "current_price_at_prediction": 756.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 756.39 with 5-day gain of 1.4%; X chatter highlights positive momentum in mega-caps and stable 10Y yield at 4.50% supporting equities into today's open."
+    },
+    {
+      "id": "pred_grok_20260601_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA at 220.96 shows resilience; options flow on X indicates bullish bets ahead of potential AI news catalysts expected this week."
+    },
+    {
+      "id": "pred_grok_20260601_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 415.0,
+      "current_price_at_prediction": 420.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 420.15 with recent crypto correlation; X sentiment mixed on delivery numbers and short interest signals point to intraday pressure."
+    },
+    {
+      "id": "pred_grok_20260601_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 740.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ up 3.2% over 5 days at 740.49; pre-market data and X tech optimism suggest continuation into close with VIX declining."
+    }
+  ]
+}

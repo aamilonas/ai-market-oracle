@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-01",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-01T16:21:55.724461+00:00",
+  "market_context": "Recent economic data indicates a mixed sentiment with strong tech earnings offsetting concerns about inflation. Geopolitical tensions remain a background factor, but market focus is primarily on upcoming interest rate decisions and corporate guidance. Overall, a cautious but optimistic outlook prevails for key sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260601_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive analyst revisions for the broader market index."
+    },
+    {
+      "id": "pred_gemini_20260601_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements at the upcoming developer conference, historically boosting stock performance. Supply chain issues appear to be resolving."
+    },
+    {
+      "id": "pred_gemini_20260601_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent negative sentiment from a key analyst downgrade. Delivery numbers for the quarter are also a concern."
+    },
+    {
+      "id": "pred_gemini_20260601_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Continued strong growth in cloud services and AI integration across its product suite. Positive long-term outlook from institutional investors."
+    }
+  ]
+}

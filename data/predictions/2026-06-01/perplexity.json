@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-01T16:21:41Z",
+  "market_context": "U.S. equity futures were modestly higher in early trading, with S&P 500 and Nasdaq 100 futures pointing to a slightly positive open after recent gains in large-cap tech and a relatively calm VIX near 16. The 10-year Treasury yield holding around 4.5% continues to be a headwind for valuation-sensitive areas, but mega-cap tech leadership and recent momentum in QQQ suggest a continued risk-on tilt. Crypto remains under pressure after a multi-day pullback, which may modestly weigh on broader risk sentiment but has not yet spilled over significantly into major equity indices.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260601_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 740.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ has outperformed the broader market over the past 5 days (+3.2%), reflecting strong momentum in mega-cap tech. With the VIX subdued around 16.04 and no major negative macro catalyst on today’s calendar, risk appetite for growth and tech is likely to persist, supporting a modest intraday gain. However, elevated rates near a 4.5% 10-year yield and stretched valuations limit upside, so the target reflects a small continuation move rather than a breakout."
+    },
+    {
+      "id": "pred_perplexity_20260601_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 226.5,
+      "current_price_at_prediction": 220.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA has been a key driver of the recent outperformance in QQQ and the broader AI theme, and its current price sits below recent momentum highs, suggesting room for a continuation bounce within the prevailing uptrend. Ongoing investor focus on AI infrastructure spending and strong data center demand tends to draw dip-buying interest on modest pullbacks. With tech futures pointing higher and no company-specific negative catalyst evident this morning, a moderate intraday gain is slightly more probable than stagnation or a sharp reversal."
+    },
+    {
+      "id": "pred_perplexity_20260601_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 420.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA has been volatile and is trading at a level that already reflects significant optimism about future growth and AI/autonomy narratives amid ongoing concerns about EV demand and pricing pressure. With the 10-year yield elevated, higher-duration, story-driven growth names are more vulnerable to intraday profit-taking than highly profitable mega-cap tech. Absent a fresh positive company-specific catalyst this morning, a modest fade from current levels by the close is slightly more likely than further extension higher."
+    },
+    {
+      "id": "pred_perplexity_20260601_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 69500.0,
+      "current_price_at_prediction": 70791.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin is down about 4.8% over the last five days, indicating that short-term momentum has turned negative after prior strength. With real yields relatively firm given a 10-year Treasury yield near 4.5%, the macro backdrop is less supportive for non-yielding risk assets like BTC. Unless there is a clear positive catalyst from regulatory or ETF flows during the day, continued consolidation with a slight downward bias toward recent support levels is more probable than a strong rebound by tonight."
+    }
+  ]
+}
