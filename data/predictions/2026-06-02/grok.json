@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-02",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-02T14:38:14.336441+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting AI earnings momentum and low VIX at 16.02. Pre-market futures point to a flat open amid 10Y yield at 4.45% and BTC weakness. No major macro events today but options flow indicates bullish bets on NVDA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260602_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.5,
+      "current_price_at_prediction": 758.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 758.65 with 5-day gain of 1.1% and VIX declining 5.8%; X chatter on stable yields supports modest upside into close."
+    },
+    {
+      "id": "pred_grok_20260602_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 232.0,
+      "current_price_at_prediction": 228.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Heavy call options flow noted on NVDA alongside positive AI sector mentions on X; prior 5-day momentum favors continuation."
+    },
+    {
+      "id": "pred_grok_20260602_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 415.0,
+      "current_price_at_prediction": 422.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA underperforms peers with crypto-linked sentiment drag visible on X; 5-day weakness in BTC adds downside pressure."
+    },
+    {
+      "id": "pred_grok_20260602_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 743.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ leads with 1.8% 5-day gain; X bullish on tech names and low volatility environment supports further advance."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-02T14:37:29Z",
+  "market_context": "U.S. equity futures are modestly softer to flat after recent gains, with traders watching higher long-end Treasury yields around 4.45% and a still-subdued VIX near 16, indicating limited near-term stress but some caution after a strong run-up. There is no single dominating macro shock overnight, but the focus is on upcoming economic data (notably labor and inflation later this week) and whether mega-cap tech can continue to lead after recent outperformance. Crypto remains under pressure after a multi-day pullback in BTC and ETH, which slightly reduces overall risk appetite at the margin.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260602_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 752.0,
+      "current_price_at_prediction": 758.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is coming off a strong multi-day advance and sits near recent highs, while S&P 500 futures in early trading indicate a slightly negative to flat open amid modest risk-off tones and higher 10Y yields around 4.45%, which historically pressure equity valuations on the margin. With the VIX still relatively low near 16, a sharp selloff is less likely, but a mild intraday pullback or consolidation after the recent move higher is a reasonable base case. I expect SPY to finish slightly red on the day, drifting toward about 752, reflecting a modest mean-reversion from stretched levels."
+    },
+    {
+      "id": "pred_perplexity_20260602_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 743.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The Nasdaq has been leading recently, supported by strength in mega-cap tech and AI-related names, and QQQ has outperformed over the last 5 days, suggesting ongoing relative strength versus broader indices. While higher yields can be a headwind for long-duration growth stocks, tech leadership has shown resilience in recent sessions and pre-market action in major components points to a mixed but slightly constructive tone. I expect QQQ to modestly outperform SPY on the day and close slightly higher around 750, assuming no negative surprise from intraday macro headlines."
+    },
+    {
+      "id": "pred_perplexity_20260602_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 234.0,
+      "current_price_at_prediction": 228.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA remains a central AI bellwether, and recent flows have favored AI and semiconductor names when the broader market is stable, with the stock holding up well despite broader volatility. Even if the indices consolidate, traders often buy dips in NVDA on AI optimism and strong earnings momentum, which supports a modest upside bias intraday. I expect NVDA to close green and slightly extend recent gains toward roughly 234, barring a broad risk-off move in growth or a sector-specific negative headline."
+    },
+    {
+      "id": "pred_perplexity_20260602_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 422.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "TSLA has recently been volatile and has lagged the broader mega-cap tech complex at times amid ongoing debates over EV demand, pricing, and margin pressure, making it more sensitive to any risk-off tilt. With futures slightly softer and no clear, strong positive catalyst in the near term, high-beta names like TSLA are vulnerable to intraday profit-taking after rebounds. I expect TSLA to trade lower and close below the prior close, gravitating toward about 410 as traders fade strength and rotate into more stable large-cap tech."
+    },
+    {
+      "id": "pred_perplexity_20260602_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 66600.0,
+      "current_price_at_prediction": 68101.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has declined roughly 7% over the past 5 days, indicating a short-term corrective phase, and intraday flows still show hesitant risk appetite in crypto relative to equities. With real yields elevated and no strong new bullish catalyst, bounces have been sold, and correlations with risk assets suggest BTC can remain under mild pressure if equities consolidate. I expect BTC-USD to edge lower over the U.S. session and end the day modestly below the prior close around 66,600, consistent with a continued but slowing pullback."
+    }
+  ]
+}

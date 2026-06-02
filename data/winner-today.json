@@ -1,19 +1,4 @@
 {
-  "date": "2026-06-01",
-  "winner": {
-    "ticker": "NVDA",
-    "direction": "up",
-    "avg_confidence": 0.6567,
-    "avg_target": 225.5,
-    "avg_entry": 220.96,
-    "expected_move_pct": 2.05,
-    "score": 1.3492,
-    "models": [
-      "GPT-4o",
-      "Grok",
-      "Perplexity"
-    ],
-    "model_count": 3,
-    "high_conviction": false
-  }
+  "date": "2026-06-02",
+  "winner": null
 }

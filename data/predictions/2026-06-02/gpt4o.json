@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-02",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-02T14:38:05.595131+00:00",
+  "market_context": "U.S. stock futures are slightly higher, with S&P 500 and Nasdaq 100 futures up around 0.2%, as investors weigh stronger global manufacturing data against rising costs and higher bond yields. The U.S. 10-year Treasury yield is approximately 4.47%, indicating potential pressure on growth-focused sectors. Key economic releases today include the Job Openings and Labor Turnover Survey (JOLTS) for April 2026 at 10:00 AM ET.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260602_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 758.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With S&P 500 futures up 0.2% and positive global manufacturing data, SPY is likely to close higher today. However, rising bond yields may limit gains."
+    },
+    {
+      "id": "pred_gpt4o_20260602_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 743.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq 100 futures are up 0.2%, suggesting a modest gain for QQQ. Yet, higher bond yields could temper the performance of tech stocks."
+    },
+    {
+      "id": "pred_gpt4o_20260602_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 312.0,
+      "current_price_at_prediction": 310.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock may benefit from the upcoming PlayStation State of Play event, which could boost tech sentiment. However, rising bond yields may limit the upside."
+    },
+    {
+      "id": "pred_gpt4o_20260602_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 67500.0,
+      "current_price_at_prediction": 68101.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has declined 7.4% over the past five days. Continued profit-taking and regulatory concerns may lead to further downside today."
+    },
+    {
+      "id": "pred_gpt4o_20260602_005",
+      "ticker": "ETH-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 1920.0,
+      "current_price_at_prediction": 1941.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Ethereum has fallen 3.3% over the past five days. Market sentiment remains cautious, suggesting a potential further decline today."
+    }
+  ]
+}

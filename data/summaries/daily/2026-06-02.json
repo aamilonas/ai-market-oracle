@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T14:38:24.892338+00:00",
+  "headline": "18 AI market calls queued for 2026-06-02",
+  "summary": "18 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models aligned on BTC-USD down."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on NVDA up."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on QQQ up."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on SPY up."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models aligned on TSLA down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "Gemini",
+    "ticker": "GOOGL",
+    "score": null,
+    "summary": "Highest-confidence call came from Gemini on GOOGL."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Lowest-confidence call came from GPT-4o on QQQ."
+  }
+}
