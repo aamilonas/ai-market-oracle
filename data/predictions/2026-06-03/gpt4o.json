@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-03",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-03T15:19:54.263942+00:00",
+  "market_context": "U.S. stock futures are pausing near record highs as oil prices climb due to renewed Middle East tensions. Brent crude has risen to $97.07 per barrel following recent U.S.-Iran military actions, raising inflation concerns.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260603_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 750.0,
+      "current_price_at_prediction": 756.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Rising oil prices due to Middle East tensions are likely to increase inflation concerns, potentially leading to a market pullback."
+    },
+    {
+      "id": "pred_gpt4o_20260603_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 305.0,
+      "current_price_at_prediction": 311.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Broader market concerns over inflation and rising oil prices may negatively impact tech stocks like Apple."
+    },
+    {
+      "id": "pred_gpt4o_20260603_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 66301.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Continued market volatility and risk-off sentiment may lead to further declines in cryptocurrencies like Bitcoin."
+    }
+  ]
+}

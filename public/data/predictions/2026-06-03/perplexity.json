@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-03",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-03T15:19:04Z",
+  "market_context": "US equity futures and broad-market signals are slightly soft: Trading Economics shows the US500 down 0.04% on the session, while the Dow had recently added 243 points and major index ETFs entered today after a modest multi-day rise.[1] Risk sentiment is mixed rather than stressed, with VIX at 16.02 and the 10-year Treasury yield elevated at 4.48%, which can pressure high-duration growth names even as the broader trend remains constructive.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260603_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 753.25,
+      "current_price_at_prediction": 756.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "The broad market benchmark looks vulnerable to a small pullback after a strong multi-day run and a slightly negative session tone in the US500.[1] Elevated rates at 4.48% and a still-elevated VIX near 16 favor mild de-risking rather than a strong late-day breakout."
+    },
+    {
+      "id": "pred_perplexity_20260603_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 741.9,
+      "current_price_at_prediction": 745.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ has outperformed the broad market over the last five days, but higher yields tend to weigh more on long-duration growth and AI-heavy Nasdaq names.[1] With the tape only mildly risk-on and no clear catalyst in the provided data, a modest giveback is more likely than further extension."
+    },
+    {
+      "id": "pred_perplexity_20260603_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 213.0,
+      "current_price_at_prediction": 216.59,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA is especially sensitive to moves in Treasury yields and broader Nasdaq sentiment, and the 10-year yield remains high at 4.48%.[1] In a session where the index complex is only marginally positive to flat, high-beta semiconductors have a stronger downside skew."
+    },
+    {
+      "id": "pred_perplexity_20260603_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 437.5,
+      "current_price_at_prediction": 430.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "TSLA can outperform on idiosyncratic momentum even when the broader tape is mixed, and its large recent volatility makes a rebound plausible after a relatively firm multi-day market backdrop.[1] I am giving this only moderate confidence because the macro tone is not strongly supportive."
+    },
+    {
+      "id": "pred_perplexity_20260603_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 511.6,
+      "current_price_at_prediction": 509.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow has recently shown the cleanest relative strength among the major US averages, and the latest trading tone showed the Dow higher while the US500 was slightly softer.[1] That relative strength favors a small outperformance in DIA versus the growth-heavy ETFs."
+    }
+  ]
+}

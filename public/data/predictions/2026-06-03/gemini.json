@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-03T15:19:09.368988+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor confidence remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260603_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from tech sector rebound and strong opening bell volume."
+    },
+    {
+      "id": "pred_gemini_20260603_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Strong pre-market performance and positive analyst ratings following new product rumors."
+    },
+    {
+      "id": "pred_gemini_20260603_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.3,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Anticipation of strong quarterly earnings report later this week, driving investor optimism."
+    },
+    {
+      "id": "pred_gemini_20260603_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays and increased competition in the EV market."
+    }
+  ]
+}
