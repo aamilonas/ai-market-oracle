@@ -1,6 +1,6 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T15:20:16.767648+00:00",
+  "generated_at": "2026-06-04T00:09:24.931633+00:00",
   "headline": "16 AI market calls queued for 2026-06-03",
   "summary": "16 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA down."
     },
     {
@@ -21,7 +21,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on SPY up."
     },
     {
@@ -31,7 +31,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on TSLA up."
     }
   ],
@@ -39,14 +39,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "AAPL",
-    "score": null,
+    "score": 0.7,
     "summary": "Highest-confidence call came from Gemini on AAPL."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Perplexity",
     "ticker": "TSLA",
-    "score": null,
+    "score": -0.54,
     "summary": "Lowest-confidence call came from Perplexity on TSLA."
   }
 }
