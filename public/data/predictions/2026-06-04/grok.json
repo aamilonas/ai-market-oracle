@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-04",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-04T13:41:28.397883+00:00",
+  "market_context": "X sentiment shows caution amid 13% BTC drop and VIX rise, with traders citing macro uncertainty. Pre-market futures mixed, tech under pressure from recent earnings misses. No major events but options flow indicates defensive positioning in indices.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260604_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.5,
+      "current_price_at_prediction": 752.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY likely to close lower due to crypto weakness spilling into equities and VIX up 3.8% signaling caution per X chatter and futures data."
+    },
+    {
+      "id": "pred_grok_20260604_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 214.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA faces selling pressure from broader tech rotation and short interest signals seen in recent options flow."
+    },
+    {
+      "id": "pred_grok_20260604_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 430.0,
+      "current_price_at_prediction": 423.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA may rebound on retail optimism visible in X volume despite market headwinds."
+    },
+    {
+      "id": "pred_grok_20260604_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62000.0,
+      "current_price_at_prediction": 64042.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "BTC continues its 5-day decline with negative X sentiment and no reversal catalysts in pre-market data."
+    }
+  ]
+}

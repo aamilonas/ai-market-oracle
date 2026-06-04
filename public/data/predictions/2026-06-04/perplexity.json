@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-04",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-04T13:40:51Z",
+  "market_context": "U.S. equities are opening with a cautious tone as Middle East tensions have pushed oil and yields higher, while stronger-than-expected ADP private payrolls data underscores economic resilience.[1] The backdrop is mixed for risk assets: volatility is elevated, the 10-year yield is high at 4.46%, and the major indexes are coming off a broad rally that had put the S&P 500 on pace for a rare 10-session winning streak.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260604_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 749.2,
+      "current_price_at_prediction": 752.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Stocks are starting the day under pressure from rising geopolitical risk, higher oil, and firmer yields, which typically weigh on broad U.S. equity multiples.[1] SPY is only slightly below recent levels after a strong multi-day run, so I expect a modest pullback rather than a sharp selloff."
+    },
+    {
+      "id": "pred_perplexity_20260604_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 731.8,
+      "current_price_at_prediction": 736.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Nasdaq-heavy technology shares tend to be more sensitive to higher real yields, and the 10-year Treasury yield at 4.46% is a headwind for long-duration growth stocks.[1] The recent market tone is risk-off enough that QQQ looks more likely to underperform the broader market today."
+    },
+    {
+      "id": "pred_perplexity_20260604_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 214.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA is highly exposed to shifts in risk appetite and rate pressure, and those are both unfavorable in the current backdrop.[1] With VIX elevated at 16.34 and growth stocks likely to face profit-taking after a strong run, I expect a mild decline into the close."
+    },
+    {
+      "id": "pred_perplexity_20260604_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 417.5,
+      "current_price_at_prediction": 423.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "TSLA usually trades as a high-beta sentiment name, so it is vulnerable when equities open flat-to-lower and volatility rises.[1] The stock is close enough to the previous close that a small downside move is more likely than a decisive trend day."
+    }
+  ]
+}

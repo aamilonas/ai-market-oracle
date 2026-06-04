@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-04",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-04T13:40:57.442410+00:00",
+  "market_context": "US stock futures are mixed, with Nasdaq futures declining while Dow futures show gains, indicating a rotation from the tech sector to blue-chip stocks. This follows a pullback in major indices on Wednesday, snapping a nine-day winning streak for the S&P 500, further impacted by a disappointing earnings outlook.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260604_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 595.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "S&P 500 experienced a pullback, snapping a winning streak, and the broader market is facing a disappointing earnings outlook, suggesting continued downward pressure."
+    },
+    {
+      "id": "pred_gemini_20260604_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 447.0,
+      "current_price_at_prediction": 450.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures are declining, indicating a rotation away from the tech sector, which is likely to put downward pressure on tech-heavy indices."
+    },
+    {
+      "id": "pred_gemini_20260604_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 392.0,
+      "current_price_at_prediction": 390.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow futures are showing gains, reflecting a rotation into blue-chip stocks, which should support an upward movement for the index."
+    }
+  ]
+}

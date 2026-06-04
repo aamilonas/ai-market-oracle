@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-04",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-04T13:41:20.062898+00:00",
+  "market_context": "As of June 4, 2026, the U.S. stock market is experiencing a downturn, with major indices such as SPY, QQQ, and DIA all trading lower. Key economic indicators, including labor productivity and unit labor costs, are scheduled for release today, which may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260604_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 750.0,
+      "current_price_at_prediction": 754.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY is currently trading at $754.24, down from the previous close of $752.70. With key economic indicators such as labor productivity and unit labor costs being released today, there is potential for further market volatility. Given the current downward trend and upcoming economic data, SPY is likely to close lower by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260604_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 308.0,
+      "current_price_at_prediction": 310.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. (AAPL) is currently trading at $310.26, down from the previous close of $311.55. The broader market downturn and upcoming economic data releases may exert additional downward pressure on AAPL's stock price. Therefore, it is anticipated that AAPL will close lower by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260604_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63000.0,
+      "current_price_at_prediction": 64058.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC-USD) is currently trading at $64058.00, down from the previous close of $64042.08. Given the recent volatility in the cryptocurrency market and the broader market downturn, BTC-USD is likely to continue its downward trend and close lower by the end of the day."
+    }
+  ]
+}
