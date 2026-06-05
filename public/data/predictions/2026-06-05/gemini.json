@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-05",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-05T13:37:15.989754+00:00",
+  "market_context": "Market sentiment is generally positive due to strong Q1 earnings reports and a dovish stance from the Federal Reserve. However, rising energy prices present a potential headwind, leading to some sector-specific caution. Overall, the market is expected to show modest gains.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260605_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong overall market momentum driven by positive economic data and investor optimism following recent Fed statements."
+    },
+    {
+      "id": "pred_gemini_20260605_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.5,
+      "current_price_at_prediction": 522.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Technology sector continues to show resilience with strong demand for AI-related products and services, pushing growth stocks higher."
+    },
+    {
+      "id": "pred_gemini_20260605_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 92.1,
+      "current_price_at_prediction": 93.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Despite rising crude oil prices, profit-taking in the energy sector is expected after a recent rally, leading to a slight pullback."
+    },
+    {
+      "id": "pred_gemini_20260605_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 105.8,
+      "current_price_at_prediction": 104.9,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Increased demand for safe-haven assets like long-term treasuries as investors hedge against potential future market volatility and inflation concerns."
+    }
+  ]
+}

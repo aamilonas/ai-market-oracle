@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-05",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-05T13:37:36.849993+00:00",
+  "market_context": "As of June 5, 2026, the U.S. stock market is experiencing mixed movements. The SPDR S&P 500 ETF Trust (SPY) is trading at $757.09, up 0.38% from the previous close. The Invesco QQQ Trust Series 1 (QQQ) is at $740.61, down 0.5%, while the SPDR Dow Jones Industrial Average ETF Trust (DIA) is at $516.70, up 1.66%. Key economic data, including the May nonfarm payrolls report, is scheduled for release today, which may influence market trends.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260605_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 757.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY is currently trading at $757.09, up 0.38% from the previous close. With the upcoming release of the May nonfarm payrolls report, which is anticipated to show moderate job growth, investor sentiment may improve, potentially driving the SPY higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260605_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 740.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The QQQ is currently trading at $740.61, down 0.5% from the previous close. Given the recent volatility in technology stocks and potential market reactions to today's economic data, the QQQ may experience further declines by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260605_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 311.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple Inc. (AAPL) is currently trading at $311.23, up 0.32% from the previous close. Positive investor sentiment and anticipation of favorable economic data may contribute to AAPL reaching $315.00 by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260605_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61000.0,
+      "current_price_at_prediction": 62071.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin (BTC) is currently trading at $62071.00, down 2.56% from the previous close. Given the recent downward trend in cryptocurrency markets and potential market reactions to today's economic data, BTC may decline further to $61000.00 by the end of the day."
+    }
+  ]
+}

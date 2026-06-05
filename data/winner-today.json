@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "winner": {
     "ticker": "SPY",
-    "direction": "down",
-    "avg_confidence": 0.625,
-    "avg_target": 710.67,
-    "avg_entry": 714.41,
-    "expected_move_pct": 0.52,
-    "score": 0.3268,
+    "direction": "up",
+    "avg_confidence": 0.6275,
+    "avg_target": 718.38,
+    "avg_entry": 714.71,
+    "expected_move_pct": 0.51,
+    "score": 0.322,
     "models": [
       "GPT-4o",
       "Grok",

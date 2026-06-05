@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-05",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-05T13:37:06Z",
+  "market_context": "U.S. equity futures are modestly higher ahead of the open, with traders stabilizing after recent tech-led weakness and elevated Treasury yields around 4.5% on the 10-year. Volatility remains contained with the VIX in the mid-teens, while crypto has sold off sharply over the past week, reflecting some broader risk-off positioning. The macro calendar is relatively light today, so price action is likely to be driven mainly by positioning and sector rotation rather than a single major data release.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260605_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.0,
+      "current_price_at_prediction": 751.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are modestly green in pre-market trading following a small pullback over the last five sessions, suggesting a mild mean-reversion bid into the weekend as volatility stays subdued with the VIX around the mid-teens and no major data releases on deck. A 0.8–1.0% intraday move would be large relative to recent realized volatility, so the target embeds only a roughly 0.8% upside that is consistent with normal daily ranges. Risks include any unexpected move higher in Treasury yields or negative headlines that could reignite the recent risk-off bias."
+    },
+    {
+      "id": "pred_perplexity_20260605_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 729.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq 100 futures are slightly positive but tech has underperformed over the last week, leaving QQQ more extended on the downside than SPY and increasing the odds of a modest bounce if rates remain stable intraday. A roughly 0.75% upside to 735 is within the typical daily trading range for QQQ and does not require a full risk-on reversal. However, sensitivity to long-duration yields and elevated positioning in mega-cap tech temper confidence somewhat relative to SPY."
+    },
+    {
+      "id": "pred_perplexity_20260605_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 319.0,
+      "current_price_at_prediction": 313.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Apple has tracked the recent downside in large-cap tech and trades near short-term support after a 5-day pullback, while pre-market pricing in mega-cap peers points to a modestly firmer tone today. With no company-specific negative catalyst overnight and an ongoing AI-related narrative supporting large platform tech, a roughly 1.7% intraday rebound to 319 is feasible within its normal daily range. Key downside risk is renewed selling in growth stocks if rates back up further during the session."
+    },
+    {
+      "id": "pred_perplexity_20260605_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 213.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVIDIA has seen increased volatility and profit-taking after a very strong multi-month run, but AI semiconductor demand and flows into GPU-linked names remain structurally strong, and futures suggest a slightly risk-on tone for high-beta tech at the open. A move of roughly 3% to 220 fits within NVDA’s typical daily range given its elevated beta, especially if QQQ is positive on the day. The main risk is that any intraday reversal in tech sentiment or incremental move higher in yields could disproportionately impact high-valuation chip names."
+    },
+    {
+      "id": "pred_perplexity_20260605_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 62071.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Bitcoin has fallen more than 15% over the past five days, pushing short-term sentiment into oversold territory as measured by standard momentum indicators and positioning data, while broader risk assets like equities are showing signs of stabilization. A roughly 3% rebound to 64,000 by the U.S. equity close is within BTC’s typical intraday volatility profile and would represent only a partial retracement of the recent drawdown. However, the high-beta, 24/7 nature of crypto and sensitivity to flows into and out of risk assets limit confidence and keep the probability only modestly above 50%."
+    }
+  ]
+}

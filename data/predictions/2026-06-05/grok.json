@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-05",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-05T13:37:54.552303+00:00",
+  "market_context": "X/Twitter sentiment is bearish with heavy focus on the 15%+ crypto crash and QQQ weakness, amplifying risk-off flows. Pre-market futures point to a flat-to-down open amid elevated VIX at 15.92 and no major catalysts beyond routine economic data. Short interest signals remain elevated in tech names per recent flow scans.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260605_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.5,
+      "current_price_at_prediction": 751.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 751.87 after a -0.6% week; X chatter shows dip-buying in broad indices despite crypto weakness. Modest rebound expected on low VIX relative to recent moves and stable 10Y yield."
+    },
+    {
+      "id": "pred_grok_20260605_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 729.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ already down 1.2% over five days with continued negative X sentiment tied to NVDA and META. Options flow shows put activity into today's open supporting further intraday pressure."
+    },
+    {
+      "id": "pred_grok_20260605_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 218.4,
+      "current_price_at_prediction": 213.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 213.70 after sector rotation talk on X; pre-market scans indicate light positive gamma exposure that could lift the name back above 215 by close."
+    },
+    {
+      "id": "pred_grok_20260605_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 419.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA at 419.09 with X volume dominated by delivery concerns and crypto correlation; short interest data points to continued downside pressure through the session."
+    }
+  ]
+}
