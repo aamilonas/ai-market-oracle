@@ -1,0 +1,54 @@
+{
+  "week": "2026-W22",
+  "period": "May 25 – May 29, 2026",
+  "generated_at": "2026-06-06T16:02:27.449175+00:00",
+  "headline": "Grok led 2026-W22 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Grok",
+      "weekly_score": 4.82,
+      "predictions": 16,
+      "accuracy": 0.5625,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 3.66,
+      "predictions": 20,
+      "accuracy": 0.55,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 2.3,
+      "predictions": 19,
+      "accuracy": 0.4737,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 0.27,
+      "predictions": 8,
+      "accuracy": 0.5,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "GPT-4o",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "Top single-call score of the week belonged to GPT-4o."
+  },
+  "worst_call": {
+    "model": "GPT-4o",
+    "ticker": "SPY",
+    "score": -0.7,
+    "summary": "Lowest single-call score of the week belonged to GPT-4o."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 3,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
