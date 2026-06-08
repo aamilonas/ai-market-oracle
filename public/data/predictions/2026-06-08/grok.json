@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-08T14:36:28.509265+00:00",
+  "market_context": "X sentiment reflects caution with rising volatility chatter tied to VIX at 18.70 and recent tech weakness. Premarket futures mixed with limited major news flow; options activity shows defensive positioning in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260608_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 742.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 742.88 after 2.1% 5-day drop; elevated VIX at 18.70 signals continued selling pressure into today's open per recent X volume spikes."
+    },
+    {
+      "id": "pred_grok_20260608_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 718.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's 3.3% weekly decline and bearish options flow point to further downside today amid persistent tech sector rotation noted on X."
+    },
+    {
+      "id": "pred_grok_20260608_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 208.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA underperformed in recent sessions with VIX spike amplifying semiconductor weakness; X chatter highlights short interest buildup."
+    },
+    {
+      "id": "pred_grok_20260608_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 410.0,
+      "current_price_at_prediction": 403.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA shows relative resilience versus broader indices; limited negative catalysts and occasional X sentiment rebounds support modest upside."
+    }
+  ]
+}

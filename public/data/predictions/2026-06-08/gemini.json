@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-08T14:35:54.665162+00:00",
+  "market_context": "Recent economic data indicates a mixed sentiment with inflation concerns easing slightly but growth projections remaining cautious. Technology stocks show resilience, while energy sectors are reacting to fluctuating commodity prices. Overall market volatility is expected to persist in the short term.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260608_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive analyst revisions for key index components."
+    },
+    {
+      "id": "pred_gemini_20260608_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.5,
+      "current_price_at_prediction": 212.0,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Concerns over slowing iPhone demand in key international markets and a technical resistance level at $212.50."
+    },
+    {
+      "id": "pred_gemini_20260608_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1230.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Continued strong demand for AI chips and positive sentiment following recent product announcements. Institutional buying activity is also notable."
+    },
+    {
+      "id": "pred_gemini_20260608_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and a slight miss on recent delivery estimates are weighing on investor confidence."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-08T14:36:16.911788+00:00",
+  "market_context": "As of June 8, 2026, the U.S. stock market is experiencing volatility due to rising energy costs influenced by the ongoing conflict in Iran, leading to increased inflationary pressures. The VIX has risen by 16.5% over the past five days, indicating heightened market uncertainty. Key economic reports, including the Consumer Price Index (CPI) and Producer Price Index (PPI), are scheduled for later this week, which may further impact market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260608_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 741.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the recent 2.1% decline over the past five days and the current market volatility driven by rising energy costs and inflation concerns, SPY is likely to continue its downward trend by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260608_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 714.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With a 3.3% decline over the past five days and ongoing market uncertainty, QQQ is expected to experience further losses by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260608_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 305.0,
+      "current_price_at_prediction": 310.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has been affected by the broader market downturn and inflation concerns, making it likely to decline further by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260608_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 63846.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown resilience amid market volatility, and investors may turn to cryptocurrencies as a hedge against inflation, potentially driving its price higher by the end of the day."
+    }
+  ]
+}
