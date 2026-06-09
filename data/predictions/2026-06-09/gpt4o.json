@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-09",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-09T13:25:28.900825+00:00",
+  "market_context": "U.S. stock futures indicate modest gains following last week's sell-off, supported by a retreat in oil prices. The S&P 500 futures rose by 0.4%, while Nasdaq futures increased by 0.8%. Brent crude fell to $92.83 per barrel, and U.S. crude dropped to $89.62 per barrel. The 10-year Treasury yield stands at 4.55%, reflecting ongoing inflation concerns. Key economic data releases today include the U.S. trade balance and wholesale inventories for April.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260609_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With U.S. stock futures indicating modest gains and oil prices retreating, market sentiment appears positive. The S&P 500 futures have risen by 0.4%, suggesting a potential upward movement for SPY. Additionally, the absence of major negative economic data releases today supports this outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260609_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 305.0,
+      "current_price_at_prediction": 301.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has recently declined by 1.88%. However, with the broader market showing signs of recovery and no adverse company-specific news, AAPL may experience a modest rebound today."
+    },
+    {
+      "id": "pred_gpt4o_20260609_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 415.0,
+      "current_price_at_prediction": 408.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla's stock has recently increased by 4.6%, indicating strong investor confidence. The overall positive market sentiment and the company's recent performance suggest that TSLA may continue its upward trajectory today."
+    },
+    {
+      "id": "pred_gpt4o_20260609_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61500.0,
+      "current_price_at_prediction": 62287.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has declined by 2.4% over the past five days. Given the current market volatility and lack of positive catalysts, BTC may continue to face downward pressure in the short term."
+    },
+    {
+      "id": "pred_gpt4o_20260609_005",
+      "ticker": "ETH-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 1650.0,
+      "current_price_at_prediction": 1668.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Ethereum has declined by 5.7% over the past five days. The ongoing bearish trend in the cryptocurrency market suggests that ETH may continue to experience downward movement today."
+    }
+  ]
+}

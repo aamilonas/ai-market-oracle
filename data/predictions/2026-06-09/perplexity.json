@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-09T13:24:54Z",
+  "market_context": "U.S. equity futures are modestly higher after several down days, with S&P 500 and Nasdaq futures pointing to a small rebound despite elevated volatility and a VIX near 18. Pre-market action shows large-cap tech generally stabilizing to slightly higher, while Treasury yields around 4.5% keep macro pressure in focus ahead of upcoming economic data and Fed commentary. Crypto remains soft but off its lows, suggesting a tentative risk-on attempt rather than a strong trend shift.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260609_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 739.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "After a roughly 2.5% pullback over the last 5 days and with S&P 500 futures indicating a modestly positive open, SPY is positioned for a reflex bounce as dip-buyers tend to step in when VIX is elevated but not in crisis territory. A 1–1.5% intraday rebound toward the mid-740s to high-740s is plausible given the oversold short-term technicals and slightly improving risk sentiment in futures. Persistently high 10Y yields around 4.5% cap upside, so the target reflects a modest recovery rather than a full reversal."
+    },
+    {
+      "id": "pred_perplexity_20260609_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "current_price_at_prediction": 716.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ has fallen about 3.6% over the last 5 days, underperforming SPY, and Nasdaq futures are pointing to a slightly positive open, suggesting scope for mean reversion. With mega-cap tech pre-market quotes showing stabilization and modest gains, a 1–1.2% bounce is consistent with typical short-covering and dip-buying behavior after a multi-day pullback. Higher rates remain a headwind for growth, so the target assumes only a partial recovery of recent losses rather than a strong trend resumption."
+    },
+    {
+      "id": "pred_perplexity_20260609_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.0,
+      "current_price_at_prediction": 208.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "NVDA has been under pressure alongside the broader AI and semiconductor complex, but pre-market indications show the stock attempting to stabilize with Nasdaq futures slightly green. Given its high beta and strong liquidity, NVDA often outperforms on rebound days, making a 2–3% move plausible if the index bounce holds. The target reflects a moderate recovery within the context of recent volatility rather than a retest of prior highs."
+    },
+    {
+      "id": "pred_perplexity_20260609_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 400.0,
+      "current_price_at_prediction": 408.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA has recently been volatile and sensitive to both rates and company-specific news, and pre-market trading shows less relative strength than the broader tech complex. With 10Y yields still elevated around 4.5%, higher-duration, story-driven names like TSLA remain vulnerable to intraday selloffs and profit-taking on any early bounce. A move of roughly 2% lower toward the $400 area is consistent with its typical daily trading range in this volatility regime."
+    },
+    {
+      "id": "pred_perplexity_20260609_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61000.0,
+      "current_price_at_prediction": 62287.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "BTC has declined about 2.4% over the last 5 days and remains under pressure from tighter liquidity conditions and higher real yields, with price action struggling to sustain rallies overnight. Correlation with risk assets remains positive, but crypto has been lagging equity bounces, indicating weaker marginal demand. A further 1–2% drift lower toward the $61k area is consistent with its recent intraday volatility and the lack of a strong bullish catalyst today."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-09",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-09T13:25:47.632363+00:00",
+  "market_context": "X/Twitter shows cautious bearish sentiment with VIX spike and recent index declines dominating discussion; pre-market futures flat to slightly positive amid no major catalysts. Tech rotation and crypto weakness noted in flows.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260609_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 739.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent 5-day pullback and VIX at 17.93 suggest oversold bounce; X chatter on support levels points to modest recovery by close."
+    },
+    {
+      "id": "pred_grok_20260609_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.0,
+      "current_price_at_prediction": 716.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech names under pressure per X sentiment and -3.6% 5-day trend; options flow shows put activity into open."
+    },
+    {
+      "id": "pred_grok_20260609_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 208.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "AI narrative resilience on X despite broader market weakness; short interest signals potential squeeze."
+    },
+    {
+      "id": "pred_grok_20260609_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61000.0,
+      "current_price_at_prediction": 62287.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Crypto correlated selloff with equities per X and web data; -2.4% 5-day trend likely extends."
+    }
+  ]
+}
