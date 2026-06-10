@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-10T13:56:44.282402+00:00",
+  "market_context": "X/Twitter sentiment is mixed but leans bearish on tech after QQQ's -5.1% weekly drop and VIX spike to 20.61. Pre-market futures point to a flat open with limited major news catalysts; options flow shows elevated put activity on NVDA and TSLA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260610_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.5,
+      "current_price_at_prediction": 735.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 735.89 after a -2.4% five-day slide; elevated VIX at 20.61 and continued QQQ weakness suggest further pressure into today's close per recent futures data."
+    },
+    {
+      "id": "pred_grok_20260610_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 198.0,
+      "current_price_at_prediction": 205.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Heavy put options flow noted on NVDA overnight alongside broader semis selloff; current price 205.40 likely tests lower support by EOD."
+    },
+    {
+      "id": "pred_grok_20260610_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 402.0,
+      "current_price_at_prediction": 393.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA shows short interest signals and minor positive X mentions on EV demand; rebound from 393.50 expected in low-volume session."
+    },
+    {
+      "id": "pred_grok_20260610_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 62176.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "BTC up 2.1% over five days with steady crypto sentiment on X; likely extends gains modestly into US close."
+    }
+  ]
+}

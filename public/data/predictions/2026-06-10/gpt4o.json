@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-10T13:56:33.980257+00:00",
+  "market_context": "As of June 10, 2026, the U.S. stock market is experiencing volatility due to anticipated inflation data. The Consumer Price Index (CPI) report for May is expected to show a 0.5% month-over-month increase and a 4.2% year-over-year rise, driven by surging energy prices linked to the ongoing conflict in Iran. This has led to concerns about potential Federal Reserve actions to address inflation.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260610_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 734.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The anticipated CPI report indicating higher inflation may lead to investor concerns about potential Federal Reserve rate hikes, likely resulting in a decline in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260610_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 703.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Technology stocks, which constitute a significant portion of QQQ, are sensitive to interest rate expectations. Anticipated inflation data may prompt concerns about rate hikes, potentially leading to a decline in QQQ."
+    },
+    {
+      "id": "pred_gpt4o_20260610_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 288.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "As a major component of the tech sector, Apple may be affected by investor concerns over rising inflation and potential interest rate hikes, leading to a slight decline in its stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260610_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 62173.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is often viewed as a hedge against inflation. With the anticipated CPI report indicating higher inflation, investors may turn to Bitcoin, leading to a modest increase in its price."
+    }
+  ]
+}

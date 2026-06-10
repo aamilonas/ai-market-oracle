@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-10T13:56:07Z",
+  "market_context": "U.S. equity futures were weaker ahead of the open, with S&P 500 futures down 0.9%, Nasdaq 100 futures down 1.5%, and Dow futures off more than 400 points. The prior session also ended lower as technology underperformed, while volatility remains elevated with VIX at 20.61 and the 10-year Treasury yield at 4.52%, a mix that tends to pressure growth stocks and the Nasdaq more than the Dow.[1][2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260610_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 727.5,
+      "current_price_at_prediction": 735.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Futures were pointing to a risk-off open, with S&P 500 futures down 0.9% before the session. Elevated VIX and the prior day’s weakness in technology suggest broad index pressure rather than an isolated sector move.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260610_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 694.0,
+      "current_price_at_prediction": 706.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "Nasdaq 100 futures were the weakest of the major benchmarks at -1.5%, and the market recap highlighted continued technology कमजोरी after Tuesday’s close. With the 10-year yield still at 4.52%, high-duration growth names are likely to stay under pressure intraday.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260610_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 205.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "NVDA is closely tied to the Nasdaq and typically reacts more than the broad market when futures weaken and rates stay high. The combination of weaker Nasdaq futures and a prior tech-led selloff supports a modest downside bias for the day.[1][2]"
+    },
+    {
+      "id": "pred_perplexity_20260610_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.5,
+      "current_price_at_prediction": 288.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is likely to trade with the broader megacap tech complex, which was already fading in the previous session and is signaled lower again by futures. The move may be smaller than for semis because Apple is less rate-sensitive than the highest-multiple growth names.[1][2]"
+    }
+  ]
+}

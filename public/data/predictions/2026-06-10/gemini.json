@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-10T13:56:12.259083+00:00",
+  "market_context": "Market sentiment is currently mixed, with inflation concerns slightly outweighing strong corporate earnings reports. Technology stocks are showing resilience, while energy sectors face headwinds from fluctuating oil prices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260610_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260610_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week is driving investor optimism, with institutional buying increasing."
+    },
+    {
+      "id": "pred_gemini_20260610_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays reported by suppliers are creating negative sentiment, leading to increased short interest."
+    },
+    {
+      "id": "pred_gemini_20260610_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Continued strong performance in cloud services and AI integration is expected to boost quarterly earnings, attracting long-term investors."
+    }
+  ]
+}
