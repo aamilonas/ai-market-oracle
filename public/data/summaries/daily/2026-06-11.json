@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T14:25:07.886572+00:00",
+  "headline": "17 AI market calls queued for 2026-06-11",
+  "summary": "17 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on BTC-USD up."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on QQQ up."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on SPY up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "GPT-4o",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Highest-confidence call came from GPT-4o on QQQ."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Lowest-confidence call came from Grok on TSLA."
+  }
+}

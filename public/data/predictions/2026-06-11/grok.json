@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-11T14:24:57.428162+00:00",
+  "market_context": "X/Twitter shows bearish equity sentiment with VIX spike and 5-day index drops dominating feeds; pre-market futures point to mixed open amid high 10Y yield. Crypto positive with BTC/ETH gains noted in threads. No major events flagged but options flow indicates defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260611_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 729.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent 3.7% 5-day drop and VIX at 20.87 suggest oversold bounce; X chatter on support levels at 725 aligns with historical rebound patterns post VIX spikes."
+    },
+    {
+      "id": "pred_grok_20260611_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 702.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech names like NVDA and MSFT under pressure from yield at 4.51%; X sentiment highlights continued rotation out of growth stocks."
+    },
+    {
+      "id": "pred_grok_20260611_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 388.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "EV sector mentions on X turning less negative; crypto correlation with BTC up 3.3% may lift TSLA in volatile session."
+    },
+    {
+      "id": "pred_grok_20260611_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 62864.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive X flows and 5-day gain of 3.3% indicate momentum continuing into US session open."
+    }
+  ]
+}

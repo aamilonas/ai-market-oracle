@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-11T14:24:25.476781+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure. Inflation concerns continue to influence investor sentiment, leading to cautious trading across major indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260611_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap tech, pushing the index higher despite broader market caution."
+    },
+    {
+      "id": "pred_gemini_20260611_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 517.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector earnings reports are expected to be positive, driving momentum for growth stocks."
+    },
+    {
+      "id": "pred_gemini_20260611_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 405.0,
+      "current_price_at_prediction": 407.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Industrial and financial sectors are showing weakness due to rising interest rate concerns and slowing global demand."
+    },
+    {
+      "id": "pred_gemini_20260611_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 95.5,
+      "current_price_at_prediction": 96.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.55,
+      "reasoning": "Anticipation of hawkish Fed comments later in the week is putting downward pressure on long-term bond prices."
+    }
+  ]
+}

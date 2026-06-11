@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-11T14:24:48.178649+00:00",
+  "market_context": "As of June 11, 2026, the U.S. stock market is experiencing volatility, with major indices showing declines over the past five days. The S&P 500 ETF (SPY) is down 3.7%, the Nasdaq-100 ETF (QQQ) has decreased by 5.1%, and the Dow Jones Industrial Average ETF (DIA) is down 2.5%. The VIX, a measure of market volatility, has risen by 35.5% over the same period, indicating increased investor uncertainty. Key economic indicators, such as the Producer Price Index (PPI) and initial jobless claims, are scheduled for release today, which may further influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260611_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 729.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the recent 3.7% decline in SPY over the past five days and the upcoming release of the Producer Price Index (PPI) and initial jobless claims data, which may reveal continued inflationary pressures and labor market challenges, it's likely that SPY will continue its downward trend by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260611_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 702.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The Nasdaq-100 ETF (QQQ) has declined by 5.1% over the past five days, reflecting significant weakness in the technology sector. With the VIX up 35.5%, indicating heightened market volatility, and potential negative reactions to today's economic data releases, QQQ is expected to continue its downward trajectory by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260611_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 288.0,
+      "current_price_at_prediction": 291.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. (AAPL) has been affected by the broader market downturn, with its stock price declining alongside major indices. Given the current market sentiment and potential negative impact from today's economic data releases, AAPL is likely to experience a further decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260611_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 62864.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC) has shown resilience with a 3.3% increase over the past five days, despite volatility in traditional markets. As investors seek alternative assets amid economic uncertainty, BTC may continue its upward trend by the end of the day."
+    }
+  ]
+}

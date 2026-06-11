@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-11",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-11T14:24:07Z",
+  "market_context": "U.S. equity futures are modestly higher after several days of selling, with S&P 500 futures indicating a small rebound despite elevated volatility and the VIX remaining above 20. Bond yields are stable around 4.5% on the 10Y Treasury, and there are no major surprise data releases on today’s economic calendar, so price action is likely to be driven by technical levels and dip-buying in mega-cap tech after the recent 5% pullback in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260611_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 738.0,
+      "current_price_at_prediction": 729.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY has dropped about 3.7% over the last 5 days while the VIX has spiked above 20, suggesting a short-term oversold condition that often invites dip-buying in broad indices once panic subsides. With futures modestly green and no major economic data shocks scheduled today, I expect at least a partial mean-reversion move higher into the close. A target of 738 implies roughly a 1.2% intraday rebound, which is typical for a reflex rally during elevated volatility without a clear macro catalyst in either direction."
+    },
+    {
+      "id": "pred_perplexity_20260611_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 713.0,
+      "current_price_at_prediction": 702.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ has underperformed with a roughly 5.1% decline over the past 5 sessions, driven largely by profit-taking in mega-cap tech. Given the absence of fresh negative sector-specific news and signs of stabilization in futures, high-beta tech tends to bounce more strongly than the broader market when selling pressure eases. A move to 713 would be about a 1.4% gain, consistent with typical snapback rallies following a multi-day tech drawdown amid still-stable rates around a 4.5% 10Y yield."
+    },
+    {
+      "id": "pred_perplexity_20260611_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 297.0,
+      "current_price_at_prediction": 291.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "AAPL has been pulled lower in tandem with the broader tech complex despite no major AAPL-specific negative developments, indicating the move is primarily macro and positioning driven. In environments where indices stabilize after a volatility spike, mega-cap leaders like Apple often see early dip-buying as investors re-enter perceived quality names. A target of 297 implies about a 2% gain, which is a moderate bounce relative to its recent multiday decline and consistent with a modest risk-on rotation back into large-cap tech."
+    },
+    {
+      "id": "pred_perplexity_20260611_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 202.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA has corrected sharply recently alongside the broader AI and semiconductor space, but its fundamental narrative remains intact with strong earnings momentum and AI-related demand, so pullbacks tend to be bought aggressively when market stress eases. With QQQ futures pointing to a modestly positive open and volatility already elevated, an intraday rebound in high-beta AI leaders is likely if there is no new macro shock. A move to 210 represents about a 3.7% bounce, which is within NVDA’s typical daily range during volatile sessions."
+    },
+    {
+      "id": "pred_perplexity_20260611_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 388.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA has recently outperformed several mega-cap peers despite ongoing concerns about EV demand normalization and margin pressure, leaving it vulnerable to underperform on any risk-off or even neutral tape. In sessions where the broader market stabilizes but rotation favors more profitable mega-cap tech and AI over speculative growth, TSLA often lags or trades lower as investors de-risk. A target of 380 implies roughly a 2.2% pullback, which is consistent with its typical daily volatility and the potential for relative weakness compared to the broader tech rebound."
+    }
+  ]
+}
