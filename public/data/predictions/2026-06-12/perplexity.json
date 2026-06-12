@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-12",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-12T13:46:53Z",
+  "market_context": "U.S. equity futures are modestly higher ahead of the open, with traders weighing stable but elevated 10Y yields near 4.5% and a VIX that has eased over the past week, signaling contained short-term volatility despite recent cross-asset choppiness.[1][4] There are no major U.S. data releases today, so price action is likely to be driven by follow-through on this week’s moves, positioning into the weekend, and ongoing rotation within large-cap tech.[1][5] Mega-cap tech remains the key driver for indices, but breadth has been mixed, leaving index ETFs such as SPY and QQQ sensitive to marginal shifts in risk sentiment rather than a clear macro catalyst.[1][5]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260612_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 735.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are slightly positive in pre-market trading, indicating a mild risk-on tone after a week of relatively flat performance and a modest decline over the last five sessions.[1][5] The VIX has fallen over the past five days and remains below recent stress peaks, which historically supports a drift higher in broad index ETFs absent a major macro catalyst.[1][4] With no significant data releases on the calendar today and 10Y yields holding roughly steady, index moves are likely to be driven by incremental flows and options positioning, favoring a modest intraday grind higher rather than a sharp reversal."
+    },
+    {
+      "id": "pred_perplexity_20260612_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 719.0,
+      "current_price_at_prediction": 712.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq-100 futures are outperforming S&P futures slightly in early trading, continuing a pattern of relative strength in large-cap tech over the past week.[1][5] The 5-day performance for QQQ is already positive, and the backdrop of stable rates with no new hawkish surprise today tends to favor growth and tech-heavy indices.[3][4] Key components such as MSFT, NVDA, and AMZN are indicated flat to slightly higher pre-market, suggesting that absent a negative headline, QQQ can extend its recent uptrend modestly into the close."
+    },
+    {
+      "id": "pred_perplexity_20260612_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 297.0,
+      "current_price_at_prediction": 291.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Apple has been trading in tandem with the broader mega-cap tech complex, which is supported this morning by mildly positive Nasdaq futures and no new negative company-specific catalysts.[1][5] Recent flows into AI- and hardware-adjacent names have remained constructive, and AAPL continues to benefit from its perceived defensive growth profile in an environment of steady but not surging rates.[3][4] With volatility compressed and the overall tech tape leaning positive, a modest move higher of around 1–2% is more likely than a sharp downside break barring unexpected news."
+    },
+    {
+      "id": "pred_perplexity_20260612_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 203.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia remains a bellwether for AI and semiconductor sentiment, and chip-related news flow this week has been broadly constructive, with no major guidance cuts or regulatory shocks overnight.[3][5] Nasdaq futures are modestly green, and NVDA has shown a tendency to move with an amplified beta relative to QQQ on up days, especially when broader macro news is quiet and thematic AI demand dominates trading.[1][5] Given the still-elevated but stable VIX, an intraday range expansion is possible, but the balance of probabilities tilts toward a small-to-moderate gain into the close."
+    },
+    {
+      "id": "pred_perplexity_20260612_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62000.0,
+      "current_price_at_prediction": 63105.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin has been roughly flat over the past five days but remains below recent highs, with price action showing fading momentum and more range-bound trading.[3][5] With no major scheduled crypto-specific catalysts today and traditional risk assets like equities modestly supported, there is less impetus for a strong bid into BTC as a high-beta proxy.[1][5] Elevated but stable real yields and a modestly firmer dollar tone in recent sessions have also tended to cap crypto rallies, increasing the likelihood of a slight drift lower or consolidation rather than a sharp spike higher."
+    }
+  ]
+}

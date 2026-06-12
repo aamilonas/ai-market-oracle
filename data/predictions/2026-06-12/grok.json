@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-12",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-12T13:47:49.828615+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting AI momentum and low VIX. Pre-market futures flat to slightly up amid Fed commentary expectations. No major negative catalysts noted in options flow.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260612_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.5,
+      "current_price_at_prediction": 735.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "VIX drop of 10% signals reduced fear while X chatter focuses on tech resilience. Futures point to mild gains into open with no major event risk today."
+    },
+    {
+      "id": "pred_grok_20260612_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 203.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Continued AI narrative on X and options flow showing call buying. Recent 5-day dip creates rebound setup into close."
+    },
+    {
+      "id": "pred_grok_20260612_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 396.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X volume on delivery concerns and macro yield pressure at 4.48%. Short interest signals suggest downside follow-through."
+    }
+  ]
+}

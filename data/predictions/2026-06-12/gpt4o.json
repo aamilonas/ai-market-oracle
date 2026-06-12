@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-12",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-12T13:47:33.364187+00:00",
+  "market_context": "U.S. stock futures are up, driven by optimism over potential progress in U.S.-Iran war talks and anticipation of SpaceX's record-breaking IPO. Oil prices have declined over 3% following President Trump's announcement of a possible ceasefire extension with Iran.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260612_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive sentiment from potential U.S.-Iran ceasefire and SpaceX's IPO is likely to boost market confidence, supporting SPY's upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260612_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 714.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Anticipation of SpaceX's IPO and strong performance in tech stocks, as seen in Asian markets, suggest a positive impact on QQQ."
+    },
+    {
+      "id": "pred_gpt4o_20260612_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 300.0,
+      "current_price_at_prediction": 295.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Overall market optimism and tech sector strength are likely to positively influence AAPL's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260612_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 203.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia's position as the world's most valuable company and positive tech sector momentum suggest a strong performance for NVDA."
+    },
+    {
+      "id": "pred_gpt4o_20260612_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 63089.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Declining oil prices and reduced geopolitical tensions may lead investors to shift from cryptocurrencies to traditional assets, potentially lowering BTC's price."
+    }
+  ]
+}
