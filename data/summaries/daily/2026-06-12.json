@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T13:47:59.144420+00:00",
+  "generated_at": "2026-06-12T23:56:59.256109+00:00",
   "headline": "17 AI market calls queued for 2026-06-12",
   "summary": "17 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -12,7 +12,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on BTC-USD down."
     },
     {
@@ -33,7 +33,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on NVDA up."
     },
     {
@@ -43,7 +43,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -55,7 +55,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "4 models aligned on SPY up."
     }
   ],
@@ -63,14 +63,14 @@
     "prediction_id": null,
     "model_display_name": "GPT-4o",
     "ticker": "NVDA",
-    "score": null,
+    "score": 0.75,
     "summary": "Highest-confidence call came from GPT-4o on NVDA."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "XOM",
-    "score": null,
+    "score": -0.55,
     "summary": "Lowest-confidence call came from Gemini on XOM."
   }
 }
