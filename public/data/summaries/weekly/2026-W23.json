@@ -1,0 +1,54 @@
+{
+  "week": "2026-W23",
+  "period": "Jun 1 – Jun 5, 2026",
+  "generated_at": "2026-06-13T16:09:32.312409+00:00",
+  "headline": "GPT-4o led 2026-W23 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "GPT-4o",
+      "weekly_score": 6.5,
+      "predictions": 20,
+      "accuracy": 0.6,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 3.1,
+      "predictions": 20,
+      "accuracy": 0.5,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 2.63,
+      "predictions": 12,
+      "accuracy": 0.6667,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -0.48,
+      "predictions": 23,
+      "accuracy": 0.3478,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "GPT-4o",
+    "ticker": "NVDA",
+    "score": 1.25,
+    "summary": "Top single-call score of the week belonged to GPT-4o."
+  },
+  "worst_call": {
+    "model": "GPT-4o",
+    "ticker": "SPY",
+    "score": -0.7,
+    "summary": "Lowest single-call score of the week belonged to GPT-4o."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 1,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
