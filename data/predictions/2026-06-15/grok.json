@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-15T16:08:36.714135+00:00",
+  "market_context": "X sentiment shows cautious optimism with tech and crypto mentions dominating feeds after BTC's 9% weekly gain. Pre-market futures point to a flat open with limited major news catalysts expected. VIX at 16.32 signals reduced volatility.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260615_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 756.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 756.45 with 5-day gains of 2.3%. X chatter highlights positive momentum in large caps and lower VIX supporting continuation. Expect modest upside into close absent surprises."
+    },
+    {
+      "id": "pred_grok_20260615_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 212.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 212.54 benefits from ongoing AI narrative on X and QQQ's 4% weekly advance. Options flow shows call interest. Modest follow-through likely by EOD."
+    },
+    {
+      "id": "pred_grok_20260615_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 405.0,
+      "current_price_at_prediction": 409.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA at 409.31 faces profit-taking after recent run-up per X volume analysis. No supportive news today and broader EV sector quiet. Slight downside bias into close."
+    },
+    {
+      "id": "pred_grok_20260615_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 68000.0,
+      "current_price_at_prediction": 67114.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "BTC at 67114.83 posted 9.2% 5-day gain with strong X sentiment around ETF inflows. ETH correlation and risk-on tone support further upside by EOD."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-15",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-15T16:08:28.071500+00:00",
+  "market_context": "Global stock markets are rallying following a tentative ceasefire agreement between the U.S. and Iran, leading to a significant drop in oil prices and easing inflation concerns. Investors are also anticipating the upcoming Federal Open Market Committee (FOMC) meeting under new Fed Chair Kevin Warsh, with expectations that interest rates will remain unchanged.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260615_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.0,
+      "current_price_at_prediction": 756.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The tentative ceasefire between the U.S. and Iran has led to a global stock market rally and a significant drop in oil prices, reducing inflationary pressures. This positive sentiment is likely to drive SPY higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260615_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 744.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The easing of geopolitical tensions and the drop in oil prices are boosting investor confidence, particularly in technology stocks. This is expected to positively impact QQQ, leading to an upward movement by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260615_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 305.0,
+      "current_price_at_prediction": 297.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple, as a major technology company, is likely to benefit from the overall positive market sentiment driven by the U.S.-Iran ceasefire and declining oil prices. This should contribute to an increase in AAPL's stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260615_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 212.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia, being a key player in the AI sector, is expected to see positive momentum due to the overall market rally and increased investor interest in technology stocks following the U.S.-Iran ceasefire agreement."
+    },
+    {
+      "id": "pred_gpt4o_20260615_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 68500.0,
+      "current_price_at_prediction": 67114.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has been experiencing a positive trend over the past five days, and the current market optimism may further drive its price upward by the end of the day."
+    }
+  ]
+}

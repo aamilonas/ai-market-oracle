@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-15",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-15T16:08:06.037061+00:00",
+  "market_context": "The market is currently experiencing mixed signals, with tech stocks showing resilience while broader indices face inflationary pressures. Recent economic data suggests a potential slowdown in consumer spending, leading to cautious investor sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260615_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in the last hour of trading, coupled with positive news regarding a new infrastructure bill."
+    },
+    {
+      "id": "pred_gemini_20260615_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.75,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of strong Q2 earnings report next week, and positive analyst upgrades following new product announcements."
+    },
+    {
+      "id": "pred_gemini_20260615_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.2,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent production delays are weighing on investor sentiment."
+    },
+    {
+      "id": "pred_gemini_20260615_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Continued strong performance in cloud services and AI integration driving growth, with favorable long-term outlooks."
+    }
+  ]
+}

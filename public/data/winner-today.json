@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-15",
   "winner": {
     "ticker": "NVDA",
     "direction": "up",
-    "avg_confidence": 0.6433,
-    "avg_target": 210.0,
-    "avg_entry": 203.87,
-    "expected_move_pct": 3.01,
-    "score": 1.9355,
+    "avg_confidence": 0.6067,
+    "avg_target": 217.67,
+    "avg_entry": 212.54,
+    "expected_move_pct": 2.41,
+    "score": 1.4633,
     "models": [
       "Perplexity",
       "Grok",
