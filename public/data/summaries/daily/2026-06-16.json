@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated_at": "2026-06-16T15:29:22.959448+00:00",
+  "generated_at": "2026-06-16T23:52:25.838189+00:00",
   "headline": "17 AI market calls queued for 2026-06-16",
   "summary": "17 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA down."
     },
     {
@@ -21,7 +21,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ down."
     },
     {
@@ -32,7 +32,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     },
     {
@@ -43,7 +43,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA down."
     }
   ],
@@ -58,7 +58,7 @@
     "prediction_id": null,
     "model_display_name": "GPT-4o",
     "ticker": "AMZN",
-    "score": null,
+    "score": -0.55,
     "summary": "Lowest-confidence call came from GPT-4o on AMZN."
   }
 }
