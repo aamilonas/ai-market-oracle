@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-16T15:29:14.390848+00:00",
+  "market_context": "X/Twitter sentiment is moderately bullish with tech and AI stocks dominating positive chatter amid low VIX at 15.86. Pre-market futures point to modest gains following strong 5-day rallies in QQQ and SPY. No major negative events flagged but 10Y yield at 4.45% warrants monitoring.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260616_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.5,
+      "current_price_at_prediction": 752.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "SPY up on continued momentum from +2.1% 5-day gain and positive X chatter on indices; low VIX supports risk-on flows into close."
+    },
+    {
+      "id": "pred_grok_20260616_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 738.2,
+      "current_price_at_prediction": 734.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "QQQ leads with +3.8% 5-day surge and strong X sentiment around NVDA/MSFT; pre-market futures align with further tech buying."
+    },
+    {
+      "id": "pred_grok_20260616_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 212.5,
+      "current_price_at_prediction": 208.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA benefits from AI narrative on X and QQQ strength; options flow likely supportive despite elevated valuation."
+    },
+    {
+      "id": "pred_grok_20260616_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 404.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA shows short-term overextension after recent run; mixed X sentiment and profit-taking likely cap upside into close."
+    }
+  ]
+}

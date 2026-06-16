@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-16T15:28:35.005397+00:00",
+  "market_context": "Today's market sentiment is influenced by strong tech sector performance and positive economic indicators, suggesting a generally bullish outlook. However, concerns about potential Fed hawkishness and increased competition in specific sectors introduce some caution for the broader market.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260616_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the tech sector, coupled with positive jobless claims data, suggests a bullish close for the broader market index."
+    },
+    {
+      "id": "pred_gemini_20260616_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 455.0,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent hawkish comments from the Federal Reserve and rising bond yields are expected to put downward pressure on growth-oriented technology stocks over the week."
+    },
+    {
+      "id": "pred_gemini_20260616_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 219.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements later this week is driving speculative buying, with strong support observed at current price levels."
+    },
+    {
+      "id": "pred_gemini_20260616_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 185.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increased competition in the EV market and recent production slowdowns indicate potential revenue misses for the quarter, leading to a bearish outlook."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-16",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-16T15:28:22Z",
+  "market_context": "U.S. equity index futures and major indices are slightly softer after a strong multi-day rally, with the broad U.S. stock benchmark (US500) recently down about 0.2%, suggesting mild consolidation after gains.[2] Volatility remains relatively low with the VIX in the mid-teens, and the 10Y yield near 4.45% points to a steady but not sharply tightening rate backdrop, while crypto prices are modestly higher over the past week, indicating generally supportive risk sentiment. No major shock headline appears in the immediate pre-market news flow, so price action is likely to be driven by profit-taking and technical levels following recent strength.[1][3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260616_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 746.0,
+      "current_price_at_prediction": 752.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "The broad U.S. market benchmark (US500) is reported to be down about 0.19%, indicating initial softening after a strong multi-day advance.[2] With SPY up roughly 2.1% over the last five days and the VIX at a relatively low 15–16 range, conditions are favorable for modest intraday mean reversion and profit-taking rather than another strong extension higher. Absent a major positive catalyst in the economic calendar or headlines, I expect SPY to close slightly below the prior close, targeting around a 0.8–1.0% pullback by the end of the day."
+    },
+    {
+      "id": "pred_perplexity_20260616_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 726.0,
+      "current_price_at_prediction": 734.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "The tech-heavy U.S. benchmark has rallied about 3.8% over the last five sessions, leaving QQQ extended versus its recent trend and more vulnerable to a mild rotation out of growth and momentum.[2][3] With overall index levels showing slight weakness today and no outsized positive tech-specific catalyst in the pre-market, high-beta names are likely to see some profit-taking. I therefore expect QQQ to end the day modestly lower, around 1–1.2% below the previous close."
+    },
+    {
+      "id": "pred_perplexity_20260616_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 292.0,
+      "current_price_at_prediction": 298.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Mega-cap tech has led recent gains, and with QQQ up strongly over the past week, Apple is likely trading near short-term resistance with elevated expectations.[2][3] In a session where the broader large-cap and tech indices show early signs of consolidation, Apple typically participates in index-driven moves, especially absent a company-specific upside catalyst. I expect a modest pullback driven by index rebalancing and profit-taking, targeting roughly a 2% decline by the close."
+    },
+    {
+      "id": "pred_perplexity_20260616_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 202.0,
+      "current_price_at_prediction": 208.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Semiconductor and AI-leadership stocks have had a strong multi-day run alongside the broader tech complex, increasing the risk of intraday volatility and pullbacks when indices soften.[2][3] With risk sentiment still positive but indices like the US500 fractionally lower, traders may lock in recent gains in high-beta names such as NVIDIA. I therefore expect NVDA to be weaker than the broad market on a consolidation day, closing around 3% below its prior close."
+    },
+    {
+      "id": "pred_perplexity_20260616_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 392.0,
+      "current_price_at_prediction": 404.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tesla is a high-beta growth stock that tends to amplify the direction of major indices and broader tech, which are showing signs of modest consolidation after a strong week.[2][3] With financial conditions not materially easing further overnight and no new Tesla-specific positive catalysts dominating headlines, a partial retracement of recent gains is probable. I expect TSLA to underperform the broader indices on a down day, with a potential 3% move lower into the close."
+    }
+  ]
+}
