@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-17T14:08:30Z",
+  "market_context": "U.S. index futures are modestly higher ahead of the open, extending recent gains after a strong multi-day rally in mega-cap tech and broad equities, while the VIX remains subdued around the mid-teens, signaling relatively low expected near-term volatility. Treasury yields are steady to slightly lower around the mid-4% area on the 10-year, with a light U.S. data calendar today and markets mostly focused on Fed commentary and positioning after the recent move in risk assets. Overall, the backdrop is risk-on but stretched in the short term after several days of strong gains in SPY, QQQ, and growth leaders.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260617_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.0,
+      "current_price_at_prediction": 750.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY has rallied about 3.5% over the past five sessions into a backdrop of relatively subdued volatility, with the VIX dropping to 16.37, suggesting elevated optimism and limited near-term hedging demand. After such a strong multi-day advance, and with no major incremental positive catalysts on today’s economic calendar, the risk-reward skews toward some intraday profit-taking and mean reversion. I expect a modest pullback by the close rather than a trend extension, although any sharp move in mega-cap tech could still cause intraday swings around this level."
+    },
+    {
+      "id": "pred_perplexity_20260617_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 724.0,
+      "current_price_at_prediction": 732.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ has outperformed with about a 5.6% gain over the last five days, driven by concentrated strength in mega-cap growth and AI-related names, leaving the ETF technically extended in the short term. With the 10-year yield stable rather than making a fresh leg lower, there is less incremental macro justification today for further multiple expansion in long-duration tech assets. Given the strong run and elevated positioning, I expect some consolidation or mild giveback into the close as traders lock in recent gains."
+    },
+    {
+      "id": "pred_perplexity_20260617_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 207.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA has been a central driver of the recent QQQ and AI-led rally, and its current price embeds very strong growth expectations after a powerful multi-day move. With index-level sentiment bullish but extended and the VIX low, the stock is vulnerable to even small shifts in risk appetite or intraday profit-taking in semiconductors. I expect a modest retracement by the close as short-term traders reduce exposure after the recent run-up."
+    },
+    {
+      "id": "pred_perplexity_20260617_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 408.0,
+      "current_price_at_prediction": 398.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA has participated in the broader risk-on move and benefits from the current appetite for high-beta growth, with the overall market and QQQ both strongly higher over the past week. With volatility suppressed and no major negative TSLA-specific headlines into today’s open, the stock tends to amplify broader market direction on days when indices are firm to slightly higher. I expect TSLA to exhibit upside bias and modestly outperform its prior close if the broader tape remains constructive through the session."
+    },
+    {
+      "id": "pred_perplexity_20260617_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 295.0,
+      "current_price_at_prediction": 300.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "AAPL has moved up alongside the broader tech complex and QQQ’s 5.6% five-day gain, leaving it somewhat extended in the near term following recent enthusiasm around its AI and ecosystem roadmap. With the 10-year yield not making a new leg lower today and macro catalysts light, there is less fresh fuel for another large upside move in mega-cap tech. I expect AAPL to see mild consolidation or profit-taking by the close, tracking a potential fade in the broader Nasdaq after its strong run."
+    }
+  ]
+}

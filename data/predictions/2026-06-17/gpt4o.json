@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-17",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-17T14:09:30.001815+00:00",
+  "market_context": "As of June 17, 2026, the U.S. stock market is experiencing mixed movements. The S&P 500 ETF (SPY) is trading at $751.32, up 0.13% from the previous close. The Nasdaq ETF (QQQ) is at $734.009, up 0.57%, while the Dow Jones ETF (DIA) is at $523.13, down 0.32%. Investors are closely watching the Federal Open Market Committee (FOMC) meeting today, where the Federal Reserve is expected to maintain the federal funds rate at 3.50%–3.75%. Additionally, May's retail sales data will be released, providing further insights into consumer spending trends.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260617_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 751.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY ETF is currently trading at $751.32, up 0.13% from the previous close. With the Federal Reserve expected to maintain the federal funds rate and positive retail sales data anticipated, investor sentiment may remain optimistic, potentially driving SPY higher by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260617_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 305.0,
+      "current_price_at_prediction": 300.325,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple Inc. (AAPL) is trading at $300.325, up 0.36% intraday. Given the overall positive market sentiment and AAPL's strong position in the tech sector, the stock may continue its upward trend, reaching $305.00 by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260617_003",
+      "ticker": "BTC",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 65209.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin (BTC) is currently priced at $65209.00, down 1.25% from the previous close. The recent decline may continue due to profit-taking and market volatility, potentially bringing BTC down to $64000.00 by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260617_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 389.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft Corporation (MSFT) is trading at $389.20, down 1.18% intraday. Despite the current dip, the company's strong fundamentals and positive market outlook may lead to a rebound, pushing the stock to $395.00 by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260617_005",
+      "ticker": "ETH",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 1700.0,
+      "current_price_at_prediction": 1757.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Ethereum (ETH) is currently priced at $1757.71, down 2.20% from the previous close. The ongoing market correction in cryptocurrencies may continue, potentially bringing ETH down to $1700.00 by the end of the day."
+    }
+  ]
+}

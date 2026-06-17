@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-17",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-17T14:08:41.015066+00:00",
+  "market_context": "The market is currently experiencing mixed signals with inflation concerns persisting despite strong tech earnings. Geopolitical tensions are also contributing to volatility, leading to cautious investor sentiment across various sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260617_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, supported by positive economic data releases earlier today."
+    },
+    {
+      "id": "pred_gemini_20260617_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.0,
+      "current_price_at_prediction": 522.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Continued strength in the technology sector, driven by robust AI development news and anticipated interest rate stability."
+    },
+    {
+      "id": "pred_gemini_20260617_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Reports of weaker-than-expected iPhone sales in key international markets are weighing on investor sentiment."
+    },
+    {
+      "id": "pred_gemini_20260617_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1350.0,
+      "current_price_at_prediction": 1330.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.8,
+      "reasoning": "Persistent demand for AI chips and strong forward guidance from management continue to fuel bullish sentiment."
+    }
+  ]
+}

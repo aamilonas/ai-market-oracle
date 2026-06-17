@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-17T14:09:43.286255+00:00",
+  "market_context": "X sentiment remains bullish on tech and AI names with futures pointing to a higher open. Low VIX and positive 5-day trends support continuation while crypto stability adds risk-on tone.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260617_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.2,
+      "current_price_at_prediction": 750.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Pre-market futures up 0.4% and continued X optimism around AI earnings should drive SPY higher into the close following the recent 3.5% 5-day gain."
+    },
+    {
+      "id": "pred_grok_20260617_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 738.5,
+      "current_price_at_prediction": 732.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Tech leadership and positive options flow on NVDA/MSFT visible on X point to outperformance for QQQ today."
+    },
+    {
+      "id": "pred_grok_20260617_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 212.0,
+      "current_price_at_prediction": 207.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Heavy bullish mentions on X and strong pre-market momentum in semis support NVDA closing above 210."
+    }
+  ]
+}
