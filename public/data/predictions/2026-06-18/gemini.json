@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-18T13:48:20.946785+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, but recent jobless claims suggest a stable labor market, preventing a broader sell-off.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260618_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260618_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.5,
+      "current_price_at_prediction": 228.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Analyst downgrades following weaker-than-expected sales forecasts for the upcoming quarter. Technical indicators show a bearish divergence."
+    },
+    {
+      "id": "pred_gemini_20260618_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1230.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Continued strong demand for AI chips and positive sentiment from a recent tech conference. Large institutional buying detected."
+    },
+    {
+      "id": "pred_gemini_20260618_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 115.0,
+      "current_price_at_prediction": 113.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising crude oil prices and geopolitical tensions are providing tailwinds for energy stocks. Strong dividend yield attracting investors."
+    }
+  ]
+}

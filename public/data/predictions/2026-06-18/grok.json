@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-18T13:48:55.161487+00:00",
+  "market_context": "X sentiment is cautiously bullish with traders highlighting low VIX at 16.71 and QQQ's 2.3% 5-day gain amid AI rotation. Pre-market futures point to a flat-to-up open with NVDA and TSLA seeing positive options flow. No major macro events today but crypto weakness may weigh on risk appetite.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260618_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.5,
+      "current_price_at_prediction": 744.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 744.25 with positive 5-day momentum and VIX declining 14%. X chatter shows dip-buying in indices. Expect modest end-of-day gain barring surprise news."
+    },
+    {
+      "id": "pred_grok_20260618_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 212.0,
+      "current_price_at_prediction": 207.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA benefits from continued AI narrative on X and options flow favoring calls. Recent price action shows resilience above 200. Target modest upside by close."
+    },
+    {
+      "id": "pred_grok_20260618_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 382.0,
+      "current_price_at_prediction": 389.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA faces profit-taking after strong run; X volume shows more bearish mentions today. Crypto correlation and lack of catalysts point to intraday weakness."
+    },
+    {
+      "id": "pred_grok_20260618_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 63821.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "BTC closed lower on 5-day chart and X sentiment reflects risk-off rotation into equities. ETH outperformance may pressure Bitcoin further by close."
+    }
+  ]
+}

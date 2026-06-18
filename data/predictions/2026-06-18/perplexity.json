@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-18",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-18T13:48:16Z",
+  "market_context": "U.S. equity index futures are modestly constructive relative to the prior close, and QQQ opened slightly above yesterday’s level at 735.19, indicating early risk-on tone. The baseline tape already shows elevated large-cap tech leadership versus defensives, while VIX remains subdued at 16.71 and the 10Y yield at 4.43% keeps some pressure on duration-sensitive growth names.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260618_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 741.1,
+      "current_price_at_prediction": 733.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "QQQ is already showing early strength with a reported opening price of 735.19 versus the prior close of 733.56, which supports continuation if tech leadership persists. The low VIX and recent 5-day outperformance in QQQ (+2.3%) point to a market still willing to buy large-cap growth intraday."
+    },
+    {
+      "id": "pred_perplexity_20260618_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.2,
+      "current_price_at_prediction": 744.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY’s baseline is already near the top of its recent range, but the combination of subdued volatility and a positive broad-market backdrop favors a small grind higher rather than a sharp reversal. The index-level move should be smaller than QQQ because the current setup is being led more by technology than by cyclicals or defensives."
+    },
+    {
+      "id": "pred_perplexity_20260618_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 211.9,
+      "current_price_at_prediction": 207.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA remains a high-beta beneficiary of any continuation in Nasdaq strength, and the day’s early risk tone aligns with that setup. With QQQ firm and volatility low, semiconductors have a favorable path for relative outperformance."
+    },
+    {
+      "id": "pred_perplexity_20260618_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 378.4,
+      "current_price_at_prediction": 374.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "MSFT typically tracks broad mega-cap tech strength, and the early market tone favors incremental upside rather than a deep pullback. The move should be moderate because the 10Y yield at 4.43% still limits multiple expansion for large-cap software."
+    },
+    {
+      "id": "pred_perplexity_20260618_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 294.8,
+      "current_price_at_prediction": 297.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "AAPL has less relative momentum than the strongest AI/semiconductor leaders, so it may lag if the session remains growth-led. A modest decline is plausible if traders continue rotating toward higher-beta names within tech rather than the broader mega-cap complex."
+    }
+  ]
+}

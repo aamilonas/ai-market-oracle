@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-18",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-18T13:48:43.365210+00:00",
+  "market_context": "U.S. stock markets are experiencing volatility due to recent Federal Reserve indications of potential interest rate hikes to combat inflation. Additionally, geopolitical developments, such as the U.S.-Iran agreement affecting oil prices, are influencing market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260618_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 747.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY ETF is currently trading at $747.47, up from the previous close of $744.25. The market's positive reaction to the U.S.-Iran agreement, which has led to a decrease in oil prices, is likely contributing to this upward momentum. Additionally, the Federal Reserve's recent communications suggest a cautious approach to interest rate hikes, which may alleviate some investor concerns."
+    },
+    {
+      "id": "pred_gpt4o_20260618_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 736.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The QQQ ETF, representing the Nasdaq-100, is currently trading at $736.70, up from the previous close of $733.56. The tech sector is benefiting from positive developments, such as Intel's announcement to produce chips for Apple domestically, which has boosted investor confidence in technology stocks."
+    },
+    {
+      "id": "pred_gpt4o_20260618_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.0,
+      "current_price_at_prediction": 298.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple Inc. is currently trading at $298.95, up from the previous close of $297.44. The announcement that Intel will produce chips for Apple domestically has been well-received by the market, potentially reducing supply chain risks and enhancing product performance, leading to increased investor optimism."
+    },
+    {
+      "id": "pred_gpt4o_20260618_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.0,
+      "current_price_at_prediction": 394.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tesla Inc. is currently trading at $394.09, slightly down from the previous close of $389.93. The stock has been experiencing volatility, and with no significant positive catalysts in the immediate term, it may face downward pressure, especially if broader market sentiment turns cautious."
+    },
+    {
+      "id": "pred_gpt4o_20260618_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63000.0,
+      "current_price_at_prediction": 63859.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin is currently trading at $63859, down from the previous close of $63821.51. The cryptocurrency market is facing headwinds due to increased regulatory scrutiny and a strengthening U.S. dollar, which may lead to further declines in Bitcoin's price in the short term."
+    }
+  ]
+}
