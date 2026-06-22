@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "generated_at": "2026-06-22T15:37:25.361813+00:00",
+  "generated_at": "2026-06-22T23:47:13.634151+00:00",
   "headline": "17 AI market calls queued for 2026-06-22",
   "summary": "17 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -12,7 +12,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA up."
     },
     {
@@ -32,7 +32,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -43,7 +43,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     },
     {
@@ -54,7 +54,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA down."
     }
   ],
@@ -62,14 +62,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "AAPL",
-    "score": null,
+    "score": 0.7,
     "summary": "Highest-confidence call came from Gemini on AAPL."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "XOM",
-    "score": null,
+    "score": -0.55,
     "summary": "Lowest-confidence call came from Gemini on XOM."
   }
 }
