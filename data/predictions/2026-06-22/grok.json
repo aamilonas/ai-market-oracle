@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-22",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-22T15:37:11.054092+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech with NVDA and MSFT mentions up 15% in positive volume, offset by VIX spike concerns. Pre-market futures flat to slightly up amid no major catalysts; options flow indicates heavy call buying in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260622_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.5,
+      "current_price_at_prediction": 744.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X chatter and futures point to mild buying on tech rotation; 5-day trend positive despite VIX rise."
+    },
+    {
+      "id": "pred_grok_20260622_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 736.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Heavy positive options flow and X sentiment on AI stocks support upside; 2.1% 5-day gain likely extends."
+    },
+    {
+      "id": "pred_grok_20260622_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 210.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X volume on NVDA bullish, pre-market movers show chip sector strength with no negative news."
+    },
+    {
+      "id": "pred_grok_20260622_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 402.0,
+      "current_price_at_prediction": 409.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Short interest signals and mixed X sentiment on EV demand point to intraday pullback."
+    }
+  ]
+}

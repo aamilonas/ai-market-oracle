@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-22",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-22T15:37:00.537795+00:00",
+  "market_context": "As of June 22, 2026, the U.S. stock market is experiencing mixed movements. The S&P 500 ETF (SPY) is trading at $744.44, down 0.31% from the previous close. The Nasdaq-100 ETF (QQQ) is at $737.33, down 0.44%, while the Dow Jones Industrial Average ETF (DIA) is at $516.92, up 0.27%. Key economic data releases are scheduled for later this week, including the May Personal Consumption Expenditures (PCE) Price Index on Thursday, June 25, which is expected to show continued inflationary pressures.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260622_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 740.0,
+      "current_price_at_prediction": 744.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The SPY is currently trading at $744.44, down 0.31% from the previous close. With no significant economic data releases today and investors potentially positioning ahead of key inflation data later this week, the market may experience cautious trading, leading to a slight decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260622_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 302.0,
+      "current_price_at_prediction": 299.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple Inc. (AAPL) is trading at $299.65, up 0.55% from the previous close. Given its recent positive momentum and no adverse news, AAPL may continue to see modest gains, reaching around $302.00 by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260622_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 415.0,
+      "current_price_at_prediction": 410.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tesla Inc. (TSLA) is currently at $410.02, up 2.38% from the previous close. The stock's strong intraday performance suggests continued investor confidence, potentially driving the price up to $415.00 by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260622_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 65001.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC) is trading at $65001.00, up 1.36% from the previous close. The cryptocurrency market shows positive momentum, and with no immediate negative catalysts, BTC may rise to around $65500.00 by the end of the day."
+    }
+  ]
+}

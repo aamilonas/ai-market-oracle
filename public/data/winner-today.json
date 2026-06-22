@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-22",
   "winner": {
-    "ticker": "NVDA",
-    "direction": "up",
-    "avg_confidence": 0.62,
-    "avg_target": 557.97,
-    "avg_entry": 548.5,
-    "expected_move_pct": 1.73,
-    "score": 1.0701,
+    "ticker": "TSLA",
+    "direction": "down",
+    "avg_confidence": 0.59,
+    "avg_target": 329.0,
+    "avg_entry": 335.66,
+    "expected_move_pct": 1.98,
+    "score": 1.1706,
     "models": [
       "Gemini",
       "Perplexity",

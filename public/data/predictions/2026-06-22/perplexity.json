@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-22",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-22T15:36:00Z",
+  "market_context": "U.S. equity futures are modestly higher alongside a slightly positive tone in global markets after a choppy week driven by shifting Fed expectations and higher yields.[1][2] The VIX is elevated but not extreme, and 10Y Treasury yields around 4.5% continue to cap upside while not triggering broad risk-off flows.[4] With no major data surprises this morning and recent index gains moderate, the setup favors a slightly bullish to range-bound session with continued sector rotation.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260622_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.0,
+      "current_price_at_prediction": 744.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is coming off a modest 5-day gain of about 0.7% with U.S. index futures slightly positive and the broad U.S. equity index (US500) showing incremental strength on June 22.[2][4] The VIX at 17–18 is consistent with moderate intraday volatility but not with a strong risk-off move, suggesting dips are likely to be bought rather than aggressively sold.[4] With no major negative macro catalysts on the calendar today and earnings season in a quieter stretch, a modest continuation higher into the close is more likely than a sharp reversal."
+    },
+    {
+      "id": "pred_perplexity_20260622_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 744.0,
+      "current_price_at_prediction": 736.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ has outperformed over the last 5 days with a ~2.1% gain, reflecting continued strength in large-cap tech and AI-related names despite higher yields.[2] Pre-market indications and the broader US500 index suggest a slightly risk-on tone, with no fresh hawkish shocks from the Fed overnight.[1][4] Given tech’s leadership pattern in recent weeks and the absence of major sector-specific negative news this morning, a modestly higher close in QQQ is more probable than a decline."
+    },
+    {
+      "id": "pred_perplexity_20260622_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 304.5,
+      "current_price_at_prediction": 300.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Apple has been trading in line to slightly ahead of the broader tech complex as investors position around AI and device-refresh themes, and the recent 5-day gains in major indices point to a supportive backdrop.[2] With QQQ futures indicating a mild risk-on tone and no significant negative Apple-specific headlines overnight, beta to a positive Nasdaq session favors a modest upside move by the close.[3] However, sensitivity to yields and its mega-cap status limit confidence, as any intraday reversal in rates could quickly cap gains."
+    },
+    {
+      "id": "pred_perplexity_20260622_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 216.5,
+      "current_price_at_prediction": 210.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA remains a key AI bellwether and has been a primary driver of QQQ’s recent 5-day outperformance, suggesting strong dip-buying interest on minor pullbacks.[2][3] Market tone this morning is cautiously constructive, and there were no major negative AI or semiconductor headlines overnight that would disrupt this trend.[3] Given its high beta, a modestly positive session for Nasdaq and SPY would likely translate into an outsized but still moderate percentage gain in NVDA by the close."
+    },
+    {
+      "id": "pred_perplexity_20260622_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 400.0,
+      "current_price_at_prediction": 409.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA has rallied strongly in recent sessions and tends to exhibit high intraday volatility and mean-reversion after sharp runs, especially when overall index gains are more modest.[2][3] With 10Y yields elevated near 4.5%, higher-duration, speculative growth names can face pressure even on days when the broader market is flat to slightly positive.[4] In the absence of major positive company-specific catalysts this morning, the risk of a profit-taking pullback into the close is slightly higher than the probability of another strong leg up."
+    }
+  ]
+}
