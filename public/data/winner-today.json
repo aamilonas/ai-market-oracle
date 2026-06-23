@@ -1,19 +1,4 @@
 {
-  "date": "2026-06-22",
-  "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.59,
-    "avg_target": 329.0,
-    "avg_entry": 335.66,
-    "expected_move_pct": 1.98,
-    "score": 1.1706,
-    "models": [
-      "Gemini",
-      "Perplexity",
-      "Grok"
-    ],
-    "model_count": 3,
-    "high_conviction": false
-  }
+  "date": "2026-06-23",
+  "winner": null
 }

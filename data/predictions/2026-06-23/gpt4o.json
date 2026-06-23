@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-23",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-23T13:23:31.574041+00:00",
+  "market_context": "U.S. stock futures are indicating a negative open, with Nasdaq futures down 2% due to concerns over potential Federal Reserve rate hikes and tech sector valuations. The S&P 500 and Dow Jones Industrial Average also show pre-market declines. Investors are cautious ahead of today's economic data releases, including the S&P Global Flash Manufacturing and Services PMIs.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260623_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 744.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Pre-market indicators show a decline in S&P 500 futures, suggesting a lower opening. Concerns over potential Federal Reserve rate hikes and tech sector valuations are contributing to negative sentiment. Additionally, upcoming economic data releases may add to market volatility."
+    },
+    {
+      "id": "pred_gpt4o_20260623_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 720.0,
+      "current_price_at_prediction": 737.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq futures are down 2% pre-market, indicating significant pressure on tech stocks. Concerns about potential rate hikes and high valuations in the tech sector are likely to drive QQQ lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260623_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 290.0,
+      "current_price_at_prediction": 297.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple, as a major tech stock, is likely to be affected by the broader tech sector sell-off indicated by the 2% drop in Nasdaq futures. Concerns over rate hikes and valuations may lead to a decline in AAPL's stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260623_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 60000.0,
+      "current_price_at_prediction": 62022.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown a 1.4% decline over the past five days. The current market sentiment, influenced by concerns over rate hikes and tech valuations, may lead to further risk-off behavior, potentially causing BTC to decline towards the $60000 level."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-23",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-23T13:22:53.137386+00:00",
+  "market_context": "Market sentiment is cautiously optimistic following positive jobless claims data and strong tech earnings reports. However, inflation concerns persist, leading to some volatility in the broader market. Investors are closely watching upcoming Fed speeches for further guidance.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260623_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive jobless claims data and strong tech sector performance are expected to provide a slight boost to the broader market by day's end."
+    },
+    {
+      "id": "pred_gemini_20260623_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 230.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent production guidance fell short of analyst expectations, and increased competition in the EV market is likely to put downward pressure on the stock over the week."
+    },
+    {
+      "id": "pred_gemini_20260623_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 212.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Strong pre-orders for the new Vision Pro 2 and positive analyst upgrades are expected to drive a modest increase by market close."
+    },
+    {
+      "id": "pred_gemini_20260623_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1230.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Continued strong demand for AI chips and upcoming product announcements are likely to sustain its upward momentum through the end of the month."
+    }
+  ]
+}

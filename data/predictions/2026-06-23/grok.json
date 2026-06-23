@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-23",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-23T13:23:38.193317+00:00",
+  "market_context": "X/Twitter sentiment is cautious with rising VIX concerns and 10Y yield at 4.49% dominating discussions; pre-market futures mixed amid crypto weakness. No major catalysts but options flow shows defensive positioning in tech. SPY and QQQ showing resilience in recent 5-day gains despite volatility spike.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260623_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.5,
+      "current_price_at_prediction": 744.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 744.39 with +0.6% 5-day gain; X chatter highlights institutional buying despite VIX surge to 20.23. End-of-day close expected higher on low-volume stabilization."
+    },
+    {
+      "id": "pred_grok_20260623_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 737.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ +2.4% over 5 days but X sentiment flags overbought tech with NVDA and MSFT mentions turning negative. Yield pressure likely caps upside today."
+    },
+    {
+      "id": "pred_grok_20260623_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 212.0,
+      "current_price_at_prediction": 208.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA at 208.65 with AI narrative still strong on X despite broader market caution. Short interest signals suggest squeeze potential into close."
+    },
+    {
+      "id": "pred_grok_20260623_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 405.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "TSLA at 405.05 showing weakness aligned with crypto -1.4% 5-day move; X flow indicates profit-taking after recent run."
+    }
+  ]
+}

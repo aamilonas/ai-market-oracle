@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-23T13:22:37Z",
+  "market_context": "U.S. index futures are modestly lower ahead of the open, with S&P 500 and Nasdaq 100 futures down roughly 0.25–0.30% and Dow futures slightly positive to flat, following a mixed prior session where value sectors outperformed tech.[1][2][3] Overseas, Asian and European markets traded lower, and risk sentiment is cautious amid a recent tech-led selloff, elevated volatility (VIX ~20), and softer crypto prices, while energy and defensives have shown relative strength.[3] There are no major surprise macro data releases hitting immediately at the open, so trading is likely to be driven by sector rotation out of high-multiple tech and into more defensive/value pockets.[3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260623_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 744.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are trading about 0.25–0.30% lower pre-market, implying a modestly negative open for SPY after Monday’s slight decline and growing risk-off tone.[1][2][3] Elevated volatility (VIX above 20) and synchronized weakness across Asian and European markets suggest continued de-risking, while sector rotation away from growth/tech into defensives caps upside for the broad index.[3] With no large positive macro catalyst on today’s calendar, a mild pullback toward the mid-730s by the close is more likely than a sustained rebound back above recent highs."
+    },
+    {
+      "id": "pred_perplexity_20260623_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 737.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq 100 futures are underperforming, down around 0.25–0.30%, following a recent tech-led selloff and a prior session where the Nasdaq fell more sharply than the Dow.[1][2][3] Flows are rotating out of high-multiple technology and AI-linked names, while crypto weakness and higher real yields weigh disproportionately on growth valuations.[3] Given this backdrop and a 5-day gain of over 2% in QQQ, a mean-reversion move lower into the low 720s by the close is more probable than another leg higher today."
+    },
+    {
+      "id": "pred_perplexity_20260623_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 290.0,
+      "current_price_at_prediction": 297.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Mega-cap tech is under pressure in pre-market trading as Nasdaq futures lag, and sentiment is cautious after a tech-driven selloff highlighted in index performance data.[1][2][3] Apple is a large-weighted component of QQQ and SPY, so broad weakness in the Nasdaq 100 and ongoing sector rotation away from big tech increases the odds of incremental downside.[2][3] With AAPL near recent highs and no company-specific positive catalyst this morning, a pullback of 2–3% toward the $290 area by the close is plausible."
+    },
+    {
+      "id": "pred_perplexity_20260623_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 208.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Chipmakers and AI-infrastructure stocks recently led gains but are now facing profit-taking as Nasdaq futures trade lower and traders turn more cautious on high-beta tech.[2][3] Nvidia is highly sensitive to swings in risk appetite and has recently benefited from strong AI optimism, leaving it vulnerable when volatility rises and growth stocks de-rate.[2][3] Given the weaker QQQ setup and lack of fresh positive news this morning, a move down of roughly 4% toward the $200 level by the close is more likely than a rebound to new highs."
+    }
+  ]
+}
