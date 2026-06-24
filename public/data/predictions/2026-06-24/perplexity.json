@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-24T12:34:19Z",
+  "market_context": "U.S. index ETFs are indicating a modest rebound in pre-market trading, with SPY, QQQ, and DIA all up between roughly 0.3% and 0.7% after several down days, and NVDA among the most active gainers pre-market.[1] Options activity shows heavy trading in near-the-money calls on SPY and AAPL and puts on QQQ, suggesting a mixed but active positioning around large-cap tech and indices.[1][6] Broader context remains one of elevated volatility with VIX near 19 and 10Y yields around the mid-4% range, as investors weigh recent tech-led weakness against ongoing sector leadership from technology and energy into the second half.[8]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260624_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 733.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY is trading modestly higher in pre-market (around +0.3–0.4%), indicating a potential continuation bounce after a roughly 2.6% decline over the past five sessions.[1][7] With heavy options interest in near-the-money SPY calls and overall risk appetite still supported by sector leadership from technology and energy, a modest recovery toward the upper end of today's indicated trading range appears plausible.[6][8] Elevated but not extreme VIX suggests intraday swings, but not a strongly risk-off tape, making a mildly higher close more likely than a further sharp selloff."
+    },
+    {
+      "id": "pred_perplexity_20260624_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 713.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "QQQ is outperforming SPY and DIA in pre-market, trading about 0.6–0.7% higher, after having fallen around 4% over the past five days.[1][3] While there is notable put activity in QQQ options, the strong pre-market bid and ongoing fundamental strength in large-cap tech suggest a technical relief rally is likely as traders cover shorts and re-risk into growth names.[6][8] Given the sector backdrop and current futures tone, a modestly higher close with some retracement of recent losses is more probable than another leg down today."
+    },
+    {
+      "id": "pred_perplexity_20260624_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.5,
+      "current_price_at_prediction": 200.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA is among the most active pre-market names and is trading up roughly 0.7% from yesterday’s close, indicating continued dip-buying interest.[1] As a key component of QQQ and a leader in AI-related semiconductors, NVDA tends to participate strongly in tech-led rebounds when index futures stabilize or rise.[1][8] Given its recent pullback and strong pre-market flow, a further 2–3% intraday advance into the low-200s is plausible if the broader tech complex remains firm through the session."
+    },
+    {
+      "id": "pred_perplexity_20260624_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 299.0,
+      "current_price_at_prediction": 294.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Heavy options activity is concentrated in AAPL 300 strike calls, signaling market interest in upside near that level despite recent volatility.[6] With QQQ and SPY indicated higher in pre-market and large-cap tech continuing to be a key driver of index performance, AAPL is likely to participate in any broad-based relief rally.[1][8] The proximity of the 300 strike and evident speculative interest increases the odds of a test toward that price zone by the close."
+    },
+    {
+      "id": "pred_perplexity_20260624_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 372.0,
+      "current_price_at_prediction": 381.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA shows substantial put activity in the 380 strike, suggesting traders are positioning for downside or hedging existing exposure around current levels.[6] After recent strong moves and with overall market volatility elevated, TSLA’s historically high beta makes it vulnerable to profit-taking even on a day where indices are modestly higher.[1] Given this positioning and TSLA’s tendency for wide intraday ranges, a 2–3% pullback toward the low-370s by end-of-day is moderately more likely than a strong extension higher."
+    }
+  ]
+}

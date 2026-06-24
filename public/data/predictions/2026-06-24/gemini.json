@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-24",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-24T12:34:30.720101+00:00",
+  "market_context": "Today's market sentiment is influenced by strong tech earnings and a hawkish stance from the Federal Reserve. Inflation data released this morning showed a slight increase, leading to mixed reactions across sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260624_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in large-cap tech stocks, which typically drive SPY performance. Positive economic indicators suggest continued market optimism."
+    },
+    {
+      "id": "pred_gemini_20260624_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Recent product announcements have generated significant positive analyst sentiment. Pre-market trading shows strong upward momentum."
+    },
+    {
+      "id": "pred_gemini_20260624_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays and increased competition in the EV market are weighing on investor confidence. Technical indicators suggest a short-term downtrend."
+    }
+  ]
+}

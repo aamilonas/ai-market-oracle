@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-24",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-24T12:35:16.879960+00:00",
+  "market_context": "U.S. stock futures are indicating a positive open, with the S&P 500 futures up 0.5% and Nasdaq futures up 0.7%. The economic calendar for today includes the release of May's new home sales data at 10:00 AM ET, which could influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260624_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 733.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With S&P 500 futures up 0.5% pre-market and positive sentiment surrounding upcoming new home sales data, SPY is likely to close higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260624_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 713.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are up 0.7% pre-market, suggesting a rebound in tech stocks, which could drive QQQ higher by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260624_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 298.0,
+      "current_price_at_prediction": 294.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive pre-market sentiment in tech stocks and no adverse news suggest AAPL may see modest gains by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260624_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 390.0,
+      "current_price_at_prediction": 381.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite recent volatility, TSLA may benefit from overall market optimism and close higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260624_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 62752.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown resilience, and with a slight uptick in the past 24 hours, it may continue to rise modestly by day's end."
+    }
+  ]
+}

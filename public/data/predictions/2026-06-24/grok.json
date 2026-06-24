@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-24T12:35:26.753487+00:00",
+  "market_context": "X sentiment shows cautious bearishness with tech selloff fears dominating discussions and VIX mentions rising. Pre-market futures point to modest rebound attempts amid no major catalysts. Earnings season and yield movements are key topics.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260624_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.5,
+      "current_price_at_prediction": 733.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent 5-day decline of 2.6% and elevated VIX at 18.82 suggest continued pressure; X chatter highlights rotation out of equities with no strong reversal signals."
+    },
+    {
+      "id": "pred_grok_20260624_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 713.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ's sharper 4.0% weekly drop and heavy tech weighting point to further weakness; options flow on X indicates put buying in semis."
+    },
+    {
+      "id": "pred_grok_20260624_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 192.0,
+      "current_price_at_prediction": 200.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA leads recent declines amid AI hype fatigue noted on X; short interest signals remain elevated with no positive catalysts today."
+    },
+    {
+      "id": "pred_grok_20260624_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 390.0,
+      "current_price_at_prediction": 381.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "TSLA shows relative resilience in X sentiment with EV policy chatter; minor short covering could drive intraday bounce despite broader market weakness."
+    }
+  ]
+}
