@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-25",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-25T12:38:24Z",
+  "market_context": "U.S. equity futures and ETFs are pointing higher pre-market, led by a strong rebound in tech and AI-related names, with QQQ indicated up over 2% and SPY up roughly 0.7% in early trading.[1][2] Micron and Qualcomm are surging on strong AI-driven guidance, bolstering sentiment in semiconductors and large-cap growth, while Treasury yields remain around 4.41% and the VIX stays elevated, reflecting ongoing macro and rate uncertainty.[2] Crypto remains soft and crude oil is down, but European markets are higher and global risk tone is broadly constructive heading into the U.S. open.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260625_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 710.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq-100 futures and QQQ pre-market indications show gains of roughly 2% on the back of strong AI and semiconductor earnings, notably large jumps in Micron and Qualcomm that directly benefit the index’s tech-heavy composition.[1][2] The prior 5-day drawdown of about 2.5% for QQQ provides room for a reflexive bounce as traders re-risk into growth, and the current macro backdrop (stable 10-year yield near 4.41% and no new hawkish Fed surprise) is supportive for duration-sensitive tech.[2] However, elevated VIX and recent volatility temper confidence somewhat, as intraday reversals remain a risk if the AI rally fades or macro headlines turn negative."
+    },
+    {
+      "id": "pred_perplexity_20260625_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 733.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is indicated about 0.7% higher in pre-market trading, supported by broad-based gains and strong tech leadership, with index futures generally positive following a modest recent pullback of around 2% over 5 days.[1][2] AI-related enthusiasm and positive semiconductor news should lift the large-cap growth components that dominate the S&P 500’s market-cap weighting, while a 10-year yield holding near 4.41% and an unchanged July Fed expectation reduce immediate rate-shock risk.[2] Still, the elevated VIX and recent choppiness suggest potential intraday volatility and headline sensitivity, so while an up day is likely, the magnitude of the move could be capped by profit-taking into strength."
+    },
+    {
+      "id": "pred_perplexity_20260625_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 207.0,
+      "current_price_at_prediction": 199.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Nvidia is a central beneficiary of the current AI and data-center investment cycle, and today’s pre-market tone is strongly positive for semiconductors, with Micron and Qualcomm surging on AI-driven demand commentary that reinforces the broader GPU and memory investment thesis.[1][2] After a roughly 2–3% pullback in major indices over the last 5 days, a risk-on rotation back into AI leaders is plausible as traders look to re-establish momentum names for the next leg higher.[1][2] However, Nvidia’s high valuation and sensitivity to factor rotations increase the risk of sharp intraday swings, limiting confidence in a larger move even in a supportive sector tape."
+    },
+    {
+      "id": "pred_perplexity_20260625_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 299.0,
+      "current_price_at_prediction": 293.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Apple stands to benefit from a broad tech-led rebound, as QQQ and major growth ETFs are indicated sharply higher pre-market on the back of AI and semiconductor optimism, supporting flows into mega-cap tech as a group.[1][2] The stock comes into the day after a multi-day market pullback, creating room for a modest mean-reversion bounce if risk appetite continues to improve through the session.[1][2] That said, Apple-specific catalysts appear limited compared with pure-play AI names, and its performance may lag the more cyclically sensitive chip names, which constrains both upside target and confidence."
+    },
+    {
+      "id": "pred_perplexity_20260625_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 60000.0,
+      "current_price_at_prediction": 61292.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has been under pressure recently, down about 4.6% over the last 5 days, and was trading lower again in the last 24 hours while risk assets in equities are rebounding, suggesting a rotation preference toward AI and tech stocks rather than crypto.[2] The steadiness of the 10-year yield near 4.41% and a firmer U.S. dollar index in early trade tend to be headwinds for BTC, especially when macro narratives focus on real yields and policy rate expectations.[2] While intraday short squeezes in crypto are always possible, the near-term momentum and macro setup point slightly more toward continued mild downside or consolidation rather than a sharp recovery today."
+    }
+  ]
+}

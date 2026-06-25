@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-25",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-25T12:39:01.013728+00:00",
+  "market_context": "As of June 25, 2026, the S&P 500 (SPY) closed at $733.24, down 2.0% over the past five days. The Nasdaq-100 (QQQ) ended at $710.62, a 2.5% decline over the same period, while the Dow Jones Industrial Average (DIA) closed at $518.52, down 0.3%. The VIX, a measure of market volatility, rose 10.4% over the past five days to 18.11. Key economic data releases scheduled for today include the May Personal Consumption Expenditures (PCE) Price Index, the Federal Reserve's preferred inflation measure, and the final estimate of Q1 GDP.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260625_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 733.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 ETF (SPY) has declined 2.0% over the past five days, and with the upcoming release of the May PCE Price Index, which is expected to show continued inflationary pressures, investor sentiment may remain cautious, potentially leading to further declines."
+    },
+    {
+      "id": "pred_gpt4o_20260625_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 290.0,
+      "current_price_at_prediction": 293.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. (AAPL) has experienced a 4.08% decline from the previous close, and with the broader market facing downward pressure due to anticipated inflation data, AAPL's stock price may continue to decrease."
+    },
+    {
+      "id": "pred_gpt4o_20260625_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 60000.0,
+      "current_price_at_prediction": 61292.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC-USD) has declined 4.6% over the past five days, and with increasing market volatility and potential risk-off sentiment due to upcoming inflation data, further declines are possible."
+    },
+    {
+      "id": "pred_gpt4o_20260625_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 360.0,
+      "current_price_at_prediction": 365.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft Corporation (MSFT) has seen a 2.27% decline from the previous close, and with the broader market under pressure from anticipated inflation data, MSFT's stock price may continue to decrease."
+    },
+    {
+      "id": "pred_gpt4o_20260625_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 199.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA Corp (NVDA) has declined 0.49% from the previous close, and with the broader market facing downward pressure due to anticipated inflation data, NVDA's stock price may continue to decrease."
+    }
+  ]
+}

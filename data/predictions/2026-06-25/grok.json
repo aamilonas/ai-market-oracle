@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-25",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-25T12:39:10.394374+00:00",
+  "market_context": "X/Twitter sentiment is cautious with rising mentions of VIX spike and recent index pullbacks; pre-market futures point to a flat open amid tech volatility. No major macro events but options flow shows heavy put activity on NVDA. BTC and ETH continue their 5-day decline with limited recovery chatter.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260625_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.5,
+      "current_price_at_prediction": 733.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent 5-day dip of 2% and VIX at 18.11 suggest oversold bounce; X chatter on short covering supports modest upside into close."
+    },
+    {
+      "id": "pred_grok_20260625_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 199.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Heavy put options flow noted on X and elevated short interest signal continued selling pressure after 5-day weakness."
+    },
+    {
+      "id": "pred_grok_20260625_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 60500.0,
+      "current_price_at_prediction": 61292.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Crypto follows equity risk-off tone with 4.6% 5-day drop; X sentiment lacks bullish catalysts for rebound today."
+    },
+    {
+      "id": "pred_grok_20260625_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 380.0,
+      "current_price_at_prediction": 375.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "EV sector chatter on X shows mild optimism despite broader market dip; potential short squeeze into close."
+    }
+  ]
+}

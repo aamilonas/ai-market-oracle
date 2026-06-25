@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-25",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-06-25T12:38:39.502076+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, influencing investor sentiment towards defensive assets.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260625_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic data releases expected tomorrow."
+    },
+    {
+      "id": "pred_gemini_20260625_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 215.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets suggest a downward trend for the week."
+    },
+    {
+      "id": "pred_gemini_20260625_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 122.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Rising crude oil prices and increased demand forecasts for the summer months are likely to boost energy sector performance."
+    },
+    {
+      "id": "pred_gemini_20260625_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 185.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Reports of production slowdowns and increased competition in the EV market are creating negative sentiment for today's trading."
+    }
+  ]
+}
