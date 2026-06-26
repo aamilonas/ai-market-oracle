@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-26",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-26T12:32:07Z",
+  "market_context": "US index futures show pressure on large-cap tech, with QQQ indicated down over 1% pre-market while SPY is modestly lower and DIA roughly flat, suggesting continued rotation out of growth into cyclicals.[1][2][3] The backdrop includes elevated volatility (VIX near 20), higher-for-longer yields around 4.45% on the 10Y, and recent weakness in crypto, all consistent with a risk-off tone and sensitivity of tech to rates.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260626_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 734.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Pre-market indications show SPY trading around 730, roughly 0.5–0.6% below yesterday’s close, as futures react to continued tech weakness and elevated rates.[1][2] With VIX near 20 and a modest recent pullback over the last 5 days, intraday bounces are likely, but the combination of higher yields and ongoing large-cap tech selling bias the ETF toward closing slightly below the prior close rather than staging a full risk-on reversal."
+    },
+    {
+      "id": "pred_perplexity_20260626_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 716.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Pre-market quotes have QQQ down around 1.2%, underperforming SPY as the tech selloff intensifies and investors rotate into more defensive or value-oriented sectors.[1][2][3] Given its heavy weighting to rate-sensitive mega-cap tech and the recent 5-day decline, further downside into the close is more probable than a full recovery, though intraday volatility may be significant with VIX elevated."
+    },
+    {
+      "id": "pred_perplexity_20260626_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 270.0,
+      "current_price_at_prediction": 275.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Apple is a major weight in QQQ and SPY, and the pre-market underperformance of QQQ relative to SPY points to ongoing pressure on mega-cap tech, including AAPL.[1][2][3] With rates elevated and the sector in a short-term downtrend, AAPL is likely to participate in the broader tech selloff and close a few dollars below its prior close, even if intraday dip-buying emerges."
+    },
+    {
+      "id": "pred_perplexity_20260626_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 190.0,
+      "current_price_at_prediction": 195.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Semiconductors and AI-levered names like Nvidia have been central to the recent tech volatility, and QQQ’s pre-market decline over 1% suggests continued profit-taking in these leaders.[1][2][3] Given NVDA’s high beta to the Nasdaq and elevated valuations, the stock is likely to amplify QQQ’s downside and close several dollars below its previous level, despite potential large intraday swings."
+    }
+  ]
+}

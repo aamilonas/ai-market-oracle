@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-26",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-26T12:32:50.504979+00:00",
+  "market_context": "X/Twitter sentiment is bearish with high volume on VIX spike and crypto selloff posts. Pre-market futures show modest downside pressure amid 10Y yield at 4.45%. No major catalysts but options flow signals defensive positioning in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260626_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.5,
+      "current_price_at_prediction": 734.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "VIX up 14% over 5 days and negative SPY 5-day trend point to continued pressure; X chatter highlights risk-off flows into bonds."
+    },
+    {
+      "id": "pred_grok_20260626_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 199.0,
+      "current_price_at_prediction": 195.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Short-term oversold bounce expected on AI narrative resilience despite broader market weakness per recent X sentiment scans."
+    },
+    {
+      "id": "pred_grok_20260626_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 57500.0,
+      "current_price_at_prediction": 59632.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "5-day -5.7% drop and correlated equity weakness suggest further downside; X volume on liquidation fears remains elevated."
+    },
+    {
+      "id": "pred_grok_20260626_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 365.0,
+      "current_price_at_prediction": 375.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "EV sector rotation and macro caution dominate X discussion; 5-day performance already negative with no offsetting news."
+    }
+  ]
+}

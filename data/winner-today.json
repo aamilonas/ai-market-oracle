@@ -1,4 +1,19 @@
 {
-  "date": "2026-06-25",
-  "winner": null
+  "date": "2026-06-26",
+  "winner": {
+    "ticker": "AAPL",
+    "direction": "down",
+    "avg_confidence": 0.6867,
+    "avg_target": 255.17,
+    "avg_entry": 259.47,
+    "expected_move_pct": 1.66,
+    "score": 1.138,
+    "models": [
+      "Gemini",
+      "Perplexity",
+      "GPT-4o"
+    ],
+    "model_count": 3,
+    "high_conviction": false
+  }
 }

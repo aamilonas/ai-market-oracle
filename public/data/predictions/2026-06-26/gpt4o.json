@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-26",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-26T12:32:40.751863+00:00",
+  "market_context": "U.S. stock markets closed mixed on June 25, 2026, with the S&P 500 slightly down, the Dow Jones Industrial Average marginally up, and the Nasdaq composite declining. Key economic data releases today include the University of Michigan Consumer Confidence Index and the Baker Hughes Rig Count.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260626_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 734.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow Jones Industrial Average rose 0.1% on June 25, 2026, indicating potential market resilience. Additionally, the upcoming release of the University of Michigan Consumer Confidence Index may provide positive sentiment if the data exceeds expectations."
+    },
+    {
+      "id": "pred_gpt4o_20260626_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 270.0,
+      "current_price_at_prediction": 275.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple shares declined after announcing price hikes on many products, which may continue to weigh on investor sentiment and lead to further declines."
+    },
+    {
+      "id": "pred_gpt4o_20260626_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 195.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AI-related stocks rebounded on June 25, 2026, and Micron Technology reported better-than-expected profits, suggesting positive momentum in the semiconductor sector that could benefit NVIDIA."
+    },
+    {
+      "id": "pred_gpt4o_20260626_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58000.0,
+      "current_price_at_prediction": 59632.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has declined 5.7% over the past five days, indicating a bearish trend that may persist in the short term."
+    },
+    {
+      "id": "pred_gpt4o_20260626_005",
+      "ticker": "ETH-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 1500.0,
+      "current_price_at_prediction": 1549.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Ethereum has declined 9.1% over the past five days, suggesting continued downward momentum that could lead to further losses."
+    }
+  ]
+}
