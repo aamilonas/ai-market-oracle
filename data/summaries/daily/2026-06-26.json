@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T12:33:00.759472+00:00",
+  "generated_at": "2026-06-26T23:38:58.713300+00:00",
   "headline": "17 AI market calls queued for 2026-06-26",
   "summary": "17 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -12,7 +12,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on AAPL down."
     },
     {
@@ -22,7 +22,7 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on BTC-USD down."
     },
     {
@@ -32,7 +32,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA up."
     },
     {
@@ -42,7 +42,7 @@
         "GPT-4o"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on SPY up."
     },
     {
@@ -52,7 +52,7 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on TSLA down."
     }
   ],
@@ -67,7 +67,7 @@
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "NVDA",
-    "score": null,
+    "score": -0.55,
     "summary": "Lowest-confidence call came from Grok on NVDA."
   }
 }
