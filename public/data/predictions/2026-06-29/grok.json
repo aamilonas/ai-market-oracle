@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-29",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-29T14:35:01.718336+00:00",
+  "market_context": "X sentiment shows cautious bearishness with VIX spike and QQQ weakness dominating discussions. Pre-market futures point to flat-to-down open amid 10Y yield at 4.37%. No major catalysts but options flow indicates hedging in tech names.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260629_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 737.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 737.54 with 5-day -0.9% and VIX +11.7% signaling risk-off. X chatter highlights yield pressure and lack of positive catalysts for open."
+    },
+    {
+      "id": "pred_grok_20260629_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 714.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ already -3.2% over 5 days with heavy tech rotation visible in X flows. NVDA and MSFT weakness likely to drag further into close."
+    },
+    {
+      "id": "pred_grok_20260629_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 188.0,
+      "current_price_at_prediction": 193.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA at 193.82 amid broader semis selloff; X volume shows increased put activity and short interest signals."
+    },
+    {
+      "id": "pred_grok_20260629_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58000.0,
+      "current_price_at_prediction": 59522.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "BTC -2.4% over 5 days with equity correlation rising; X crypto feeds note macro headwinds from yields."
+    }
+  ]
+}

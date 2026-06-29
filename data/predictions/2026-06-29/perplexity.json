@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-29",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-29T14:34:26Z",
+  "market_context": "U.S. index futures are modestly higher ahead of the open, with S&P 500 futures up 0.67% and Nasdaq 100 futures up 1.02%, which favors a risk-on tilt for SPY and QQQ at the start of trading.[1] Recent market commentary also points to firmer sentiment in mega-cap tech and a slightly bearish retail tone on SPY/QQQ, while VIX remains elevated at 19.30 and the 10Y yield at 4.37% keeps upside somewhat constrained.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260629_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.9,
+      "current_price_at_prediction": 737.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "S&P 500 futures were up 0.67% before the open, which supports a modest positive session for the broad market.[1] The move is tempered by elevated volatility and only moderate breadth implied by mixed sentiment, so I expect a small gain rather than a large breakout.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260629_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 721.5,
+      "current_price_at_prediction": 714.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq 100 futures were up 1.02% premarket, the strongest signal among the major U.S. index proxies, which supports an outperformance call for QQQ.[1] This aligns with market chatter around large-cap tech leadership and a risk-on open, though higher VIX suggests intraday reversals remain possible.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260629_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 197.5,
+      "current_price_at_prediction": 193.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Premarket strength in Nasdaq futures usually benefits semiconductors and high-beta megacap tech first, and NVDA is one of the most sensitive names to that backdrop.[1] With QQQ expected to outperform and sentiment still supportive for growth stocks, I expect NVDA to finish higher, but with limited conviction because volatility remains elevated.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260629_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 378.9,
+      "current_price_at_prediction": 375.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "MSFT tends to track the broad Nasdaq tone closely, and the premarket lift in Nasdaq 100 futures is a favorable backdrop for large-cap software and platform names.[1] The expected move is modest because the market is still dealing with a higher 10-year yield, which can cap multiple expansion.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260629_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 523.6,
+      "current_price_at_prediction": 522.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Dow futures were also higher premarket, but only by 0.41%, which suggests DIA should rise less than QQQ if the opening tone holds.[1] The positive direction is supported by the broad futures bid, though the move may remain muted because risk appetite is centered more in tech than in cyclicals.[2]"
+    }
+  ]
+}

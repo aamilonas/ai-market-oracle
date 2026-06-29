@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-29",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-29T14:34:53.479944+00:00",
+  "market_context": "U.S. stock futures are rising amid optimism over U.S.-Iran peace talks, with Dow futures up 0.56%. The economic calendar is light today, with the Dallas Fed Manufacturing Index being the primary release.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260629_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 733.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive sentiment from U.S.-Iran peace talks and rising futures suggest a bullish market outlook for today."
+    },
+    {
+      "id": "pred_gpt4o_20260629_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 707.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tech-heavy Nasdaq futures are climbing, indicating potential gains for QQQ, despite recent AI stock declines."
+    },
+    {
+      "id": "pred_gpt4o_20260629_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.0,
+      "current_price_at_prediction": 520.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Dow futures are up 0.56%, reflecting investor optimism, which is likely to positively impact DIA."
+    },
+    {
+      "id": "pred_gpt4o_20260629_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "current_price_at_prediction": 282.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "General market optimism and Apple's strong market position suggest a modest gain for AAPL today."
+    },
+    {
+      "id": "pred_gpt4o_20260629_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 400.0,
+      "current_price_at_prediction": 391.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tesla's recent positive momentum and overall market sentiment indicate potential for further gains."
+    }
+  ]
+}
