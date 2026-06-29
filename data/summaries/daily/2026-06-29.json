@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T14:35:12.585612+00:00",
+  "generated_at": "2026-06-29T23:30:46.700502+00:00",
   "headline": "18 AI market calls queued for 2026-06-29",
   "summary": "18 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on DIA up."
     },
     {
@@ -21,7 +21,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on MSFT up."
     },
     {
@@ -31,7 +31,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -42,7 +42,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     }
   ],
@@ -57,7 +57,7 @@
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "BTC-USD",
-    "score": null,
+    "score": -0.45,
     "summary": "Lowest-confidence call came from Grok on BTC-USD."
   }
 }
