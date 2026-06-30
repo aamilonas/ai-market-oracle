@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T12:31:33.862993+00:00",
+  "generated_at": "2026-06-30T23:41:45.013247+00:00",
   "headline": "18 AI market calls queued for 2026-06-30",
   "summary": "18 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "GPT-4o"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on AAPL up."
     },
     {
@@ -21,7 +21,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA up."
     },
     {
@@ -32,7 +32,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on QQQ up."
     },
     {
@@ -44,7 +44,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "4 models aligned on SPY up."
     },
     {
@@ -55,7 +55,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA down."
     }
   ],
@@ -70,7 +70,7 @@
     "prediction_id": null,
     "model_display_name": "GPT-4o",
     "ticker": "BTC-USD",
-    "score": null,
+    "score": 1.0,
     "summary": "Lowest-confidence call came from GPT-4o on BTC-USD."
   }
 }
