@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-30",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-06-30T12:31:17.681434+00:00",
+  "market_context": "X sentiment mixed with cautious buying in tech names amid VIX drop to 17.57; futures point to flat open. Pre-market shows NVDA strength on AI news flow while QQQ lags per recent 5-day -1.9% trend.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260630_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 741.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 741 with VIX falling 9.8% signaling lower vol; X chatter highlights dip-buying in indices ahead of quarter-end flows."
+    },
+    {
+      "id": "pred_grok_20260630_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 199.2,
+      "current_price_at_prediction": 194.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA at 194.97 benefits from ongoing AI momentum seen in X options flow; pre-market movers point to positive semiconductor news."
+    },
+    {
+      "id": "pred_grok_20260630_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 405.0,
+      "current_price_at_prediction": 411.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 411.84 faces resistance after 5-day run; X short interest signals and delivery data point to intraday pullback."
+    },
+    {
+      "id": "pred_grok_20260630_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 728.5,
+      "current_price_at_prediction": 724.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "QQQ at 724.08 with -1.9% 5-day underperformance may rebound on broad tech sentiment from X; futures show modest recovery."
+    }
+  ]
+}

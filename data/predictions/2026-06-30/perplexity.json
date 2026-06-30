@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-30",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-06-30T12:30:10Z",
+  "market_context": "Index futures are slightly negative to flat, with S&P 500, Nasdaq 100, and Dow futures all down around 0.01–0.07%, pointing to a modestly softer open after recent gains.[1][3][6] Pre-market indications show SPY, QQQ, and DIA all trading just above their prior closes, suggesting a calm, slightly positive bias despite the mild futures weakness.[5][8] VIX is subdued versus recent levels and there are no major data releases scheduled for later today that would clearly shift the macro narrative, so intraday moves are likely to be driven by sector rotation and stock-specific news.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260630_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 741.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 741.00 and is indicated slightly higher pre-market at about 741.96, showing a modest positive bias despite S&P 500 futures being fractionally down (~0.04%).[1][5] With VIX relatively low and no major macro data on the calendar, the environment favors a continuation of the recent grind higher rather than a sharp reversal, especially after a roughly flat 5‑day move. The narrow gap between futures weakness and ETF pre‑market strength suggests intraday dip‑buying could push SPY modestly above yesterday’s close by the bell."
+    },
+    {
+      "id": "pred_perplexity_20260630_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 732.0,
+      "current_price_at_prediction": 724.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ closed at 724.08 and is trading slightly higher pre‑market around 725.39–725.56, indicating continued strength following its recent 2.49% daily gain.[5][8] Nasdaq 100 futures are nearly flat (~‑0.01%), which, combined with the strong prior tech outperformance, suggests consolidation with a mild upside bias rather than a sharp pullback.[1][7] Given ongoing leadership from large‑cap tech and the relatively calm volatility backdrop, QQQ is likely to finish modestly above its prior close, though the upside may be limited by recent overextension."
+    },
+    {
+      "id": "pred_perplexity_20260630_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 526.0,
+      "current_price_at_prediction": 521.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "DIA closed at 521.68 and is indicated modestly higher pre‑market around 522.38, reflecting a continuation of recent relative strength (+0.9% over 5 days).[5] Dow futures are only slightly negative (about ‑0.07%), implying a flat-to-mildly weaker open but not a strong downside signal.[1][3] With cyclicals and value having shown resilience and no major risk events on today’s calendar, a small positive close above the prior day is more likely than a meaningful drop, albeit with moderate confidence due to the mixed futures signal."
+    },
+    {
+      "id": "pred_perplexity_20260630_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 199.5,
+      "current_price_at_prediction": 194.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "NVDA closed at 194.97 and is among the most actively traded options names today, with heavy volume in near‑term calls, indicating strong speculative interest on the upside.[9] The recent strong performance of the Nasdaq and continued AI‑chip narrative support NVDA as a high‑beta beneficiary of any modest tech strength.[7][8] Given the generally constructive backdrop for large‑cap semis and active call positioning, NVDA has a reasonable probability of closing a few dollars above its current level, though intraday volatility could be elevated."
+    },
+    {
+      "id": "pred_perplexity_20260630_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 402.0,
+      "current_price_at_prediction": 411.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA closed at 411.84 and is highlighted on trader watchlists ahead of delivery data, which often leads to increased volatility and position‑squaring.[2] With the broader market only modestly positive and tech already having rallied strongly, event‑related uncertainty can prompt profit‑taking in high‑beta names like TSLA. The combination of elevated attention, recent strong moves, and lack of clear positive catalysts today raises the odds of a slightly lower close as traders reduce risk into the data."
+    }
+  ]
+}

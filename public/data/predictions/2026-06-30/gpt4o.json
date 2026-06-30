@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-30",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-06-30T12:31:08.139567+00:00",
+  "market_context": "U.S. stock futures are slightly higher as of June 30, 2026, following a strong market performance on June 29, 2026, where major indices posted gains. Investors are awaiting key economic data releases, including the JOLTS job openings report and the Conference Board's consumer confidence index.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260630_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 741.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Following a 1.2% gain in the S&P 500 on June 29, 2026, and positive pre-market futures, SPY is likely to continue its upward trend. Anticipation of favorable economic data releases today may further bolster investor sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260630_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 724.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq Composite led gains on June 29, 2026, with a 2.1% increase, driven by a rebound in AI-related stocks. Continued interest in technology sectors and stable pre-market futures suggest QQQ may see further gains today."
+    },
+    {
+      "id": "pred_gpt4o_20260630_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "current_price_at_prediction": 281.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's stock is positioned to benefit from the overall positive market sentiment and the recent rebound in technology stocks. No significant negative news suggests a potential modest gain by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260630_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 420.0,
+      "current_price_at_prediction": 411.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock has shown strong performance recently, and with the current market momentum, it is likely to continue its upward trajectory. The absence of adverse news and positive investor sentiment support this outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260630_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58000.0,
+      "current_price_at_prediction": 58759.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Bitcoin has experienced a slight decline over the past five days. Given the current market conditions and lack of significant catalysts, it may continue to face downward pressure throughout the day."
+    }
+  ]
+}
