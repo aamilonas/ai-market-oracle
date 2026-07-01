@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-01",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-01T13:18:48.450999+00:00",
+  "market_context": "X/Twitter shows bullish sentiment with heavy discussion around AI stocks and low VIX signaling calm markets. Premarket futures point to modest gains amid no major negative events. Tech momentum from recent 5-day rallies in QQQ and NVDA dominates feeds.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260701_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.5,
+      "current_price_at_prediction": 746.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 746.77 with +1.8% 5-day gain and VIX at 16.87 indicating low fear. X sentiment leans positive on tech with no major macro events today. Expect continuation into close above 750."
+    },
+    {
+      "id": "pred_grok_20260701_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 736.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ up 3.2% over 5 days with strong NVDA and MSFT flows visible in options chatter. X posts highlight AI tailwinds and premarket futures supportive. Low volatility supports further upside to 742."
+    },
+    {
+      "id": "pred_grok_20260701_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 205.0,
+      "current_price_at_prediction": 200.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 200.09 with recent momentum and positive X volume on AI news. No negative catalysts expected today per web scans. Modest follow-through likely given QQQ strength."
+    },
+    {
+      "id": "pred_grok_20260701_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 415.0,
+      "current_price_at_prediction": 420.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA at 420.60 shows relative weakness vs indices and mixed X sentiment on delivery concerns. Crypto dip may add pressure. Expect mild pullback by close."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-01T13:17:58Z",
+  "market_context": "U.S. futures were slightly negative in early trade, with S&P 500 and Dow futures modestly down and Nasdaq 100 futures essentially flat, after a very strong first half for equities.[2][3] The setup is mixed: the 10-year yield remains elevated at 4.49%, VIX is subdued at 16.87, and markets face a shortened holiday week with U.S. markets closed Friday, which can dampen conviction and reduce follow-through.[3][5]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260701_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 744.85,
+      "current_price_at_prediction": 746.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures were down modestly before the open, which leans against an immediate extension of the prior rally.[2][3] After a strong first half, a small pullback or consolidation is more likely than a decisive breakout, especially with the 10-year yield still at 4.49%.[3][5]"
+    },
+    {
+      "id": "pred_perplexity_20260701_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.1,
+      "current_price_at_prediction": 736.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Nasdaq 100 futures were only slightly positive to flat while the prior session context favored a pause after a strong tech-led run.[2][3] QQQ has outperformed on the 5-day basis, so a modest giveback is plausible if traders trim risk into the holiday-shortened week.[3]"
+    },
+    {
+      "id": "pred_perplexity_20260701_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 197.8,
+      "current_price_at_prediction": 200.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "High-beta AI semis tend to be more sensitive to early-session risk-off behavior when index futures are soft and rates remain elevated.[2][3][5] NVDA is close to a round-number level, so even mild profit-taking could push it slightly below the prior close by the end of the day.[3]"
+    },
+    {
+      "id": "pred_perplexity_20260701_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 291.4,
+      "current_price_at_prediction": 289.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "AAPL is less dependent on speculative momentum than the higher-beta megacaps, which can make it relatively resilient on a mixed futures morning.[2][3] With volatility contained and no severe risk signal from VIX, a small defensive bid into large-cap quality is plausible.[3]"
+    },
+    {
+      "id": "pred_perplexity_20260701_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 59350.0,
+      "current_price_at_prediction": 58656.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Bitcoin has been weak on the recent 5-day window, but the broader risk backdrop is not highly stressed because VIX remains below 17.[3] A modest intraday rebound is plausible if equities stabilize after the soft premarket tone.[2][3]"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-01",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-01T13:18:05.877781+00:00",
+  "market_context": "The market is showing mixed signals with strong tech earnings offset by rising inflation concerns. Geopolitical tensions are also contributing to volatility, leading to cautious investor sentiment across various sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260701_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic data releases, suggests a slight upward movement by market close."
+    },
+    {
+      "id": "pred_gemini_20260701_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.5,
+      "current_price_at_prediction": 523.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tech sector resilience continues, with several major components reporting better-than-expected guidance. Institutional inflows are also noted for the week."
+    },
+    {
+      "id": "pred_gemini_20260701_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 228.0,
+      "current_price_at_prediction": 230.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Recent supply chain disruptions and a downgrade from a prominent analyst are creating short-term selling pressure, despite long-term positive outlook."
+    },
+    {
+      "id": "pred_gemini_20260701_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Increased competition in the EV market and concerns over production targets are weighing on investor sentiment, potentially leading to a monthly decline."
+    }
+  ]
+}

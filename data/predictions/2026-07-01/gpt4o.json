@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-01",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-01T13:18:27.187077+00:00",
+  "market_context": "As of July 1, 2026, U.S. stock futures are showing mixed movements: S&P 500 futures are up 0.40%, Nasdaq futures have risen by 1.21%, while Dow futures have declined by 0.13%. Key economic indicators scheduled for release today include the ISM Manufacturing PMI at 10:00 AM ET, with a forecast of 49.5, and the ADP Employment Change at 8:15 AM ET. Additionally, an Extreme Heat Warning is in effect for New York City from noon today until 9 PM EDT Friday, with heat index values expected to reach up to 110°F.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260701_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 746.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "S&P 500 futures are currently up 0.40%, indicating positive market sentiment. The upcoming ISM Manufacturing PMI release, forecasted at 49.5, may influence market direction. Additionally, the VIX has decreased by 9.4% over the past five days, suggesting reduced market volatility."
+    },
+    {
+      "id": "pred_gpt4o_20260701_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 736.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq futures have risen by 1.21%, reflecting strong performance in the technology sector. Key tech stocks like AAPL and MSFT have shown positive momentum, which could contribute to QQQ's upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260701_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 520.0,
+      "current_price_at_prediction": 522.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow futures are currently down 0.13%, indicating potential weakness in industrial and blue-chip stocks. The upcoming ISM Manufacturing PMI release may further impact DIA's performance, especially if the data falls below expectations."
+    },
+    {
+      "id": "pred_gpt4o_20260701_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 292.0,
+      "current_price_at_prediction": 289.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Apple Inc. has shown a 2.6% increase over the past five days. Positive sentiment in the technology sector, as indicated by rising Nasdaq futures, supports the likelihood of AAPL's continued upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260701_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 59000.0,
+      "current_price_at_prediction": 58656.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has experienced a 2.3% decline over the past five days. However, with current market sentiment showing a 0.98% increase in Bitcoin futures, there is potential for a modest rebound by the end of the day."
+    }
+  ]
+}
