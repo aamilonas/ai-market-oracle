@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-02",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-02T12:29:44.362571+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, but recent jobless claims suggest a stable labor market, preventing a significant downturn.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260702_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to recover from early morning dips due to strong institutional buying interest observed in the last hour of trading, pushing it towards the 600 resistance level."
+    },
+    {
+      "id": "pred_gemini_20260702_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.5,
+      "current_price_at_prediction": 228.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "AAPL is facing selling pressure following a downgrade from a major analyst firm and concerns over slowing iPhone sales in key international markets."
+    },
+    {
+      "id": "pred_gemini_20260702_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.3,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Microsoft's cloud division continues to show robust growth, and upcoming earnings expectations are positive, likely driving the stock higher by week's end."
+    },
+    {
+      "id": "pred_gemini_20260702_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.0,
+      "current_price_at_prediction": 183.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Tesla faces increasing competition in the EV market and recent production delays could impact quarterly delivery numbers, leading to a downward trend over the month."
+    }
+  ]
+}

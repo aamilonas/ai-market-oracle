@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-02",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-02T12:30:05.163842+00:00",
+  "market_context": "U.S. stock index futures are muted as investors await the June employment report, with the market closing early at 1 p.m. ET due to the upcoming Independence Day holiday. The Federal Reserve maintains a firm stance on the 2% inflation target, and the VIX has decreased by 12.6% over the past five days, indicating reduced market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260702_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 745.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With the VIX decreasing by 12.6% over the past five days, indicating reduced market volatility, and the market closing early at 1 p.m. ET due to the upcoming Independence Day holiday, SPY is likely to experience a modest upward movement by the end of the shortened trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260702_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 298.0,
+      "current_price_at_prediction": 294.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's stock has shown resilience, and with the overall market sentiment being cautiously optimistic ahead of the employment report, AAPL is expected to see a slight increase by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260702_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 388.0,
+      "current_price_at_prediction": 384.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft's strong market position and the general market's anticipation of positive employment data suggest that MSFT may experience a modest uptick by the close of the shortened trading session."
+    },
+    {
+      "id": "pred_gpt4o_20260702_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 62000.0,
+      "current_price_at_prediction": 61160.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown a 4.56% increase recently, and with reduced market volatility, it is likely to continue its upward trend, albeit with moderate confidence due to the inherent volatility of cryptocurrencies."
+    }
+  ]
+}

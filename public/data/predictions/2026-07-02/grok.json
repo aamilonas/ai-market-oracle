@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-02",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-02T12:30:14.281811+00:00",
+  "market_context": "X/Twitter shows moderately bullish sentiment with positive chatter on tech resilience and low VIX signaling calm. Pre-market futures point to a flat-to-up open amid steady 10Y yields. No major negative catalysts noted for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260702_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.5,
+      "current_price_at_prediction": 745.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX at 16.52 and 5-day SPY gain of 1.7% suggest continued momentum. X sentiment leans positive on indices with limited downside catalysts."
+    },
+    {
+      "id": "pred_grok_20260702_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 732.0,
+      "current_price_at_prediction": 725.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ up 2.0% over 5 days and strong NVDA/MSFT positioning point to outperformance. X flow shows retail interest in mega-caps."
+    },
+    {
+      "id": "pred_grok_20260702_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 202.0,
+      "current_price_at_prediction": 197.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech leadership and crypto correlation (BTC +2.2%) support NVDA. X mentions highlight AI demand without fresh negative news."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-02T12:29:30Z",
+  "market_context": "U.S. index futures are mixed to slightly weaker ahead of the open, with S&P 500 and Dow futures modestly down and Nasdaq 100 futures underperforming, as traders position for a heavy 8:30 a.m. ET data slate including jobless claims and the June jobs report.[2][3] Sector commentary shows recent rotation out of information technology into communication services, financials, and consumer discretionary, while volatility remains relatively subdued and Bitcoin is firmer.[2] Global markets are mixed but generally constructive, with European indices mostly higher and Asian markets split, suggesting a cautiously risk-on backdrop heading into the U.S. session.[2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260702_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 738.0,
+      "current_price_at_prediction": 745.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "S&P 500 futures are modestly negative pre-market, indicating a slightly lower implied open as traders brace for the June nonfarm payrolls report, unemployment rate, and wage data at 8:30 a.m. ET.[2][3] Recent commentary highlights that SPY had already lost some steam in the prior session amid pressure on AI and tech-related names, suggesting a market vulnerable to profit-taking if macro data disappoints or reinforces higher-for-longer rate concerns.[10][2] With VIX still relatively low and no clear sign of panic, a controlled intraday pullback in SPY toward the high-730s is more likely than a sharp selloff."
+    },
+    {
+      "id": "pred_perplexity_20260702_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 725.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq 100 futures are underperforming S&P and Dow futures, trading notably lower and signaling relative weakness in large-cap growth and technology at the open.[3][2] Recent market notes indicate that information technology has lagged while other sectors like communication services and financials have led, and that QQQ already declined in the prior session even as SPY was slightly higher.[2][10] With AI and chip-related names under pressure and a major macro data release that could weigh on long-duration growth assets, QQQ has a higher probability of finishing the day modestly below its prior close."
+    },
+    {
+      "id": "pred_perplexity_20260702_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 190.0,
+      "current_price_at_prediction": 197.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Recent commentary notes that AI and semiconductor-related stocks have been facing renewed selling pressure ahead of key jobs and macro data, contributing to weakness in QQQ and the tech sector.[2][10] With Nasdaq 100 futures notably weaker than S&P and Dow futures, high-beta AI leaders like Nvidia are likely to experience amplified moves in the same direction as the broader tech complex.[3][2] Given the elevated run-up in NVDA and the current risk-off tone toward high-multiple growth names, a pullback of a few percent toward the low-190s is plausible by the close."
+    },
+    {
+      "id": "pred_perplexity_20260702_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 625.0,
+      "current_price_at_prediction": 612.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Sector performance commentary indicates that communication services stocks have recently been among the strongest groups, outpacing information technology and utilities in the prior session.[2] As a major communication services constituent with AI and advertising exposure, Meta tends to benefit from rotation into the sector when investors seek growth at more reasonable valuations than pure-play chip names.[2][10] With the overall market tone still broadly risk-on and futures only modestly weak, META has a reasonable chance to outperform and finish slightly above its prior close."
+    },
+    {
+      "id": "pred_perplexity_20260702_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 62300.0,
+      "current_price_at_prediction": 61266.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is reported trading higher over the last 24 hours and has gained around 2% over the past five days, indicating a short-term upward trend and improving sentiment in crypto.[2] The U.S. dollar index is modestly lower in early trade, which historically supports risk assets such as Bitcoin when real yields are not sharply rising.[2] With equity volatility still contained and no major negative crypto-specific headlines in the overnight news flow, a modest continuation higher toward the mid-$62,000s by the end of the U.S. trading day is slightly more likely than a reversal."
+    }
+  ]
+}
