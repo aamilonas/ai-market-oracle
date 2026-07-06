@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-06T14:09:23.555950+00:00",
+  "market_context": "X/Twitter sentiment is moderately bullish with positive chatter on AI stocks and crypto recovery. Pre-market futures point to a flat-to-up open amid low VIX. No major macro events scheduled but options flow shows call buying in NVDA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260706_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 751.2,
+      "current_price_at_prediction": 748.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 748.53 with 5-day gain of 2.7% and VIX at 16.21. X sentiment shows retail optimism on tech rotation. Expect continuation into positive open."
+    },
+    {
+      "id": "pred_grok_20260706_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 199.5,
+      "current_price_at_prediction": 196.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA at 196.16 with strong options call flow noted on X. Recent 5-day momentum and AI narrative support further upside today."
+    },
+    {
+      "id": "pred_grok_20260706_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 401.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA at 401.60 shows overextended 5-day run. X chatter highlights profit-taking and delivery concerns weighing on price into close."
+    },
+    {
+      "id": "pred_grok_20260706_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 61812.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC at 61812 with 3% 5-day gain and correlated equity strength. Positive X crypto sentiment and ETH outperformance suggest follow-through."
+    }
+  ]
+}

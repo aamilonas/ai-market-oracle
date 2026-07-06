@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-06",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-06T14:09:08.535965+00:00",
+  "market_context": "U.S. stock futures are up as chip stocks recover and oil prices decline. The economic calendar is light today, with key data including the ISM Non-Manufacturing Index and S&P Global Services PMI.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260706_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 748.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With chip stocks stabilizing and oil prices declining, market sentiment is positive. The ISM Non-Manufacturing Index and S&P Global Services PMI are expected to show steady growth, supporting an upward movement in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260706_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "As chip stocks recover from recent weakness, NVIDIA is likely to benefit from the positive sentiment in the semiconductor sector, leading to a potential price increase."
+    },
+    {
+      "id": "pred_gpt4o_20260706_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 242.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With a light economic calendar and no major earnings reports today, investors may focus on stable growth stocks like Amazon, potentially driving its price higher."
+    },
+    {
+      "id": "pred_gpt4o_20260706_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61000.0,
+      "current_price_at_prediction": 61812.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has been facing significant declines, closing below crucial technical levels despite growing institutional infrastructure. This trend may continue, leading to a further decrease in its price."
+    }
+  ]
+}

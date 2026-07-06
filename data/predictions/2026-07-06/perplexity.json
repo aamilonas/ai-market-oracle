@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-06T14:07:40Z",
+  "market_context": "Index futures and ETF pre-market indications point to a modestly positive open for U.S. equities, with SPY, QQQ and DIA all trading slightly above or near Friday’s close in pre-market action.[1][7][10] Overseas markets, including the Nikkei and Hang Seng, were broadly higher, and volatility remains subdued with the VIX in the mid-teens, while the 10-year yield around 4.5% suggests no major overnight bond shock.[2][9] The backdrop is a continuing uptrend over the past week for major indices and crypto, with no evident single negative macro headline dominating pre-market news.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260706_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 748.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is indicated slightly higher in pre-market trading relative to Friday’s close, consistent with modest gains in S&P 500 futures and a positive tone in global risk markets.[1][7][9] The ETF has risen about 2.7% over the last five days with the VIX falling into the mid-teens, indicating an environment of declining implied volatility and dip-buying behavior. Given the sustained short-term uptrend and absence of a clear negative macro catalyst in the immediate pre-market news flow, a continuation to a mildly higher close, on the order of 0.5–1.0%, is more likely than a reversal, though elevated absolute levels cap confidence."
+    },
+    {
+      "id": "pred_perplexity_20260706_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "current_price_at_prediction": 722.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ has gained about 2.3% over the past five days and is indicated slightly positive in pre-market trading alongside Nasdaq-100 futures strength.[1][3][10] Large-cap tech leaders such as NVDA, MSFT, and META have been key drivers of recent index gains, and there is no broad-based negative tech earnings or regulatory headline in the overnight news that would suggest abrupt profit-taking. With volatility contained and risk appetite still evident in growth stocks, a modestly higher close for QQQ, roughly 1% above the prior close, is somewhat more probable than a decline, though concentration risk in a few mega-caps keeps confidence below 0.6."
+    },
+    {
+      "id": "pred_perplexity_20260706_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 532.0,
+      "current_price_at_prediction": 526.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "DIA has risen about 1.7% over the last five days and pre-market indications show the ETF or associated futures near flat to slightly higher, mirroring modest gains in Dow futures.[1][2][4] The macro backdrop—stable to slightly risk-on global equity markets and no major negative surprise in rates overnight—supports continued incremental rotation into cyclicals and value components within the Dow. Given the recent but not extreme strength versus growth-heavy indices, a small additional gain into the close, on the order of 1%, is marginally more likely than a pullback, though the Dow’s sector mix and sensitivity to any intraday macro headline limit conviction."
+    },
+    {
+      "id": "pred_perplexity_20260706_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 201.0,
+      "current_price_at_prediction": 196.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVIDIA has been a key contributor to recent gains in the Nasdaq and broader AI-related rally, aligning with the 5-day advance in QQQ and SPY.[1][3][10] Pre-market commentary and flows continue to highlight semiconductors and AI infrastructure as leadership groups, with no adverse company-specific headline evident in the overnight news. Given strong momentum, ongoing investor focus on AI, and a generally constructive risk backdrop, a modest continuation higher toward roughly 2–3% gains intraday appears slightly more probable than a reversal, though the stock’s historical intraday volatility keeps confidence below 0.6."
+    },
+    {
+      "id": "pred_perplexity_20260706_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 392.0,
+      "current_price_at_prediction": 401.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "TSLA has recently rallied sharply alongside broader growth and EV names, which can increase the risk of profit-taking on days when the broader market is merely modestly higher.[1][2][9] The stock’s beta and intraday volatility are significantly higher than those of the indices, and pre-market indications do not show a clear strong upside catalyst relative to the prior close. In a session characterized by moderate index gains and subdued volatility, TSLA has a slightly higher chance of underperforming and closing modestly lower (around 2–3%) as traders lock in recent profits, although the lack of a specific negative company catalyst caps confidence."
+    }
+  ]
+}

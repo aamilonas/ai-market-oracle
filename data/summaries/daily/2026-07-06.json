@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T14:09:34.320760+00:00",
+  "headline": "13 AI market calls queued for 2026-07-06",
+  "summary": "13 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on NVDA up."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "GPT-4o",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on SPY up."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models aligned on TSLA down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "GPT-4o",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-confidence call came from GPT-4o on NVDA."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "Grok",
+    "ticker": "TSLA",
+    "score": null,
+    "summary": "Lowest-confidence call came from Grok on TSLA."
+  }
+}

@@ -693,6 +693,23 @@
       ],
       "confidence": 0.5667,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "NVDA",
+      "direction": "up",
+      "entry_price": 194.39,
+      "exit_price": null,
+      "shares": 132,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Perplexity",
+        "Grok",
+        "GPT-4o"
+      ],
+      "confidence": 0.64,
+      "status": "OPEN"
     }
   ]
 }
