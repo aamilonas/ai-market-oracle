@@ -1,5 +1,5 @@
 {
-  "balance": 25843.32,
+  "balance": 25448.07,
   "starting_balance": 25000,
   "trades": [
     {
@@ -716,10 +716,10 @@
       "ticker": "SPXL",
       "direction": "up",
       "entry_price": 275.81,
-      "exit_price": null,
+      "exit_price": 271.56,
       "shares": 93,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": -395.25,
+      "pnl_pct": -1.54,
       "models": [
         "Gemini",
         "Perplexity",
@@ -727,7 +727,7 @@
         "GPT-4o"
       ],
       "confidence": 0.6525,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
