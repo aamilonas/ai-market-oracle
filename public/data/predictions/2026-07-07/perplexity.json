@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-07",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-07T12:43:04Z",
+  "market_context": "U.S. equity futures are mixed to slightly positive, with S&P 500 and Nasdaq 100 futures up around 0.8–1.7% while Dow futures are roughly flat, following a recent multi-day rally in major indices.[3] Volatility remains subdued with a low VIX and crypto is modestly higher, suggesting a continuation of a risk-on environment but with some rotation between Dow and Nasdaq components.[2][3] Overseas markets are mixed to weaker, which may temper gains but current futures levels imply a modestly higher open for the broad U.S. market.[2][3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260707_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.0,
+      "current_price_at_prediction": 751.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "S&P 500 futures are up roughly 0.8% in pre-market trading, indicating a higher open and supportive short-term momentum for the index.[3] With SPY already up about 3.1% over the past five days and VIX remaining relatively low, the prevailing risk-on tone favors a modest continuation of the move rather than an immediate sharp reversal.[2] I expect SPY to close moderately higher, but gains may be constrained by recent strong performance and mixed signals from global markets.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260707_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "current_price_at_prediction": 722.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Nasdaq 100 futures are outperforming, up around 1.7%, which suggests continued strength in large-cap growth and tech names that dominate QQQ.[3] Despite a recent 2.3% gain over the last five days, the combination of strong futures and still-benign volatility conditions supports a further, but measured, advance.[2][3] I expect QQQ to close higher, with intraday swings possible due to its higher beta and sensitivity to any tech-specific news."
+    },
+    {
+      "id": "pred_perplexity_20260707_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.5,
+      "current_price_at_prediction": 195.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq 100 futures strength and the ongoing AI-related momentum in large-cap semiconductors provide a supportive backdrop for NVDA, a key weighting in QQQ and the Nasdaq 100.[3] With QQQ and index futures pointing higher and the broader risk-on tone still present, NVDA is likely to participate in tech-led gains, though recent volatility caps confidence slightly.[2][3] I expect NVDA to close modestly higher, with intraday moves influenced by sector news and broader tech sentiment."
+    },
+    {
+      "id": "pred_perplexity_20260707_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 63516.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is modestly higher over the last 24 hours and has gained about 3.3% over the past five days, aligning with a broader risk-on sentiment across equities and crypto.[2] With volatility relatively contained and no major negative macro catalysts in the immediate pre-market news flow, a continued but moderate upward drift is plausible.[2][3] However, crypto’s intrinsic intraday volatility reduces confidence, so the expected move is incremental rather than large."
+    }
+  ]
+}

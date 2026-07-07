@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-07",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-07T12:43:36.249775+00:00",
+  "market_context": "As of July 7, 2026, the U.S. stock market is experiencing a positive trend, with major indices like SPY, QQQ, and DIA showing gains over the past five days. The VIX has decreased by 3.8% in the same period, indicating reduced market volatility. The 10-year Treasury yield stands at 4.49%, suggesting stable interest rates. Notably, there are no significant economic data releases or major earnings reports scheduled for today.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260707_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 751.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY has gained 3.1% over the past five days, and with no major economic data releases or earnings reports today, the positive momentum is likely to continue."
+    },
+    {
+      "id": "pred_gpt4o_20260707_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 312.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AAPL has shown a positive trend recently, and in the absence of significant market-moving events today, it is expected to maintain its upward trajectory."
+    },
+    {
+      "id": "pred_gpt4o_20260707_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 63516.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has increased by 3.3% over the past five days, and with no adverse news affecting the cryptocurrency market, it is likely to continue its upward movement."
+    }
+  ]
+}

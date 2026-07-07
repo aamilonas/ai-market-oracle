@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-07",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-07T12:43:16.101504+00:00",
+  "market_context": "Recent economic data indicates a mixed sentiment with strong tech earnings offsetting concerns about inflation. Geopolitical stability is contributing to cautious optimism, but interest rate hike expectations remain a key factor influencing market movements.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260707_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong opening momentum and positive tech sector news are expected to push the index higher by market close."
+    },
+    {
+      "id": "pred_gemini_20260707_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 515.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Continued strong performance from major tech components and favorable analyst upgrades are likely to drive growth over the week."
+    },
+    {
+      "id": "pred_gemini_20260707_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 453.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Concerns over industrial output data and a slight increase in bond yields are creating downward pressure for the day."
+    }
+  ]
+}

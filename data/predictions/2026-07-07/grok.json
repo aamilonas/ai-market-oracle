@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-07",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-07T12:43:52.089943+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting AI momentum and low VIX at 15.82. Pre-market futures point to a flat open amid 10Y yield at 4.49%. No major catalysts expected today beyond ongoing earnings season.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260707_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.5,
+      "current_price_at_prediction": 751.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up on continued tech rotation seen in QQQ's 5-day gain. Low VIX supports dip-buying per recent X flow analysis."
+    },
+    {
+      "id": "pred_grok_20260707_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.1,
+      "current_price_at_prediction": 195.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA benefits from sustained AI demand chatter on X and options flow favoring calls."
+    },
+    {
+      "id": "pred_grok_20260707_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 412.0,
+      "current_price_at_prediction": 419.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA faces profit-taking after 5-day rally with short interest signals noted in recent scans."
+    },
+    {
+      "id": "pred_grok_20260707_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 63516.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC tracks equity risk-on mood and shows positive ETH correlation per X crypto desks."
+    }
+  ]
+}
