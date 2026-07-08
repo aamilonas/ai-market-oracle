@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-08",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-08T12:06:21.368462+00:00",
+  "market_context": "X sentiment mixed with caution on rising VIX and QQQ weakness, though some bullish chatter on NVDA recovery. Pre-market futures flat to slightly up amid no major catalysts; options flow shows defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260708_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.5,
+      "current_price_at_prediction": 747.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 747.71 with +0.9% 5-day gain; X shows mild optimism on stable 10Y yield at 4.53%. Expect modest rebound on low VIX volatility."
+    },
+    {
+      "id": "pred_grok_20260708_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 709.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ -2.0% over 5 days and VIX +7% signal continued tech pressure. X flow highlights short interest in mega-caps."
+    },
+    {
+      "id": "pred_grok_20260708_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 200.0,
+      "current_price_at_prediction": 196.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA near-term support at 196 with positive pre-market chatter on X around AI demand. Low conviction due to overall market caution."
+    },
+    {
+      "id": "pred_grok_20260708_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61500.0,
+      "current_price_at_prediction": 62239.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "BTC -0.5% 5-day and correlated with risk-off VIX move. X sentiment shows whale selling signals in crypto feeds."
+    }
+  ]
+}

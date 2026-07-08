@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-08",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-08T12:05:35Z",
+  "market_context": "U.S. futures were weaker ahead of the open, with Nasdaq 100 futures down about 0.6% to 1.35% and S&P 500 futures modestly lower, while Dow futures were slightly positive in one feed. Recent news flow points to higher oil, weaker semiconductor sentiment, and a firmer 10-year yield near 4.56%, which is a mix that typically pressures growth-heavy indexes more than value stocks.[1][2][4]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260708_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 741.8,
+      "current_price_at_prediction": 747.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY is starting from a prior close of 747.71, while futures are pointing to a soft open and the 10-year yield remains elevated near 4.56%. Benzinga reports S&P 500 futures lower and notes weakness in tech and broader index performance, which supports a mild downside bias for the session.[2][4]"
+    },
+    {
+      "id": "pred_perplexity_20260708_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 702.5,
+      "current_price_at_prediction": 709.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "QQQ is the most exposed to the overnight weakness in Nasdaq 100 futures, which were down between 0.62% and 1.35% in the cited feeds.[1][4] With chip and AI sentiment under pressure and rates still high, I expect QQQ to underperform the broad market again today.[2][8]"
+    },
+    {
+      "id": "pred_perplexity_20260708_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 192.5,
+      "current_price_at_prediction": 196.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA is likely to stay under pressure because the overnight move in Nasdaq futures was led by weakness in memory-chip and AI-related stocks.[8][4] A softer risk tone and higher-rate backdrop typically compress valuation-sensitive semiconductors more than the market average.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260708_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 402.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA tends to trade as a high-beta growth name, so a weaker Nasdaq open and rising risk aversion are negative setup factors.[1][4] The move does not need to be large for the stock to finish below the prior close if the index weakness persists through midday.[2]"
+    },
+    {
+      "id": "pred_perplexity_20260708_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 529.9,
+      "current_price_at_prediction": 528.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "DIA has the best relative setup among the major ETFs because Dow futures were slightly positive in one feed while Nasdaq futures were clearly weaker, implying a possible rotation away from growth into large-cap industrial/value exposure.[1][4] The recent 5-day trend is also stronger for DIA than QQQ, which supports mild relative outperformance even if the broader tape is choppy.[baseline data]"
+    }
+  ]
+}

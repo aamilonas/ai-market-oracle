@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-08",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-08T12:06:08.398388+00:00",
+  "market_context": "U.S. stock futures are slightly down ahead of the market open, with S&P 500 futures down 0.20%, Dow futures down 0.28%, and Nasdaq futures down 0.39%. Key economic events today include the release of the Federal Open Market Committee (FOMC) meeting minutes at 2:00 PM ET, which may provide insights into future interest rate policies.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260708_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 740.0,
+      "current_price_at_prediction": 747.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Pre-market futures indicate a slight decline in the S&P 500, and the upcoming FOMC meeting minutes may introduce uncertainty, potentially leading to a modest decrease in SPY by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260708_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 709.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are down 0.39% pre-market, and with technology stocks showing weakness, QQQ is likely to experience a decline by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260708_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 525.0,
+      "current_price_at_prediction": 528.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures are down 0.28% pre-market, suggesting a potential slight decrease in DIA by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260708_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 305.0,
+      "current_price_at_prediction": 310.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With technology stocks under pressure and Nasdaq futures indicating a decline, AAPL may see a decrease in its stock price by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260708_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61500.0,
+      "current_price_at_prediction": 62239.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is down 0.81% pre-market, and with overall market sentiment leaning bearish, BTC-USD may continue to decline by the end of the day."
+    }
+  ]
+}
