@@ -728,6 +728,23 @@
       ],
       "confidence": 0.6525,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-07-09",
+      "ticker": "TSLA",
+      "direction": "down",
+      "entry_price": 393.94,
+      "exit_price": null,
+      "shares": 64,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Gemini",
+        "Perplexity",
+        "GPT-4o"
+      ],
+      "confidence": 0.5733,
+      "status": "OPEN"
     }
   ]
 }

@@ -1,4 +1,19 @@
 {
-  "date": "2026-07-08",
-  "winner": null
+  "date": "2026-07-09",
+  "winner": {
+    "ticker": "TSLA",
+    "direction": "down",
+    "avg_confidence": 0.5733,
+    "avg_target": 352.33,
+    "avg_entry": 358.99,
+    "expected_move_pct": 1.86,
+    "score": 1.0636,
+    "models": [
+      "Gemini",
+      "Perplexity",
+      "GPT-4o"
+    ],
+    "model_count": 3,
+    "high_conviction": false
+  }
 }

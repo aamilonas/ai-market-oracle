@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-09T13:31:57Z",
+  "market_context": "U.S. equity futures are modestly higher with S&P 500 and Nasdaq 100 futures up around 0.1–0.2%, and SPY, QQQ, and DIA all trading slightly green in pre-market action, led by strength in chip names.[1][2][3] Treasury yields are steady around 4.56–4.57% on the 10-year while volatility remains contained with the VIX in the mid-teens, and investors are watching initial jobless claims and housing data due this morning.[3] Sector-wise, tech and semiconductors are showing relative strength after outperforming yesterday, while cyclicals were weaker, suggesting a continued tilt toward large-cap growth into today’s session.[3][4]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260709_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.0,
+      "current_price_at_prediction": 746.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is indicated modestly higher in pre-market, up about 0.2% versus yesterday’s close, supported by slightly positive S&P 500 futures and a constructive tone in global markets.[1][2][3] The 10-year yield is roughly flat near 4.56–4.57%, and the VIX in the mid-teens suggests no major risk-off shift, which typically favors a mild continuation higher in large-cap indices.[3] With tech and semiconductors providing leadership and no major macro shock on today’s calendar beyond routine jobless claims and housing data, the balance of probabilities favors SPY finishing slightly above the prior close."
+    },
+    {
+      "id": "pred_perplexity_20260709_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "current_price_at_prediction": 717.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq 100 futures are outperforming, up around 0.2% pre-market, and QQQ is indicated higher by roughly 0.6–0.8%, reflecting continued strength in large-cap tech and chip stocks after they led on Wednesday.[1][2][3][4] Options flow shows heavy activity in near-the-money QQQ calls, consistent with traders positioning for upside in the near term.[9] With bond yields stable and growth sectors in favor, it is more likely than not that QQQ closes the day above its prior close, even if intraday volatility is elevated."
+    },
+    {
+      "id": "pred_perplexity_20260709_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 203.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Semiconductor stocks are highlighted as leaders in today’s early trade, helping support the broader indices, and NVDA is among the most actively traded call-option names for 0DTE contracts, indicating bullish short-term positioning.[4][9] With Nasdaq 100 futures green and tech outperforming, the sector backdrop favors a positive session for high-beta chip names like NVDA.[2][3] While NVDA is volatile and sensitive to intraday swings, the combination of strong options interest and supportive index trends tilts the odds toward an up close versus yesterday."
+    },
+    {
+      "id": "pred_perplexity_20260709_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 382.0,
+      "current_price_at_prediction": 392.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Despite a generally constructive tape for large-cap growth, TSLA-specific options flow shows elevated put activity at the 390 strike for today’s expiry, suggesting hedging or speculative downside bets.[9] The stock has recently exhibited high intraday volatility and has lagged some megacap tech peers on mixed sentiment around margins and competition, making it more vulnerable to any risk-off pockets during the session.[3] With macro conditions only modestly supportive rather than strongly bullish, TSLA’s idiosyncratic pressure increases the probability of a red close relative to its prior day."
+    },
+    {
+      "id": "pred_perplexity_20260709_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 313.0,
+      "current_price_at_prediction": 308.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "AAPL, as a core weight in both SPY and QQQ, stands to benefit from the modestly positive tone in index futures and the ongoing preference for megacap tech leaders in a stable-yield environment.[2][3] There are no significant negative AAPL-specific headlines in the pre-market news flow, and the broader tech sector is showing relative strength with semiconductors and large-cap growth leading.[3][4] Given its lower volatility relative to many peers and its central role in passive flows, AAPL has a slightly better-than-even chance of finishing the session modestly above its prior close."
+    }
+  ]
+}

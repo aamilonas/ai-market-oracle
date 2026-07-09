@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-09",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-09T13:32:41.615507+00:00",
+  "market_context": "X/Twitter sentiment is cautiously bullish on AI stocks despite VIX rising 3.8% over five days, with traders citing stable pre-market futures. No major macro events today but options flow shows heavy call buying in NVDA. Yields at 4.57% cap broader upside.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260709_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 749.5,
+      "current_price_at_prediction": 746.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Flat futures and positive X chatter on tech earnings support a modest SPY gain; 5-day trend is +0.1% with VIX not yet signaling panic."
+    },
+    {
+      "id": "pred_grok_20260709_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 199.0,
+      "current_price_at_prediction": 203.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Heavy call flow noted but rising 10Y yield at 4.57% pressures high-valuation names; X shows profit-taking chatter after recent run."
+    },
+    {
+      "id": "pred_grok_20260709_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 398.0,
+      "current_price_at_prediction": 392.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "EV sector sentiment improving on X with no negative headlines; aligns with broader risk-on tone in pre-market."
+    },
+    {
+      "id": "pred_grok_20260709_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 61800.0,
+      "current_price_at_prediction": 62585.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto follows equity risk sentiment; 5-day -0.8% trend and higher yields weigh on BTC per recent X flows."
+    }
+  ]
+}
