@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "generated_at": "2026-07-09T13:33:00.098981+00:00",
+  "generated_at": "2026-07-09T23:41:04.279627+00:00",
   "headline": "17 AI market calls queued for 2026-07-09",
   "summary": "17 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -12,7 +12,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on AAPL up."
     },
     {
@@ -24,7 +24,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "4 models aligned on SPY up."
     },
     {
@@ -35,7 +35,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA down."
     }
   ],
@@ -43,14 +43,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "AAPL",
-    "score": null,
+    "score": 0.72,
     "summary": "Highest-confidence call came from Gemini on AAPL."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "GPT-4o",
     "ticker": "TSLA",
-    "score": null,
+    "score": -0.55,
     "summary": "Lowest-confidence call came from GPT-4o on TSLA."
   }
 }
