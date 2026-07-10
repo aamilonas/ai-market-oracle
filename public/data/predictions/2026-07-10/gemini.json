@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-10",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-10T12:41:22.739407+00:00",
+  "market_context": "Recent inflation data suggests a cooling economy, leading to increased speculation about potential interest rate cuts later in the year. Technology stocks are showing resilience, while energy sectors face headwinds from fluctuating oil prices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260710_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q2 earnings reports from major tech components within the S&P 500 are driving positive sentiment, with institutional buying observed."
+    },
+    {
+      "id": "pred_gemini_20260710_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Continued strength in AI-related stocks and positive analyst revisions for key technology companies are expected to push the index higher."
+    },
+    {
+      "id": "pred_gemini_20260710_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.0,
+      "current_price_at_prediction": 397.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Concerns over rising bond yields and a slight dip in consumer confidence data are weighing on industrial and financial sectors."
+    },
+    {
+      "id": "pred_gemini_20260710_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "current_price_at_prediction": 280.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Anticipation of new product announcements and strong delivery numbers for the current quarter are creating positive momentum."
+    }
+  ]
+}

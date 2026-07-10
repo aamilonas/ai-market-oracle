@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-10",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-10T12:41:13Z",
+  "market_context": "Index futures are mixed ahead of the open: S&P 500 and Dow futures are slightly positive while Nasdaq 100 futures trade notably lower, pointing to mild large-cap strength but tech softness.[1][10] Pre-market ETFs show SPY modestly higher, DIA up, and QQQ up in some screens but down in others, consistent with choppy tech-led action and rotation toward cyclicals.[2][9] Volatility remains low with the VIX in the mid-teens and the 10Y yield elevated around 4.5%, suggesting a still‑risk‑on backdrop but with rate sensitivity and profit‑taking pressure in high-multiple tech.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260710_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.0,
+      "current_price_at_prediction": 751.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are slightly positive and SPY is indicated modestly higher in pre-market, pointing to a mildly bullish open despite mixed Nasdaq action.[1][2][10] The VIX remains subdued around the mid-teens and recent 5‑day performance is positive, suggesting ongoing dip‑buying rather than aggressive de‑risking.[9] With rates stable near 4.5% and rotation out of the most rate‑sensitive tech, broad large-cap exposure like SPY typically benefits from sector balance and defensive inflows."
+    },
+    {
+      "id": "pred_perplexity_20260710_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 723.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq 100 futures are notably weaker than S&P and Dow futures, indicating relative pressure on large-cap growth and tech at the open.[1][10] Pre-market indications for QQQ are conflicting but one major feed shows QQQ down around 0.4%, aligning with the weaker Nasdaq futures tone and suggesting profit‑taking after a strong run.[2][9] With the 10Y yield elevated near 4.5%, rate sensitivity in high‑duration tech remains a headwind, increasing the odds QQQ finishes slightly below the prior close."
+    },
+    {
+      "id": "pred_perplexity_20260710_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 528.0,
+      "current_price_at_prediction": 524.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Dow futures are modestly positive and DIA is indicated higher in pre-market, reflecting investor preference for value and cyclicals over high‑growth tech in the current rate environment.[1][2][10] Elevated long-term yields often favor cash‑generative, less duration‑sensitive names that dominate the Dow, while Nasdaq weakness implies potential rotation into these sectors.[10] With volatility still contained and the broader market not flashing clear risk-off signals, a modest continuation higher in DIA by the close is more likely than a reversal."
+    },
+    {
+      "id": "pred_perplexity_20260710_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 196.0,
+      "current_price_at_prediction": 202.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Nasdaq 100 futures are underperforming, signaling pressure on mega-cap growth and AI leaders that have recently led the market, including NVDA.[1][10] NVDA has had a strong run and tends to move with high beta to QQQ; with QQQ indicated weaker and rates elevated, profit‑taking in AI and semiconductor names is more likely intraday.[9][10] The combination of stretched valuations and a cautious tone in tech pre-market increases the probability NVDA closes below its prior close."
+    },
+    {
+      "id": "pred_perplexity_20260710_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65200.0,
+      "current_price_at_prediction": 64344.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Bitcoin has posted modest gains over the past 5 days, indicating a constructive short-term trend with no signs of sharp risk‑off despite higher yields.[9] Equity volatility is contained with the VIX in the mid-teens, and mixed but not extreme moves in index futures suggest a stable macro backdrop that often supports crypto as a speculative risk asset.[1][10] In the absence of major negative overnight catalysts, a small continuation of the existing uptrend toward a slightly higher close is more likely than a retrace."
+    }
+  ]
+}

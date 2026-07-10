@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-10",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-10T12:42:20.208264+00:00",
+  "market_context": "X/Twitter sentiment is mildly bullish on AI and tech with NVDA and META seeing positive mentions amid low VIX. Pre-market futures point to a flat-to-up open with no major negative catalysts. Expected Fed-related commentary is the main event today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260710_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.5,
+      "current_price_at_prediction": 751.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 751.71 with 5-day gain of 0.8%. X chatter shows rotation into large-cap ETFs and futures are +0.3% pre-market. Low VIX at 15.82 supports continuation higher into close."
+    },
+    {
+      "id": "pred_grok_20260710_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 208.0,
+      "current_price_at_prediction": 202.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA at 202.78 with strong options flow noted on X for calls. Positive AI news flow continues and 5-day trend supportive. Expect follow-through above 205 by EOD."
+    },
+    {
+      "id": "pred_grok_20260710_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 400.0,
+      "current_price_at_prediction": 406.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 406.55 shows short interest signals on X and recent 5-day gain may face profit-taking. No positive catalyst today and broader EV sector quiet."
+    },
+    {
+      "id": "pred_grok_20260710_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65200.0,
+      "current_price_at_prediction": 64344.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC at 64344 with 5-day +1.2% and crypto Twitter sentiment turning optimistic on ETF inflows. Correlates with risk-on equity tone."
+    }
+  ]
+}

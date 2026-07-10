@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-10",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-10T12:42:09.099886+00:00",
+  "market_context": "As of July 10, 2026, the U.S. stock market is experiencing volatility due to escalating geopolitical tensions in the Strait of Hormuz, leading to a significant drop in the Dow Jones Industrial Average and a surge in crude oil prices. Additionally, the VIX has increased by 1.6% over the past five days, indicating heightened market uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260710_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 745.0,
+      "current_price_at_prediction": 751.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The SPDR S&P 500 ETF Trust (SPY) is likely to decline due to increased market volatility stemming from geopolitical tensions in the Strait of Hormuz, which have previously led to a 1.1% drop in the Dow Jones Industrial Average and a 5.2% surge in crude oil prices. The VIX's 1.6% increase over the past five days further indicates heightened market uncertainty."
+    },
+    {
+      "id": "pred_gpt4o_20260710_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 316.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. (AAPL) is expected to rise following the confirmation of a $30 billion custom silicon deal through 2031, which has previously led to a 0.9% increase in its stock price. This strategic partnership is likely to bolster investor confidence and drive the stock higher."
+    },
+    {
+      "id": "pred_gpt4o_20260710_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 202.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA Corp (NVDA) is anticipated to continue its upward trajectory, having previously gained 3.7% amid tech sector strength. The company's strong performance and positive market sentiment towards tech stocks suggest potential for further gains."
+    },
+    {
+      "id": "pred_gpt4o_20260710_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 400.0,
+      "current_price_at_prediction": 406.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tesla Inc. (TSLA) may experience a slight decline due to broader market volatility and investor caution amid geopolitical tensions. While the stock has shown resilience, external factors could exert downward pressure in the short term."
+    },
+    {
+      "id": "pred_gpt4o_20260710_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 64344.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC-USD) is likely to appreciate as investors seek alternative assets amid market uncertainty. The cryptocurrency's 1.2% gain over the past five days indicates a trend towards safe-haven assets during periods of geopolitical tension."
+    }
+  ]
+}
