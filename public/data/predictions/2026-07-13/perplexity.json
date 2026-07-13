@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-13",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-13T13:00:51Z",
+  "market_context": "Index futures are modestly higher with S&P 500 futures up about 0.5% and Dow futures up roughly 0.4%, while premarket ETFs show SPY and DIA slightly green and QQQ modestly weaker.[1][2][8][10] Technical commentary characterizes the Nasdaq as near support with mixed signals and the broader market as neutral-to-slightly positive in the medium term.[5] Options activity is heavy in SPY, QQQ, NVDA, and TSLA around current strikes, suggesting active short-term positioning rather than a clear directional extreme.[6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260713_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 761.0,
+      "current_price_at_prediction": 754.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are up around 0.5%, implying a mildly positive open, and premarket SPY quotes are slightly above the prior close, consistent with a continuation of recent strength.[1][2][8] With the 5-day move already positive and VIX still relatively low at 16.46, intraday volatility risk exists but does not yet signal strong downside pressure, making a modest further gain by the close somewhat more likely than a decline.[5]"
+    },
+    {
+      "id": "pred_perplexity_20260713_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.0,
+      "current_price_at_prediction": 725.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Premarket indications show QQQ trading noticeably below the prior close, and recent commentary notes the Nasdaq has broken its rising trend channel and received a negative moving-average signal, pointing to ongoing corrective pressure.[1][5][10] Given the strong recent 5-day gain and heavy options activity in near-the-money QQQ calls, a pullback toward the premarket levels by today’s close is moderately likely."
+    },
+    {
+      "id": "pred_perplexity_20260713_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.5,
+      "current_price_at_prediction": 210.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "NVDA is one of the most active options under 0DTE, with heavy call activity around the 210–210+ strikes, suggesting continued speculative interest on the upside.[6] With the broader S&P futures supportive and no clear negative single-stock catalyst apparent in premarket news, a modest intraday advance of around 1–2% is slightly more probable than a decline."
+    },
+    {
+      "id": "pred_perplexity_20260713_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 398.0,
+      "current_price_at_prediction": 407.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA also shows very heavy same-day options activity around the 410 strike, often coinciding with short-term mean-reversion moves when the underlying has recently run up.[6] With tech indices facing technical resistance and Nasdaq signals mixed-to-negative in the near term, TSLA is moderately likely to underperform and fade a few percent from the prior close by the end of the session.[5]"
+    },
+    {
+      "id": "pred_perplexity_20260713_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 530.5,
+      "current_price_at_prediction": 525.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Dow futures are up roughly 0.4%, and premarket DIA quotes show small gains relative to the previous close, indicating a constructive backdrop for economically sensitive and value-oriented names.[1][2] With current macro headlines pointing to rotation between growth and value and Nasdaq facing more technical pressure, the Dow-tracking DIA is somewhat likely to grind higher and close modestly above yesterday’s level.[5]"
+    }
+  ]
+}

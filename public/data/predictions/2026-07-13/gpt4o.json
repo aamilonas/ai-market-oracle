@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-13",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-13T13:01:52.398656+00:00",
+  "market_context": "U.S. markets are experiencing volatility due to escalating tensions between the U.S. and Iran, leading to increased oil prices and declines in technology stocks. Investors are also anticipating key economic data releases and Federal Reserve Chair Kevin Warsh's congressional testimony later this week.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260713_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 745.0,
+      "current_price_at_prediction": 754.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Escalating U.S.-Iran tensions have led to increased market volatility, with futures indicating a decline in major indices. The S&P 500, represented by SPY, is likely to be impacted by these geopolitical developments and the resulting investor uncertainty."
+    },
+    {
+      "id": "pred_gpt4o_20260713_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 210.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The semiconductor sector is under pressure due to the U.S.-Iran conflict, with chipmakers like NVIDIA experiencing pre-market declines. This trend is expected to continue throughout the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260713_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 110.0,
+      "current_price_at_prediction": 108.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Rising oil prices, driven by geopolitical tensions, are likely to benefit energy companies such as ExxonMobil. The stock is expected to see gains as investors seek exposure to the energy sector amid the current market conditions."
+    },
+    {
+      "id": "pred_gpt4o_20260713_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 725.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The Nasdaq, represented by QQQ, is heavily weighted towards technology stocks, which are facing declines due to the U.S.-Iran escalation. This sector's weakness is expected to weigh on QQQ's performance today."
+    },
+    {
+      "id": "pred_gpt4o_20260713_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 62539.61,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "In times of geopolitical uncertainty, investors often turn to alternative assets like Bitcoin as a hedge. This trend may lead to a modest increase in BTC-USD's price by the end of the day."
+    }
+  ]
+}

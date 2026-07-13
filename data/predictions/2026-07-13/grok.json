@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-13",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-13T13:02:06.115697+00:00",
+  "market_context": "X sentiment shows mild bullishness toward tech and AI names with NVDA and MSFT seeing positive volume in mentions, while macro caution around yields tempers broader enthusiasm. Pre-market futures point to a flat-to-up open with limited major news catalysts expected today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260713_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.5,
+      "current_price_at_prediction": 754.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 754.95 after a 1.4% five-day gain; X chatter and futures lean positive into open with no major negative catalysts."
+    },
+    {
+      "id": "pred_grok_20260713_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "current_price_at_prediction": 725.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ's 1.8% five-day advance and continued AI-related optimism on X support further upside into today's session."
+    },
+    {
+      "id": "pred_grok_20260713_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.0,
+      "current_price_at_prediction": 210.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from sustained positive X volume and sector momentum despite VIX at 16.46 signaling mild caution."
+    },
+    {
+      "id": "pred_grok_20260713_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 402.0,
+      "current_price_at_prediction": 407.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA shows relative weakness versus the broader tape and mixed X sentiment around delivery numbers."
+    }
+  ]
+}
