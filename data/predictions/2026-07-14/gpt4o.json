@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-14",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-14T11:56:00.135954+00:00",
+  "market_context": "U.S. stock futures are mixed ahead of today's Consumer Price Index (CPI) release and major bank earnings reports. Escalating U.S.-Iran tensions have caused a significant surge in oil prices, raising concerns about inflation and potential interest rate hikes.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260714_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 740.0,
+      "current_price_at_prediction": 749.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The sharp rise in oil prices due to U.S.-Iran tensions is likely to heighten inflation concerns, potentially leading to expectations of interest rate hikes. This environment may exert downward pressure on the S&P 500, reflected in SPY's performance."
+    },
+    {
+      "id": "pred_gpt4o_20260714_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 203.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Recent sell-offs in semiconductor stocks, including Nvidia, have been driven by concerns over AI stock overvaluation and potential supply chain disruptions. These factors are likely to continue impacting NVDA's stock price negatively."
+    },
+    {
+      "id": "pred_gpt4o_20260714_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 110.0,
+      "current_price_at_prediction": 105.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "The surge in oil prices due to geopolitical tensions is expected to benefit major oil companies like ExxonMobil, potentially leading to an increase in XOM's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260714_004",
+      "ticker": "JPM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 160.0,
+      "current_price_at_prediction": 155.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "As JPMorgan Chase reports its Q2 earnings today, positive results could boost investor confidence, leading to an uptick in JPM's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260714_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 394.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased oil prices may shift consumer interest towards traditional vehicles, potentially impacting electric vehicle demand and leading to a decline in Tesla's stock price."
+    }
+  ]
+}

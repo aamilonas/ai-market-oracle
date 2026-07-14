@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-14",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-14T11:55:37.842148+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while broader indices remain cautious due to upcoming inflation data. Investor sentiment is generally positive but tempered by geopolitical uncertainties.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260714_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap ETFs, supported by positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260714_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.5,
+      "current_price_at_prediction": 522.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector showing resilience with key components like NVDA and AAPL gaining momentum after recent dips."
+    },
+    {
+      "id": "pred_gemini_20260714_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements next week is driving speculative buying, despite minor intraday volatility."
+    },
+    {
+      "id": "pred_gemini_20260714_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Concerns over production targets and increased competition in the EV market are weighing on investor sentiment."
+    }
+  ]
+}

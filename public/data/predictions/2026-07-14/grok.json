@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-14",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-14T11:56:09.739469+00:00",
+  "market_context": "X/Twitter sentiment shows caution amid rising VIX and tech weakness, with traders noting QQQ underperformance and limited pre-market futures movement. No major catalysts today but options flow indicates defensive positioning in indices.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260714_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 751.5,
+      "current_price_at_prediction": 749.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 749.17 with only -0.3% 5-day decline; X chatter on stable 10Y yield at 4.61% supports mild rebound into close per recent futures data."
+    },
+    {
+      "id": "pred_grok_20260714_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.2,
+      "current_price_at_prediction": 711.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's -1.5% 5-day drop and elevated VIX at 17.35 point to continued pressure, echoed in bearish options flow on X for Nasdaq names."
+    },
+    {
+      "id": "pred_grok_20260714_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 206.8,
+      "current_price_at_prediction": 203.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA shows relative strength vs broader tech on X sentiment scans; pre-market AI news flow supports modest recovery from 203.53 baseline."
+    },
+    {
+      "id": "pred_grok_20260714_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 389.0,
+      "current_price_at_prediction": 394.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA faces short interest signals and mixed EV delivery chatter on X, likely pulling it lower from 394.76 amid overall market caution."
+    }
+  ]
+}

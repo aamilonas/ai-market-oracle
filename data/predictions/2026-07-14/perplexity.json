@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-14T11:55:31Z",
+  "market_context": "Overnight and pre-market signals are broadly risk-on, with index futures indicated higher and tech leading the move. The main macro backdrop is still mixed: VIX is elevated versus recent lows and the 10Y yield remains high at 4.61%, but pre-market commentary points to strong momentum in S&P 500 and Nasdaq futures ahead of earnings season and Fed-minute watch.[1][3][4]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260714_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 754.2,
+      "current_price_at_prediction": 749.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Pre-market futures are described as gap-up and setting fresh record highs for the S&P 500, which supports a positive open and a higher close for SPY.[1][3] The still-firm 10Y yield and VIX argue against an aggressive conviction, but the overnight tone favors a modest continuation move rather than a reversal.[3][4]"
+    },
+    {
+      "id": "pred_perplexity_20260714_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.9,
+      "current_price_at_prediction": 711.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq futures are being reported stronger than S&P futures in pre-market trade, and the commentary explicitly describes continued tech leadership and record-high momentum.[1][3] That setup favors outperformance in QQQ relative to the broad market, especially with semiconductor/AI leadership still driving sentiment.[1][4]"
+    },
+    {
+      "id": "pred_perplexity_20260714_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 208.9,
+      "current_price_at_prediction": 203.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Market color highlights semiconductor strength and AI-theme leadership as a key driver of the overnight bid.[1][4] NVDA is likely to benefit most directly from that risk-on tech tape, though the move may be capped if rates stay firm.[3][4]"
+    },
+    {
+      "id": "pred_perplexity_20260714_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 401.8,
+      "current_price_at_prediction": 394.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "A strong opening in growth stocks and broad tech momentum should provide a supportive backdrop for TSLA, which tends to amplify index-level risk appetite.[1][3] Confidence is lower than for QQQ/NVDA because TSLA is more idiosyncratic and can diverge sharply from index futures on any headline flow."
+    },
+    {
+      "id": "pred_perplexity_20260714_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 526.1,
+      "current_price_at_prediction": 524.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "The Dow showed a prior bearish engulfing candle in commentary, but the same source says futures are reversing that weakness with a gap-up attempt at the open.[1] That makes a small upside close more likely than a deep selloff, but DIA has weaker relative strength than the Nasdaq-heavy benchmarks.[1][3]"
+    }
+  ]
+}
