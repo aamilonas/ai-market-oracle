@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T12:02:43.292212+00:00",
+  "generated_at": "2026-07-15T23:25:49.129073+00:00",
   "headline": "17 AI market calls queued for 2026-07-15",
   "summary": "17 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "GPT-4o"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on NVDA up."
     },
     {
@@ -33,7 +33,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on QQQ up."
     },
     {
@@ -45,7 +45,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "4 models aligned on SPY up."
     },
     {
@@ -56,7 +56,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA down."
     }
   ],
@@ -71,7 +71,7 @@
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "TSLA",
-    "score": null,
+    "score": 0.51,
     "summary": "Lowest-confidence call came from Grok on TSLA."
   }
 }
