@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-15T12:02:26.511249+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech with positive NVDA and AI chatter outweighing macro concerns. Pre-market futures point to modest gains amid low VIX and no major events today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260715_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.4,
+      "current_price_at_prediction": 749.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 749.17 with positive 5-day trend and low VIX at 16.35. X shows bullish retail flow into indices with no negative catalysts expected."
+    },
+    {
+      "id": "pred_grok_20260715_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 714.8,
+      "current_price_at_prediction": 711.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ up 0.3% over 5 days with strong tech sentiment on X. Pre-market futures supportive and options flow favoring upside in mega-caps."
+    },
+    {
+      "id": "pred_grok_20260715_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 207.1,
+      "current_price_at_prediction": 203.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "NVDA benefits from continued AI hype on X and recent momentum. Low volatility environment supports continuation toward 207."
+    },
+    {
+      "id": "pred_grok_20260715_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 389.5,
+      "current_price_at_prediction": 394.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA shows overextended 5-day gains and mixed X chatter on delivery news. Profit-taking likely in low-volume session."
+    }
+  ]
+}

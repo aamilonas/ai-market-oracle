@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-15",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-15T12:02:19.835872+00:00",
+  "market_context": "As of July 15, 2026, the U.S. stock market is experiencing mixed movements. The SPDR S&P 500 ETF Trust (SPY) is trading at $751.83, up 0.37% from the previous close. The Invesco QQQ Trust (QQQ) is at $719.69, up 1.11%, while the SPDR Dow Jones Industrial Average ETF Trust (DIA) is at $524.69, up 0.036%. Key economic data releases today include the Producer Price Index (PPI) for June and the Empire State Manufacturing Index for July.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260715_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 751.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The SPY is currently trading at $751.83, up 0.37% from the previous close. Positive pre-market futures and expectations of favorable PPI data suggest continued upward momentum."
+    },
+    {
+      "id": "pred_gpt4o_20260715_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 719.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The QQQ is trading at $719.69, up 1.11% from the previous close. Strength in technology stocks and positive market sentiment indicate a likely continuation of this trend."
+    },
+    {
+      "id": "pred_gpt4o_20260715_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 314.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple Inc. is currently at $314.86, down 0.76% from the previous close. However, strong fundamentals and positive market trends may lead to a rebound by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260715_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 211.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "NVIDIA Corp is trading at $211.80, up 4.08% from the previous close. Continued demand for AI and gaming products supports further gains."
+    },
+    {
+      "id": "pred_gpt4o_20260715_005",
+      "ticker": "BTC",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 64675.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is currently at $64675, up 3.03% from the previous close. Positive market sentiment and increased institutional adoption may drive the price higher."
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.5533,
-    "avg_target": 353.0,
-    "avg_entry": 359.91,
-    "expected_move_pct": 1.92,
-    "score": 1.0619,
+    "ticker": "NVDA",
+    "direction": "up",
+    "avg_confidence": 0.6633,
+    "avg_target": 209.63,
+    "avg_entry": 206.29,
+    "expected_move_pct": 1.62,
+    "score": 1.0762,
     "models": [
-      "Gemini",
+      "Perplexity",
       "Grok",
       "GPT-4o"
     ],

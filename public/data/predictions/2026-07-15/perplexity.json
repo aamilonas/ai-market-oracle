@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-15",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-15T12:01:45Z",
+  "market_context": "U.S. equity futures are essentially flat to slightly positive pre-market, with S&P 500 futures up 0.03%, Nasdaq-100 futures up 0.1%, and Dow futures up 0.02%.[1] The VIX is relatively subdued at 16.35 and the 10-year Treasury yield remains elevated at 4.61%, which favors a modestly cautious, range-bound session rather than a strong risk-on breakout.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260715_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 751.1,
+      "current_price_at_prediction": 749.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY futures were slightly positive pre-market and SPY itself was already indicated up 0.07% in the pre-open session.[1] With volatility muted and yields stable, the most likely outcome is a small grind higher rather than a sharp directional move."
+    },
+    {
+      "id": "pred_perplexity_20260715_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 713.4,
+      "current_price_at_prediction": 711.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq-100 futures outperformed the broad market slightly, rising 0.1% pre-market, and QQQ was already up 0.29% in the cited pre-bell read.[1] That setup supports continued relative strength in large-cap tech, especially if bond yields do not spike further."
+    },
+    {
+      "id": "pred_perplexity_20260715_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 206.8,
+      "current_price_at_prediction": 203.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "The session tone favors AI/mega-cap tech, and Nasdaq futures were modestly firmer ahead of the open.[1] NVDA should benefit more than the average large-cap if traders continue to buy the strongest AI leaders on a low-volatility day."
+    },
+    {
+      "id": "pred_perplexity_20260715_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.2,
+      "current_price_at_prediction": 394.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Tesla often trades with higher beta than the index, so in a low-conviction tape it is more vulnerable to fading than the broader market. The flat futures backdrop and elevated yields do not provide a strong catalyst for sustained upside."
+    }
+  ]
+}
