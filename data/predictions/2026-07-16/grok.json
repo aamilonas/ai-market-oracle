@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-16",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-16T12:03:28.927589+00:00",
+  "market_context": "X sentiment is cautiously bullish on tech and AI names with moderate volume on positive NVDA mentions. Pre-market futures point to flat-to-up open with no major catalysts. VIX at 16.09 signals low volatility.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260716_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.5,
+      "current_price_at_prediction": 754.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures lean positive and X chatter on AI earnings momentum supports modest gains. Low VIX reduces downside risk for today."
+    },
+    {
+      "id": "pred_grok_20260716_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 216.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bullish options flow and repeated positive X mentions on AI demand point to continued strength intraday."
+    },
+    {
+      "id": "pred_grok_20260716_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 389.0,
+      "current_price_at_prediction": 394.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Short interest signals and mixed X sentiment on delivery numbers suggest mild profit-taking pressure."
+    },
+    {
+      "id": "pred_grok_20260716_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 64180.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "ETH outperformance and steady X crypto optimism support a modest BTC rebound into the close."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-16",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-16T12:03:20.278899+00:00",
+  "market_context": "U.S. stock futures are slightly positive ahead of the market open, with the S&P 500 futures up 0.16% and the Dow Jones futures up 0.16%. Investors are awaiting key economic data releases today, including retail sales and jobless claims, which could influence market direction.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260716_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 754.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With S&P 500 futures indicating a modest gain and upcoming retail sales data expected to show a 0.3% month-over-month increase, SPY is likely to close higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260716_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Chip stocks have been under pressure recently, and with no immediate positive catalysts, NVDA may experience a slight decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260716_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 330.0,
+      "current_price_at_prediction": 327.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "AAPL has shown resilience in recent sessions, and with a positive market sentiment, it is likely to close higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260716_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 64180.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has been trading in a tight range, and with a slight positive bias in the broader market, it may edge higher by the end of the day."
+    }
+  ]
+}

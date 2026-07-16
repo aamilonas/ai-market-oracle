@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-16",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-16T12:02:33.294871+00:00",
+  "market_context": "Recent inflation data suggests a potential rate hike, impacting growth stocks. However, strong consumer spending reports indicate resilience in other sectors, leading to mixed market signals. Geopolitical tensions also add a layer of uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260716_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q2 earnings reports from major constituents and positive market sentiment following the Fed's dovish comments."
+    },
+    {
+      "id": "pred_gemini_20260716_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.5,
+      "current_price_at_prediction": 212.8,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Concerns over slowing iPhone sales in key international markets and increased regulatory scrutiny in Europe."
+    },
+    {
+      "id": "pred_gemini_20260716_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Continued strong growth in Azure cloud services and positive analyst upgrades following recent AI product announcements."
+    },
+    {
+      "id": "pred_gemini_20260716_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increased competition in the EV market and recent production delays impacting delivery targets for the quarter."
+    }
+  ]
+}

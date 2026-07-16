@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-16",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-16T12:02:20Z",
+  "market_context": "Index futures are modestly positive to flat, with S&P 500 and Nasdaq futures slightly higher while Dow futures are roughly unchanged, suggesting a mildly risk-on but cautious open.[2][8] Recent sessions saw pullbacks from record levels driven by weakness in semiconductors and ongoing geopolitical concerns, but overnight commentary highlights investors continuing to lean into AI growth themes and reduced Middle East risk.[2][4] The VIX remains subdued near the mid-teens and a major index is testing support on some technical services, indicating limited fear and potential dip-buying interest rather than a rush to de-risk.[1][10]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260716_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.0,
+      "current_price_at_prediction": 754.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are indicated modestly higher pre-market as investors continue to embrace AI growth themes and show reduced concern over Middle East risks, which historically supports large-cap benchmarks like SPY on the day.[2][4] SPY’s expected intraday range from options and futures-derived measures is roughly 747–756, so a close modestly above the prior 754.81 close to around 760 would represent a small continuation move rather than an extreme breakout.[1] With the VIX in the mid-teens and no major negative macro catalysts scheduled early in the session, risk appetite appears sufficient for a slightly positive close, though the gain is likely to be incremental rather than dramatic."
+    },
+    {
+      "id": "pred_perplexity_20260716_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "current_price_at_prediction": 717.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq-100 futures are outperforming S&P and Dow futures in pre-market trade, reflecting renewed appetite for growth and AI-linked names after an earlier semiconductor-led pullback.[2][4] Given that QQQ has only risen about 0.9% over the last five days, there is room for a modest rebound if tech sentiment stabilizes, without requiring an aggressive risk-on shift.[2] With volatility measures still relatively contained and no fresh macro shocks overnight, a move of roughly +0.8–1.0% toward 724 by the close fits within typical daily ranges for QQQ in a moderately positive tape."
+    },
+    {
+      "id": "pred_perplexity_20260716_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 218.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Tech and AI growth themes are cited as a key driver of the pre-market strength in Nasdaq futures, which tends to benefit leading semiconductor names like Nvidia when risk sentiment turns constructive again.[2][4] NVDA recently participated in a broader semiconductor selloff that weighed on the Nasdaq Composite, so a modest bounce of about 2–3% intraday would be consistent with mean reversion if the broader QQQ trades higher.[2] With overall volatility contained and no company-specific negative headlines flagged in the overnight news flow, upside toward roughly 218 by the close is a plausible continuation of an AI-led relief move."
+    },
+    {
+      "id": "pred_perplexity_20260716_005",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 332.0,
+      "current_price_at_prediction": 327.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Improving sentiment toward large-cap tech and AI beneficiaries in index futures tends to support mega-cap platform companies like Apple, which are heavily weighted in both SPY and QQQ.[2][4] With the broader indices near record highs and volatility subdued, investors often rotate into perceived quality growth names on modestly positive macro days, providing a tailwind to AAPL.[1][9] A move of roughly +1.4% toward 332 fits within Apple’s typical daily range on constructive sessions and aligns with a scenario where QQQ closes higher on the day."
+    }
+  ]
+}
