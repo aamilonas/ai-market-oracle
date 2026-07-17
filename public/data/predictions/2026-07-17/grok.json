@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-17T11:54:01.206238+00:00",
+  "market_context": "X/Twitter sentiment is cautious with rising VIX mentions and mixed futures chatter. Pre-market shows slight downside pressure on tech amid 10Y yield at 4.57%. No major events flagged but options flow indicates defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260717_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.5,
+      "current_price_at_prediction": 750.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "VIX up 20% signals volatility; X posts highlight yield concerns pressuring indices. Futures point to mild open weakness."
+    },
+    {
+      "id": "pred_grok_20260717_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 705.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech-heavy QQQ lagging 5-day; X flow shows NVDA/MSFT profit-taking chatter ahead of any earnings."
+    },
+    {
+      "id": "pred_grok_20260717_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 207.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Crypto stability and AI narrative persist on X despite broader caution; short-term bounce likely."
+    },
+    {
+      "id": "pred_grok_20260717_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 63259.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "BTC correlated with risk-off VIX spike; X sentiment turning bearish on macro yields."
+    }
+  ]
+}

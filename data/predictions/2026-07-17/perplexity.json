@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-17T11:53:23Z",
+  "market_context": "U.S. equity futures are modestly softer to mixed premarket, with Nasdaq-100 futures slightly positive in one feed but broader Dow/S&P futures reported lower in another, suggesting a cautious open. VIX remains elevated at 18.06 and the 10-year yield at 4.57% keeps pressure on growth multiples, while QQQ has also underperformed over the past week relative to SPY and DIA.[1][7]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260717_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 753.5,
+      "current_price_at_prediction": 750.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is showing a small positive premarket tone in one market feed, with futures essentially flat rather than decisively negative.[1] With the 5-day change near flat and VIX elevated but not spiking further, the most likely outcome is a mild drift higher rather than a sharp selloff."
+    },
+    {
+      "id": "pred_perplexity_20260717_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 709.0,
+      "current_price_at_prediction": 705.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Nasdaq-100 futures are marginally higher premarket in the available data, which supports a modest rebound attempt after QQQ's weaker 5-day performance.[1][2] However, the 10-year yield at 4.57% and the recent underperformance of growth stocks keep the move limited."
+    },
+    {
+      "id": "pred_perplexity_20260717_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 526.4,
+      "current_price_at_prediction": 524.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures are described as only slightly lower or flat, and DIA has held up better than QQQ over the last five sessions.[1][7] That relative strength favors a small positive day for industrials/old-economy exposure if the open remains stable."
+    },
+    {
+      "id": "pred_perplexity_20260717_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 204.2,
+      "current_price_at_prediction": 207.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA is likely to lag if yields stay firm and the market remains cautious around high-multiple growth names, especially with Nasdaq futures only barely positive.[2][7] Given QQQ's recent weakness and elevated volatility, a modest downside day is more probable than a sustained breakout."
+    },
+    {
+      "id": "pred_perplexity_20260717_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.8,
+      "current_price_at_prediction": 391.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "TSLA can benefit from a risk-on intraday bounce if the open avoids a broader de-risking move, and futures data do not show a strong downside shock.[1][7] The call is cautious because elevated VIX and higher rates still make a large advance less likely."
+    }
+  ]
+}

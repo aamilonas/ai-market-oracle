@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-17",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-17T11:53:49.819563+00:00",
+  "market_context": "As of July 17, 2026, U.S. stock futures indicate a mixed opening: S&P 500 futures are down 0.16%, Dow futures up 0.14%, and Nasdaq futures down 0.74%. Key economic data releases today include housing starts, industrial production, and consumer sentiment, which may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260717_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 745.0,
+      "current_price_at_prediction": 750.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 futures are currently down 0.16%, indicating a potential decline in the broader market. Additionally, recent increases in oil prices and concerns over inflation may weigh on investor sentiment."
+    },
+    {
+      "id": "pred_gpt4o_20260717_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 705.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq futures are down 0.74%, suggesting weakness in technology stocks. Recent declines in semiconductor stocks, such as Nvidia, further support this bearish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260717_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 330.0,
+      "current_price_at_prediction": 333.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Given the overall bearish sentiment in the technology sector and the decline in Nasdaq futures, Apple may experience a slight decrease in its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260717_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62000.0,
+      "current_price_at_prediction": 63259.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin is currently under pressure, with its price down 1.57%. Broader market uncertainties and potential regulatory concerns may contribute to further declines."
+    }
+  ]
+}
