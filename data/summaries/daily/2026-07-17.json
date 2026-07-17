@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T11:54:07.930664+00:00",
+  "generated_at": "2026-07-17T23:12:47.862765+00:00",
   "headline": "17 AI market calls queued for 2026-07-17",
   "summary": "17 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on BTC-USD down."
     },
     {
@@ -21,7 +21,7 @@
         "Grok"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ down."
     },
     {
@@ -31,7 +31,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on SPY up."
     }
   ],
@@ -39,14 +39,14 @@
     "prediction_id": null,
     "model_display_name": "GPT-4o",
     "ticker": "QQQ",
-    "score": null,
+    "score": 1.25,
     "summary": "Highest-confidence call came from GPT-4o on QQQ."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "BTC-USD",
-    "score": null,
+    "score": -0.45,
     "summary": "Lowest-confidence call came from Grok on BTC-USD."
   }
 }
