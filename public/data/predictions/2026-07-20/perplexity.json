@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-20T12:32:44Z",
+  "market_context": "US index futures and ETF pre-market indications show modest gains, with SPY, QQQ, and DIA all trading higher ahead of the open, extending an ongoing run at or near record highs.[1][2][3][5] Volatility is elevated but not extreme and options data for SPY shows a relatively tight expected move for today, suggesting a continuation bias with room for intraday swings.[6] Tech and semiconductors continue to lead, while tomorrow’s key macro data (GDP, jobless claims, PCE) may cap how aggressive positioning becomes intraday.[5]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260720_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 743.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Pre-market indications show SPY trading modestly higher around 745–747, reflecting continued strength and new-high territory as S&P futures set record levels.[1][2][5] Options data implies an expected move in roughly the 738–748 range for today, placing 748 near the upper bound but still within the statistically-expected envelope.[6] With tech and semiconductors driving broad risk-on sentiment and major macro catalysts not hitting until tomorrow, a mildly higher close versus yesterday, near that upper expected range, is more likely than a decisive breakdown.[5][6]"
+    },
+    {
+      "id": "pred_perplexity_20260720_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 703.0,
+      "current_price_at_prediction": 695.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Invesco QQQ pre-market quotes show a gain of roughly 0.5%–0.7%, with prices in the high 690s to low 700s, aligned with strong Nasdaq 100 futures which are trading higher this morning.[2][3][9] Commentary notes that QQQ recently set record highs and is being pulled up by tech and semiconductor momentum, including strong sector performance tied to major chip names.[5] Given this backdrop and the absence of immediate negative macro surprises today, a continuation toward a close modestly above 700, but not an extreme extension, is a reasonable expectation."
+    },
+    {
+      "id": "pred_perplexity_20260720_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.0,
+      "current_price_at_prediction": 520.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Pre-market quotes show DIA up about 0.2%–0.4%, with indications in the low 520s, reversing yesterday’s minor bearish engulfing pattern as Dow futures gap higher alongside the S&P and Nasdaq.[2][3][5] The broad index complex is showing coordinated strength, suggesting follow-through buying rather than a failed gap scenario at the open.[5] With no major data releases scheduled for today and tomorrow’s macro events still ahead, a modestly higher close near 525, representing roughly a 0.8% gain from the prior close, fits the current risk-on tone without assuming an outsized surge."
+    },
+    {
+      "id": "pred_perplexity_20260720_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 207.5,
+      "current_price_at_prediction": 202.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Sector commentary highlights semiconductors as key drivers of pre-market strength, with chip stocks contributing meaningfully to the tech-led advance in SPY and QQQ.[5] Recent technical levels for NVDA mention support just above 200 and upside reference zones into the low 210s if it can hold above its short-term moving averages, implying a constructive near-term setup.[4] Given the broader semiconductor bid and NVDA’s role as a major index component, a moderate upside move of about 2% toward 207–208 by the close is more probable than a break below the 200 support area."
+    },
+    {
+      "id": "pred_perplexity_20260720_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 66000.0,
+      "current_price_at_prediction": 64613.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Recent technical commentary on Bitcoin points to a constructive pattern where breaks above key resistance zones can trigger follow-through into higher ranges, with upside levels in the high-60k to low-70k region being watched.[8] The 5-day performance is nearly flat despite equity volatility, suggesting resilience and a potential for a modest catch-up move if risk assets remain firm during today’s US session.[5][8] A move of roughly 2% higher toward 66,000 is consistent with this backdrop, while still acknowledging crypto’s higher intraday volatility and thus slightly lower confidence."
+    }
+  ]
+}

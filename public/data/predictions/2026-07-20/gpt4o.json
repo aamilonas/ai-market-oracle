@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-20",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-20T12:33:15.052317+00:00",
+  "market_context": "U.S. stock futures are showing slight gains ahead of the market open, with S&P 500 futures up 0.11% and Dow futures up 0.16%. The economic calendar is light today, with the Conference Board's Leading Economic Index for June being the primary release. Major earnings reports this week include Alphabet and Tesla on Wednesday.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260720_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 743.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With S&P 500 futures indicating a modest pre-market gain and a light economic calendar today, the market may experience a slight upward movement. However, the recent decline in major indices and concerns over AI stock valuations suggest caution."
+    },
+    {
+      "id": "pred_gpt4o_20260720_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "current_price_at_prediction": 202.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia has been a significant contributor to recent market declines due to concerns over AI stock overvaluation. This trend may continue, leading to a further decrease in its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260720_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 385.0,
+      "current_price_at_prediction": 380.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tesla is set to report earnings on Wednesday, which may generate positive sentiment among investors. This anticipation could lead to a slight increase in its stock price today."
+    },
+    {
+      "id": "pred_gpt4o_20260720_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 695.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Despite recent declines in tech stocks, the slight pre-market gain in Nasdaq futures suggests a potential modest recovery today. However, ongoing concerns over tech valuations may limit the upside."
+    },
+    {
+      "id": "pred_gpt4o_20260720_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 64613.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has shown slight declines in pre-market trading, and with no significant catalysts today, it may continue to experience a minor decrease in price."
+    }
+  ]
+}

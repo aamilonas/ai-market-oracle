@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-20",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-20T12:33:26.206145+00:00",
+  "market_context": "X sentiment is bearish with traders citing VIX spike and 5-day declines in QQQ/SPY; pre-market futures point to flat open amid 4.54% yields. No major catalysts noted but options flow shows put buying in tech. Crypto mixed with BTC stable.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260720_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 738.5,
+      "current_price_at_prediction": 743.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 743.29 after -1.5% 5-day drop and VIX at 18.17 up 5.9%; X shows heavy put flow and yield concerns at 4.54% likely capping upside into close."
+    },
+    {
+      "id": "pred_grok_20260720_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 688.0,
+      "current_price_at_prediction": 695.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ -4.2% over 5 days with NVDA/MSFT weakness; X sentiment highlights rotation out of mega-caps into defensives ahead of no major news catalysts."
+    },
+    {
+      "id": "pred_grok_20260720_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 207.5,
+      "current_price_at_prediction": 202.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 202.81 shows oversold bounce potential per X chatter on AI demand despite broader tech selloff; short interest signals support modest recovery."
+    },
+    {
+      "id": "pred_grok_20260720_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 372.0,
+      "current_price_at_prediction": 380.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA at 380.84 vulnerable after recent run with X noting delivery concerns and macro headwinds; options flow indicates increased downside bets."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-20",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-20T12:32:56.799810+00:00",
+  "market_context": "The market is showing mixed signals with strong tech earnings providing a boost, but concerns over supply chain issues and inflation persist. Investors are closely watching upcoming economic data releases for further direction.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260720_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q2 earnings reports from tech giants indicate continued market optimism, pushing SPY higher."
+    },
+    {
+      "id": "pred_gemini_20260720_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain disruptions and a downgrade from a major analyst suggest a short-term dip for Apple."
+    },
+    {
+      "id": "pred_gemini_20260720_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 280.0,
+      "current_price_at_prediction": 270.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements and increased production targets for Q3 are driving investor interest in Tesla."
+    }
+  ]
+}
