@@ -1,5 +1,5 @@
 {
-  "balance": 24240.13,
+  "balance": 24831.63,
   "starting_balance": 25000,
   "trades": [
     {
@@ -803,10 +803,10 @@
       "ticker": "SPXL",
       "direction": "up",
       "entry_price": 264.54,
-      "exit_price": null,
+      "exit_price": 271.04,
       "shares": 91,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 591.5,
+      "pnl_pct": 2.46,
       "models": [
         "Perplexity",
         "Grok",
@@ -814,7 +814,7 @@
         "GPT-4o"
       ],
       "confidence": 0.62,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
