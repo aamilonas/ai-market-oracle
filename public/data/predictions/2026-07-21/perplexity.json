@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-21",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-21T12:09:11Z",
+  "market_context": "Pre-market indicators are decisively risk-on: SPY, QQQ, and DIA are all higher versus the prior close, with QQQ showing the strongest gap up. Nasdaq 100 futures are also elevated, and the broader setup is consistent with continued strength in large-cap tech into the open, though SPY’s options-implied range suggests intraday volatility may still keep moves contained.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260721_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.8,
+      "current_price_at_prediction": 742.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY is already indicated higher pre-market around 745.1-745.4, which is above the prior close of 742.09. Barchart’s expected range for today is 738.47 to 748.11, so a modest gain appears more likely than a large breakout, especially with elevated put/call interest suggesting some hedging overhead."
+    },
+    {
+      "id": "pred_perplexity_20260721_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 701.2,
+      "current_price_at_prediction": 696.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "QQQ is the strongest pre-market major ETF, trading around 704.8 versus the prior close of 696.06, and Nasdaq 100 futures are also up materially. That combination points to follow-through in mega-cap tech, with the most likely outcome being a smaller end-of-day gain than the pre-market gap implies."
+    },
+    {
+      "id": "pred_perplexity_20260721_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 519.1,
+      "current_price_at_prediction": 517.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA is showing a smaller pre-market gain than SPY and QQQ, but it is still positive at about 519.1 versus the prior close of 517.94. The tape suggests broad index support, yet the weaker relative strength in the Dow makes the move more likely to be modest."
+    },
+    {
+      "id": "pred_perplexity_20260721_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 206.5,
+      "current_price_at_prediction": 203.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Pre-market risk appetite is being led by tech, and the Nasdaq futures strength supports continued demand for semiconductors and high-beta AI names. NVDA should benefit from that bid, though the likely move is moderate rather than explosive because the broader rally is already extended."
+    }
+  ]
+}

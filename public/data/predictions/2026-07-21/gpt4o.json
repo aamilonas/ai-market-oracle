@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-21",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-21T12:10:03.505782+00:00",
+  "market_context": "U.S. stock futures are slightly up, with S&P 500 futures at $7515.5 (+0.16%) and Nasdaq futures at $29096 (+0.41%). No major economic reports are scheduled for today, and the VIX is at 17.80, indicating moderate market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260721_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 742.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With S&P 500 futures up 0.16% and no major economic reports today, SPY is likely to see modest gains, though the VIX at 17.80 suggests some volatility."
+    },
+    {
+      "id": "pred_gpt4o_20260721_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 696.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are up 0.41%, indicating potential strength in tech stocks, which could drive QQQ higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260721_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 330.0,
+      "current_price_at_prediction": 326.59,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's stock may benefit from the overall positive sentiment in tech, as indicated by rising Nasdaq futures, despite no company-specific news today."
+    },
+    {
+      "id": "pred_gpt4o_20260721_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 375.0,
+      "current_price_at_prediction": 369.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Tesla's stock could see a slight uptick in line with broader market trends, though no specific catalysts are present today."
+    },
+    {
+      "id": "pred_gpt4o_20260721_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 67000.0,
+      "current_price_at_prediction": 66317.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has been on an upward trend, gaining 4.0% over the past five days, suggesting continued positive momentum."
+    }
+  ]
+}

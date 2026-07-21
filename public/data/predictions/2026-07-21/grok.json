@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-21",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-21T12:10:11.638017+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting crypto strength and rotation into value stocks amid tech weakness. Pre-market futures are flat to slightly up with no major overnight news catalysts; VIX at 17.8 signals moderate volatility.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260721_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 742.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Recent 5-day pullback of 0.9% and stable 10Y yield suggest short-covering bounce; X chatter points to dip-buying in broad indices."
+    },
+    {
+      "id": "pred_grok_20260721_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 199.0,
+      "current_price_at_prediction": 203.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Options flow shows elevated put activity and recent 5-day tech weakness; X users citing valuation concerns after prior run-up."
+    },
+    {
+      "id": "pred_grok_20260721_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 67500.0,
+      "current_price_at_prediction": 66317.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC already up 4% over 5 days with positive X sentiment on ETF inflows and risk-on rotation."
+    },
+    {
+      "id": "pred_grok_20260721_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 362.0,
+      "current_price_at_prediction": 369.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Short interest signals and X discussion around delivery concerns point to continued pressure despite broader market stability."
+    }
+  ]
+}
