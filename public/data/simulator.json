@@ -815,6 +815,23 @@
       ],
       "confidence": 0.62,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-07-22",
+      "ticker": "AAPL",
+      "direction": "down",
+      "entry_price": 327.74,
+      "exit_price": null,
+      "shares": 75,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Perplexity",
+        "Gemini",
+        "GPT-4o"
+      ],
+      "confidence": 0.6367,
+      "status": "OPEN"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-22",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-22T12:12:34Z",
+  "market_context": "U.S. index ETFs are indicating a mildly weaker open, with SPY and QQQ trading slightly below yesterday’s close in pre-market, while DIA is down modestly.[1][3] Options data on SPY show an implied one-day expected move of about 0.65%, with put/call open interest skewed toward puts, suggesting cautious sentiment but not extreme stress.[5] Volatility remains elevated relative to recent history, and rising rates plus geopolitical risk are being cited in morning commentary as key overhangs, pointing to choppy, range-bound trading.[4][6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260722_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.5,
+      "current_price_at_prediction": 748.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Pre-market indications show SPY trading around 746–746.5, modestly below yesterday’s close of 748.28, implying a slightly negative open and cautious tone.[1][3] Options data put today’s expected move at about 0.65% with a put/call open interest ratio above 2, reflecting a defensive positioning bias.[5] With VIX elevated versus recent weeks and ongoing concerns around higher rates and geopolitical risk in morning prep commentary, a mild drift lower toward the bottom of the implied range (around 742–743) by the close is more likely than a sustained push higher.[4][6]"
+    },
+    {
+      "id": "pred_perplexity_20260722_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 708.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Pre-market quotes show QQQ trading near 704.6, below yesterday’s close of 708.97, indicating early selling pressure in large-cap tech.[3] Technical analysis from a fresh QQQ video places key resistance around 709.94 and support near 686.76, with price currently in a consolidation box and a recent bearish candle, suggesting limited upside without a clear catalyst.[7] Given the cautious broader risk tone, elevated VIX, and sensitivity of growth stocks to rising yields, a close modestly below 705 and toward 700 is more probable than a breakout above the 710 resistance today.[4][6][7]"
+    },
+    {
+      "id": "pred_perplexity_20260722_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 517.0,
+      "current_price_at_prediction": 521.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Pre-market indications show DIA around 521.0, slightly below the prior close of 521.51, pointing to a small negative gap for the Dow-tracking ETF.[1][3] Morning commentary references ongoing pressure from higher rates and macro uncertainty, which tend to weigh on cyclical and value-heavy indices like the Dow.[4][6] With SPY and QQQ also pointing to a cautious, range-bound session and no obvious positive catalyst, a modest fade of roughly 0.8–1% toward the 517 level by the close is a reasonable expectation."
+    },
+    {
+      "id": "pred_perplexity_20260722_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 322.0,
+      "current_price_at_prediction": 327.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Mega-cap tech is under slight pressure in pre-market through QQQ, which is trading below its prior close and showing near-term resistance overhead.[3][7] With rates elevated and volatility higher, market commentary suggests a risk-off lean toward high-duration growth assets, a category that includes Apple.[4][6] In the absence of stock-specific positive news and with the broader NASDAQ complex soft, a mild pullback of ~1.5–2% toward the low-320s by the close is more likely than a continuation of the recent uptrend today."
+    },
+    {
+      "id": "pred_perplexity_20260722_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 66800.0,
+      "current_price_at_prediction": 65848.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin has gained about 3% over the past five days, indicating a short-term positive momentum despite broader macro volatility.[0] Crypto is often trading with its own idiosyncratic flows and has recently shown resilience even as equity volatility picked up.[0][4] Given this momentum and the tendency for intraday swings, a further ~1.5% move higher toward the 66.8k area by the end of the day is slightly more likely than a full reversal of the recent advance, though the confidence remains moderate due to crypto’s high intraday variance."
+    }
+  ]
+}

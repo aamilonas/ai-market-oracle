@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-22",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-22T12:13:13.385312+00:00",
+  "market_context": "U.S. stock futures are indicating a downward trend ahead of the market open, with S&P 500 futures down 0.29%, Dow futures down 0.21%, and Nasdaq futures down 0.52%. The economic calendar is light today, with no major reports scheduled. The VIX has risen by 12.5% over the past five days, suggesting increased market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260722_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 740.0,
+      "current_price_at_prediction": 748.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With S&P 500 futures down 0.29% and no significant economic data to provide positive momentum, SPY is likely to decline today. The recent 12.5% increase in the VIX indicates heightened market volatility, further supporting a bearish outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260722_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 708.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are down 0.52%, and the tech sector has shown weakness recently. Without positive catalysts, QQQ is expected to decline today, aligning with the broader market trend."
+    },
+    {
+      "id": "pred_gpt4o_20260722_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 320.0,
+      "current_price_at_prediction": 327.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Given the overall market downturn and the tech sector's vulnerability, AAPL is likely to experience a decline today. The absence of company-specific news to counteract the negative sentiment supports this outlook."
+    },
+    {
+      "id": "pred_gpt4o_20260722_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 370.0,
+      "current_price_at_prediction": 378.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla's stock is susceptible to broader market movements. With futures indicating a downward trend and no significant news to bolster the stock, TSLA is expected to decline today."
+    },
+    {
+      "id": "pred_gpt4o_20260722_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 65848.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown a slight decline of 0.77% recently. Given the increased market volatility and lack of bullish catalysts, BTC-USD may continue to trend downward today."
+    }
+  ]
+}

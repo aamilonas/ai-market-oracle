@@ -1,21 +1,19 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "winner": {
-    "ticker": "SPY",
-    "direction": "up",
-    "avg_confidence": 0.62,
-    "avg_target": 709.08,
-    "avg_entry": 706.07,
-    "expected_move_pct": 0.43,
-    "score": 0.2641,
+    "ticker": "AAPL",
+    "direction": "down",
+    "avg_confidence": 0.6367,
+    "avg_target": 287.5,
+    "avg_entry": 292.86,
+    "expected_move_pct": 1.83,
+    "score": 1.1652,
     "models": [
       "Perplexity",
-      "Grok",
       "Gemini",
       "GPT-4o"
     ],
-    "model_count": 4,
-    "high_conviction": false,
-    "leveraged_ticker": "SPXL"
+    "model_count": 3,
+    "high_conviction": false
   }
 }
