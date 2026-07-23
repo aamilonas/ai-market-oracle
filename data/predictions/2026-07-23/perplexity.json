@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-23T12:11:13Z",
+  "market_context": "U.S. equity index ETFs are coming off a modest pullback over the last 5 trading days, with SPY, QQQ, and DIA all down around 1–2%, while the VIX has moved up to 18.16, indicating slightly elevated but not extreme volatility. Yields on the 10-year Treasury are relatively high at 4.66%, which continues to pressure valuations for long-duration growth assets, though major tech names like AAPL, MSFT, and NVDA remain near recent highs. Crypto is modestly firmer over the past week, suggesting general risk appetite is not severely impaired.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260723_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 737.0,
+      "current_price_at_prediction": 747.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY is down about 1.0% over the last 5 days and is trading near the upper end of its 52-week range, while the VIX has risen to 18.16 and the 10-year yield is elevated at 4.66, both of which tend to weigh on broad equity valuations. With no obvious catalyst for a sharp rebound and recent price action showing mild distribution, a modest pullback of around 1–1.5% by the close is more likely than a strong advance. I expect intraday volatility but a slightly lower close as investors remain cautious into higher-rate and macro uncertainty."
+    },
+    {
+      "id": "pred_perplexity_20260723_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 694.0,
+      "current_price_at_prediction": 705.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ has underperformed SPY over the last 5 days with a 1.7% decline, reflecting greater sensitivity of high-growth and tech names to the 10-year yield at 4.66. With major components like AAPL, MSFT, and NVDA near elevated levels after strong multi-month runs, profit-taking into an environment of higher rates and increased volatility (VIX at 18.16) is more probable than renewed aggressive buying today. I expect QQQ to close around 1.5% below the current reference price as traders fade recent strength in mega-cap tech."
+    },
+    {
+      "id": "pred_perplexity_20260723_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 320.0,
+      "current_price_at_prediction": 325.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "AAPL is trading near historically rich valuation levels and is a major weight in QQQ and SPY, both of which have been weak over the last 5 days. With the 10-year yield elevated at 4.66, high market-cap, long-duration tech names face ongoing discount-rate pressure, and the uptick in VIX to 18.16 suggests investors are more cautious on broad risk. I expect modest profit-taking and a drift lower of roughly 2% into the close rather than a strong breakout move higher today."
+    },
+    {
+      "id": "pred_perplexity_20260723_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 218.0,
+      "current_price_at_prediction": 212.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite broader index softness, NVDA has shown relative strength over recent months, supported by strong AI and data-center demand narratives that have kept it a favored name even during minor market pullbacks. With crypto slightly higher over the last 5 days and broader risk appetite not severely impaired, rotational flows often favor high-beta leaders like NVDA on intraday dips. I expect buyers to step in on any early weakness, leading to a modest gain of around 2–3% by the close."
+    },
+    {
+      "id": "pred_perplexity_20260723_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 66750.0,
+      "current_price_at_prediction": 65434.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin has gained about 1.0% over the last 5 days and is trading in a relatively stable range despite higher U.S. yields at 4.66, indicating resilient risk appetite in digital assets. With ETH up 3.2% over the same period and no sign of acute risk-off behavior in crypto, continuation of the recent mild uptrend is slightly more likely than a sharp reversal. I expect BTC-USD to grind higher by roughly 2% into the end of the U.S. trading day, aided by steady demand and range-trading behavior."
+    }
+  ]
+}

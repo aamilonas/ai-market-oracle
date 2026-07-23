@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-23",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-23T12:11:53.469238+00:00",
+  "market_context": "X sentiment shows cautious bearishness with rising VIX mentions and tech selloff chatter dominating feeds. Pre-market futures point to a flat-to-down open amid 10Y yield at 4.66%. No major catalysts expected but options flow signals defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260723_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 744.5,
+      "current_price_at_prediction": 747.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "VIX up 8.6% on 5-day and X chatter highlights risk-off flows; 10Y yield pressure likely caps upside into close."
+    },
+    {
+      "id": "pred_grok_20260723_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 702.0,
+      "current_price_at_prediction": 705.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Tech names under pressure per recent 5-day -1.7% move; X volume on NVDA and MSFT negative outweighs any crypto tailwinds."
+    },
+    {
+      "id": "pred_grok_20260723_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 209.5,
+      "current_price_at_prediction": 212.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Short interest signals and X options flow point to continued profit-taking after recent highs."
+    },
+    {
+      "id": "pred_grok_20260723_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 378.0,
+      "current_price_at_prediction": 374.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "Crypto positive sentiment on X may lift TSLA as correlated asset despite broader market weakness."
+    }
+  ]
+}

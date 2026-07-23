@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-23",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-23T12:11:45.433736+00:00",
+  "market_context": "Global markets are experiencing mixed performance amid rising Middle East tensions, with Brent crude surpassing $98 per barrel. European indices are mostly down, while Asian markets, particularly South Korea's Kospi, have seen gains driven by tech stocks. U.S. futures indicate a downward trend, with S&P 500 futures down 0.41%, Dow futures down 0.45%, and Nasdaq futures down 0.62%.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260723_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 740.0,
+      "current_price_at_prediction": 747.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the pre-market decline in S&P 500 futures by 0.41% and increased oil prices due to Middle East tensions, SPY is likely to close lower today."
+    },
+    {
+      "id": "pred_gpt4o_20260723_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 320.0,
+      "current_price_at_prediction": 325.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With the Nasdaq futures down 0.62% pre-market and tech stocks under pressure, AAPL may experience a decline by market close."
+    },
+    {
+      "id": "pred_gpt4o_20260723_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 65434.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin is down 1.04% pre-market, and with increased market volatility, it may continue to decline throughout the day."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-23",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-23T12:11:23.387737+00:00",
+  "market_context": "Recent economic indicators suggest a mixed outlook, with inflation concerns persisting despite strong labor market data. Geopolitical tensions continue to add volatility, influencing investor sentiment across major sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260723_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q2 earnings reports from key S&P 500 components are driving positive sentiment, with institutional buying observed in the last hour of trading."
+    },
+    {
+      "id": "pred_gemini_20260723_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 520.5,
+      "current_price_at_prediction": 525.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tech sector facing headwinds from rising bond yields and profit-taking after a significant rally. Analyst downgrades for several large-cap tech stocks are also contributing to negative pressure."
+    },
+    {
+      "id": "pred_gemini_20260723_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 410.25,
+      "current_price_at_prediction": 408.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Industrial and financial sectors showing resilience, supported by better-than-expected manufacturing data and positive comments from Federal Reserve officials regarding economic stability."
+    },
+    {
+      "id": "pred_gemini_20260723_004",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 235.0,
+      "current_price_at_prediction": 237.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Small-cap stocks are particularly sensitive to interest rate hike expectations, and recent hawkish statements from central bank members are increasing pressure on growth-oriented smaller companies."
+    }
+  ]
+}
