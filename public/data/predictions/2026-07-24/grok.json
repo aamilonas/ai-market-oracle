@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-24T12:02:45.063670+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech recovery but worry over 4.70% yields pressuring growth stocks, with futures flat to slightly up pre-market. No major catalysts today beyond ongoing earnings season; VIX at 18.89 signals contained volatility.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260724_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.5,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Pre-market futures indicate mild buying interest after yesterday's -1.7% drop; X chatter from @zerohedge and @CNBC highlights dip-buying in indices despite yield concerns."
+    },
+    {
+      "id": "pred_grok_20260724_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 685.0,
+      "current_price_at_prediction": 691.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "High 10Y yield at 4.70% likely to weigh on mega-cap tech; recent X posts note options flow favoring QQQ puts amid valuation fears."
+    },
+    {
+      "id": "pred_grok_20260724_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 208.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AI-related sentiment on X remains bullish with mentions of new partnerships; stock has support after recent pullback from higher levels."
+    },
+    {
+      "id": "pred_grok_20260724_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 310.0,
+      "current_price_at_prediction": 319.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "Short interest signals and X volume on delivery concerns point to continued pressure; no positive catalysts evident in pre-market data."
+    }
+  ]
+}

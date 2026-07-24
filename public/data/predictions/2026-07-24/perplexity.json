@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-24T12:02:01Z",
+  "market_context": "U.S. equity index ETFs are coming off a weak 5-day stretch with SPY, QQQ, and DIA all down roughly 1.6–2%, while the VIX is elevated near 19 and the 10Y Treasury yield is relatively high at 4.70%, pointing to ongoing rate and volatility concerns. Crypto (BTC, ETH) is slightly positive over the last week, suggesting risk appetite is mixed rather than outright risk-off. Overall, the backdrop favors choppy to slightly negative price action in large-cap equities today, with macro rates and earnings headlines likely dictating intraday direction.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260724_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.0,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY is coming off a 5-day decline of about -1.7%, indicating recent selling pressure and a weak short-term trend from the prior highs. The VIX at 18.89 and the 10Y yield at 4.70% suggest investors remain cautious about rates and macro risk, which tends to pressure broad equity valuations. Given the recent drawdown, elevated yields, and lack of a clear positive catalyst, I expect SPY to close modestly lower in a choppy session, with a move of roughly -1–1.5% from the prior close plausible."
+    },
+    {
+      "id": "pred_perplexity_20260724_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 682.0,
+      "current_price_at_prediction": 691.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ has underperformed slightly over the last 5 days at -2.0%, suggesting incremental profit-taking in large-cap growth and tech. Higher real and nominal yields typically weigh more heavily on long-duration growth assets like the Nasdaq-100, and the 10Y Treasury near 4.70% is a notable headwind. With no strong offsetting bullish driver in the current macro backdrop, I expect QQQ to continue to drift lower and finish the day modestly below its prior close, likely in the -1–1.5% range."
+    },
+    {
+      "id": "pred_perplexity_20260724_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 509.0,
+      "current_price_at_prediction": 516.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "DIA is down about -1.6% over the past 5 days, reflecting broad-based selling in blue-chip industrial and value names, which are sensitive to growth and rate expectations. Elevated yields at 4.70% increase discount rates and can pressure economically sensitive sectors that have significant weight in the Dow. While the Dow often shows relative stability versus growth-heavy indexes, the recent negative trend and lack of strong positive news flow lead me to expect a slightly lower close today."
+    },
+    {
+      "id": "pred_perplexity_20260724_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 208.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA has been a key AI and semiconductor leader, and such names often attract dip-buying even during broader market pullbacks as long as the fundamental growth narrative remains intact. With QQQ down over the past week, NVDA’s current level around $208.76 may present an appealing entry for momentum and institutional traders, supporting a potential rebound. Despite macro headwinds from rates, I expect stock-specific demand for AI exposure to push NVDA modestly higher by the close, though with moderate confidence due to sector volatility."
+    },
+    {
+      "id": "pred_perplexity_20260724_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 66100.0,
+      "current_price_at_prediction": 65010.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is modestly positive over the last 5 days (+0.5%), indicating a consolidating but slightly bullish bias amid broader risk-asset volatility. Elevated equity volatility and high yields can increase the appeal of alternative assets, and recent price action suggests BTC is finding support near the mid-$60k range. Given the current sideways-to-up pattern and absence of a clear negative catalyst, I expect BTC-USD to drift higher by end of day, albeit with only moderate confidence due to crypto’s inherent intraday volatility."
+    }
+  ]
+}

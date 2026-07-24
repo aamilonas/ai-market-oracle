@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-24",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-24T12:02:33.528689+00:00",
+  "market_context": "U.S. stock futures are showing modest gains following a tech-led sell-off, with S&P 500 futures up 0.28% and Nasdaq futures up 0.50%. Investors are digesting recent earnings reports and upcoming economic data releases, including the S&P Global Flash Manufacturing and Services PMIs at 9:45 AM ET and June's new home sales data at 10:00 AM ET.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260724_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 738.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Pre-market futures indicate a slight rebound in the S&P 500 following a tech-led sell-off. Positive earnings reports from companies like American Express and Verizon, along with anticipated stable economic data, may bolster investor confidence and drive SPY higher."
+    },
+    {
+      "id": "pred_gpt4o_20260724_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "current_price_at_prediction": 691.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite recent declines in tech stocks, Nasdaq futures are up 0.50% pre-market. Investors may view the recent sell-off as a buying opportunity, leading to a modest recovery in QQQ by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260724_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 325.0,
+      "current_price_at_prediction": 321.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple's stock has been resilient amid recent market volatility. With no negative company-specific news and a general market rebound, AAPL is likely to see a slight uptick by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260724_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 310.0,
+      "current_price_at_prediction": 319.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla reported a decline in earnings to $0.33 per share, despite a 26% rise in revenue. The negative free cash flow of $1.1 billion due to higher capital expenditure may weigh on investor sentiment, leading to a potential decline in TSLA's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260724_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 65010.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin has shown resilience with a 0.5% gain over the past five days. Continued investor interest and a stable market environment may contribute to a modest increase in BTC's price by the end of the day."
+    }
+  ]
+}
