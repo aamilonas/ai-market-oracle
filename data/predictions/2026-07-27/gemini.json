@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-27",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-27T13:25:46.998354+00:00",
+  "market_context": "The market is currently reacting to a mix of strong corporate earnings and ongoing inflation concerns. Technology stocks are showing resilience, while some industrial sectors face headwinds from supply chain disruptions.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260727_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q2 earnings reports from tech giants are expected to boost overall market sentiment, pushing SPY higher."
+    },
+    {
+      "id": "pred_gemini_20260727_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements later this week is driving investor interest and pre-market trading volume."
+    },
+    {
+      "id": "pred_gemini_20260727_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays and increased competition in the EV market are creating downward pressure on the stock."
+    },
+    {
+      "id": "pred_gemini_20260727_004",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Positive analyst ratings following a successful AI conference presentation are expected to fuel a rally."
+    }
+  ]
+}

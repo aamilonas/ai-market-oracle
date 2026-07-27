@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-27",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-27T13:26:07.072531+00:00",
+  "market_context": "U.S. stock futures are trading higher on July 27, 2026, with S&P 500 futures up 0.18% and Dow futures up 0.50%, following a decline in oil prices amid easing U.S.-Iran tensions. Investors are also anticipating key economic data releases and corporate earnings reports later this week.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260727_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 738.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With S&P 500 futures indicating a positive open and easing geopolitical tensions, SPY is likely to close higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260727_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 340.0,
+      "current_price_at_prediction": 333.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Anticipation of Apple's upcoming earnings report and overall market optimism may drive AAPL's price higher today."
+    },
+    {
+      "id": "pred_gpt4o_20260727_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 385.0,
+      "current_price_at_prediction": 381.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive market sentiment and expectations for Microsoft's earnings report could lead to a modest increase in MSFT's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260727_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 64912.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin's price is slightly down pre-market, and without significant catalysts, it may continue to decline modestly throughout the day."
+    },
+    {
+      "id": "pred_gpt4o_20260727_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 206.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVIDIA's stock may benefit from overall market optimism and anticipation of upcoming earnings reports in the tech sector."
+    }
+  ]
+}

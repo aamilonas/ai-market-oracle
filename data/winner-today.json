@@ -1,16 +1,16 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-27",
   "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.5833,
-    "avg_target": 301.67,
-    "avg_entry": 309.96,
-    "expected_move_pct": 2.68,
-    "score": 1.5608,
+    "ticker": "NVDA",
+    "direction": "up",
+    "avg_confidence": 0.5767,
+    "avg_target": 211.0,
+    "avg_entry": 206.84,
+    "expected_move_pct": 2.01,
+    "score": 1.1598,
     "models": [
       "GPT-4o",
-      "Gemini",
+      "Perplexity",
       "Grok"
     ],
     "model_count": 3,

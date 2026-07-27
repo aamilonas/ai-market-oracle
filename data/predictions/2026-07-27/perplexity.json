@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-27T13:25:36Z",
+  "market_context": "U.S. equity futures are modestly higher after last week’s mild pullback, with investors focused on upcoming earnings from mega-cap tech and key economic data including inflation readings and consumer confidence. Volatility remains contained with the VIX in the high teens, while the 10Y yield near 4.65% reflects tight financial conditions but no major overnight shock. Crypto is mixed with Bitcoin slightly lower over 5 days and Ethereum slightly higher, suggesting a cautiously risk-on but selective environment.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260727_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 738.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are modestly positive in pre-market trade following a shallow 5-day pullback of only about 0.6%, suggesting dip-buying interest rather than a trend reversal. With the VIX at 17.71 and down over the past week, implied volatility points to a relatively calm session favoring a slight grind higher rather than a sharp selloff. Bond yields remain elevated but stable, and there is no major negative macro or earnings shock on the calendar today, so a small positive day in SPY toward ~1% above the prior close is plausible."
+    },
+    {
+      "id": "pred_perplexity_20260727_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 690.0,
+      "current_price_at_prediction": 684.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq 100 ETF has underperformed over the last 5 days with a 1.6% decline, largely driven by profit-taking in mega-cap tech, but pre-market sentiment is improving with futures slightly higher. The VIX remaining relatively subdued and no fresh negative news on key constituents like AAPL, MSFT, and NVDA today points to a stabilization rather than continued aggressive selling. In a mildly risk-on tape with stable rates, QQQ is likely to participate in a modest rebound, making a small gain of around 0.8–1% by the close reasonable."
+    },
+    {
+      "id": "pred_perplexity_20260727_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 338.0,
+      "current_price_at_prediction": 333.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Analyst consensus continues to lean bullish on Apple, with 12‑month targets clustered slightly above the current price, indicating no major deterioration in fundamentals or sentiment.[5][10] In a session where index futures and tech sentiment are modestly positive, AAPL typically acts as a defensive mega-cap with strong liquidity, attracting flows on days without company-specific negative catalysts. Given the relatively mild recent index pullback and high analyst conviction, a modest intraday advance of about 1–2% to the high-$330s is more likely than a decline."
+    },
+    {
+      "id": "pred_perplexity_20260727_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 211.0,
+      "current_price_at_prediction": 206.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "AI and semiconductor names have recently experienced volatility but remain in structural uptrends, and there is no major negative overnight news specific to NVDA. With QQQ futures modestly higher and the broader risk environment stable, NVDA is likely to trade in line with or slightly better than the Nasdaq, benefiting from ongoing AI-related enthusiasm. Given its beta, even a moderately positive tech tape can translate into a 2% move, making a close modestly above the current price plausible."
+    },
+    {
+      "id": "pred_perplexity_20260727_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 64000.0,
+      "current_price_at_prediction": 64853.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is down about 1.9% over the past 5 days, reflecting a mild corrective phase after prior gains, while Ethereum has modestly outperformed, suggesting rotation within crypto rather than broad risk-on. Elevated but stable U.S. yields and a firm dollar typically cap upside in BTC intraday, especially absent a strong new catalyst. In this context, another slightly negative session bringing BTC closer to $64,000 by the close is somewhat more likely than a sharp rebound."
+    }
+  ]
+}
