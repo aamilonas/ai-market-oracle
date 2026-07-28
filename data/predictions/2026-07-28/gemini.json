@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-28",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-28T12:22:10.751268+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data, leading to potential volatility.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260728_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in broad market ETFs following positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260728_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.5,
+      "current_price_at_prediction": 228.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets suggest a potential pullback."
+    },
+    {
+      "id": "pred_gemini_20260728_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1230.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Continued strong demand for AI chips and positive sentiment from recent earnings calls are driving momentum."
+    },
+    {
+      "id": "pred_gemini_20260728_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.0,
+      "current_price_at_prediction": 112.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Weakening crude oil prices and geopolitical stability reducing supply concerns are putting pressure on energy stocks."
+    }
+  ]
+}

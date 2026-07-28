@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-28",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-28T12:22:40.451152+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting oversold tech after QQQ's 2% drop and VIX spike. Pre-market futures point to flat-to-slightly higher open, no major catalysts today but options flow indicates defensive positioning in mega-caps.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260728_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.5,
+      "current_price_at_prediction": 739.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "X chatter shows dip-buying in broad indices after 5-day -0.4% slide. 10Y yield stable at 4.64% removes immediate pressure. No negative macro events expected so SPY should recover modestly by close."
+    },
+    {
+      "id": "pred_grok_20260728_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 678.0,
+      "current_price_at_prediction": 682.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Continued rotation out of growth names visible on X with NVDA and META mentions turning negative. 5-day -2.0% trend and elevated VIX support further intraday weakness into close."
+    },
+    {
+      "id": "pred_grok_20260728_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 309.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "X volume on TSLA positive after recent pullback with mentions of delivery optimism. Crypto correlation via BTC stability at 63395 may provide tailwind for EV names."
+    },
+    {
+      "id": "pred_grok_20260728_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 63395.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "X crypto feeds show profit-taking after 5-day -2.5% move and equity weakness spillover. ETH flatness adds no support so BTC likely tests lower by US close."
+    }
+  ]
+}

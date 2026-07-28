@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-28",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-28T12:22:30Z",
+  "market_context": "U.S. equity index futures are modestly higher following a slightly negative 5-day performance for SPY and QQQ, with volatility elevated as indicated by a VIX near 19 and the 10Y yield holding around 4.6%. Pre-market commentary points to cautious optimism ahead of upcoming earnings reports from mega-cap tech and a relatively light U.S. economic calendar today, while traders continue to watch bond yields and Fed commentary for clues on rate trajectory. Overall risk sentiment is mildly constructive but fragile after recent tech underperformance and rising volatility.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260728_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 746.0,
+      "current_price_at_prediction": 739.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is coming off a modest 5-day pullback (-0.4%) despite no clear deterioration in macro data, and futures plus pre-market indications suggest a slightly positive open, with dip-buying behavior still prevalent in recent sessions. An elevated but not extreme VIX (~18–19) and stable 10Y yields near 4.64% point to contained macro stress, supporting a mild risk-on tone rather than a sharp risk-off move. Given this backdrop and typical intraday volatility in SPY, a roughly +0.9% move to around 746 by the close is plausible but not highly certain."
+    },
+    {
+      "id": "pred_perplexity_20260728_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 688.0,
+      "current_price_at_prediction": 682.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ has underperformed over the last 5 days (-2.0%), largely on position trimming in high-multiple tech and AI names despite limited negative fundamental news. With index futures modestly positive and no major tech-specific data releases scheduled for today, there is room for a mild mean-reversion bounce as some traders buy weakness in major constituents like AAPL, MSFT, and NVDA. However, the elevated VIX and sensitivity of growth stocks to any move higher in yields limit confidence, so only a small gain toward ~688 (about +0.9%) is expected."
+    },
+    {
+      "id": "pred_perplexity_20260728_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 342.0,
+      "current_price_at_prediction": 336.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "AAPL is trading slightly below its recent highs with no major negative company-specific catalysts overnight, while broader large-cap tech sentiment is cautiously constructive ahead of the next earnings cluster. As a defensive growth bellwether within both SPY and QQQ, AAPL often attracts flows on days when the indices are modestly higher but volatility remains elevated. Under typical intraday ranges for AAPL, a ~1.5% advance toward 342 appears reasonable, though upside is constrained by overall tech sector fatigue over the last week."
+    },
+    {
+      "id": "pred_perplexity_20260728_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 201.0,
+      "current_price_at_prediction": 196.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA has experienced increased volatility recently as AI-related expectations remain very high, and the stock has pulled back alongside broader weakness in growth and semiconductors over the last several sessions. With no fresh negative company-specific headlines overnight and index futures pointing modestly higher, short-term traders may look to re-enter on weakness, supporting a small bounce. Given the heightened volatility and positioning risks in NVDA, a ~2.3% move to about 201 is plausible but carries only slightly better-than-even odds."
+    },
+    {
+      "id": "pred_perplexity_20260728_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64400.0,
+      "current_price_at_prediction": 63395.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Bitcoin has drifted lower over the past 5 days (-2.5%), but the absence of major negative regulatory or macro shocks and relatively stable risk sentiment in equities suggest a consolidation rather than the start of a sharp downtrend. With the 10Y yield steady and no major U.S. macro events today, correlations between BTC and tech/growth assets could support a modest intraday rebound if equities trade slightly higher. A move of roughly +1.5% toward 64,400 is consistent with typical daily volatility in BTC under benign news conditions, though crypto’s inherent jump risk tempers confidence."
+    }
+  ]
+}

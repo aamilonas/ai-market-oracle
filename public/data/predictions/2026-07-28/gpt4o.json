@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-28",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-28T12:22:32.248102+00:00",
+  "market_context": "U.S. stock futures are mixed ahead of the market open, with S&P 500 futures up 0.05%, Dow futures up 0.20%, and Nasdaq futures down 0.17%. Investors are cautious due to the upcoming Federal Open Market Committee (FOMC) meeting and key earnings reports from major tech companies.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260728_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "S&P 500 futures are slightly positive, indicating a modest upward trend. However, market sentiment remains cautious due to the upcoming FOMC meeting and key earnings reports, suggesting limited gains."
+    },
+    {
+      "id": "pred_gpt4o_20260728_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 675.0,
+      "current_price_at_prediction": 682.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures are down 0.17%, reflecting investor caution ahead of major tech earnings and the FOMC meeting. This suggests potential downward pressure on QQQ."
+    },
+    {
+      "id": "pred_gpt4o_20260728_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 340.0,
+      "current_price_at_prediction": 336.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Apple is set to report earnings later this week, and anticipation of positive results may drive the stock slightly higher today. However, overall market caution may limit significant gains."
+    },
+    {
+      "id": "pred_gpt4o_20260728_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 389.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft is scheduled to report earnings tomorrow, and expectations of strong performance may lead to modest gains today. However, broader market uncertainties could temper the upside."
+    },
+    {
+      "id": "pred_gpt4o_20260728_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 190.0,
+      "current_price_at_prediction": 196.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia recently experienced a 5% drop, and ongoing market volatility, coupled with sector-specific challenges, may continue to exert downward pressure on the stock."
+    }
+  ]
+}
