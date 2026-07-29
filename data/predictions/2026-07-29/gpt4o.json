@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-29",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-29T12:31:08.064199+00:00",
+  "market_context": "U.S. stock futures indicate a mixed opening today, with the Dow Jones Industrial Average showing strength, while the Nasdaq Composite faces pressure due to declines in semiconductor stocks amid concerns over AI investment returns. Investors are also awaiting the Federal Reserve's policy statement and Chair Kevin Warsh's press conference later today, which could influence market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260729_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 740.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The S&P 500 edged up 0.2% yesterday, supported by strong earnings reports from companies like Coca-Cola. With the Federal Reserve expected to maintain interest rates and provide guidance today, investor sentiment may remain positive, potentially leading to a modest gain in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260729_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 670.0,
+      "current_price_at_prediction": 675.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The Nasdaq Composite slipped 0.2% yesterday, dragged down by declines in semiconductor and AI-related stocks. Continued investor concerns over the profitability of AI investments and recent sell-offs in chip stocks suggest that QQQ may experience further downward pressure today."
+    },
+    {
+      "id": "pred_gpt4o_20260729_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 530.0,
+      "current_price_at_prediction": 526.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow Jones Industrial Average gained 1% yesterday, driven by strong earnings reports and a decline in oil prices. If the Federal Reserve's policy statement aligns with market expectations, DIA may continue its upward trend today."
+    },
+    {
+      "id": "pred_gpt4o_20260729_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 195.0,
+      "current_price_at_prediction": 197.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia's stock has been under pressure due to investor concerns over the returns on AI-related investments. Recent declines in semiconductor stocks and ongoing market skepticism suggest that NVDA may face further losses today."
+    },
+    {
+      "id": "pred_gpt4o_20260729_005",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "current_price_at_prediction": 393.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Microsoft is scheduled to report earnings today, with analysts expecting strong results. Positive earnings could boost investor confidence and lead to a slight increase in MSFT's stock price by the end of the day."
+    }
+  ]
+}

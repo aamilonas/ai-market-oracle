@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-29",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-29T12:31:15.365443+00:00",
+  "market_context": "X sentiment shows caution with bearish chatter on tech after QQQ's 4.7% drop, though DIA strength and stable BTC provide some offset. Pre-market futures mixed with VIX elevated at 18.54 signaling uncertainty ahead of open. No major catalysts noted but options flow indicates defensive positioning in indices.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260729_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 743.5,
+      "current_price_at_prediction": 740.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA's +1.0% 5-day gain and stable 10Y yield at 4.60% suggest broad market resilience despite tech weakness. X posts highlight rotation into value stocks supporting SPY recovery by close."
+    },
+    {
+      "id": "pred_grok_20260729_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 668.0,
+      "current_price_at_prediction": 675.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ's sharp 4.7% weekly decline and elevated VIX point to continued selling pressure in tech names like NVDA and MSFT. X sentiment reflects ongoing concerns over AI valuation."
+    },
+    {
+      "id": "pred_grok_20260729_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 192.0,
+      "current_price_at_prediction": 197.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Recent QQQ weakness and lack of positive catalysts in X discussions on semiconductors likely weigh on NVDA intraday. Options flow shows increased put activity."
+    },
+    {
+      "id": "pred_grok_20260729_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 312.0,
+      "current_price_at_prediction": 307.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "BTC stability at $64k and EV sector mentions on X provide mild support for TSLA despite broader market caution. Short interest signals remain elevated but not triggering today."
+    }
+  ]
+}

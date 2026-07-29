@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-29",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-29T12:30:20.803252+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260729_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY shows strong upward momentum driven by positive earnings reports from key constituents and increased trading volume."
+    },
+    {
+      "id": "pred_gemini_20260729_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.75,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Apple's new product announcement generated significant positive analyst revisions and pre-orders, indicating strong short-term demand."
+    },
+    {
+      "id": "pred_gemini_20260729_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.2,
+      "current_price_at_prediction": 112.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Crude oil futures experienced a sharp decline overnight, putting pressure on energy sector stocks like Exxon Mobil."
+    },
+    {
+      "id": "pred_gemini_20260729_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 453.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over rising interest rates are impacting growth stocks, leading to a potential pullback in the tech-heavy QQQ."
+    }
+  ]
+}

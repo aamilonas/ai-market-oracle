@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-29",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-29T12:30:10Z",
+  "market_context": "Index ETFs are near all-time highs after a strong multi-month uptrend, with SPY trading above key moving averages and showing bullish but not overbought momentum.[8][12] Volatility is moderately elevated (VIX ~18.5), and recent 5-day weakness in QQQ alongside strength in DIA suggests sector rotation toward value and cyclicals. Macro conditions include a 10Y yield around 4.6%, keeping pressure on longer-duration growth but supporting financials and cyclicals in the near term.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260729_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 740.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY is trading above its 20-day EMA (~742), 50-day SMA (~738), and 200-day SMA (~693), indicating a strong, intact bullish trend with neutral RSI around 55.[8] MarketChameleon’s one-day standard deviation range around recent prices places resistance near 753 and support around 738, implying a typical intraday band that comfortably includes modest upside from the current 740.86 baseline.[12] With VIX only moderately elevated and no clear signs of overbought extremes, a mildly higher close within the prevailing uptrend is more likely than a sharp breakdown."
+    },
+    {
+      "id": "pred_perplexity_20260729_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 668.0,
+      "current_price_at_prediction": 675.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The Nasdaq-heavy QQQ has underperformed over the last five days (-4.7%), reflecting pressure on high-duration growth from the 10Y yield around 4.6% and elevated sector-specific volatility. With VIX up more than 11% over the same period, risk conditions are tightening, which historically weighs more on tech and momentum names than on broad value or industrial indices. Given the ongoing rate backdrop and recent relative weakness in major growth stocks, a slightly lower close in QQQ aligns with continued short-term consolidation."
+    },
+    {
+      "id": "pred_perplexity_20260729_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 531.5,
+      "current_price_at_prediction": 526.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "DIA has gained about 1.0% over the last five days, outperforming QQQ and indicating rotation toward value, cyclicals, and industrials in a higher-rate environment. With the 10Y yield elevated and broader SPY remaining in a bullish trend above key moving averages, the macro backdrop favors Dow components that are less sensitive to long-duration growth valuations.[8] In the context of moderate volatility and ongoing sector rotation, a modest further advance in DIA is more likely than a reversal of its recent strength."
+    },
+    {
+      "id": "pred_perplexity_20260729_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 192.0,
+      "current_price_at_prediction": 197.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Semiconductors and AI-levered names like NVDA have been key drivers of QQQ, which has fallen 4.7% over the last five days, suggesting profit-taking and elevated sensitivity to rate moves. With the 10Y yield at 4.6% and VIX higher, richly valued growth stocks remain vulnerable to incremental macro or earnings-related disappointments. After a strong multi-month run, a continued short-term pullback or consolidation toward lower levels is consistent with recent Nasdaq weakness and risk-off positioning in high-beta names."
+    },
+    {
+      "id": "pred_perplexity_20260729_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65050.0,
+      "current_price_at_prediction": 64278.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin has been essentially flat over the past five days (+0.3%), indicating consolidation rather than a clear trend, but it remains supported by ongoing institutional interest and ETF flows in an environment where real yields are relatively high. Crypto has shown resilience despite equity volatility, suggesting that current levels reflect a stable risk appetite for digital assets. Given the sideways pattern and absence of strong negative catalysts, a modestly higher close within the existing range is slightly more probable than a sharp downside move."
+    }
+  ]
+}
