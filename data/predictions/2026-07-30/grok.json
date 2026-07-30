@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-30",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-30T12:13:18.329466+00:00",
+  "market_context": "X sentiment mixed with caution on tech after 5-day QQQ drop, futures flat-to-down pre-market. Elevated VIX and 10Y yield signal risk-off tone; no major catalysts but earnings watch noted.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260730_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 725.0,
+      "current_price_at_prediction": 729.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Recent 5-day decline and VIX at 19.09 point to continued pressure; X chatter highlights rotation out of equities."
+    },
+    {
+      "id": "pred_grok_20260730_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 655.0,
+      "current_price_at_prediction": 661.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech weakness dominant on X with NVDA and MSFT mentions; 6.2% 5-day drop likely extends."
+    },
+    {
+      "id": "pred_grok_20260730_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Semiconductor names under pressure per X flow; aligns with broader QQQ trend."
+    },
+    {
+      "id": "pred_grok_20260730_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 64851.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "Crypto showing relative strength on X with modest 5-day gains; risk asset divergence possible."
+    }
+  ]
+}

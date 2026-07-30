@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-30",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-30T12:13:10.875365+00:00",
+  "market_context": "U.S. stock markets closed lower on July 29, 2026, with the S&P 500 down 1.5%, the Dow Jones Industrial Average down 2.2%, and the Nasdaq Composite down 1.7%. These declines were driven by losses in major AI-related stocks and investor uncertainty about Federal Reserve actions to curb inflation. Key economic data releases scheduled for July 30, 2026, include the Gross Domestic Product (GDP) report and the Personal Consumption Expenditure (PCE) Price Index.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260730_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 720.0,
+      "current_price_at_prediction": 729.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the recent market downturn driven by declines in technology stocks and investor uncertainty about Federal Reserve actions to curb inflation, coupled with upcoming economic data releases that may further influence market sentiment, it is anticipated that SPY will continue to decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260730_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nvidia has been leading the recent decline in semiconductor stocks amid investor anxiety over the profitability of continued heavy spending by AI-focused companies. This trend is expected to persist, leading to a further decrease in NVDA's stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260730_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 340.0,
+      "current_price_at_prediction": 338.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple recently surpassed Nvidia as the largest company by market cap, and with its upcoming earnings report, there is potential for positive investor sentiment. This may lead to a slight increase in AAPL's stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260730_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 226.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Amazon is scheduled to release its Q2 2026 earnings report today. Given the recent market volatility and investor caution surrounding technology stocks, there is a likelihood of a slight decrease in AMZN's stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260730_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 64851.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown a slight upward trend over the past five days, with a 0.8% increase. Given the current market conditions and investor interest in alternative assets, BTC-USD may experience a modest increase by the end of the day."
+    }
+  ]
+}

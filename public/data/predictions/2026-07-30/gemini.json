@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-30",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-30T12:12:48.451153+00:00",
+  "market_context": "Global markets showed mixed signals today, with tech stocks experiencing a slight rebound while energy sectors faced downward pressure. Inflation concerns continue to influence investor sentiment, leading to cautious trading across major indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260730_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic data releases, suggests an upward close for the S&P 500 ETF."
+    },
+    {
+      "id": "pred_gemini_20260730_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector facing profit-taking after recent gains, and a key resistance level was not breached, indicating a potential pullback by market close."
+    },
+    {
+      "id": "pred_gemini_20260730_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements next week is driving investor interest, with institutional buying observed throughout the current week."
+    },
+    {
+      "id": "pred_gemini_20260730_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 85.0,
+      "current_price_at_prediction": 86.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising global oil inventories and a stronger dollar are putting downward pressure on energy prices, likely impacting the energy sector ETF by month-end."
+    }
+  ]
+}

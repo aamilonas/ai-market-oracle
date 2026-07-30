@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "winner": {
     "ticker": "NVDA",
     "direction": "down",
-    "avg_confidence": 0.6167,
-    "avg_target": 193.0,
-    "avg_entry": 197.01,
-    "expected_move_pct": 2.04,
-    "score": 1.2552,
+    "avg_confidence": 0.6367,
+    "avg_target": 184.67,
+    "avg_entry": 190.01,
+    "expected_move_pct": 2.81,
+    "score": 1.7904,
     "models": [
       "GPT-4o",
       "Perplexity",

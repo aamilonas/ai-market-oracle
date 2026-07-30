@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-30",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-30T12:12:35Z",
+  "market_context": "US equity futures are modestly weaker following a sharp tech-led selloff over the past week, with QQQ down over 6% in five days while volatility (VIX near 19) and 10Y yields around 4.6% signal risk-off but not panic. Large-cap tech remains under pressure after recent earnings and guidance-driven repricing, and the broader market is consolidating recent gains as investors wait for upcoming economic data and any Fed commentary.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260730_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 648.0,
+      "current_price_at_prediction": 661.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ is down roughly 6.2% over the past 5 trading days, materially underperforming SPY and DIA, indicating concentrated selling in large-cap growth and tech. With the 10Y Treasury yield elevated at 4.62% and VIX above 19, rate-sensitive, long-duration tech remains vulnerable to further de-risking as investors rotate to more defensive exposures. Given the recent momentum and lack of clear positive catalysts today, I expect QQQ to close modestly lower, with a working range of about 1–2% downside toward ~648 by the end of the session."
+    },
+    {
+      "id": "pred_perplexity_20260730_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 720.0,
+      "current_price_at_prediction": 729.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is down about 2.4% over the past 5 days, reflecting broad-market weakness but less severe than QQQ, suggesting some relative resilience outside of mega-cap tech. However, the combination of elevated VIX and 10Y yields near 4.62% continues to pressure equity risk premia, limiting appetite to buy dips aggressively. I expect SPY to drift lower in sympathy with QQQ but with smaller magnitude, targeting a closing level around 1–1.5% below the previous close near 720 by end of day."
+    },
+    {
+      "id": "pred_perplexity_20260730_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 330.0,
+      "current_price_at_prediction": 338.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Apple closed at 338.19 and is currently trading slightly higher intraday near 340 on some venues, but the broader context is that mega-cap tech has been under sustained pressure, as seen in QQQ’s recent 6%+ drawdown.[13] Multiple analyst consensus targets cluster slightly above current levels (around 309–315), implying limited short-term upside and a market that has already priced in much of the optimism.[4][11][12] Given the risk-off tone in growth, elevated rates, and Apple’s heavy weighting in QQQ and SPY, I expect intraday strength to fade and AAPL to close modestly below yesterday’s close, around 330."
+    },
+    {
+      "id": "pred_perplexity_20260730_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 184.0,
+      "current_price_at_prediction": 190.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA, as a core AI and semiconductor bellwether, is highly sensitive to shifts in risk appetite and has contributed substantially to the recent drawdown in QQQ. With QQQ off more than 6% in the past five days and rates elevated, high-beta names like NVDA typically experience outsized moves relative to the indices in risk-off regimes. Absent new AI-specific positive news today, I expect continued pressure and a close modestly below the prior day, targeting around 184, roughly 3% below the baseline price."
+    },
+    {
+      "id": "pred_perplexity_20260730_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 288.0,
+      "current_price_at_prediction": 298.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "TSLA at 298.32 sits within a volatile, sentiment-driven range and tends to trade with high beta to both QQQ and broader risk indicators such as VIX and rates. In an environment where growth and speculative segments are being de-risked, and with no major positive company-specific catalysts identified for today, TSLA is likely to participate in the downside move. I expect a choppy session biased lower, with a close in the vicinity of 288, roughly 3–4% below the baseline price."
+    }
+  ]
+}
