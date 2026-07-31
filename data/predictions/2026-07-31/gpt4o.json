@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-31",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-07-31T12:28:13.401255+00:00",
+  "market_context": "The Federal Reserve recently held interest rates steady at 3.5%-3.75% amid elevated inflation driven by rising oil prices due to geopolitical tensions. Key economic indicators, including the Employment Cost Index and the University of Michigan Consumer Sentiment Index, are scheduled for release today, which may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260731_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 741.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Given the Federal Reserve's decision to hold interest rates steady amid persistent inflation concerns and the upcoming release of the Employment Cost Index, which may indicate rising labor costs, investor sentiment could be negatively impacted, leading to a potential decline in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260731_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 340.0,
+      "current_price_at_prediction": 333.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple's recent earnings report exceeded analyst expectations, showcasing strong product sales and services growth. This positive performance may bolster investor confidence, potentially driving AAPL's stock price higher."
+    },
+    {
+      "id": "pred_gpt4o_20260731_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62500.0,
+      "current_price_at_prediction": 63680.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has experienced a 2.5% decline over the past five days. Continued regulatory scrutiny and potential profit-taking by investors may contribute to further short-term downward pressure on BTC-USD."
+    },
+    {
+      "id": "pred_gpt4o_20260731_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 451.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft's recent earnings report highlighted robust growth in its cloud computing and AI segments. This strong performance may attract investors, leading to a potential increase in MSFT's stock price."
+    },
+    {
+      "id": "pred_gpt4o_20260731_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 18.0,
+      "current_price_at_prediction": 17.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "With upcoming economic data releases and ongoing geopolitical tensions, market volatility may increase, leading to a potential rise in the VIX index."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-31",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-07-31T12:27:42Z",
+  "market_context": "U.S. equity futures are modestly higher with S&P 500 and Nasdaq futures up around 0.3–0.5%, while VIX remains subdued near 17, suggesting a relatively calm but cautious risk backdrop.[9][20] Treasury yields are hovering near 4.6–4.7% on the 10-year, with no major surprise data releases on the economic calendar this morning, and market focus remains on upcoming big-tech earnings and macro data next week.[9][20] Crypto is slightly weaker over the past 5 days, but overnight moves are limited, pointing to a stable cross-asset environment into today’s U.S. session.[9][20]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260731_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 741.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are trading slightly positive in pre-market, supported by a still-elevated but stable 10Y yield around 4.66% and a VIX that has declined over the past 5 days, indicating contained volatility and risk appetite.[9][20] With no major macro shocks scheduled for today and big tech still broadly holding up, a modest continuation move higher of about 1% in SPY by the close is plausible but not high conviction.[9][20]"
+    },
+    {
+      "id": "pred_perplexity_20260731_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 690.0,
+      "current_price_at_prediction": 683.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq futures are modestly green after a slightly negative 5-day performance for QQQ, suggesting scope for a mild mean-reversion bounce if today’s session remains free of adverse earnings or macro surprises.[9][20] With mega-cap tech like AAPL and MSFT seeing stable to positive analyst sentiment and a relatively calm volatility backdrop, a ~1% gain in QQQ into the close is reasonable but still subject to intraday tech-sector swings.[1][7][9][20]"
+    },
+    {
+      "id": "pred_perplexity_20260731_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 338.0,
+      "current_price_at_prediction": 333.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Apple is trading in the low $330s with a broad analyst consensus 12‑month target clustered around $310–315, implying modest upside and a prevailing Buy rating that tends to support dip‑buying behavior on quiet macro days.[5][7][9] With tech futures slightly positive and no company-specific negative news dominating headlines this morning, a small intraday advance of around 1–1.5% toward the high $330s by the close is moderately likely.[5][7][20]"
+    },
+    {
+      "id": "pred_perplexity_20260731_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 198.5,
+      "current_price_at_prediction": 195.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Semiconductor and AI-related names have been volatile but remain in an intermediate uptrend, and positive Nasdaq futures alongside stable macro conditions create room for a modest rebound after recent consolidation.[9][20] Given NVDA’s sensitivity to broader tech flows and the absence of new negative company-specific catalysts this morning, a ~2% move higher toward the high $190s into the close is plausible but carries higher volatility risk.[9][20]"
+    },
+    {
+      "id": "pred_perplexity_20260731_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62700.0,
+      "current_price_at_prediction": 63680.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has declined about 2.5% over the past 5 days and remains sensitive to the elevated 10Y yield environment, which tends to pressure risk assets at the margin.[9][20] With no clear bullish catalyst overnight and a slightly risk-on but not exuberant equity tone, a further mild drift lower of around 1–1.5% by the end of the U.S. session is slightly more likely than a sharp rebound.[9][20]"
+    }
+  ]
+}

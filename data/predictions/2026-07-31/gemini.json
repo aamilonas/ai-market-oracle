@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-31",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-07-31T12:27:52.395789+00:00",
+  "market_context": "Market showed mixed signals today, with tech stocks experiencing a slight rebound while energy sectors faced downward pressure due to unexpected inventory reports. Overall sentiment remains cautious ahead of tomorrow's inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260731_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY showed strong buying interest in the last hour of trading, indicating a potential close above resistance."
+    },
+    {
+      "id": "pred_gemini_20260731_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.5,
+      "current_price_at_prediction": 212.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple shares faced selling pressure after a downgrade from a major analyst firm, likely pushing it lower by market close."
+    },
+    {
+      "id": "pred_gemini_20260731_003",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 180.0,
+      "current_price_at_prediction": 178.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Google's upcoming earnings report next week is expected to be positive, driving anticipatory buying through the end of the week."
+    },
+    {
+      "id": "pred_gemini_20260731_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 105.0,
+      "current_price_at_prediction": 107.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Oil prices have been trending downwards for the past two weeks, and inventory builds suggest continued pressure on energy stocks through month-end."
+    }
+  ]
+}

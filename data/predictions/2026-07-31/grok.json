@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-31",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-07-31T12:28:21.002558+00:00",
+  "market_context": "X sentiment is mixed with bullish chatter on AI stocks offset by concerns over rising yields. Pre-market futures point to a flat open and no major economic releases today. VIX at 17 suggests low volatility expected.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260731_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.5,
+      "current_price_at_prediction": 741.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Low VIX and positive pre-market futures support modest gains. X posts from traders highlight tech resilience despite yield pressure."
+    },
+    {
+      "id": "pred_grok_20260731_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 680.0,
+      "current_price_at_prediction": 683.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Recent 5-day decline and higher yields may weigh on growth names. Mixed X sentiment shows caution on mega-cap tech."
+    },
+    {
+      "id": "pred_grok_20260731_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 198.0,
+      "current_price_at_prediction": 195.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AI momentum continues per recent X buzz and options flow signals. Low volatility environment favors continued upside."
+    },
+    {
+      "id": "pred_grok_20260731_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 305.0,
+      "current_price_at_prediction": 308.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "Crypto weakness and broader EV sector concerns noted on X. No clear catalyst today to reverse recent trend."
+    }
+  ]
+}
