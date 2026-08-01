@@ -1,0 +1,54 @@
+{
+  "week": "2026-W30",
+  "period": "Jul 20 – Jul 24, 2026",
+  "generated_at": "2026-08-01T15:54:36.415502+00:00",
+  "headline": "Perplexity led 2026-W30 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Perplexity",
+      "weekly_score": 10.54,
+      "predictions": 24,
+      "accuracy": 0.6667,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 9.97,
+      "predictions": 20,
+      "accuracy": 0.7,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 9.43,
+      "predictions": 23,
+      "accuracy": 0.6522,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 4.35,
+      "predictions": 9,
+      "accuracy": 0.8889,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "GPT-4o",
+    "ticker": "SPY",
+    "score": 1.2,
+    "summary": "Top single-call score of the week belonged to GPT-4o."
+  },
+  "worst_call": {
+    "model": "GPT-4o",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Lowest single-call score of the week belonged to GPT-4o."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 0,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
