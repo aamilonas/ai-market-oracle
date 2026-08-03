@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-03",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-03T13:25:36.798410+00:00",
+  "market_context": "US stock futures are significantly higher this morning, extending Friday's rally, driven by de-escalating geopolitical tensions in the Middle East as President Trump announced a new peace initiative. This positive sentiment is expected to boost market confidence and lead to broad gains across major indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260803_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Broad market sentiment is positive due to geopolitical de-escalation, driving S&P 500 futures higher."
+    },
+    {
+      "id": "pred_gemini_20260803_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector expected to benefit from improved market risk appetite following positive geopolitical news."
+    },
+    {
+      "id": "pred_gemini_20260803_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Strong consumer discretionary spending outlook combined with overall market optimism supports Apple's stock price."
+    },
+    {
+      "id": "pred_gemini_20260803_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 480.0,
+      "current_price_at_prediction": 477.0,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Continued strength in cloud services and enterprise software, bolstered by positive market sentiment."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-03",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-03T13:25:31Z",
+  "market_context": "I do not have live access to futures, pre-market tape, or today’s economic calendar in the provided results, so I am grounding these calls in the supplied Yahoo Finance baseline prices and the latest available analyst/quote context. The broader backdrop is risk-on but not extreme: VIX is low at 15.99, the 10Y yield is elevated at 4.68%, and the major tech names sit near analyst target levels with mixed upside estimates.[2][7][9][13][16]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260803_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 751.2,
+      "current_price_at_prediction": 747.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is close to recent highs and the volatility backdrop is subdued, with VIX at 15.99 and the major index complex already up over the last 5 days.[2] Elevated rates at 4.68% may cap gains, but the near-term tone still favors a modest continuation higher rather than a sharp reversal."
+    },
+    {
+      "id": "pred_perplexity_20260803_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 691.4,
+      "current_price_at_prediction": 687.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ should remain supported if megacap tech stays bid, and the recent 5-day move has already been positive, though smaller than SPY's.[2] Analyst context around AAPL and other large-cap tech names is broadly constructive, which typically helps the Nasdaq-100 more than the Dow in a calm tape.[7][9][13]"
+    },
+    {
+      "id": "pred_perplexity_20260803_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 312.1,
+      "current_price_at_prediction": 308.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "AAPL is trading just below multiple consensus target clusters, including 312.72 from StockAnalysis, 314.42 from Investing.com, and 314.85 from MarketBeat.[2][7][9] That setup favors a small mean-reversion move higher if the market is stable, though the upside is likely limited by already-extended valuation expectations.[13][16]"
+    },
+    {
+      "id": "pred_perplexity_20260803_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 467.8,
+      "current_price_at_prediction": 464.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "MSFT should benefit from the same large-cap growth bid that supports QQQ, and the stock is only modestly above a near-term neutral zone relative to the broader market tone.[2] With volatility low, I expect a small grind higher rather than a large directional move."
+    },
+    {
+      "id": "pred_perplexity_20260803_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 306.4,
+      "current_price_at_prediction": 311.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "TSLA is more vulnerable than the megacap index names when the market is calm but rates remain high, because higher yields tend to pressure long-duration growth equities.[2] In an environment where VIX is low and investors may rotate toward steadier large-cap tech, TSLA is the most likely of the listed names to lag or give back some recent gains."
+    }
+  ]
+}
