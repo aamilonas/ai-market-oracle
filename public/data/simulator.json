@@ -1,5 +1,5 @@
 {
-  "balance": 24585.59,
+  "balance": 24151.88,
   "starting_balance": 25000,
   "trades": [
     {
@@ -924,17 +924,17 @@
       "ticker": "AAPL",
       "direction": "up",
       "entry_price": 308.91,
-      "exit_price": null,
+      "exit_price": 303.42,
       "shares": 79,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": -433.71,
+      "pnl_pct": -1.78,
       "models": [
         "GPT-4o",
         "Perplexity",
         "Gemini"
       ],
       "confidence": 0.62,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

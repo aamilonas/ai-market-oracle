@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T13:26:14.594243+00:00",
+  "generated_at": "2026-08-03T23:32:30.805586+00:00",
   "headline": "15 AI market calls queued for 2026-08-03",
   "summary": "15 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -12,7 +12,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on MSFT up."
     },
     {
@@ -33,7 +33,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on QQQ up."
     },
     {
@@ -45,7 +45,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "4 models aligned on SPY up."
     }
   ],
@@ -53,14 +53,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "SPY",
-    "score": null,
+    "score": 0.75,
     "summary": "Highest-confidence call came from Gemini on SPY."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Perplexity",
     "ticker": "TSLA",
-    "score": null,
+    "score": -0.54,
     "summary": "Lowest-confidence call came from Perplexity on TSLA."
   }
 }
