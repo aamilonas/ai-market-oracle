@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-04",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-04T12:28:00.883502+00:00",
+  "market_context": "X/Twitter sentiment is cautiously bullish with traders citing AI momentum and VIX drop of 13.9% over 5 days. Pre-market futures point to modest gains with no major economic events scheduled. Low volatility and steady 10Y yield at 4.69% support risk-on flows.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260804_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.5,
+      "current_price_at_prediction": 757.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X posts from @zerohedge and @markets show positive pre-market futures and options flow favoring SPY. 5-day gain of 2.5% and VIX at 15.68 indicate continued momentum into close."
+    },
+    {
+      "id": "pred_grok_20260804_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 206.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Recent X chatter around AI chip demand from @techcrunch and steady QQQ outperformance supports NVDA upside. Low short interest signals and 5-day tech rally provide tailwinds."
+    },
+    {
+      "id": "pred_grok_20260804_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 318.0,
+      "current_price_at_prediction": 322.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X sentiment from @elonmusk critics and delivery data concerns point to mild profit-taking. Crypto weakness in BTC at $63,755 adds correlated downside pressure."
+    },
+    {
+      "id": "pred_grok_20260804_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.0,
+      "current_price_at_prediction": 700.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "X flow from @nasdaqtraders highlights MSFT and AAPL strength. 5-day gain of 2.6% and calm VIX environment favor continuation into the close."
+    }
+  ]
+}

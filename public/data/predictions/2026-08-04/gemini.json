@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-04",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-04T12:27:11.119685+00:00",
+  "market_context": "Market sentiment is currently bullish due to strong Q2 earnings reports across several sectors. Technology stocks are showing particular strength, while energy prices remain stable, supporting broader economic optimism.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260804_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260804_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcement next week driving investor interest; strong analyst upgrades."
+    },
+    {
+      "id": "pred_gemini_20260804_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Recent recall news creating negative sentiment; technical indicators showing overbought conditions."
+    }
+  ]
+}
