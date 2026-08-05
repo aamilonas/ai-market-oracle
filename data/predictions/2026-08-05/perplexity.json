@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-05",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-05T12:24:30Z",
+  "market_context": "Overnight, US equity futures are modestly higher after recent strong gains in large-cap tech, with investors watching a mid-morning US economic release and several key earnings reports that could add volatility. VIX remains subdued in the mid-teens, suggesting a risk-on tone but with some caution after the sharp 5-day rallies in SPY and especially QQQ. Pre-market indications for mega-cap tech are mixed to slightly positive, and Treasury yields are roughly stable around 4.6–4.7% on the 10Y.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260805_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.0,
+      "current_price_at_prediction": 723.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "QQQ is up about 7.2% over the last five sessions, materially outperforming SPY and DIA and leaving it stretched versus its recent trend, which increases the probability of intraday profit-taking. With VIX still relatively low but off its recent trough and 10Y yields holding near 4.6–4.7%, the macro backdrop does not clearly justify an ongoing parabolic move in high-duration tech at the same pace. Given this setup, a modest pullback toward the low 710s by the close is more likely than another strong extension higher."
+    },
+    {
+      "id": "pred_perplexity_20260805_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 778.0,
+      "current_price_at_prediction": 771.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY has gained about 4.1% over the past five days and is consolidating near recent highs, but the move has been less extreme than QQQ’s, suggesting less immediate mean-reversion pressure on the broad index. VIX in the mid-teens and stable 10Y yields around 4.6–4.7% point to a constructive risk environment where dips in cyclicals and non-tech sectors may be bought. Under these conditions, a modest additional advance of around 0.8–1.0% into the close appears more probable than a sharp reversal lower."
+    },
+    {
+      "id": "pred_perplexity_20260805_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 205.0,
+      "current_price_at_prediction": 211.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA has been a key driver of the recent QQQ and broader AI-led rally, and the stock is trading near elevated levels where intraday volatility is typically high. With QQQ already up 7.2% over five days and sentiment crowded in AI semiconductors, even slightly negative news or a modest shift in risk appetite can trigger outsized pullbacks. Given this stretched positioning and the potential for mean reversion in high-beta names, a decline toward the low $200s by the close is more likely than continuation to new highs today."
+    },
+    {
+      "id": "pred_perplexity_20260805_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 309.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "AAPL is participating in the broader mega-cap rally but has not moved as dramatically as some AI-centric peers, leaving it relatively less extended after the recent 5-day risk-on move in indices. With VIX subdued and Treasury yields stable, investors typically favor defensible, cash-generative megacaps like AAPL on days with moderate positive sentiment. This backdrop makes a 1.5–2.0% intraday advance to the mid-$310s by the close a plausible base-case scenario."
+    },
+    {
+      "id": "pred_perplexity_20260805_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 318.0,
+      "current_price_at_prediction": 327.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA tends to exhibit outsized intraday swings and is sensitive both to rates and to shifts in speculative risk sentiment, which is at risk of cooling after several strong index days. With SPY and QQQ already up 4.1% and 7.2% over five days, incremental buyers of high-beta names may be more cautious ahead of upcoming macro data and any company-specific headlines. In this environment, TSLA is more likely to see profit-taking, with a move of roughly 2–3% lower by the close toward the high $310s a reasonable expectation."
+    }
+  ]
+}

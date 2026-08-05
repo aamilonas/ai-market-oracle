@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-05",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-05T12:24:41.694318+00:00",
+  "market_context": "Global markets are rallying, driven by strong corporate earnings and optimism over potential peace talks to end the war in Iran. European and Asian indices have shown gains, particularly in tech and energy sectors. Oil prices are climbing amid hopes for a deal between Iran and Oman to reopen the Strait of Hormuz.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260805_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.0,
+      "current_price_at_prediction": 771.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong corporate earnings and optimism over potential peace talks in Iran are boosting investor sentiment. European and Asian markets have shown gains, particularly in tech and energy sectors, suggesting a positive spillover effect on U.S. markets."
+    },
+    {
+      "id": "pred_gpt4o_20260805_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 211.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Asian markets, especially in Japan and South Korea, have surged over 3% due to strong performance from AI and semiconductor stocks. This trend is likely to positively impact NVIDIA, a leading semiconductor company."
+    },
+    {
+      "id": "pred_gpt4o_20260805_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 270.0,
+      "current_price_at_prediction": 277.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite overall market optimism, Amazon's stock has declined by 2.37% in pre-market trading. This suggests potential company-specific challenges or investor concerns that may persist throughout the day."
+    },
+    {
+      "id": "pred_gpt4o_20260805_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65000.0,
+      "current_price_at_prediction": 64415.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin has shown a 2.5% increase over the past five days. The current positive market sentiment and increased risk appetite may further drive demand for cryptocurrencies."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-05",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-05T12:24:49.663950+00:00",
+  "market_context": "X sentiment is moderately bullish with traders highlighting AI momentum and VIX drop to 16.75. Pre-market futures mixed but tech names like NVDA showing strength; no major macro events flagged for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260805_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 771.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up 4.1% over 5 days with VIX falling 18.9%; X chatter from @zerohedge and @CNBC shows rotation into equities. Expect continuation into close absent surprises."
+    },
+    {
+      "id": "pred_grok_20260805_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 211.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA leading QQQ gains; options flow on X indicates heavy call buying. Recent 5-day momentum supports further upside by close."
+    },
+    {
+      "id": "pred_grok_20260805_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 322.0,
+      "current_price_at_prediction": 327.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA lagging broader market; short interest signals and X sentiment from auto analysts point to profit-taking today."
+    }
+  ]
+}
