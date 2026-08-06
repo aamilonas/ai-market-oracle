@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-06T12:26:57Z",
+  "market_context": "U.S. index ETFs are near record highs after a strong multi-day rally, with overnight/extended-hours trading showing modest additional gains and relatively calm volatility. Futures and pre-market indications point to a slightly positive, tech-led open, while the VIX near 16 and a 10Y yield around 4.6% suggest a risk-on but late-cycle environment where intraday pullbacks are possible.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260806_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.0,
+      "current_price_at_prediction": 769.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY is coming off a strong 5-day advance of roughly 5.5%, and extended-hours quotes around $744–$748 in early July data plus continued strength into August indicate persistent buying interest near all-time highs.[14][16] With the VIX at 16.00 and the 10Y yield stable near 4.62%, the macro backdrop remains risk-on but not euphoric, so a moderate continuation move toward $780 by the close is more likely than a sharp reversal, though recent gains make the probability only slightly above balanced."
+    },
+    {
+      "id": "pred_perplexity_20260806_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 717.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ has outperformed over the past 5 days with an 8.4% gain, reflecting strong demand for large-cap tech, and recent after-hours data show QQQ trading modestly higher versus prior closes, consistent with leadership in the current rally.[3][8][20] With mega-cap tech names like NVDA and AMD showing positive extended-hours moves and the VIX subdued, a further upside day for QQQ toward the mid-$730s is likely, though elevated levels and recent sharp gains keep the risk of intraday volatility non-trivial."
+    },
+    {
+      "id": "pred_perplexity_20260806_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 552.0,
+      "current_price_at_prediction": 542.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "DIA has risen about 5.3% over the past 5 days, lagging QQQ but tracking the broader risk-on tone, and recent extended-hours quotes around the low-$520s to mid-$530s show steady interest rather than aggressive selling.[1][6][8] With cyclicals and industrials typically benefiting in late-stage bull phases and macro indicators not signaling acute stress, a modest continuation higher toward roughly $552 by the close is somewhat more probable than a flat or down day, but the lower beta profile versus QQQ tempers confidence."
+    },
+    {
+      "id": "pred_perplexity_20260806_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.0,
+      "current_price_at_prediction": 219.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "NVDA is a key driver of the current tech-led rally, and after-hours data from recent sessions show NVDA trading higher alongside other AI and semiconductor names, indicating ongoing momentum.[8] With QQQ strongly bid and broader sentiment favoring high-beta growth, a further upside move toward about $228 by the close is likely, though the stock’s volatility and crowded positioning introduce meaningful risk of intraday swings."
+    },
+    {
+      "id": "pred_perplexity_20260806_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 310.0,
+      "current_price_at_prediction": 321.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA has participated in the recent risk-on move but shows signs of fatigue, with after-hours data from a recent session indicating only modest gains versus larger moves in core AI and semiconductor leaders.[8] In an environment where capital is rotating into the highest-conviction AI beneficiaries within QQQ, TSLA’s more idiosyncratic headline and execution risks make a mild pullback toward roughly $310 by the close slightly more probable than another strong leg higher."
+    }
+  ]
+}

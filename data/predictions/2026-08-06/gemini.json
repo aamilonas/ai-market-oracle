@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-06",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-06T12:27:07.972148+00:00",
+  "market_context": "The market is experiencing mixed signals today, with strong tech earnings offset by rising inflation concerns. Investors are closely watching upcoming Fed statements for clues on future monetary policy, leading to increased volatility in key sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260806_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong performance in large-cap tech stocks is expected to push the broader market higher, despite some initial morning weakness."
+    },
+    {
+      "id": "pred_gemini_20260806_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 517.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive earnings reports from major technology companies are providing significant upward momentum for the Nasdaq index."
+    },
+    {
+      "id": "pred_gemini_20260806_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 425.0,
+      "current_price_at_prediction": 427.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Concerns over industrial output and a slight dip in consumer confidence are weighing on the Dow, suggesting a minor pullback."
+    },
+    {
+      "id": "pred_gemini_20260806_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 315.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Recent production updates and positive analyst ratings indicate a potential rebound for TSLA shares by the end of the week."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-06T12:28:00.145813+00:00",
+  "market_context": "X sentiment is moderately bullish with positive chatter on tech resilience and low VIX at 16 signaling calm. Pre-market futures show modest gains ahead of potential Fed-related news. No major negative events flagged in options flow.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260806_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 769.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up 5.5% over 5 days with VIX declining 6.4% to 16.00. X posts highlight continued rotation into equities. Expect continuation into close barring surprise news."
+    },
+    {
+      "id": "pred_grok_20260806_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 717.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ led with +8.4% 5-day gain amid NVDA and MSFT strength. X sentiment shows retail buying interest in semis. Low volatility supports further upside today."
+    },
+    {
+      "id": "pred_grok_20260806_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.0,
+      "current_price_at_prediction": 219.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at elevated levels after recent run; X shows some profit-taking mentions. Options flow indicates hedging activity. Minor pullback likely into close."
+    },
+    {
+      "id": "pred_grok_20260806_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 330.0,
+      "current_price_at_prediction": 321.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA holding above 320 with crypto correlation positive as BTC up 2.7%. X volume on EV news remains supportive. Modest end-of-day gain expected."
+    }
+  ]
+}
