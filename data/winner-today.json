@@ -1,21 +1,19 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "winner": {
-    "ticker": "QQQ",
+    "ticker": "NVDA",
     "direction": "up",
-    "avg_confidence": 0.6525,
-    "avg_target": 676.25,
-    "avg_entry": 667.35,
-    "expected_move_pct": 1.33,
-    "score": 0.8702,
+    "avg_confidence": 0.62,
+    "avg_target": 565.3,
+    "avg_entry": 555.99,
+    "expected_move_pct": 1.67,
+    "score": 1.0378,
     "models": [
-      "GPT-4o",
       "Perplexity",
-      "Gemini",
-      "Grok"
+      "Grok",
+      "Gemini"
     ],
-    "model_count": 4,
-    "high_conviction": false,
-    "leveraged_ticker": "TQQQ"
+    "model_count": 3,
+    "high_conviction": false
   }
 }

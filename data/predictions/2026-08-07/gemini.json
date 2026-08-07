@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-07",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-07T11:23:09.580357+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback after a strong rally, while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, but recent jobless claims data suggests a resilient labor market, preventing a broader market downturn.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260807_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released post-market close, suggests a bullish opening and continuation."
+    },
+    {
+      "id": "pred_gemini_20260807_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain disruptions in Asia are expected to impact Q3 production, leading to analyst downgrades and increased selling pressure throughout the week."
+    },
+    {
+      "id": "pred_gemini_20260807_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1230.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Strong demand for AI chips continues to drive investor sentiment. A major partnership announcement is rumored for after market close, likely boosting the stock."
+    },
+    {
+      "id": "pred_gemini_20260807_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 120.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Crude oil prices are projected to remain elevated due to geopolitical tensions and OPEC+ production cuts, directly benefiting integrated oil companies like ExxonMobil."
+    }
+  ]
+}

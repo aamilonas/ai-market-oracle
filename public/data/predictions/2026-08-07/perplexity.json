@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-07",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-07T11:23:04Z",
+  "market_context": "US equity ETFs are coming into the session near the upper end of their recent range, with SPY’s supplied baseline at $768.56 and risk sentiment still relatively calm given VIX at 15.22. The provided search results show SPY trading near the mid-740s to low-750s in recent sessions, which supports a mixed-to-firm tape rather than a strongly bearish setup, but I cannot verify live futures or the day’s full economic calendar from the available results.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260807_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 774.2,
+      "current_price_at_prediction": 768.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY’s baseline is already in a strong uptrend versus the 5-day move (+3.6%) and the low VIX suggests equity downside hedging pressure is limited. With risk appetite still supported and no confirmed shock from the available live results, I expect a modest continuation higher rather than a reversal."
+    },
+    {
+      "id": "pred_perplexity_20260807_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 719.8,
+      "current_price_at_prediction": 714.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ has outperformed the broad market on the 5-day view (+4.5%), indicating persistent demand for large-cap growth. If the session follows recent leadership patterns, the Nasdaq-100 ETF should modestly outperform and close above the supplied baseline."
+    },
+    {
+      "id": "pred_perplexity_20260807_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.9,
+      "current_price_at_prediction": 218.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA typically acts as a high-beta leader when growth sentiment is positive, and the recent market backdrop is supportive with QQQ strength and subdued volatility. I expect a small continuation move rather than an outsized breakout because the available results do not show a specific catalyst.",
+      "predictions_note": "I am using the supplied Yahoo Finance baselines as the prediction anchor prices, and the available search results only partially support current-session conditions."
+    },
+    {
+      "id": "pred_perplexity_20260807_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 315.4,
+      "current_price_at_prediction": 319.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA is more sensitive to intraday risk-off swings than the broader mega-cap complex, and the recent low-volatility environment can still produce profit-taking in a name that has already moved sharply. Without a specific positive catalyst in the available results, I lean to mild mean reversion lower."
+    },
+    {
+      "id": "pred_perplexity_20260807_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65850.0,
+      "current_price_at_prediction": 65115.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Bitcoin’s 5-day gain of +2.6% is consistent with improving risk appetite, and equity strength often correlates with firmer crypto trading. With volatility moderate and no adverse catalyst visible in the available results, I expect a small extension higher."
+    }
+  ]
+}
