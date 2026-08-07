@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T01:35:33.672210+00:00",
+  "last_updated": "2026-08-07T23:00:41.240421+00:00",
   "models": [
     {
       "model_id": "claude-sonnet-4-20250514",
@@ -96,10 +96,10 @@
     {
       "model_id": "gpt-4o",
       "model_display_name": "GPT-4o",
-      "total_predictions": 453,
-      "correct_directions": 274,
-      "direction_accuracy": 0.6049,
-      "total_score": 130.15,
+      "total_predictions": 456,
+      "correct_directions": 276,
+      "direction_accuracy": 0.6053,
+      "total_score": 131.9,
       "avg_confidence": 0.6368,
       "current_streak": -1,
       "best_streak": 12,
@@ -245,20 +245,20 @@
         },
         {
           "week": "2026-W32",
-          "score": 5.8,
-          "predictions": 17,
-          "accuracy": 0.5882
+          "score": 7.55,
+          "predictions": 20,
+          "accuracy": 0.6
         }
       ]
     },
     {
       "model_id": "grok-3",
       "model_display_name": "Grok",
-      "total_predictions": 403,
-      "correct_directions": 215,
-      "direction_accuracy": 0.5335,
-      "total_score": 70.59,
-      "avg_confidence": 0.6006,
+      "total_predictions": 407,
+      "correct_directions": 218,
+      "direction_accuracy": 0.5356,
+      "total_score": 73.32,
+      "avg_confidence": 0.6003,
       "current_streak": -1,
       "best_streak": 7,
       "worst_streak": -8,
@@ -403,21 +403,21 @@
         },
         {
           "week": "2026-W32",
-          "score": 2.76,
-          "predictions": 14,
-          "accuracy": 0.5714
+          "score": 5.49,
+          "predictions": 18,
+          "accuracy": 0.6111
         }
       ]
     },
     {
       "model_id": "sonar-pro",
       "model_display_name": "Perplexity",
-      "total_predictions": 472,
-      "correct_directions": 260,
-      "direction_accuracy": 0.5508,
-      "total_score": 102.94,
-      "avg_confidence": 0.6106,
-      "current_streak": 1,
+      "total_predictions": 477,
+      "correct_directions": 263,
+      "direction_accuracy": 0.5514,
+      "total_score": 105.09,
+      "avg_confidence": 0.61,
+      "current_streak": -2,
       "best_streak": 14,
       "worst_streak": -8,
       "weekly_scores": [
@@ -561,20 +561,20 @@
         },
         {
           "week": "2026-W32",
-          "score": -0.38,
-          "predictions": 15,
-          "accuracy": 0.4667
+          "score": 1.77,
+          "predictions": 20,
+          "accuracy": 0.5
         }
       ]
     },
     {
       "model_id": "gemini-2.5-flash",
       "model_display_name": "Gemini",
-      "total_predictions": 171,
-      "correct_directions": 112,
-      "direction_accuracy": 0.655,
-      "total_score": 36.81,
-      "avg_confidence": 0.6486,
+      "total_predictions": 173,
+      "correct_directions": 113,
+      "direction_accuracy": 0.6532,
+      "total_score": 36.71,
+      "avg_confidence": 0.6492,
       "current_streak": -1,
       "best_streak": 8,
       "worst_streak": -3,
@@ -677,9 +677,9 @@
         },
         {
           "week": "2026-W32",
-          "score": 3.01,
-          "predictions": 10,
-          "accuracy": 0.7
+          "score": 2.91,
+          "predictions": 12,
+          "accuracy": 0.6667
         }
       ]
     }
