@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-10",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-10T11:31:05Z",
+  "market_context": "U.S. equity futures were not directly available in the provided results, but SPY closed near the top of its recent range at 773.26 and is trading close to its 52-week high of 776.85. The available market data show a strong short-term trend in large-cap equities, with SPY up 3.5% over 5 days and QQQ up 5.1%, while VIX remains relatively contained at 15.48 and the 10-year yield is elevated at 4.66%.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260810_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 776.1,
+      "current_price_at_prediction": 773.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY finished Friday only 3.6 points below its 52-week high of 776.85 and remained firm into after-hours around 773.40, which suggests buyers are still controlling the tape. The recent 5-day gain of 3.5% and low-to-moderate VIX reading of 15.48 support a modest continuation higher rather than a sharp reversal."
+    },
+    {
+      "id": "pred_perplexity_20260810_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 729.5,
+      "current_price_at_prediction": 723.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ has outperformed the broad market over the last week, rising 5.1%, which usually signals continued strength in mega-cap tech momentum. With the index complex still bid and no evidence in the provided data of a risk-off shock, a further small upside move is more likely than a flat session."
+    },
+    {
+      "id": "pred_perplexity_20260810_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 227.8,
+      "current_price_at_prediction": 223.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA is aligned with the stronger Nasdaq tone reflected in QQQ's 5.1% five-day gain. Given the market's proximity to highs and the absence of elevated volatility, NVDA has a reasonable chance to extend modestly higher on continued large-cap AI demand."
+    },
+    {
+      "id": "pred_perplexity_20260810_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 316.2,
+      "current_price_at_prediction": 313.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "AAPL should benefit from the same broad large-cap bid that lifted SPY and QQQ into strong five-day gains. The move is likely to be smaller than NVDA's because AAPL has been less leveraged to the current momentum surge, but the setup still favors a mild upside bias."
+    },
+    {
+      "id": "pred_perplexity_20260810_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 542.1,
+      "current_price_at_prediction": 539.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "DIA has lagged QQQ recently, but the 2.9% five-day gain still shows constructive breadth across major indices. With volatility subdued and no negative catalyst in the provided data, a small follow-through gain is more likely than a down day."
+    }
+  ]
+}

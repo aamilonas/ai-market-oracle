@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-10",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-10T11:31:11.830635+00:00",
+  "market_context": "Market sentiment is cautiously optimistic following better-than-expected inflation data. Technology stocks are showing strong momentum, while energy sectors face headwinds from fluctuating oil prices. Investors are closely watching upcoming Fed statements for further guidance.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260810_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in broad market ETFs, supported by positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260810_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements driving investor interest and increased call option activity."
+    },
+    {
+      "id": "pred_gemini_20260810_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 105.2,
+      "current_price_at_prediction": 106.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Weakening crude oil prices and concerns over global demand are putting downward pressure on energy stocks."
+    },
+    {
+      "id": "pred_gemini_20260810_004",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 183.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Continued strong performance in advertising revenue and positive analyst upgrades for the tech giant."
+    }
+  ]
+}

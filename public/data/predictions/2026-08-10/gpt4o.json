@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-10",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-10T11:31:54.950475+00:00",
+  "market_context": "U.S. stock futures are slightly positive ahead of the market open, with no major economic reports scheduled for today. Investors are looking ahead to key inflation data later this week, including the Consumer Price Index (CPI) on Wednesday and the Producer Price Index (PPI) on Thursday.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260810_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.0,
+      "current_price_at_prediction": 773.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With U.S. stock futures indicating a slightly positive open and no major economic reports today, the market may continue its recent upward trend. However, gains could be limited as investors await key inflation data later this week."
+    },
+    {
+      "id": "pred_gpt4o_20260810_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 313.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple's stock has been performing well recently, and with no significant news affecting the company today, it is likely to continue its upward momentum in line with the broader market."
+    },
+    {
+      "id": "pred_gpt4o_20260810_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 226.0,
+      "current_price_at_prediction": 223.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVIDIA has been benefiting from strong demand in the AI and gaming sectors. With no adverse news today, the stock is expected to continue its positive trajectory."
+    },
+    {
+      "id": "pred_gpt4o_20260810_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 65500.0,
+      "current_price_at_prediction": 65025.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin has shown slight gains over the past five days. With no major market-moving news today, it may continue to appreciate modestly."
+    }
+  ]
+}
