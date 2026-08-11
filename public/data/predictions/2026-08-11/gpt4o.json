@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-11",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-11T11:22:04.934748+00:00",
+  "market_context": "As of August 11, 2026, the S&P 500 (SPY) has risen 2.0% over the past five days, the Nasdaq-100 (QQQ) is up 3.0%, and the Dow Jones Industrial Average (DIA) has increased by 1.5%. The VIX has decreased by 6.5% over the same period, indicating reduced market volatility. The 10-year Treasury yield stands at 4.70%.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260811_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.0,
+      "current_price_at_prediction": 773.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 ETF (SPY) has shown a 2.0% increase over the past five days, reflecting positive market momentum. Additionally, the VIX has decreased by 6.5%, suggesting reduced market volatility. These factors indicate a favorable environment for continued gains in SPY."
+    },
+    {
+      "id": "pred_gpt4o_20260811_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 312.0,
+      "current_price_at_prediction": 308.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Apple Inc. (AAPL) has been trading positively, with a current price of $308.26. Given the overall bullish market sentiment and AAPL's strong fundamentals, the stock is likely to experience a modest increase by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260811_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 64289.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin (BTC-USD) has remained relatively flat over the past five days, with a current price of $64289.93. Given the lack of upward momentum and potential profit-taking by investors, a slight decline is anticipated by the end of the day."
+    }
+  ]
+}
