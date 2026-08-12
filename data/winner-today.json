@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "winner": {
-    "ticker": "TSLA",
-    "direction": "down",
-    "avg_confidence": 0.5633,
-    "avg_target": 312.5,
-    "avg_entry": 317.42,
-    "expected_move_pct": 1.55,
-    "score": 0.8732,
+    "ticker": "AAPL",
+    "direction": "up",
+    "avg_confidence": 0.63,
+    "avg_target": 280.12,
+    "avg_entry": 276.24,
+    "expected_move_pct": 1.4,
+    "score": 0.8841,
     "models": [
+      "GPT-4o",
       "Perplexity",
-      "Gemini",
-      "Grok"
+      "Gemini"
     ],
     "model_count": 3,
     "high_conviction": false

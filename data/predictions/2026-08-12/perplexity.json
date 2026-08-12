@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-12",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-12T11:22:55Z",
+  "market_context": "I could not verify live futures, pre-market movers, or the day’s economic calendar from the provided search results, so I am anchoring to the baseline prices and the latest available market quotes in the results. Those quotes show AAPL around $306.60-$308.67, while analyst forecast pages still imply modest upside over 12 months; that supports a cautiously constructive intraday bias rather than a strong directional call.[16][17][20]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260812_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 773.9,
+      "current_price_at_prediction": 770.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "The baseline tape is relatively calm, with VIX at 15.37 and the 5-day change in SPY only -0.1%, which usually points to a range-bound session rather than a sharp risk-off move. In the absence of verified negative overnight catalysts, I expect a slight rebound/firm close above the prior close."
+    },
+    {
+      "id": "pred_perplexity_20260812_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 721.8,
+      "current_price_at_prediction": 718.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ has underperformed slightly over the last 5 days (-0.8%), but not in a way that signals pronounced weakness. With volatility contained and no confirmed adverse macro shock in the provided data, I expect a modest oversold-style bounce by the close."
+    },
+    {
+      "id": "pred_perplexity_20260812_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 309.85,
+      "current_price_at_prediction": 304.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "AAPL’s current price is near the lower end of the latest external quotes in the provided results, while multiple analyst consensus pages cluster 12-month targets above the current level. That does not guarantee a strong one-day move, but it supports a small positive drift if the broad market stays constructive.[2][3][6][14][16][17][20]"
+    },
+    {
+      "id": "pred_perplexity_20260812_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 219.8,
+      "current_price_at_prediction": 217.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "NVDA is likely to track the broader growth-tech tone, and the mild recent weakness in QQQ combined with a moderate VIX makes a small mean-reversion move plausible. Without verified event risk from the day’s calendar, I lean toward a modest gain rather than an outsized trend day."
+    },
+    {
+      "id": "pred_perplexity_20260812_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 329.4,
+      "current_price_at_prediction": 332.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA is more idiosyncratic and tends to swing harder than the index; in a low-volatility tape, that often means it can lag if momentum is not clearly positive. Given the lack of confirmed bullish catalyst in the provided data, I assign a slight downside bias for today."
+    }
+  ]
+}

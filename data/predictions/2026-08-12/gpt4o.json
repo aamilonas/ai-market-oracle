@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-12",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-12T11:23:26.815744+00:00",
+  "market_context": "As of August 12, 2026, the U.S. stock market is experiencing mixed movements. The S&P 500 ETF (SPY) is trading at $770.56, down 0.34% from the previous close. The Nasdaq-100 ETF (QQQ) is at $718.45, down 0.37%, and the Dow Jones Industrial Average ETF (DIA) is at $537.28, down 0.32%. Key economic indicators, such as the Consumer Price Index (CPI) for July 2026, are scheduled for release today at 8:30 AM ET, which may influence market movements.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260812_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.0,
+      "current_price_at_prediction": 770.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The upcoming release of the Consumer Price Index (CPI) for July 2026 at 8:30 AM ET is anticipated to show stable inflation rates. If the data aligns with expectations, it could bolster investor confidence, leading to a modest uptick in the S&P 500 ETF (SPY) by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260812_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 310.0,
+      "current_price_at_prediction": 304.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple Inc. (AAPL) is currently trading at $304.91, down 1.08% from the previous close. Given its strong market position and recent product announcements, the stock is likely to recover and experience a slight increase by the end of the trading day."
+    },
+    {
+      "id": "pred_gpt4o_20260812_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63500.0,
+      "current_price_at_prediction": 64099.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Bitcoin (BTC-USD) is currently trading at $64099.35, down 0.31% from the previous close. Given the recent downward trend and potential regulatory news, it is expected to decline further by the end of the day."
+    }
+  ]
+}

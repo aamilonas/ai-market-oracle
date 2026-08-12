@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-12",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-12T11:23:34.299924+00:00",
+  "market_context": "X/Twitter shows cautious sentiment with mixed reactions to tech earnings and low VIX signaling complacency. Pre-market futures flat amid no major catalysts, though crypto weakness and rising yields add downside pressure.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260812_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.0,
+      "current_price_at_prediction": 770.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 770.56 with 5-day decline; low VIX at 15.37 and 10Y yield at 4.68% suggest limited upside, with X chatter highlighting profit-taking in indices."
+    },
+    {
+      "id": "pred_grok_20260812_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.0,
+      "current_price_at_prediction": 217.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA shows relative strength vs peers on X volume; options flow hints at bullish bets despite broader market dip."
+    },
+    {
+      "id": "pred_grok_20260812_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 325.0,
+      "current_price_at_prediction": 332.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA underperforms on 5-day trend and crypto correlation; X sentiment notes delivery concerns weighing on price."
+    },
+    {
+      "id": "pred_grok_20260812_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63000.0,
+      "current_price_at_prediction": 64099.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "BTC at 64099.35 with negative 5-day move; X flow indicates risk-off rotation amid equity caution."
+    }
+  ]
+}
