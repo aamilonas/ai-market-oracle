@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-13",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-13T11:21:39Z",
+  "market_context": "QQQ is trading near 724 in pre-market/early-session quotes, modestly above the provided baseline close of 723.70, and multiple technical sources still show a bullish short-term trend with momentum indicators mostly positive.[2][8][14] However, some data also flags near-term slowing or short-term weakness, while VIX remains low at 14.59 and the 10Y yield is elevated at 4.68%, which supports a cautious but still risk-on bias rather than a strong selloff.[1][10][14]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260813_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 729.1,
+      "current_price_at_prediction": 723.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ is already quoted slightly above the baseline close in pre-market/real-time checks, and technical summaries show the ETF in an uptrend with buy signals on moving averages and MACD.[2][8][14] Low VIX and a stable-to-firm index tone support a mild continuation higher, but the near-term rally appears extended, so the move is likely modest rather than impulsive.[1][10]"
+    },
+    {
+      "id": "pred_perplexity_20260813_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 305.6,
+      "current_price_at_prediction": 302.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Large-cap growth leadership has generally aligned with the bullish QQQ tone, and AAPL should benefit if the NASDAQ remains firm through the session.[2][14] With volatility subdued and the broader market not signaling risk-off stress, I expect a small grind higher rather than a sharp move.[1][8]"
+    },
+    {
+      "id": "pred_perplexity_20260813_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 227.8,
+      "current_price_at_prediction": 224.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is tightly linked to the same growth/AI risk appetite that is supporting QQQ, and the current tape shows that appetite is still intact despite some short-term slowing signals.[2][14] The low VIX argues against a broad de-risking event, making a moderate upside day more likely than a negative shock.[1][10]"
+    },
+    {
+      "id": "pred_perplexity_20260813_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 321.2,
+      "current_price_at_prediction": 327.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA is more sensitive than the index to intraday risk reversals, and the mixed technical backdrop for QQQ suggests leadership could narrow even if the index stays slightly positive.[1][10][14] With 10Y yields still elevated, high-duration growth names can lag on a relative basis even in a calm market.[1]"
+    }
+  ]
+}

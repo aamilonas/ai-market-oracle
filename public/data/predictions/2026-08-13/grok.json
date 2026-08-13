@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-13",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-13T11:22:11.340635+00:00",
+  "market_context": "X sentiment leans mildly bullish on AI names with NVDA and MSFT seeing positive chatter, though DIA weakness noted in futures discussion. Pre-market points to flat-to-up QQQ with low VIX at 14.59 signaling calm. No major macro events flagged for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260813_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 726.5,
+      "current_price_at_prediction": 723.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X volume shows continued AI optimism and QQQ 5-day +0.9% momentum; futures point to open above 724 with VIX declining."
+    },
+    {
+      "id": "pred_grok_20260813_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 535.8,
+      "current_price_at_prediction": 537.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA already -1.0% over 5 days and X posts highlight industrial weakness; 10Y yield at 4.68% adding pressure."
+    },
+    {
+      "id": "pred_grok_20260813_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 227.4,
+      "current_price_at_prediction": 224.09,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Heavy positive options flow and X mentions of new AI deals support NVDA rebound from recent crypto-linked dip."
+    },
+    {
+      "id": "pred_grok_20260813_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 324.0,
+      "current_price_at_prediction": 327.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "X chatter on delivery concerns and BTC -2.1% correlation weigh on TSLA; short interest signals remain elevated."
+    }
+  ]
+}
