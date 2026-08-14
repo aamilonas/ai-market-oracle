@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-14",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-14T11:21:00.142582+00:00",
+  "market_context": "As of August 14, 2026, the S&P 500 (SPY) closed at $777.88, up 1.2% over the past five days. The Nasdaq-100 (QQQ) ended at $732.07, gaining 2.4% in the same period, while the Dow Jones Industrial Average (DIA) slightly declined by 0.1% to $537.91. The VIX stands at 14.50, down 2.7% over five days, and the 10-year Treasury yield is at 4.64%. Notably, Tesla (TSLA) has risen 3.8% to $339.96, and Meta Platforms (META) increased by 2.8% to $594.97.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260814_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 785.0,
+      "current_price_at_prediction": 777.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The S&P 500 (SPY) has shown a 1.2% increase over the past five days, indicating positive momentum. With the VIX at 14.50, suggesting low market volatility, and no major economic releases scheduled for today, the market is likely to maintain its upward trajectory."
+    },
+    {
+      "id": "pred_gpt4o_20260814_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 350.0,
+      "current_price_at_prediction": 339.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tesla (TSLA) has experienced a 3.8% increase to $339.96, reflecting strong investor confidence. The absence of negative news and the company's recent performance suggest continued upward movement."
+    },
+    {
+      "id": "pred_gpt4o_20260814_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 260.0,
+      "current_price_at_prediction": 265.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Amazon (AMZN) has declined by 0.8% to $265.13, indicating potential investor concerns. Without positive catalysts, the stock may continue its downward trend."
+    },
+    {
+      "id": "pred_gpt4o_20260814_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "current_price_at_prediction": 732.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq-100 (QQQ) has gained 2.4% over the past five days, driven by strong performances in technology stocks. With no significant economic data releases today, this positive trend is likely to persist."
+    },
+    {
+      "id": "pred_gpt4o_20260814_005",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 605.0,
+      "current_price_at_prediction": 594.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Meta Platforms (META) has risen by 2.8% to $594.97, reflecting strong market sentiment. The company's recent performance and the overall positive trend in technology stocks suggest further gains."
+    }
+  ]
+}

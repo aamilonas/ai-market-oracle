@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-14T11:20:25Z",
+  "market_context": "SPY is trading modestly higher premarket around 776-778 after a strong prior session, with futures/ETF action suggesting a mildly constructive open rather than a sharp risk-off move.[1][5][15] The tape is being supported by low volatility (VIX 14.5 baseline) and elevated rates near 4.64%, which can still pressure duration-sensitive megacap tech if yields stay firm.[1]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260814_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 781.25,
+      "current_price_at_prediction": 777.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY entered the session near its 52-week high and is already indicated higher in premarket trading, which supports a continuation bias into the open.[1][15] The low VIX backdrop and positive broad-market momentum make a modest upside close more likely than a reversal, though the move should be limited because the index is already extended.[1][5]"
+    },
+    {
+      "id": "pred_perplexity_20260814_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 738.1,
+      "current_price_at_prediction": 732.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "QQQ should benefit if the market keeps favoring large-cap growth, and the current backdrop is still risk-on enough to support that thesis given the low VIX and positive SPY premarket tone.[1][15] The 10-year yield at 4.64% is a headwind for tech, so I expect only a modest gain rather than an outsized rally.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260814_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.9,
+      "current_price_at_prediction": 225.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is likely to track the broader growth bid if QQQ firmed higher at the open, and semis often outperform on supportive index flows even without stock-specific catalysts.[1] With volatility subdued, I expect buyers to defend the prior close unless rates spike materially intraday.[1]"
+    },
+    {
+      "id": "pred_perplexity_20260814_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 501.5,
+      "current_price_at_prediction": 496.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "MSFT is positioned to participate in a broad large-cap tech advance, but higher Treasury yields can cap multiple expansion in the name.[1] The most likely outcome is a small positive day rather than a strong breakout, consistent with the premarket tone in the major index funds.[1][15]"
+    },
+    {
+      "id": "pred_perplexity_20260814_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 335.2,
+      "current_price_at_prediction": 339.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA is more volatile than the major indices, and in a session where rates remain elevated at 4.64% the stock can underperform even if the tape is generally constructive.[1] I expect rotation to favor steadier mega-cap names over higher-beta cyclicals, leaving TSLA slightly lower by the close."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-14T11:20:36.535336+00:00",
+  "market_context": "The market is currently experiencing mixed signals, with strong tech earnings offset by concerns over rising interest rates. Inflation data released this morning suggests a slight cooling, which could provide some relief to growth stocks. Overall sentiment remains cautious but with potential for targeted rallies.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260814_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released earlier today, suggests a slight upward movement by market close."
+    },
+    {
+      "id": "pred_gemini_20260814_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 525.5,
+      "current_price_at_prediction": 523.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tech sector showing resilience after recent dips, with several major components reporting better-than-expected guidance for the next quarter. Anticipate continued momentum into the weekend."
+    },
+    {
+      "id": "pred_gemini_20260814_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 227.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Supply chain concerns re-emerged from analyst reports, potentially impacting Q3 production targets. Minor profit-taking expected towards market close."
+    },
+    {
+      "id": "pred_gemini_20260814_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 480.0,
+      "current_price_at_prediction": 478.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Strong cloud growth projections and upcoming product announcements are driving investor optimism. Long-term outlook remains positive, suggesting an upward trend over the next few weeks."
+    }
+  ]
+}

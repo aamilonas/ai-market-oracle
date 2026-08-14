@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-14T11:21:08.699563+00:00",
+  "market_context": "X sentiment shows moderate bullishness on tech with NVDA and MSFT volume spikes, though crypto weakness is noted. Pre-market futures indicate flat to slightly positive open amid low VIX. No major macro events but options flow favors upside in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260814_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 777.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up on positive X chatter around AI earnings momentum and low VIX at 14.50; futures point to modest gains with 5-day trend supportive."
+    },
+    {
+      "id": "pred_grok_20260814_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.0,
+      "current_price_at_prediction": 732.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ benefits from NVDA and MSFT strength per recent X volume; 5-day +2.4% trend and pre-market tech flows support upside."
+    },
+    {
+      "id": "pred_grok_20260814_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.0,
+      "current_price_at_prediction": 225.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA sees elevated X mentions and options flow favoring calls; aligns with broader AI sentiment despite crypto drag."
+    },
+    {
+      "id": "pred_grok_20260814_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 335.0,
+      "current_price_at_prediction": 339.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA pressured by BTC weakness at 62834 and mixed X sentiment on EV demand; 5-day -3.1% crypto correlation noted."
+    }
+  ]
+}
