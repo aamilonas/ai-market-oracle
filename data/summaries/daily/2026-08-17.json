@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T10:58:57.584696+00:00",
+  "generated_at": "2026-08-17T22:46:02.242517+00:00",
   "headline": "16 AI market calls queued for 2026-08-17",
   "summary": "16 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on BTC-USD up."
     },
     {
@@ -21,7 +21,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on NVDA up."
     },
     {
@@ -31,7 +31,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -42,7 +42,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     },
     {
@@ -52,7 +52,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on TSLA down."
     }
   ],
@@ -60,14 +60,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "QQQ",
-    "score": null,
+    "score": 0.7,
     "summary": "Highest-confidence call came from Gemini on QQQ."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "TSLA",
-    "score": null,
+    "score": 1.05,
     "summary": "Lowest-confidence call came from Grok on TSLA."
   }
 }
