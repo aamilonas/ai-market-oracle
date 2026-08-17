@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-17",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-17T10:58:16.407640+00:00",
+  "market_context": "Market sentiment is currently mixed, with strong tech earnings offset by concerns over rising interest rates. Inflation data released this morning showed a slight cooling, which could provide some relief to the broader market, but geopolitical tensions remain a wildcard.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260817_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from tech sector earnings reports is expected to carry SPY higher through the close, despite minor rate hike concerns."
+    },
+    {
+      "id": "pred_gemini_20260817_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Strong performance in major tech components of the Nasdaq 100, driven by better-than-expected quarterly results, suggests an upward trend."
+    },
+    {
+      "id": "pred_gemini_20260817_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.0,
+      "current_price_at_prediction": 392.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.58,
+      "reasoning": "Industrial sector weakness and potential profit-taking after recent gains, coupled with ongoing supply chain issues, could push DIA lower by week's end."
+    },
+    {
+      "id": "pred_gemini_20260817_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.5,
+      "current_price_at_prediction": 94.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.62,
+      "reasoning": "Cooling inflation data and a potential dovish shift from the Fed in the coming weeks are likely to increase demand for long-term treasuries, boosting TLT."
+    }
+  ]
+}

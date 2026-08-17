@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-17T10:58:44.597443+00:00",
+  "market_context": "X/Twitter shows mixed but slightly bullish sentiment with tech traders highlighting low VIX at 14.95 and steady crypto flows. Pre-market futures point to modest gains in Nasdaq while 10Y yield at 4.70% caps broader enthusiasm. No major events flagged but options flow favors NVDA upside.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260817_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 776.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX and positive X chatter on tech suggest mild upside. SPY 5-day trend +0.4% supports continuation into close."
+    },
+    {
+      "id": "pred_grok_20260817_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 225.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Options flow on X leans bullish for NVDA with recent AI news echoes. Current price near support after 5-day gains."
+    },
+    {
+      "id": "pred_grok_20260817_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 338.0,
+      "current_price_at_prediction": 342.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X sentiment notes profit-taking in EV names amid yield pressure. 5-day + trend may reverse intraday."
+    },
+    {
+      "id": "pred_grok_20260817_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 63576.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto X feeds show steady accumulation with ETH correlation positive. Low equity vol supports risk-on flows."
+    }
+  ]
+}

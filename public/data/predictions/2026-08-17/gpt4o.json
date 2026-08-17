@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-17",
+  "model": "gpt-4o-search-preview",
+  "model_display_name": "GPT-4o",
+  "generated_at": "2026-08-17T10:58:37.787738+00:00",
+  "market_context": "U.S. stock futures are slightly down ahead of the market open, with investors awaiting the release of the Empire State Manufacturing Index and the NAHB Housing Market Index later today. The VIX is at 14.95, indicating relatively low market volatility.",
+  "predictions": [
+    {
+      "id": "pred_gpt4o_20260817_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 770.0,
+      "current_price_at_prediction": 776.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "With U.S. stock futures slightly down and upcoming economic indicators potentially signaling economic softness, SPY may experience a modest decline by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260817_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 310.0,
+      "current_price_at_prediction": 305.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Apple's strong market position and recent product announcements may drive investor optimism, leading to a slight increase in its stock price by the end of the day."
+    },
+    {
+      "id": "pred_gpt4o_20260817_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 64500.0,
+      "current_price_at_prediction": 63576.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin's recent upward momentum and positive sentiment in the cryptocurrency market suggest a potential increase in its price by the end of the day."
+    }
+  ]
+}

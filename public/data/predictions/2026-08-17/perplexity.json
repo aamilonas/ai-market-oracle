@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-17T10:10:00Z",
+  "market_context": "U.S. index futures are modestly mixed ahead of the open, with S&P 500 futures up about 0.1–0.2% while Dow futures are slightly negative, and Nasdaq 100 futures leading with gains around 0.4–0.5%[1][2][10]. The economic calendar is light but includes the Empire State Manufacturing survey at 8:30 AM ET and the NAHB Housing Market Index at 10:00 AM ET, which could slightly influence rate expectations and intraday sentiment[6][13][14]. Volatility remains subdued with VIX in the mid-teens and recent 5‑day index moves small, suggesting a continuation of a relatively calm, range‑bound tape barring major surprises.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260817_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 734.0,
+      "current_price_at_prediction": 731.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq-100 futures are outperforming, up roughly 0.4–0.5%, indicating a positive bias toward growth and tech at the open[1][2][10]. With QQQ up about 1.1% over the last 5 days and volatility low (VIX ~15, down over the period), a modest continuation higher toward a 0.3–0.5% gain by the close is consistent with the current risk-on but measured environment. The day’s data (Empire State and housing) are not typically high-impact for tech multiples, so barring an unexpected macro shock QQQ is likely to finish slightly above the prior close."
+    },
+    {
+      "id": "pred_perplexity_20260817_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 779.0,
+      "current_price_at_prediction": 776.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures are modestly positive, up around 0.1–0.2% pre‑market, pointing to a small upward drift at the open[1][4][10]. SPY has gained about 0.4% over the past 5 days and VIX is lower over that period, suggesting a stable, low-vol regime conducive to incremental gains rather than sharp reversals. The day’s scheduled data releases are mid-tier and unlikely on their own to trigger large index moves, so a slight positive close around 0.3% above the baseline fits the recent range-bound pattern."
+    },
+    {
+      "id": "pred_perplexity_20260817_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.5,
+      "current_price_at_prediction": 225.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq-related futures leadership implies continued demand for large-cap semiconductor and AI names, which tend to track or outperform the tech complex on positive days[1][2][10]. With QQQ in an upswing over the last week and overall volatility subdued, NVDA is likely to benefit from sector tailwinds and dip-buying behavior, supporting a modest 1–1.5% move higher. No immediate, negative NVDA-specific headlines are evident in pre-market summaries, reducing the probability of idiosyncratic downside pressure today."
+    },
+    {
+      "id": "pred_perplexity_20260817_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 338.0,
+      "current_price_at_prediction": 342.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "While index futures are modestly positive, pre-market action shows a mix of risk-on in selective names and profit-taking in others, consistent with a more stock‑specific tape[4][5][8][9][11][15]. TSLA’s volatility and sensitivity to rates and sentiment make it prone to intraday swings; with the 10Y yield elevated around 4.70%, high-duration growth and auto names face a headwind relative to megacap tech software and semis. In a mixed, low-vol environment, TSLA often mean-reverts from recent strength, so a small pullback of around 1–1.5% by the close is plausible."
+    },
+    {
+      "id": "pred_perplexity_20260817_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62900.0,
+      "current_price_at_prediction": 63576.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Bitcoin has been essentially flat over the last 5 days (+0.3%), reflecting a consolidating tape near the current range rather than a strong trend. In an environment of relatively high but stable U.S. yields (10Y near 4.70%) and no clear new crypto-specific bullish catalyst in the overnight news, crypto markets often drift lower within the range as traders fade minor strength. A modest 1–1.5% pullback toward the lower end of the recent band by end of day fits the current consolidation behavior."
+    }
+  ]
+}
