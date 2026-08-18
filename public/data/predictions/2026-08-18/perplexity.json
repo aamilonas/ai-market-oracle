@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-18",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-18T10:50:00Z",
+  "market_context": "US index futures are pointing lower ahead of the open, with S&P 500 futures down roughly 0.5%, Nasdaq 100 futures down about 0.9–1.2%, and Dow futures modestly negative, as rising US-Iran tensions keep oil prices elevated and push bond yields toward multi‑year highs.[1][4][6][7] The 10Y yield near 4.7% and a slightly higher VIX suggest cautious risk sentiment, while the key data release today is US industrial production at 9:15 AM ET, which could further sway rates and equities.[1][7][15] Tech and growth exposures appear most vulnerable given the steeper drop in Nasdaq-linked futures, while broader indices may see a more moderate pullback.[1][6][7]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260818_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 720.0,
+      "current_price_at_prediction": 731.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq 100 futures are underperforming, down about 0.9–1.2%, signaling relative weakness in growth and tech exposures that dominate QQQ.[1][6][7] Rising oil prices and multi‑year-high bond yields are rekindling inflation concerns, which typically pressure long-duration assets like high‑multiple tech stocks.[1][7] With VIX slightly higher, yields near 4.7%, and macro tensions focused on US‑Iran risks, a modest risk‑off move that pushes QQQ lower toward the 1–1.5% downside by the close is more likely than a rebound.[1][4][7]"
+    },
+    {
+      "id": "pred_perplexity_20260818_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.0,
+      "current_price_at_prediction": 776.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 E‑mini futures are down roughly 0.5%, indicating a softer open for broad US equities after a recent grinding move higher.[1][4][7][8] Elevated oil and higher Treasury yields tied to fading hopes of a US‑Iran peace deal are reinforcing inflation worries, which usually compress equity valuations, especially when indexes are near highs.[1][7] Given the modest uptick in volatility and negative futures bias, a small pullback of around 1.5% or less by the close in SPY is more probable than flat or higher prices.[1][4][7]"
+    },
+    {
+      "id": "pred_perplexity_20260818_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 300.0,
+      "current_price_at_prediction": 305.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is a major weight in the Nasdaq 100 and S&P 500, and the pronounced weakness in Nasdaq-linked futures suggests broad pressure on large‑cap tech.[1][6][7] Rising long‑term yields tend to weigh on mega‑cap growth names with significant future cash flows, leading to relative underperformance versus value and defensive sectors.[1][4][7] With macro sentiment risk‑off and no offsetting positive Apple‑specific catalyst evident in premarket news, a moderate drift lower of around 2% by the close is slightly more likely than an advance.[1][6][7]"
+    },
+    {
+      "id": "pred_perplexity_20260818_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 332.0,
+      "current_price_at_prediction": 342.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Tesla is highly sensitive to both risk sentiment and interest rates, and the combination of higher Treasury yields and elevated volatility is typically unfavorable for high‑beta growth stocks.[1][4][7] With Nasdaq futures underperforming and tensions around US‑Iran lifting oil prices and inflation worries, investors may rotate away from cyclical and growth-heavy names like Tesla into safer assets.[1][7] Absent strong company‑specific positive news in premarket movers, a decline of about 3% by the close is more probable than a gain.[1][3][5][7]"
+    },
+    {
+      "id": "pred_perplexity_20260818_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63000.0,
+      "current_price_at_prediction": 64140.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bitcoin has recently posted modest gains, but the current backdrop of rising US yields and risk‑off sentiment in equities often pressures speculative assets, including crypto.[1][4][7] Higher real yields increase the opportunity cost of holding non‑yielding assets, and macro stress from US‑Iran tensions can trigger de‑risking across correlated risk assets.[1][7][15] Without a clear positive crypto‑specific catalyst in today’s news flow, a modest retracement of around 2% by the end of the day is slightly more likely than further appreciation.[1][4][7]"
+    }
+  ]
+}

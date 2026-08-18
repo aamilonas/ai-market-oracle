@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-18",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-18T10:57:15.085254+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to recent oil price fluctuations. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260818_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in broad market ETFs following positive economic indicators released this morning, suggesting a bullish close."
+    },
+    {
+      "id": "pred_gemini_20260818_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Positive analyst upgrades and strong pre-market performance indicate continued momentum for Apple shares, likely pushing it higher by market close."
+    },
+    {
+      "id": "pred_gemini_20260818_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.2,
+      "current_price_at_prediction": 111.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Recent decline in crude oil prices and increasing geopolitical stability in key oil-producing regions are expected to put downward pressure on energy stocks throughout the week."
+    },
+    {
+      "id": "pred_gemini_20260818_004",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 183.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Anticipation of strong Q3 earnings report and continued growth in cloud services are likely to drive Google's stock higher over the next few weeks."
+    }
+  ]
+}

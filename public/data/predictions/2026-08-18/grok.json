@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-18",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-18T10:57:44.643937+00:00",
+  "market_context": "X sentiment shows mixed caution with tech bulls dominating chatter around NVDA and QQQ strength while VIX spike raises volatility flags. Pre-market futures flat to slightly up with no major catalysts but 10Y yield at 4.70% pressuring rate-sensitive names. Options flow indicates heavy call buying in AAPL and TSLA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260818_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 776.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 776.34 with +0.4% 5-day momentum and QQQ outperformance suggests continuation. X volume shows retail buying on dips despite VIX at 15.87. Expect modest end-of-day gain absent negative news."
+    },
+    {
+      "id": "pred_grok_20260818_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 735.2,
+      "current_price_at_prediction": 731.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ +1.4% over 5 days and strong AI narrative on X point to further upside. Pre-market tech futures supportive. NVDA and MSFT flows remain positive."
+    },
+    {
+      "id": "pred_grok_20260818_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 225.16 shows overextension after recent run; X chatter notes profit-taking and short interest rising. VIX increase may trigger rotation out of high-beta names."
+    },
+    {
+      "id": "pred_grok_20260818_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 350.0,
+      "current_price_at_prediction": 342.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA options flow heavy on calls per recent scans and X sentiment bullish on delivery updates. 5-day momentum positive despite broader DIA weakness."
+    }
+  ]
+}
