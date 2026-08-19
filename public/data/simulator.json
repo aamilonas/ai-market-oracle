@@ -1,5 +1,5 @@
 {
-  "balance": 24113.88,
+  "balance": 24279.05,
   "starting_balance": 25000,
   "trades": [
     {
@@ -1079,10 +1079,10 @@
       "ticker": "SPXL",
       "direction": "up",
       "entry_price": 288.87,
-      "exit_price": null,
+      "exit_price": 290.86,
       "shares": 83,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 165.17,
+      "pnl_pct": 0.69,
       "models": [
         "GPT-4o",
         "Gemini",
@@ -1090,7 +1090,7 @@
         "Grok"
       ],
       "confidence": 0.595,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
