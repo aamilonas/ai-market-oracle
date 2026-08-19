@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-19T10:56:14.496875+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data, leading to potential volatility across major indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260819_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap tech components of SPY, coupled with positive early economic indicators, suggests an upward trend for the remainder of the day."
+    },
+    {
+      "id": "pred_gemini_20260819_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Continued strength in the technology sector, driven by robust earnings reports from key constituents and increasing investor confidence in growth stocks, points to a positive close for the week."
+    },
+    {
+      "id": "pred_gemini_20260819_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 390.0,
+      "current_price_at_prediction": 392.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Weakness in industrial and financial components of the Dow, exacerbated by rising bond yields and concerns over manufacturing data, indicates a likely downward movement by market close."
+    },
+    {
+      "id": "pred_gemini_20260819_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 195.0,
+      "current_price_at_prediction": 193.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Increasing geopolitical tensions and persistent inflation concerns are driving investors towards safe-haven assets like gold, suggesting a sustained upward trend through the end of the month."
+    }
+  ]
+}

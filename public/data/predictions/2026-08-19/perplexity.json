@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-19",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-19T10:45:00Z",
+  "market_context": "U.S. equity futures are modestly higher with S&P 500 and Nasdaq 100 futures up around 0.1–0.2%, pointing to a slightly positive open ahead of the release of FOMC minutes later today.[3][11] SPY is trading essentially flat to slightly up in premarket around 767.5, while volatility remains contained with the VIX in the mid-teens and the 10-year yield elevated near 4.7%, suggesting a cautiously risk-on but rates-sensitive environment.[1][3][5] The key scheduled catalysts include U.S. MBA mortgage data, EIA oil inventory reports, a 20-year bond auction, and the 2:00 PM ET release of FOMC minutes, all of which could influence intraday moves especially in the afternoon session.[6][10][11][13]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260819_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 772.0,
+      "current_price_at_prediction": 767.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures are modestly positive (about +0.1%), and SPY is indicated essentially flat-to-slightly-up in premarket around 767.5, suggesting a mild bid into the open.[1][3][5] With VIX still relatively low in the mid-teens and no major negative overnight macro shock, a small positive drift is plausible, though the afternoon FOMC minutes and a 20-year bond auction could introduce rate-related volatility and limit upside.[9][11][13] Given these cross-currents, a move of roughly +0.5–0.7% by the close to around 772 is a moderate-upside but not high-conviction scenario."
+    },
+    {
+      "id": "pred_perplexity_20260819_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 717.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Nasdaq 100 futures are up around 0.2% premarket, modestly outperforming S&P futures, indicating slightly stronger appetite for growth and tech.[3] The recent 5-day performance for QQQ is essentially flat despite elevated rates, implying some resilience and potential for a modest bounce if FOMC minutes do not surprise hawkishly relative to expectations.[11][13] With macro risks still present via the 10-year yield near 4.7%, a restrained upside move of about +0.6% toward 722 by the close is plausible but carries material event risk around the 2:00 PM ET minutes."
+    },
+    {
+      "id": "pred_perplexity_20260819_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 315.0,
+      "current_price_at_prediction": 310.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Mega-cap tech is set to open slightly higher in aggregate with Nasdaq futures up about 0.2%, and there is no indication of AAPL-specific negative news in the morning macro overview.[3] With QQQ roughly flat over 5 days and the broader risk tone slightly positive, AAPL has room for a modest follow-through higher, especially if rates remain stable into and after the FOMC minutes.[11][13] A move of about +1.5% toward 315 by the close reflects a moderate beta response to a mildly risk-on tape, but confidence is constrained by the potential for rate- and macro-driven intraday reversals."
+    },
+    {
+      "id": "pred_perplexity_20260819_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 219.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "The premarket tone favors large-cap tech with Nasdaq 100 futures modestly positive, and options flow commentary shows increased call activity in broad equity products, reflecting ongoing interest in risk assets.[3][9] NVDA is a high-beta AI/semis name that tends to outperform on up days for QQQ, and with no immediate negative company-specific headline in the morning macro snapshot, it is positioned to benefit from even a modest rotation into growth.[3][11] A roughly +2.4% move to about 225 by the close is consistent with NVDA’s typical intraday beta to the Nasdaq, though event risk from the FOMC minutes tempers confidence."
+    },
+    {
+      "id": "pred_perplexity_20260819_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 330.0,
+      "current_price_at_prediction": 336.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "While the overall index backdrop is modestly positive, TSLA has been more sensitive to higher real yields and risk-on/risk-off swings, and the 10-year Treasury yield remains elevated around 4.7% with a 20-year auction and FOMC minutes ahead.[3][11][13] These rate-related events can pressure longer-duration, volatile growth names intraday even if the broader indices finish flat to slightly higher. Given this setup, a mild pullback of around -2% to roughly 330 by the close is plausible, but confidence is modest due to TSLA’s idiosyncratic volatility and tendency for sharp reversals."
+    }
+  ]
+}

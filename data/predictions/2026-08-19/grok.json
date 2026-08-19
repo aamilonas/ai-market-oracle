@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-19T10:56:48.303616+00:00",
+  "market_context": "X sentiment is mixed with caution due to VIX rising 8.7% and 10Y yield at 4.71%, though crypto gains provide some support. Pre-market futures flat to slightly up with limited notable movers. No major events expected but options flow shows defensive positioning in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260819_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "current_price_at_prediction": 767.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 767.45 with mild 5-day dip; X chatter and flat futures suggest rebound potential into close absent negative catalysts."
+    },
+    {
+      "id": "pred_grok_20260819_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "current_price_at_prediction": 717.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ at 717.51 with VIX spike signals near-term pressure on tech-heavy index; short interest data points to downside bias."
+    },
+    {
+      "id": "pred_grok_20260819_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 219.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA at 219.74 benefits from positive crypto sentiment spillover; X flow shows accumulation despite broader caution."
+    },
+    {
+      "id": "pred_grok_20260819_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 330.0,
+      "current_price_at_prediction": 336.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "TSLA at 336.87 faces resistance from rising yields; X sentiment highlights profit-taking after recent run."
+    }
+  ]
+}
