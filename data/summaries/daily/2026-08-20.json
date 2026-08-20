@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated_at": "2026-08-20T10:59:18.916745+00:00",
+  "generated_at": "2026-08-20T22:50:22.235171+00:00",
   "headline": "13 AI market calls queued for 2026-08-20",
   "summary": "13 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on AAPL up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     }
   ],
@@ -37,7 +37,7 @@
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "QQQ",
-    "score": null,
+    "score": 1.02,
     "summary": "Lowest-confidence call came from Grok on QQQ."
   }
 }
