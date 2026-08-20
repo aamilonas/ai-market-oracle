@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-20",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-20T10:59:07.235555+00:00",
+  "market_context": "X sentiment shows cautious optimism with crypto strength offsetting tech pullbacks, though VIX rise signals hedging. Pre-market futures flat amid no major catalysts; low short interest in indices but elevated options flow in NVDA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260820_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 772.5,
+      "current_price_at_prediction": 769.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 769.06 with 5-day dip of 0.4%; X chatter on BTC rally at 71913 suggests risk-on flow into equities by EOD."
+    },
+    {
+      "id": "pred_grok_20260820_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 713.0,
+      "current_price_at_prediction": 716.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ 5-day decline of 1.1% and VIX up 3.5% point to continued tech pressure; no positive pre-market movers noted."
+    },
+    {
+      "id": "pred_grok_20260820_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 217.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "NVDA at 217.56 benefits from AI narrative on X and ETH surge to 2280; options flow likely supportive."
+    },
+    {
+      "id": "pred_grok_20260820_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 355.0,
+      "current_price_at_prediction": 351.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 351.12 aligns with broader risk appetite from 14% BTC weekly gain; short interest signals neutral."
+    }
+  ]
+}

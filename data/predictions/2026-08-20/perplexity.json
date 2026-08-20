@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-20T09:55:00Z",
+  "market_context": "US indices closed modestly higher yesterday amid easing Treasury yields, with tech having recently sold off but the S&P 500 still near record territory.[7][8][12] Today’s key catalysts are weekly US jobless claims and the Philadelphia Fed manufacturing survey, along with other scheduled releases, against a backdrop of relatively low volatility (VIX ~15) and strong crypto gains.[5][6][9][10]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260820_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 776.0,
+      "current_price_at_prediction": 769.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "The S&P 500 recently closed modestly higher as easing bond yields supported risk appetite, and the index is trading near record levels.[7][8][12] With VIX still relatively low at 15.15 and no major negative surprises indicated on today’s economic calendar beyond routine jobless claims and Philly Fed releases, a slightly positive drift in SPY by the close is more likely than a sharp reversal.[5][6][9][10] I expect modest follow-through buying, but keep confidence moderate given recent tech-led volatility and the potential for intraday swings."
+    },
+    {
+      "id": "pred_perplexity_20260820_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 716.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The Nasdaq Composite gained modestly yesterday despite a recent tech-driven rout, suggesting some stabilization in large-cap growth after recent selling pressure.[7][8] With Treasury yields easing and no major negative tech-specific macro data scheduled for today, a small rebound in QQQ is plausible, though less certain than SPY given higher sensitivity to rates and recent volatility.[5][6][9] I therefore expect QQQ to end slightly higher, but maintain lower confidence due to ongoing sector rotation risks."
+    },
+    {
+      "id": "pred_perplexity_20260820_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 321.0,
+      "current_price_at_prediction": 316.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Mega-cap tech recently experienced a broad selloff, but indices recovered modestly yesterday as yields fell and risk appetite improved.[7][8][12] In a low-to-moderate volatility environment (VIX near 15) with no Apple-specific negative headlines in the overnight macro context, AAPL is likely to participate in a mild large-cap tech rebound.[5] I expect end-of-day strength to be limited by broader tech valuation concerns, so I target only a modest move higher and keep confidence just above neutral."
+    },
+    {
+      "id": "pred_perplexity_20260820_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 212.0,
+      "current_price_at_prediction": 217.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite the S&P 500 hovering near record highs, recent trading has highlighted elevated sensitivity in high-beta AI and semiconductor names to rate moves and sentiment shifts.[7][12] Given NVDA’s rich valuation and its tendency to experience larger swings than the broader market during periods of sector rotation, I expect profit-taking and continued choppiness to slightly outweigh broader index strength today.[8] With no specific positive catalyst identified for Nvidia in today’s macro calendar, a modest decline into the close is more likely than a sustained rally."
+    },
+    {
+      "id": "pred_perplexity_20260820_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 70000.0,
+      "current_price_at_prediction": 71912.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Bitcoin has rallied sharply over the past five days, gaining more than 14%, which increases the probability of short-term mean reversion and profit-taking.[query] In the context of easing equity-market volatility and scheduled US macro releases that could refocus attention on traditional assets, speculative flows into crypto may cool intraday.[5][6][9] I therefore expect BTC-USD to finish the day slightly below the prior close, with moderate confidence given its historically high intraday volatility."
+    }
+  ]
+}

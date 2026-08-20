@@ -1,21 +1,4 @@
 {
-  "date": "2026-08-19",
-  "winner": {
-    "ticker": "SPY",
-    "direction": "up",
-    "avg_confidence": 0.595,
-    "avg_target": 728.12,
-    "avg_entry": 725.09,
-    "expected_move_pct": 0.42,
-    "score": 0.2493,
-    "models": [
-      "GPT-4o",
-      "Gemini",
-      "Perplexity",
-      "Grok"
-    ],
-    "model_count": 4,
-    "high_conviction": false,
-    "leveraged_ticker": "SPXL"
-  }
+  "date": "2026-08-20",
+  "winner": null
 }
