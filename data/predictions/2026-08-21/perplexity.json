@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-21",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-21T10:35:00Z",
+  "market_context": "US equity futures are modestly higher ahead of the open, with S&P 500, Dow, and Nasdaq futures all up around 0.2–0.35%, suggesting a mild rebound after recent weakness.[1][3] The 10Y yield remains elevated near 4.70% and VIX is up over the past week, indicating persistent rate and volatility concerns, while flash S&P Global PMIs for August later today could shift sentiment.[10][11][12] Pre-market, large caps like NVDA and TSLA are trading slightly higher, and DIA is indicated up around 0.37%, pointing to a cautiously risk-on tone in early trading.[3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260821_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.0,
+      "current_price_at_prediction": 762.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "S&P 500 futures are modestly positive heading into the open (around +0.2–0.3%), suggesting a slight rebound after SPY’s recent 5‑day decline of about 2%. [1][13] The overall macro backdrop is mixed—elevated 10Y yields near 4.7% and higher VIX reflect ongoing rate and volatility concerns—but today’s flash S&P Global PMI data is expected to show continued expansion, which should support broad equities unless the data significantly disappoints. [10][11][12] Given the mild positive futures bias and lack of major negative catalysts this morning, a small gain toward roughly 1% above the prior close is plausible but not high conviction."
+    },
+    {
+      "id": "pred_perplexity_20260821_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.0,
+      "current_price_at_prediction": 710.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq futures are indicated up roughly 0.3–0.35%, pointing to a modest tech rebound after QQQ’s roughly 2.9% decline over the past 5 days. [1][3][13] Large-cap growth names like NVDA are trading slightly higher in pre-market, and TSLA is up more than 1.5%, which supports a constructive tone for the Nasdaq 100 basket. [3] However, elevated rates and volatility remain headwinds for long-duration tech, so the expectation is for a moderate upside move (about 1% or less) rather than a sharp rally."
+    },
+    {
+      "id": "pred_perplexity_20260821_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 360.0,
+      "current_price_at_prediction": 345.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "TSLA is trading around $350.76 in pre-market, up about 1.6% from the prior close baseline of $345.13, signaling active dip-buying after recent market weakness. [3] The broader futures backdrop is mildly risk-on, and TSLA tends to exhibit higher beta to tech indices, which can amplify upside on days when Nasdaq futures are positive. [1][3] Given the current pre-market momentum and generally supportive macro news flow today, an extension of gains toward roughly 4–5% above the baseline price is plausible but still subject to intraday volatility and news risk."
+    },
+    {
+      "id": "pred_perplexity_20260821_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.0,
+      "current_price_at_prediction": 216.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA is indicated slightly higher in pre-market, around $217.46, up roughly 0.3% from the prior closing reference of $216.85, consistent with the modestly positive tone in Nasdaq futures. [3][1] As a key AI and semiconductor bellwether, NVDA typically benefits from any improvement in risk appetite within growth and tech, and today’s macro calendar lacks major negative surprises in the early session. [10][11] With a mildly positive setup and no obvious stock-specific headwinds visible in the pre-market summaries, a small upside move of roughly 2–3% by the close is more likely than a downside move, though the confidence is capped due to sector and rate sensitivity."
+    },
+    {
+      "id": "pred_perplexity_20260821_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 533.0,
+      "current_price_at_prediction": 527.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Pre-market indications show the Dow-tracking ETF (DIA) trading around $529.02, up about 0.37%, suggesting a modest rebound in blue-chip names after a roughly 1.9% pullback over the last 5 days. [3] Futures for the Dow are also positive, aligning with the broader theme of a cautious bounce across major indices. [1][13] With today’s key US data limited mostly to PMIs and a routine state employment release, and no major negative headlines dominating the tape, a continued grind higher into the close of around 1% above the baseline price appears slightly more likely than a reversal lower."
+    }
+  ]
+}

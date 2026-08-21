@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-21",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-21T10:58:34.253897+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight rebound after recent dips, while energy sectors remain volatile due to geopolitical tensions. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260821_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to strong Q2 earnings reports from major S&P 500 components and positive consumer confidence data released this morning."
+    },
+    {
+      "id": "pred_gemini_20260821_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Apple's stock is likely to increase following rumors of a new product launch next week and an analyst upgrade from 'hold' to 'buy' with an increased price target."
+    },
+    {
+      "id": "pred_gemini_20260821_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 292.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla faces downward pressure today due to a recall announcement affecting a significant number of vehicles and a general slowdown in EV demand reported in recent industry data."
+    },
+    {
+      "id": "pred_gemini_20260821_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 115.2,
+      "current_price_at_prediction": 113.8,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "ExxonMobil is projected to rise by month-end as crude oil prices are expected to stabilize and increase, supported by OPEC+ production cuts and rising global demand forecasts."
+    }
+  ]
+}

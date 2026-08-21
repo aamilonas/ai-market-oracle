@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-21",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-21T10:59:00.251065+00:00",
+  "market_context": "X sentiment shows cautious optimism driven by BTC's 23.9% surge spilling into tech names, though rising 10Y yields at 4.70% and VIX at 15.68 cap enthusiasm. Pre-market futures point to a flat-to-slightly-up open with no major economic releases today. Short interest signals remain elevated in mega-caps.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260821_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 765.5,
+      "current_price_at_prediction": 762.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "BTC rally and stable VIX suggest dip-buying in broad market; 5-day SPY decline of 2% sets up rebound. No negative catalysts expected at open."
+    },
+    {
+      "id": "pred_grok_20260821_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 710.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tech sentiment lifted by crypto momentum on X; QQQ's 2.9% 5-day drop looks overdone absent fresh news."
+    },
+    {
+      "id": "pred_grok_20260821_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 216.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Options flow and X chatter point to continued AI momentum; follows broader tech recovery pattern."
+    },
+    {
+      "id": "pred_grok_20260821_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 340.0,
+      "current_price_at_prediction": 345.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Elevated short interest and lack of positive catalysts today likely to pressure shares despite market tone."
+    }
+  ]
+}
