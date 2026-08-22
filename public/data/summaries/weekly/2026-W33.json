@@ -1,0 +1,54 @@
+{
+  "week": "2026-W33",
+  "period": "Aug 10 – Aug 14, 2026",
+  "generated_at": "2026-08-22T15:12:34.311911+00:00",
+  "headline": "Gemini led 2026-W33 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Gemini",
+      "weekly_score": 2.81,
+      "predictions": 10,
+      "accuracy": 0.7,
+      "rank_change": 0
+    },
+    {
+      "model": "GPT-4o",
+      "weekly_score": 0.7,
+      "predictions": 19,
+      "accuracy": 0.4211,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": -2.13,
+      "predictions": 20,
+      "accuracy": 0.3,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": -3.21,
+      "predictions": 24,
+      "accuracy": 0.2917,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "GPT-4o",
+    "ticker": "BTC-USD",
+    "score": 1.2,
+    "summary": "Top single-call score of the week belonged to GPT-4o."
+  },
+  "worst_call": {
+    "model": "GPT-4o",
+    "ticker": "NVDA",
+    "score": -0.7,
+    "summary": "Lowest single-call score of the week belonged to GPT-4o."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 1,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
