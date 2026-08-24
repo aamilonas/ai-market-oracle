@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-24T11:03:55.548139+00:00",
+  "market_context": "X sentiment reflects caution with mentions of the 5-day SPY and QQQ declines and rising VIX at 15.95. Pre-market futures mixed with focus on 10Y yield at 4.74% and ETH strength. Limited major news catalysts noted for the open.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260824_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.5,
+      "current_price_at_prediction": 765.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Recent 5-day drop of 1.4% and VIX up 5% suggest continued pressure into today's close per X volume analysis."
+    },
+    {
+      "id": "pred_grok_20260824_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 713.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ's sharper 2.4% weekly decline and tech rotation signals on X point to further downside by EOD."
+    },
+    {
+      "id": "pred_grok_20260824_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 219.0,
+      "current_price_at_prediction": 214.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Options flow chatter on X shows bullish bets on NVDA despite broader market weakness."
+    },
+    {
+      "id": "pred_grok_20260824_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 362.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "Short interest signals and recent price action indicate downside risk for TSLA into the close."
+    }
+  ]
+}

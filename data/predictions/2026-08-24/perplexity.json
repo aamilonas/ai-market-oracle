@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-24T10:50:00Z",
+  "market_context": "US index futures are modestly negative to flat heading into the open, with S&P 500 and Nasdaq-100 futures down roughly 0.1–0.3% and overnight breadth soft, especially in semiconductors. The economic calendar for the US today is very light, with no major data releases or Fed events, suggesting that price action will likely be driven by positioning, sector rotation, and ongoing anticipation of later-week catalysts like core PCE and Nvidia earnings.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260824_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.0,
+      "current_price_at_prediction": 765.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are modestly negative in the pre-market, indicating a slightly risk-off tone following recent weakness in the last 5 trading days and elevated but contained volatility. With SPY already down about 1.4% over the past week and no major data to spark a reversal, a small additional decline toward the low-750s by the close is consistent with mild de-risking and continuing consolidation after the recent run-up."
+    },
+    {
+      "id": "pred_perplexity_20260824_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 704.0,
+      "current_price_at_prediction": 713.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq-100 futures are underperforming S&P futures, and QQQ has already fallen roughly 2.4% in the last 5 sessions, reflecting ongoing pressure on large-cap growth and semiconductors. With pre-market sentiment soft and no offsetting macro catalysts today, another 1–1.5% decline by the close toward the low-700s is plausible as traders continue to take profits in megacap tech ahead of key earnings and inflation data later in the week."
+    },
+    {
+      "id": "pred_perplexity_20260824_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 214.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Despite some overnight weakness in semiconductor breadth, Nvidia is highlighted in commentary as a key focus for this week and has tended to see supportive flows into major earnings and events. Given strong underlying AI demand and the tendency for traders to buy ahead of anticipated news, a modest intraday rebound of 2–3% toward the low-$220s is likely even in a choppy tape, though sector-wide headwinds temper confidence slightly."
+    },
+    {
+      "id": "pred_perplexity_20260824_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 304.0,
+      "current_price_at_prediction": 309.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Apple is trading near elevated levels while broader large-cap tech indices have been under pressure and Nasdaq futures are modestly negative, suggesting continued rotation out of crowded megacap positions. With a quiet macro day and no major Apple-specific positive catalysts visible in the overnight news, a mild pullback of about 1.5–2% toward the low-$300s by the close is consistent with ongoing profit-taking and index-related selling."
+    },
+    {
+      "id": "pred_perplexity_20260824_005",
+      "ticker": "ETH-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 2510.0,
+      "current_price_at_prediction": 2456.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Ethereum has gained about 9% over the last 5 days, indicating strong short-term momentum and constructive risk appetite in crypto relative to equities. With no major US macro shocks scheduled today and ongoing interest in blockchain and AI-related narratives, a continued but more measured advance of around 2% toward the low-$2,500s by the end of the US trading day is probable, though intraday volatility and correlation to tech risk keep confidence moderate."
+    }
+  ]
+}
