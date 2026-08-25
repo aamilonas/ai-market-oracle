@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-25",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-25T11:01:56.248438+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech recovery after QQQ's 3.2% drop, with bullish chatter on NVDA and crypto spillover. Pre-market futures mixed, VIX stable at 15.87 signals low volatility. No major events flagged but BTC strength noted as positive for risk assets.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260825_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 766.5,
+      "current_price_at_prediction": 763.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 763.47 with only -1.2% 5-day decline; X volume on index ETFs shows buying interest and low VIX supports rebound. Futures point to flat-to-up open."
+    },
+    {
+      "id": "pred_grok_20260825_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 702.0,
+      "current_price_at_prediction": 706.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ's -3.2% 5-day slide and recent X bearish posts on valuation concerns outweigh crypto tailwinds. Expect continued pressure into close."
+    },
+    {
+      "id": "pred_grok_20260825_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 212.0,
+      "current_price_at_prediction": 208.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NVDA benefits from AI narrative still dominant on X and BTC rally spillover. Low short interest signals room for intraday bounce from 208.48."
+    },
+    {
+      "id": "pred_grok_20260825_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 342.0,
+      "current_price_at_prediction": 348.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA shows overextended move on X sentiment scans with profit-taking evident after recent gains. Options flow indicates bearish bets into close."
+    }
+  ]
+}

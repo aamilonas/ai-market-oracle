@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-25",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-25T10:45:00Z",
+  "market_context": "US equity futures are modestly higher with S&P 500 and Nasdaq futures up roughly 0.3–0.8%, and SPY/QQQ/DIA indicated about 0.5–1.0% above yesterday’s close in premarket trading.[1][4][14] The backdrop is cautious but constructive: volatility remains low, 10Y yields are elevated around 4.7%, and mega-cap tech (NVDA, TSLA, META, GOOGL) is generally bid in premarket, suggesting a mild rebound day after recent weakness in QQQ.[1][3][4][14]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260825_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.0,
+      "current_price_at_prediction": 763.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY is indicated about 0.5% higher in premarket around 767–768, reflecting S&P 500 futures up roughly 0.3–0.4% and a generally positive risk tone.[1][4][14] With VIX subdued in the mid‑teens and no clear shock in overnight macro news, the path of least resistance intraday is a modest follow‑through higher, even if some intraday fade occurs. Given elevated yields and recent minor drawdown (5‑day -1.2%), I expect a mild mean‑reversion bounce rather than a strong trend move, hence a moderate confidence that SPY closes above yesterday’s 763.47 and near 770."
+    },
+    {
+      "id": "pred_perplexity_20260825_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 715.0,
+      "current_price_at_prediction": 706.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ is indicated up around 1% in premarket near 714, outpacing SPY, as Nasdaq futures trade roughly 0.7–0.8% higher and large-cap tech (including NVDA and META) show premarket gains.[3][4][9][14] After a steeper recent drawdown (5‑day -3.2%), QQQ has more room for a reflex bounce if futures strength persists into the open. However, the sector remains sensitive to rates and positioning is crowded, so I assign only moderate confidence that QQQ ends the day above 706.32 and around 715, consistent with partial retention of premarket gains."
+    },
+    {
+      "id": "pred_perplexity_20260825_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 540.0,
+      "current_price_at_prediction": 533.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "DIA is trading about 0.45–0.5% higher in premarket near 536, in line with Dow futures up around 0.3%.[4][9][11][14] With the Dow having held up better than QQQ in the recent pullback and value/cyclicals less stretched, there is a reasonable probability that the ETF holds most of its premarket gap. I therefore expect DIA to finish above 533.65 and lean toward a close around 540, reflecting a modestly positive, low‑volatility session."
+    },
+    {
+      "id": "pred_perplexity_20260825_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 214.0,
+      "current_price_at_prediction": 208.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA is among the most active premarket names, trading about 1.3% higher around 211–212, supported by a stronger Nasdaq and continued AI optimism.[3][5][10][14] Given its high beta, NVDA typically amplifies directional moves in QQQ; a modestly green index day would favor an intraday gain of 2–3% from the prior close. However, event risk around AI commentary and stretched positioning caps confidence, so I expect NVDA to close above 208.48, near 214, with slightly-below-high confidence."
+    },
+    {
+      "id": "pred_perplexity_20260825_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 356.0,
+      "current_price_at_prediction": 348.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA is indicated modestly higher in premarket around 351–352, roughly +0.7–0.8%, participating in the broader tech rebound.[3][5][10][14] The stock remains volatile and sentiment has been fragile in recent weeks, so intraday swings are likely, but a supportive macro tape and green Nasdaq futures slightly favor an up close versus yesterday’s 348.95. Because TSLA often reverses intraday, I keep confidence just above even that it ends the session higher, targeting a close around 356 if the broader risk-on tone holds."
+    }
+  ]
+}

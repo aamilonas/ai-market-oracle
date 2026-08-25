@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-25",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-25T11:00:36.516520+00:00",
+  "market_context": "Recent economic data indicates a strong consumer spending trend, coupled with a slight easing in inflation concerns. Technology stocks are showing resilience, while energy sectors are reacting to fluctuating oil prices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260825_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong market breadth and positive sentiment from recent earnings reports suggest continued upward momentum for the broader market."
+    },
+    {
+      "id": "pred_gemini_20260825_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements and robust demand for existing services are driving investor interest, pushing the stock higher."
+    },
+    {
+      "id": "pred_gemini_20260825_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 280.0,
+      "current_price_at_prediction": 285.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Increased competition in the EV market and recent production challenges are creating downward pressure on the stock in the short term."
+    },
+    {
+      "id": "pred_gemini_20260825_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 123.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Rising global oil demand forecasts and geopolitical tensions are expected to support crude oil prices, benefiting energy producers."
+    },
+    {
+      "id": "pred_gemini_20260825_005",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 190.0,
+      "current_price_at_prediction": 188.0,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Continued strength in advertising revenue and advancements in AI technologies are bolstering investor confidence in the tech giant."
+    }
+  ]
+}
