@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-26",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-26T11:03:29.487895+00:00",
+  "market_context": "X sentiment is mixed with caution on rate volatility but bullish chatter around AI names. Pre-market futures point to modest gains while VIX at 15.69 signals elevated hedging. No major macro events but options flow shows call buying in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260826_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 768.4,
+      "current_price_at_prediction": 765.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "X posts highlight dip-buying in broad indices after yesterday's -0.2% close. Stable 10Y yield at 4.64% and light positive futures support a modest rebound into the close."
+    },
+    {
+      "id": "pred_grok_20260826_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.8,
+      "current_price_at_prediction": 213.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Heavy bullish options flow and X mentions of new AI partnerships point to continued momentum. Current price near session lows offers entry for end-of-day recovery."
+    },
+    {
+      "id": "pred_grok_20260826_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.1,
+      "current_price_at_prediction": 350.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X chatter around delivery concerns and rising short interest suggests profit-taking. Weak pre-market action supports a lower close versus the 350.25 level."
+    },
+    {
+      "id": "pred_grok_20260826_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 712.9,
+      "current_price_at_prediction": 710.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech-heavy X sentiment remains constructive despite -0.9% 5-day slide. Modest futures lift and call buying in mega-caps favor a small positive finish."
+    }
+  ]
+}

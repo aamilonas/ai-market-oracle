@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-26",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-26T10:40:00Z",
+  "market_context": "US equity futures are modestly higher to flat ahead of the open, with S&P 500 and Nasdaq-100 futures up around 0.3–0.6% in early indications, suggesting a mildly positive risk tone after recent slight weakness. Key macro releases at 8:30 AM ET include Q2 GDP second estimate and July personal income, outlays, and core PCE, alongside durable goods orders, which could add intraday volatility but consensus expectations point to steady growth and cooling inflation. Nvidia reports Q2 FY2027 earnings after the close, making NVDA and the broader tech complex especially sensitive to guidance and AI-related demand commentary.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260826_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 772.0,
+      "current_price_at_prediction": 765.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are modestly positive heading into the open, indicating a slight upward bias following a recent 5-day move of about -0.2% that suggests the market has consolidated rather than broken down. The combination of an anticipated steady Q2 GDP second estimate and broadly in-line core PCE should ease near-term macro anxiety, while a still-elevated but contained VIX around the mid-teens points to normal volatility rather than stress. With mega-cap tech still providing structural support and no major negative overnight shock evident, a modest intraday grind higher toward a roughly 0.8% gain on SPY is plausible, though a surprise in the 8:30 AM data could temporarily disrupt this path."
+    },
+    {
+      "id": "pred_perplexity_20260826_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 719.0,
+      "current_price_at_prediction": 710.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq-100 futures are outperforming S&P futures in early trade, pointing to relative strength in growth and tech ahead of key macro prints, which favors a modest rebound after QQQ’s roughly -0.9% move over the last 5 days. Nvidia’s earnings after the close are a major focus and, historically, AI-related optimism and positioning into such reports tend to support broader semiconductor and large-cap tech indices intraday, even if the post-earnings reaction is more mixed. With rates stable around a 10-year yield near 4.6% and no fresh policy shock, a 1.1–1.3% advance in QQQ by the close—retracing part of its recent pullback—is more likely than a further decline, though macro data surprises could alter intraday volatility."
+    },
+    {
+      "id": "pred_perplexity_20260826_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 213.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nvidia is heading into its Q2 FY2027 earnings report, with consensus expectations for continued strong AI data center demand and close scrutiny on forward guidance and supply capacity, which typically drives elevated pre-earnings positioning and volatility. Given the broader positive tone in Nasdaq futures and the market’s tendency to bid up leading AI names into high-profile reports, a modest pre-close drift higher of around 3% is plausible as traders anticipate upbeat commentary. However, earnings risk is binary and after-hours reaction can sharply diverge from the regular-session move, so confidence remains moderate rather than high despite the supportive backdrop."
+    },
+    {
+      "id": "pred_perplexity_20260826_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 314.0,
+      "current_price_at_prediction": 309.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple has been relatively stable despite the modest recent weakness in major indices, benefiting from its role as a defensive mega-cap with strong cash flows and a growing ecosystem that increasingly incorporates AI-related features. With macro data expected to confirm steady growth and cooling inflation, rate-sensitive, quality large caps like AAPL tend to attract incremental flows, especially in an environment where volatility is near historical norms. Coupled with supportive tech futures and the absence of major company-specific negative headlines, a 1–1.5% intraday advance is more likely than a decline, though broader market reaction to the 8:30 AM releases could mute the move."
+    },
+    {
+      "id": "pred_perplexity_20260826_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 343.0,
+      "current_price_at_prediction": 350.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Tesla has been trading with elevated sensitivity to both rates and cyclical growth concerns, and in recent sessions the stock has shown sharp intraday swings even when the broader indices are relatively subdued. With key macro data and durable goods orders on the docket, any indication of cooling consumer demand or pressure on higher-ticket items can weigh disproportionately on EV and auto-related names. Given its high beta profile and recent tendency to underperform on days when investors favor more stable mega-cap tech, a modest pullback of around 2% by the close is slightly more likely than a gain, though strong risk-on sentiment or company-specific news could easily reverse this move."
+    }
+  ]
+}
