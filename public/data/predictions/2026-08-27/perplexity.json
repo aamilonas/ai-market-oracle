@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-27T20:20:00Z",
+  "market_context": "US futures were pointing higher in the morning, with Nasdaq-100 futures outperforming on the back of Nvidia’s strong post-earnings reaction. The main macro setup is still mixed: VIX is low at 14.51, but the 10-year yield remains elevated at 4.67%, while today’s calendar includes multiple economic releases and auctions that could keep rates-sensitive names choppy.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260827_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 774.2,
+      "current_price_at_prediction": 771.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Index futures were higher and the broader risk tone improved after Nvidia’s earnings-driven rally, which tends to support large-cap US equities. The move is likely to be moderated by still-high yields and scheduled data/auction risk, so I expect only a modest upside close rather than a strong breakout."
+    },
+    {
+      "id": "pred_perplexity_20260827_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 727.8,
+      "current_price_at_prediction": 721.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ should outperform SPY today because Nasdaq futures were stronger premarket and Nvidia’s blowout guidance is directly supportive for AI/semiconductor-heavy growth stocks. The reaction in NVDA is likely to spill over into the broader tech complex, lifting the Nasdaq-100 more than the S&P 500."
+    },
+    {
+      "id": "pred_perplexity_20260827_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.5,
+      "current_price_at_prediction": 227.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Premarket coverage indicated NVDA was up about 7% after a blockbuster earnings report and guidance that exceeded expectations, with commentary highlighting $108B current-quarter revenue guidance. Even if some profit-taking appears intraday, the stock has a clear catalyst and should remain bid through the session."
+    },
+    {
+      "id": "pred_perplexity_20260827_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 509.8,
+      "current_price_at_prediction": 505.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "MSFT is likely to benefit indirectly from the renewed enthusiasm around AI infrastructure spending after NVDA’s report. The move should be smaller than NVDA’s because there is no comparable direct catalyst, and higher yields may cap multiple expansion."
+    },
+    {
+      "id": "pred_perplexity_20260827_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 349.2,
+      "current_price_at_prediction": 354.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Tesla entered the day with weaker premarket tone in available market coverage, and there is no comparable positive company-specific catalyst in the news flow. If the market rotates into AI semis and away from higher-beta consumer names, TSLA could underperform even if the broader indices finish higher."
+    }
+  ]
+}

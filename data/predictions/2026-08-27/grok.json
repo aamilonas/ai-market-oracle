@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-27",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-27T20:42:42.820766+00:00",
+  "market_context": "X/Twitter sentiment is cautiously bullish with traders citing low VIX at 14.51 and crypto strength as positive signals. Pre-market futures point to modest gains amid quiet news flow. No major events flagged for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260827_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 771.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX and positive 5-day trend support continuation. X chatter focuses on tech resilience."
+    },
+    {
+      "id": "pred_grok_20260827_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 721.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ 5-day gain of 1.4% and NVDA stability suggest follow-through buying."
+    },
+    {
+      "id": "pred_grok_20260827_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 232.0,
+      "current_price_at_prediction": 227.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Options flow shows call interest; aligns with broader AI sentiment on X."
+    },
+    {
+      "id": "pred_grok_20260827_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 348.0,
+      "current_price_at_prediction": 354.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Short interest signals and recent overextension noted in X discussions."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-27",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-27T20:42:16.036026+00:00",
+  "market_context": "Recent economic indicators suggest a mixed outlook, with inflation showing signs of cooling while employment remains robust. Geopolitical tensions continue to add uncertainty, influencing investor sentiment across various sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260827_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive news regarding upcoming earnings reports for major index components."
+    },
+    {
+      "id": "pred_gemini_20260827_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.5,
+      "current_price_at_prediction": 212.0,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Supply chain disruptions reported for key components, potentially impacting Q3 production targets. Analyst downgrades also contributing to negative sentiment."
+    },
+    {
+      "id": "pred_gemini_20260827_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.8,
+      "reasoning": "Strong performance in cloud services continues to drive revenue growth. New AI product announcements expected to boost investor confidence over the coming weeks."
+    },
+    {
+      "id": "pred_gemini_20260827_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent price cuts by competitors are putting pressure on margins. Technical indicators show a bearish trend."
+    }
+  ]
+}
