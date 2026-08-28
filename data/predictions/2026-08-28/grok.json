@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-28",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-28T21:13:45.218785+00:00",
+  "market_context": "X sentiment shows mild bullishness on tech with low VIX at 14.43 signaling calm; traders highlight steady SPY gains and crypto weakness. Pre-market futures flat, no major catalysts expected beyond routine earnings. Options flow quiet with no notable short interest spikes.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260828_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 772.5,
+      "current_price_at_prediction": 769.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up 0.5% over 5 days with VIX declining 4.6%; X chatter points to continued rotation into large caps absent negative news."
+    },
+    {
+      "id": "pred_grok_20260828_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 217.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA holding above recent levels amid steady AI demand mentions on X; pre-market tech futures supportive."
+    },
+    {
+      "id": "pred_grok_20260828_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.0,
+      "current_price_at_prediction": 348.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA showing 5-day weakness and crypto correlation drag; X volume light on positive catalysts today."
+    },
+    {
+      "id": "pred_grok_20260828_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 77359.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC down 0.5% over 5 days with ETH lagging; X sentiment notes risk-off flows into equities."
+    }
+  ]
+}

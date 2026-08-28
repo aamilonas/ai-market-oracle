@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-28",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-28T12:20:00Z",
+  "market_context": "US index futures are essentially flat, with S&P 500 futures around -0.01%, Nasdaq 100 futures down about 0.4%, and Dow futures up about 0.09%, suggesting a mixed open with modest pressure on tech after a strong recent rally.[11][15] Volatility remains subdued (VIX ~14) and there are no major high-impact US data releases scheduled beyond BLS employment benchmark revisions at 10:00 AM ET, so Jackson Hole comments from Fed Chair Warsh and ongoing digestion of recent tech/AI gains are likely to drive intraday sentiment.[1][4][13] Pre-market tapes show significant moves in software, cyber-security, and payments, but mega-cap AI leaders are only modestly indicated, pointing to rotation within tech rather than an outright risk-off environment.[2][3][5][14]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260828_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 762.0,
+      "current_price_at_prediction": 769.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are fractionally negative (about -0.01%) and broader US500 indications show a small loss of roughly 0.04%, consistent with a mild pullback after recent gains.[11][7] With VIX still low, no major data shock expected, and tech leadership looking tired after a strong AI/software rally, a modest mean-reversion move of roughly 1% lower by the close in SPY is more likely than a continuation melt-up.[1][3][4] Fed Chair Warsh’s Jackson Hole stance on keeping pressure on inflation adds a mild headwind to valuations, reinforcing odds of a small red day rather than a breakout higher."
+    },
+    {
+      "id": "pred_perplexity_20260828_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 707.0,
+      "current_price_at_prediction": 716.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Nasdaq 100 futures are notably weaker than S&P and Dow, down roughly 0.4%, signaling specific pressure on large-cap tech after an outsized recent rally in software, cybersecurity, and AI names.[11][15] Pre-market leaders include Okta, Salesforce, CrowdStrike, and other high-beta cloud/security names up double-digits, while some semis and payments like Marvell and PayPal are among top losers, indicating a choppy, rotational tape rather than broad, clean strength.[2][3][5][14] Given QQQ’s heavy tech weighting, this combination of stretched valuations, mixed sector moves, and a modestly hawkish Fed backdrop makes a roughly 1–1.5% decline into the close more probable than a strong continuation higher."
+    },
+    {
+      "id": "pred_perplexity_20260828_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 224.0,
+      "current_price_at_prediction": 217.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia appears among notable pre-market gainers with roughly a mid-to-high single-digit percentage advance indicated, tied to ongoing enthusiasm around AI infrastructure and follow-through from strong software and chip-related sentiment.[3] While Nasdaq futures are softer, the specific strength in AI and related ecosystems (cloud, cybersecurity, automation) suggests continued demand for leading GPU suppliers, and no stock-specific negative catalysts are evident in the pre-market news flow.[1][3][11] Given NVDA’s recent volatility and sector leadership, a modest intraday extension of part of the pre-market strength, resulting in roughly a 3% gain by close, is plausible even if the broader QQQ finishes down."
+    },
+    {
+      "id": "pred_perplexity_20260828_004",
+      "ticker": "PYPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 48.0,
+      "current_price_at_prediction": 50.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "PayPal is one of the largest pre-market laggards, indicated down about 12–17% on very heavy volume, reflecting a significant negative catalyst, likely earnings or guidance disappointment.[2][5] Large pre-market gaps of this size in widely followed payment names often see additional selling or at least struggle to fill the gap the same day, especially when tech futures are already weaker.[11][15] Given the magnitude of the indicated move and negative sentiment, a further intraday drift lower toward roughly another 5–6% below the pre-market reference level by close is more probable than a full rebound."
+    },
+    {
+      "id": "pred_perplexity_20260828_005",
+      "ticker": "TTWO",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 239.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Take-Two is showing solid pre-market strength of around 2.5–3% with decent volume on multiple screens of top gainers, suggesting a positive catalyst such as guidance, franchise news, or sector tailwind.[2][5][14] In an environment where index futures are flat to slightly negative but investors are rewarding growth and IP-driven names, strong single-name catalysts in gaming can see sustained intraday follow-through.[11] A continuation of part of the pre-market move, with TTWO closing roughly 2–3% above its indicated level, is consistent with typical price action for earnings-related or news-driven moves in mid-to-large cap entertainment stocks."
+    }
+  ]
+}

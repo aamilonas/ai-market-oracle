@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-28",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-28T21:13:19.274130+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Inflation concerns persist, influencing investor sentiment across various indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260828_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying volume observed in the last hour of trading, coupled with positive economic indicators released earlier today, suggests a bullish close."
+    },
+    {
+      "id": "pred_gemini_20260828_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week is driving pre-emptive buying, and analyst upgrades have boosted sentiment."
+    },
+    {
+      "id": "pred_gemini_20260828_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays reported by a major supplier are creating negative sentiment, leading to increased selling pressure in afternoon trading."
+    },
+    {
+      "id": "pred_gemini_20260828_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Strong Q3 earnings forecast and continued growth in cloud services are expected to drive the stock higher throughout the month."
+    }
+  ]
+}
