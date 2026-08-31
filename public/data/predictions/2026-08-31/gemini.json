@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-31",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-08-31T17:41:42.599288+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing some volatility while broader indices remain relatively stable. Inflation concerns persist, but recent economic data suggests a potential softening, leading to cautious optimism among investors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260831_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from yesterday's close and strong early trading volume indicate continued upward pressure."
+    },
+    {
+      "id": "pred_gemini_20260831_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Weak Q3 earnings outlook and increased competition in the smartphone market are likely to weigh on the stock."
+    },
+    {
+      "id": "pred_gemini_20260831_003",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 182.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Strong AI division growth and positive analyst revisions following recent product announcements are expected to boost investor confidence."
+    }
+  ]
+}

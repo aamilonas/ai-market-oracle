@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-31",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-08-31T17:42:10.121570+00:00",
+  "market_context": "X sentiment shows cautious optimism with retail traders highlighting NVDA strength and low VIX signaling calm. Pre-market futures point to modest gains in tech while 10Y yield holds at 4.75%. No major macro events expected today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260831_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 768.5,
+      "current_price_at_prediction": 765.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Futures indicate +0.3% open with X chatter on stable yields supporting equities. Low VIX at 15.16 reduces downside risk per recent posts from @zerohedge."
+    },
+    {
+      "id": "pred_grok_20260831_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 219.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Options flow shows heavy call buying and X sentiment from AI accounts bullish on chip demand. QQQ 5-day gain of +1.2% provides tailwind."
+    },
+    {
+      "id": "pred_grok_20260831_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 367.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Short interest signals and X mentions of delivery concerns weigh on stock. BTC weakness at -0.3% adds correlated pressure."
+    },
+    {
+      "id": "pred_grok_20260831_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 77500.0,
+      "current_price_at_prediction": 78794.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto X feeds note ETF outflows and ETH -1.5% 5-day drop spilling over. No positive catalysts visible pre-market."
+    }
+  ]
+}

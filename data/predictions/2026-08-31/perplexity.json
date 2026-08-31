@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-31",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-08-31T17:15:00Z",
+  "market_context": "US index futures were modestly lower in premarket trading, with S&P 500 and Nasdaq 100 futures both down around 0.2% to 0.5% as traders reacted to renewed Middle East risk and a light economic calendar. Overnight/early-session readings showed mixed tech premarket action: NVDA and META were firmer while MSFT and TSLA were softer, which argues for a slightly cautious but not panic-driven open.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260831_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 762.8,
+      "current_price_at_prediction": 765.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Premarket futures pointed lower, with S&P 500 futures down roughly 0.2% to 0.5% and Barron’s describing the major indexes as set to open down. The backdrop of renewed geopolitical tension in the Strait of Hormuz and a light macro calendar supports a mild risk-off bias, but the move looks limited rather than disorderly."
+    },
+    {
+      "id": "pred_perplexity_20260831_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 709.9,
+      "current_price_at_prediction": 714.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Nasdaq 100 futures were also lower premarket, and the market backdrop specifically cited pressure on tech sentiment from geopolitical risk. Large-cap tech premarket prints were mixed, with MSFT and TSLA down while NVDA and META were up, suggesting QQQ may underperform slightly into the close."
+    },
+    {
+      "id": "pred_perplexity_20260831_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 221.2,
+      "current_price_at_prediction": 219.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA showed relative strength in premarket at about +0.6% to +1.0% in the data gathered, outperforming several other mega-cap names. With AI/semiconductor leadership still a dominant market theme and only mild index-level pressure, NVDA has a reasonable path to hold gains even if the broader tape is soft."
+    },
+    {
+      "id": "pred_perplexity_20260831_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 360.1,
+      "current_price_at_prediction": 367.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "TSLA was one of the weaker mega-cap names premarket, with readings around -0.5% to -0.7% while the broad index setup was also negative. In a risk-off session, higher-beta stocks like TSLA often lag, and the stock already sits below the intraday premarket indications seen earlier in the morning."
+    },
+    {
+      "id": "pred_perplexity_20260831_005",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 575.8,
+      "current_price_at_prediction": 571.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "META was modestly positive in premarket while several peers were mixed-to-lower, indicating relative resilience. If the market’s downside remains contained, META can grind higher on the same large-cap quality bid that often supports it during cautious tape conditions."
+    }
+  ]
+}
