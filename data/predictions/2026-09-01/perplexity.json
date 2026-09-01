@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-01T15:00:00Z",
+  "market_context": "US index futures and pre-market pricing were weaker into the open, with SPY and QQQ indicated lower and Reuters reporting the major indexes opened down as elevated yields and higher oil prices pressured sentiment. The day’s calendar is not empty: a 10:00 AM ET JOLTS release and several manufacturing/optimism data points add event risk, while pre-market weakness was especially visible in mega-cap tech and AI-related names.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260901_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.2,
+      "current_price_at_prediction": 763.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY was already indicated lower pre-market around 761.9, and Reuters reported the S&P 500 opened down 0.66% as high yields and oil prices weighed on risk sentiment. With the 10Y Treasury yield at 4.77% and key morning data including JOLTS, the path of least resistance looks modestly lower unless the data surprise decisively to the upside."
+    },
+    {
+      "id": "pred_perplexity_20260901_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 703.8,
+      "current_price_at_prediction": 709.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "QQQ was showing a larger pre-market discount than SPY, around 707.47 versus the prior close of 709.70, and Reuters said the Nasdaq opened down 1.29% in the early cash session. Higher rates and weaker pre-market action in large-cap tech suggest the Nasdaq complex should underperform the broad market today."
+    },
+    {
+      "id": "pred_perplexity_20260901_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 214.1,
+      "current_price_at_prediction": 218.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA was trading softer pre-market near 220.78 with CNBC flagging Nvidia among the biggest premarket movers to the downside, and broader AI-chip sentiment was not enough to offset the rate/yield headwind. Given its sensitivity to Nasdaq weakness and the session’s risk-off tone, a small decline looks more likely than a rebound."
+    },
+    {
+      "id": "pred_perplexity_20260901_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 320.6,
+      "current_price_at_prediction": 323.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Apple was not among the day’s strongest premarket names, and the combination of softer index futures, higher yields, and a cautious start to September argues for mild pressure on large-cap defensives as well. The move should be smaller than for semiconductors because AAPL is less directly tied to the AI-rate trade."
+    },
+    {
+      "id": "pred_perplexity_20260901_005",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 16.3,
+      "current_price_at_prediction": 15.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "With equity futures lower, oil firmer, and Reuters describing a nervous open driven by yields and higher energy prices, implied volatility has a reasonable chance to tick up from depressed levels. The move higher should be limited, but a modest intraday rise in VIX is more consistent with the tape than a further drop."
+    }
+  ]
+}

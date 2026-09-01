@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-01",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-01T15:06:25.932330+00:00",
+  "market_context": "The market is exhibiting mixed signals today, with technology stocks showing resilience while the energy sector faces headwinds. Investor sentiment remains cautious as key economic data releases are anticipated later in the week.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260901_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap tech, pushing the broader market higher despite some sector-specific weaknesses."
+    },
+    {
+      "id": "pred_gemini_20260901_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Key tech earnings reports exceeded expectations, leading to a surge in investor confidence for growth stocks."
+    },
+    {
+      "id": "pred_gemini_20260901_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 92.0,
+      "current_price_at_prediction": 93.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Crude oil inventories unexpectedly rose, putting downward pressure on energy prices and related equities."
+    },
+    {
+      "id": "pred_gemini_20260901_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 98.5,
+      "current_price_at_prediction": 99.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.55,
+      "reasoning": "Anticipation of a hawkish stance from the Federal Reserve in the upcoming meeting is driving bond yields higher, negatively impacting bond prices."
+    }
+  ]
+}
