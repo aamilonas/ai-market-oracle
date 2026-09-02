@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-02",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-02T14:39:28.297580+00:00",
+  "market_context": "X sentiment is cautiously optimistic with AI stocks trending positively amid low VIX, though some users flag overvaluation risks in big tech. Pre-market futures point to flat-to-slightly down open with no major economic releases today. Options flow shows heavy call buying in NVDA and SPY.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260902_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 768.5,
+      "current_price_at_prediction": 765.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X chatter highlights positive pre-market futures and AI momentum; SPY has held above 760 support. Low VIX at 15.51 suggests limited downside pressure today."
+    },
+    {
+      "id": "pred_grok_20260902_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.0,
+      "current_price_at_prediction": 223.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Heavy call options flow noted on X and web scans; NVDA benefits from ongoing AI narrative with no negative catalysts expected."
+    },
+    {
+      "id": "pred_grok_20260902_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 348.0,
+      "current_price_at_prediction": 355.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "X sentiment shows rising short interest chatter and delivery concerns; 5-day trend already negative at -0.9% for BTC correlation."
+    },
+    {
+      "id": "pred_grok_20260902_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76500.0,
+      "current_price_at_prediction": 77142.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto X feeds indicate profit-taking after recent highs and macro yield pressure at 4.79%; ETH weakness adds drag."
+    }
+  ]
+}

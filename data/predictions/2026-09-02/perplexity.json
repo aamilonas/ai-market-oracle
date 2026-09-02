@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-02T13:59:00Z",
+  "market_context": "US index futures are mixed to slightly positive, with S&P 500 futures up around 0.05–0.08%, Dow futures modestly higher, and Nasdaq futures fractionally negative, following a weak close on Tuesday where the S&P 500 fell about 0.7% and the Nasdaq over 1% amid rising bond yields and cautious sentiment.[1][2][3][5][6][13] Oil prices are elevated on Middle East tensions and yields remain near recent highs, with markets watching the ADP employment report and rising odds of a September Fed rate hike, which some sources place around 70%.[1][3][13][14]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260902_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.0,
+      "current_price_at_prediction": 765.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "The S&P 500 index closed down about 0.7% on Tuesday with cautious risk sentiment driven by higher bond yields and a rising probability of a Fed rate hike in September, reported near 70%.[1][2][3][6][13] Index futures for the S&P 500 are only slightly positive (~0.05–0.08%) despite the prior decline, suggesting limited appetite for a strong rebound, while elevated crude prices and geopolitical tensions continue to pressure risk assets.[1][3][5][14] Given this backdrop of tightening-rate expectations, weak recent performance, and modestly supportive but not strongly bullish futures, a modest further decline in SPY toward the low $750s appears more likely than a sustained intraday recovery."
+    },
+    {
+      "id": "pred_perplexity_20260902_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 709.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The Nasdaq underperformed the broader market on Tuesday, falling over 1%, as higher yields and rate-hike concerns typically weigh disproportionately on growth and technology shares.[3][6][13] Current Nasdaq futures are modestly negative while S&P and Dow futures are slightly positive, reinforcing the view that tech may continue to lag amid rate uncertainty and macro headwinds.[5][13] With QQQ already in a minor 5‑day downtrend and no strong catalyst for a sharp rebound in the near-term data calendar beyond incremental labor data, a continuation lower toward the $700 area is slightly more probable than a full recovery of recent losses."
+    },
+    {
+      "id": "pred_perplexity_20260902_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 525.0,
+      "current_price_at_prediction": 531.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The Dow fell roughly 0.8% on Tuesday, reflecting broad risk-off sentiment across cyclicals and large caps as yields climbed and the VIX picked up from low levels.[2][3][6][13] While Dow futures show a modest positive bias (~0.23%), this strength appears limited relative to the prior session’s downside and is occurring in the context of heightened macro uncertainty and elevated oil prices.[5][14] Given the mixed futures tone and continued concerns over tightening financial conditions, a mild follow-through decline in DIA by the close is somewhat more likely than a full reversal of Tuesday’s losses."
+    },
+    {
+      "id": "pred_perplexity_20260902_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 223.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Market commentary highlights that investors are closely watching Nvidia around key inflation data and macro releases, suggesting the stock remains a focal point for AI and semiconductor enthusiasm even in a cautious tape.[3] Despite broad equity weakness, demand for AI hardware and related themes has supported select names and helped emerging-market hardware stocks outperform the S&P 500, indicating resilient interest in the sector backdrop that also benefits Nvidia.[4] With NVDA having recently pulled back and futures indicating only modest overall pressure rather than a sharp risk-off move, a modest intraday rebound toward the high $220s to around $230 is slightly more likely than continued heavy selling."
+    },
+    {
+      "id": "pred_perplexity_20260902_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.0,
+      "current_price_at_prediction": 355.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Risk assets broadly weakened on Tuesday, including growth and momentum sectors, as bond yields climbed and the odds of a near-term Fed rate hike increased, pressuring valuations of high-beta names.[1][2][3][6][13] Elevated crude prices and geopolitical tensions add to macro uncertainty and can influence sentiment around autos and consumer demand, even if the direct impact on an EV maker like Tesla is more nuanced.[14] In a mixed-to-cautious premarket environment with tech and growth indices underperforming, TSLA is more likely to trade lower with the broader high-beta complex, making a move toward the mid‑$340s slightly more probable than a sustained intraday rally."
+    }
+  ]
+}

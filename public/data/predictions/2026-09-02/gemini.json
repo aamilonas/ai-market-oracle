@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-02",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-02T14:38:37.424647+00:00",
+  "market_context": "Recent inflation data suggests a hawkish stance from the Fed, impacting tech growth stocks. However, strong corporate earnings reports in the energy sector provide some market resilience, leading to mixed signals across different indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260902_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in large-cap tech and healthcare sectors, likely pushing the broader market higher by close."
+    },
+    {
+      "id": "pred_gemini_20260902_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 420.0,
+      "current_price_at_prediction": 425.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Increased volatility in high-growth tech stocks following a disappointing earnings report from a major semiconductor company, leading to a likely intraday dip."
+    },
+    {
+      "id": "pred_gemini_20260902_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 315.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of positive news regarding new factory production targets and a potential partnership announcement expected by the end of the week."
+    },
+    {
+      "id": "pred_gemini_20260902_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 190.75,
+      "timeframe": "end_of_month",
+      "confidence": 0.55,
+      "reasoning": "Concerns over slowing iPhone sales in key international markets and increased competition in the services sector could weigh on the stock throughout the month."
+    }
+  ]
+}
