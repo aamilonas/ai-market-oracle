@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-03",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-03T14:42:45.127371+00:00",
+  "market_context": "X/Twitter sentiment shows cautious optimism with traders noting VIX at 14.92 and slight 5-day index dips but crypto strength in BTC. Pre-market futures appear flat amid no major economic releases today. Options flow indicates light bullish bets on tech names.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260903_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.5,
+      "current_price_at_prediction": 768.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 768.23 with only -0.4% 5-day decline; X chatter from @zerohedge and @CNBC highlights low VIX supporting rebound. No negative catalysts expected at open."
+    },
+    {
+      "id": "pred_grok_20260903_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.0,
+      "current_price_at_prediction": 711.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ's -1.3% 5-day slide and elevated 10Y yield at 4.76% point to continued pressure; recent X posts flag rotation out of growth stocks."
+    },
+    {
+      "id": "pred_grok_20260903_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 226.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "NVDA shows resilience in crypto-linked sentiment on X with BTC above 79k; light short interest and positive pre-market mentions support modest gain."
+    },
+    {
+      "id": "pred_grok_20260903_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 372.0,
+      "current_price_at_prediction": 377.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.49,
+      "reasoning": "TSLA's recent run faces profit-taking per X volume from @SawyerMerritt followers; 5-day index weakness likely drags EV names lower by close."
+    }
+  ]
+}

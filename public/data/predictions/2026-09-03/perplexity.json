@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-03",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-03T14:25:00Z",
+  "market_context": "US index futures are mixed to slightly positive, with S&P 500 and Dow futures modestly higher and Nasdaq futures slightly negative, pointing to a mild value/cyclical tilt at the open. SPY, QQQ, and DIA are all modestly green in pre-market trading, with TSLA, MSFT, NVDA, and META also up pre-market, while macro data today is centered on weekly jobless claims rather than a major CPI/Fed catalyst. Overall risk sentiment is cautiously constructive but not strongly directional, suggesting modest intraday moves rather than a large trend day.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260903_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 773.0,
+      "current_price_at_prediction": 768.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are indicated slightly higher and SPY is trading modestly green in pre-market, suggesting a small positive bias into the open rather than risk-off positioning. The macro calendar today is relatively light, with weekly jobless claims in line with a stable labor market and no major Fed or CPI surprise expected, which typically supports a drift higher on days following a small pullback. Given SPY’s recent 5‑day decline of about 0.4% and the supportive, but not euphoric, futures tone, a mild mean‑reversion up move of roughly +0.5% by the close is more likely than further downside continuation."
+    },
+    {
+      "id": "pred_perplexity_20260903_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "current_price_at_prediction": 711.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq 100 futures are modestly negative while S&P 500 and Dow futures are flat to slightly positive, indicating relative weakness in large-cap tech versus the broader market. QQQ is only slightly up in pre‑market despite notable pre‑market gains in some mega‑cap names, and it has underperformed over the last 5 days (–1.3%) versus SPY’s –0.4%, reflecting ongoing rotation away from high‑duration tech. With 10‑year yields elevated near the mid‑4% range and no clear tech-specific bullish catalyst today, there is a meaningful probability that QQQ fades intraday and closes modestly below yesterday’s close."
+    },
+    {
+      "id": "pred_perplexity_20260903_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 538.5,
+      "current_price_at_prediction": 534.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Dow futures are indicated higher and are leading S&P and Nasdaq futures in the pre‑market, pointing to ongoing strength in value and cyclicals that dominate DIA. Pre‑market indications show DIA up more than SPY and QQQ in percentage terms, consistent with the recent factor trend of investors favoring economically sensitive and less duration‑sensitive names amid higher long‑term yields. With no major macro shock scheduled for today, a continuation of this relative strength makes a modest gain of around +0.8% in DIA by the close a reasonable expectation."
+    },
+    {
+      "id": "pred_perplexity_20260903_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 386.0,
+      "current_price_at_prediction": 377.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA is trading solidly higher in pre‑market, up more than 2% from the prior close, indicating strong early demand likely linked to positive sentiment or news flow specific to the name. The broader macro tape is neutral‑to‑supportive, with S&P and Dow futures slightly higher, reducing the risk that TSLA’s pre‑market strength gets completely reversed by index‑level selling. TSLA’s volatility and tendency for momentum continuation after notable pre‑market moves suggest it is more likely than not to close above yesterday’s $377.92 level, even if it gives back part of the early gains."
+    },
+    {
+      "id": "pred_perplexity_20260903_005",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.5,
+      "current_price_at_prediction": 226.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVDA is modestly positive in pre‑market, trading up around 0.7%, showing buyers stepping in despite recent weakness in the broader tech complex. While Nasdaq futures are slightly negative, NVDA continues to be a key AI bellwether, and recent trading patterns show dip‑buying interest on small pullbacks rather than aggressive distribution. With no stock-specific negative catalyst apparent this morning and index futures not indicating a risk‑off day, the balance of probabilities favors NVDA ending the session above its prior close, even if intraday volatility remains elevated."
+    }
+  ]
+}
