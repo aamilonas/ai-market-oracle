@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-04",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-04T14:05:00Z",
+  "market_context": "Overnight coverage showed U.S. equity futures roughly flat to slightly negative while Asian markets and European equities were supported by easing Treasury yields and dovish Fed commentary. The main macro focus today is the U.S. August jobs report, which typically increases intraday volatility and could move rates-sensitive megacap tech and index ETFs the most.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260904_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 774.8,
+      "current_price_at_prediction": 771.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is starting from a calm volatility backdrop, with VIX at 14.06 and 5-day decline in fear, while Reuters-style morning coverage indicated U.S. and European futures were near flat rather than signaling risk-off pressure. Easing yields and risk-on tone in Asia favor a modestly positive index session, but the labor-market release introduces enough event risk to keep confidence moderate."
+    },
+    {
+      "id": "pred_perplexity_20260904_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.1,
+      "current_price_at_prediction": 719.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ should be slightly stronger than the broad market if yields stay contained, because the overnight tone was supportive for growth stocks and Nasdaq futures were only marginally lower before the open. With 10Y yields at 4.77% and no major premarket shock evident, a small upside drift is more likely than a selloff, though the jobs report can quickly reverse that."
+    },
+    {
+      "id": "pred_perplexity_20260904_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 238.2,
+      "current_price_at_prediction": 234.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is leveraged to the same rate-sensitive growth bid as QQQ, and the backdrop of easing Treasury yields plus broadly constructive global risk sentiment is supportive. The move is likely to be limited rather than explosive because futures were described as little changed overnight, so this is a cautious bullish call rather than a high-conviction breakout view."
+    },
+    {
+      "id": "pred_perplexity_20260904_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 347.9,
+      "current_price_at_prediction": 353.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "TSLA often trades more erratically around macro data, and with the market waiting on the U.S. payrolls report, higher-beta names are vulnerable to a post-data de-risking move even if the open is stable. The overnight tone did not show a strong catalyst for Tesla specifically, so a mild fade from the prior close is the more disciplined prediction."
+    },
+    {
+      "id": "pred_perplexity_20260904_005",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 615.5,
+      "current_price_at_prediction": 609.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "META tends to benefit when the market is willing to pay for large-cap growth, and the current setup is mildly supportive because bond yields have eased and broad equities in Asia were firmer. The expected move is modest because U.S. futures were near flat and today’s employment report could cap upside if rates back up."
+    }
+  ]
+}

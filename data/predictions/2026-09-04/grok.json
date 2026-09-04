@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-04",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-04T14:30:22.075632+00:00",
+  "market_context": "X/Twitter sentiment is mildly bullish with heavy volume on NVDA and AI-related tickers. Pre-market futures point to flat-to-up open with no major economic releases today. Options flow shows call buying in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260904_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 771.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "X chatter on tech resilience and flat VIX support modest upside. Pre-market futures +0.3% and no negative catalysts."
+    },
+    {
+      "id": "pred_grok_20260904_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.0,
+      "current_price_at_prediction": 719.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Bullish options flow and positive NVDA mentions on X suggest continued momentum into close."
+    },
+    {
+      "id": "pred_grok_20260904_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 240.0,
+      "current_price_at_prediction": 234.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Elevated X volume on AI chip demand and call sweeps in options data point to intraday gains."
+    },
+    {
+      "id": "pred_grok_20260904_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.0,
+      "current_price_at_prediction": 353.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Mixed X sentiment on delivery numbers and profit-taking after recent run provide downside bias."
+    }
+  ]
+}

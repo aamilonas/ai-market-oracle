@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-04",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-04T14:29:53.083330+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback after recent gains, while energy sectors are seeing increased interest due to rising commodity prices. Inflation concerns remain a key factor influencing investor sentiment, leading to cautious trading across several indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260904_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released earlier today, suggests a slight upward movement by market close."
+    },
+    {
+      "id": "pred_gemini_20260904_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.5,
+      "current_price_at_prediction": 227.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and a slight dip in consumer spending data are putting downward pressure on tech stocks, including AAPL, for the remainder of the day."
+    },
+    {
+      "id": "pred_gemini_20260904_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 120.8,
+      "current_price_at_prediction": 119.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Crude oil prices are projected to rise further this week due to geopolitical tensions, directly benefiting energy sector giants like XOM. Technical indicators also show an upward trend."
+    },
+    {
+      "id": "pred_gemini_20260904_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and concerns over production targets for the upcoming quarter are likely to weigh on TSLA's stock performance through the end of the month."
+    }
+  ]
+}
