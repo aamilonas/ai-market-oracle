@@ -1,0 +1,47 @@
+{
+  "week": "2026-W35",
+  "period": "Aug 24 – Aug 28, 2026",
+  "generated_at": "2026-09-05T17:02:43.926456+00:00",
+  "headline": "Perplexity led 2026-W35 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Perplexity",
+      "weekly_score": 7.95,
+      "predictions": 20,
+      "accuracy": 0.65,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": 6.5,
+      "predictions": 16,
+      "accuracy": 0.625,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 0.82,
+      "predictions": 7,
+      "accuracy": 0.5714,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "Grok",
+    "ticker": "NVDA",
+    "score": 1.15,
+    "summary": "Top single-call score of the week belonged to Grok."
+  },
+  "worst_call": {
+    "model": "Perplexity",
+    "ticker": "PYPL",
+    "score": -0.7,
+    "summary": "Lowest single-call score of the week belonged to Perplexity."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 1,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
