@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-08",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-08T14:43:34.846353+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting low VIX at 15.55 and stable pre-market futures. Tech stocks like NVDA and AAPL drawing positive mentions amid low volume. No major events flagged but 10Y yield at 4.79% keeping rate sensitivity high.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260908_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "current_price_at_prediction": 767.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "X posts from @zerohedge and @CNBC indicate mild bullish flows into indices. Pre-market futures point to +0.3% open with VIX declining. Low conviction due to flat 5-day SPY performance."
+    },
+    {
+      "id": "pred_grok_20260908_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 717.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Sentiment on X favors tech with MSFT and NVDA mentions up 15% in last hour. Options flow shows call buying in QQQ. 5-day +0.1% trend supports continuation."
+    },
+    {
+      "id": "pred_grok_20260908_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 224.0,
+      "current_price_at_prediction": 227.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Short interest signals and X chatter from @Stocktwits note profit taking after recent run. Crypto weakness at BTC 78318 may weigh on semis. Mixed pre-market data."
+    },
+    {
+      "id": "pred_grok_20260908_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 370.0,
+      "current_price_at_prediction": 363.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "X volume on TSLA positive from EV policy speculation. DIA weakness may not drag growth names. Low confidence given volatile 5-day -3.6% BTC correlation."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-08",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-08T14:43:08.826113+00:00",
+  "market_context": "Recent economic data indicates a mixed sentiment, with strong tech earnings offset by concerns over inflation. The Fed's upcoming statement is highly anticipated, potentially influencing short-term market movements.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260908_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong performance in large-cap tech stocks is expected to drive the index higher, despite broader market uncertainties."
+    },
+    {
+      "id": "pred_gemini_20260908_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 448.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Continued investor confidence in growth stocks and positive analyst revisions for key components are bullish indicators."
+    },
+    {
+      "id": "pred_gemini_20260908_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 382.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Concerns over industrial output and potential interest rate hikes could put downward pressure on blue-chip stocks."
+    },
+    {
+      "id": "pred_gemini_20260908_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 315.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements and strong delivery numbers for the current quarter are likely to boost investor sentiment."
+    }
+  ]
+}

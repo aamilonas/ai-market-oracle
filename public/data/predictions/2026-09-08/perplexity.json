@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-08",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-08T15:00:00Z",
+  "market_context": "U.S. futures are leaning slightly negative into the open, with Reuters reporting S&P 500 futures down 0.39% and Nasdaq 100 futures down 0.18% after renewed Middle East tensions pushed oil higher. The economic calendar is light aside from the NFIB Small Business Optimism print, while premarket stock-specific pressure is visible in TSLA after a safety investigation and in other high-beta names showing mixed momentum.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260908_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 763.8,
+      "current_price_at_prediction": 767.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Index futures were lower before the open, with Reuters citing S&P 500 E-minis down 0.39% and oil spikes weighing on sentiment. A light macro calendar reduces the chance of a strong catalyst-driven rebound, so SPY is more likely to finish modestly lower than at the prior close."
+    },
+    {
+      "id": "pred_perplexity_20260908_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 714.4,
+      "current_price_at_prediction": 717.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Nasdaq futures were only slightly negative to flat, but the tape is still cautious and the overnight tone is risk-off rather than growth-led. With little fresh positive catalyst and rates still elevated, QQQ has a small edge to close below its prior close."
+    },
+    {
+      "id": "pred_perplexity_20260908_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 352.1,
+      "current_price_at_prediction": 363.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Yahoo Finance reported TSLA fell 5.9% premarket after the NHTSA launched an investigation into whether the Cybercab complies with federal safety standards. Regulatory headlines typically keep pressure on the stock through the session, so another close lower is the highest-confidence call here."
+    },
+    {
+      "id": "pred_perplexity_20260908_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.6,
+      "current_price_at_prediction": 227.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Premarket tech breadth is mixed, but QQQ-related sentiment is slightly better than the broader market and there is no direct NVDA-specific negative catalyst in the gathered news. In a soft tape, NVDA can still outperform modestly if dip buyers defend AI leaders."
+    },
+    {
+      "id": "pred_perplexity_20260908_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 77550.0,
+      "current_price_at_prediction": 78318.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Crypto was already weak on the baseline, with BTC down 3.6% over five days, and the market tone is cautious as equities face soft futures and higher oil. That combination favors a small continuation lower rather than a meaningful rebound."
+    }
+  ]
+}
