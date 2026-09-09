@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-09T14:40:00Z",
+  "market_context": "US equity futures are pointing to a modestly lower open as inflation concerns, sharply higher oil prices near $100, and rising Treasury yields weigh on risk sentiment.[1][3][4][6][11] The major indices fell yesterday and premarket indications for SPY show it trading slightly below the prior close, with volatility modestly elevated and no major US data releases scheduled to dramatically shift the macro narrative today.[2][6][10][15]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260909_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.0,
+      "current_price_at_prediction": 763.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY futures and premarket quotes show the ETF trading modestly below its prior close as broader US futures point to a lower open amid renewed inflation worries, oil near $100, and rising bond yields weighing on equities.[2][4][10][11] With all major indices closing in the red yesterday and no major positive macro catalyst on today’s calendar, a continuation of mild risk-off sentiment makes a slightly lower close versus 763.52 more likely than not.[1][6][9][15]"
+    },
+    {
+      "id": "pred_perplexity_20260909_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.0,
+      "current_price_at_prediction": 718.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech and growth shares came under pressure yesterday as investors reassessed AI-related software earnings and rising yields, and Nasdaq futures are indicated lower alongside the broader market.[1][4][9][11] Given the elevated rate backdrop and risk-off tone, QQQ is more likely to follow the indices lower and close modestly below 718.07, though tech’s relative resilience versus value argues for only a moderate decline.[3][6][9]"
+    },
+    {
+      "id": "pred_perplexity_20260909_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 313.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Apple is scheduled to unveil new iPhones and other devices today in its first major event under its new CEO, a type of catalyst that historically drives increased investor attention and can support the share price into and through the event.[4] Despite the cautious macro backdrop, company-specific news flow and event-driven optimism make a modest gain above 313.43 plausible, though broader index weakness tempers confidence."
+    },
+    {
+      "id": "pred_perplexity_20260909_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 218.0,
+      "current_price_at_prediction": 224.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Recent declines in the S&P 500 have been partly driven by renewed concerns that AI could disrupt traditional software names and by profit-taking in high-multiple tech, which tends to spill over into leading AI hardware plays like Nvidia.[1][9] With Nasdaq futures under pressure and rates climbing, high-beta semis are likely to see further de-risking, making a close modestly below 224.39 more probable.[3][11]"
+    },
+    {
+      "id": "pred_perplexity_20260909_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 77500.0,
+      "current_price_at_prediction": 78919.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has drifted slightly lower over the past five days and is trading near elevated levels while broader risk assets, including US equities, are under pressure from higher yields and geopolitical tensions.[1][6][9][11] In an environment of rising real yields and risk-off sentiment, crypto often trades as a high-beta risk asset, so a modest retracement below 78,919.45 by the close is somewhat more likely than a push to new highs."
+    }
+  ]
+}

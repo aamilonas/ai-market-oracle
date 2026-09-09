@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-09",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-09T14:45:49.977400+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing some volatility while broader indices remain relatively stable. Inflation concerns persist, but recent economic data suggests a potential softening, leading to cautious optimism among investors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260909_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators."
+    },
+    {
+      "id": "pred_gemini_20260909_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 520.0,
+      "current_price_at_prediction": 525.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tech sector facing headwinds from rising interest rate expectations and profit-taking after recent gains."
+    },
+    {
+      "id": "pred_gemini_20260909_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.5,
+      "current_price_at_prediction": 224.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Positive analyst upgrade and strong pre-market orders indicate a potential rally."
+    },
+    {
+      "id": "pred_gemini_20260909_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 455.2,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Concerns over slowing cloud growth reported by competitors and upcoming earnings uncertainty."
+    }
+  ]
+}
