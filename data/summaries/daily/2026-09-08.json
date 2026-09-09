@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T14:43:48.397680+00:00",
+  "generated_at": "2026-09-09T00:22:41.005986+00:00",
   "headline": "13 AI market calls queued for 2026-09-08",
   "summary": "13 predictions were generated across 6 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -21,7 +21,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on SPY up."
     },
     {
@@ -31,7 +31,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on TSLA up."
     }
   ],
@@ -39,14 +39,14 @@
     "prediction_id": null,
     "model_display_name": "Perplexity",
     "ticker": "TSLA",
-    "score": null,
+    "score": -0.72,
     "summary": "Highest-confidence call came from Perplexity on TSLA."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "TSLA",
-    "score": null,
+    "score": 0.98,
     "summary": "Lowest-confidence call came from Grok on TSLA."
   }
 }
