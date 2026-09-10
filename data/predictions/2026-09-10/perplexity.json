@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-10",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-10T14:20:00Z",
+  "market_context": "Pre-market tone is mixed to slightly cautious: S&P 500 futures were reported roughly flat to mildly positive, while Nasdaq futures were softer and the VIX remains elevated around the mid-to-high teens. The key macro overhang is today’s U.S. PPI release and Treasury yield sensitivity, with recent reports also pointing to elevated oil and rate pressure weighing more on large-cap tech than on the broad market.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260910_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.4,
+      "current_price_at_prediction": 758.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is entering the session after a negative 5-day stretch and with volatility still elevated at 17.72, which usually makes index rebounds less reliable. Pre-market signals were mixed rather than risk-on, and the day’s PPI release and still-high 10Y yield near 4.91% favor modest downside pressure on the broad market."
+    },
+    {
+      "id": "pred_perplexity_20260910_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.2,
+      "current_price_at_prediction": 710.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ is more exposed to duration-sensitive tech, and that segment has been under pressure when yields stay near multi-month highs. With pre-market Nasdaq futures softer than S&P futures in the morning setup and VIX still elevated, a small selloff in the Nasdaq-100 looks more likely than a strong advance."
+    },
+    {
+      "id": "pred_perplexity_20260910_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 213.2,
+      "current_price_at_prediction": 218.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA tends to trade as a high-beta rate-sensitive AI leader, so elevated Treasury yields and cautious tech sentiment create downside risk even if the broad market is only mildly lower. The stock also sits close to recent highs, which increases the chance of a profit-taking day if PPI prints firm."
+    },
+    {
+      "id": "pred_perplexity_20260910_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 666.5,
+      "current_price_at_prediction": 655.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "META has a favorable near-term catalyst profile after premarket strength tied to its AI-agent launch, which can support relative outperformance versus the rest of mega-cap tech. Even in a cautious tape, single-name AI enthusiasm can keep META bid while the broader Nasdaq softens."
+    },
+    {
+      "id": "pred_perplexity_20260910_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 372.8,
+      "current_price_at_prediction": 367.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA showed modest premarket firmness, and its trading pattern often diverges from the index on days with mixed macro signals. I expect a small gain rather than a large move because the macro backdrop is not strongly risk-on, but the stock has enough retail/flow support to edge higher."
+    }
+  ]
+}

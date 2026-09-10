@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-10",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-10T14:35:41.280723+00:00",
+  "market_context": "X sentiment shows cautious bearishness with rising VIX at 17.72 up 23.7% signaling fear amid mixed futures; pre-market points to weakness in indices after SPY's -0.8% 5-day drop while QQQ holds slight gains. Major news includes ongoing rate concerns with 10Y at 4.91% and crypto weakness pressuring tech. Options flow indicates defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260910_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.5,
+      "current_price_at_prediction": 758.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 758.94 after -0.8% 5-day slide with VIX spiking 23.7% to 17.72 indicating elevated fear; X chatter highlights rate hike worries and weak pre-market futures. Expect further downside pressure into close."
+    },
+    {
+      "id": "pred_grok_20260910_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 713.2,
+      "current_price_at_prediction": 710.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ showed resilience with +0.2% over 5 days despite broader weakness; X sentiment notes AI stock rotation supporting Nasdaq. Modest rebound likely by EOD."
+    },
+    {
+      "id": "pred_grok_20260910_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 214.8,
+      "current_price_at_prediction": 218.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA at 218.01 faces pressure from rising yields at 4.91% and crypto BTC drop of 3.2%; X flow shows short interest building on semis. Downside move expected."
+    },
+    {
+      "id": "pred_grok_20260910_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 372.5,
+      "current_price_at_prediction": 367.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA at 367.23 may see short-covering bounce amid mixed market; X mentions EV demand optimism offsetting broader selloff signals."
+    }
+  ]
+}
