@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-11",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-11T14:35:43.711102+00:00",
+  "market_context": "X sentiment is mixed with caution on rising VIX and 10Y yield at 4.93%, traders noting AI stock volatility. Pre-market futures point to flat open, no major overnight news but options flow shows bearish bets on tech. BTC holding near 78k amid crypto rotation.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260911_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 768.5,
+      "current_price_at_prediction": 764.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 764.84 with 5-day dip of 1.1%; X chatter on yield stabilization suggests rebound. Pre-market data indicates mild buying interest in indices."
+    },
+    {
+      "id": "pred_grok_20260911_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.0,
+      "current_price_at_prediction": 715.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ at 715.50 shows relative strength but VIX up 9.1% signals risk-off. Options flow on X highlights put activity in mega-caps."
+    },
+    {
+      "id": "pred_grok_20260911_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA at 220.27 benefits from ongoing AI narrative on X despite broader market dip. Short interest data suggests covering pressure today."
+    }
+  ]
+}

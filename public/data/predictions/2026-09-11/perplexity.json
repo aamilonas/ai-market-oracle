@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-11",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-11T13:55:00Z",
+  "market_context": "U.S. equity futures are pointing to a cautious rebound after several down sessions, with reports indicating Dow, S&P 500, and Nasdaq futures up roughly 0.3–0.4% pre-market as oil prices and Treasury yields ease slightly.[1][5][8] Recent trading has been pressured by higher yields and elevated oil, fueling inflation and Fed-hike concerns, while today’s session is framed by key economic data (e.g., producer prices) that could affect rate expectations.[3][10] Large-cap tech and semiconductor names show mixed pre-market action, with some weakness in NVDA and TSLA but modest strength in AAPL, suggesting a selective risk-on tone rather than a broad rally.[13]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260911_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.0,
+      "current_price_at_prediction": 764.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "S&P 500 futures are indicated up around 0.3–0.4% in early trade, signaling a modest rebound after several sessions of decline driven by higher oil and yields.[1][5][8] With long-term trend measures still bullish but short-term tone cautious, a moderate intraday recovery toward a 0.8–1.0% gain in SPY is plausible if economic data does not significantly surprise to the upside on inflation.[1][3][10] However, elevated rates and inflation concerns cap confidence, so the expectation is for a grind higher rather than a sharp rally."
+    },
+    {
+      "id": "pred_perplexity_20260911_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "current_price_at_prediction": 715.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nasdaq 100 futures are reported to be up roughly 0.4% pre-market, but recent sessions have seen tech and growth stocks more sensitive to moves in yields and inflation expectations.[1][3][8] With some megacap tech names mixed and semiconductors under pressure, the likely scenario is a smaller percentage rebound than the S&P, leading to a modest upside close of around 0.9%.[13] If economic data or yields move adversely intraday, QQQ could underperform, which keeps confidence below the SPY call."
+    },
+    {
+      "id": "pred_perplexity_20260911_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 338.0,
+      "current_price_at_prediction": 333.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Pre-market data shows Apple trading modestly higher (around +0.5%), suggesting continued investor preference for high-quality megacap tech even in a higher-rate environment.[13] With the broader S&P futures pointing up and no specific negative company news highlighted overnight, a continuation to about a 1–1.5% gain by the close is reasonable.[1][3] The move would also align with SPY strength while acknowledging that any hawkish surprise in economic data could limit upside."
+    },
+    {
+      "id": "pred_perplexity_20260911_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.0,
+      "current_price_at_prediction": 220.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Pre-market screens show NVIDIA trading lower (around -1.3%), with chip stocks in Asia and the U.S. under pressure amid concerns about higher yields, cyclical slowdown, and stretched valuations.[1][3][13] Given recent global weakness in semiconductor shares and NVDA’s high-beta profile, it is plausible that early losses persist or deepen, leading to a close roughly 2–2.5% below the prior day.[1][13] A broad market rebound could soften the decline, but sector-specific headwinds keep the directional bias slightly to the downside."
+    },
+    {
+      "id": "pred_perplexity_20260911_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 365.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Tesla appears on active pre-market lists trading lower by roughly 2%, reflecting ongoing volatility in high-beta growth names against a backdrop of higher rates and macro uncertainty.[3][13] With consumer discretionary and some growth sectors noted as under pressure recently, TSLA is likely to lag any broad index rebound and could close about 2.5–3% below the previous close.[1][3] Confidence is moderate because a strong intraday short-covering rally could offset weakness if overall risk sentiment improves more than expected."
+    }
+  ]
+}
