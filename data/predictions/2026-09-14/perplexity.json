@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-14T15:50:00Z",
+  "market_context": "Index futures are trading lower pre-market, with S&P 500 futures down around 0.7–0.8%, Nasdaq 100 futures down about 1.4–1.6%, and Dow futures down roughly 0.4–0.6%, indicating a risk-off open skewed against tech. Mega-cap tech shows mixed but mostly positive pre-market action: AAPL, MSFT, AMZN, GOOGL, META, and TSLA are modestly higher, while NVDA is roughly flat to slightly negative. There are no major US economic data releases scheduled for today, so price action is likely to be driven mainly by positioning, ongoing AI and rate concerns, and sector rotation rather than fresh macro prints.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260914_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 750.0,
+      "current_price_at_prediction": 761.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "S&P 500 futures are trading about 0.7–0.8% lower pre-market, with short-term sentiment characterized as bearish despite a still-bullish long-term trend. Tech-heavy Nasdaq 100 futures are underperforming, down roughly 1.4–1.6%, which historically pressures broad indices intraday when there is no offsetting macro catalyst. With SPY already off about 1.1% over the last five days and no major economic releases today, the path of least resistance appears to be a continuation of modest downside via de-risking and sector rotation, making a close below the prior $761.92 level and toward the $750 area plausible."
+    },
+    {
+      "id": "pred_perplexity_20260914_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 710.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq 100 futures are indicated down roughly 1.4–1.6% pre-market, underperforming S&P 500 and Dow futures and reflecting continued pressure on high-multiple tech amid AI and rate concerns. Pre-market, the mega-cap complex is mixed: most of AAPL, MSFT, AMZN, GOOGL, META, and TSLA show modest gains, but NVDA is flat to slightly negative, suggesting fragile breadth under the surface. Given QQQ’s roughly 1.2% decline over the past five days and the lack of supportive macro data today, a close below $710.27 and toward the $700 level is consistent with a continuation of near-term underperformance in growth and AI-linked names."
+    },
+    {
+      "id": "pred_perplexity_20260914_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 340.0,
+      "current_price_at_prediction": 334.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Pre-market indications show Apple trading about 1.7–1.8% higher, making it one of the stronger movers among mega-cap tech. This relative strength appears alongside modest gains in other large tech names and suggests ongoing dip-buying in high-quality balance-sheet leaders despite broader index weakness. With no stock-specific negative catalyst reported for today and the name’s tendency to attract inflows on risk-off days as a defensive growth proxy, an end-of-day close above $334.33 and toward the $340 area is more likely than a full fade of the pre-market strength."
+    },
+    {
+      "id": "pred_perplexity_20260914_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 205.0,
+      "current_price_at_prediction": 211.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Pre-market data show Nvidia essentially flat to marginally negative, making it the weakest mover within the core mega-cap AI cohort. At the same time, Nasdaq futures are notably under pressure, and broader commentary highlights investor unease around AI valuations and rising rates. Given Nvidia’s high sensitivity to sentiment on AI and growth expectations, plus the recent defensive tilt in the market, a modest move lower from $211.74 toward the $205 area by the close is consistent with continued multiple compression and profit-taking in AI leaders."
+    },
+    {
+      "id": "pred_perplexity_20260914_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 370.0,
+      "current_price_at_prediction": 362.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is indicated modestly higher in pre-market trading, roughly 0.5% up, in line with strength across several other large-cap growth names despite weaker index futures. The stock has recently traded with high intraday volatility, but in the absence of negative company-specific headlines today, short covering and momentum flows often support follow-through to early strength. While broader tech pressure from Nasdaq futures tempers conviction, the pre-market bid and ongoing interest in EV and AI-adjacent themes make an end-of-day close above $362.85 and toward $370 a slightly more probable outcome than a reversal to red."
+    }
+  ]
+}

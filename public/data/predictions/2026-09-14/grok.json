@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-14",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-14T16:29:15.807222+00:00",
+  "market_context": "X sentiment is mixed with bearish tones on tech due to rising VIX and 10Y yield at 4.94%. Pre-market futures point to a flat open amid no major catalysts. Options flow shows elevated put activity on NVDA.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260914_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.0,
+      "current_price_at_prediction": 761.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "VIX up 9.9% signals caution and X posts highlight yield concerns pressuring equities. SPY 5-day trend already negative at -1.1%."
+    },
+    {
+      "id": "pred_grok_20260914_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 702.0,
+      "current_price_at_prediction": 710.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech heavy QQQ faces headwinds from NVDA weakness and elevated short interest signals seen in recent scans."
+    },
+    {
+      "id": "pred_grok_20260914_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 205.0,
+      "current_price_at_prediction": 211.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Options flow data indicates heavy put buying and X chatter focuses on valuation concerns after recent run-up."
+    },
+    {
+      "id": "pred_grok_20260914_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 370.0,
+      "current_price_at_prediction": 362.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Crypto positive sentiment on X may spill over to TSLA with BTC up 0.6% and no negative news expected today."
+    }
+  ]
+}
