@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-15",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-15T14:55:00Z",
+  "market_context": "US equity futures are modestly lower ahead of today’s Fed meeting, with S&P 500 and Nasdaq-100 futures down roughly 0.3–0.4%, and Dow futures off about 0.45%, reflecting caution as Treasury yields hover near multi‑decade highs and oil remains firm.[1][3][14][15] Pre‑market action shows notable strength in cybersecurity and software names like ZS, CRWD, PANW, and OKTA, while many smaller caps exhibit extreme moves, indicating a risk‑selective rather than broad risk‑on tone.[6][13] Overall, the setup points to a slightly risk‑off open for the major indices with sector‑specific strength in tech and security software amid elevated volatility and focus on Fed policy.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260915_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.0,
+      "current_price_at_prediction": 756.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Index futures tied to the S&P 500 are trading down about 0.2–0.34% ahead of the open, signaling a lower start for the cash index in response to elevated Treasury yields and investor caution before the Fed decision.[1][3][9][15] With the 10-year yield near 5% and VIX recently higher, valuation pressure on large-cap equities is likely to persist intraday, making a modest continuation of the recent 5‑day SPY drawdown more probable than a full reversal.[1] A closing price modestly below the prior $756.73 level (around $748) is consistent with the indicated futures discount and typical Fed‑meeting day volatility, though sharp intraday swings could occur."
+    },
+    {
+      "id": "pred_perplexity_20260915_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 695.0,
+      "current_price_at_prediction": 704.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq-100 futures are indicated down roughly 0.3–0.35%, suggesting a weaker open for growth and tech-heavy names that dominate QQQ.[1][3][9] With long-term yields at or near 5%, rate-sensitive high-duration tech valuations remain under pressure, and QQQ has already declined nearly 2% over the past 5 days, pointing to continued caution rather than a strong rebound.[1] Despite some strength in select cybersecurity and software names pre‑market, index-level breadth appears soft, making a modest decline toward about $695 by the close more likely than a recovery to new highs."
+    },
+    {
+      "id": "pred_perplexity_20260915_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 510.0,
+      "current_price_at_prediction": 519.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Dow futures are underperforming other major index futures, trading down about 0.45–0.47%, which points to a relatively weaker open for blue-chip industrials and financials that dominate DIA.[1][3][9][14] Higher bond yields and an upcoming Fed meeting typically weigh on rate‑sensitive and cyclical names, which are more prominent in the Dow than in the Nasdaq, aligning with the recent 5‑day drop in DIA.[1] Given this setup, a continuation of pressure with DIA closing modestly below $519.22, around $510, is more likely than a full rebound, barring a notably dovish surprise from the Fed late in the session."
+    },
+    {
+      "id": "pred_perplexity_20260915_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 218.0,
+      "current_price_at_prediction": 212.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Pre‑market data show notable strength across several high‑growth software and cybersecurity names like ZS, CRWD, PANW, and OKTA, indicating persistent investor demand for AI‑adjacent and tech infrastructure plays despite broader index softness.[6][13] NVDA, as a core AI and data‑center beneficiary, often participates in these thematic flows and can outperform on days when sector‑specific strength offsets index‑level weakness. While higher rates and a cautious macro backdrop limit upside, the thematic bid in AI and security software suggests a modest gain toward about $218 by the close is slightly more probable than further downside from $212.13."
+    },
+    {
+      "id": "pred_perplexity_20260915_005",
+      "ticker": "COIN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 5.0,
+      "current_price_at_prediction": 4.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Pre‑market screens show Coinbase (COIN) among the notable gainers, with a solid percentage advance alongside other tech and growth names, suggesting active buying interest into the open.[6][13] Although BTC and ETH have been slightly negative over the past 5 days, the modest crypto drawdown combined with risk‑selective equity flows into COIN implies traders are positioning for a rebound rather than further near‑term weakness.[6][13] Under these conditions, a continuation of pre‑market strength into the regular session with COIN closing above its prior level (for example near 5.0) is somewhat more likely than a full reversal of the early gains."
+    }
+  ]
+}

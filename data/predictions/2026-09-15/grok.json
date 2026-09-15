@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-15T15:12:41.225697+00:00",
+  "market_context": "X sentiment is cautious with rising VIX mentions and yield concerns at 5%. Pre-market futures point to modest declines amid tech weakness. No major events but options flow shows defensive positioning.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260915_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 752.5,
+      "current_price_at_prediction": 756.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "5-day SPY decline of 1.2% and VIX up 13% signal continued pressure. X posts highlight yield spike risks. Expect close below open on defensive flows."
+    },
+    {
+      "id": "pred_grok_20260915_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 215.0,
+      "current_price_at_prediction": 212.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA shows relative strength vs broader tech selloff in recent sessions. Options flow indicates call buying. Minor rebound likely on low volume."
+    },
+    {
+      "id": "pred_grok_20260915_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 352.0,
+      "current_price_at_prediction": 359.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA underperformed peers on 5-day chart with negative X chatter on delivery concerns. Short interest signals add downside bias into close."
+    },
+    {
+      "id": "pred_grok_20260915_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 700.0,
+      "current_price_at_prediction": 704.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ 5-day drop of 1.9% aligns with VIX spike. Pre-market futures and X sentiment both lean bearish on rate sensitivity."
+    }
+  ]
+}
