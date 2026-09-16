@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-16",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-16T15:08:57.574214+00:00",
+  "market_context": "X sentiment shows cautious bearishness with traders highlighting the 4.96% 10Y yield and VIX at 16.80 as risks amid recent index dips. Pre-market futures point to modest weakness while crypto weakness adds to risk-off tone. No major catalysts but options flow suggests defensive positioning in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260916_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.0,
+      "current_price_at_prediction": 760.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 760.62 with 5-day -0.2% and VIX rising 2.1%; X chatter on yield spike supports downside to 755 by EOD."
+    },
+    {
+      "id": "pred_grok_20260916_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 215.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA at 215.96 shows relative strength vs QQQ -0.8%; recent X options flow indicates bullish bets into close."
+    },
+    {
+      "id": "pred_grok_20260916_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 363.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "TSLA at 363.82 with crypto -2.2% spillover; X short interest signals and pre-market weakness point to 355 EOD."
+    },
+    {
+      "id": "pred_grok_20260916_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 74000.0,
+      "current_price_at_prediction": 75487.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "BTC at 75487.76 already -2.2% on week; X sentiment ties it to equity caution and yield pressure for further drop."
+    }
+  ]
+}

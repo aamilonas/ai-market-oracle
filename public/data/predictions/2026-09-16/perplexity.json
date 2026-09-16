@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-16",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-16T12:55:00Z",
+  "market_context": "US index futures are modestly higher ahead of a closely watched Fed meeting, with S&P 500, Nasdaq 100, and Dow futures all up roughly 0.2–0.4% pre-market amid elevated 10Y yields near 5%. Recent data show core CPI around 2.4% year-on-year with headline inflation 3.4%, keeping rate-hike expectations high and volatility contained but above lows, suggesting a cautious risk-on bias into the decision.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260916_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 767.0,
+      "current_price_at_prediction": 760.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is trading slightly higher in pre-market (around 759–761) on the back of S&P 500 futures up roughly 0.2–0.4%, indicating mild positive sentiment despite high 10Y yields near 5%. The VIX at 16.80 and only slightly up over 5 days suggests contained volatility rather than a risk-off spike, and recent CPI data, while firm, have not triggered a sharp selloff. Given the modest futures bid and typical Fed-day intraday volatility, a small gain above the prior close toward 767 is plausible but not high-conviction."
+    },
+    {
+      "id": "pred_perplexity_20260916_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 717.0,
+      "current_price_at_prediction": 710.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nasdaq 100 futures are outperforming S&P 500 and Dow futures pre-market, up roughly 0.4–0.6%, signaling relative strength in large-cap tech despite the headwind of nearly 5% 10Y yields. CPI data show core inflation easing year-on-year, which slightly supports growth and tech valuations if the Fed’s messaging is not more hawkish than expected. Given the modest risk-on tone and QQQ’s recent 5-day dip, a mild rebound toward 717 by the close is more likely than continued downside, but rate-hike uncertainty caps confidence."
+    },
+    {
+      "id": "pred_perplexity_20260916_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 526.5,
+      "current_price_at_prediction": 521.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Dow futures are modestly higher, up around 0.2–0.3% pre-market, consistent with a cautious bid into the Fed decision and in line with S&P 500 futures. Higher-yield, value, and cyclical names in the Dow can benefit from elevated rates and an economy still supporting headline CPI at 3.4%, giving the index some defensive appeal versus high-growth names. With VIX only moderately elevated and no major negative macro surprise overnight, a small positive move in DIA toward 526.50 is moderately likely."
+    },
+    {
+      "id": "pred_perplexity_20260916_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 338.0,
+      "current_price_at_prediction": 333.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Large-cap megacaps like Apple tend to trade directionally with the Nasdaq and S&P into major macro catalysts, and pre-market futures strength suggests a modest supportive backdrop. With no major company-specific negative headlines indicated and QQQ futures higher, Apple is likely to participate in any broad index rebound, though its high duration profile keeps it sensitive to the nearly 5% 10Y yield and Fed communications. This supports a mild upside bias toward about a 1–1.5% gain by the close, but Fed-day volatility tempers conviction."
+    },
+    {
+      "id": "pred_perplexity_20260916_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 74200.0,
+      "current_price_at_prediction": 75487.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin has fallen about 2.2% over the last 5 days while 10Y Treasury yields have climbed toward 5%, indicating that higher real yields are pressuring risk assets and non-yielding stores of value. On major Fed decision days, crypto often trades as a high-beta macro asset and can see additional downside if the Fed signals a firm stance on rates given the recent CPI data. With volatility elevated but not extreme, a further modest drift lower toward roughly $74,200 by the US equity close is slightly more likely than a sharp rebound."
+    }
+  ]
+}
