@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-17",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-17T15:14:49.074780+00:00",
+  "market_context": "X sentiment shows cautious optimism on AI names with NVDA and MSFT mentions up 15% in volume but tempered by crypto weakness. Pre-market futures flat to slightly positive amid low VIX at 15.89. No major macro events scheduled but options flow indicates heavy call buying in QQQ.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260917_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 763.5,
+      "current_price_at_prediction": 760.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX and positive 5-day trend support modest upside. X chatter on tech resilience outweighs crypto dip. Expect SPY to close above 763 by EOD."
+    },
+    {
+      "id": "pred_grok_20260917_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 718.0,
+      "current_price_at_prediction": 715.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Heavy call flow in QQQ per options data and AI sentiment on X. 5-day gain of 0.9% likely to extend modestly into close."
+    },
+    {
+      "id": "pred_grok_20260917_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 216.5,
+      "current_price_at_prediction": 218.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Crypto weakness (BTC -1.3%) often correlates with NVDA pullbacks. Short interest signals and X volume suggest profit taking today."
+    },
+    {
+      "id": "pred_grok_20260917_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 368.0,
+      "current_price_at_prediction": 364.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "X sentiment on EV demand improving slightly. Low VIX environment favors high-beta names like TSLA for intraday bounce."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-17",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-17T15:10:00Z",
+  "market_context": "US index futures are trading solidly higher this morning, with S&P 500 futures up around 0.8–0.9%, Nasdaq 100 futures up about 1.1–1.2%, and Dow futures up close to 0.9%, supported by easing Treasury yields and a generally risk-on tone.[1][2][12] Pre-market action shows strong gains in select industrials and technology names such as Generac and Vertiv, while volatility remains contained with VIX in the mid-teens and no major high-impact US economic releases scheduled for later today.[5][8][13][15]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260917_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 768.0,
+      "current_price_at_prediction": 760.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "S&P 500 futures are up roughly 0.8–0.9% pre-market, indicating a positive open with broad index strength.[1][2][12] VIX is subdued around the mid-teens, suggesting limited near-term volatility, and there are no major high-impact US economic releases on the calendar that might abruptly shift sentiment today.[15] Given the modest recent 5-day gain in SPY (+0.4%) and supportive futures, a further, but not extreme, drift higher into the close is more likely than a reversal."
+    },
+    {
+      "id": "pred_perplexity_20260917_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 723.0,
+      "current_price_at_prediction": 715.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq 100 futures are outperforming, rising about 1.1–1.2% pre-market, pointing to continued strength in large-cap technology and growth stocks.[1][2][3][12] QQQ has already gained about 0.9% over the last 5 days, and pre-market gainers list is dominated by tech and growth names (e.g., Generac, Vertiv, Arm), reinforcing a sector tailwind.[5][8][13] With yields easing and risk-on sentiment in futures, QQQ is more likely to close higher, though intraday volatility in high-beta tech limits confidence from being higher."
+    },
+    {
+      "id": "pred_perplexity_20260917_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 337.0,
+      "current_price_at_prediction": 332.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Strong Nasdaq futures and a generally positive tone in technology and growth stocks suggest a supportive backdrop for mega-cap tech, including Apple.[1][2][3][8][13] With QQQ and Nasdaq futures leading the indices higher, index flows and passive allocation typically provide incremental upside pressure on large index constituents like AAPL. However, in the absence of specific Apple-related catalysts in the pre-market headlines, the expected move is modest rather than outsized."
+    },
+    {
+      "id": "pred_perplexity_20260917_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 224.5,
+      "current_price_at_prediction": 218.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Nasdaq and tech-focused pre-market gainers (including names in semiconductors and hardware such as Vertiv, Arm, and other technology components) indicate continued interest in the broader AI and infrastructure trade.[8][13] With Nasdaq futures notably stronger than other indices, high-beta chip and AI-related names like NVIDIA tend to outperform on risk-on days.[1][2][12] Nonetheless, NVIDIA's sensitivity to intraday sentiment and profit-taking in AI makes a moderate upside target more appropriate than an aggressive one."
+    },
+    {
+      "id": "pred_perplexity_20260917_005",
+      "ticker": "COIN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 174.0,
+      "current_price_at_prediction": 169.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Coinbase is trading among the notable pre-market gainers with a roughly 3% advance, reflecting positive sentiment toward crypto-related equities.[8][13] While BTC and ETH have been slightly negative over the past 5 days, today’s pre-market uptick in COIN suggests traders are leaning into the name alongside broader risk-on equity futures.[2][12] Given crypto’s inherent volatility and the recent mild pullback, a modest continuation of today’s early strength into the close is slightly more likely than a full reversal."
+    }
+  ]
+}

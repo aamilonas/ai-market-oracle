@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-17",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-17T15:13:35.584187+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing some volatility while broader indices remain relatively stable. Investor sentiment is cautious ahead of upcoming economic data releases, influencing short-term price movements across key sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260917_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive news regarding inflation data, suggests an upward close."
+    },
+    {
+      "id": "pred_gemini_20260917_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 520.0,
+      "current_price_at_prediction": 525.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector facing profit-taking after a recent rally, with key resistance levels holding firm. Volume indicates selling pressure."
+    },
+    {
+      "id": "pred_gemini_20260917_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements next week is driving investor interest, with institutional buying noted throughout the week."
+    },
+    {
+      "id": "pred_gemini_20260917_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 455.25,
+      "timeframe": "end_of_month",
+      "confidence": 0.55,
+      "reasoning": "Concerns over slowing cloud growth reported by competitors are creating headwinds, potentially impacting monthly performance."
+    }
+  ]
+}
