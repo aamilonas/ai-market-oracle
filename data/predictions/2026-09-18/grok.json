@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-18",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-18T14:37:27.890252+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech and crypto with BTC up 5.1% driving NVDA mentions, while VIX at 15.52 signals low fear. Pre-market futures mixed with SPY flat and QQQ slightly positive ahead of any Fed-related news. Low volume expected on 10Y yield at 5.00%.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260918_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.5,
+      "current_price_at_prediction": 759.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 759.07 with 5-day -0.7% but BTC momentum and VIX drop to 15.52 suggest rebound. X chatter positive on indices spillover from crypto gains."
+    },
+    {
+      "id": "pred_grok_20260918_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 720.0,
+      "current_price_at_prediction": 716.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ at 716.46 with +0.2% 5-day and NVDA mentions rising on X. Low VIX supports tech continuation into close."
+    },
+    {
+      "id": "pred_grok_20260918_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 219.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA at 219.18 benefits from BTC-USD 5.1% surge and positive X flow. Expect end-of-day lift on sentiment."
+    },
+    {
+      "id": "pred_grok_20260918_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 358.0,
+      "current_price_at_prediction": 363.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA at 363.93 shows overextension vs DIA -2.1% 5-day. X volume light on EV names today."
+    }
+  ]
+}

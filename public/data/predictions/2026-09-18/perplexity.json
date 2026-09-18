@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-18",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-18T11:20:00Z",
+  "market_context": "US index futures are modestly positive this morning, with S&P 500 futures up about 0.2%, Nasdaq futures up roughly 0.48%, and Dow futures up around 0.08%, pointing to a cautiously risk-on open despite elevated 10Y yields near 5%.[1] The key scheduled data today is US Industrial Production and Capacity Utilization at 9:15 AM ET, which could nudge rates and equity sentiment but is generally a medium-impact release rather than a major shock.[4][12] With VIX near 15.5 and recent mixed equity performance, the backdrop is one of moderate volatility and data‑sensitive trading rather than extreme risk-off conditions.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260918_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 766.0,
+      "current_price_at_prediction": 759.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "S&P 500 futures are indicating a mildly positive open (around +0.2%), suggesting follow-through buying after recent but not extreme volatility.[1] With VIX still subdued near 15.5 and no high-impact macro events beyond industrial production, the risk of a sharp downside shock today appears limited.[3][4][12] Given this moderately risk-on setup and recent tech-led strength, a modest gain of about 1% or less into the close for SPY is plausible but not certain."
+    },
+    {
+      "id": "pred_perplexity_20260918_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "current_price_at_prediction": 716.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq futures are outperforming other major indices in pre-market, up roughly 0.48%, signaling continued relative strength in tech.[1] Recent market commentary points to tech leading rallies when yields stabilize or pull back slightly, which fits the current environment of elevated but not spiking rates.[8][9] Given this backdrop, a modest upside move of about 1% in QQQ by the close is more likely than a decline, though intraday volatility around the industrial production release is expected."
+    },
+    {
+      "id": "pred_perplexity_20260918_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 338.0,
+      "current_price_at_prediction": 332.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "In a session where Nasdaq futures lead and overall tech sentiment is broadly constructive, megacap tech names like Apple tend to participate in index-driven flows.[1][8] With no Apple-specific negative headlines in the pre-market news scan and macro risk skewed toward moderate rather than extreme, a small gain of roughly 1–2% is a reasonable base case.[6][7] The confidence is kept moderate due to sensitivity of large-cap tech to intraday rate moves, given the 10Y yield near 5%."
+    },
+    {
+      "id": "pred_perplexity_20260918_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 219.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tech-heavy Nasdaq futures strength and ongoing enthusiasm around AI and semiconductor names support a modestly bullish bias for Nvidia in today’s trade.[1][8] There were no major negative company-specific catalysts in the overnight headlines, suggesting NVDA will mainly trade with broader chip and momentum sentiment.[6][7] Given higher beta and sensitivity to macro and positioning, a ~2–3% upside move is plausible but comes with noticeable volatility risk, so confidence is slightly below 0.6."
+    },
+    {
+      "id": "pred_perplexity_20260918_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 363.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "While index futures are positive, elevated rates around the 5% 10Y and recent market notes about pressure on growth and high-beta names increase the risk of intraday reversals in more volatile stocks like Tesla.[9][10] With no clear, strong bullish company-specific catalysts in the overnight news and TSLA’s tendency toward large swings and profit-taking on broader tech up days, a modest pullback of about 2–3% into the close is slightly more likely than a gain.[6][7] Confidence is kept relatively low given Tesla’s idiosyncratic trading behavior and sensitivity to both macro and news flow."
+    }
+  ]
+}

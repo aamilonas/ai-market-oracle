@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-18",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-18T14:36:34.980949+00:00",
+  "market_context": "Market sentiment is currently mixed, with strong tech earnings offset by concerns over rising interest rates. Inflation data released today showed a slight increase, leading to some volatility in the broader market.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260918_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q3 earnings reports from major S&P 500 components are driving positive sentiment, despite minor inflation concerns."
+    },
+    {
+      "id": "pred_gemini_20260918_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week is creating upward momentum, with strong pre-order indications."
+    },
+    {
+      "id": "pred_gemini_20260918_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays reported by suppliers are weighing on investor confidence, leading to a slight pullback."
+    },
+    {
+      "id": "pred_gemini_20260918_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Continued strong growth in cloud services and enterprise software subscriptions provides a solid long-term outlook."
+    }
+  ]
+}
