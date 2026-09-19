@@ -1,0 +1,47 @@
+{
+  "week": "2026-W37",
+  "period": "Sep 7 – Sep 11, 2026",
+  "generated_at": "2026-09-19T17:37:21.666082+00:00",
+  "headline": "Grok led 2026-W37 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Grok",
+      "weekly_score": 0.98,
+      "predictions": 15,
+      "accuracy": 0.4667,
+      "rank_change": 0
+    },
+    {
+      "model": "Perplexity",
+      "weekly_score": 0.41,
+      "predictions": 20,
+      "accuracy": 0.5,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": -1.27,
+      "predictions": 10,
+      "accuracy": 0.4,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "Grok",
+    "ticker": "QQQ",
+    "score": 1.12,
+    "summary": "Top single-call score of the week belonged to Grok."
+  },
+  "worst_call": {
+    "model": "Perplexity",
+    "ticker": "TSLA",
+    "score": -0.72,
+    "summary": "Lowest single-call score of the week belonged to Perplexity."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 2,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
