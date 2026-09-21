@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-21",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-21T16:33:44.163958+00:00",
+  "market_context": "X sentiment shows strong bullishness on tech and crypto with QQQ's 4.2% 5-day gain and BTC up 12.8% driving positive posts. Pre-market futures indicate a flat-to-up open amid low VIX at 15.00 and no major negative events flagged for today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260921_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 772.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 772.49 with positive 5-day momentum and low VIX supporting continuation; X chatter highlights risk-on flows into indices."
+    },
+    {
+      "id": "pred_grok_20260921_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 745.0,
+      "current_price_at_prediction": 739.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ's recent 4.2% surge and NVDA/MSFT strength point to further gains; options flow shows call buying on tech."
+    },
+    {
+      "id": "pred_grok_20260921_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 226.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from AI momentum and crypto correlation; X volume on NVDA mentions up sharply today."
+    },
+    {
+      "id": "pred_grok_20260921_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 370.0,
+      "current_price_at_prediction": 375.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA lags broader market with no fresh catalysts; short interest signals and mixed X sentiment suggest pullback."
+    }
+  ]
+}

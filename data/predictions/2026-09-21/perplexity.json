@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-21",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-21T14:40:00Z",
+  "market_context": "US equity futures are higher across the board, with S&P 500, Dow, and Nasdaq-100 futures up roughly 0.6–1.1%, led by tech and AI-linked names as oil and Treasury yields ease slightly from recent highs.[1][2][5][6][13] Volatility remains relatively low and the VIX is subdued, suggesting a constructive, risk-on tone into the open despite lingering macro and geopolitical uncertainties.[1][6][13] The session bias from several outlooks is described as bullish, particularly for Nasdaq and growth/semiconductor sectors.[3][13][15]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260921_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 739.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq-100 futures are leading index gains, up about 1.0–1.1%, with premarket commentary pointing to strength in semiconductors and AI-linked tech stocks.[1][2][3][6][13] With QQQ already up roughly 4.2% over the past 5 days and futures indicating another risk-on, tech-led session, a modest additional advance of about 1–1.5% to around 748 by the close is plausible, though elevated valuations and macro risks argue for moderate rather than high confidence.[1][5][12][13]"
+    },
+    {
+      "id": "pred_perplexity_20260921_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.0,
+      "current_price_at_prediction": 772.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "S&P 500 futures are up around 0.6–0.7%, signaling a broadly positive open driven by easing oil prices and a slight pullback in Treasury yields from the 5% area.[1][2][5][6] Given SPY’s recent 5‑day gain of about 1.8% and the current bullish session bias, a continuation move of roughly 1% toward 780 by the close is likely, though the still-elevated 10Y yield near 4.95% and recent mixed weekly performance warrant only moderate confidence.[1][6][10][13]"
+    },
+    {
+      "id": "pred_perplexity_20260921_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.5,
+      "current_price_at_prediction": 226.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Commentary indicates that semiconductor and AI-related names are contributing to Nasdaq-100 futures strength in premarket trading.[3][13][15] With a strong recent bid in growth and high-beta tech and a broader risk-on tone, NVDA is likely to participate, and a move of about 2% to roughly 230.50 by the close fits the pattern of sector leadership, albeit with some volatility risk tied to rates and macro headlines.[2][3][13]"
+    },
+    {
+      "id": "pred_perplexity_20260921_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 344.0,
+      "current_price_at_prediction": 338.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tech and mega-cap growth are highlighted as leading the advance in futures, with Nasdaq-100 outperforming S&P and Dow into the open.[1][2][5][6][13] As a core index heavyweight, AAPL typically benefits from broad tech strength and lower volatility; a roughly 1.5–2% intraday gain to around 344 is reasonable, though positioning after recent rallies and sensitivity to rates keep confidence in the low‑to‑mid range.[3][5][12]"
+    },
+    {
+      "id": "pred_perplexity_20260921_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 384.0,
+      "current_price_at_prediction": 375.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Risk-on sentiment in equities, led by growth and high-beta segments, tends to support volatile names like TSLA, especially when Nasdaq-100 futures are outperforming and VIX stays low.[1][2][3][6][13] With broader tech and AI narratives in focus and crypto also strong over the past 5 days, a 2–2.5% move higher toward roughly 384 by the close is plausible, but TSLA’s idiosyncratic news and high volatility reduce confidence somewhat relative to more diversified index ETFs.[1][3][11][13]"
+    }
+  ]
+}
