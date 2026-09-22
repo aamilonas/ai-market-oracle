@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-22",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-22T14:00:00Z",
+  "market_context": "U.S. equity futures were modestly higher, with S&P 500 futures up about 0.1%, Nasdaq-100 futures up roughly 0.16%, and Dow futures up about 0.2%, indicating consolidation after the prior session’s technology-led rally. Treasury yields and oil prices edged lower, while the calendar includes ADP employment data and several Federal Reserve speakers, creating event risk; VIX remains subdued at 14.44, and the 10-year yield is elevated at 4.96%.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260922_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.2,
+      "current_price_at_prediction": 773.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "S&P 500 futures were modestly positive and the previous five-day gain was 2.4%, supporting a continuation bias. However, the move follows a strong rally and upcoming employment data and Fed commentary could limit upside, so the expected gain is small."
+    },
+    {
+      "id": "pred_perplexity_20260922_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 747.1,
+      "current_price_at_prediction": 744.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq-100 futures were approximately 0.16% higher after the Nasdaq reached a record close, while QQQ had gained 5.8% over five sessions. The positive momentum favors a marginal advance, but elevated yields near 5% and post-rally profit-taking create substantial downside risk."
+    },
+    {
+      "id": "pred_perplexity_20260922_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 518.35,
+      "current_price_at_prediction": 517.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Dow futures were among the stronger major-index contracts, up about 0.2% in premarket indications. DIA had declined 0.5% over five sessions, leaving room for a modest catch-up move, although macroeconomic releases may produce intraday volatility."
+    },
+    {
+      "id": "pred_perplexity_20260922_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.6,
+      "current_price_at_prediction": 228.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The prior session’s rally was described as chip-led, and the Nasdaq’s record close provides a favorable short-term backdrop for Nvidia. Because the stock has participated in a sharp technology advance and futures gains were limited, the forecast is for only a modest increase rather than another large breakout."
+    }
+  ]
+}

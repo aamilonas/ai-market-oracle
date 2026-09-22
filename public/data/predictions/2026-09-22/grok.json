@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-22",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-22T15:08:21.139147+00:00",
+  "market_context": "X/Twitter sentiment is bullish on AI and tech with high volume on NVDA and QQQ mentions amid crypto rally spillover. Pre-market futures point to a positive open following VIX drop. No major negative events flagged but 10Y yield at 4.96% warrants monitoring.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260922_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 773.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY up 2.4% over 5 days with VIX falling 16% signals continued momentum. X shows retail buying interest in broad indices. Expect modest gain to close above 780 by EOD."
+    },
+    {
+      "id": "pred_grok_20260922_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.0,
+      "current_price_at_prediction": 744.87,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ led with 5.8% 5-day gain and strong X sentiment on tech. Pre-market futures supportive. Target reflects continued outperformance vs DIA."
+    },
+    {
+      "id": "pred_grok_20260922_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 235.0,
+      "current_price_at_prediction": 228.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA benefits from AI hype on X and crypto correlation. Options flow likely positive. Modest upside expected in line with QQQ strength."
+    },
+    {
+      "id": "pred_grok_20260922_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 365.0,
+      "current_price_at_prediction": 376.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "TSLA lags broader market despite crypto gains. X sentiment mixed with profit-taking signals. Expect pullback toward 365 by close."
+    }
+  ]
+}
