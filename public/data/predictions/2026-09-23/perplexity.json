@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-23",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-23T14:00:00Z",
+  "market_context": "U.S. equity futures were broadly near flat before the open, with S&P 500 futures slightly positive and Nasdaq futures slightly negative, indicating consolidation after the supplied five-day technology-led rally. Key scheduled catalysts include September flash U.S. manufacturing and services PMI at 9:45 a.m. ET, EIA petroleum data at 10:30 a.m. ET, and Treasury note auctions at 1:00 p.m. ET; geopolitical uncertainty involving the U.S. and Iran remains a risk.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260923_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.1,
+      "current_price_at_prediction": 769.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "S&P 500 futures were reported marginally higher before the open, while SPY has gained 2.4% over five sessions and volatility remains subdued with VIX at 14.49. The near-flat futures setup favors a modest continuation rather than a large move, although the 10-year yield at 5.05% and geopolitical uncertainty limit confidence."
+    },
+    {
+      "id": "pred_perplexity_20260923_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 739.8,
+      "current_price_at_prediction": 742.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq-100 futures were slightly below flat before the open after QQQ's 5.4% five-day advance, making profit-taking more likely than another broad extension. Elevated Treasury yields near 5.05% are also a relative headwind for long-duration technology shares, though strong AI momentum could limit the decline."
+    },
+    {
+      "id": "pred_perplexity_20260923_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.9,
+      "current_price_at_prediction": 226.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The recent market advance has been led by technology and AI-related shares, and available market coverage describes continued investor appetite for AI stocks. NVDA therefore has a modest upside bias, but the stock's already strong momentum and slightly soft Nasdaq futures make a small move more probable than a high-confidence breakout."
+    },
+    {
+      "id": "pred_perplexity_20260923_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 377.8,
+      "current_price_at_prediction": 381.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Tesla is exposed to high-beta growth-stock profit-taking after the recent risk-on move, while mixed futures and the 5.05% 10-year yield create a less favorable backdrop for richly valued equities. The forecast is a small pullback, with geopolitical headlines and broad technology strength creating substantial two-sided risk."
+    },
+    {
+      "id": "pred_perplexity_20260923_005",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 741.5,
+      "current_price_at_prediction": 747.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "META has participated in the technology-led rally, but near-flat futures after a strong five-day QQQ gain increase the probability of intraday consolidation or profit-taking. The scheduled PMI releases and Treasury auctions could move rates and large-cap technology valuations, so the expected decline is deliberately limited."
+    }
+  ]
+}
