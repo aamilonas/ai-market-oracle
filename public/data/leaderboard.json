@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T00:44:58.631113+00:00",
+  "last_updated": "2026-09-24T00:37:07.042738+00:00",
   "models": [
     {
       "model_id": "claude-sonnet-4-20250514",
@@ -266,11 +266,11 @@
     {
       "model_id": "grok-3",
       "model_display_name": "Grok",
-      "total_predictions": 525,
-      "correct_directions": 269,
-      "direction_accuracy": 0.5124,
-      "total_score": 77.39,
-      "avg_confidence": 0.5946,
+      "total_predictions": 529,
+      "correct_directions": 270,
+      "direction_accuracy": 0.5104,
+      "total_score": 76.16,
+      "avg_confidence": 0.5944,
       "current_streak": 1,
       "best_streak": 7,
       "worst_streak": -8,
@@ -457,8 +457,8 @@
         },
         {
           "week": "2026-W39",
-          "score": -2.6,
-          "predictions": 8,
+          "score": -3.83,
+          "predictions": 12,
           "accuracy": 0.25
         }
       ]
@@ -466,12 +466,12 @@
     {
       "model_id": "sonar-pro",
       "model_display_name": "Perplexity",
-      "total_predictions": 625,
-      "correct_directions": 323,
-      "direction_accuracy": 0.5168,
-      "total_score": 103.4,
-      "avg_confidence": 0.606,
-      "current_streak": -9,
+      "total_predictions": 630,
+      "correct_directions": 326,
+      "direction_accuracy": 0.5175,
+      "total_score": 103.9,
+      "avg_confidence": 0.6054,
+      "current_streak": 2,
       "best_streak": 14,
       "worst_streak": -16,
       "weekly_scores": [
@@ -657,23 +657,23 @@
         },
         {
           "week": "2026-W39",
-          "score": -5.39,
-          "predictions": 9,
-          "accuracy": 0.0
+          "score": -4.89,
+          "predictions": 14,
+          "accuracy": 0.2143
         }
       ]
     },
     {
       "model_id": "gemini-2.5-flash",
       "model_display_name": "Gemini",
-      "total_predictions": 233,
+      "total_predictions": 234,
       "correct_directions": 145,
-      "direction_accuracy": 0.6223,
-      "total_score": 39.94,
+      "direction_accuracy": 0.6197,
+      "total_score": 39.29,
       "avg_confidence": 0.6494,
-      "current_streak": -5,
+      "current_streak": -6,
       "best_streak": 8,
-      "worst_streak": -5,
+      "worst_streak": -6,
       "weekly_scores": [
         {
           "week": "2026-W16",
@@ -815,8 +815,8 @@
         },
         {
           "week": "2026-W39",
-          "score": -3.42,
-          "predictions": 5,
+          "score": -4.07,
+          "predictions": 6,
           "accuracy": 0.0
         }
       ]
