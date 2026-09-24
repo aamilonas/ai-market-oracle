@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-24",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-24T14:50:00Z",
+  "market_context": "US equity futures are lower after Wednesday's selloff, with S&P 500 futures down about 0.61%, Nasdaq futures down 1.09%, and Dow futures down 0.34%. Higher Treasury yields, energy-related inflation concerns, Middle East tensions, and caution ahead of the Trump-Xi summit are weighing on risk appetite; today's calendar includes jobless claims, new home sales, Federal Reserve remarks, and a 7-year Treasury auction.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260924_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 760.0,
+      "current_price_at_prediction": 764.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures were indicated lower by approximately 0.61% after the index lost about 0.9% on Wednesday. The 10-year Treasury yield is elevated at 5.15%, while energy and geopolitical risks are sustaining inflation and risk-premium pressure."
+    },
+    {
+      "id": "pred_perplexity_20260924_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.0,
+      "current_price_at_prediction": 736.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq futures were down approximately 1.09%, a larger premarket decline than S&P and Dow futures. Growth-oriented technology stocks remain particularly sensitive to the 5.15% 10-year yield, and the Nasdaq reportedly fell about 1.1% in the prior session."
+    },
+    {
+      "id": "pred_perplexity_20260924_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 508.0,
+      "current_price_at_prediction": 511.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Dow futures were lower by roughly 0.34% following a 0.7% Wednesday decline. Weak risk sentiment, elevated yields, and uncertainty around Middle East developments and the Trump-Xi summit favor continued pressure, though the Dow's relative-value composition may limit the decline."
+    },
+    {
+      "id": "pred_perplexity_20260924_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 218.0,
+      "current_price_at_prediction": 221.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "NVDA is exposed to the broader Nasdaq risk-off move, with Nasdaq futures showing the steepest major-index decline at about 1.09%. Higher real-rate pressure and weaker semiconductor sentiment make a decline toward the broader technology-market move more probable than an isolated rebound."
+    },
+    {
+      "id": "pred_perplexity_20260924_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 370.0,
+      "current_price_at_prediction": 377.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tesla is a high-beta growth stock and is vulnerable to the combination of weaker Nasdaq futures, elevated yields, and renewed energy and geopolitical uncertainty. The prediction allows for a larger-than-index decline, but confidence is limited because no company-specific overnight catalyst was identified."
+    }
+  ]
+}

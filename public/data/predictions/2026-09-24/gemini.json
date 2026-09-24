@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-24",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-24T15:25:23.984496+00:00",
+  "market_context": "The market is currently experiencing volatility due to upcoming interest rate decisions and mixed corporate earnings reports. Technology stocks show resilience, while energy sectors face headwinds from fluctuating oil prices. Investors are closely watching inflation data for future guidance.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260924_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from tech sector strength and better-than-expected jobless claims data."
+    },
+    {
+      "id": "pred_gemini_20260924_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Continued strong performance in large-cap technology stocks, driven by AI optimism and robust earnings from key components."
+    },
+    {
+      "id": "pred_gemini_20260924_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 385.0,
+      "current_price_at_prediction": 387.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over industrial output slowdown and potential negative impact of rising commodity prices on manufacturing margins."
+    },
+    {
+      "id": "pred_gemini_20260924_004",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 92.0,
+      "current_price_at_prediction": 93.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.55,
+      "reasoning": "Recent increase in global oil inventories and a stronger dollar are putting downward pressure on crude prices, affecting energy stocks."
+    }
+  ]
+}

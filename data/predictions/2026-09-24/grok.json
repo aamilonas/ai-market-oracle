@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-24",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-24T15:25:51.016203+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech with QQQ gains highlighted but VIX spike drawing warnings. Pre-market futures mixed amid 5.15% yields. No major events flagged beyond routine options flow.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260924_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "current_price_at_prediction": 764.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ 5-day +2.8% momentum likely lifts SPY despite DIA weakness; X chatter focuses on tech resilience."
+    },
+    {
+      "id": "pred_grok_20260924_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "current_price_at_prediction": 736.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "VIX +4% signals pullback risk after recent run; X posts note overbought conditions in mega-caps."
+    },
+    {
+      "id": "pred_grok_20260924_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.0,
+      "current_price_at_prediction": 221.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AI narrative strong on X with no negative catalysts; follows QQQ strength pattern."
+    },
+    {
+      "id": "pred_grok_20260924_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 505.0,
+      "current_price_at_prediction": 511.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "5-day -1.2% trend and yield pressure point to continued underperformance per market indicators."
+    }
+  ]
+}
