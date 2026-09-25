@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-25",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-25T15:27:25.925531+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight pullback while energy sectors are gaining momentum. Inflation concerns continue to weigh on investor sentiment, but strong corporate earnings reports from key players are providing some optimism.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260925_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is expected to rise due to strong Q3 earnings reports from major S&P 500 components and positive economic indicators released this morning."
+    },
+    {
+      "id": "pred_gemini_20260925_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 450.0,
+      "current_price_at_prediction": 455.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "QQQ is anticipated to decline as profit-taking in the technology sector continues, exacerbated by rising interest rate hike expectations."
+    },
+    {
+      "id": "pred_gemini_20260925_003",
+      "ticker": "XLE",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 95.0,
+      "current_price_at_prediction": 92.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.75,
+      "reasoning": "XLE is projected to increase over the week due to sustained high oil prices and geopolitical tensions impacting global supply."
+    },
+    {
+      "id": "pred_gemini_20260925_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 280.0,
+      "current_price_at_prediction": 283.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA is predicted to fall slightly today following a downgrade from a major analyst firm and concerns over production targets."
+    }
+  ]
+}

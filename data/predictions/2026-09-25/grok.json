@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-25",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-25T15:27:51.543704+00:00",
+  "market_context": "X sentiment is cautiously bullish on tech with NVDA and AI stocks seeing positive volume spikes amid VIX rise to 15.43; pre-market futures mixed with SPY flat and no major macro events but 10Y yield at 5.22% adding pressure. Crypto strength noted with BTC up 3.3% over 5 days.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260925_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 772.5,
+      "current_price_at_prediction": 768.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 768.96 with 5-day gain of 0.9%; X chatter shows retail buying on dips despite VIX uptick. Flat pre-market futures likely to turn positive on tech momentum."
+    },
+    {
+      "id": "pred_grok_20260925_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 742.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ up 3.1% over 5 days with strong AI sentiment on X; options flow favoring calls on mega-caps. No negative catalysts expected today."
+    },
+    {
+      "id": "pred_grok_20260925_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 228.5,
+      "current_price_at_prediction": 224.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "NVDA at 224.27 with bullish X volume and crypto correlation via AI demand; 5-day tech rally supports continuation."
+    },
+    {
+      "id": "pred_grok_20260925_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 365.0,
+      "current_price_at_prediction": 370.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA at 370.64 showing overbought signals on 5-day chart; X sentiment mixed with profit-taking noted amid high yields."
+    }
+  ]
+}

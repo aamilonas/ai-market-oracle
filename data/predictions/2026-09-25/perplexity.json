@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-25",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-25T14:35:00Z",
+  "market_context": "U.S. index futures indicate a higher open, with S&P 500 futures up about 0.3% and Nasdaq 100 futures up roughly 0.5%, while the 10-year Treasury yield remains elevated near 5.18%-5.23%, limiting upside potential. August durable-goods data and the final University of Michigan sentiment and inflation-expectations readings are scheduled for release, creating event risk during the session. Technology and growth stocks have relative momentum, while higher yields and mixed energy trading argue for a measured forecast.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260925_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.3,
+      "current_price_at_prediction": 768.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "S&P 500 futures were approximately 0.3% higher before the open, implying positive initial momentum. However, the 10-year yield near 5.18%-5.23% and scheduled macroeconomic releases make a smaller gain more likely than an extended rally."
+    },
+    {
+      "id": "pred_perplexity_20260925_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 747.2,
+      "current_price_at_prediction": 742.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq 100 futures were up about 0.5%, outperforming S&P 500 and Dow futures, while QQQ had already gained 3.1% over the prior five sessions. The elevated 10-year yield is a counterweight, so the forecast assumes a modest continuation rather than a large breakout."
+    },
+    {
+      "id": "pred_perplexity_20260925_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 226.8,
+      "current_price_at_prediction": 224.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "The premarket setup favored Nasdaq-linked growth exposure, with Nasdaq futures leading the major contracts higher. NVDA is therefore positioned for a modest sympathy move, but its forecast confidence is limited because the high-rate environment can pressure long-duration technology valuations."
+    },
+    {
+      "id": "pred_perplexity_20260925_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 366.9,
+      "current_price_at_prediction": 370.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA is more sensitive to valuation compression when the 10-year yield is above 5%, and the benchmark yield remains near multi-year highs. A weaker or volatile reaction to the scheduled durable-goods and consumer-sentiment data could therefore produce modest underperformance despite firmer index futures."
+    }
+  ]
+}
