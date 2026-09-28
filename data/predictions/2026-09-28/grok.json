@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-28",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-28T18:15:04.280782+00:00",
+  "market_context": "X sentiment shows cautious optimism mixed with yield concerns, with traders noting VIX spike and 10Y at 5.23%. Pre-market futures point to flat open, no major catalysts expected today beyond options expiration flows.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260928_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "current_price_at_prediction": 767.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 767.33 with 5-day dip of 0.8%; X chatter on low VIX relative to yields suggests dip-buying into close. No negative news flow supports modest rebound."
+    },
+    {
+      "id": "pred_grok_20260928_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 735.0,
+      "current_price_at_prediction": 738.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "QQQ at 738.30 after -0.4% week; tech names like NVDA showing weakness in pre-market scans. High 10Y yield pressuring growth stocks per recent X threads."
+    },
+    {
+      "id": "pred_grok_20260928_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.0,
+      "current_price_at_prediction": 230.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA at 230.07 with options flow favoring calls; X sentiment positive on AI demand despite broader market caution. Expect intraday recovery."
+    },
+    {
+      "id": "pred_grok_20260928_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.0,
+      "current_price_at_prediction": 359.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "TSLA at 359.97 after flat crypto correlation; short interest signals and X mentions of delivery concerns point to mild pressure into close."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-28",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-28T14:40:00Z",
+  "market_context": "US equity futures are lower after last week's gains, with Nasdaq-100 futures down about 1.1%, S&P 500 futures down 0.6%, and Dow futures down 0.5%. Oil prices and Treasury yields are rising, with the 10-year yield at 5.23%, while today's calendar includes the Dallas Fed Manufacturing Index and Treasury bill auctions; this combination favors pressure on growth stocks and a weaker broad-market session.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260928_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 762.0,
+      "current_price_at_prediction": 767.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures were reported down approximately 0.6% before the open, while the 10-year Treasury yield rose to 5.23% and oil prices increased. These conditions imply downside pressure relative to the prior close of $767.33, with a partial intraday recovery possible."
+    },
+    {
+      "id": "pred_perplexity_20260928_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 729.0,
+      "current_price_at_prediction": 738.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.76,
+      "reasoning": "Nasdaq-100 futures were down about 1.1%, materially weaker than S&P 500 and Dow futures. The elevated 5.23% 10-year yield is particularly unfavorable for long-duration technology valuations, making QQQ the most likely major index ETF to underperform today."
+    },
+    {
+      "id": "pred_perplexity_20260928_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 224.0,
+      "current_price_at_prediction": 230.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA is highly sensitive to Nasdaq and growth-stock risk, and Nasdaq-100 futures were down roughly 1.1% in premarket trading. Rising Treasury yields add valuation pressure, supporting a decline toward approximately $224."
+    },
+    {
+      "id": "pred_perplexity_20260928_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 352.0,
+      "current_price_at_prediction": 359.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Tesla is a high-beta growth stock and is likely to be affected by the broad Nasdaq-led risk-off setup. With Nasdaq futures down about 1.1% and yields rising, a move below the prior close of $359.97 is more probable than a gain."
+    },
+    {
+      "id": "pred_perplexity_20260928_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 512.5,
+      "current_price_at_prediction": 515.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Dow futures were down approximately 0.5% after a strong prior week, indicating broad but less severe downside than in technology futures. DIA should be relatively more resilient than QQQ, but the negative futures signal and higher yields favor a modest decline from $515.23."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-28",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-28T18:14:38.134599+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors demonstrate resilience. Inflation concerns persist, but recent jobless claims suggest a stable labor market, preventing a broader sell-off.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260928_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic indicators released pre-market."
+    },
+    {
+      "id": "pred_gemini_20260928_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.5,
+      "current_price_at_prediction": 223.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key international markets are weighing on the stock. Technical indicators show a bearish divergence."
+    },
+    {
+      "id": "pred_gemini_20260928_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 1250.0,
+      "current_price_at_prediction": 1235.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Continued strong demand for AI chips and positive sentiment from a recent industry conference are driving momentum. Volume analysis suggests accumulation."
+    },
+    {
+      "id": "pred_gemini_20260928_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 130.0,
+      "current_price_at_prediction": 128.75,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising crude oil prices due to geopolitical tensions and robust demand forecasts are boosting energy sector outlook. Dividend yield remains attractive."
+    }
+  ]
+}
