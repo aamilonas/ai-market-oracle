@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-29",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-09-29T16:36:18.324477+00:00",
+  "market_context": "The market is currently experiencing mixed signals, with strong performance in the tech sector driven by AI optimism, while broader economic concerns persist. Investor sentiment remains cautiously optimistic, influenced by recent earnings reports and central bank communications.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20260929_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive market sentiment driven by strong tech earnings reports and a dovish Fed outlook."
+    },
+    {
+      "id": "pred_gemini_20260929_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Continued strength in the technology sector, particularly in AI-related stocks, is expected to push the Nasdaq higher."
+    },
+    {
+      "id": "pred_gemini_20260929_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 210.0,
+      "current_price_at_prediction": 212.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.58,
+      "reasoning": "Concerns over slowing iPhone demand in key international markets and increased regulatory scrutiny could weigh on shares."
+    },
+    {
+      "id": "pred_gemini_20260929_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 480.0,
+      "current_price_at_prediction": 477.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.72,
+      "reasoning": "Strong cloud growth projections and continued enterprise AI adoption are expected to drive Microsoft's stock performance."
+    }
+  ]
+}

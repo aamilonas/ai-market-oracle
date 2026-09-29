@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-29",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-29T16:30:00Z",
+  "market_context": "U.S. futures were modestly positive after Monday’s sharp decline, with S&P 500 futures up about 0.2% and Nasdaq 100 futures up about 0.3% as oil prices and Treasury yields eased.[1] However, the 10-year yield remained near 5.22%-5.28%, close to multi-year highs, while geopolitical uncertainty and expectations for another Federal Reserve rate hike continue to limit risk appetite.[2][8] The main scheduled U.S. data point identified was the Redbook retail-sales reading, reported at 7.6% year over year.[10][11]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260929_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 766.35,
+      "current_price_at_prediction": 763.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "S&P 500 futures were approximately 0.2% higher before the open after Monday’s 0.8% cash-market decline, while easing oil prices and a small pullback in Treasury yields provided a modest relief signal.[1][5] The elevated 10-year yield near 5.2% makes a large rebound unlikely, so the forecast targets a limited recovery of roughly 0.4%."
+    },
+    {
+      "id": "pred_perplexity_20260929_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.15,
+      "current_price_at_prediction": 736.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq 100 futures gained about 0.3% as yields retreated from their intraday peak, offering some support to rate-sensitive technology shares.[1][5] Persistent high real borrowing costs and AI-related investor jitters argue for a smaller move than a full reversal of Monday’s decline."
+    },
+    {
+      "id": "pred_perplexity_20260929_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 227.85,
+      "current_price_at_prediction": 230.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "Although Nasdaq futures were modestly higher, technology sentiment remained vulnerable to elevated Treasury yields and reported AI-related jitters.[1][9] Nvidia’s high duration and valuation sensitivity make it more exposed than the broad market if yields resume their rise during the session."
+    },
+    {
+      "id": "pred_perplexity_20260929_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 348.9,
+      "current_price_at_prediction": 353.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "The broader market was attempting only a limited stabilization after Monday’s selloff, while elevated yields and geopolitical uncertainty remained headwinds for high-beta growth stocks.[2][3] Tesla’s volatility makes a modest underperformance plausible even if index futures remain slightly positive."
+    }
+  ]
+}

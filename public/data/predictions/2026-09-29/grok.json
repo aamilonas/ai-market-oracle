@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-29",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-29T16:36:56.232744+00:00",
+  "market_context": "X sentiment shows cautious bearishness with VIX spike and 10Y yield at 5.28% dominating discussions, though some traders eye tech rebounds. Pre-market futures point to flat-to-down open amid no major catalysts. Options flow indicates hedging in indices.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260929_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 760.5,
+      "current_price_at_prediction": 763.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "VIX up 14% over 5 days signals volatility; 10Y yield at 5.28% pressures equities. X chatter highlights yield concerns over growth stocks. Expect SPY to close lower on risk-off flows."
+    },
+    {
+      "id": "pred_grok_20260929_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 235.0,
+      "current_price_at_prediction": 230.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "AI chip demand remains strong per recent X sentiment on semiconductor supply chains. Short interest data shows covering activity. NVDA likely outperforms broader market dip."
+    },
+    {
+      "id": "pred_grok_20260929_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 345.0,
+      "current_price_at_prediction": 353.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "EV sector faces margin pressure in X discussions amid high yields. 5-day decline of 1.3% in indices extends to TSLA. Options flow shows put buying."
+    },
+    {
+      "id": "pred_grok_20260929_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.0,
+      "current_price_at_prediction": 736.91,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tech-heavy QQQ mirrors SPY weakness from VIX rise. Pre-market futures and X yield worries point to downside. No major positive catalysts expected today."
+    }
+  ]
+}
