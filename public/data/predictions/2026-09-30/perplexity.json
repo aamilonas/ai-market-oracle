@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-30",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-09-30T16:10:00Z",
+  "market_context": "U.S. futures were near flat to modestly higher before the open, with S&P 500 futures up about 0.1% and Nasdaq 100 futures roughly unchanged. Elevated Treasury yields near 5.25%-5.30% and high oil prices remain headwinds, while ADP employment, GDP, core PCE inflation, and EIA oil-inventory data are scheduled catalysts; early market reporting later showed stocks trading higher, with Nasdaq outperforming.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20260930_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.0,
+      "current_price_at_prediction": 768.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "S&P 500 futures were modestly positive before the open, and later reporting indicated the S&P 500 was up about 0.5% during the session. That momentum should support a small gain by the close, although the 5.28% 10-year yield and inflation data create downside risk."
+    },
+    {
+      "id": "pred_perplexity_20260930_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 748.0,
+      "current_price_at_prediction": 743.86,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Nasdaq 100 futures were approximately flat to slightly higher premarket, while later reporting showed the Nasdaq composite outperforming with a gain near 0.9%. Technology may continue to lead if yields stabilize, though the high-rate environment limits confidence."
+    },
+    {
+      "id": "pred_perplexity_20260930_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.0,
+      "current_price_at_prediction": 230.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Semiconductors were a focal point ahead of Micron earnings, and premarket coverage described futures as stable while investors focused on chip-sector results. A modest risk-on bid could lift NVDA, but no company-specific catalyst identified in the available information makes this a low-confidence call."
+    },
+    {
+      "id": "pred_perplexity_20260930_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 346.0,
+      "current_price_at_prediction": 350.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.49,
+      "reasoning": "Tesla is particularly sensitive to long-term borrowing costs, and the 10-year Treasury yield remains near multi-year highs around 5.28%. With futures only modestly positive and no specific Tesla catalyst found, valuation pressure could produce a small underperformance."
+    }
+  ]
+}

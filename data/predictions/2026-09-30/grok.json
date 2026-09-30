@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-30",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-09-30T16:29:46.825479+00:00",
+  "market_context": "X sentiment is mixed with slight bearish tilt on tech due to high yields; futures point to flat open. No major catalysts today but VIX ticking up signals caution. Pre-market quiet overall.",
+  "predictions": [
+    {
+      "id": "pred_grok_20260930_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.5,
+      "current_price_at_prediction": 768.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "10Y yield at 5.28% pressuring equities per recent Treasury data. X chatter shows defensive rotation into bonds. SPY 5-day flat suggests limited upside momentum into close."
+    },
+    {
+      "id": "pred_grok_20260930_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.0,
+      "current_price_at_prediction": 230.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Options flow indicates bullish bets on NVDA per recent scans. Crypto stability at BTC 84303 supports AI narrative. Minor short covering expected today."
+    },
+    {
+      "id": "pred_grok_20260930_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 347.0,
+      "current_price_at_prediction": 350.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "X volume on TSLA shows profit-taking after recent run. No fresh EV news and high yields weigh on growth names. 5-day gain may reverse intraday."
+    },
+    {
+      "id": "pred_grok_20260930_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85000.0,
+      "current_price_at_prediction": 84303.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "ETH weakness contained while BTC holds above 84k per on-chain metrics. X crypto feeds note ETF inflows continuing. Low VIX supports risk assets mildly."
+    }
+  ]
+}
