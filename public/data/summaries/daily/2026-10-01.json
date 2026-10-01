@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T17:08:24.796175+00:00",
+  "headline": "12 AI market calls queued for 2026-10-01",
+  "summary": "12 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on QQQ up."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models aligned on SPY up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "Gemini",
+    "ticker": "XOM",
+    "score": null,
+    "summary": "Highest-confidence call came from Gemini on XOM."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "Grok",
+    "ticker": "BTC-USD",
+    "score": null,
+    "summary": "Lowest-confidence call came from Grok on BTC-USD."
+  }
+}

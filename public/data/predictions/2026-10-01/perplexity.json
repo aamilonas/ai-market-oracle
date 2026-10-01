@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-01T16:20:00Z",
+  "market_context": "U.S. futures are mixed: Nasdaq-100 futures are up roughly 0.4%-0.5% and S&P 500 futures are modestly higher, while Dow futures are lower. Treasury yields have surged, with the 10-year yield around 5.3%, creating a headwind for rate-sensitive equities; today’s calendar includes initial jobless claims, construction spending, S&P Global manufacturing PMI, and ISM manufacturing data. Premarket leadership is concentrated in selected technology and industrial names, while volatility remains elevated but moderate with VIX near 17.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261001_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 764.25,
+      "current_price_at_prediction": 762.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "S&P 500 futures were modestly positive, approximately 0.1%-0.2%, suggesting a slightly higher open. However, the 10-year yield near 5.3% and elevated volatility create meaningful downside risk, so the expected gain is limited to roughly 0.3%."
+    },
+    {
+      "id": "pred_perplexity_20261001_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 744.0,
+      "current_price_at_prediction": 739.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Nasdaq-100 futures were up approximately 0.4%-0.5%, indicating continued relative strength in large-cap technology despite rising yields. QQQ may retain a modest bid if manufacturing data does not materially increase expectations for further Fed tightening."
+    },
+    {
+      "id": "pred_perplexity_20261001_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 505.8,
+      "current_price_at_prediction": 507.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Dow futures were reported lower by roughly 0.2%-0.4%, underperforming Nasdaq futures as rising Treasury yields pressure economically sensitive and value-oriented large caps. A modest decline is more likely than a sharp selloff because VIX remains below 17."
+    },
+    {
+      "id": "pred_perplexity_20261001_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.5,
+      "current_price_at_prediction": 230.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The technology-led futures setup favors semiconductor and high-growth exposure, and Nasdaq futures were materially stronger than Dow futures. The forecast is only modestly bullish because a 5.3% 10-year yield can compress high-growth valuation multiples and increase intraday reversals."
+    }
+  ]
+}

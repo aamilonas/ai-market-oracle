@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-01T17:06:53.388696+00:00",
+  "market_context": "The market is showing mixed signals with tech stocks experiencing a slight pullback while energy sectors are gaining momentum due to rising oil prices. Inflation concerns persist, but recent jobless claims suggest a stable labor market, preventing a sharp downturn.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261001_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive economic indicators and strong corporate earnings reports for major S&P 500 components suggest continued upward momentum for the index."
+    },
+    {
+      "id": "pred_gemini_20261001_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "current_price_at_prediction": 188.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Recent supply chain disruptions and a downgrade from a prominent analyst firm indicate potential short-term pressure on Apple's stock price."
+    },
+    {
+      "id": "pred_gemini_20261001_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 125.0,
+      "current_price_at_prediction": 122.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising global oil demand and geopolitical tensions are driving crude oil prices higher, directly benefiting ExxonMobil's profitability and stock valuation."
+    },
+    {
+      "id": "pred_gemini_20261001_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 240.0,
+      "current_price_at_prediction": 245.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and a recent recall announcement are likely to put downward pressure on Tesla's stock in the immediate term."
+    }
+  ]
+}

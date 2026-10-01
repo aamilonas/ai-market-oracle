@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-01T17:08:15.756662+00:00",
+  "market_context": "X/Twitter sentiment is mixed with caution on rising 10Y yields at 5.24% and VIX up 7.9% over 5 days, though crypto stability provides some offset. Pre-market futures point to flat-to-down open amid no major catalysts. Options flow shows defensive positioning in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261001_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.5,
+      "current_price_at_prediction": 762.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Recent 5-day decline of 0.7% and elevated VIX suggest continued pressure; X chatter highlights yield concerns as key driver for today's close."
+    },
+    {
+      "id": "pred_grok_20261001_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "current_price_at_prediction": 739.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Slightly better 5-day performance and stable NVDA/MSFT levels point to modest rebound on low-volume session per web futures data."
+    },
+    {
+      "id": "pred_grok_20261001_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 225.0,
+      "current_price_at_prediction": 230.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tech rotation signals on X and options flow indicate profit-taking after recent highs amid broader market caution."
+    },
+    {
+      "id": "pred_grok_20261001_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 85500.0,
+      "current_price_at_prediction": 84457.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Crypto holding steady on 5-day chart with positive X sentiment on institutional flows offsetting equity weakness."
+    }
+  ]
+}
