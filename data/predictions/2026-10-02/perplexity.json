@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-02",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-02T16:10:00Z",
+  "market_context": "U.S. equity futures were higher before the open, with Nasdaq futures up about 0.7%-0.8%, S&P 500 futures up about 0.3%-0.5%, and Dow futures up about 0.5%.[4][15] September payrolls were reported at 29,000 versus approximately 90,000 expected, while unemployment rose to 4.2%; Treasury yields and oil prices fell, supporting rate-sensitive technology shares but raising concerns about economic growth.[6][8] Nike fell roughly 9%-10% premarket after weak results and guidance, while ON Semiconductor, Microchip Technology, Intel, and other semiconductor-related shares were among notable premarket gainers.[2][3]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261002_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 774.25,
+      "current_price_at_prediction": 769.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures were up approximately 0.3%-0.5% before the open, and weaker-than-expected payroll growth reduced near-term rate-hike pressure as Treasury yields declined.[4][7] The growth scare limits conviction, but the initial futures signal supports a modest positive close."
+    },
+    {
+      "id": "pred_perplexity_20261002_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 758.25,
+      "current_price_at_prediction": 750.59,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq futures rose approximately 0.6%-0.8% ahead of trading, outperforming S&P and Dow futures, while lower yields generally support long-duration technology valuations.[4][12][15] QQQ is therefore likely to outperform SPY, although the weak employment report could produce intraday volatility."
+    },
+    {
+      "id": "pred_perplexity_20261002_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 240.75,
+      "current_price_at_prediction": 236.56,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Semiconductor shares were prominent among premarket gainers, including ON Semiconductor, Microchip Technology, and Intel, while Nasdaq futures were strongly positive.[3][4] This provides a favorable sector read-through for NVDA, but the stock-specific prediction is less certain because no direct NVDA catalyst was identified."
+    },
+    {
+      "id": "pred_perplexity_20261002_004",
+      "ticker": "NKE",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 86.5,
+      "current_price_at_prediction": 91.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Nike shares fell nearly 9%-10% in premarket trading after reporting a revenue decline, a 26% drop in Greater China sales, and a cautious full-year outlook.[2][4] Such a large negative earnings gap commonly leaves the stock under pressure through the session, though a partial rebound remains possible."
+    }
+  ]
+}

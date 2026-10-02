@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-02",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-02T16:20:40.823892+00:00",
+  "market_context": "Today's market sentiment is cautiously optimistic, driven by strong tech earnings reports and a slight easing of inflation concerns. However, geopolitical tensions continue to introduce an element of uncertainty, leading to potential volatility in specific sectors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261002_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Positive momentum from yesterday's close is expected to carry over, supported by early trading volume indicating buying interest."
+    },
+    {
+      "id": "pred_gemini_20261002_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 445.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.7,
+      "reasoning": "Strong performance in large-cap tech stocks following positive earnings guidance and increased institutional buying, likely to continue through the week."
+    },
+    {
+      "id": "pred_gemini_20261002_003",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 95.0,
+      "current_price_at_prediction": 95.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Rising treasury yields in anticipation of hawkish central bank comments later in the week, reducing bond attractiveness for the short term."
+    },
+    {
+      "id": "pred_gemini_20261002_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 215.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Anticipation of new product announcements and strong holiday season sales forecasts, coupled with positive analyst upgrades for the coming month."
+    }
+  ]
+}
