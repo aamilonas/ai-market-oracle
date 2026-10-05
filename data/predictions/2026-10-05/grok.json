@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-05T19:22:49.961585+00:00",
+  "market_context": "X sentiment shows cautious optimism on tech with NVDA and AI mentions trending positively amid low VIX. Pre-market futures point to modest gains following recent SPY and QQQ rallies. No major economic events scheduled but options flow indicates bullish bets on mega-caps.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261005_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 776.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Positive 5-day trend of +1.4% and VIX at 15.61 suggest continued buying. X chatter highlights rotation into equities post-yield stability at 5.31%."
+    },
+    {
+      "id": "pred_grok_20261005_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "current_price_at_prediction": 756.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Stronger 5-day gain of +2.7% and bullish options flow on tech names support further upside. Sentiment on X remains favorable for growth stocks."
+    },
+    {
+      "id": "pred_grok_20261005_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 239.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "AI-related posts on X are surging and recent momentum aligns with broader market strength. Low volatility environment favors high-beta names like NVDA."
+    },
+    {
+      "id": "pred_grok_20261005_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 84500.0,
+      "current_price_at_prediction": 85720.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Crypto showing mixed signals with 5-day gain but profit-taking evident in recent X volume. Equity strength may divert flows away from BTC today."
+    }
+  ]
+}

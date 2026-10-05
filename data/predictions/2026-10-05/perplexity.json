@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-05",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-05T19:00:00Z",
+  "market_context": "U.S. index futures were broadly flat to slightly lower before the open, with reports citing European fiscal concerns, elevated Treasury yields, and profit-taking in technology shares. The weaker September payrolls report reduced expectations for an October Federal Reserve rate hike, while traders are watching Wednesday’s FOMC minutes; oil prices eased amid increased supply expectations. Confidence is limited because premarket signals were mixed and no live intraday quote feed is available.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261005_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 773.95,
+      "current_price_at_prediction": 776.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "S&P 500 futures were reported between flat and approximately 0.15% lower ahead of the open, while European market stress and a 5.31% 10-year Treasury yield create near-term valuation pressure. SPY is therefore more likely to finish modestly below its previous close, although weaker payrolls and reduced rate-hike expectations may limit the decline."
+    },
+    {
+      "id": "pred_perplexity_20261005_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 753.95,
+      "current_price_at_prediction": 756.64,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "Nasdaq-100 futures were reported slightly lower, with technology shares easing after recent record highs. QQQ’s elevated duration sensitivity to the 5.31% Treasury yield favors a modest pullback despite the dovish interpretation of weak payrolls."
+    },
+    {
+      "id": "pred_perplexity_20261005_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 237.85,
+      "current_price_at_prediction": 239.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Premarket reporting described technology shares as softer after Friday’s gains, and Nasdaq futures were modestly negative. That setup favors a small Nvidia decline, but the semiconductor group could receive support from continued AI-related demand and the broader reduction in near-term Fed hike expectations."
+    },
+    {
+      "id": "pred_perplexity_20261005_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 376.8,
+      "current_price_at_prediction": 380.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Risk appetite was constrained by weaker European markets and uncertainty around Middle East developments, while the broader technology and growth complex was indicated lower in premarket trading. Tesla’s high-beta profile makes a modest underperformance more likely than a broad-market advance, though no company-specific catalyst was confirmed."
+    },
+    {
+      "id": "pred_perplexity_20261005_005",
+      "ticker": "INTC",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 45.9,
+      "current_price_at_prediction": 47.85,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Intel was reported down nearly 4% in premarket trading after Elon Musk confirmed that Taiwan Semiconductor Manufacturing was in talks with his Terafab venture. The specific negative catalyst makes additional weakness more probable, although the premarket move may partially reverse during regular trading."
+    }
+  ]
+}
