@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-06",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-06T16:54:54.569654+00:00",
+  "market_context": "X sentiment is mildly bullish with traders highlighting low VIX at 15 and continued tech momentum despite stretched valuations. Pre-market futures are flat to slightly up with no major economic releases scheduled. Options flow shows heavy call buying in NVDA and META.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261006_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 785.5,
+      "current_price_at_prediction": 780.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Low VIX and positive 5-day trend plus X chatter on AI rotation support modest upside; futures indicate limited downside risk today."
+    },
+    {
+      "id": "pred_grok_20261006_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 245.0,
+      "current_price_at_prediction": 240.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Strong options flow into NVDA calls and continued X enthusiasm around Blackwell ramp support a move higher into close."
+    },
+    {
+      "id": "pred_grok_20261006_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 375.0,
+      "current_price_at_prediction": 381.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "X volume shows rising short interest chatter and profit-taking after recent run; no positive catalysts visible pre-market."
+    },
+    {
+      "id": "pred_grok_20261006_004",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 765.0,
+      "current_price_at_prediction": 761.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech-heavy QQQ benefits from same AI sentiment seen on X and flat-to-up futures; 5-day +3.2% trend likely to extend modestly."
+    }
+  ]
+}

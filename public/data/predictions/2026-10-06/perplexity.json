@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-06",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-06T16:20:00Z",
+  "market_context": "U.S. equity futures were higher before the open, with S&P 500 futures up about 0.4% and Nasdaq futures also advancing as oil prices retreated. Treasury yields remained elevated but eased from recent highs; traders were focused on trade-balance data, weekly ADP employment data, Atlanta Fed GDPNow, a three-year Treasury auction, and Federal Reserve Governor Bowman’s remarks. The supplied baseline also shows strong five-day momentum in QQQ (+3.2%) and SPY (+2.1%), with low VIX at 15.03.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261006_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 783.5,
+      "current_price_at_prediction": 780.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures were approximately 0.4% higher before the open, while oil prices declined and Treasury yields cooled from recent highs. SPY also has positive five-day momentum of 2.1%, supporting a modest continuation move, although elevated long-term yields and scheduled macro data limit confidence."
+    },
+    {
+      "id": "pred_perplexity_20261006_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 765.5,
+      "current_price_at_prediction": 761.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq futures were higher before the open and the Nasdaq had recently reached a record close, indicating continued technology-sector leadership. QQQ’s five-day gain of 3.2% is stronger than SPY’s, so the expected move is positive but modest because stretched momentum and high yields increase reversal risk."
+    },
+    {
+      "id": "pred_perplexity_20261006_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 243.0,
+      "current_price_at_prediction": 240.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The broader technology complex was supported by higher Nasdaq futures and record-level Nasdaq trading, which favors a continuation bid in high-beta semiconductor shares. The target implies only about a 1.0% gain, reflecting uncertainty from the day’s employment, trade, Federal Reserve, and Treasury-auction catalysts."
+    },
+    {
+      "id": "pred_perplexity_20261006_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 378.5,
+      "current_price_at_prediction": 381.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Tesla is a high-duration, high-beta equity and is particularly sensitive to the still-elevated 10-year Treasury yield of 5.28%, despite the morning easing in yields. After a strong market run and without a specific company catalyst identified in the available overnight information, a small mean-reversion decline is more likely than a confident breakout."
+    }
+  ]
+}

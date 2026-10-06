@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-06",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-06T16:54:03.944958+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight downturn while energy sectors are seeing a modest rally. Inflation concerns persist, but recent jobless claims suggest a stable labor market, leading to cautious optimism among investors.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261006_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the last hour of trading, coupled with positive economic data releases expected tomorrow."
+    },
+    {
+      "id": "pred_gemini_20261006_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.5,
+      "current_price_at_prediction": 187.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Recent analyst downgrades and concerns over slowing iPhone sales in key markets are weighing on the stock."
+    },
+    {
+      "id": "pred_gemini_20261006_003",
+      "ticker": "GOOG",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.0,
+      "current_price_at_prediction": 153.8,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Anticipation of strong Q3 earnings report next week and positive sentiment from recent AI product announcements."
+    },
+    {
+      "id": "pred_gemini_20261006_004",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 120.0,
+      "current_price_at_prediction": 118.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.75,
+      "reasoning": "Rising crude oil prices due to geopolitical tensions and increased demand forecasts for winter."
+    },
+    {
+      "id": "pred_gemini_20261006_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.0,
+      "current_price_at_prediction": 225.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Concerns over production delays for new models and increased competition in the EV market."
+    }
+  ]
+}
