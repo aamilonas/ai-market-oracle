@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-07",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-07T17:31:23.428775+00:00",
+  "market_context": "X sentiment shows moderate bullishness on tech with NVDA and MSFT mentions dominant amid low VIX. Pre-market futures indicate flat to slightly positive open with no major economic releases today. Crypto weakness may weigh on risk appetite but equity flows appear supportive.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261007_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 777.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY closed at 777.39 with 5-day gain of 1.9% and VIX at 15.21 signaling calm. X chatter highlights continued AI rotation into mega-caps. Expect modest follow-through buying into the open."
+    },
+    {
+      "id": "pred_grok_20261007_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "current_price_at_prediction": 756.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ up 2.3% over five days with strong options flow noted in X posts on MSFT and NVDA. Futures point to positive bias absent negative catalysts. Low volatility supports continuation."
+    },
+    {
+      "id": "pred_grok_20261007_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 242.0,
+      "current_price_at_prediction": 237.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "NVDA at 237.29 shows resilience despite broader crypto dip. X volume on semiconductor names remains elevated. Expect intraday momentum from retail and institutional flows."
+    },
+    {
+      "id": "pred_grok_20261007_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 370.0,
+      "current_price_at_prediction": 376.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.48,
+      "reasoning": "TSLA at 376.71 faces headwinds from ETH weakness and mixed EV delivery chatter on X. Short interest signals remain elevated. Likely to lag broader market today."
+    }
+  ]
+}

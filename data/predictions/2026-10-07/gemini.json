@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-07",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-07T17:30:54.583561+00:00",
+  "market_context": "Recent economic data indicates a slight slowdown in inflation, leading to increased investor confidence. Technology stocks are showing resilience, while energy sectors face minor headwinds due to fluctuating oil prices.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261007_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY shows strong momentum driven by positive market sentiment and robust tech earnings reports."
+    },
+    {
+      "id": "pred_gemini_20261007_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 520.0,
+      "current_price_at_prediction": 515.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Tech sector continues to outperform, with QQQ benefiting from strong demand for AI-related stocks and favorable analyst upgrades."
+    },
+    {
+      "id": "pred_gemini_20261007_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 410.0,
+      "current_price_at_prediction": 412.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Industrial sector facing headwinds from rising commodity costs and a slight dip in manufacturing output reported this morning."
+    },
+    {
+      "id": "pred_gemini_20261007_004",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 210.0,
+      "current_price_at_prediction": 207.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Geopolitical tensions are increasing, driving safe-haven demand for gold. Inflation concerns also provide underlying support."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-07",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-07T15:30:00Z",
+  "market_context": "U.S. equity futures were lower before the open, with S&P 500 futures down about 0.3% and Nasdaq-100 futures down about 0.6% after record closes. Rising Treasury yields, Brent crude above $100, and the scheduled 2:00 p.m. ET release of the Federal Reserve's September meeting minutes create downside and volatility risks, although strong earnings expectations remain supportive.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261007_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 774.5,
+      "current_price_at_prediction": 777.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures were down approximately 0.3% ahead of the open while the 10-year Treasury yield was near 5.3% and Brent crude was above $100. After a record close, the combination of elevated rates and the pending Fed minutes favors a modest pullback, with SPY likely closing below its prior close."
+    },
+    {
+      "id": "pred_perplexity_20261007_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 751.5,
+      "current_price_at_prediction": 756.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq-100 futures were down about 0.6%, a larger premarket decline than S&P 500 futures, while long-term Treasury yields rose toward multi-year highs. QQQ's high-duration technology exposure makes it particularly sensitive to the rate move, so a decline of roughly 0.7% is the base case."
+    },
+    {
+      "id": "pred_perplexity_20261007_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 508.75,
+      "current_price_at_prediction": 511.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dow futures were reported down approximately 0.7%, and rising oil prices and bond yields are pressuring broad risk assets. DIA may outperform QQQ on a relative basis but is still likely to finish lower after the prior day's advance."
+    },
+    {
+      "id": "pred_perplexity_20261007_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 234.0,
+      "current_price_at_prediction": 237.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Recent gains in artificial-intelligence stocks helped drive the major indexes to records, but Nasdaq futures were down about 0.6% before the open. A risk-off session led by higher yields should weigh on NVDA, producing a modest decline rather than a major reversal."
+    },
+    {
+      "id": "pred_perplexity_20261007_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 371.5,
+      "current_price_at_prediction": 376.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Tesla is exposed to high-duration growth-stock selling when Treasury yields rise, and the broader Nasdaq futures signal was negative before the open. With no stronger company-specific catalyst identified in the available overnight information, TSLA is more likely to finish modestly below its prior close."
+    }
+  ]
+}
