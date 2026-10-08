@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-08",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-08T17:33:21.276995+00:00",
+  "market_context": "X sentiment shows cautious optimism on AI stocks amid low VIX, with futures pointing to a flat open. Pre-market movers include NVDA on chip demand news and BTC weakness weighing on risk assets. No major economic releases expected today.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261008_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.0,
+      "current_price_at_prediction": 771.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY closed at 771.66 with 5-day gain of 1.0% and VIX at 15.81 signaling calm. X chatter highlights tech resilience offsetting BTC drop."
+    },
+    {
+      "id": "pred_grok_20261008_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 750.0,
+      "current_price_at_prediction": 745.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ at 745.35 shows steady 0.5% 5-day rise. Options flow and X posts favor continued AI momentum into open."
+    },
+    {
+      "id": "pred_grok_20261008_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 235.0,
+      "current_price_at_prediction": 230.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA at 230.65 benefits from sector tailwinds per recent X sentiment scans and pre-market futures."
+    },
+    {
+      "id": "pred_grok_20261008_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 365.0,
+      "current_price_at_prediction": 369.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA at 369.81 faces pressure from broader crypto selloff noted on X and 5-day negative momentum."
+    }
+  ]
+}

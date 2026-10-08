@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-08T16:30:00Z",
+  "market_context": "US equities face a risk-off backdrop: S&P 500 futures were down roughly 0.5%-0.6%, Nasdaq futures about 0.7%-0.8%, and Dow futures near 0.9% as Brent crude rose above $103-$105 amid Middle East escalation concerns.[3][7][11] The 10-year Treasury yield remained near 5.3%, while a stronger dollar and hawkish Federal Reserve signals added pressure to equity valuations.[5][6]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261008_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 766.25,
+      "current_price_at_prediction": 771.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "S&P 500 futures were down approximately 0.5%-0.6% before the open, while Brent crude rose above $103 and the 10-year yield held near 5.3%, creating a broad valuation and inflation headwind.[3][7] SPY is likely to finish lower, with an implied decline of about 0.7% from the supplied previous close."
+    },
+    {
+      "id": "pred_perplexity_20261008_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 739.1,
+      "current_price_at_prediction": 745.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.69,
+      "reasoning": "Nasdaq-100 futures were down roughly 0.7%-0.8% as rising long-term yields pressured growth-stock valuations.[7][8] QQQ may underperform the broader market and end about 0.8% below its supplied previous close."
+    },
+    {
+      "id": "pred_perplexity_20261008_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 362.0,
+      "current_price_at_prediction": 369.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Tesla is particularly sensitive to higher discount rates and risk-off technology selling, with the 10-year yield near multi-decade highs around 5.3%-5.35%.[3][5] The stock is therefore more likely to decline than the broad index, although no company-specific premarket catalyst was identified."
+    },
+    {
+      "id": "pred_perplexity_20261008_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 227.8,
+      "current_price_at_prediction": 230.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Semiconductor and high-growth equities face pressure from the roughly 0.7%-0.8% decline in Nasdaq futures and elevated Treasury yields.[7][11] NVDA may finish modestly lower, with its strong sector momentum limiting the expected decline relative to QQQ."
+    },
+    {
+      "id": "pred_perplexity_20261008_005",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 126.4,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Brent crude rose about 4.6%-5% toward $105 as Middle East supply-risk concerns intensified.[1][3] Energy shares could benefit from the oil move, but a reliable supplied baseline price for XOM was not provided, so this prediction is excluded from quantitative return interpretation."
+    }
+  ]
+}

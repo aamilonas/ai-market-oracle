@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-08T17:32:32.284346+00:00",
+  "market_context": "Analysis indicates a mixed market sentiment with tech showing resilience while industrials face headwinds from interest rate concerns. Overall market direction is influenced by upcoming economic data releases.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261008_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the tech sector, likely to lift broader market indices as investor confidence improves."
+    },
+    {
+      "id": "pred_gemini_20261008_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 448.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Positive earnings reports from several major technology companies are expected to drive the Nasdaq 100 higher, attracting new capital."
+    },
+    {
+      "id": "pred_gemini_20261008_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 382.1,
+      "timeframe": "end_of_week",
+      "confidence": 0.55,
+      "reasoning": "Rising interest rate concerns and a slight slowdown in manufacturing data are putting pressure on industrial stocks, leading to potential short-term pullbacks."
+    }
+  ]
+}
