@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-09T13:30:00Z",
+  "market_context": "U.S. futures are higher ahead of the open, with S&P 500 futures up about 0.4%, Nasdaq futures up roughly 0.7%-0.9%, and Dow futures up about 0.1%-0.2%. Falling oil prices and reports of productive U.S.-Iran discussions are supporting risk appetite, while technology stocks are rebounding after Thursday's selloff; the University of Michigan preliminary consumer-sentiment release is scheduled for 10:00 a.m. ET.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261009_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 781.3,
+      "current_price_at_prediction": 778.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures are approximately 0.4% higher before the open, and lower crude prices plus reported progress in U.S.-Iran discussions are improving the macro risk backdrop. SPY is therefore likely to finish modestly above Thursday's close, although the 10:00 a.m. consumer-sentiment release creates event risk."
+    },
+    {
+      "id": "pred_perplexity_20261009_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 756.0,
+      "current_price_at_prediction": 750.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq futures are rising roughly 0.7%-0.9%, and a semiconductor ETF was reported up about 1.7% in premarket trading as technology stocks recover from the prior session's sharp decline. QQQ should outperform the broader market if Treasury yields remain contained, but its elevated sensitivity to rates limits confidence."
+    },
+    {
+      "id": "pred_perplexity_20261009_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 233.2,
+      "current_price_at_prediction": 229.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Chip stocks are rebounding in premarket trading, with a semiconductor ETF reported up 1.7%, while Nasdaq futures are materially stronger than Dow futures. NVDA is positioned for a relief bounce, though conflicting reports about OpenAI revenue expectations and the recent AI-investment concerns make a sustained rally uncertain."
+    },
+    {
+      "id": "pred_perplexity_20261009_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 538.0,
+      "current_price_at_prediction": 534.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The broad technology complex is indicated higher before the open, and reports that OpenAI expects annualized revenue to reach or exceed $70 billion by year-end may support sentiment toward major AI ecosystem participants. MSFT is likely to gain modestly, but the elevated 10-year yield of 5.24% remains a valuation headwind."
+    }
+  ]
+}

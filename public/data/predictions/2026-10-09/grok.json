@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-09T17:09:10.285077+00:00",
+  "market_context": "X sentiment shows cautious optimism with traders highlighting low VIX at 14.84 and steady pre-market futures despite crypto weakness. Tech stocks like NVDA drawing positive mentions amid earnings season expectations. No major macro events flagged but 10Y yield at 5.24% noted as a watch item.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261009_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 782.5,
+      "current_price_at_prediction": 778.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Low VIX and positive 5-day trend support modest upside; X chatter on steady futures points to buying at open."
+    },
+    {
+      "id": "pred_grok_20261009_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.0,
+      "current_price_at_prediction": 750.52,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Crypto selloff and higher yields weighing on growth names; X flow shows some profit-taking in mega-caps."
+    },
+    {
+      "id": "pred_grok_20261009_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 232.0,
+      "current_price_at_prediction": 229.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Positive X mentions on AI demand and options flow favoring calls; aligns with broader tech resilience."
+    },
+    {
+      "id": "pred_grok_20261009_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 81500.0,
+      "current_price_at_prediction": 82635.77,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Continued 5-day decline and risk-off tone on X suggest further pressure into close."
+    }
+  ]
+}
