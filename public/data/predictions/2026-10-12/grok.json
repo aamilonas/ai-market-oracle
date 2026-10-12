@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-12",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-12T19:58:02.824334+00:00",
+  "market_context": "X sentiment mixed with bullish chatter on NVDA and AI but caution on rates; pre-market futures flat to slightly up. No major events but 10Y yield at 5.24% weighing on growth stocks.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261012_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 780.5,
+      "current_price_at_prediction": 777.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Futures point to modest open; X volume shows dip-buying in indices after yesterday's QQQ weakness."
+    },
+    {
+      "id": "pred_grok_20261012_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 230.0,
+      "current_price_at_prediction": 226.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Heavy positive options flow and X mentions of new AI deals; stock outperforming peers in pre-market scans."
+    },
+    {
+      "id": "pred_grok_20261012_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 372.0,
+      "current_price_at_prediction": 378.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Short interest signals elevated on X; delivery data expected later this week creating near-term pressure."
+    }
+  ]
+}

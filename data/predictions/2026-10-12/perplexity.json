@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-12T13:00:00Z",
+  "market_context": "U.S. futures indicate a muted, mixed open: S&P 500 futures were approximately 0.05%-0.10% higher, while Nasdaq 100 futures were approximately 0.10%-0.22% lower.[2][4] Brent crude traded above $106 per barrel amid Middle East supply concerns, supporting energy shares but potentially increasing inflation and interest-rate pressure.[4][5] Investors are positioned cautiously ahead of major-bank earnings beginning Tuesday and September CPI on Wednesday.[2][4]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261012_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 779.4,
+      "current_price_at_prediction": 777.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "S&P 500 futures were modestly positive and the index recently posted a record-setting week, suggesting limited upside follow-through despite a muted open.[2][5] Strong expected third-quarter earnings growth provides support, while elevated oil prices and upcoming CPI limit conviction.[4]"
+    },
+    {
+      "id": "pred_perplexity_20261012_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 743.9,
+      "current_price_at_prediction": 745.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nasdaq 100 futures were down approximately 0.10%-0.22% before the open, contrasting with slightly firmer S&P and Dow futures.[2][3][4] Higher oil prices and the possibility of renewed inflation-driven rate pressure create a relative headwind for long-duration technology shares.[4]"
+    },
+    {
+      "id": "pred_perplexity_20261012_003",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 151.2,
+      "current_price_at_prediction": 0.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Exxon Mobil was reported approximately 1.2% higher in premarket trading as Brent crude moved above $106 per barrel.[5] Continued geopolitical supply disruption is a direct near-term catalyst for integrated oil producers, though price volatility remains elevated.[4]"
+    },
+    {
+      "id": "pred_perplexity_20261012_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 223.8,
+      "current_price_at_prediction": 226.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "The technology complex faced mild premarket pressure, with Nasdaq futures lower and Micron down more than 2% after reported advances by Chinese memory maker CXMT.[1][4] That semiconductor-specific sentiment could weigh on NVDA, although strong expected technology-sector earnings limits downside confidence.[4]"
+    }
+  ]
+}
