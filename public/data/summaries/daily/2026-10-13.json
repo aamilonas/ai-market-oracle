@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T17:46:00.452537+00:00",
+  "generated_at": "2026-10-14T01:17:28.887473+00:00",
   "headline": "13 AI market calls queued for 2026-10-13",
   "summary": "13 predictions were generated across 7 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ down."
     },
     {
@@ -21,7 +21,7 @@
         "Grok"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on SPY up."
     }
   ],
