@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-14T15:23:23.797874+00:00",
+  "market_context": "X sentiment shows caution amid tech weakness with QQQ down 3.1% over 5 days and rising VIX. Pre-market futures mixed, DIA holding gains while major earnings and Fed comments eyed today. No major positive catalysts apparent from available signals.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261014_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 771.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA strength and 10Y yield stability suggest defensive rotation supports SPY close higher despite QQQ drag."
+    },
+    {
+      "id": "pred_grok_20261014_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.0,
+      "current_price_at_prediction": 734.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Continued 5-day tech selloff and elevated VIX point to further downside pressure on QQQ into close."
+    },
+    {
+      "id": "pred_grok_20261014_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 218.0,
+      "current_price_at_prediction": 223.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "Sector rotation away from semis evident in recent QQQ performance and X chatter on valuation concerns."
+    },
+    {
+      "id": "pred_grok_20261014_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 372.0,
+      "current_price_at_prediction": 367.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.45,
+      "reasoning": "EV news flow and relative strength vs broader tech may lift TSLA modestly by EOD."
+    }
+  ]
+}

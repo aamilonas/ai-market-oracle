@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-14",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-14T09:00:00-04:00",
+  "market_context": "S&P 500 futures were up roughly 0.2% and Dow futures up 0.3%, while Nasdaq futures were approximately flat before the open.[1] Investors are focused on elevated Treasury yields, semiconductor weakness, and the 14:30 ET CPI release, with forecasts for headline CPI of 0.6% month-over-month and core CPI of 0.2%; the Beige Book is due at 20:00 ET.[4][10]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261014_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 773.2,
+      "current_price_at_prediction": 771.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "S&P 500 futures were approximately 0.2% higher before the open, indicating modest positive breadth despite recent weakness.[1] The gain is likely to fade or remain limited if CPI reinforces the elevated-yield and hawkish-Fed concerns weighing on equities.[4][10]"
+    },
+    {
+      "id": "pred_perplexity_20261014_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 731.8,
+      "current_price_at_prediction": 734.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Nasdaq futures were flat while semiconductor stocks remained under pressure, including a reported sharp decline in Applied Materials and broader memory-sector selling.[1][2][3] Elevated yields and potentially firm core CPI create greater downside sensitivity for long-duration technology shares.[4][5]"
+    },
+    {
+      "id": "pred_perplexity_20261014_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 220.9,
+      "current_price_at_prediction": 223.11,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The semiconductor complex was a major source of overnight selling, with investors concerned about memory demand and uncertain chip-equipment spending.[2][3] A firm inflation reading could lift yields further and pressure high-valuation AI and semiconductor shares.[4][5]"
+    },
+    {
+      "id": "pred_perplexity_20261014_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 364.8,
+      "current_price_at_prediction": 367.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Nasdaq futures were subdued despite stronger Dow and S&P futures, suggesting limited support for growth-sensitive megacaps at the open.[1][8] Tesla is exposed to the same valuation and interest-rate pressure affecting technology stocks if CPI raises expectations for additional Fed tightening.[4][5]"
+    },
+    {
+      "id": "pred_perplexity_20261014_005",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 517.1,
+      "current_price_at_prediction": 515.9,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Dow futures gained about 0.3%, outperforming flat Nasdaq futures and pointing to relative strength in more economically mature and value-oriented constituents.[1] Positive premarket bank interest and strength in energy-linked shares may help the Dow outperform if rates remain elevated.[2][9]"
+    }
+  ]
+}

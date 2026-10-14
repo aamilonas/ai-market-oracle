@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-14T15:22:57.775010+00:00",
+  "market_context": "Recent inflation data suggests a potential pause in interest rate hikes, leading to increased investor optimism. Technology stocks are showing strong momentum, while energy sectors are reacting to fluctuating oil prices. Overall market sentiment appears cautiously optimistic for the short term.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261014_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in large-cap tech, coupled with positive economic indicators, suggests an upward trend for the broader market by day's end."
+    },
+    {
+      "id": "pred_gemini_20261014_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Technology sector earnings reports are largely positive, and institutional buying interest remains high, indicating continued growth for the NASDAQ 100 over the week."
+    },
+    {
+      "id": "pred_gemini_20261014_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 218.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "New product announcements and strong pre-order numbers are driving positive sentiment, with technical indicators showing a breakout above resistance levels."
+    },
+    {
+      "id": "pred_gemini_20261014_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.0,
+      "timeframe": "end_of_month",
+      "confidence": 0.6,
+      "reasoning": "Increased competition in the EV market and recent production delays are creating downward pressure, with analysts revising price targets lower for the coming month."
+    }
+  ]
+}
