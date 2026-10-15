@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-15",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-15T15:15:53.423358+00:00",
+  "market_context": "X sentiment shows cautious optimism on AI stocks but concern over VIX spike and 10Y yield at 5.07%. Pre-market futures flat to slightly down with no major overnight news; options flow indicates hedging in tech.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261015_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 773.5,
+      "current_price_at_prediction": 770.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY closed at 770.71 with mild 5-day dip; X chatter points to dip-buying in broad market. Flat futures and low VIX relative to recent rise suggest modest rebound likely by close."
+    },
+    {
+      "id": "pred_grok_20261015_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 722.0,
+      "current_price_at_prediction": 725.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ down 3% over 5 days amid tech rotation; X users highlight short interest in mega-caps. Pre-market weakness and elevated yields point to continued pressure into close."
+    },
+    {
+      "id": "pred_grok_20261015_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.0,
+      "current_price_at_prediction": 217.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA at 217.08 with recent pullback; X sentiment shows AI narrative support despite broader selloff. Options flow suggests call buying that could lift it modestly by EOD."
+    },
+    {
+      "id": "pred_grok_20261015_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 358.0,
+      "current_price_at_prediction": 362.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "TSLA at 362.89 after 5-day gain; X volume on delivery concerns and macro sensitivity. Rising yields typically weigh on growth names like this into the close."
+    }
+  ]
+}
