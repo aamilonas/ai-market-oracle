@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-16T14:59:16.921253+00:00",
+  "market_context": "X sentiment shows cautious bearishness with traders highlighting QQQ's 4% weekly drop and elevated VIX. Pre-market futures point to a flat-to-down open amid 10Y yield at 5.09%. No major catalysts but options flow indicates hedging in mega-caps.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261016_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.5,
+      "current_price_at_prediction": 771.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 771.36 with 5-day decline and VIX up 6.5%; X chatter focuses on yield pressure and tech weakness. Expect mild selloff into close absent positive news."
+    },
+    {
+      "id": "pred_grok_20261016_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 712.0,
+      "current_price_at_prediction": 721.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ's recent -4% streak and bearish X volume on NVDA/MSFT suggest continued pressure. Pre-market data shows limited support."
+    },
+    {
+      "id": "pred_grok_20261016_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.4,
+      "current_price_at_prediction": 217.66,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA oversold after weekly drop; X options flow shows call buying. Short-term bounce likely if broader market stabilizes."
+    },
+    {
+      "id": "pred_grok_20261016_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 352.0,
+      "current_price_at_prediction": 361.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "TSLA faces resistance at recent highs per X sentiment and crypto correlation. 5-day negative trend likely extends today."
+    }
+  ]
+}

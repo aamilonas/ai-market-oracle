@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-16T14:58:51.349265+00:00",
+  "market_context": "Recent economic indicators suggest a slight uptick in consumer spending, particularly in the tech sector. Inflation concerns are moderating, leading to increased investor confidence in growth stocks. Geopolitical stability also contributes to a generally positive market sentiment.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261016_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong Q3 earnings reports from major S&P 500 components and positive jobless claims data."
+    },
+    {
+      "id": "pred_gemini_20261016_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements next week and robust iPhone sales data from Asia."
+    },
+    {
+      "id": "pred_gemini_20261016_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 290.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Recent production delays reported in European factories and increased competition in the EV market."
+    },
+    {
+      "id": "pred_gemini_20261016_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.3,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Continued strong growth in cloud services (Azure) and positive analyst upgrades following AI integration news."
+    }
+  ]
+}
