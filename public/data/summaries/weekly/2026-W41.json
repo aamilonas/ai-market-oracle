@@ -1,0 +1,47 @@
+{
+  "week": "2026-W41",
+  "period": "Oct 5 – Oct 9, 2026",
+  "generated_at": "2026-10-17T17:40:03.301058+00:00",
+  "headline": "Perplexity led 2026-W41 on raw weekly score",
+  "summary": "This fallback weekly summary was created automatically because the narrative summary model was unavailable.",
+  "scores": [
+    {
+      "model": "Perplexity",
+      "weekly_score": 4.88,
+      "predictions": 23,
+      "accuracy": 0.5217,
+      "rank_change": 0
+    },
+    {
+      "model": "Gemini",
+      "weekly_score": 2.09,
+      "predictions": 11,
+      "accuracy": 0.6364,
+      "rank_change": 0
+    },
+    {
+      "model": "Grok",
+      "weekly_score": -0.94,
+      "predictions": 20,
+      "accuracy": 0.35,
+      "rank_change": 0
+    }
+  ],
+  "best_call": {
+    "model": "Perplexity",
+    "ticker": "QQQ",
+    "score": 1.14,
+    "summary": "Top single-call score of the week belonged to Perplexity."
+  },
+  "worst_call": {
+    "model": "Gemini",
+    "ticker": "AAPL",
+    "score": -0.72,
+    "summary": "Lowest single-call score of the week belonged to Gemini."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 3,
+    "consensus_correct": 0,
+    "accuracy": 0.0
+  }
+}
