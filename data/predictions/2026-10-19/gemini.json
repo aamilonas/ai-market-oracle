@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-19",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-19T17:06:19.960957+00:00",
+  "market_context": "The market is showing mixed signals today, with tech stocks experiencing a slight rebound while energy sectors face downward pressure due to fluctuating oil prices. Investor sentiment remains cautious ahead of upcoming inflation data.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261019_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying interest observed in large-cap tech, pushing the broader market higher despite some sector-specific weaknesses."
+    },
+    {
+      "id": "pred_gemini_20261019_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.0,
+      "current_price_at_prediction": 447.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sector showing robust performance driven by positive earnings reports from key components and increased investor confidence in growth stocks."
+    },
+    {
+      "id": "pred_gemini_20261019_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 405.0,
+      "current_price_at_prediction": 407.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Industrial and financial stocks are facing headwinds due to rising interest rate concerns and a slight slowdown in manufacturing data."
+    },
+    {
+      "id": "pred_gemini_20261019_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 320.0,
+      "current_price_at_prediction": 315.5,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of new product announcements and strong delivery numbers for the current quarter are driving positive sentiment."
+    },
+    {
+      "id": "pred_gemini_20261019_005",
+      "ticker": "XOM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 110.0,
+      "current_price_at_prediction": 112.3,
+      "timeframe": "end_of_week",
+      "confidence": 0.68,
+      "reasoning": "Global oil demand concerns and increased supply from non-OPEC+ nations are putting downward pressure on crude prices, impacting energy stocks."
+    }
+  ]
+}

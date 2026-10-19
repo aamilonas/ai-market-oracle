@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-19",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-19T08:40:00-04:00",
+  "market_context": "US futures point to a higher open, with S&P 500 futures up about 0.47% and Nasdaq 100 futures up roughly 0.99%-1.23% as AI shares rebound after last week's selloff.[1][2] Treasury yields and oil prices eased, while premarket strength was concentrated in semiconductor and AI-linked stocks; elevated volatility and the 5.15% baseline 10-year yield argue for cautious confidence.[1][2]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261019_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.0,
+      "current_price_at_prediction": 767.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "S&P 500 futures were approximately 0.47%-0.51% higher before the open, implying an initial move toward $771.[1][2] Falling oil prices and lower Treasury yields support a modest risk-on session, although the recent VIX increase makes a full-day gain less certain."
+    },
+    {
+      "id": "pred_perplexity_20261019_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 727.0,
+      "current_price_at_prediction": 720.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nasdaq 100 futures were up roughly 0.99%-1.23% as AI and semiconductor shares recovered from last week's sharp decline.[1][2] The technology-heavy QQQ should outperform SPY if the premarket rebound persists, but the recent 3.5% five-day decline raises reversal risk."
+    },
+    {
+      "id": "pred_perplexity_20261019_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 221.0,
+      "current_price_at_prediction": 218.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Nvidia was reported approximately 1.1% higher in premarket trading as AI-related shares rebounded.[1] Sector momentum and stronger Nasdaq futures favor a positive close, but the stock remains exposed to continued deleveraging in AI-linked equities."
+    },
+    {
+      "id": "pred_perplexity_20261019_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 373.0,
+      "current_price_at_prediction": 368.99,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Technology shares were broadly rebounding ahead of a major earnings week that includes Tesla, supporting a moderate positive bias.[3] The prediction is deliberately conservative because no Tesla-specific premarket move was reported and event positioning can produce substantial intraday volatility."
+    }
+  ]
+}
