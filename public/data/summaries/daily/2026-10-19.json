@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T17:07:27.259899+00:00",
+  "generated_at": "2026-10-20T01:07:25.928104+00:00",
   "headline": "13 AI market calls queued for 2026-10-19",
   "summary": "13 predictions were generated across 6 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
   "consensus_picks": [
@@ -11,7 +11,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "2 models aligned on QQQ up."
     },
     {
@@ -22,7 +22,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on SPY up."
     },
     {
@@ -33,7 +33,7 @@
         "Perplexity"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "split",
       "note": "3 models aligned on TSLA up."
     }
   ],
@@ -41,14 +41,14 @@
     "prediction_id": null,
     "model_display_name": "Gemini",
     "ticker": "QQQ",
-    "score": null,
+    "score": -0.7,
     "summary": "Highest-confidence call came from Gemini on QQQ."
   },
   "worst_call": {
     "prediction_id": null,
     "model_display_name": "Grok",
     "ticker": "QQQ",
-    "score": null,
+    "score": 0.52,
     "summary": "Lowest-confidence call came from Grok on QQQ."
   }
 }
