@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-20",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-20T09:30:00-04:00",
+  "market_context": "US equity futures point to a weaker open, with S&P 500 futures down roughly 0.2%-0.3% and Nasdaq futures down about 0.7% as AI and semiconductor shares retreat.[1][2] Premarket trading shows weakness in AAPL, NVDA, and GOOGL, while AMZN and TSLA are modestly higher; elevated Treasury yields and a 15.5% five-day VIX increase favor cautious, dispersion-driven trading.[9]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261020_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 714.88,
+      "current_price_at_prediction": 719.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nasdaq futures are down approximately 0.7%, with AI infrastructure and semiconductor shares leading the premarket retreat.[1][2] QQQ is therefore likely to underperform broader indexes and finish about 0.7% below its previous close."
+    },
+    {
+      "id": "pred_perplexity_20261020_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 768.24,
+      "current_price_at_prediction": 769.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "S&P 500 futures are lower by roughly 0.2%-0.3% before the open, indicating modest broad-market pressure.[1][2] Strength in selected industrial and energy earnings may limit the decline relative to technology-heavy indexes."
+    },
+    {
+      "id": "pred_perplexity_20261020_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 336.98,
+      "current_price_at_prediction": 340.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Apple was approximately 1.0% lower in premarket trading, materially weaker than the broad futures decline.[9] Unless early weakness reverses, the stock is likely to remain under pressure and finish near 1% below the prior close."
+    },
+    {
+      "id": "pred_perplexity_20261020_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 215.07,
+      "current_price_at_prediction": 217.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVIDIA was down about 0.47% premarket while semiconductor and AI shares were identified as the main source of Nasdaq futures weakness.[2][9] The sector-specific pressure supports a modest negative close, although the decline may be limited after recent AI-stock selling."
+    },
+    {
+      "id": "pred_perplexity_20261020_005",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 378.75,
+      "current_price_at_prediction": 375.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Tesla was approximately 0.69% higher premarket despite weaker Nasdaq futures.[9] Relative strength could persist if investors rotate within large-cap technology, but the elevated volatility backdrop makes the bullish call low confidence."
+    }
+  ]
+}
