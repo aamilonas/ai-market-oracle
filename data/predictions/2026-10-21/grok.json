@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-21",
+  "model": "grok-3",
+  "model_display_name": "Grok",
+  "generated_at": "2026-10-21T15:30:48.198233+00:00",
+  "market_context": "X sentiment is mixed with bullish chatter on AI names offset by concerns over high 10Y yields at 5.12%. Pre-market futures point to modest SPY gains while VIX holds steady near 16.63. No major catalysts flagged beyond routine earnings and options flow favoring tech longs.",
+  "predictions": [
+    {
+      "id": "pred_grok_20261021_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 775.5,
+      "current_price_at_prediction": 772.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY closed at 772.03 with positive 5-day momentum and X volume showing dip-buying in broad indices. Futures lean green into open with no major negative headlines. Expect modest rally to 775.50 by close."
+    },
+    {
+      "id": "pred_grok_20261021_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 720.0,
+      "current_price_at_prediction": 724.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ already down 0.6% over five days and X posts highlight rotation out of mega-cap tech into value. Yield pressure at 5.12% adds headwind. Target 720.00 by EOD."
+    },
+    {
+      "id": "pred_grok_20261021_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 225.0,
+      "current_price_at_prediction": 220.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA shows strong options flow on X with call buying dominating. Recent AI narrative remains intact despite broader QQQ weakness. Move to 225.00 supported by momentum."
+    },
+    {
+      "id": "pred_grok_20261021_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 386.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "TSLA sentiment on X cooled after recent run with short interest signals rising. Macro yield concerns weigh on growth names. Expect pullback to 380.00."
+    }
+  ]
+}

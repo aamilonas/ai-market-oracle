@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-21",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-21T09:30:00-04:00",
+  "market_context": "U.S. equity futures indicate a mildly positive open, with S&P 500 futures up roughly 0.2%-0.3% and Nasdaq-100 futures up about 0.5%-0.6% as strong SpaceX and AI-related results support technology sentiment. Tesla is higher ahead of its earnings release, while Netflix is down more than 6% after weak guidance; elevated oil prices and a 5.12% 10-year Treasury yield may limit broader gains.",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261021_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 774.0,
+      "current_price_at_prediction": 772.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "S&P 500 futures are approximately 0.2%-0.3% higher before the open, supported by positive earnings sentiment and strength in AI-linked shares. The broader index may gain modestly, although high Treasury yields and oil near elevated levels create downside risk."
+    },
+    {
+      "id": "pred_perplexity_20261021_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 729.0,
+      "current_price_at_prediction": 724.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq-100 futures are up roughly 0.5%-0.6%, outperforming S&P 500 futures as SpaceX results and AI infrastructure enthusiasm lift technology stocks. Tesla's premarket strength and reported gains in semiconductor names provide additional support, though late-session profit-taking is possible."
+    },
+    {
+      "id": "pred_perplexity_20261021_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 223.5,
+      "current_price_at_prediction": 220.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVIDIA was indicated about 1.8% higher in premarket trading as AI-sector optimism followed strong SpaceX results and gains in chip-related shares. A portion of the premarket move may fade, so the forecast targets a smaller gain by the close."
+    },
+    {
+      "id": "pred_perplexity_20261021_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 391.0,
+      "current_price_at_prediction": 386.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Tesla was reported approximately 1.7% higher before the open ahead of its after-hours earnings release, benefiting from positive sentiment around Elon Musk-linked AI and infrastructure businesses. The stock remains event-sensitive, making the direction uncertain and vulnerable to reversal before the close."
+    },
+    {
+      "id": "pred_perplexity_20261021_005",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 704.0,
+      "current_price_at_prediction": 710.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "Meta was indicated slightly lower in premarket trading despite firm Nasdaq futures, suggesting some caution ahead of its earnings report after the close. The stock could recover with the technology rally, but pre-earnings positioning and elevated valuation create a modest downside bias."
+    }
+  ]
+}
