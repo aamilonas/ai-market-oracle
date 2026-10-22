@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-22",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-22T15:30:23.569741+00:00",
+  "market_context": "The market is experiencing mixed signals today. Strong performance in the tech sector is counterbalanced by concerns over industrial output and upcoming Federal Reserve statements. Geopolitical tensions are also contributing to a flight to safety in some assets.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261022_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in the tech sector, leading to broad market optimism and pushing the S&P 500 higher."
+    },
+    {
+      "id": "pred_gemini_20261022_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 450.5,
+      "current_price_at_prediction": 448.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Major tech earnings reports exceeded expectations, driving up NASDAQ-100 components and boosting investor confidence in growth stocks."
+    },
+    {
+      "id": "pred_gemini_20261022_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "current_price_at_prediction": 382.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Concerns over industrial production data and rising commodity prices are weighing on blue-chip stocks, leading to a slight downturn for the Dow Jones."
+    },
+    {
+      "id": "pred_gemini_20261022_004",
+      "ticker": "TLT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 95.0,
+      "current_price_at_prediction": 96.2,
+      "timeframe": "end_of_week",
+      "confidence": 0.6,
+      "reasoning": "Anticipation of hawkish comments from the Federal Reserve is pushing bond yields higher, negatively impacting long-term treasury bonds like TLT."
+    },
+    {
+      "id": "pred_gemini_20261022_005",
+      "ticker": "GLD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 185.0,
+      "current_price_at_prediction": 183.5,
+      "timeframe": "end_of_month",
+      "confidence": 0.68,
+      "reasoning": "Geopolitical tensions are escalating in Eastern Europe, increasing demand for safe-haven assets like gold as investors seek stability."
+    }
+  ]
+}
