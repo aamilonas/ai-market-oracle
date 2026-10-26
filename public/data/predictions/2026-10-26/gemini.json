@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-26",
+  "model": "gemini-2.5-flash",
+  "model_display_name": "Gemini",
+  "generated_at": "2026-10-26T16:53:23.752828+00:00",
+  "market_context": "Global economic indicators suggest a cautious optimism. Inflation data shows signs of stabilization, while corporate earnings reports are mixed but generally positive for tech. Geopolitical tensions remain a factor, but their immediate impact on major markets appears contained.",
+  "predictions": [
+    {
+      "id": "pred_gemini_20261026_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 600.0,
+      "current_price_at_prediction": 598.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong buying pressure observed in early trading, coupled with positive sentiment from the latest jobless claims report, indicates a likely upward movement for the broader market."
+    },
+    {
+      "id": "pred_gemini_20261026_002",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 220.5,
+      "current_price_at_prediction": 218.9,
+      "timeframe": "end_of_week",
+      "confidence": 0.72,
+      "reasoning": "Anticipation of new product announcements later in the week is driving investor interest. Technical analysis shows a breakout above a key resistance level, suggesting continued momentum."
+    },
+    {
+      "id": "pred_gemini_20261026_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 285.0,
+      "current_price_at_prediction": 292.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Recent production delays reported by suppliers are weighing on investor confidence. Volume analysis indicates increased selling pressure, potentially leading to a short-term dip."
+    },
+    {
+      "id": "pred_gemini_20261026_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 455.0,
+      "current_price_at_prediction": 452.1,
+      "timeframe": "end_of_month",
+      "confidence": 0.78,
+      "reasoning": "Strong performance in cloud services and AI integration continues to drive revenue growth. Analyst upgrades and positive long-term outlooks support an upward trajectory for the stock by month-end."
+    }
+  ]
+}
