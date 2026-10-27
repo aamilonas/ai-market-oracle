@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T00:50:41.711521+00:00",
+  "generated_at": "2026-10-27T01:32:17.347368+00:00",
   "data_range": {
     "first_date": "2026-02-26",
-    "last_date": "2026-10-23",
-    "scoring_days": 162,
-    "total_predictions": 2372
+    "last_date": "2026-10-26",
+    "scoring_days": 163,
+    "total_predictions": 2382
   },
   "ticker_breakdown": {
     "by_ticker": [
@@ -314,11 +314,11 @@
           },
           {
             "model": "Perplexity",
-            "predictions": 8,
+            "predictions": 9,
             "correct": 5,
-            "accuracy": 0.625,
-            "total_score": 1.62,
-            "avg_confidence": 0.575
+            "accuracy": 0.5556,
+            "total_score": 1.05,
+            "avg_confidence": 0.5744
           }
         ]
       },
@@ -426,19 +426,19 @@
           },
           {
             "model": "Grok",
-            "predictions": 157,
+            "predictions": 158,
             "correct": 69,
-            "accuracy": 0.4395,
-            "total_score": 0.48,
-            "avg_confidence": 0.6097
+            "accuracy": 0.4367,
+            "total_score": -0.02,
+            "avg_confidence": 0.609
           },
           {
             "model": "Perplexity",
-            "predictions": 129,
-            "correct": 69,
-            "accuracy": 0.5349,
-            "total_score": 16.46,
-            "avg_confidence": 0.5902
+            "predictions": 130,
+            "correct": 70,
+            "accuracy": 0.5385,
+            "total_score": 17.48,
+            "avg_confidence": 0.5897
           }
         ]
       },
@@ -494,19 +494,19 @@
           },
           {
             "model": "Grok",
-            "predictions": 91,
+            "predictions": 92,
             "correct": 50,
-            "accuracy": 0.5495,
-            "total_score": 18.06,
+            "accuracy": 0.5435,
+            "total_score": 17.46,
             "avg_confidence": 0.593
           },
           {
             "model": "Perplexity",
-            "predictions": 161,
-            "correct": 96,
-            "accuracy": 0.5963,
-            "total_score": 49.08,
-            "avg_confidence": 0.6252
+            "predictions": 162,
+            "correct": 97,
+            "accuracy": 0.5988,
+            "total_score": 50.13,
+            "avg_confidence": 0.6248
           }
         ]
       },
@@ -532,27 +532,27 @@
           },
           {
             "model": "Gemini",
-            "predictions": 134,
-            "correct": 106,
-            "accuracy": 0.791,
-            "total_score": 50.88,
+            "predictions": 135,
+            "correct": 107,
+            "accuracy": 0.7926,
+            "total_score": 51.53,
             "avg_confidence": 0.6506
           },
           {
             "model": "Grok",
-            "predictions": 161,
+            "predictions": 162,
             "correct": 93,
-            "accuracy": 0.5776,
-            "total_score": 45.35,
-            "avg_confidence": 0.6076
+            "accuracy": 0.5741,
+            "total_score": 44.8,
+            "avg_confidence": 0.6073
           },
           {
             "model": "Perplexity",
-            "predictions": 159,
-            "correct": 86,
-            "accuracy": 0.5409,
-            "total_score": 40.29,
-            "avg_confidence": 0.6189
+            "predictions": 160,
+            "correct": 87,
+            "accuracy": 0.5437,
+            "total_score": 41.37,
+            "avg_confidence": 0.6187
           }
         ]
       },
@@ -600,11 +600,11 @@
           },
           {
             "model": "Gemini",
-            "predictions": 37,
+            "predictions": 38,
             "correct": 10,
-            "accuracy": 0.2703,
-            "total_score": -10.09,
-            "avg_confidence": 0.5949
+            "accuracy": 0.2632,
+            "total_score": -10.69,
+            "avg_confidence": 0.595
           },
           {
             "model": "Grok",
@@ -616,11 +616,11 @@
           },
           {
             "model": "Perplexity",
-            "predictions": 72,
+            "predictions": 73,
             "correct": 37,
-            "accuracy": 0.5139,
-            "total_score": 8.34,
-            "avg_confidence": 0.5619
+            "accuracy": 0.5068,
+            "total_score": 7.8,
+            "avg_confidence": 0.5616
           }
         ]
       },
@@ -820,24 +820,24 @@
           },
           {
             "model": "Gemini",
-            "predictions": 171,
-            "correct": 128,
-            "accuracy": 0.7485,
-            "total_score": 56.29
+            "predictions": 172,
+            "correct": 129,
+            "accuracy": 0.75,
+            "total_score": 56.94
           },
           {
             "model": "Grok",
-            "predictions": 254,
+            "predictions": 256,
             "correct": 144,
-            "accuracy": 0.5669,
-            "total_score": 63.41
+            "accuracy": 0.5625,
+            "total_score": 62.26
           },
           {
             "model": "Perplexity",
-            "predictions": 373,
-            "correct": 207,
-            "accuracy": 0.555,
-            "total_score": 93.14
+            "predictions": 375,
+            "correct": 209,
+            "accuracy": 0.5573,
+            "total_score": 95.27
           }
         ]
       },
@@ -860,24 +860,24 @@
           },
           {
             "model": "Gemini",
-            "predictions": 112,
+            "predictions": 113,
             "correct": 37,
-            "accuracy": 0.3304,
-            "total_score": -23.48
+            "accuracy": 0.3274,
+            "total_score": -24.08
           },
           {
             "model": "Grok",
-            "predictions": 328,
+            "predictions": 329,
             "correct": 152,
-            "accuracy": 0.4634,
-            "total_score": 12.58
+            "accuracy": 0.462,
+            "total_score": 12.08
           },
           {
             "model": "Perplexity",
-            "predictions": 316,
-            "correct": 160,
-            "accuracy": 0.5063,
-            "total_score": 30.06
+            "predictions": 319,
+            "correct": 161,
+            "accuracy": 0.5047,
+            "total_score": 29.97
           }
         ]
       }
@@ -962,7 +962,7 @@
       },
       {
         "model": "Gemini",
-        "calibration_error": 0.1716,
+        "calibration_error": 0.1721,
         "buckets": [
           {
             "confidence_range": "50-59%",
@@ -974,9 +974,9 @@
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 197,
-            "correct": 125,
-            "actual_accuracy": 0.6345
+            "predictions": 199,
+            "correct": 126,
+            "actual_accuracy": 0.6332
           },
           {
             "confidence_range": "70-79%",
@@ -989,21 +989,21 @@
       },
       {
         "model": "Grok",
-        "calibration_error": 0.118,
+        "calibration_error": 0.1197,
         "buckets": [
           {
             "confidence_range": "50-59%",
             "confidence_midpoint": 0.55,
-            "predictions": 279,
+            "predictions": 281,
             "correct": 121,
-            "actual_accuracy": 0.4337
+            "actual_accuracy": 0.4306
           },
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 258,
+            "predictions": 259,
             "correct": 146,
-            "actual_accuracy": 0.5659
+            "actual_accuracy": 0.5637
           },
           {
             "confidence_range": "70-79%",
@@ -1016,14 +1016,14 @@
       },
       {
         "model": "Perplexity",
-        "calibration_error": 0.227,
+        "calibration_error": 0.2266,
         "buckets": [
           {
             "confidence_range": "50-59%",
             "confidence_midpoint": 0.55,
-            "predictions": 329,
-            "correct": 167,
-            "actual_accuracy": 0.5076
+            "predictions": 334,
+            "correct": 170,
+            "actual_accuracy": 0.509
           },
           {
             "confidence_range": "60-69%",
@@ -1052,13 +1052,13 @@
   },
   "herding": {
     "summary": {
-      "total_overlaps": 705,
+      "total_overlaps": 709,
       "unanimous": 386,
-      "split": 319,
-      "herding_rate": 0.5475,
+      "split": 323,
+      "herding_rate": 0.5444,
       "unanimous_correct": 205,
       "unanimous_accuracy": 0.5311,
-      "contrarian_wins": 167
+      "contrarian_wins": 169
     },
     "daily_herding": [
       {
@@ -2032,6 +2032,12 @@
         "overlaps": 3,
         "unanimous": 1,
         "herding_rate": 0.3333
+      },
+      {
+        "date": "2026-10-26",
+        "overlaps": 4,
+        "unanimous": 0,
+        "herding_rate": 0.0
       }
     ]
   },
@@ -7382,6 +7388,39 @@
           "accuracy": 1.0,
           "predictions": 5
         }
+      },
+      {
+        "date": "2026-10-26",
+        "Claude": {
+          "daily_score": 0,
+          "cumulative_score": 47.44,
+          "accuracy": null,
+          "predictions": 0
+        },
+        "GPT-4o": {
+          "daily_score": 0,
+          "cumulative_score": 139.3,
+          "accuracy": null,
+          "predictions": 0
+        },
+        "Gemini": {
+          "daily_score": 0.05,
+          "cumulative_score": 32.86,
+          "accuracy": 0.5,
+          "predictions": 2
+        },
+        "Grok": {
+          "daily_score": -1.65,
+          "cumulative_score": 74.2,
+          "accuracy": 0.0,
+          "predictions": 3
+        },
+        "Perplexity": {
+          "daily_score": 2.04,
+          "cumulative_score": 127.03,
+          "accuracy": 0.6,
+          "predictions": 5
+        }
       }
     ],
     "rolling_accuracy": [
@@ -8680,6 +8719,14 @@
         "Gemini": 0.25,
         "Grok": 0.5263,
         "Perplexity": 0.625
+      },
+      {
+        "date": "2026-10-26",
+        "Claude": null,
+        "GPT-4o": null,
+        "Gemini": 0.2727,
+        "Grok": 0.4444,
+        "Perplexity": 0.72
       }
     ]
   },
@@ -8751,76 +8798,32 @@
       {
         "model_a": "Gemini",
         "model_b": "Grok",
-        "matchups": 191,
-        "a_wins": 59,
+        "matchups": 192,
+        "a_wins": 60,
         "b_wins": 24,
         "ties": 108,
-        "a_win_rate": 0.7108
+        "a_win_rate": 0.7143
       },
       {
         "model_a": "Gemini",
         "model_b": "Perplexity",
-        "matchups": 214,
+        "matchups": 216,
         "a_wins": 61,
         "b_wins": 36,
-        "ties": 117,
+        "ties": 119,
         "a_win_rate": 0.6289
       },
       {
         "model_a": "Grok",
         "model_b": "Perplexity",
-        "matchups": 453,
+        "matchups": 456,
         "a_wins": 73,
-        "b_wins": 87,
+        "b_wins": 90,
         "ties": 293,
-        "a_win_rate": 0.4562
+        "a_win_rate": 0.4479
       }
     ],
     "recent_clashes": [
-      {
-        "date": "2026-10-19",
-        "ticker": "QQQ",
-        "model_a": "Gemini",
-        "model_a_direction": "up",
-        "model_a_correct": false,
-        "model_b": "Grok",
-        "model_b_direction": "down",
-        "model_b_correct": true,
-        "winner": "Grok"
-      },
-      {
-        "date": "2026-10-19",
-        "ticker": "QQQ",
-        "model_a": "Grok",
-        "model_a_direction": "down",
-        "model_a_correct": true,
-        "model_b": "Perplexity",
-        "model_b_direction": "up",
-        "model_b_correct": false,
-        "winner": "Grok"
-      },
-      {
-        "date": "2026-10-20",
-        "ticker": "AAPL",
-        "model_a": "Gemini",
-        "model_a_direction": "up",
-        "model_a_correct": false,
-        "model_b": "Perplexity",
-        "model_b_direction": "down",
-        "model_b_correct": true,
-        "winner": "Perplexity"
-      },
-      {
-        "date": "2026-10-20",
-        "ticker": "SPY",
-        "model_a": "Gemini",
-        "model_a_direction": "up",
-        "model_a_correct": false,
-        "model_b": "Perplexity",
-        "model_b_direction": "down",
-        "model_b_correct": true,
-        "winner": "Perplexity"
-      },
       {
         "date": "2026-10-20",
         "ticker": "SPY",
@@ -8939,6 +8942,50 @@
         "model_a_correct": false,
         "model_b": "Perplexity",
         "model_b_direction": "down",
+        "model_b_correct": true,
+        "winner": "Perplexity"
+      },
+      {
+        "date": "2026-10-26",
+        "ticker": "NVDA",
+        "model_a": "Grok",
+        "model_a_direction": "down",
+        "model_a_correct": false,
+        "model_b": "Perplexity",
+        "model_b_direction": "up",
+        "model_b_correct": true,
+        "winner": "Perplexity"
+      },
+      {
+        "date": "2026-10-26",
+        "ticker": "QQQ",
+        "model_a": "Grok",
+        "model_a_direction": "down",
+        "model_a_correct": false,
+        "model_b": "Perplexity",
+        "model_b_direction": "up",
+        "model_b_correct": true,
+        "winner": "Perplexity"
+      },
+      {
+        "date": "2026-10-26",
+        "ticker": "SPY",
+        "model_a": "Gemini",
+        "model_a_direction": "up",
+        "model_a_correct": true,
+        "model_b": "Grok",
+        "model_b_direction": "down",
+        "model_b_correct": false,
+        "winner": "Gemini"
+      },
+      {
+        "date": "2026-10-26",
+        "ticker": "SPY",
+        "model_a": "Grok",
+        "model_a_direction": "down",
+        "model_a_correct": false,
+        "model_b": "Perplexity",
+        "model_b_direction": "up",
         "model_b_correct": true,
         "winner": "Perplexity"
       }
