@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "model": "sonar-pro",
+  "model_display_name": "Perplexity",
+  "generated_at": "2026-10-27T07:50:00-04:00",
+  "market_context": "U.S. equity futures were broadly higher before the open, with S&P 500 and Nasdaq 100 futures up about 0.3% and Dow futures up 0.2% as investors awaited a heavy earnings slate.[2] AI-related optimism, including Anthropic's IPO filing and Nvidia's reported investment in Meta's equity offering, supported technology sentiment, while lower oil prices provided an additional risk-on impulse.[4][6] The session remains vulnerable to volatility because investors are also awaiting major economic data, a Federal Reserve decision, and large technology-company earnings.[10]",
+  "predictions": [
+    {
+      "id": "pred_perplexity_20261027_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 773.14,
+      "current_price_at_prediction": 770.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Index futures indicated an approximately 0.3% higher open, while Monday's S&P 500 advance and positive AI-related sentiment favored continuation of the near-term rebound.[2][8] Elevated yields and the busy earnings calendar limit conviction, so the forecast assumes only a modest gain of about 0.35% from the supplied baseline."
+    },
+    {
+      "id": "pred_perplexity_20261027_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 725.71,
+      "current_price_at_prediction": 721.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Nasdaq 100 futures were up roughly 0.3% premarket, and AI headlines helped the Nasdaq outperform on the prior session.[2][6][8] Nvidia-related strength and renewed enthusiasm around Anthropic's planned listing support a stronger technology bias, though major earnings can produce sharp reversals."
+    },
+    {
+      "id": "pred_perplexity_20261027_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 222.68,
+      "current_price_at_prediction": 218.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Nvidia gained 2.4% in the prior session as AI-related developments lifted large-cap technology stocks.[8] Reports that Nvidia would invest in Meta's equity offering and broader overnight AI optimism favor another positive session, with the target implying a controlled gain rather than a continuation of the full prior-day move.[4][6]"
+    },
+    {
+      "id": "pred_perplexity_20261027_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 634.54,
+      "current_price_at_prediction": 625.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Meta's reported plan to raise $95 billion to fund AI investment kept the AI trade in focus, and Nvidia's reported participation added a favorable industry signal.[6] The financing size also introduces execution and spending concerns, so the forecast is for a smaller gain of about 1.4% rather than an aggressive breakout."
+    }
+  ]
+}
