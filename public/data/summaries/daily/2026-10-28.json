@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T16:47:28.448562+00:00",
+  "headline": "13 AI market calls queued for 2026-10-28",
+  "summary": "13 predictions were generated across 8 tickers. This fallback summary was created automatically because the narrative summary model was unavailable.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Gemini",
+        "Grok",
+        "Perplexity"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models aligned on SPY up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": null,
+    "model_display_name": "Gemini",
+    "ticker": "MSFT",
+    "score": null,
+    "summary": "Highest-confidence call came from Gemini on MSFT."
+  },
+  "worst_call": {
+    "prediction_id": null,
+    "model_display_name": "Perplexity",
+    "ticker": "AMZN",
+    "score": null,
+    "summary": "Lowest-confidence call came from Perplexity on AMZN."
+  }
+}
