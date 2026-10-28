@@ -1,27 +1,7 @@
+import { ACTIVE_MODELS, WEB_SEARCH_LABELS } from '../data/useData'
+import SYSTEM_PROMPT from '../../scripts/prompts/prediction_system.txt?raw'
+import USER_PROMPT from '../../scripts/prompts/prediction_user.txt?raw'
 import styles from './Methodology.module.css'
-
-const SYSTEM_PROMPT = `You are a market analyst participating in a daily AI prediction experiment.
-Your task: Research current market conditions using your internet access,
-then make 3-5 specific, falsifiable stock market predictions for today.
-
-RULES:
-1. You MUST research current pre-market data, overnight futures, recent news,
-   and any relevant economic events before making predictions.
-2. Each prediction must include: ticker symbol, direction (up/down),
-   a specific target price, a timeframe, a confidence level (0.50-0.95),
-   and 2-3 sentences of reasoning.
-3. At least ONE prediction must be on a major index: SPY, QQQ, or DIA.
-4. Be honest about your confidence. 0.50 means you're guessing.
-   0.90+ means you see very strong signals.
-5. You are scored on accuracy. High-confidence wrong calls are penalized heavily.
-   Low-confidence correct calls earn little. Be calibrated.
-6. Your reasoning should reference specific data points, news, or technicals
-   you found during your research.
-
-Today's date: {date}
-Market opens at 9:30 AM ET.
-
-Respond with ONLY valid JSON in the exact schema provided.`
 
 export default function Methodology() {
   return (
@@ -36,14 +16,14 @@ export default function Methodology() {
         <h2 className={styles.h2}>Schedule</h2>
         <div className={styles.scheduleGrid}>
           <div className={styles.scheduleCard}>
-            <span className={styles.scheduleTime}>8:30 AM ET</span>
+            <span className={styles.scheduleTime}>Morning</span>
             <span className={styles.scheduleLabel}>Predictions Generated</span>
-            <p className={styles.scheduleDesc}>Each model receives the same base prompt and researches current market conditions before predicting.</p>
+            <p className={styles.scheduleDesc}>All {ACTIVE_MODELS.length} models are queried in parallel with the identical prompt. The live Yahoo Finance price of every ticker is recorded the moment each answer arrives.</p>
           </div>
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>5:30 PM ET</span>
             <span className={styles.scheduleLabel}>Predictions Scored</span>
-            <p className={styles.scheduleDesc}>Actual closing prices fetched via yfinance. All end-of-day predictions scored and leaderboard updated.</p>
+            <p className={styles.scheduleDesc}>Closing prices fetched via yfinance. Each call is scored on whether the close moved in the predicted direction from the recorded live price.</p>
           </div>
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>Saturday</span>
@@ -59,7 +39,7 @@ export default function Methodology() {
           <div className={styles.formula}>
             <span className={styles.formulaLine}><span className={styles.correct}>Direction correct:</span>  +1 × confidence</span>
             <span className={styles.formulaLine}><span className={styles.wrong}>Direction wrong:</span>    −1 × confidence</span>
-            <span className={styles.formulaLine}><span className={styles.bonus}>Bonus:</span>             +0.5 if actual close within 1% of target price</span>
+            <span className={styles.formulaLine}><span className={styles.bonus}>Bonus:</span>             +0.5 if direction correct and close within 1% of target</span>
           </div>
         </div>
         <div className={styles.examples}>
@@ -87,28 +67,28 @@ export default function Methodology() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.h2}>System Prompt</h2>
+        <h2 className={styles.h2}>Prompt</h2>
         <p className={styles.sectionDesc}>
-          All models receive the same base prompt. Each model&apos;s API is called with internet/search access enabled.
+          Every model receives exactly this prompt — the same files the automation reads.
+          The market data block is filled in with Yahoo Finance and FRED data each morning.
         </p>
         <pre className={styles.promptBlock}>{SYSTEM_PROMPT}</pre>
+        <pre className={styles.promptBlock}>{USER_PROMPT}</pre>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.h2}>API Configuration</h2>
+        <h2 className={styles.h2}>Model Configuration</h2>
+        <p className={styles.sectionDesc}>
+          Every model is called through OpenRouter with web search enabled. Models without a native search
+          tool research through OpenRouter&apos;s Exa search instead; the engine used is recorded on every prediction file.
+        </p>
         <div className={styles.apiGrid}>
-          {[
-            { model: 'Claude', api: 'Anthropic Messages API', search: 'web_search tool enabled', note: 'Anthropic\'s native web search tool' },
-            { model: 'Perplexity', api: 'Perplexity Chat Completions', search: 'Default (always on)', note: 'Sonar Pro searches by default' },
-            { model: 'Gemini', api: 'Google generateContent', search: 'google_search_retrieval grounding', note: 'Google Search grounding tool' },
-            { model: 'GPT-4o', api: 'OpenAI Chat Completions', search: 'web_search tool enabled', note: 'OpenAI\'s native web search tool' },
-            { model: 'Grok', api: 'xAI Chat Completions', search: 'Search enabled', note: 'Native X/Twitter + web access' },
-          ].map(api => (
-            <div key={api.model} className={styles.apiCard}>
-              <span className={styles.apiModel}>{api.model}</span>
-              <span className={styles.apiEndpoint}>{api.api}</span>
-              <span className={styles.apiSearch}>{api.search}</span>
-              <span className={styles.apiNote}>{api.note}</span>
+          {ACTIVE_MODELS.map(m => (
+            <div key={m.slug} className={styles.apiCard}>
+              <span className={styles.apiModel} style={{ color: m.color }}>{m.display_name}</span>
+              <span className={styles.apiEndpoint}>{m.openrouter_model}</span>
+              <span className={styles.apiSearch}>{WEB_SEARCH_LABELS[m.web_search] || m.web_search}</span>
+              <span className={styles.apiNote}>{m.org}</span>
             </div>
           ))}
         </div>
@@ -117,9 +97,10 @@ export default function Methodology() {
       <section className={styles.section}>
         <h2 className={styles.h2}>Market Data</h2>
         <p className={styles.sectionDesc}>
-          Actual closing prices are fetched via <code className={styles.code}>yfinance</code>,
-          the Yahoo Finance Python library, run after market close at 5:30 PM ET.
-          Only officially listed tickers are used. Data is cached to prevent duplicate fetches.
+          Prices come from <code className={styles.code}>yfinance</code>, the Yahoo Finance Python library.
+          The baseline for each call is the live price recorded when the model answered, not the price the
+          model reports, so stale or invented prices can&apos;t inflate a score and a late morning run is still fair.
+          Closing prices are fetched after the 4:00 PM ET close.
         </p>
       </section>
 
@@ -129,7 +110,7 @@ export default function Methodology() {
           <p>⚠️ This is a personal experiment and art project. Nothing here constitutes financial advice.</p>
           <ul className={styles.disclaimerList}>
             <li>Models may have knowledge of their own training data which could bias predictions.</li>
-            <li>Internet access quality varies between APIs — some may get better real-time data.</li>
+            <li>Search quality varies — native provider search and Exa search can surface different sources.</li>
             <li>The scoring period is short — accuracy statistics have high variance with small sample sizes.</li>
             <li>Market prediction is hard. Even with perfect information, predicting short-term price movements is extremely difficult.</li>
             <li>The interesting result is the relative comparison between models, not the absolute performance.</li>

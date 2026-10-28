@@ -14,6 +14,9 @@ log = get_logger("analytics")
 
 INDEX_TICKERS = {"SPY", "QQQ", "DIA"}
 MIN_TICKER_PREDICTIONS = 3
+MAX_COMMITTEE_SIZE = 4
+MIN_COMMITTEE_SIGNALS = 10   # below this a committee's record is too thin to rank
+TOP_COMMITTEES = 25
 
 
 def ticker_group(ticker):
@@ -338,6 +341,98 @@ def compute_head_to_head(results):
     return {"records": records, "recent_clashes": decisive}
 
 
+def directional_return_pct(r):
+    """% move from baseline to close, signed so a correct call is positive."""
+    base = r.get("baseline_price")
+    close = r.get("actual_close")
+    if not base or close is None:
+        return None
+    move = (close - base) / base * 100
+    return move if r["predicted_direction"] == "up" else -move
+
+
+def wilson_lower_bound(correct, total, z=1.96):
+    """Conservative accuracy estimate: penalizes small samples."""
+    if total == 0:
+        return 0.0
+    p = correct / total
+    denom = 1 + z * z / total
+    centre = p + z * z / (2 * total)
+    margin = z * ((p * (1 - p) + z * z / (4 * total)) / total) ** 0.5
+    return (centre - margin) / denom
+
+
+def compute_trading(results):
+    """Trading-relevant stats per model, and the best agreeing committees.
+
+    A committee is a set of models. It "signals" on a (date, ticker) when every
+    member predicted that ticker in the same direction. The signal is correct
+    when most members' calls were correct, and its return is the average of
+    the members' directional returns.
+    """
+    per_model = defaultdict(lambda: {"predictions": 0, "correct": 0, "returns": [], "brier": 0.0})
+    calls = defaultdict(dict)  # (date, ticker) -> model -> result
+    for r in results:
+        m = per_model[r["model_display_name"]]
+        m["predictions"] += 1
+        m["correct"] += int(r["direction_correct"])
+        m["brier"] += (r["confidence_at_prediction"] - int(r["direction_correct"])) ** 2
+        ret = directional_return_pct(r)
+        if ret is not None:
+            m["returns"].append(ret)
+        calls[(r["date"], r["ticker"])][r["model_display_name"]] = r
+
+    models_out = []
+    for model, m in sorted(per_model.items()):
+        rets = m["returns"]
+        models_out.append({
+            "model": model,
+            "predictions": m["predictions"],
+            "accuracy": round(m["correct"] / m["predictions"], 4),
+            "accuracy_lower_bound": round(wilson_lower_bound(m["correct"], m["predictions"]), 4),
+            "brier_score": round(m["brier"] / m["predictions"], 4),
+            "avg_return_pct": round(sum(rets) / len(rets), 4) if rets else None,
+            "total_return_pct": round(sum(rets), 2) if rets else None,
+        })
+
+    days = len({r["date"] for r in results})
+    all_models = sorted(per_model)
+    committees = []
+    for size in range(1, min(MAX_COMMITTEE_SIZE, len(all_models)) + 1):
+        for members in combinations(all_models, size):
+            signals = correct = 0
+            rets = []
+            for by_model in calls.values():
+                picks = [by_model.get(mb) for mb in members]
+                if None in picks or len({p["predicted_direction"] for p in picks}) != 1:
+                    continue
+                signals += 1
+                if sum(p["direction_correct"] for p in picks) * 2 > len(picks):
+                    correct += 1
+                member_rets = [x for x in (directional_return_pct(p) for p in picks) if x is not None]
+                if member_rets:
+                    rets.append(sum(member_rets) / len(member_rets))
+            if signals < MIN_COMMITTEE_SIGNALS:
+                continue
+            committees.append({
+                "models": list(members),
+                "size": size,
+                "signals": signals,
+                "signals_per_day": round(signals / days, 2) if days else 0,
+                "correct": correct,
+                "accuracy": round(correct / signals, 4),
+                "accuracy_lower_bound": round(wilson_lower_bound(correct, signals), 4),
+                "avg_return_pct": round(sum(rets) / len(rets), 4) if rets else None,
+            })
+
+    committees.sort(key=lambda c: (c["accuracy_lower_bound"], c["avg_return_pct"] or 0), reverse=True)
+    return {
+        "models": models_out,
+        "committees": committees[:TOP_COMMITTEES],
+        "min_committee_signals": MIN_COMMITTEE_SIGNALS,
+    }
+
+
 def main():
     log.info("Loading scored predictions...")
     results = load_all_scores()
@@ -362,6 +457,7 @@ def main():
         "herding": compute_herding(results),
         "time_series": compute_time_series(results),
         "head_to_head": compute_head_to_head(results),
+        "trading": compute_trading(results),
     }
 
     out_path = DATA_DIR / "analytics.json"

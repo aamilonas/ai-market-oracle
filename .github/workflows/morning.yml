@@ -2,19 +2,25 @@ name: Morning — Generate Predictions
 
 on:
   schedule:
-    # 10:30 UTC = 6:30 AM EDT — scheduled early to absorb GitHub Actions
-    # cron delays (typically 2-3 hours), targeting ~8:30-9:30 AM ET actual run.
-    - cron: '30 10 * * 1-5'
+    # 10:07 UTC = 6:07 AM EDT / 5:07 AM EST. Scheduled early and off the
+    # top of the hour because GitHub delays busy cron slots by hours.
+    # Late runs are still scored fairly: the live price at prediction time
+    # is the baseline.
+    - cron: '7 10 * * 1-5'
   workflow_dispatch:
     inputs:
       date:
         description: 'Date to generate predictions for (YYYY-MM-DD, default: today)'
         required: false
       models:
-        description: 'Comma-separated model slugs (default: all)'
+        description: 'Comma-separated model slugs from models.json (default: all active)'
         required: false
       overwrite:
         description: 'Overwrite existing prediction files for the selected date'
+        required: false
+        type: boolean
+      dry_run:
+        description: 'Call the models and show results without saving or committing'
         required: false
         type: boolean
 
@@ -54,11 +60,7 @@ jobs:
         id: generate
         working-directory: scripts
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
-          GOOGLE_GEMINI_API_KEY: ${{ secrets.GOOGLE_GEMINI_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
@@ -67,33 +69,34 @@ jobs:
           if [ -n "$DATE" ]; then ARGS="$ARGS --date $DATE"; fi
           if [ -n "$MODELS" ]; then ARGS="$ARGS --models $MODELS"; fi
           if [ "${{ github.event.inputs.overwrite || 'false' }}" = "true" ]; then ARGS="$ARGS --overwrite"; fi
+          if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           python generate.py $ARGS
 
       - name: Generate daily summary
         id: daily_summary
+        if: github.event.inputs.dry_run != 'true'
         continue-on-error: true
         working-directory: scripts
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
           ARGS=""
           if [ -n "$DATE" ]; then ARGS="--date $DATE"; fi
           python summarize.py --daily $ARGS
 
-      - name: Sync data to public (ensure latest)
-        run: |
-          mkdir -p public/data
-          cp -r data/predictions public/data/
-          cp -r data/summaries public/data/
-          cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
-          cp data/simulator.json public/data/simulator.json 2>/dev/null || true
-          cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
+      - name: Update leaderboard participation
+        if: github.event.inputs.dry_run != 'true'
+        run: python -c "import sys; sys.path.insert(0, 'scripts'); from score import update_leaderboard; update_leaderboard()"
+
+      - name: Sync data to public
+        run: rm -rf public/data && cp -r data public/data
 
       - name: Build frontend
         run: npm run build
 
       - name: Commit and push
+        if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "AI Market Oracle Bot"
           git config user.email "bot@ai-market-oracle.github.io"

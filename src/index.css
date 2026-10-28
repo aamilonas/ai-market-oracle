@@ -9,12 +9,7 @@
   --text-secondary: #888888;
   --text-muted: #555555;
 
-  /* Model colors */
-  --color-claude: #E07A3A;
-  --color-perplexity: #20B2AA;
-  --color-gemini: #4285F4;
-  --color-gpt4o: #10A37F;
-  --color-grok: #C0C0C0;
+  /* Model colors live in models.json */
 
   /* Status colors */
   --color-up: #22c55e;

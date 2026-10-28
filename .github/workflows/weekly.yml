@@ -9,6 +9,10 @@ on:
       week:
         description: 'Week string (e.g. 2025-W08, default: last completed week)'
         required: false
+      force:
+        description: 'Regenerate even if the report already exists'
+        required: false
+        type: boolean
 
 permissions:
   contents: write
@@ -47,18 +51,16 @@ jobs:
         continue-on-error: true
         working-directory: scripts
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           WEEK="${{ github.event.inputs.week || '' }}"
           ARGS=""
           if [ -n "$WEEK" ]; then ARGS="--week $WEEK"; fi
+          if [ "${{ github.event.inputs.force || 'false' }}" = "true" ]; then ARGS="$ARGS --force"; fi
           python summarize.py --weekly $ARGS
 
       - name: Sync data to public
-        run: |
-          mkdir -p public/data/summaries/weekly
-          cp -r data/summaries/weekly public/data/summaries/
-          cp data/weeks-index.json public/data/weeks-index.json 2>/dev/null || true
+        run: rm -rf public/data && cp -r data public/data
 
       - name: Build frontend
         run: npm run build

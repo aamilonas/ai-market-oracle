@@ -161,8 +161,7 @@ def get_market_context() -> str:
             lines.append(f"  {t}: ${price:,.2f}{pct_str}")
 
     lines.append("")
-    lines.append("IMPORTANT: Use these prices as your 'current_price_at_prediction' values.")
-    lines.append("Do NOT hallucinate prices — these are real data from Yahoo Finance.")
+    lines.append("These are real Yahoo Finance prices. Use them as reference; do not invent prices.")
     lines.append("===")
 
     context = "\n".join(lines)
@@ -173,7 +172,7 @@ def get_market_context() -> str:
 def get_current_price(ticker: str) -> Optional[float]:
     """Get the most recent price (for use at prediction time to fill current_price)."""
     try:
-        t = yf.Ticker(ticker)
+        t = yf.Ticker(YFINANCE_TICKER_ALIASES.get(ticker, ticker))
         info = t.fast_info
         price = info.last_price
         if price and price > 0:

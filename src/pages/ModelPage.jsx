@@ -1,57 +1,41 @@
 import { useState, useEffect } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import PredictionCard from '../components/PredictionCard'
-import { loadLeaderboard, loadPredictions, loadScores, loadTodaysWinner, getTodayDate, MODEL_COLORS } from '../data/useData'
+import { loadLeaderboard, loadPredictions, loadScores, loadTodaysWinner, loadAnalytics, getTodayDate, MODEL_BY_SLUG, emptyModelStats } from '../data/useData'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts'
 import styles from './ModelPage.module.css'
 
-const MODEL_DESCRIPTIONS = {
-  claude: 'Powered by Anthropic\'s Claude with web search. Tends toward methodical, data-driven analysis. Favors calibrated confidence over bold calls. Claude rarely exceeds 80% confidence and shows strong Brier score calibration.',
-  perplexity: 'Uses Perplexity Sonar Pro with real-time web search. Often surfaces data others miss. Strong on macro context and sector analysis. Perplexity\'s search-first approach gives it an edge on news-driven events.',
-  gemini: 'Google Gemini with Search grounding. Draws on Google\'s vast search index for real-time data. Strong pattern recognition across sectors. High conviction on post-earnings calls.',
-  'gpt-4o': 'OpenAI\'s GPT-4o with web browsing. Comprehensive analysis style. Strong fundamental reasoning with balanced risk assessment. GPT-4o favors consensus views but adjusts when data disagrees.',
-  grok: 'xAI\'s Grok with native X/Twitter access. Unique sentiment signal from social data. Contrarian streak — fades retail consensus positions. Uses options flow data and short interest to supplement analysis.',
-}
-
-function normalizeModelRoute(name) {
-  return name === 'gpt4o' ? 'gpt-4o' : name
-}
-
 export default function ModelPage() {
-  const { name } = useParams()
+  const { name: slug } = useParams()
+  const config = MODEL_BY_SLUG[slug]
   const [model, setModel] = useState(null)
+  const [trading, setTrading] = useState(null)
   const [predData, setPredData] = useState(null)
   const [scores, setScores] = useState(null)
   const [loading, setLoading] = useState(true)
   const [activeDate, setActiveDate] = useState(null)
 
-  const normalizedName = normalizeModelRoute(name)
-  const slug = normalizedName === 'gpt-4o' ? 'gpt4o' : normalizedName
-
   const today = getTodayDate()
 
   useEffect(() => {
+    if (!config) { setLoading(false); return }
     async function load() {
       try {
-        const [lb, winnerData] = await Promise.all([
-          loadLeaderboard(),
+        const [lb, winnerData, analytics] = await Promise.all([
+          loadLeaderboard().catch(() => null),
           loadTodaysWinner().catch(() => null),
+          loadAnalytics().catch(() => null),
         ])
         const latestDate = winnerData?.date || today
         const [pd, sc] = await Promise.all([
           loadPredictions(latestDate, slug).catch(() => null),
           loadScores(latestDate).catch(() => null),
         ])
-        const found = lb.models.find(
-          m => m.model_display_name.toLowerCase() === normalizedName ||
-               m.model_display_name.toLowerCase().replace('-', '') === normalizedName.replace('-', '')
-        )
-        if (found) {
-          found.color = found.color || MODEL_COLORS[found.model_display_name] || '#888'
-        }
-        setModel(found)
+        const stats = lb?.models?.find(m => m.slug === slug) || emptyModelStats(config)
+        setModel({ ...stats, color: config.color })
+        setTrading(analytics?.trading?.models?.find(m => m.model === config.display_name) || null)
         setPredData(pd)
         setScores(sc)
         setActiveDate(latestDate)
@@ -60,10 +44,12 @@ export default function ModelPage() {
       }
     }
     load()
-  }, [normalizedName, slug, today])
+  }, [slug, config, today])
 
   if (loading) return <div className={styles.loading}>Loading...</div>
-  if (!model) return <div className={styles.loading}>Model not found.</div>
+  if (!config || !model) return <div className={styles.loading}>Model not found.</div>
+
+  const hasHistory = model.total_predictions > 0
 
   const scoreMap = {}
   scores?.results?.forEach(r => { scoreMap[r.prediction_id] = r })
@@ -80,7 +66,6 @@ export default function ModelPage() {
     }
   }) ?? []
 
-  const desc = MODEL_DESCRIPTIONS[normalizedName] || ''
 
   return (
     <div className={styles.page}>
@@ -90,7 +75,7 @@ export default function ModelPage() {
         <span className={styles.dot} style={{ background: model.color }} />
         <div>
           <h1 className={styles.title}>{model.model_display_name}</h1>
-          <p className={styles.modelId}>{model.model_id}</p>
+          <p className={styles.modelId}>{config.org} · {model.model_id}</p>
         </div>
         <div className={styles.bigScore} style={{ color: model.color }}>
           <span className={styles.bigScoreLabel}>Total Score</span>
@@ -100,15 +85,22 @@ export default function ModelPage() {
         </div>
       </div>
 
-      <p className={styles.description}>{desc}</p>
+      <p className={styles.description}>
+        {config.description}
+        {!config.active && ' This model is retired; its record is kept for comparison.'}
+      </p>
 
       {/* Stats row */}
       <div className={styles.statsRow}>
         {[
-          { label: 'Direction Accuracy', value: `${(model.direction_accuracy * 100).toFixed(1)}%` },
+          { label: 'Direction Accuracy', value: hasHistory ? `${(model.direction_accuracy * 100).toFixed(1)}%` : '—' },
+          { label: 'Avg Points / Pick', value: hasHistory ? `${model.avg_score >= 0 ? '+' : ''}${model.avg_score.toFixed(3)}` : '—' },
+          { label: 'Avg Return / Call', value: trading?.avg_return_pct != null ? `${trading.avg_return_pct >= 0 ? '+' : ''}${trading.avg_return_pct.toFixed(2)}%` : '—' },
+          { label: 'Brier Score', value: trading ? trading.brier_score.toFixed(3) : '—' },
           { label: 'Total Predictions', value: model.total_predictions },
-          { label: 'Avg Confidence', value: `${(model.avg_confidence * 100).toFixed(0)}%` },
-          { label: 'Current Streak', value: (model.current_streak >= 0 ? '+' : '') + model.current_streak },
+          { label: 'Days Predicted', value: model.days_predicted ?? '—' },
+          { label: 'Avg Confidence', value: hasHistory ? `${(model.avg_confidence * 100).toFixed(0)}%` : '—' },
+          { label: 'Current Streak', value: (model.current_streak > 0 ? '+' : '') + model.current_streak },
           { label: 'Best Streak', value: '+' + model.best_streak },
           { label: 'Worst Streak', value: model.worst_streak },
         ].map(({ label, value }) => (
@@ -139,6 +131,12 @@ export default function ModelPage() {
             </ResponsiveContainer>
           </div>
         </section>
+      )}
+
+      {!hasHistory && !predData && (
+        <p className={styles.context}>
+          No predictions scored yet. This model&apos;s record starts with its first morning run.
+        </p>
       )}
 
       {/* Today's predictions */}

@@ -4,6 +4,8 @@
  * In dev, Vite serves them from /data/ via the publicDir.
  */
 
+import MODELS_REGISTRY from '../../models.json'
+
 const BASE = import.meta.env.BASE_URL
 
 async function fetchJSON(path) {
@@ -52,27 +54,49 @@ export function getTodayDate() {
   return new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' })
 }
 
-export const MODEL_NAMES = ['claude', 'perplexity', 'gemini', 'gpt4o', 'grok']
-
-export const MODEL_DISPLAY_MAP = {
-  claude: 'Claude',
-  perplexity: 'Perplexity',
-  gemini: 'Gemini',
-  gpt4o: 'GPT-4o',
-  grok: 'Grok',
+export async function loadRun(date) {
+  return fetchJSON(`data/runs/${date}.json`)
 }
 
-export const MODEL_COLORS = {
-  Claude: '#E07A3A',
-  Perplexity: '#20B2AA',
-  Gemini: '#4285F4',
-  'GPT-4o': '#10A37F',
-  Grok: '#C0C0C0',
+// Single source of truth for the model lineup, shared with the Python scripts.
+export const MODELS = MODELS_REGISTRY
+export const ACTIVE_MODELS = MODELS.filter(m => m.active !== false)
+export const MODEL_NAMES = ACTIVE_MODELS.map(m => m.slug)
+
+export const MODEL_BY_SLUG = Object.fromEntries(MODELS.map(m => [m.slug, m]))
+
+export const MODEL_COLORS = Object.fromEntries(MODELS.map(m => [m.display_name, m.color]))
+
+export const WEB_SEARCH_LABELS = {
+  native: "Provider's native web search",
+  built_in: 'Always-on search (built into the model)',
+  exa: 'Exa web search via OpenRouter',
 }
 
 export function enrichModelsWithColors(models) {
   return models.map(m => ({
     ...m,
-    color: m.color || MODEL_COLORS[m.model_display_name] || '#888',
+    color: m.color || MODEL_BY_SLUG[m.slug]?.color || MODEL_COLORS[m.model_display_name] || '#888',
   }))
+}
+
+// A leaderboard row with zero history, for models that haven't been scored yet.
+export function emptyModelStats(model) {
+  return {
+    slug: model.slug,
+    model_id: model.openrouter_model,
+    model_display_name: model.display_name,
+    active: model.active !== false,
+    total_predictions: 0,
+    correct_directions: 0,
+    direction_accuracy: 0,
+    total_score: 0,
+    avg_score: 0,
+    avg_confidence: 0,
+    days_predicted: 0,
+    current_streak: 0,
+    best_streak: 0,
+    worst_streak: 0,
+    weekly_scores: [],
+  }
 }

@@ -56,7 +56,7 @@ jobs:
         id: daily_summary
         continue-on-error: true
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
           ARGS="--force"
@@ -69,14 +69,7 @@ jobs:
         run: python scripts/analytics.py
 
       - name: Sync data to public
-        run: |
-          mkdir -p public/data/scores public/data/summaries/daily
-          cp -r data/scores public/data/ 2>/dev/null || true
-          cp -r data/summaries/daily public/data/summaries/ 2>/dev/null || true
-          cp data/leaderboard.json public/data/leaderboard.json 2>/dev/null || true
-          cp data/simulator.json public/data/simulator.json 2>/dev/null || true
-          cp data/winner-today.json public/data/winner-today.json 2>/dev/null || true
-          cp data/analytics.json public/data/analytics.json 2>/dev/null || true
+        run: rm -rf public/data && cp -r data public/data
 
       - name: Build frontend
         run: npm run build

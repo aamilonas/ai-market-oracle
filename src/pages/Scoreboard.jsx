@@ -34,6 +34,7 @@ export default function Scoreboard() {
           <h1 className={styles.title}>Scoreboard</h1>
           <p className={styles.sub}>
             Updated after market close each weekday. Scores weighted by confidence.
+            {models.every(m => m.total_predictions === 0) && ' No predictions have been scored yet — the first results arrive after the next market close.'}
           </p>
         </div>
         <span className={styles.updated}>
@@ -69,7 +70,7 @@ export default function Scoreboard() {
             </thead>
             <tbody>
               {models.map(model => (
-                <tr key={model.model_display_name} className={styles.tr}>
+                <tr key={model.slug || model.model_display_name} className={styles.tr}>
                   <td className={styles.td}>
                     <div className={styles.modelCell}>
                       <span className={styles.modelDot} style={{ background: model.color }} />

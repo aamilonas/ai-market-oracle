@@ -55,6 +55,20 @@ export default function LeaderboardTable({ models, compact = false }) {
               <>
                 <th
                   className={[styles.th, styles.sortable].join(' ')}
+                  onClick={() => handleSort('avg_score')}
+                  title="Average points per prediction — fair across models with different prediction counts"
+                >
+                  Avg / pick<SortIcon k="avg_score" />
+                </th>
+                <th
+                  className={[styles.th, styles.sortable].join(' ')}
+                  onClick={() => handleSort('days_predicted')}
+                  title="Trading days this model successfully submitted predictions"
+                >
+                  Days<SortIcon k="days_predicted" />
+                </th>
+                <th
+                  className={[styles.th, styles.sortable].join(' ')}
                   onClick={() => handleSort('total_predictions')}
                 >
                   Predictions<SortIcon k="total_predictions" />
@@ -72,12 +86,12 @@ export default function LeaderboardTable({ models, compact = false }) {
         </thead>
         <tbody>
           {sorted.map((model, i) => (
-            <tr key={model.model_display_name} className={styles.row}>
+            <tr key={model.slug || model.model_display_name} className={styles.row}>
               <td className={styles.td}>
                 <span className={styles.rank}>{i + 1}</span>
               </td>
               <td className={styles.td}>
-                <NavLink to={`/model/${model.model_display_name.toLowerCase()}`} className={styles.modelLink}>
+                <NavLink to={`/model/${model.slug}`} className={styles.modelLink}>
                   <span
                     className={styles.modelDot}
                     style={{ background: model.color }}
@@ -92,7 +106,7 @@ export default function LeaderboardTable({ models, compact = false }) {
               </td>
               <td className={styles.td}>
                 <div className={styles.accuracyCell}>
-                  <span className="mono">{(model.direction_accuracy * 100).toFixed(1)}%</span>
+                  <span className="mono">{model.total_predictions ? `${(model.direction_accuracy * 100).toFixed(1)}%` : '—'}</span>
                   <div className={styles.accuracyBar}>
                     <div
                       className={styles.accuracyFill}
@@ -107,10 +121,18 @@ export default function LeaderboardTable({ models, compact = false }) {
               {!compact && (
                 <>
                   <td className={styles.td}>
+                    <span className="mono">
+                      {model.total_predictions ? `${model.avg_score >= 0 ? '+' : ''}${model.avg_score.toFixed(3)}` : '—'}
+                    </span>
+                  </td>
+                  <td className={styles.td}>
+                    <span className="mono">{model.days_predicted ?? '—'}</span>
+                  </td>
+                  <td className={styles.td}>
                     <span className="mono">{model.total_predictions}</span>
                   </td>
                   <td className={styles.td}>
-                    <span className="mono">{(model.avg_confidence * 100).toFixed(0)}%</span>
+                    <span className="mono">{model.total_predictions ? `${(model.avg_confidence * 100).toFixed(0)}%` : '—'}</span>
                   </td>
                   <td className={styles.td}>
                     <StreakBadge streak={model.current_streak} />

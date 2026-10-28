@@ -4,55 +4,8 @@ import PredictionCard from '../components/PredictionCard'
 import LeaderboardTable from '../components/LeaderboardTable'
 import ConsensusHighlight from '../components/ConsensusHighlight'
 import TodaysWinner from '../components/TodaysWinner'
-import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, loadTodaysWinner, MODEL_NAMES, MODEL_DISPLAY_MAP, MODEL_COLORS, getTodayDate } from '../data/useData'
+import { loadLeaderboard, loadPredictions, loadScores, loadDailySummary, loadTodaysWinner, loadRun, ACTIVE_MODELS, MODEL_NAMES, MODEL_BY_SLUG, getTodayDate } from '../data/useData'
 import styles from './Home.module.css'
-
-const EXCLUDED_TICKERS = new Set(['SPY', 'QQQ', 'DIA', 'VIX', 'IWM'])
-
-function computeWinner(predictionsMap) {
-  const groups = {}
-  for (const [, data] of Object.entries(predictionsMap)) {
-    const modelName = data.model_display_name
-    for (const pred of data.predictions || []) {
-      if (EXCLUDED_TICKERS.has(pred.ticker)) continue
-      if (pred.ticker?.endsWith('-USD')) continue
-      if (!pred.target_price || !pred.current_price_at_prediction) continue
-      const key = `${pred.ticker}|${pred.direction}`
-      if (!groups[key]) groups[key] = []
-      groups[key].push({ model: modelName, confidence: pred.confidence, target: pred.target_price, entry: pred.current_price_at_prediction })
-    }
-  }
-  let best = null
-  for (const [key, picks] of Object.entries(groups)) {
-    if (picks.length < 3) continue
-    const [ticker, direction] = key.split('|')
-    const avgConf = picks.reduce((s, p) => s + p.confidence, 0) / picks.length
-    const avgTarget = picks.reduce((s, p) => s + p.target, 0) / picks.length
-    const avgEntry = picks.reduce((s, p) => s + p.entry, 0) / picks.length
-    if (avgEntry === 0) continue
-    const movePct = Math.abs((avgTarget - avgEntry) / avgEntry * 100)
-    const score = avgConf * movePct
-    const candidate = {
-      ticker, direction,
-      avg_confidence: Math.round(avgConf * 10000) / 10000,
-      avg_target: Math.round(avgTarget * 100) / 100,
-      avg_entry: Math.round(avgEntry * 100) / 100,
-      expected_move_pct: Math.round(movePct * 100) / 100,
-      score: Math.round(score * 10000) / 10000,
-      models: picks.map(p => p.model),
-      model_count: picks.length,
-      high_conviction: avgConf >= 0.85,
-    }
-    if (!best || candidate.score > best.score) best = candidate
-  }
-  return best
-}
-
-function resolveWinner(todaysWinner, predictions) {
-  if (todaysWinner?.winner) return todaysWinner.winner
-  if (Object.keys(predictions).length > 0) return computeWinner(predictions)
-  return null
-}
 
 export default function Home() {
   const [leaderboard, setLeaderboard] = useState(null)
@@ -60,6 +13,7 @@ export default function Home() {
   const [scores, setScores] = useState(null)
   const [dailySummary, setDailySummary] = useState(null)
   const [todaysWinner, setTodaysWinner] = useState(null)
+  const [run, setRun] = useState(null)
   const [loading, setLoading] = useState(true)
   const [activeDate, setActiveDate] = useState(null)
   const [horizontal, setHorizontal] = useState(() => {
@@ -76,13 +30,15 @@ export default function Home() {
           loadTodaysWinner().catch(() => null),
         ])
         const latestDate = tw?.date || today
-        const [sc, ds] = await Promise.all([
+        const [sc, ds, rn] = await Promise.all([
           loadScores(latestDate).catch(() => null),
           loadDailySummary(latestDate).catch(() => null),
+          loadRun(latestDate).catch(() => null),
         ])
         setLeaderboard(lb)
         setScores(sc)
         setDailySummary(ds)
+        setRun(rn)
         setTodaysWinner(tw)
         setActiveDate(latestDate)
 
@@ -109,6 +65,14 @@ export default function Home() {
   scores?.results?.forEach(r => { scoreMap[r.prediction_id] = r })
 
   const models = leaderboard?.models ?? []
+  const hasPredictions = Object.keys(predictions).length > 0
+  const missingModels = hasPredictions
+    ? MODEL_NAMES.filter(slug => !predictions[slug]).map(slug => ({
+        slug,
+        name: MODEL_BY_SLUG[slug].display_name,
+        error: run?.models?.[slug]?.error,
+      }))
+    : []
 
   return (
     <div className={styles.page}>
@@ -116,7 +80,7 @@ export default function Home() {
       <section className={styles.hero}>
         <h1 className={styles.title}>AI Market Oracle</h1>
         <p className={styles.tagline}>
-          Which AI sees the market clearest? A daily experiment — five models, real predictions, real scores.
+          Which AI sees the market clearest? A daily experiment — {ACTIVE_MODELS.length} models, real predictions, real scores.
         </p>
         {dailySummary && (
           <div className={styles.dailyHeadline}>
@@ -127,7 +91,9 @@ export default function Home() {
       </section>
 
       {/* Today's Winner */}
-      <TodaysWinner winner={resolveWinner(todaysWinner, predictions)} />
+      {hasPredictions && (
+        <TodaysWinner winner={todaysWinner?.winner} minModels={todaysWinner?.min_models} />
+      )}
 
       {/* Layout toggle */}
       {(() => {
@@ -155,13 +121,28 @@ export default function Home() {
           </button>
         )
 
-        const predictionsBlock = (
+        const predictionsBlock = !hasPredictions ? (
+          <div className={styles.emptyState}>
+            No predictions for {activeDate || today} yet. All {ACTIVE_MODELS.length} models are queried
+            each weekday morning, and results appear here once the run finishes.
+          </div>
+        ) : (
           <div className={horizontal ? styles.modelSectionsHorizontal : styles.modelSections}>
+            {missingModels.length > 0 && (
+              <div className={styles.missingNote}>
+                <span className={styles.missingLabel}>No predictions today:</span>{' '}
+                {missingModels.map((m, i) => (
+                  <span key={m.slug} title={m.error || 'Model failed to respond'}>
+                    {i > 0 && ', '}{m.name}
+                  </span>
+                ))}
+              </div>
+            )}
             {MODEL_NAMES.map(slug => {
               const predData = predictions[slug]
               if (!predData) return null
-              const displayName = MODEL_DISPLAY_MAP[slug]
-              const color = MODEL_COLORS[displayName]
+              const displayName = MODEL_BY_SLUG[slug].display_name
+              const color = MODEL_BY_SLUG[slug].color
               return (
                 <div key={slug} className={horizontal ? styles.modelSectionHorizontal : styles.modelSection}>
                   <div className={styles.modelHeader}>

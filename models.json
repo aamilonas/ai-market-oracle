@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "claude-sonnet-5-5",
+    "display_name": "Claude Sonnet 5.5",
+    "org": "Anthropic",
+    "openrouter_model": "anthropic/claude-sonnet-5.5",
+    "web_search": "native",
+    "color": "#E07A3A",
+    "active": true,
+    "description": "Anthropic's mid-tier Claude model, researching with Anthropic's native web search."
+  },
+  {
+    "slug": "gpt-5-6-terra",
+    "display_name": "GPT-5.6 Terra",
+    "org": "OpenAI",
+    "openrouter_model": "openai/gpt-5.6-terra",
+    "web_search": "native",
+    "color": "#10A37F",
+    "active": true,
+    "description": "OpenAI's mid-tier GPT-5.6 model, researching with OpenAI's native web search."
+  },
+  {
+    "slug": "gemini-3-8-flash",
+    "display_name": "Gemini 3.8 Flash",
+    "org": "Google",
+    "openrouter_model": "google/gemini-3.8-flash",
+    "web_search": "native",
+    "color": "#4285F4",
+    "active": true,
+    "description": "Google's Gemini Flash model, researching with Google Search grounding."
+  },
+  {
+    "slug": "grok-4-7",
+    "display_name": "Grok 4.7",
+    "org": "xAI",
+    "openrouter_model": "x-ai/grok-4.7",
+    "web_search": "native",
+    "color": "#C0C0C0",
+    "active": true,
+    "description": "xAI's Grok model, researching with xAI's native search."
+  },
+  {
+    "slug": "sonar-pro",
+    "display_name": "Perplexity Sonar Pro",
+    "org": "Perplexity",
+    "openrouter_model": "perplexity/sonar-pro",
+    "web_search": "built_in",
+    "color": "#20B2AA",
+    "active": true,
+    "description": "Perplexity's search-first model. Every request is grounded in a live web search."
+  },
+  {
+    "slug": "deepseek-v4-pro",
+    "display_name": "DeepSeek V4 Pro",
+    "org": "DeepSeek",
+    "openrouter_model": "deepseek/deepseek-v4-pro",
+    "web_search": "exa",
+    "color": "#8B6CFF",
+    "active": true,
+    "description": "DeepSeek's open-weight flagship. No native search, so it researches through OpenRouter's Exa web search."
+  },
+  {
+    "slug": "kimi-k3-1-pro",
+    "display_name": "Kimi K3.1 Pro",
+    "org": "Moonshot AI",
+    "openrouter_model": "moonshotai/kimi-k3.1-pro",
+    "web_search": "exa",
+    "color": "#F5C542",
+    "active": true,
+    "description": "Moonshot AI's Kimi model. No native search, so it researches through OpenRouter's Exa web search."
+  },
+  {
+    "slug": "hermes-4-405b",
+    "display_name": "Hermes 4 405B",
+    "org": "Nous Research",
+    "openrouter_model": "nousresearch/hermes-4-405b",
+    "web_search": "exa",
+    "color": "#E0559A",
+    "active": true,
+    "description": "Nous Research's open-weight Hermes 4. No native search, so it researches through OpenRouter's Exa web search."
+  }
+]

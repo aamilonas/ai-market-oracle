@@ -1,3 +1,4 @@
+import { ACTIVE_MODELS } from '../data/useData'
 import styles from './About.module.css'
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
       <section className={styles.section}>
         <h2 className={styles.h2}>What is this?</h2>
         <p>
-          AI Market Oracle is a daily experiment that asks five different AI models —
+          AI Market Oracle is a daily experiment that asks {ACTIVE_MODELS.length} different AI models —
           each with internet access — to make specific, falsifiable stock market predictions
           every weekday before market open. After the closing bell, predictions are scored
           against real market data.
@@ -42,20 +43,14 @@ export default function About() {
       <section className={styles.section}>
         <h2 className={styles.h2}>Models Competing</h2>
         <div className={styles.modelList}>
-          {[
-            { name: 'Claude', color: '#E07A3A', model: 'claude-sonnet-4-20250514', org: 'Anthropic' },
-            { name: 'Perplexity', color: '#20B2AA', model: 'sonar-pro', org: 'Perplexity AI' },
-            { name: 'Gemini', color: '#4285F4', model: 'gemini-2.5-flash', org: 'Google DeepMind' },
-            { name: 'GPT-4o', color: '#10A37F', model: 'gpt-4o-search-preview', org: 'OpenAI' },
-            { name: 'Grok', color: '#C0C0C0', model: 'grok-3', org: 'xAI' },
-          ].map(m => (
-            <div key={m.name} className={styles.modelRow}>
+          {ACTIVE_MODELS.map(m => (
+            <div key={m.slug} className={styles.modelRow}>
               <span className={styles.modelDot} style={{ background: m.color }} />
               <div>
-                <span className={styles.modelName}>{m.name}</span>
+                <span className={styles.modelName}>{m.display_name}</span>
                 <span className={styles.modelOrg}>{m.org}</span>
               </div>
-              <span className={['mono', styles.modelId].join(' ')}>{m.model}</span>
+              <span className={['mono', styles.modelId].join(' ')}>{m.openrouter_model}</span>
             </div>
           ))}
         </div>
@@ -67,10 +62,11 @@ export default function About() {
           {[
             { label: 'Frontend', value: 'React + Vite, deployed to GitHub Pages' },
             { label: 'Automation', value: 'Python scripts via GitHub Actions (3 cron jobs)' },
+            { label: 'Model Access', value: 'OpenRouter — one API for every model' },
             { label: 'Data', value: 'JSON files committed directly to the repo — no database' },
-            { label: 'Market Data', value: 'yfinance (Yahoo Finance Python library)' },
+            { label: 'Market Data', value: 'yfinance (Yahoo Finance) and FRED macro indicators' },
             { label: 'Charts', value: 'Recharts' },
-            { label: 'Cost', value: '~$1-3/day across all API calls' },
+            { label: 'Cost', value: 'Logged per model in every prediction file' },
           ].map(s => (
             <div key={s.label} className={styles.stackRow}>
               <span className={styles.stackLabel}>{s.label}</span>

@@ -30,12 +30,15 @@ SCORES_DIR = DATA_DIR / "scores"
 SUMMARIES_DAILY_DIR = DATA_DIR / "summaries" / "daily"
 SUMMARIES_WEEKLY_DIR = DATA_DIR / "summaries" / "weekly"
 LEADERBOARD_FILE = DATA_DIR / "leaderboard.json"
+RUNS_DIR = DATA_DIR / "runs"
 PUBLIC_DATA_DIR = REPO_ROOT / "public" / "data"
+MODELS_FILE = REPO_ROOT / "models.json"
+PROMPTS_DIR = Path(__file__).parent / "prompts"
 
 
 def ensure_dirs():
     for d in [
-        PREDICTIONS_DIR, SCORES_DIR,
+        PREDICTIONS_DIR, SCORES_DIR, RUNS_DIR,
         SUMMARIES_DAILY_DIR, SUMMARIES_WEEKLY_DIR,
     ]:
         d.mkdir(parents=True, exist_ok=True)
@@ -76,8 +79,27 @@ def sync_to_public(src: Path):
     shutil.copy2(src, dst)
 
 
+# ── Model registry ─────────────────────────────────────────────────────────────
+def load_models(active_only: bool = False) -> list[dict]:
+    """Load the model registry (repo-root models.json) shared with the frontend."""
+    models = load_json(MODELS_FILE)
+    if active_only:
+        models = [m for m in models if m.get("active", True)]
+    return models
+
+
+def model_lookup() -> dict[str, dict]:
+    """Map OpenRouter model id, slug and display name to the registry entry."""
+    lookup = {}
+    for m in load_models():
+        for key in (m["openrouter_model"], m["slug"], m["display_name"]):
+            lookup[key] = m
+    return lookup
+
+
 # ── Schema validation ──────────────────────────────────────────────────────────
-ALLOWED_TIMEFRAMES = {"end_of_day", "end_of_week", "end_of_month"}
+# Only same-day calls are scored, so multi-day timeframes are rejected.
+ALLOWED_TIMEFRAMES = {"end_of_day"}
 ALLOWED_DIRECTIONS = {"up", "down"}
 MAJOR_INDICES = {"SPY", "QQQ", "DIA"}
 
@@ -136,6 +158,25 @@ def validate_prediction_payload(payload: dict, date_str: str, model_id: str) -> 
                     errors.append(f"{prefix}: {price_key} must be a number")
 
     return errors
+
+
+def clean_model_text(text: str) -> str:
+    """Strip search citations and formatting artifacts that corrupt JSON output.
+
+    Search-enabled models inject citation markers (【4:0†source】, [1]),
+    markdown links, control characters and thousands separators into the
+    JSON they return.
+    """
+    text = re.sub(r'【[^】]*】', '', text)
+    text = re.sub(r'\[([^\]]*)\]\(https?://[^)]*\)', r'\1', text)
+    text = re.sub(r'\[\d+\]', '', text)
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+    # 73,500.00 → 73500.00 (repeat to handle 1,234,567)
+    while True:
+        new = re.sub(r'(\d),(\d{3})(?!\d)', r'\1\2', text)
+        if new == text:
+            return text
+        text = new
 
 
 def extract_json_from_text(text: str) -> dict | None:

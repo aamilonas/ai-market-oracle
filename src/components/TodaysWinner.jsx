@@ -2,13 +2,13 @@ import { NavLink } from 'react-router-dom'
 import { MODEL_COLORS } from '../data/useData'
 import styles from './TodaysWinner.module.css'
 
-export default function TodaysWinner({ winner }) {
+export default function TodaysWinner({ winner, minModels = 4 }) {
   if (!winner) {
     return (
       <div className={styles.card}>
         <span className={styles.label}>TODAY&apos;S WINNER</span>
         <p className={styles.noConsensus}>No Consensus Today</p>
-        <p className={styles.noConsensusSub}>Fewer than 3 models agreed on any single stock pick.</p>
+        <p className={styles.noConsensusSub}>Fewer than {minModels} models agreed on any single stock pick.</p>
       </div>
     )
   }
@@ -34,7 +34,7 @@ export default function TodaysWinner({ winner }) {
         <span className={[styles.dirBadge, isUp ? styles.up : styles.down].join(' ')}>
           {isUp ? '▲' : '▼'} {winner.direction.toUpperCase()}
         </span>
-        <span className={styles.confidence}>{confPct}% avg confidence</span>
+        <span className={styles.confidence}>{confPct}% avg confidence · {winner.model_count} models agree</span>
       </div>
 
       <div className={styles.priceRow}>

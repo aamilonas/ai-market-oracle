@@ -1,0 +1,40 @@
+Current time: {{NOW_ET}} (US Eastern). Trading date: {{DATE}}.
+Regular session: 9:30 AM to 4:00 PM ET.
+
+{{MARKET_CONTEXT}}
+
+TASK
+Research futures and pre-market or intraday action, overnight and breaking news,
+and today's economic calendar. Then make 3-5 specific, falsifiable predictions
+about where prices will be at today's 4:00 PM ET close.
+
+RULES
+1. At least one prediction must be on SPY, QQQ, or DIA.
+2. Tickers must be Yahoo Finance symbols: US-listed stocks/ETFs, or crypto as SYMBOL-USD (e.g. BTC-USD).
+3. direction: "up" or "down", measured from the live price at the moment you predict.
+   That price is recorded automatically from Yahoo Finance when your answer arrives.
+4. target_price: the price you expect at today's close.
+5. timeframe: always "end_of_day".
+6. confidence: 0.50 (coin flip) to 0.95 (very strong signal).
+7. reasoning: 2-3 sentences citing specific data or news you found.
+
+SCORING
+- Direction correct: +confidence. Direction wrong: -confidence.
+- Bonus: +0.5 when the direction is correct and the close is within 1% of your target.
+High-confidence wrong calls cost the most. Be calibrated.
+
+Return ONLY this JSON:
+{
+  "market_context": "2-3 sentence summary of the conditions you found",
+  "predictions": [
+    {
+      "ticker": "SPY",
+      "direction": "up",
+      "target_price": 600.00,
+      "current_price_at_prediction": 598.00,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "2-3 sentences citing specific data"
+    }
+  ]
+}

@@ -21,6 +21,8 @@ from utils import (
     is_market_open,
     load_json,
     save_json,
+    load_models,
+    model_lookup,
     sync_to_public,
     today_et,
     PREDICTIONS_DIR,
@@ -85,11 +87,14 @@ def score_date(date_str: str) -> Optional[dict]:
             if pid in resolved_ids:
                 continue
             if pred.get("timeframe") != "end_of_day":
-                # End-of-week/month predictions scored on their respective day
                 log.info(f"Skipping {pid} (timeframe: {pred.get('timeframe')})")
+                continue
+            if not pred.get("current_price_at_prediction"):
+                log.warning(f"Skipping {pid}: no baseline price")
                 continue
             to_score.append({
                 "prediction": pred,
+                "slug": data.get("slug", pf.stem),
                 "model": data["model"],
                 "model_display_name": data["model_display_name"],
             })
@@ -116,11 +121,13 @@ def score_date(date_str: str) -> Optional[dict]:
             log.warning(f"No closing price for {ticker} — marking as unresolved")
             results.append({
                 "prediction_id": pred["id"],
+                "slug": item["slug"],
                 "model": item["model"],
                 "model_display_name": item["model_display_name"],
                 "ticker": ticker,
                 "predicted_direction": pred["direction"],
                 "predicted_target": pred["target_price"],
+                "baseline_price": pred["current_price_at_prediction"],
                 "actual_close": None,
                 "actual_direction": None,
                 "direction_correct": None,
@@ -141,11 +148,13 @@ def score_date(date_str: str) -> Optional[dict]:
 
         results.append({
             "prediction_id": pred["id"],
+            "slug": item["slug"],
             "model": item["model"],
             "model_display_name": item["model_display_name"],
             "ticker": ticker,
             "predicted_direction": pred["direction"],
             "predicted_target": pred["target_price"],
+            "baseline_price": entry_price,
             "actual_close": actual_close,
             "actual_direction": actual_direction,
             "direction_correct": direction_correct,
@@ -175,19 +184,16 @@ def score_date(date_str: str) -> Optional[dict]:
 def update_leaderboard(score_data: dict = None):
     """Rebuild the leaderboard from ALL score files (fully idempotent).
 
-    Safe to call multiple times — always produces the same result for the
-    same set of score files on disk.  The optional *score_data* argument is
-    accepted for call-site compatibility but ignored; all data comes from
-    SCORES_DIR.
+    Every active model in models.json gets a row, even before its first
+    scored prediction. Rows are keyed by slug, so each exact model version
+    keeps its own record. The optional *score_data* argument is accepted for
+    call-site compatibility but ignored; all data comes from SCORES_DIR.
     """
-    score_files = sorted(SCORES_DIR.glob("*.json"))
-    if not score_files:
-        log.warning("No score files found — nothing to update")
-        return
+    registry = model_lookup()
 
     # Collect every resolved result with its date for chronological ordering
     entries = []  # list of (date_str, prediction_id, result_dict)
-    for sf in score_files:
+    for sf in sorted(SCORES_DIR.glob("*.json")):
         try:
             data = load_json(sf)
         except Exception as e:
@@ -202,40 +208,54 @@ def update_leaderboard(score_data: dict = None):
     # Sort chronologically (then by prediction_id for stable intra-day order)
     entries.sort(key=lambda e: (e[0], e[1]))
 
-    # Build per-model stats
-    model_stats = {}   # display_name -> stats dict
-    conf_totals = {}   # display_name -> sum of confidences
-    weekly_data = {}   # (display_name, "YYYY-WNN") -> {score, preds, correct}
+    def new_stats(cfg: dict) -> dict:
+        return {
+            "slug": cfg["slug"],
+            "model_id": cfg["openrouter_model"],
+            "model_display_name": cfg["display_name"],
+            "active": cfg.get("active", True),
+            "total_predictions": 0,
+            "correct_directions": 0,
+            "direction_accuracy": 0.0,
+            "total_score": 0.0,
+            "avg_score": 0.0,
+            "avg_confidence": 0.0,
+            "days_predicted": 0,
+            "current_streak": 0,
+            "best_streak": 0,
+            "worst_streak": 0,
+            "weekly_scores": [],
+        }
+
+    # Build per-model stats, seeded so every active model has a row
+    model_stats = {m["slug"]: new_stats(m) for m in load_models(active_only=True)}
+    conf_totals = {slug: 0.0 for slug in model_stats}
+    weekly_data = {}   # (slug, "YYYY-WNN") -> {score, preds, correct}
 
     for date_str, _pid, result in entries:
-        name = result["model_display_name"]
-        if name not in model_stats:
-            model_stats[name] = {
-                "model_id": result["model"],
-                "model_display_name": name,
-                "total_predictions": 0,
-                "correct_directions": 0,
-                "direction_accuracy": 0.0,
-                "total_score": 0.0,
-                "avg_confidence": 0.0,
-                "current_streak": 0,
-                "best_streak": 0,
-                "worst_streak": 0,
-                "weekly_scores": [],
-            }
-            conf_totals[name] = 0.0
-        m = model_stats[name]
+        cfg = registry.get(result.get("slug")) or registry.get(result.get("model"))
+        slug = cfg["slug"] if cfg else result.get("slug") or result["model"]
+        if slug not in model_stats:
+            # Retired model with history: keep its record, flagged inactive
+            model_stats[slug] = new_stats({
+                "slug": slug,
+                "openrouter_model": result["model"],
+                "display_name": result["model_display_name"],
+                "active": cfg.get("active", False) if cfg else False,
+            })
+            conf_totals[slug] = 0.0
+        m = model_stats[slug]
         m["total_predictions"] += 1
         if result["direction_correct"]:
             m["correct_directions"] += 1
         m["total_score"] = round(m["total_score"] + result["score"], 4)
-        conf_totals[name] += result.get("confidence_at_prediction", 0.0)
+        conf_totals[slug] += result.get("confidence_at_prediction", 0.0)
 
         # Weekly accumulation
         d = datetime.strptime(date_str, "%Y-%m-%d").date()
         cal = d.isocalendar()
         week_key = f"{cal[0]}-W{cal[1]:02d}"
-        wk = weekly_data.setdefault((name, week_key), {"score": 0.0, "predictions": 0, "correct": 0})
+        wk = weekly_data.setdefault((slug, week_key), {"score": 0.0, "predictions": 0, "correct": 0})
         wk["score"] = round(wk["score"] + result["score"], 4)
         wk["predictions"] += 1
         if result["direction_correct"]:
@@ -250,20 +270,30 @@ def update_leaderboard(score_data: dict = None):
         m["best_streak"] = max(m["best_streak"], m["current_streak"])
         m["worst_streak"] = min(m["worst_streak"], m["current_streak"])
 
+    # Participation: days each model actually produced a prediction file
+    trading_days = sorted(
+        d.name for d in PREDICTIONS_DIR.iterdir() if d.is_dir()
+    ) if PREDICTIONS_DIR.exists() else []
+    for day in trading_days:
+        for pf in (PREDICTIONS_DIR / day).glob("*.json"):
+            if pf.stem in model_stats:
+                model_stats[pf.stem]["days_predicted"] += 1
+
     # Finalize derived fields
-    for name, m in model_stats.items():
+    for slug, m in model_stats.items():
         if m["total_predictions"] > 0:
             m["direction_accuracy"] = round(
                 m["correct_directions"] / m["total_predictions"], 4
             )
+            m["avg_score"] = round(m["total_score"] / m["total_predictions"], 4)
             m["avg_confidence"] = round(
-                conf_totals[name] / m["total_predictions"], 4
+                conf_totals[slug] / m["total_predictions"], 4
             )
 
         # Build weekly_scores array sorted chronologically
         m["weekly_scores"] = []
-        for (wname, week_key), wk in sorted(weekly_data.items()):
-            if wname != name:
+        for (wslug, week_key), wk in sorted(weekly_data.items()):
+            if wslug != slug:
                 continue
             m["weekly_scores"].append({
                 "week": week_key,
@@ -274,12 +304,13 @@ def update_leaderboard(score_data: dict = None):
 
     lb = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
+        "trading_days": len(trading_days),
         "models": list(model_stats.values()),
     }
 
     save_json(LEADERBOARD_FILE, lb)
     sync_to_public(LEADERBOARD_FILE)
-    log.info(f"Leaderboard rebuilt from {len(score_files)} score files ({len(entries)} results)")
+    log.info(f"Leaderboard rebuilt ({len(entries)} results, {len(model_stats)} models)")
 
 
 def main():

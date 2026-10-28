@@ -26,6 +26,7 @@ export default function Analytics() {
     herding = {},
     time_series = {},
     head_to_head = {},
+    trading = {},
   } = data
   const models = Object.keys(COLORS)
   const byGroup = ticker_breakdown.by_group || []
@@ -37,6 +38,10 @@ export default function Analytics() {
   const herdingSummary = herding.summary || {}
   const h2hRecords = head_to_head.records || []
   const recentClashes = head_to_head.recent_clashes || []
+  const tradingModels = [...(trading.models || [])].sort(
+    (a, b) => b.accuracy_lower_bound - a.accuracy_lower_bound
+  )
+  const committees = (trading.committees || []).filter(c => c.size > 1)
 
   // Find best accuracy and best calibration
   const modelAccuracy = {}
@@ -153,6 +158,96 @@ export default function Analytics() {
           <span className={styles.statLabel}>{bestCalModel ? `${(bestCalModel.calibration_error * 100).toFixed(1)}% error` : '—'}</span>
         </div>
       </div>
+
+      {/* Section 0: Trading signal quality */}
+      <section>
+        <h2 className={styles.sectionTitle}>Who Should a Trader Follow?</h2>
+        <p className={styles.sectionSub}>
+          Ranked by the conservative accuracy estimate (95% lower bound), which discounts small samples.
+          Return is the average % the price moved in the called direction, from the live price at prediction time to the close.
+          Brier score measures confidence calibration — lower is better, 0.25 is a coin flip.
+        </p>
+        <div className={styles.tableWrapper}>
+          <table className={styles.table}>
+            <thead>
+              <tr>
+                <th className={styles.th}>Model</th>
+                <th className={styles.th}>Calls</th>
+                <th className={styles.th}>Accuracy</th>
+                <th className={styles.th}>Conservative</th>
+                <th className={styles.th}>Avg return</th>
+                <th className={styles.th}>Brier</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tradingModels.map(m => (
+                <tr key={m.model} className={styles.tr}>
+                  <td className={styles.td} style={{ fontWeight: 600, color: COLORS[m.model] }}>{m.model}</td>
+                  <td className={styles.td}>{m.predictions}</td>
+                  <td className={styles.td}>{(m.accuracy * 100).toFixed(1)}%</td>
+                  <td className={styles.td}>{(m.accuracy_lower_bound * 100).toFixed(1)}%</td>
+                  <td className={styles.td}>
+                    {m.avg_return_pct == null ? '—' : (
+                      <span className={m.avg_return_pct >= 0 ? styles.pos : styles.neg}>
+                        {m.avg_return_pct >= 0 ? '+' : ''}{m.avg_return_pct.toFixed(2)}%
+                      </span>
+                    )}
+                  </td>
+                  <td className={styles.td}>{m.brier_score.toFixed(3)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div style={{ marginTop: '1rem' }}>
+          <h3 className={styles.sectionTitle}>Best Model Committees</h3>
+          <p className={styles.sectionSub}>
+            A committee signals when every member calls the same ticker in the same direction on the same day.
+            Only committees with at least {trading.min_committee_signals ?? 10} signals are ranked.
+          </p>
+          {committees.length === 0 ? (
+            <p className={styles.sectionSub}>Not enough overlapping calls yet — committees appear as data accumulates.</p>
+          ) : (
+            <div className={styles.tableWrapper}>
+              <table className={styles.table}>
+                <thead>
+                  <tr>
+                    <th className={styles.th}>Models</th>
+                    <th className={styles.th}>Signals</th>
+                    <th className={styles.th}>Per day</th>
+                    <th className={styles.th}>Accuracy</th>
+                    <th className={styles.th}>Conservative</th>
+                    <th className={styles.th}>Avg return</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {committees.slice(0, 15).map(c => (
+                    <tr key={c.models.join('|')} className={styles.tr}>
+                      <td className={styles.td}>
+                        {c.models.map((m, i) => (
+                          <span key={m} style={{ color: COLORS[m], fontWeight: 600 }}>{i > 0 && ' + '}{m}</span>
+                        ))}
+                      </td>
+                      <td className={styles.td}>{c.signals}</td>
+                      <td className={styles.td}>{c.signals_per_day}</td>
+                      <td className={styles.td}>{(c.accuracy * 100).toFixed(1)}%</td>
+                      <td className={styles.td}>{(c.accuracy_lower_bound * 100).toFixed(1)}%</td>
+                      <td className={styles.td}>
+                        {c.avg_return_pct == null ? '—' : (
+                          <span className={c.avg_return_pct >= 0 ? styles.pos : styles.neg}>
+                            {c.avg_return_pct >= 0 ? '+' : ''}{c.avg_return_pct.toFixed(2)}%
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </section>
 
       {/* Section 1: Ticker Breakdown */}
       <section>

@@ -1,7 +1,7 @@
 """
 Today's Winner selection and paper trading simulator.
 
-Finds the highest-conviction individual stock pick where 3+ models agree
+Finds the highest-conviction individual stock pick where 4+ of the 8 models agree
 on direction, then manages simulated trades in data/simulator.json.
 """
 
@@ -23,9 +23,9 @@ from utils import (
 log = get_logger("winner")
 
 EXCLUDED_TICKERS = {"DIA", "VIX", "IWM"}
-MIN_MODELS_AGREEING = 3
+MIN_MODELS_AGREEING = 4
 ETF_LEVERAGE_MAP = {"SPY": "SPXL", "QQQ": "TQQQ"}
-ETF_MIN_MODELS = 4  # ETFs require 4/5 models to agree
+ETF_MIN_MODELS = 5  # leveraged ETF trades require a stronger majority
 SIMULATOR_FILE = DATA_DIR / "simulator.json"
 WINNER_FILE = DATA_DIR / "winner-today.json"
 
@@ -42,7 +42,7 @@ DEFAULT_WINNER = {
 
 
 def select_todays_winner(date_str):
-    """Find the highest-conviction stock pick where 3+ models agree."""
+    """Find the highest-conviction stock pick where enough models agree."""
     pred_dir = PREDICTIONS_DIR / date_str
     if not pred_dir.exists():
         log.warning(f"No predictions directory for {date_str}")
@@ -117,7 +117,7 @@ def select_todays_winner(date_str):
         })
 
     if not candidates:
-        log.info(f"No consensus winner for {date_str} (no ticker with 3+ models agreeing)")
+        log.info(f"No consensus winner for {date_str} (no ticker with {MIN_MODELS_AGREEING}+ models agreeing)")
         return None
 
     # Return highest-scoring candidate
@@ -157,7 +157,12 @@ def save_simulator(data):
 
 def save_winner(date_str, winner):
     """Save today's winner and sync to public."""
-    data = {"date": date_str, "winner": winner}
+    data = {
+        "date": date_str,
+        "winner": winner,
+        "min_models": MIN_MODELS_AGREEING,
+        "etf_min_models": ETF_MIN_MODELS,
+    }
     save_json(WINNER_FILE, data)
     sync_to_public(WINNER_FILE)
 
