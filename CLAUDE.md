@@ -1,6 +1,6 @@
 # AI Market Oracle
 
-Automated platform comparing the market prediction abilities of 8 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs entirely on GitHub Actions — predictions on weekday mornings, scoring at 5:30 PM ET, weekly report Saturdays. Long-term goal: identify which models (or committees of models) to trust as trade signals.
+Automated platform comparing the market prediction abilities of 9 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs entirely on GitHub Actions — predictions on weekday mornings, scoring at 5:30 PM ET, weekly report Saturdays. Long-term goal: identify which models (or committees of models) to trust as trade signals.
 
 ## Tech Stack
 

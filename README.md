@@ -1,8 +1,8 @@
 # AI Market Oracle
 
-> Which AI sees the market clearest? A daily experiment — eight models, real predictions, real scores.
+> Which AI sees the market clearest? A daily experiment — nine models, real predictions, real scores.
 
-An automated website that asks eight AI models (each with internet access, all called through [OpenRouter](https://openrouter.ai)) to make specific, falsifiable stock market predictions every weekday morning before market open. Predictions are scored against real market data after close. A public leaderboard shows which AI is the best market forecaster over time.
+An automated website that asks nine AI models (each with internet access, all called through [OpenRouter](https://openrouter.ai)) to make specific, falsifiable stock market predictions every weekday morning before market open. Predictions are scored against real market data after close. A public leaderboard shows which AI is the best market forecaster over time.
 
 **Live site:** [https://aamilonas.github.io/ai-market-oracle/](https://aamilonas.github.io/ai-market-oracle/)
 
@@ -15,11 +15,12 @@ An automated website that asks eight AI models (each with internet access, all c
 | **Claude Sonnet 5.5** | Anthropic | Native web search |
 | **GPT-5.6 Terra** | OpenAI | Native web search |
 | **Gemini 3.8 Flash** | Google | Google Search grounding |
-| **Grok 4.7** | xAI | Native search |
+| **Grok 4.3** | xAI | Native web + X search |
 | **Perplexity Sonar Pro** | Perplexity | Always-on search |
 | **DeepSeek V4 Pro** | DeepSeek | Exa search via OpenRouter |
 | **Kimi K3.1 Pro** | Moonshot AI | Exa search via OpenRouter |
 | **Hermes 4 405B** | Nous Research | Exa search via OpenRouter |
+| **Qwen 3.8 Max** | Alibaba | Exa search via OpenRouter |
 
 The lineup lives in [`models.json`](models.json), read by both the scripts and the site.
 To add a model, add an entry there. To upgrade one, add the new version with a new

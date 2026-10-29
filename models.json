@@ -30,14 +30,14 @@
     "description": "Google's Gemini Flash model, researching with Google Search grounding."
   },
   {
-    "slug": "grok-4-7",
-    "display_name": "Grok 4.7",
+    "slug": "grok-4-3",
+    "display_name": "Grok 4.3",
     "org": "xAI",
-    "openrouter_model": "x-ai/grok-4.7",
+    "openrouter_model": "x-ai/grok-4.3",
     "web_search": "native",
     "color": "#C0C0C0",
     "active": true,
-    "description": "xAI's Grok model, researching with xAI's native search."
+    "description": "xAI's cost-efficient Grok model, researching with xAI's native web and X search."
   },
   {
     "slug": "sonar-pro",
@@ -78,5 +78,15 @@
     "color": "#E0559A",
     "active": true,
     "description": "Nous Research's open-weight Hermes 4. No native search, so it researches through OpenRouter's Exa web search."
+  },
+  {
+    "slug": "qwen-3-8-max",
+    "display_name": "Qwen 3.8 Max",
+    "org": "Alibaba",
+    "openrouter_model": "qwen/qwen3.8-max-0902",
+    "web_search": "exa",
+    "color": "#FF5C5C",
+    "active": true,
+    "description": "Alibaba's flagship Qwen model, the experimental wildcard. Researches through OpenRouter's Exa web search."
   }
 ]

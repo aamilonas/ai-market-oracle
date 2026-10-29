@@ -1,7 +1,7 @@
 """
 Today's Winner selection and paper trading simulator.
 
-Finds the highest-conviction individual stock pick where 4+ of the 8 models agree
+Finds the highest-conviction individual stock pick where 4+ of the active models agree
 on direction, then manages simulated trades in data/simulator.json.
 """
 
