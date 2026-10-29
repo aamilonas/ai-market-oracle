@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-29",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-10-29T14:22:26.246309+00:00",
+  "market_context": "At approximately 10:06-10:07 AM ET, SPY was $769.43 (-0.37%), QQQ was $715.78 (-1.35%), and GOOGL was $285.73 (-12.05%) after Alphabet's weaker-than-expected quarterly result. Q3 GDP was reported at 3.43% versus 2.2% expected, but September PCE inflation was 3.6% year over year versus 3.4% expected; the stronger growth/inflation mix and post-earnings tech repricing leave downside pressure into Amazon's after-close report.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261029_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 767.2,
+      "model_reported_price": 769.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY was already below its prior close near 10:06 AM ET despite a strong GDP surprise, indicating that the hotter-than-expected PCE inflation reading and Alphabet-led technology weakness were dominating the macro impulse. The S&P is less exposed than the Nasdaq to Alphabet, so I expect a contained additional decline rather than a large selloff.",
+      "current_price_at_prediction": 769.33,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:26.246475+00:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 712.9,
+      "model_reported_price": 715.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ was down 1.35% by roughly 10:06 AM ET, materially weaker than SPY, while Alphabet was down more than 12% after its earnings miss. Microsoft also reversed sharply from its $552.83 intraday high to about $524.99, suggesting that investors are reducing mega-cap AI exposure rather than treating the weakness as isolated.",
+      "current_price_at_prediction": 715.88,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:26.246475+00:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261029_003",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 282.0,
+      "model_reported_price": 285.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Alphabet traded at $285.73 around 10:07 AM ET after opening at $287.22 and reaching an intraday low of $280.36, following the reported earnings shortfall. The scale of the negative earnings repricing and the broader concern over AI-investment returns make a retest toward the morning low plausible before the close.",
+      "current_price_at_prediction": 285.8,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:26.246475+00:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261029_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 243.5,
+      "model_reported_price": 245.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Amazon was down 3.46% near 10:07 AM ET and had traded as low as $241.29, with its own earnings due after today's close. The weak tone across growth and cloud-related megacaps, plus heightened pre-results positioning risk, should keep sellers active into the closing bell.",
+      "current_price_at_prediction": 246.17,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:26.246475+00:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 32.8,
+    "prompt_tokens": 23097,
+    "completion_tokens": 1707,
+    "cost_usd": 0.09926,
+    "finished_at": "2026-10-29T14:22:26.246309+00:00",
+    "normalization_issues": []
+  }
+}

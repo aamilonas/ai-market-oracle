@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-10-29T14:22:21.184277+00:00",
+  "market_context": "U.S. equities are digesting the Federal Reserve's decision to maintain rates at 3.75%-4.0% alongside hawkish commentary that pushed the 10-year Treasury yield near 5.0%. Mega-cap earnings show divergent results, with Microsoft surging on 48% Azure growth while Alphabet slid on massive capital expenditure concerns, leaving tech and broad indices trading in a narrow, mildly positive range ahead of tonight's reports from Apple and Amazon.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261029_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.5,
+      "model_reported_price": 769.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Broad market sentiment remains resilient as cyclicals and financials offset tech volatility following the FOMC meeting. S&P 500 earnings breadth continues to support a modest intraday grind higher into the close. Modest options positioning indicates dealer hedging will support prices toward the $771 level by the 4:00 PM close.",
+      "current_price_at_prediction": 769.33,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:21.184414+00:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 721.5,
+      "model_reported_price": 718.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "While Alphabet's cash burn created an initial tech headwind, Microsoft's cloud acceleration and resilience in semiconductor names are keeping the Nasdaq supported. Anticipation ahead of Apple and Amazon reporting after today's bell should encourage dip-buyers to step in. QQQ is poised to recover from morning consolidation and push toward $721.50.",
+      "current_price_at_prediction": 715.88,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:21.184414+00:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261029_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 542.0,
+      "model_reported_price": 538.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Microsoft posted strong Q1 FY27 figures, with EPS of $4.92 beating estimates and Azure expanding 48% year-over-year. While news of a debt offering trimmed initial pre-market highs, enterprise demand and strong operating margins are anchoring institutional demand. The stock should see sustained accumulation through the afternoon session.",
+      "current_price_at_prediction": 523.73,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:21.184414+00:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261029_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 79650.0,
+      "model_reported_price": 80100.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Bitcoin is facing persistent downward pressure after the Federal Reserve's hawkish rate stance kept 10-year Treasury yields hovering near 5.0%. Risk appetite for non-yielding digital assets has diminished as miners face rising network difficulty ahead of monthly options expiry. Ongoing intraday distribution is likely to test psychological support below $80000.",
+      "current_price_at_prediction": 80336.97,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:21.184414+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZS2FsMU-VaZ2hUxG6bEC_GgEdmlE1W4wOatHqv-SKYY_eukPKyqA8LuXK4ka9OjOnWO0WMFWx87g58fCu0QynXEJ5HSiDjLqhq6Hqu9dSk-eji0PgYymuzI-kFjs=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEkMsiyS2mVu7L2TqG-2D2deFjv58lZRTy3aGp_WpGPWXLuUl_v8hponrBX9bmqUTUFwSrN5fmb6AUTOQjg1AITAkTPDmSrayWjywG9ksLpfnR1GBw-fi7D3Pq4fljAihV8F02uhcCyA4EUQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB7EADrUYAj9RJ-XBSdzPPTdjP3wOUWPbu8dZFPcYa7dZeH-pT6LVVYqueJX5Z7RS1ngmshKedgFnaVTn-8mYHQGhhaTtpQjN7vnk2ZiX3DQ62tBmVank4d41qIfHvAQKUJRiKlD7_rvp1R5ZsBeKxXKlu9Rotr5RE9u74GnIS4ndElTI6hvj0pQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0IQBLtxlrkMQvXK4xUQOL7v-FTx0zlbmwMiX_1ki9H2pgNqyulebSmLxgtx_Mu9K_mMyEaNYVArl4mCXQMF4rUqhfS6E0_k-0M4QfhSW3VQdv76HQcB_k57_zawvQi3ZGbpU-yB44ttLSRnRuf5h9-RcdG5DLR4y3WsQYCn-bWNZQnSRIWtJBfSLPllGdhBPw2-9NAQ8=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTY7s89Pdih2Vl_iGYA-M9xE8zlkGl95UM2xncYv92Xm9aS1R4utvJ10cZ--XWyI7ChotyU_FJZbC8IJGMQF3dlHeN6rpDxtfogtb8mScdCeEXXOZPR5XWdZkdYg2RDSswLrW33x_MbOA5qoKFu8SroTwXe2ccHuWf9b4iPBsHUdydxV09_ngKp2T9y-x7UIt5fNTlpXJiIR9KMGBxXpj3QJlIxUNe6prhRrCxKOS6w_TcAOXBzlOesdxuwXVmf5ujdqe2bIRmUUwb-lp_e_YTRm4ePipKRPyOTG6rEPksLxQ5ZEuuHldlPqYHbfDE48PJ9g==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxO76TjOOxPaEaHidBU5WgMRd4p6cutI9pQYDwRToNEN3P3kFKFOq5LBuzch49_mHzV1m07YVW56y9-44-SxZPTJKq_oZgqlQdM7XiBeTsakpd1995iVSewsca2ZLmORKu",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEufWMv2xM-45CHRHD6x8G8XWGzP0Z1M0RKkoLqxQ5_z62UHZwd0qNgZa4UZyNzKzcK0Zlaef5eqeg4vTDSPifjf9SvjfL7gMzokkC52RPyjFJ9Ng9Sa5nPhalVAavsZ3llVjrupLv6UosKFj66q37GiRScQdM-x0bxTIML6Ffjk_jdBuo=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4O3TBdoYW_z5Hu5_kdlRSw2fIDh5YSKmhrZ00_i_TAHcFSZ0X_nBJmB1V0wFRtN94Rp9PX42RmZbzJY5KwB174vU8aqpzKxFkS4ZTyQfTxOS5NEU8wOAsV7_6x6k3nfHbVQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLnzWFgzuLpvxpd1Q1Yg6CypQIuGReUfvbPcpou5gZVO2MDtYwLjUEitzCi8PSBRwzgUKkOH7yBJbNO_eaU-KFTuOhzrAdwPrP-8fPHwGMNJ6bxuwVLvrYgVMT6eGUql3RbQG1KP8THKatgGeIZclORzAiNft7U4Ue994tErLCbJJ7PP_jWc3NyMBp84HM40M=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs070jKFWe-g9USMoENi89MK0QdTkMv8E4UTyDV1dIvMF7nhEU09gR5KqS-7IHBqhVU_wpx-NDDT4RF5uoJu5-3YT6-IXc3ml-y0vjvj2EATA5Cdcs1CQBBSAzbnVqTLo="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 27.7,
+    "prompt_tokens": 876,
+    "completion_tokens": 2509,
+    "cost_usd": 0.09406575,
+    "finished_at": "2026-10-29T14:22:21.184277+00:00",
+    "normalization_issues": []
+  }
+}

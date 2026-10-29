@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-10-29T14:24:55.901159+00:00",
+  "market_context": "US equities opened lower on Thursday after finance.yahoo.com reported Alphabet's Q3 miss and renewed AI ROI concerns, while marketsignal-daily.com showed SPY -0.51%, QQQ -1.57%, and IWM +0.99% shortly after the open. The Fed's pause came with hawkish dissents and hotter September inflation, adding rate pressure ahead of Amazon's after-hours earnings, per finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261029_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 767.2,
+      "model_reported_price": 768.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY was already trading lower near 768.35 as Alphabet weakness weighed on broad tech, according to [finance.yahoo.com. squawkflow.com noted SPY call-wall resistance near 770, suggesting upside may remain capped. I expect modest further downside into the close.",
+      "current_price_at_prediction": 769.31,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:24:55.901322+00:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 711.5,
+      "model_reported_price": 714.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ was down about 1.6% near 714.22 in the morning, with semis and software weak after Alphabet's earnings, per marketsignal-daily.com. AI-capex and ROI concerns are likely to keep investors cautious ahead of Amazon's earnings, per finance.yahoo.com. This favors a close below the current intraday level.",
+      "current_price_at_prediction": 715.91,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:24:55.901322+00:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261029_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.0,
+      "model_reported_price": 284.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "IWM was up nearly 1% at 284.13 while mega-cap tech lagged, indicating rotation into small caps, according to marketsignal-daily.com. Better-than-expected GDP may still support cyclicals even as inflation remains hot, per marketsignal-daily.com. I expect IWM to hold its gains and finish slightly above the current level.",
+      "current_price_at_prediction": 284.48,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:24:55.901322+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+      "https://marketsignal-daily.com/free-market-brief",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://squawkflow.com/premarket"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 180.6,
+    "prompt_tokens": 4493,
+    "completion_tokens": 7397,
+    "cost_usd": 0.060368,
+    "finished_at": "2026-10-29T14:24:55.901159+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-10-29T14:22:07.604172+00:00",
+  "market_context": "Markets opened lower amid tech sell-off triggered by Alphabet's earnings miss and renewed AI jitters, with Nasdaq leading declines. However, GDP data beat expectations and small-caps show relative strength, suggesting potential afternoon stabilization.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261029_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.0,
+      "model_reported_price": 768.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 ETF opened lower amid broad tech weakness from Alphabet's earnings miss and AI sector concerns. With QQQ down sharply and GDP data showing inflation acceleration, SPY likely extends morning losses toward 765 support.",
+      "current_price_at_prediction": 769.32,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:07.604359+00:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "model_reported_price": 714.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq ETF gapped down over 1.5% at open as Alphabet's earnings sparked AI sector sell-off. With semiconductor and software stocks under pressure and Amazon earnings still pending, QQQ likely tests 705 support by close.",
+      "current_price_at_prediction": 715.96,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:07.604359+00:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261029_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 286.0,
+      "model_reported_price": 284.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Small-cap ETF opened higher while large-caps sold off, showing relative strength. With GDP growth beating expectations and regional banks potentially benefiting from steepening yield curve, IWM could extend gains to 286.",
+      "current_price_at_prediction": 284.56,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:07.604359+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+      "https://marketsignal-daily.com/free-market-brief",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://squawkflow.com/premarket"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 14.2,
+    "prompt_tokens": 3938,
+    "completion_tokens": 392,
+    "cost_usd": 0.012114,
+    "finished_at": "2026-10-29T14:22:07.604172+00:00",
+    "normalization_issues": []
+  }
+}

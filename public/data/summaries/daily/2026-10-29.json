@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T14:25:00.854818+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Nine Models Split on Index Direction; Sonar Pro's 88% GOOGL Call Stands Out",
+  "summary": "Eight of nine models called QQQ and SPY down, with one dissenter on each, so the index view was lopsided but not unanimous. Perplexity Sonar Pro posted the day's highest-conviction call, 88% on GOOGL, where four models agreed the stock would fall, while IWM drew four up calls and MSFT three. All calls remain pending because scoring happens after the close, so no results are in yet.",
+  "consensus_picks": [
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "GOOGL",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "4 models called GOOGL down."
+    },
+    {
+      "ticker": "IWM",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "4 models called IWM up."
+    },
+    {
+      "ticker": "MSFT",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Gemini 3.8 Flash",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "3 models called MSFT up."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models called BTC-USD down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_sonar-pro_20261029_003",
+    "model_display_name": "Perplexity Sonar Pro",
+    "ticker": "GOOGL",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (88%). Scored after the close."
+  },
+  "worst_call": null
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-29",
+  "prompted_at_et": "Thursday 2026-10-29 10:21 AM",
+  "models": {
+    "claude-sonnet-5-5": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.083346,
+      "latency_seconds": 12.6
+    },
+    "deepseek-v4-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "exa",
+      "citations": 5,
+      "cost_usd": 0.015208,
+      "latency_seconds": 35.3
+    },
+    "gemini-3-8-flash": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 10,
+      "cost_usd": 0.09406575,
+      "latency_seconds": 27.7
+    },
+    "gpt-5-6-terra": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.09926,
+      "latency_seconds": 32.8
+    },
+    "grok-4-3": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 15,
+      "cost_usd": 0.0361787,
+      "latency_seconds": 17.6
+    },
+    "hermes-4-405b": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 5,
+      "cost_usd": 0.012114,
+      "latency_seconds": 14.2
+    },
+    "kimi-k3-1-pro": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 5,
+      "cost_usd": 0.04868,
+      "latency_seconds": 107.5
+    },
+    "qwen-3-8-max": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 5,
+      "cost_usd": 0.060368,
+      "latency_seconds": 180.6
+    },
+    "sonar-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "built_in",
+      "citations": 15,
+      "cost_usd": 0.01787,
+      "latency_seconds": 14.6
+    }
+  }
+}

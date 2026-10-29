@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-29",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-10-29T14:22:31.134997+00:00",
+  "market_context": "At 10:21 AM, markets opened lower with tech-heavy Nasdaq hit hard by Alphabet's Q3 sales miss and renewed AI concerns. The S&P 500 and Dow were mildly negative, while small caps rallied on rotation. Strong Q3 GDP (3.4%) and sticky PCE inflation (3.6% YoY) reinforced rate-pause expectations but stoked caution. Amazon earnings after the close may keep pressure on tech.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261029_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.5,
+      "model_reported_price": 713.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Alphabet's sales miss and AI jitters sparked a 1.57% drop in QQQ by mid-morning, per [marketsignal-daily.com. Semiconductor and software names are under pressure, and with Amazon earnings looming after the close, tech weakness is likely to persist into the close.",
+      "current_price_at_prediction": 715.51,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:31.135156+00:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261029_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 765.0,
+      "model_reported_price": 768.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY was -0.51% at 10:10 AM according to finance.yahoo.com, dragged by tech but offset by defensive sectors. Sticky inflation data and dissenting Fed hawks cap upside, so a mild further decline is probable.",
+      "current_price_at_prediction": 769.19,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:31.135156+00:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261029_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 523.5,
+      "model_reported_price": 522.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow was nearly flat at 10:13 AM, according to finance.yahoo.com, and small-cap strength suggests rotation out of tech could benefit cyclicals. DIA may edge slightly higher as traders reposition ahead of Amazon earnings.",
+      "current_price_at_prediction": 522.87,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:31.135156+00:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261029_004",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 286.0,
+      "model_reported_price": 284.2,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "IWM was +0.99% at 9:52 AM, per marketsignal-daily.com, as investors rotated from overpriced AI megacaps into small-cap value. With no major negative catalysts for small caps, the trend likely continues through the close.",
+      "current_price_at_prediction": 284.46,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:31.135156+00:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261029_005",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 79500.0,
+      "model_reported_price": 79950.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Crypto typically suffers when tech sentiment sours, as seen in the Nasdaq sell-off. BTC-USD was down 0.6% over five days prior to today, and risk-off mood from AI jitters and hawkish Fed commentary could extend the decline.",
+      "current_price_at_prediction": 80336.97,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:31.135156+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+      "https://marketsignal-daily.com/free-market-brief",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://squawkflow.com/premarket"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 35.3,
+    "prompt_tokens": 3930,
+    "completion_tokens": 3114,
+    "cost_usd": 0.015208,
+    "finished_at": "2026-10-29T14:22:31.134997+00:00",
+    "normalization_issues": []
+  }
+}

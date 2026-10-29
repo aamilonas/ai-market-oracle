@@ -1,6 +1,22 @@
 {
-  "date": null,
-  "winner": null,
+  "date": "2026-10-29",
+  "winner": {
+    "ticker": "GOOGL",
+    "direction": "down",
+    "avg_confidence": 0.8025,
+    "avg_target": 262.5,
+    "avg_entry": 285.78,
+    "expected_move_pct": 8.15,
+    "score": 6.5366,
+    "models": [
+      "Perplexity Sonar Pro",
+      "GPT-5.6 Terra",
+      "Grok 4.3",
+      "Claude Sonnet 5.5"
+    ],
+    "model_count": 4,
+    "high_conviction": false
+  },
   "min_models": 4,
   "etf_min_models": 5
 }

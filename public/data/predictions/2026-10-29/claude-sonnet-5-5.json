@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-29",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-10-29T14:22:06.014062+00:00",
+  "market_context": "Nasdaq 100 futures were down about 1% and S&P futures about 0.3-0.5% after Alphabet missed on earnings and free cash flow (GOOGL down about 10% pre-market). ServiceNow and Fortinet also fell sharply, while Microsoft rose about 4% on strong Azure results. The 10Y yield is about 5%, markets price roughly an 85% chance of a December Fed hike, and Q3 GDP came in at 3.4% against 3.1% expected. Amazon and Intel report after the close, and PCE inflation is also due today.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261029_001",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 259.0,
+      "model_reported_price": 258.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Alphabet missed Q3 revenue and EPS and reported negative free cash flow of about $9B, which revived AI capex worries. It was down more than 10% pre-market, and search growth of 12% against about 15% expected is a thesis-level disappointment. Post-earnings drops of this size usually hold through the close.",
+      "current_price_at_prediction": 285.77,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:06.014231+00:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.5,
+      "model_reported_price": 711.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nasdaq 100 futures were down about 1% to 1.4% overnight on the Alphabet miss and software selloff (NOW -18%, FTNT -26%). A 5% 10Y yield and rate-hike pricing add pressure on tech valuations. Microsoft's gain only partly offsets this.",
+      "current_price_at_prediction": 715.96,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:06.014231+00:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261029_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 542.0,
+      "model_reported_price": 535.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Microsoft beat on EPS ($4.89 vs $4.73) and revenue ($92.28B vs $90.63B), helped by Azure strength. It was up about 3.5-4% pre-market against a weak Nasdaq. Beat-and-raise reactions tend to hold into the close.",
+      "current_price_at_prediction": 523.91,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:06.014231+00:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261029_004",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 766.0,
+      "model_reported_price": 767.5,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The S&P opened about 0.5% lower, dragged by Alphabet and software stocks. Strong GDP at 3.4% raises Fed-hike odds, and the 10Y rose to about 5.05%. Dow strength and Microsoft limit the downside, and Amazon earnings after the close add uncertainty.",
+      "current_price_at_prediction": 769.32,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:22:06.014231+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 12.6,
+    "prompt_tokens": 24918,
+    "completion_tokens": 1351,
+    "cost_usd": 0.083346,
+    "finished_at": "2026-10-29T14:22:06.014062+00:00",
+    "normalization_issues": []
+  }
+}

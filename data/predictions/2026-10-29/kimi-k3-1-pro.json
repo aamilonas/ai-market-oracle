@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-10-29T14:23:43.272774+00:00",
+  "market_context": "Stocks are experiencing a tech-led selloff: SPY was $768.35 around 10:10 a.m. ET, QQQ was recently down 1.57%, and IWM was up 0.99%, indicating rotation toward small caps. Alphabet's sales shortfall and AI-return concerns, combined with the Fed's pause, two hawkish dissents, and 3.6% year-over-year PCE inflation, are pressuring valuations ahead of Amazon's post-close earnings (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261029_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 766.0,
+      "model_reported_price": 768.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY was $768.35 at 10:10 a.m., below its $768.79 open and near its $767.27 session low, while hot inflation and hawkish Fed dissents constrain the case for an immediate rebound ([finance.yahoo.com). The nearby SPX 7700 put wall should limit the decline, so I expect only modest additional downside rather than a sharp selloff (squawkflow.com).",
+      "current_price_at_prediction": 769.5,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:23:43.272935+00:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261029_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 709.5,
+      "model_reported_price": 714.22,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ was down 1.57% at $714.22 while the Nasdaq Composite was falling 1.2%, with Alphabet's sales miss and AI free-cash-flow concerns spreading through semiconductor and software shares (marketsignal-daily.com, finance.yahoo.com). Amazon's earnings after the bell should keep technology investors cautious through the regular-session close.",
+      "current_price_at_prediction": 716.16,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:23:43.272935+00:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261029_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 285.5,
+      "model_reported_price": 284.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "IWM was up 0.99% at $284.13 even as QQQ fell 1.57%, demonstrating strong relative performance during the megacap-tech selloff (marketsignal-daily.com). Better-than-expected 3.4% third-quarter GDP growth supports the cyclical rotation, so I expect small caps to retain and modestly extend their gains.",
+      "current_price_at_prediction": 284.51,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-10-29T14:23:43.272935+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Moonshot AI",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html",
+      "https://marketsignal-daily.com/free-market-brief",
+      "https://squawkflow.com/premarket",
+      "https://finance.yahoo.com/quote/SPY/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 107.5,
+    "prompt_tokens": 4035,
+    "completion_tokens": 3361,
+    "cost_usd": 0.04868,
+    "finished_at": "2026-10-29T14:23:43.272774+00:00",
+    "normalization_issues": []
+  }
+}

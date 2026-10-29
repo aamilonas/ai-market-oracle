@@ -1,5 +1,24 @@
 {
   "balance": 25000,
   "starting_balance": 25000,
-  "trades": []
+  "trades": [
+    {
+      "date": "2026-10-29",
+      "ticker": "GOOGL",
+      "direction": "down",
+      "entry_price": 286.77,
+      "exit_price": null,
+      "shares": 87,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Perplexity Sonar Pro",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Claude Sonnet 5.5"
+      ],
+      "confidence": 0.8025,
+      "status": "OPEN"
+    }
+  ]
 }
