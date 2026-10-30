@@ -18,12 +18,12 @@ export default function Methodology() {
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>Morning</span>
             <span className={styles.scheduleLabel}>Predictions Generated</span>
-            <p className={styles.scheduleDesc}>All {ACTIVE_MODELS.length} models are queried in parallel with the identical prompt. The live Yahoo Finance price of every ticker is recorded the moment each answer arrives.</p>
+            <p className={styles.scheduleDesc}>All {ACTIVE_MODELS.length} models are queried in parallel with the identical prompt, built around a single Yahoo Finance snapshot taken before any model is called.</p>
           </div>
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>5:30 PM ET</span>
             <span className={styles.scheduleLabel}>Predictions Scored</span>
-            <p className={styles.scheduleDesc}>Closing prices fetched via yfinance. Each call is scored on whether the close moved in the predicted direction from the recorded live price.</p>
+            <p className={styles.scheduleDesc}>Closing prices fetched via yfinance. Each call is scored on whether the close moved in the predicted direction from that morning&apos;s snapshot price.</p>
           </div>
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>Saturday</span>
@@ -70,7 +70,9 @@ export default function Methodology() {
         <h2 className={styles.h2}>Prompt</h2>
         <p className={styles.sectionDesc}>
           Every model receives exactly this prompt — the same files the automation reads.
-          The market data block is filled in with Yahoo Finance and FRED data each morning.
+          The market data block is filled in each morning with one Yahoo Finance snapshot: for each
+          ticker the live price, the previous close, the move so far today, the day&apos;s range and the
+          5-day change, plus any earnings reported within a day either side, and FRED macro indicators.
         </p>
         <pre className={styles.promptBlock}>{SYSTEM_PROMPT}</pre>
         <pre className={styles.promptBlock}>{USER_PROMPT}</pre>
@@ -98,8 +100,13 @@ export default function Methodology() {
         <h2 className={styles.h2}>Market Data</h2>
         <p className={styles.sectionDesc}>
           Prices come from <code className={styles.code}>yfinance</code>, the Yahoo Finance Python library.
-          The baseline for each call is the live price recorded when the model answered, not the price the
-          model reports, so stale or invented prices can&apos;t inflate a score and a late morning run is still fair.
+          One snapshot is taken before any model is called, and that same snapshot is both shown in the prompt
+          and used as the scoring baseline — so every model is judged against the identical number, and the
+          price a model reasoned from is the price it is scored against. A model&apos;s own reported price is
+          stored separately and never used for scoring, so stale or invented prices can&apos;t inflate a score.
+          Each price is labelled with the previous close beside it, so a gap or news-driven move that has
+          already happened is visible rather than something a model has to infer. If a model predicts a
+          ticker outside the snapshot, its live price is fetched once and shared across all models.
           Closing prices are fetched after the 4:00 PM ET close.
         </p>
       </section>
@@ -111,6 +118,7 @@ export default function Methodology() {
           <ul className={styles.disclaimerList}>
             <li>Models may have knowledge of their own training data which could bias predictions.</li>
             <li>Search quality varies — native provider search and Exa search can surface different sources.</li>
+            <li>Models on the same search engine often receive the same sources, so when they agree it can reflect a shared information diet rather than independent judgement. Committee results should be read with that in mind.</li>
             <li>The scoring period is short — accuracy statistics have high variance with small sample sizes.</li>
             <li>Market prediction is hard. Even with perfect information, predicting short-term price movements is extremely difficult.</li>
             <li>The interesting result is the relative comparison between models, not the absolute performance.</li>

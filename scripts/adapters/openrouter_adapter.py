@@ -19,6 +19,12 @@ log = get_logger("openrouter_adapter")
 MAX_TOKENS = 12000
 MAX_CITATIONS_SAVED = 15
 
+# Exa's flat per-request price covers 10 results; taking fewer just wastes them.
+EXA_MAX_RESULTS = 10
+
+# Content farms that surfaced in place of real market coverage.
+SEARCH_EXCLUDE_DOMAINS = ["marketsignal-daily.com", "squawkflow.com"]
+
 # Cheap, fixed model used only to reformat a malformed answer into JSON.
 # It never changes the content of a prediction.
 REPAIR_MODEL = "google/gemini-3.5-flash-lite"
@@ -92,7 +98,14 @@ class OpenRouterAdapter:
         if self.web_search == "native":
             extra["plugins"] = [{"id": "web", "engine": "native"}]
         elif self.web_search == "exa":
-            extra["plugins"] = [{"id": "web", "engine": "exa", "max_results": 5}]
+            # Exa bills $0.007 per request including up to 10 results, so 10 costs
+            # the same as the default 5.
+            extra["plugins"] = [{
+                "id": "web",
+                "engine": "exa",
+                "max_results": EXA_MAX_RESULTS,
+                "exclude_domains": SEARCH_EXCLUDE_DOMAINS,
+            }]
         # "built_in": the model always searches (Perplexity Sonar) — no plugin needed
         return extra
 

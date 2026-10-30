@@ -4,15 +4,19 @@ Regular session: 9:30 AM to 4:00 PM ET.
 {{MARKET_CONTEXT}}
 
 TASK
-Research futures and pre-market or intraday action, overnight and breaking news,
-and today's economic calendar. Then make 3-5 specific, falsifiable predictions
-about where prices will be at today's 4:00 PM ET close.
+Research pre-market or intraday action, overnight and breaking news, and today's
+economic calendar. Then make 3-5 specific, falsifiable predictions about where
+prices will be at today's 4:00 PM ET close. If news you find describes a move that
+the MARKET DATA block already shows as having happened today, predict what happens
+from here — do not apply that move a second time.
 
 RULES
 1. At least one prediction must be on SPY, QQQ, or DIA.
 2. Tickers must be Yahoo Finance symbols: US-listed stocks/ETFs, or crypto as SYMBOL-USD (e.g. BTC-USD).
-3. direction: "up" or "down", measured from the live price at the moment you predict.
-   That price is recorded automatically from Yahoo Finance when your answer arrives.
+3. direction: "up" or "down", measured from the price shown in the MARKET DATA block
+   above. That snapshot is the scoring baseline, it is identical for every model, and
+   it already includes any move that has happened so far today. For a ticker not
+   listed above, the live Yahoo price when your answer arrives is used instead.
 4. target_price: the price you expect at today's close.
 5. timeframe: always "end_of_day".
 6. confidence: 0.50 (coin flip) to 0.95 (very strong signal).

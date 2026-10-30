@@ -13,6 +13,7 @@ import json
 import os
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -95,27 +96,60 @@ def normalize_predictions(data: dict, adapter, date_str: str) -> list[str]:
     return issues
 
 
-def attach_live_prices(data: dict, slug: str) -> None:
-    """Record the real price at prediction time — the baseline direction is scored against.
+# Off-context tickers are fetched once per run and shared, so two models predicting
+# the same ticker are never scored against two different baselines.
+_offcontext_lock = Lock()
+_offcontext_prices: dict[str, tuple[float | None, str]] = {}
 
-    Models' self-reported prices can be stale or hallucinated, and the job may run
-    after the open, so the live Yahoo price is the only fair baseline.
+
+def _offcontext_price(ticker: str) -> tuple[float | None, str]:
+    """Live price for a ticker outside the shared snapshot, fetched at most once."""
+    with _offcontext_lock:
+        if ticker not in _offcontext_prices:
+            from market_data import get_current_price
+            _offcontext_prices[ticker] = (
+                get_current_price(ticker),
+                datetime.now(timezone.utc).isoformat(),
+            )
+        return _offcontext_prices[ticker]
+
+
+def attach_baselines(data: dict, snapshot: dict, slug: str) -> None:
+    """Record the baseline each direction is scored against.
+
+    For tickers in the shared snapshot this is the very number the model was shown,
+    so the price it reasoned from and the price it is judged against are the same,
+    and are identical across all models. Models' self-reported prices are kept
+    separately because they can be stale or hallucinated.
     """
-    from market_data import get_current_price
-    fetched_at = datetime.now(timezone.utc).isoformat()
+    quotes = snapshot.get("quotes") or {}
+    snapshot_at = snapshot.get("fetched_at") or datetime.now(timezone.utc).isoformat()
+
     for pred in data["predictions"]:
-        live = get_current_price(pred["ticker"])
+        ticker = pred["ticker"]
+        quote = quotes.get(ticker)
+        if quote:
+            pred["current_price_at_prediction"] = quote["last"]
+            pred["prev_close"] = quote.get("prev_close")
+            pred["price_source"] = "shared_snapshot"
+            pred["price_fetched_at"] = snapshot_at
+            continue
+
+        # Not in the shared context — the model went off-menu.
+        live, fetched_at = _offcontext_price(ticker)
         if live is not None:
             pred["current_price_at_prediction"] = live
             pred["price_source"] = "yfinance_live"
         elif pred.get("model_reported_price"):
             pred["current_price_at_prediction"] = pred["model_reported_price"]
             pred["price_source"] = "model_reported"
-            log.warning(f"{slug} {pred['ticker']}: no live price, using model-reported baseline")
+            log.warning(f"{slug} {ticker}: no live price, using model-reported baseline")
         else:
             pred["current_price_at_prediction"] = None
             pred["price_source"] = None
         pred["price_fetched_at"] = fetched_at
+        log.info(f"{slug} {ticker}: outside shared context, priced via {pred['price_source']}")
+
     # A prediction without any baseline can never be scored — drop it
     data["predictions"] = [p for p in data["predictions"] if p["current_price_at_prediction"]]
 
@@ -151,11 +185,15 @@ def run(
     ensure_dirs()
     log.info(f"Generating predictions for {date_str}{' (dry run)' if dry_run else ''}")
 
-    # Fetch standardized market data for all models
+    # One market snapshot for every model: it is both what they are shown and what
+    # they are scored against, so the two can never disagree.
+    snapshot = {"quotes": {}}
     market_context = ""
     try:
-        from market_data import get_market_context
-        market_context = get_market_context()
+        from market_data import get_market_snapshot, format_market_context
+        trading_day = datetime.strptime(date_str, "%Y-%m-%d").date()
+        snapshot = get_market_snapshot(trading_day)
+        market_context = format_market_context(snapshot)
         if not market_context:
             log.warning("Market context came back empty — models will rely on web search only")
     except Exception as e:
@@ -205,7 +243,7 @@ def run(
                 continue
 
             issues = normalize_predictions(data, adapter, date_str)
-            attach_live_prices(data, adapter.slug)
+            attach_baselines(data, snapshot, adapter.slug)
             run_meta = data.pop("run", {})
             payload = {
                 "date": date_str,
@@ -213,6 +251,8 @@ def run(
                 "model": adapter.model_id,
                 "model_display_name": adapter.model_display_name,
                 "generated_at": run_meta.get("finished_at") or datetime.now(timezone.utc).isoformat(),
+                # The model's own read of conditions (not the context we injected,
+                # which is recorded once per day in the run file).
                 "market_context": str(data.get("market_context", "")).strip(),
                 "predictions": data["predictions"],
                 "run": {**run_meta, "normalization_issues": issues},
@@ -251,7 +291,14 @@ def run(
 
     # Per-day run record so the site can show which models missed the day and why
     run_file = RUNS_DIR / f"{date_str}.json"
-    save_json(run_file, {"date": date_str, "prompted_at_et": now_et, "models": statuses})
+    save_json(run_file, {
+        "date": date_str,
+        "prompted_at_et": now_et,
+        "models": statuses,
+        # The exact context every model was given, so a past day can be audited.
+        "market_snapshot": snapshot,
+        "market_context": market_context,
+    })
     sync_to_public(run_file)
 
     if ok_count == 0:
