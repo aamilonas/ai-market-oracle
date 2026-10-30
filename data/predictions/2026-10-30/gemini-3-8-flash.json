@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-30",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-10-30T16:41:16.670124+00:00",
+  "market_context": "U.S. equities are under heavy selling pressure on the final trading day of October, led by a deep rout in technology and semiconductor shares following Intel's 29% post-earnings plunge and mounting investor skepticism over Big Tech AI capex and cash burn. With the VIX jumping nearly 17% above 20 and the 10-year Treasury yield elevated at 4.94%, major indices like SPY and QQQ are trading in negative gamma regimes near session lows, favoring continued late-day weakness.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261030_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 689.8,
+      "model_reported_price": 692.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "The Nasdaq-100 is suffering broad liquidation after Intel's disastrous guidance and Alphabet's earlier slump triggered wider concerns regarding AI-related capital expenditures. With QQQ hovering right near its intraday low of $691.54 and dealer hedging accelerating downside momentum in negative gamma territory, selling pressure is likely to persist through the close. A minor continuation lower toward $689-$690 is expected into the final hour.",
+      "current_price_at_prediction": 692.17,
+      "prev_close": 715.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261030_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.5,
+      "model_reported_price": 757.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY has broken key technical support around the $760 level amid elevated volatility and institutional fund outflows. While defensive energy earnings provide some offset, the broad market is pinned near day lows with no catalyst for a late-day reversal before the weekend. Continued derisking into the 4:00 PM close should push SPY toward support near $755.",
+      "current_price_at_prediction": 757.32,
+      "prev_close": 769.36,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261030_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 203.1,
+      "model_reported_price": 204.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Nvidia is down over 4% and consolidating directly at its intraday low of $204.22 as semiconductor sentiment deteriorates across the board. Heightened scrutiny on AI hardware demand and negative sector breadth are weighing heavily on chipmakers into the close. Absent any positive headlines, path of least resistance remains lower toward $203.",
+      "current_price_at_prediction": 204.47,
+      "prev_close": 213.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261030_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 238.6,
+      "model_reported_price": 240.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Amazon has staged a sharp mean-reversion rally from its morning trough of $229.36 up to session resistance near $241.55. However, the underlying driver of today's weakness—a steep -$42.4 billion negative free cash flow figure and $220 billion in capex—remains an overhang for institutional buyers. As the midday relief bid stalls against broader market weakness, shares are poised to fade modestly back toward $238.60 into the settlement.",
+      "current_price_at_prediction": 240.41,
+      "prev_close": 243.79,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQVF5XNbVzLKRqtBK9_XFXWMIqWkt7BSMesz0JYs5sghrjgsPHkfzma5T8Z06zIUB5m_0-abA98Vltxji6DQ1J6Hxh_NoY2ARG01zWz6C_9rzuH6lwsv_njHsQfFFXi2_H7XAINkOV-FqwmXYjWhu8NJTtexZVd21N3zqwfKE_mO63cols",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM1zoCLvXuEmlTu277evzIyQdTTctzvNNXInMCTs3nvoo0FaWlI74OzpiiS-23Y-lukEL7BgRMkrREQV00DLNMmUoHJJyY9P5wkiqOFjN1dqGZkII0uoJAZVGdpdOJVpeEoDkLbjPhxCuwNuXsEQ7TOKw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4gO3O_zCuk3V2417iaIsAzOV6ASBodZxc4r7LTJeYdh2Uraj0dH6R09V6OhF1TtKa7DW3biGfR1f7IQCMPNLP6hZmSzTjlkP5q9KncWoqHSOMGFQ2ixgIQ1sw6jye93FL9MbXFdaiGQb-h0ptSJiGIGRU81scJZqaG6uukV78YVscEnhEXV97PXoHNEhrWn3zW2LvNAaWPIJPfuh90IV8NpfWWrqklPhAXS-9mdoF37bQB_QiTB4YgSo3nGWgLNJ7q9vuMgGOZg35tbztyyvBJwXEcklUG1iBYdHFrQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVR7gUMYIM0cCoLnvNP_LxlOlvh5veX82n7N9hR_AcQTbLdEnct5iwUfCQodXG4vY7D1zlujwi1VDMl8J30NrDQ5gOIFnoib1S0uXZTX5Y0jdAthI-VHOs7cxsdBVWUVB1ug==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-rRoES0_WiW4ZpbW2GQprF350j_RZpQY3ZfNbgkjie6wtIUo6Cy37j8LVCpZbz52sv0IEQa1JLKcgArBpGL-a4g7vFrtvkCJse1k9r3aCwbJjbBd1Qw1L_pfRgWw85hilHcJ4rNA8Fp4AnqANE0wQRUnFvH2MNdHu3hH6ndcTK1Cn1Q9dYoE3fg8Vw8-YkcY6Rvft9XwAJimhofhpqMZ6sjwffA4=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOQ5tDOhdumdjasbz6LnuGyJIBZI5eFpl6wSrsu1zY-QIhsaQxkkc5PcHVZNRo2YXSpjd9m7m4K4N_7Jx-SsXFExESdceIe2eYXGCvrFT8QlURQlDkYH3g5hfMV0btvohWmydrh6SdvdBeCLNRg9nIUHpKuij2IIM2L0Ft9zLoAH2Q5eWtUbCBPNjnLvXfsmk=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwUcbDXNEuuKVT82cxx1PUvwXbeAnc3uRYxfhY8SjNwhqgiX3WdVsn6ZLnp7qXutYs7OTeBtRYlTbBeup-q9FE4gVACKrqJ3E5O_IM53rMJdPrK4jigNdgv2mujO6VAAEmVVvwuWKIsF0W_5l14JCI8xerqldHHcCFCUCrcc9YtZf8X4PYYL5rwfkPxX1zQNrckXSn1-20EvknZVQ2URKLvmRalPim",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNKFa7aSLTWLiEc3L3uT46_tZSTmiEIGZeNPeSRK8M_F1vs1srrPJXefFoFmx5MygNn5pi5pu5XPvFEOEGRFAhAGBuXfIUn203Q6FOCoog9GXWd0mIdQa0so0KlTO190lPj6R8ECuDZO6W4AolknmbBzzUYdJset3_qSV5oipBJifzMFNAAg=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 41.5,
+    "prompt_tokens": 1711,
+    "completion_tokens": 5075,
+    "cost_usd": 0.1183145,
+    "finished_at": "2026-10-30T16:41:16.670124+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-30",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-10-30T16:45:05.888468+00:00",
+  "market_context": "The market is in a tech-led risk-off session, with SPY down 1.56% and QQQ down 3.24% at 12:40 ET as AI-spending concerns following Amazon and Alphabet results combine with Intel's weak outlook finance.yahoo.com. Oil has rebounded to roughly $104 for WTI and $113 for Brent, while the 10-year yield remains elevated at 4.94%; energy, banks and defensives are cushioning non-tech shares but have not reversed the broader decline tradevae.com.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261030_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 754.8,
+      "model_reported_price": 757.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY is only $0.65 above its $756.67 session low after weakening through the morning, while VIX has jumped 16.92% to 20.11. The selloff is tied to persistent AI-capex and earnings concerns rather than a single cleared event, and higher oil adds an inflation headwind, favoring another push lower into the close [finance.yahoo.com.",
+      "current_price_at_prediction": 757.32,
+      "prev_close": 769.36,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261030_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 688.5,
+      "model_reported_price": 692.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ is down 3.24% and remains just above its $691.54 session low, with no meaningful midday rebound. Semiconductor breadth is exceptionally weak—SOXX was down 8.26% and SMH 6.73% late morning—making continued tech underperformance the higher-probability path finance.yahoo.com.",
+      "current_price_at_prediction": 692.17,
+      "prev_close": 715.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261030_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 202.75,
+      "model_reported_price": 204.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA is down 4.30% and only $0.25 above its $204.22 session low, leaving it directly exposed to the semiconductor rout. Intel's approximately 29% premarket plunge following its disappointing Q4 outlook reinforces sector-wide pressure and raises the likelihood that NVDA closes below the current baseline finance.yahoo.com.",
+      "current_price_at_prediction": 204.47,
+      "prev_close": 213.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261030_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 242.25,
+      "model_reported_price": 240.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite its earnings miss and the technology selloff, AMZN has reversed sharply from its $229.36 session low to $240.41 and now trades near its $241.55 high. That substantial intraday recovery and outperformance versus QQQ indicate strong dip-buying, which could carry the stock modestly higher from here even if the broader market remains heavy finance.yahoo.com.",
+      "current_price_at_prediction": 240.41,
+      "prev_close": 243.79,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    }
+  ],
+  "run": {
+    "provider": "Moonshot AI",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "http://tradevae.com/state-of-market-reports/2026-10-30/open/tech-takes-the-hit-as-defensives-banks-and-oil-bid-into-the-open-bonds-catch-a-breather-103026092849/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://finance.yahoo.com/quote/SPY/options/",
+      "https://finance.yahoo.com/quotes/DIA,GE,QQQ,SPY/",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 268.3,
+    "prompt_tokens": 5167,
+    "completion_tokens": 7804,
+    "cost_usd": 0.095374,
+    "finished_at": "2026-10-30T16:45:05.888468+00:00",
+    "normalization_issues": []
+  }
+}

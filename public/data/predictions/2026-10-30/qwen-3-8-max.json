@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-30",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-10-30T16:44:02.323504+00:00",
+  "market_context": "Tech-led selling is driving major indexes lower after Amazon and Alphabet results renewed AI-capex concerns, while strong GDP and higher oil keep rate-pressure worries alive finance.yahoo.com, finance.yahoo.com. Defensive and energy bids are limiting damage, but QQQ and semis remain sharply weaker with volatility rising tradevae.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261030_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 756.3,
+      "model_reported_price": 757.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is already 1.56% lower and trading near its session low as broad large-cap weakness persists [finance.yahoo.com. Strong GDP and sticky inflation complicate Fed easing, keeping pressure on equity multiples into the close finance.yahoo.com.",
+      "current_price_at_prediction": 757.32,
+      "prev_close": 769.36,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261030_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 690.5,
+      "model_reported_price": 692.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Amazon and Alphabet earnings have reignited AI-spending concerns, and the Nasdaq rout is showing no sign of letting up finance.yahoo.com. QQQ is already down more than 3% and near its intraday low, making a weak close more likely than a full rebound finance.yahoo.com.",
+      "current_price_at_prediction": 692.17,
+      "prev_close": 715.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261030_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.3,
+      "model_reported_price": 518.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow is holding up better than Nasdaq, but higher oil and broad risk-off are still weighing on cyclical exposure tradevae.com. With SPY and QQQ pressing lower, DIA is more likely to drift modestly lower than break higher finance.yahoo.com.",
+      "current_price_at_prediction": 518.92,
+      "prev_close": 522.73,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261030_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 203.5,
+      "model_reported_price": 204.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA is down 4.3% while semiconductor proxies are deeply lower, showing that AI-capex anxiety is hitting the chip complex directly finance.yahoo.com. With the stock near its intraday low and VIX sharply higher, further weakness into the close is more likely than a full reversal finance.yahoo.com.",
+      "current_price_at_prediction": 204.47,
+      "prev_close": 213.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "http://tradevae.com/state-of-market-reports/2026-10-30/open/tech-takes-the-hit-as-defensives-banks-and-oil-bid-into-the-open-bonds-catch-a-breather-103026092849/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://finance.yahoo.com/quote/SPY/options/",
+      "https://finance.yahoo.com/quotes/DIA,GE,QQQ,SPY/",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 205.0,
+    "prompt_tokens": 5946,
+    "completion_tokens": 8262,
+    "cost_usd": 0.068464,
+    "finished_at": "2026-10-30T16:44:02.323504+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T16:45:10.492723+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Nine models lean bearish as scoring waits for the closing bell",
+  "summary": "No calls have been scored yet, so no model has taken the lead. Eight models agree SPY will fall, and Hermes 4 405B's 85% QQQ call is the morning's highest-conviction pick, pending the close. QQQ and NVDA drew an 8-to-1 down split, AMZN divided 2-2, and BTC-USD and DIA each drew smaller down camps.",
+  "consensus_picks": [
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "8 models called SPY down."
+    },
+    {
+      "ticker": "AMZN",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "2 down, 2 up across 4 models."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Grok 4.3"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models called BTC-USD down."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "2 models called DIA down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261030_002",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+  },
+  "worst_call": null
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-10-30T16:40:47.397201+00:00",
+  "market_context": "Friday is a tech-led selloff. Amazon and Intel earnings (Intel fell about 29%) set it off, after Alphabet's 12% drop on Thursday renewed worries about AI capex and free cash flow. By 12:40 the Nasdaq was down roughly 2.5-3%, the S&P 500 down about 1.5%, and the Dow down only about 0.7%, with money rotating into staples and healthcare. VIX is about 20, and QQQ and NVDA are trading near their lows of the day. Bitcoin is near $77k after a reported roughly $6.3B Binance hack. Today is also month-end, which could bring rebalancing flows.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261030_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 694.5,
+      "model_reported_price": 692.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ is down 3.2% and sits right at its day low of $691.54. That is a stretched move after a two-day AI-capex rout, and month-end rebalancing after a Nasdaq decline of about 5% for October could support a modest afternoon bounce. The call is low-conviction because the selloff momentum is strong.",
+      "current_price_at_prediction": 692.17,
+      "prev_close": 715.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261030_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 206.5,
+      "model_reported_price": 204.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA is down 4.3% and trading at its low of the day ($204.22) on hyperscaler capex fears and the Intel/AMD chip selloff. Its next earnings are not until Nov 17, so there is no event risk today, and oversold semis often bounce into the close. The sector trend is still negative, so confidence is limited.",
+      "current_price_at_prediction": 204.47,
+      "prev_close": 213.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261030_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76500.0,
+      "model_reported_price": 77319.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The reported Binance hack of about $6.3B, which was linked to North Korean hackers, is weighing on crypto, and crypto equities were down more than 6% in premarket. Risk-off conditions in equities and a 4.94% 10Y yield add pressure, and BTC is down 3.4% over five days with a lower-highs pattern.",
+      "current_price_at_prediction": 77319.46,
+      "prev_close": 77775.11,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 12.2,
+    "prompt_tokens": 23810,
+    "completion_tokens": 1193,
+    "cost_usd": 0.06955,
+    "finished_at": "2026-10-30T16:40:47.397201+00:00",
+    "normalization_issues": []
+  }
+}

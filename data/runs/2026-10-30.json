@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-30",
+  "prompted_at_et": "Friday 2026-10-30 12:40 PM",
+  "models": {
+    "claude-sonnet-5-5": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.06955,
+      "latency_seconds": 12.2
+    },
+    "deepseek-v4-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.0362848,
+      "latency_seconds": 71.3
+    },
+    "gemini-3-8-flash": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 8,
+      "cost_usd": 0.1183145,
+      "latency_seconds": 41.5
+    },
+    "gpt-5-6-terra": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.055036,
+      "latency_seconds": 19.5
+    },
+    "grok-4-3": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 15,
+      "cost_usd": 0.043372,
+      "latency_seconds": 19.2
+    },
+    "hermes-4-405b": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.013592,
+      "latency_seconds": 13.4
+    },
+    "kimi-k3-1-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.095374,
+      "latency_seconds": 268.3
+    },
+    "qwen-3-8-max": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.068464,
+      "latency_seconds": 205.0
+    },
+    "sonar-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "built_in",
+      "citations": 15,
+      "cost_usd": 0.01839,
+      "latency_seconds": 10.6
+    }
+  },
+  "market_snapshot": {
+    "fetched_at": "2026-10-30T12:40:33.797639-04:00",
+    "session": "open",
+    "trading_day": "2026-10-30",
+    "quotes": {
+      "SPY": {
+        "last": 757.32,
+        "prev_close": 769.36,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.56,
+        "open": 761.38,
+        "high": 761.46,
+        "low": 756.67,
+        "pct_5d": -0.35
+      },
+      "QQQ": {
+        "last": 692.17,
+        "prev_close": 715.34,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -3.24,
+        "open": 697.13,
+        "high": 698.63,
+        "low": 691.54,
+        "pct_5d": -1.74
+      },
+      "DIA": {
+        "last": 518.92,
+        "prev_close": 522.73,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.73,
+        "open": 521.85,
+        "high": 522.02,
+        "low": 518.56,
+        "pct_5d": -0.47
+      },
+      "IWM": {
+        "last": 279.2,
+        "prev_close": 284.01,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.69,
+        "open": 281.97,
+        "high": 282.71,
+        "low": 278.81,
+        "pct_5d": 1.25
+      },
+      "AAPL": {
+        "last": 347.49,
+        "prev_close": 348.91,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.41,
+        "open": 346.68,
+        "high": 349.19,
+        "low": 344.13,
+        "pct_5d": -0.07
+      },
+      "MSFT": {
+        "last": 522.34,
+        "prev_close": 530.14,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.47,
+        "open": 525.27,
+        "high": 526.0,
+        "low": 514.35,
+        "pct_5d": -0.41
+      },
+      "NVDA": {
+        "last": 204.47,
+        "prev_close": 213.66,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -4.3,
+        "open": 208.88,
+        "high": 209.05,
+        "low": 204.22,
+        "pct_5d": -3.08
+      },
+      "TSLA": {
+        "last": 400.55,
+        "prev_close": 403.3,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.68,
+        "open": 393.04,
+        "high": 404.19,
+        "low": 387.52,
+        "pct_5d": 7.61
+      },
+      "AMZN": {
+        "last": 240.41,
+        "prev_close": 243.79,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.39,
+        "open": 232.53,
+        "high": 241.55,
+        "low": 229.36,
+        "pct_5d": -3.06,
+        "earnings": "reported yesterday (2026-10-29), consensus EPS $2.43"
+      },
+      "GOOGL": {
+        "last": 280.33,
+        "prev_close": 283.82,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.23,
+        "open": 281.09,
+        "high": 283.14,
+        "low": 279.0,
+        "pct_5d": -12.45
+      },
+      "META": {
+        "last": 621.1,
+        "prev_close": 624.52,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.55,
+        "open": 614.51,
+        "high": 626.37,
+        "low": 610.14,
+        "pct_5d": -3.35
+      },
+      "^VIX": {
+        "last": 20.11,
+        "prev_close": 17.2,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": 16.92,
+        "open": 18.43,
+        "high": 20.27,
+        "low": 18.03,
+        "pct_5d": 3.39
+      },
+      "^TNX": {
+        "last": 4.94,
+        "prev_close": 4.99,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -1.0,
+        "open": 4.92,
+        "high": 4.96,
+        "low": 4.91,
+        "pct_5d": -0.96
+      },
+      "BTC-USD": {
+        "last": 77319.46,
+        "prev_close": 77775.11,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.59,
+        "open": 77791.38,
+        "high": 78564.94,
+        "low": 76418.34,
+        "pct_5d": -3.38
+      },
+      "ETH-USD": {
+        "last": 2231.91,
+        "prev_close": 2249.5,
+        "is_intraday": true,
+        "as_of_date": "2026-10-30",
+        "pct_today": -0.78,
+        "open": 2248.75,
+        "high": 2256.33,
+        "low": 2181.59,
+        "pct_5d": -4.08
+      }
+    }
+  },
+  "market_context": "=== MARKET DATA (Yahoo Finance live snapshot, 12:40 ET — market OPEN) ===\n\nThe first price on each line is the LIVE intraday price at the moment of this\nsnapshot, NOT a previous close. The previous close is given separately so you can\nsee how far today has already moved. Any gap or news-driven drop earlier today is\nALREADY reflected in the live price — do not subtract it again.\n\nINDICES / ETFs:\n  SPY: $757.32  |  prev close $769.36  |  -1.56% today  |  day range $756.67-$761.46  |  5-day -0.3%\n  QQQ: $692.17  |  prev close $715.34  |  -3.24% today  |  day range $691.54-$698.63  |  5-day -1.7%\n  DIA: $518.92  |  prev close $522.73  |  -0.73% today  |  day range $518.56-$522.02  |  5-day -0.5%\n  IWM: $279.20  |  prev close $284.01  |  -1.69% today  |  day range $278.81-$282.71  |  5-day +1.2%\n\nKEY STOCKS:\n  AAPL: $347.49  |  prev close $348.91  |  -0.41% today  |  day range $344.13-$349.19  |  5-day -0.1%\n  MSFT: $522.34  |  prev close $530.14  |  -1.47% today  |  day range $514.35-$526.00  |  5-day -0.4%\n  NVDA: $204.47  |  prev close $213.66  |  -4.30% today  |  day range $204.22-$209.05  |  5-day -3.1%\n  TSLA: $400.55  |  prev close $403.30  |  -0.68% today  |  day range $387.52-$404.19  |  5-day +7.6%\n  AMZN: $240.41  |  prev close $243.79  |  -1.39% today  |  day range $229.36-$241.55  |  5-day -3.1%\n  GOOGL: $280.33  |  prev close $283.82  |  -1.23% today  |  day range $279.00-$283.14  |  5-day -12.4%\n  META: $621.10  |  prev close $624.52  |  -0.55% today  |  day range $610.14-$626.37  |  5-day -3.4%\n\nCRYPTO (24h market):\n  BTC-USD: $77,319.46  |  prev close $77,775.11  |  -0.59% today  |  day range $76,418.34-$78,564.94  |  5-day -3.4%\n  ETH-USD: $2,231.91  |  prev close $2,249.50  |  -0.78% today  |  day range $2,181.59-$2,256.33  |  5-day -4.1%\n\nMARKET INDICATORS:\n  VIX: 20.11  (+16.92% today)\n  10Y Treasury Yield: 4.94%\n\nEARNINGS IN THIS WINDOW:\n  AMZN: reported yesterday (2026-10-29), consensus EPS $2.43\n\nThese live prices are the baseline your direction is scored against. Predict where each ticker closes at 4:00 PM ET relative to the live price above.\n==="
+}

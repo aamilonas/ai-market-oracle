@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-30",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-10-30T16:40:48.526031+00:00",
+  "market_context": "The market is experiencing broad-based selling pressure today, with technology stocks leading the decline amid concerns about high AI spending and rising interest rates. The Nasdaq-100 (QQQ) is down over 3% intraday, while the S&P 500 (SPY) is off about 1.5% as of 12:40 PM ET. Volatility (VIX) has spiked over 16% today.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261030_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 755.0,
+      "model_reported_price": 757.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The S&P 500 ETF (SPY) is down 1.56% intraday amid broad market weakness driven by tech sector declines and rising interest rate concerns. With volatility (VIX) spiking over 16% and no immediate positive catalysts, SPY is likely to extend losses toward the 755 level by the close.",
+      "current_price_at_prediction": 757.32,
+      "prev_close": 769.36,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261030_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 685.0,
+      "model_reported_price": 692.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "The Nasdaq-100 ETF (QQQ) is down sharply by 3.24% intraday as mega-cap tech stocks sell off on AI spending concerns. With key components like NVDA down over 4% and GOOGL down 1.23%, QQQ is likely to see continued pressure and test the 685 support level by the close.",
+      "current_price_at_prediction": 692.17,
+      "prev_close": 715.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261030_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.0,
+      "model_reported_price": 204.47,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "NVIDIA (NVDA) is down 4.3% intraday amid the tech rout, with investors concerned about high AI infrastructure spending across the sector. The stock is likely to remain under pressure and could test the psychological $200 level by the close as the broader tech sell-off continues.",
+      "current_price_at_prediction": 204.47,
+      "prev_close": 213.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-10-30T12:40:33.797639-04:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "http://tradevae.com/state-of-market-reports/2026-10-30/open/tech-takes-the-hit-as-defensives-banks-and-oil-bid-into-the-open-bonds-catch-a-breather-103026092849/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://finance.yahoo.com/quote/SPY/options/",
+      "https://finance.yahoo.com/quotes/DIA,GE,QQQ,SPY/",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 13.4,
+    "prompt_tokens": 5089,
+    "completion_tokens": 501,
+    "cost_usd": 0.013592,
+    "finished_at": "2026-10-30T16:40:48.526031+00:00",
+    "normalization_issues": []
+  }
+}
