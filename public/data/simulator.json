@@ -1,5 +1,5 @@
 {
-  "balance": 25000,
+  "balance": 25256.65,
   "starting_balance": 25000,
   "trades": [
     {
@@ -7,10 +7,10 @@
       "ticker": "GOOGL",
       "direction": "down",
       "entry_price": 286.77,
-      "exit_price": null,
+      "exit_price": 283.82,
       "shares": 87,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 256.65,
+      "pnl_pct": 1.03,
       "models": [
         "Perplexity Sonar Pro",
         "GPT-5.6 Terra",
@@ -18,7 +18,7 @@
         "Claude Sonnet 5.5"
       ],
       "confidence": 0.8025,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

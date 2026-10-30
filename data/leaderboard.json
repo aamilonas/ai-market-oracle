@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T16:52:41.910043+00:00",
+  "last_updated": "2026-10-30T02:01:46.307645+00:00",
   "trading_days": 1,
   "models": [
     {
@@ -7,153 +7,216 @@
       "model_id": "anthropic/claude-sonnet-5.5",
       "model_display_name": "Claude Sonnet 5.5",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 4,
+      "correct_directions": 3,
+      "direction_accuracy": 0.75,
+      "total_score": 2.15,
+      "avg_score": 0.5375,
+      "avg_confidence": 0.7125,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 3,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 2.15,
+          "predictions": 4,
+          "accuracy": 0.75
+        }
+      ]
     },
     {
       "slug": "gpt-5-6-terra",
       "model_id": "openai/gpt-5.6-terra",
       "model_display_name": "GPT-5.6 Terra",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 4,
+      "correct_directions": 3,
+      "direction_accuracy": 0.75,
+      "total_score": 2.8,
+      "avg_score": 0.7,
+      "avg_confidence": 0.62,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": 3,
+      "best_streak": 3,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 2.8,
+          "predictions": 4,
+          "accuracy": 0.75
+        }
+      ]
     },
     {
       "slug": "gemini-3-8-flash",
       "model_id": "google/gemini-3.8-flash",
       "model_display_name": "Gemini 3.8 Flash",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 4,
+      "correct_directions": 2,
+      "direction_accuracy": 0.5,
+      "total_score": 0.53,
+      "avg_score": 0.1325,
+      "avg_confidence": 0.6225,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 1,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 0.53,
+          "predictions": 4,
+          "accuracy": 0.5
+        }
+      ]
     },
     {
       "slug": "grok-4-3",
       "model_id": "x-ai/grok-4.3",
       "model_display_name": "Grok 4.3",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 4,
+      "correct_directions": 2,
+      "direction_accuracy": 0.5,
+      "total_score": 0.2,
+      "avg_score": 0.05,
+      "avg_confidence": 0.725,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 2,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 0.2,
+          "predictions": 4,
+          "accuracy": 0.5
+        }
+      ]
     },
     {
       "slug": "sonar-pro",
       "model_id": "perplexity/sonar-pro",
       "model_display_name": "Perplexity Sonar Pro",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 5,
+      "correct_directions": 4,
+      "direction_accuracy": 0.8,
+      "total_score": 2.75,
+      "avg_score": 0.55,
+      "avg_confidence": 0.738,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": 4,
+      "best_streak": 4,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 2.75,
+          "predictions": 5,
+          "accuracy": 0.8
+        }
+      ]
     },
     {
       "slug": "deepseek-v4-pro",
       "model_id": "deepseek/deepseek-v4-pro",
       "model_display_name": "DeepSeek V4 Pro",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 5,
+      "correct_directions": 1,
+      "direction_accuracy": 0.2,
+      "total_score": -1.15,
+      "avg_score": -0.23,
+      "avg_confidence": 0.59,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -4,
+      "best_streak": 1,
+      "worst_streak": -4,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": -1.15,
+          "predictions": 5,
+          "accuracy": 0.2
+        }
+      ]
     },
     {
       "slug": "kimi-k3-1-pro",
       "model_id": "moonshotai/kimi-k3.1-pro",
       "model_display_name": "Kimi K3.1 Pro",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 3,
+      "correct_directions": 2,
+      "direction_accuracy": 0.6667,
+      "total_score": 1.66,
+      "avg_score": 0.5533,
+      "avg_confidence": 0.6,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 2,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": 1.66,
+          "predictions": 3,
+          "accuracy": 0.6667
+        }
+      ]
     },
     {
       "slug": "hermes-4-405b",
       "model_id": "nousresearch/hermes-4-405b",
       "model_display_name": "Hermes 4 405B",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 3,
+      "correct_directions": 1,
+      "direction_accuracy": 0.3333,
+      "total_score": -0.6,
+      "avg_score": -0.2,
+      "avg_confidence": 0.7,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 1,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": -0.6,
+          "predictions": 3,
+          "accuracy": 0.3333
+        }
+      ]
     },
     {
       "slug": "qwen-3-8-max",
       "model_id": "qwen/qwen3.8-max-0902",
       "model_display_name": "Qwen 3.8 Max",
       "active": true,
-      "total_predictions": 0,
-      "correct_directions": 0,
-      "direction_accuracy": 0.0,
-      "total_score": 0.0,
-      "avg_score": 0.0,
-      "avg_confidence": 0.0,
+      "total_predictions": 3,
+      "correct_directions": 1,
+      "direction_accuracy": 0.3333,
+      "total_score": -0.07,
+      "avg_score": -0.0233,
+      "avg_confidence": 0.59,
       "days_predicted": 1,
-      "current_streak": 0,
-      "best_streak": 0,
-      "worst_streak": 0,
-      "weekly_scores": []
+      "current_streak": -1,
+      "best_streak": 1,
+      "worst_streak": -1,
+      "weekly_scores": [
+        {
+          "week": "2026-W44",
+          "score": -0.07,
+          "predictions": 3,
+          "accuracy": 0.3333
+        }
+      ]
     }
   ]
 }

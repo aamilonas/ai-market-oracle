@@ -1,9 +1,9 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T14:25:00.854818+00:00",
+  "generated_at": "2026-10-30T02:01:50.644133+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine Models Split on Index Direction; Sonar Pro's 88% GOOGL Call Stands Out",
-  "summary": "Eight of nine models called QQQ and SPY down, with one dissenter on each, so the index view was lopsided but not unanimous. Perplexity Sonar Pro posted the day's highest-conviction call, 88% on GOOGL, where four models agreed the stock would fall, while IWM drew four up calls and MSFT three. All calls remain pending because scoring happens after the close, so no results are in yet.",
+  "headline": "GPT-5.6 Terra tops a split day as index bets divided",
+  "summary": "GPT-5.6 Terra led the board at 2.8, narrowly ahead of Perplexity Sonar Pro at 2.75, with Claude Sonnet 5.5 third at 2.15. Models were split on the broad market: QQQ and SPY each drew 8 down calls against 1 up, yet Claude's QQQ down call was the day's best at 1.18, while Perplexity's SPY down call was the worst at -0.72. Consensus picks were mixed, with GOOGL down and MSFT up both correct, but IWM up and BTC-USD down both missed.",
   "consensus_picks": [
     {
       "ticker": "QQQ",
@@ -28,7 +28,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "4 models called GOOGL down."
     },
     {
@@ -40,7 +40,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "4 models called IWM up."
     },
     {
@@ -51,7 +51,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "3 models called MSFT up."
     },
     {
@@ -61,16 +61,22 @@
         "Gemini 3.8 Flash"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called BTC-USD down."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_sonar-pro_20261029_003",
-    "model_display_name": "Perplexity Sonar Pro",
-    "ticker": "GOOGL",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (88%). Scored after the close."
+    "prediction_id": "pred_claude-sonnet-5-5_20261029_002",
+    "model_display_name": "Claude Sonnet 5.5",
+    "ticker": "QQQ",
+    "score": 1.18,
+    "summary": "Claude Sonnet 5.5's QQQ down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_sonar-pro_20261029_001",
+    "model_display_name": "Perplexity Sonar Pro",
+    "ticker": "SPY",
+    "score": -0.72,
+    "summary": "Perplexity Sonar Pro's SPY down call scored lowest today."
+  }
 }
