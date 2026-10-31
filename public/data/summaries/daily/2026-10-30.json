@@ -1,9 +1,9 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T16:45:10.492723+00:00",
-  "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine models lean bearish as scoring waits for the closing bell",
-  "summary": "No calls have been scored yet, so no model has taken the lead. Eight models agree SPY will fall, and Hermes 4 405B's 85% QQQ call is the morning's highest-conviction pick, pending the close. QQQ and NVDA drew an 8-to-1 down split, AMZN divided 2-2, and BTC-USD and DIA each drew smaller down camps.",
+  "generated_at": "2026-10-31T01:40:30.306688+00:00",
+  "narrator": null,
+  "headline": "35 AI market calls scored for 2026-10-30",
+  "summary": "9 models made 35 predictions across 7 tickers.",
   "consensus_picks": [
     {
       "ticker": "QQQ",
@@ -32,7 +32,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "8 models called SPY down."
     },
     {
@@ -49,7 +49,7 @@
         "Grok 4.3"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called BTC-USD down."
     },
     {
@@ -59,7 +59,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "2 models called DIA down."
     }
   ],
@@ -67,8 +67,14 @@
     "prediction_id": "pred_hermes-4-405b_20261030_002",
     "model_display_name": "Hermes 4 405B",
     "ticker": "QQQ",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+    "score": 1.35,
+    "summary": "Hermes 4 405B's QQQ down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_hermes-4-405b_20261030_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": -0.8,
+    "summary": "Hermes 4 405B's NVDA down call scored lowest today."
+  }
 }
