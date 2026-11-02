@@ -41,6 +41,28 @@
       ],
       "confidence": 0.63,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AAPL",
+      "direction": "down",
+      "entry_price": 342.67,
+      "exit_price": null,
+      "shares": 75,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Perplexity Sonar Pro",
+        "Gemini 3.8 Flash",
+        "Hermes 4 405B",
+        "GPT-5.6 Terra",
+        "DeepSeek V4 Pro",
+        "Qwen 3.8 Max",
+        "Grok 4.3",
+        "Kimi K3.1 Pro"
+      ],
+      "confidence": 0.6188,
+      "status": "OPEN"
     }
   ]
 }

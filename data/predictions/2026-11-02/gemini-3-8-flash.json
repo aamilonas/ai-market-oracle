@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-02",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-02T20:17:33.029548+00:00",
+  "market_context": "An early-session relief rally sparked by tumbling crude oil has fully reversed as technology and semiconductor stocks resumed their late-October selloff. Broad indexes are pressured by deal-related drops in Marvell and Lumentum, Oracle's stock offering, and institutional de-risking ahead of Apple's post-market earnings and Tuesday's U.S. midterm elections. With the VIX climbing above 20 and markets trading below key dealer gamma levels, tech-heavy benchmarks remain vulnerable to closing-bell distribution.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261102_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 754.1,
+      "model_reported_price": 754.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY surrendered an intraday gain of over 1.1% to turn negative by mid-afternoon as tech weakness offset gains in defensive and industrial sectors. With the VIX rising 6.6% to 20.71 and the tape operating in negative gamma territory, late-day index rebalancing into midterm election risk is poised to pull SPY down toward its session low near $753.11.",
+      "current_price_at_prediction": 754.96,
+      "prev_close": 755.72,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261102_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 683.85,
+      "model_reported_price": 685.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The Nasdaq-100 ETF experienced a sharp intraday reversal from highs near $699.43, weighed down by steep declines in Oracle (-8.5%) and Marvell (-13%) alongside general AI capex skepticism. Heavy institutional de-risking in large-cap hardware and software ahead of Apple's earnings will keep persistent downward pressure on QQQ into the 4:00 PM close.",
+      "current_price_at_prediction": 685.01,
+      "prev_close": 690.49,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261102_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 337.6,
+      "model_reported_price": 338.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Apple is hovering just above its intraday low of $335.84 as investors trim exposure ahead of its fiscal Q4 earnings report scheduled for 4:30 PM ET. Trader caution remains elevated after last quarter's beat still triggered a 7.4% next-day drop, leading options traders and fund managers to hedge rather than buy into the closing bell.",
+      "current_price_at_prediction": 338.65,
+      "prev_close": 344.63,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261102_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 511.8,
+      "model_reported_price": 512.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Microsoft is trading near its daily low of $512.41 as the cloud sector continues to absorb negative sentiment surrounding elevated capital expenditures and free cash flow dilution. Persistent afternoon selling across mega-cap tech leaves little bid support in the final 45 minutes of the session.",
+      "current_price_at_prediction": 512.79,
+      "prev_close": 521.91,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEowz4D8rsCv9chDzaBYUIlUZXzV1fFE5IgkDtaEViSfTMzeIY5BsiaJNoKbQEw2KRNNtqrSeI_8X6d6511WAyyI_tWaOEG34-r_Q3F82xmpHAFl-kUyO9WpdnI8T7hT5cNnU4UMC1srZz8oqhKBzOh",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF4yDO0OeMk4Fkdn6Kouh_Q3fqsUa6WSs_zup6KEbP3ghtTPc5lUrPK73tqDsm41NNagVTB3K8gJp0WjZMz67ZZjB5tdpPFrNQQL6tChxkTyNZhHLwQ7lYLmVL46QcJG9hm9BgU83nAQDprlpQOtX_WQhRSPqCJKyxZXx_SzlYa2XZvO6M",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfV5yRgKUk6_9xABJhL2BKNCyDIwDsg2IOjOPyqAkHT90_FAWB89m3pWr1eQRjgQjlimpAhWSmHUcYchVLINnxvgnOGFMpQhibhQ6tD2ij_nsTMdWNdlFmwMHSdG_VTT-58KfSu_aiCZAmxZaqgHZAtTpEfQxzI6Xn4Lk=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOYw6m-U4a_UaqKfk4teVM8HJsiCpcgyS1O5l-u3WjQe_DctaTC_HCOqRDTTxpd8msvu9sHX5D9rTB9wQ5y98gxX8iGHtb6uepxfTrBWidZ6Ky5cxYrY-dq9rnaOVT-fbC4xrzg8HbVIeFwSwM3InxojhIooqT4Qskf2sI4mxTVKH4qgh-b_HaGa0Bm0lmujlr5nyTKUBgFnrPFg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIuiF1q-HgdKUpI-l5EqQo3mcXim_PEGQz44cerGRHEKeD2-962xPTtNywjCHOnyUsSnqs82F9SyiVx_O4LqiAgg62At8SlWspuspDpYg3rOI4dQCzOVY2XmdlaQSpYB_qHWF6qzybk56hIifpsmQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEuxPr8LFtZuCcAfUN0Ggjz2QpBb8C4RTJ_rK9b7jMJskny_NhdQ4nC2OhxahcEa_WUfC8FYI0E7ttXRgrURUinZb3vLOsSvjImzOdGGX1i-qaQ1nPs-pbOZ2MQV4oRqwDv0CHWCgd7szB-Ut-cWzr6c7p22FW8kfmQhyGK-mvGmlWqSqqrhI95Z8B_tULITubNCDb8k4JWLuOOSw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbn5gN1ia4tGiLOv8jOKfynk3mgMShrosGF7dkvmRB2543-PUjHWDLWtCOZ1asuuveJbYHLVKBr52vo-DheKqxx7iUs21U8sQKerzdHDzvv6mqNX89Q_--nHpEuvmQBHG4DMZ1zQsbO_49vAtmLhcqpsgqW5bww5qZZsUP9kcOKDF5h7BF9jk3UZcNn2qwoQ=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 58.4,
+    "prompt_tokens": 1708,
+    "completion_tokens": 4513,
+    "cost_usd": 0.15820475,
+    "finished_at": "2026-11-02T20:17:33.029548+00:00",
+    "normalization_issues": []
+  }
+}

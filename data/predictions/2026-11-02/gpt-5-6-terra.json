@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-02",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-02T20:16:46.531097+00:00",
+  "market_context": "Late-session conditions are risk-off in technology after last week's AI-led sell-off: QQQ is down 0.79% while the Dow is up 0.70%, VIX is up 6.64%, and the 10-year Treasury yield is elevated at 4.89%. Today's ISM manufacturing and construction-spending releases are already behind the market, while Apple reports after the close; news coverage described an early rally fading as investors remained cautious on tech and AI shares.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261102_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 681.9,
+      "model_reported_price": 685.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "The Nasdaq-heavy ETF is already lagging sharply versus DIA, and its intraday range shows it failed to sustain the morning high near $699.43. Rising VIX, a 4.89% 10-year yield, and persistent concern following last week's AI/technology sell-off favor another defensive close into the final hour.",
+      "current_price_at_prediction": 685.01,
+      "prev_close": 690.49,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261102_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 753.8,
+      "model_reported_price": 754.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY has recovered from its $753.11 low but remains below its prior close, while the broad market's early rally reportedly faded during the session. The positive Dow performance should limit the decline, but technology weakness and elevated volatility make a modest close below the 15:16 level more likely.",
+      "current_price_at_prediction": 754.96,
+      "prev_close": 755.72,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261102_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 336.9,
+      "model_reported_price": 338.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Apple is down 1.74% ahead of its after-close earnings report and is among the heaviest drags on the S&P 500. With earnings-event uncertainty still unresolved before 4:00 PM and the stock trading only modestly above its $335.84 intraday low, sellers are likely to retain control into the close.",
+      "current_price_at_prediction": 338.65,
+      "prev_close": 344.63,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261102_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 246.7,
+      "model_reported_price": 248.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Amazon's 3.24% gain makes it a notable relative-strength outlier in an otherwise weak mega-cap technology tape, but it has already retreated substantially from its $253.81 intraday high. A late-session reduction of gains is likely if index-level technology selling persists and traders avoid adding risk ahead of Apple earnings.",
+      "current_price_at_prediction": 248.13,
+      "prev_close": 240.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 11.9,
+    "prompt_tokens": 12181,
+    "completion_tokens": 839,
+    "cost_usd": 0.047354,
+    "finished_at": "2026-11-02T20:16:46.531097+00:00",
+    "normalization_issues": []
+  }
+}

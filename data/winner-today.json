@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "winner": {
-    "ticker": "NVDA",
+    "ticker": "AAPL",
     "direction": "down",
-    "avg_confidence": 0.63,
-    "avg_target": 202.09,
-    "avg_entry": 204.47,
-    "expected_move_pct": 1.16,
-    "score": 0.7322,
+    "avg_confidence": 0.6188,
+    "avg_target": 337.1,
+    "avg_entry": 338.65,
+    "expected_move_pct": 0.46,
+    "score": 0.2832,
     "models": [
       "Perplexity Sonar Pro",
       "Gemini 3.8 Flash",

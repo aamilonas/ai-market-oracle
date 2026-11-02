@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-02",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-02T20:19:12.773367+00:00",
+  "market_context": "The morning rebound has faded, leaving SPY slightly lower and QQQ down 0.79% at 15:16 ET, while DIA remains higher amid rotation out of technology. finance.yahoo.com reports renewed tech selling, while sharply lower oil is supporting cyclicals; VIX is nevertheless up 6.64%, and Apple's post-close earnings add event risk.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261102_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 754.1,
+      "model_reported_price": 754.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY has surrendered its morning gain and trades near the bottom of its $753.11-$763.85 session range. Technology represents about 39.2% of reported holdings according to [finance.yahoo.com, so renewed megacap-tech weakness and a rising VIX favor a modest late drift lower.",
+      "current_price_at_prediction": 754.96,
+      "prev_close": 755.72,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261102_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 683.75,
+      "model_reported_price": 685.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ has fallen from a $699.43 intraday high to $685.01, only 0.38% above its session low, with MSFT and AAPL each down roughly 1.7%. The reported afternoon resumption of tech selling and approximately 2%-3% declines in semiconductor ETFs support continued pressure into the close (finance.yahoo.com).",
+      "current_price_at_prediction": 685.01,
+      "prev_close": 690.49,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261102_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 337.9,
+      "model_reported_price": 338.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "AAPL is down 1.74% and has continued easing after finance.yahoo.com reported pre-earnings weakness. Cautious positioning before today's post-close report, combined with the broader technology fade, gives downside a slight edge, though event-related short covering limits conviction.",
+      "current_price_at_prediction": 338.65,
+      "prev_close": 344.63,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Moonshot AI",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+      "http://www.tradevae.com/state-of-market-reports/2026-11-02/midday/oil-sinks-cyclicals-sprint-banks-and-consumer-names-carry-the-tape-while-energy-wilts-and-gold-pops-110226120310/",
+      "https://apsmorningbrief.com/freebies/levels-sheet-latest.pdf?v=2026-11-02",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
+      "https://massive.com/quote",
+      "https://winstockoptions.com/blog/market-brief-pre-2026-11-02",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/markets/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 156.3,
+    "prompt_tokens": 5430,
+    "completion_tokens": 4535,
+    "cost_usd": 0.06321,
+    "finished_at": "2026-11-02T20:19:12.773367+00:00",
+    "normalization_issues": []
+  }
+}

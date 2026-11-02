@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-02",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-02T20:16:51.430153+00:00",
+  "market_context": "Tech underperformance continues with Nasdaq down 0.4% while Dow rose 0.7% amid a rotation into cyclicals driven by a 6% crude oil slide. Apple earnings after the close add caution, and VIX elevated.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261102_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 683.5,
+      "model_reported_price": 685.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Tech sell-off resumed after morning rebound, with QQQ already -0.79% and megacap tech like MSFT and AAPL declining. The weakness is likely to persist into the close as reported by [finance.yahoo.com.",
+      "current_price_at_prediction": 685.01,
+      "prev_close": 690.49,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261102_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 521.5,
+      "model_reported_price": 520.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow outperformed as oil prices slid, boosting cyclicals and financials, with DIA +0.70% at 3pm. Continued rotation away from tech should support DIA into the close, as noted by tradevae.com.",
+      "current_price_at_prediction": 520.73,
+      "prev_close": 517.13,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261102_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 337.0,
+      "model_reported_price": 338.65,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple shares fell 2% in the run-up to earnings after the close, and cautious positioning ahead of the report could push the stock slightly lower. The broad tech weakness compounds this as per finance.yahoo.com.",
+      "current_price_at_prediction": 338.65,
+      "prev_close": 344.63,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261102_004",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 754.0,
+      "model_reported_price": 754.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is nearly flat but tech underperformance weighs, and the index failed to hold morning gains. With VIX elevated and no positive catalyst before close, a slight drift lower is likely, consistent with the midday update in tradevae.com.",
+      "current_price_at_prediction": 754.96,
+      "prev_close": 755.72,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+      "http://www.tradevae.com/state-of-market-reports/2026-11-02/midday/oil-sinks-cyclicals-sprint-banks-and-consumer-names-carry-the-tape-while-energy-wilts-and-gold-pops-110226120310/",
+      "https://apsmorningbrief.com/freebies/levels-sheet-latest.pdf?v=2026-11-02",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
+      "https://massive.com/quote",
+      "https://winstockoptions.com/blog/market-brief-pre-2026-11-02",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/markets/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 14.9,
+    "prompt_tokens": 5374,
+    "completion_tokens": 1475,
+    "cost_usd": 0.0140491,
+    "finished_at": "2026-11-02T20:16:51.430153+00:00",
+    "normalization_issues": []
+  }
+}

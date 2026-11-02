@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-02",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-02T20:16:43.826971+00:00",
+  "market_context": "Stocks bounced in the morning after Friday's tech sell-off, when the Nasdaq fell 2.9%, its worst day since June. The rally has since faded: QQQ is down 0.8% from a high of 699, AAPL and MSFT are down about 1.7%, and the VIX is up 6.6% at 20.7. Apple reports after the close, the 10-year yield is near 4.9%, and the US midterm elections are tomorrow. Oil is falling on hopes for Iran peace talks, which supports the Dow and cyclical stocks over tech.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261102_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 683.5,
+      "model_reported_price": 685.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ has faded from a high of 699.43 to 685, and AI-capex worries are still weighing on mega-cap tech (MSFT down 1.75%). Positioning ahead of Apple's after-close report and tomorrow's midterms should keep dip-buyers cautious into the close.",
+      "current_price_at_prediction": 685.01,
+      "prev_close": 690.49,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261102_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 521.5,
+      "model_reported_price": 520.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA is up 0.7% and holding near the top of its 519.81-523.68 range. Falling oil and rotation out of tech toward value and cyclicals support the Dow.",
+      "current_price_at_prediction": 520.73,
+      "prev_close": 517.13,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261102_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 76300.0,
+      "model_reported_price": 76904.33,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "BTC is down 1.7% and near its day low, and it is down 5.4% over five days. It has tracked the risk-off tone in tech, and the elevated VIX and 4.9% yields are a headwind.",
+      "current_price_at_prediction": 76904.33,
+      "prev_close": 78248.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-02T15:16:33.038435-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 9.3,
+    "prompt_tokens": 25497,
+    "completion_tokens": 830,
+    "cost_usd": 0.069294,
+    "finished_at": "2026-11-02T20:16:43.826971+00:00",
+    "normalization_issues": []
+  }
+}
