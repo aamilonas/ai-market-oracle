@@ -1,5 +1,5 @@
 {
-  "balance": 25765.45,
+  "balance": 26091.7,
   "starting_balance": 25000,
   "trades": [
     {
@@ -47,10 +47,10 @@
       "ticker": "AAPL",
       "direction": "down",
       "entry_price": 342.67,
-      "exit_price": null,
+      "exit_price": 338.32,
       "shares": 75,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 326.25,
+      "pnl_pct": 1.27,
       "models": [
         "Perplexity Sonar Pro",
         "Gemini 3.8 Flash",
@@ -62,7 +62,7 @@
         "Kimi K3.1 Pro"
       ],
       "confidence": 0.6188,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

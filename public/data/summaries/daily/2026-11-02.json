@@ -1,9 +1,9 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T20:20:44.246778+00:00",
+  "generated_at": "2026-11-03T03:31:10.209976+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine models pile into QQQ shorts as day's calls await the close",
-  "summary": "No calls have been scored yet, so no model leads the board and the standings stay open until the close. Nine of nine reporting models called QQQ down, and eight backed AAPL down, while five models called DIA up and SPY split five down to three up. Hermes 4 405B's 75% DIA call is the highest-conviction pick of the morning and will be scored after the close.",
+  "headline": "Gemini 3.8 Flash Leads as Nine Models Nail the QQQ Downside Call",
+  "summary": "Gemini 3.8 Flash topped the board with 4.59, narrowly ahead of GPT-5.6 Terra at 4.48, as nine models called QQQ down and were correct. DeepSeek V4 Pro's QQQ down call was the day's best at 1.2, while Hermes 4 405B's bullish DIA call, backed by five models, scored lowest at -0.75. Models split on SPY (5 down, 3 up) and AMZN, and the two-model BTC-USD down call missed.",
   "consensus_picks": [
     {
       "ticker": "QQQ",
@@ -19,7 +19,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called QQQ down."
     },
     {
@@ -35,7 +35,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "8 models called AAPL down."
     },
     {
@@ -55,7 +55,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "5 models called DIA up."
     },
     {
@@ -72,16 +72,22 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called BTC-USD down."
     }
   ],
   "best_call": {
+    "prediction_id": "pred_deepseek-v4-pro_20261102_001",
+    "model_display_name": "DeepSeek V4 Pro",
+    "ticker": "QQQ",
+    "score": 1.2,
+    "summary": "DeepSeek V4 Pro's QQQ down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261102_002",
     "model_display_name": "Hermes 4 405B",
     "ticker": "DIA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.75,
+    "summary": "Hermes 4 405B's DIA up call scored lowest today."
+  }
 }
