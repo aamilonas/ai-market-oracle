@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-03",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-03T17:44:40.574612+00:00",
+  "market_context": "U.S. equities are narrowly mixed and leadership remains concentrated in a rebound in AI-linked mega-cap technology: AP reported that Nvidia and other large tech shares offset Apple’s decline, while more S&P 500 constituents were falling than rising. (apnews.com) Apple’s post-earnings weakness is tied to softer gross-margin expectations amid memory-cost pressure, while election-day uncertainty and the recent AI-spending/valuation selloff argue for a cautious afternoon rather than broad risk-on follow-through. (investing.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261103_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 753.1,
+      "model_reported_price": 754.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY has already retreated from its $756.50 intraday high to $754.83, while the Dow remains negative and AP reported that declining S&P 500 members outnumbered advancers despite the index’s gain. ([apnews.com) With the advance concentrated in a small group of AI names and election-related uncertainty still present, a modest late-session fade is more likely than a sustained breakout.",
+      "current_price_at_prediction": 754.83,
+      "prev_close": 752.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261103_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 683.8,
+      "model_reported_price": 686.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ is off its $688.69 session high even as the largest AI beneficiaries lead, signaling that the early technology rebound has already begun to lose momentum. The Nasdaq entered this week after a sharp October pullback driven by concerns that AI infrastructure spending is outrunning near-term cash generation. (fidelity.com)",
+      "current_price_at_prediction": 686.23,
+      "prev_close": 681.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261103_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 329.4,
+      "model_reported_price": 331.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Apple remains the clearest stock-specific negative catalyst: despite beating on quarterly profit and revenue, investors focused on pressure from memory costs and lower gross-margin guidance. (apnews.com) Its price is also below the opening-area high of $334.50, suggesting rallies are being sold rather than building a recovery.",
+      "current_price_at_prediction": 331.76,
+      "prev_close": 338.32,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261103_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 516.2,
+      "model_reported_price": 518.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "MSFT is trading essentially at its $518.54 intraday high after a 2.23% advance, leaving limited room for additional upside if the broader tech rebound continues to fade. Broader investor concern remains focused on the scale of hyperscaler AI financing and capital spending, a backdrop that increases the odds of afternoon profit-taking in a leader already near its high. (axios.com)",
+      "current_price_at_prediction": 518.41,
+      "prev_close": 507.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/0d235af127a92c68da0cc2c45c028cef",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-tops-q4-2026-estimates-but-shares-fall-after-hours-93CH-4993172?utm_source=openai",
+      "https://www.fidelity.com/news/article/us-markets/202611021600RTRSNEWSCOMBINED_L6N46J15N_1?utm_source=openai",
+      "https://apnews.com/article/0d235af127a92c68da0cc2c45c028cef?utm_source=openai",
+      "https://www.axios.com/2026/10/29/ai-hyperscalers-stock-debt?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 28.6,
+    "prompt_tokens": 22931,
+    "completion_tokens": 1809,
+    "cost_usd": 0.09048,
+    "finished_at": "2026-11-03T17:44:40.574612+00:00",
+    "normalization_issues": []
+  }
+}

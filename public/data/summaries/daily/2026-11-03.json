@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T17:48:29.825281+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Models split on SPY, QQQ, NVDA; Hermes' 75% QQQ call tops morning",
+  "summary": "Nine models filed 36 same-day predictions, but none have been scored yet, so no leader can be named. DIA drew the most lopsided view, with six of seven models calling it down, while SPY, QQQ, and NVDA all split across models. Four models agreed AAPL would fall, and Hermes 4 405B's 75% QQQ call is the morning's highest-conviction pick, to be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "4 up, 4 down across 8 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "5 up, 3 down across 8 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "4 up, 3 down across 7 models."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "6 down, 1 up across 7 models."
+    },
+    {
+      "ticker": "AAPL",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "4 models called AAPL down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261103_002",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
+  },
+  "worst_call": null
+}

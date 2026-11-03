@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-03",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-03T17:44:23.138718+00:00",
+  "market_context": "The market is experiencing mixed sentiment amid U.S. midterm elections, with tech stocks (QQQ, MSFT, NVDA, META) showing strength due to positive AI sentiment, while the Dow (DIA) lags. Treasury yields are rising, and the VIX is down slightly, indicating reduced fear despite election uncertainty.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261103_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 757.5,
+      "model_reported_price": 754.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY is showing resilience with tech leadership (MSFT, NVDA, META up 2-3%) offsetting Dow weakness. With the S&P 500 up 0.42% and VIX down, election uncertainty appears priced in, supporting a continued grind higher toward the 52-week high.",
+      "current_price_at_prediction": 754.83,
+      "prev_close": 752.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261103_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 690.5,
+      "model_reported_price": 686.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq-100 is outperforming (+0.75%) on strong AI stock momentum (NVDA +3%, MSFT +2.2%, META +2.45%). With AMD earnings after close likely to reinforce AI demand trends, QQQ should extend gains toward recent highs.",
+      "current_price_at_prediction": 686.23,
+      "prev_close": 681.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261103_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 515.0,
+      "model_reported_price": 516.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Dow is underperforming (-0.52%) as investors rotate into tech amid election uncertainty. With rising Treasury yields (10Y at 4.96%) pressuring industrial and value stocks, DIA is likely to test session lows.",
+      "current_price_at_prediction": 516.63,
+      "prev_close": 519.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/SPY/options/",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
+      "https://stockcharted.com/vs/qqq-spy/today",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-135941758.html?.tsrc=rss",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/election-day-trading-splits-benchmarks-163100939.html"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 13.5,
+    "prompt_tokens": 5090,
+    "completion_tokens": 454,
+    "cost_usd": 0.013452,
+    "finished_at": "2026-11-03T17:44:23.138718+00:00",
+    "normalization_issues": []
+  }
+}

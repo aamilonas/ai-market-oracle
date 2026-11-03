@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-03",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-03T17:44:30.912932+00:00",
+  "market_context": "Markets are trading mixed on U.S. midterm election day as early morning dip-buying in mega-cap tech collides with pre-election hedging and rising 10-year Treasury yields near 4.96%. While Microsoft and Nvidia supported an initial Nasdaq bounce, Apple's post-earnings margin weakness and persistent options dealer hedging are capping afternoon upside momentum across major equity indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261103_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 753.4,
+      "model_reported_price": 754.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY hit an intraday high of $756.50 before encountering systematic dealer hedging and election derisking into midday. With options flows shifting toward protective put buying across election expiries, expect afternoon gains to fade modestly back toward the $753.40 area into the close.",
+      "current_price_at_prediction": 754.83,
+      "prev_close": 752.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261103_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 684.5,
+      "model_reported_price": 686.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Tech momentum has stalled below the $688.70 morning peak as Apple's margin forecast and elevated yields constrain broader sentiment. Midday 0DTE gamma flips and institutional caution ahead of poll closures will likely see the index trim its session advance into the 4:00 PM bell.",
+      "current_price_at_prediction": 686.23,
+      "prev_close": 681.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261103_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 206.8,
+      "model_reported_price": 208.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nvidia is up over 3% in a relief rebound from October's semiconductor sell-off, but is testing key resistance near its $209.14 day high. As broader market volume thins and tech indices face afternoon hedging pressure, NVDA is positioned to see slight mean-reverting profit-taking into the close.",
+      "current_price_at_prediction": 208.19,
+      "prev_close": 202.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261103_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 517.5,
+      "model_reported_price": 516.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "DIA has absorbed most of its early selling, maintaining reliable support above the session low of $515.19. Expect a modest late-day stabilization toward $517.50 as investors rebalance into diversified industrial names anticipating legislative gridlock from election results.",
+      "current_price_at_prediction": 516.63,
+      "prev_close": 519.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_wOlvPS0KX1k7TPVP3KXoAR4GThUEU1hirdwtDYpFC3QTUvpxwMhXHRcv6T4TzDqGSvN6aXwm_SixANI3Ij0TBcnsegvm57Bd4ggJasGXOavwGAepAhNnpDHOpAmSuv3aEoWmagAaJfy8rn1yKIb0p7fDJbMd5cbILNCYDkIq1uqR655jgEyNiFg2kg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrTAvsTsOVqmqoxxpdoQNdf4dW8ljAnuJ9-pIgvixKJfcoOZBuUCh3sDo36WYpZUOSlhorFt4fGAZVuFRA4PRQgSkMsDD2Zr2KF-ESKj3Pqke8go-Atx8NoBTCwP_DGPyDQDhjIFwyCOLhnx41Wl2bA_ili_zzuIfS08jmTMON1nPChA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFct3bmWSrxv3Bz1i0qe_ovPEHLPTAJLR0tXZ4F0ETlAzU6rT_E3wRCX8Y_px9fP-ZK7oT-zyUgXajR5MMxGPZk2mPU7wfhPlvESbPLottl6Bb75PN5pSJlK5btaJAVZbknlfRy-WJDHSznkh7UzcJgBO_52oOOBWeV4-PA7Uxk8YBhT3J9liP3ofO905MVhi8BayUuh2kPYDXV27I-aoAM-1_4xd4eXcn3pKI4prFALPvhaIp1lDnF_A==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9aqzBTCFj3vhDbNfvKYMi6q9YEC5lqacOGNURdcT9S42hYvJD1HjzZhPp2JfHRftnmbtNx42qe73-9XFpsW2smfrTG4Iw63tZn19rJiaMoMH1YgSL8jLf5AIdF-mO2Xt706DXYxoSC-VvIgVSRMj-nVihmApEAJ3J-81P0d9T4aylRjGjuwPF3qhjyHxjw9IA0umSB06975CVTgnp4A7pvVqcMOjUBg=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 21.2,
+    "prompt_tokens": 1675,
+    "completion_tokens": 2636,
+    "cost_usd": 0.05314125,
+    "finished_at": "2026-11-03T17:44:30.912932+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-03",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-03T17:44:19.575330+00:00",
+  "market_context": "Stocks are mixed on Election Day. Chipmakers are bouncing after the semiconductor index fell into a bear market, which lifts Nasdaq and S&P while Apple's weak margin outlook drags the Dow. The 10-year yield is near 4.95%, oil is falling on US-Iran talk hopes, and AMD reports after the close. Election results come tonight.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261103_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 756.0,
+      "model_reported_price": 754.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The S&P is up about 0.4%, helped by a chip rebound and falling oil, with VIX easing to about 20.7. The 10-year yield near 4.95% and election uncertainty limit the upside. Monday's rally faded late, so I'm only slightly bullish.",
+      "current_price_at_prediction": 754.83,
+      "prev_close": 752.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261103_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 209.5,
+      "model_reported_price": 208.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nvidia is bouncing about 3% after four straight losing sessions, and chips are rebounding from an oversold bear-market level. AMD earnings after the close could support AI names into the bell, though a late fade is possible.",
+      "current_price_at_prediction": 208.19,
+      "prev_close": 202.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261103_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 515.5,
+      "model_reported_price": 516.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The Dow is down about 0.5%, pulled lower by Apple, Salesforce and IBM, and rising yields hurt it. Rotation away from the Dow's names continues, so I lean slightly toward it staying weak.",
+      "current_price_at_prediction": 516.63,
+      "prev_close": 519.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 9.8,
+    "prompt_tokens": 28493,
+    "completion_tokens": 872,
+    "cost_usd": 0.075706,
+    "finished_at": "2026-11-03T17:44:19.575330+00:00",
+    "normalization_issues": []
+  }
+}

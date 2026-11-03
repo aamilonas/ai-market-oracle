@@ -63,6 +63,24 @@
       ],
       "confidence": 0.6188,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-11-03",
+      "ticker": "AAPL",
+      "direction": "down",
+      "entry_price": 325.54,
+      "exit_price": null,
+      "shares": 80,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Perplexity Sonar Pro",
+        "GPT-5.6 Terra",
+        "DeepSeek V4 Pro",
+        "Grok 4.3"
+      ],
+      "confidence": 0.6525,
+      "status": "OPEN"
     }
   ]
 }

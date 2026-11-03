@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-03",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-03T17:48:25.507169+00:00",
+  "market_context": "Midday trading is split: SPY is +0.36% and QQQ +0.75%, but DIA is -0.52%; semiconductors lead with SOXX +3.24% and SMH +2.58%, while VIX has eased to 20.74 (finance.yahoo.com). September JOLTS showed little change in openings and hiring, October ISM manufacturing firmed to 55.5, and the 10-year yield is near 4.96%; midterm results and AMD earnings after the close are the remaining event risks (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261103_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 688.75,
+      "model_reported_price": 686.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Chip leadership is strong, with SOXX +3.24% and SMH +2.58% around midday, while NVDA and MSFT are holding near their session highs ([finance.yahoo.com). I expect modest follow-through, but AMD's post-close earnings and nearby resistance around 690.49 argue against an aggressive target (longbridge.com).",
+      "current_price_at_prediction": 686.23,
+      "prev_close": 681.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261103_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 515.9,
+      "model_reported_price": 516.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "The Dow remains the clear laggard at roughly -0.5% even as the Nasdaq gains about 0.8%, showing that today's risk appetite is concentrated in technology (finance.yahoo.com). With the 10-year yield up roughly 6 basis points to 4.96%, I expect a mild late-day fade rather than participation in the semiconductor-led rebound.",
+      "current_price_at_prediction": 516.63,
+      "prev_close": 519.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261103_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 209.75,
+      "model_reported_price": 208.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA is already +3.03% and holding close to its 209.14 session high, consistent with broad chip strength in SOXX and SMH (finance.yahoo.com). That relative strength favors a marginal new high into the close, although AMD's earnings after the bell keep confidence moderate.",
+      "current_price_at_prediction": 208.19,
+      "prev_close": 202.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261103_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 395.5,
+      "model_reported_price": 397.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "TSLA is down 1.65% and at 397.17 is almost exactly on its 396.82 session low, despite QQQ rising 0.75% and MSFT, NVDA, and META each gaining more than 2%. That pronounced relative weakness favors a small breakdown into the close, though the strong broader technology tape limits conviction.",
+      "current_price_at_prediction": 397.17,
+      "prev_close": 403.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Moonshot AI",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/markets/stocks/articles/election-day-trading-splits-benchmarks-163100939.html",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-135941758.html?.tsrc=rss",
+      "https://longbridge.com/en/news/304144505",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://streetstats.finance/markets/today"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 248.2,
+    "prompt_tokens": 5170,
+    "completion_tokens": 7014,
+    "cost_usd": 0.08748,
+    "finished_at": "2026-11-03T17:48:25.507169+00:00",
+    "normalization_issues": []
+  }
+}

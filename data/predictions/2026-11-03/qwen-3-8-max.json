@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-03",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-03T17:46:34.922056+00:00",
+  "market_context": "U.S. equities are split on Election Day, with technology and semiconductors outperforming while the Dow lags amid midterm-policy uncertainty and AMD's after-hours earnings finance.yahoo.com. Chip strength is reinforced by NVIDIA's Meta and Oracle announcements, but higher Treasury yields and pullbacks from intraday highs argue against assuming all gains persist into the close finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261103_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 754.2,
+      "model_reported_price": 754.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is already up from its prior close but has eased from its intraday high of 756.50, showing some afternoon profit-taking [finance.yahoo.com. With investors waiting on midterm results and AMD's post-market earnings, I expect the broad market to fade slightly from its current level into the close finance.yahoo.com.",
+      "current_price_at_prediction": 754.83,
+      "prev_close": 752.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261103_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 687.0,
+      "model_reported_price": 686.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ is holding a gain while semiconductor proxies SOXX and SMH are up more than 2.5%, indicating continued tech and chip leadership finance.yahoo.com. Strength in MSFT, NVDA, META and AMZN should offset Apple weakness and allow QQQ to close modestly above its current level.",
+      "current_price_at_prediction": 686.23,
+      "prev_close": 681.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261103_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 515.9,
+      "model_reported_price": 516.63,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "DIA is lagging as the Dow falls while the S&P 500 and Nasdaq rise, showing rotation away from Dow-weighted cyclicals on Election Day finance.yahoo.com. Midterm policy uncertainty and mixed economic data can keep the Dow under pressure into the close finance.yahoo.com.",
+      "current_price_at_prediction": 516.63,
+      "prev_close": 519.34,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261103_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 209.0,
+      "model_reported_price": 208.19,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVIDIA is up over 3% after announcing expanded Meta and Oracle infrastructure efforts and a $3 billion investment in Meta's equity offering finance.yahoo.com. Semiconductor momentum and AI-deal news support a close near the day's high, despite AMD earnings later today.",
+      "current_price_at_prediction": 208.19,
+      "prev_close": 202.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-03T12:44:08.130347-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/SPY/options/",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
+      "https://stockcharted.com/vs/qqq-spy/today",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-135941758.html?.tsrc=rss",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/election-day-trading-splits-benchmarks-163100939.html"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 143.1,
+    "prompt_tokens": 5961,
+    "completion_tokens": 5449,
+    "cost_usd": 0.051616,
+    "finished_at": "2026-11-03T17:46:34.922056+00:00",
+    "normalization_issues": []
+  }
+}
