@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-04",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-04T17:57:09.524627+00:00",
+  "market_context": "Markets are experiencing a broad relief rally following US midterm election results, with major indices like SPY, QQQ, and DIA up significantly in intraday trading. However, tech and growth stocks (NVDA, TSLA) are lagging due to concerns about potential regulatory impacts from the election outcome, while mega-cap tech (AAPL, MSFT, AMZN) is surging.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is showing strong upward momentum (+1.93% today) in a broad market rally driven by election relief. With VIX down sharply (-18.48%) indicating reduced fear, and the index holding near session highs, SPY is likely to extend gains slightly toward the 770 level by close.",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261104_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 200.5,
+      "model_reported_price": 203.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVIDIA is underperforming (-1.43% today) amid concerns about potential data center restrictions following Democratic election wins. With the semiconductor sector (SOXX, SMH) down significantly today and NVDA trading near session lows, further downside pressure is expected.",
+      "current_price_at_prediction": 203.74,
+      "prev_close": 206.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261104_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 358.0,
+      "model_reported_price": 354.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Apple is leading the market rally with a massive +6.66% gain today, benefiting from the election relief trade and strong mega-cap tech performance. With the stock trading near session highs and broad market momentum, AAPL is likely to extend gains toward $358 by close.",
+      "current_price_at_prediction": 354.02,
+      "prev_close": 331.9,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html",
+      "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-04",
+      "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130949203.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html",
+      "https://asleepace.com/daily-report",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-surge-as-volatility-plummets-dow-and-sp-500-rally-amid-midday-momentum/74148/",
+      "https://finstrategist.com/go/news/62870548/How+To+Trade+SPY%2C+QQQ+And+Top+Tech+Stocks",
+      "https://www.statmuse.com/money/ask/spy-price-chart-2026"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 23.5,
+    "prompt_tokens": 4861,
+    "completion_tokens": 469,
+    "cost_usd": 0.013268,
+    "finished_at": "2026-11-04T17:57:09.524627+00:00",
+    "normalization_issues": []
+  }
+}

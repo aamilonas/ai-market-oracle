@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-04",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-04T17:56:56.618826+00:00",
+  "market_context": "Stocks are rallying hard on Wednesday after Democrats swept Congress and Trump said he would accept the results. The Dow is up about 2.5-3%, and SPY is trading near its high of the day. Oil dropped more than 7%, the VIX fell about 18% to 17, and the 10-year yield eased to about 4.9%. Mega-cap names like AAPL, MSFT and AMZN are leading, while NVDA and AI data-center stocks lag on worries about new data-center limits.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.5,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is at 768.93, essentially at its day high of 769.01. Relief-rally momentum, falling oil, a falling VIX and easing yields support a modest afternoon drift higher. The rally is already large, so I expect only a small gain from here.",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261104_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 533.5,
+      "model_reported_price": 532.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA is at 532.36, just under its day high of 532.74, as cyclicals and broad-economy names lead on lower oil and yields. Gridlock is seen as market-friendly and breadth is strong, with 353 S&P 500 holdings advancing. Follow-through into the close is slightly more likely than a fade.",
+      "current_price_at_prediction": 532.36,
+      "prev_close": 517.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261104_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 201.8,
+      "model_reported_price": 203.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA is lagging a strong market, down 1.4% as AI data-center names sell off on fears of Democratic limits on data centers. It is down 5.4% over five days with no catalyst for a reversal, so the relative weakness probably persists into the close.",
+      "current_price_at_prediction": 203.74,
+      "prev_close": 206.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.6,
+    "prompt_tokens": 24257,
+    "completion_tokens": 883,
+    "cost_usd": 0.067344,
+    "finished_at": "2026-11-04T17:56:56.618826+00:00",
+    "normalization_issues": []
+  }
+}

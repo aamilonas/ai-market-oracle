@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-04",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-04T17:57:05.826820+00:00",
+  "market_context": "U.S. equities are surging in a broad post-midterm election relief rally after Democrats gained control of Congress, pointing to fiscal gridlock, while crude oil plunged more than 7% and the 10-year Treasury yield dropped to 4.90%. Volatility has collapsed with the VIX dropping over 18%, powering massive rallies in mega-cap tech like Apple, Microsoft, and Amazon even as pure-play AI infrastructure names lag due to data center regulatory scrutiny.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 771.2,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Broad market momentum remains exceptionally strong as election uncertainty clears and falling energy costs mitigate inflation fears. With the VIX crushed down to 16.98 and benchmark yields easing, systematic inflows and late-day short covering should propel SPY higher through session peaks toward $771.20.",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261104_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 699.5,
+      "model_reported_price": 696.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Despite drag from semiconductor hardware, massive gains across dominant constituents AAPL (+6.7%), MSFT (+6.4%), and AMZN (+7.4%) are dominating index direction. Having consolidated off the intraday high of $701.45, QQQ has solid footing to re-accelerate toward $699.50 into the closing bell.",
+      "current_price_at_prediction": 696.69,
+      "prev_close": 685.28,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261104_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 356.25,
+      "model_reported_price": 354.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Apple is breaking out strongly to fresh highs following robust fiscal fourth-quarter results and broad institutional rotation toward high-cash-flow consumer technology. Sustained buying pressure at session highs suggests strong institutional demand into the 4:00 PM ET close.",
+      "current_price_at_prediction": 354.02,
+      "prev_close": 331.9,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261104_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 202.1,
+      "model_reported_price": 203.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nvidia is notably decoupling from the broader tech rally as Democratic congressional victories and local ballot measures increase regulatory and environmental scrutiny on AI data centers. Heavy rotation out of AI hardware into software platforms leaves NVDA vulnerable to retesting its intraday low of $200.94.",
+      "current_price_at_prediction": 203.74,
+      "prev_close": 206.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 19.8,
+    "prompt_tokens": 1676,
+    "completion_tokens": 3340,
+    "cost_usd": 0.041782,
+    "finished_at": "2026-11-04T17:57:05.826820+00:00",
+    "normalization_issues": []
+  }
+}

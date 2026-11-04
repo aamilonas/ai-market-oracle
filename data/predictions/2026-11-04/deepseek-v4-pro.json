@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-04",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-04T17:57:56.184866+00:00",
+  "market_context": "Post-midterm election relief has driven a broad market surge, with Democrats taking both chambers, reducing political uncertainty. ADP private payrolls beat forecasts (86K vs 67K) and ISM services data likely confirmed steady growth, supporting a risk-on rotation into cyclicals and a sharp VIX collapse to 16.98.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 770.0,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY has broken above key resistance levels (767.73) noted in pre-market analysis [finstrategist.com and continues to rally on election clarity and strong breadth (DIA up ~3%). With VIX down 18% and positive gamma damping volatility, a small grind higher into the close is likely, despite the already-large intraday move.",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261104_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 700.0,
+      "model_reported_price": 696.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Initial weakness in chip stocks (NVDA -1.4%) has been offset by outsized gains in AAPL, MSFT, and AMZN, pushing QQQ near its highs. The strong ADP jobs data and declining VIX support a rally into the close, with 700 as a psychological magnet stockmarketwatch.com.",
+      "current_price_at_prediction": 696.69,
+      "prev_close": 685.28,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261104_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 535.0,
+      "model_reported_price": 532.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The Dow is leading the post-election rally, up nearly 3% on rotation into value and industrials. Strong factory orders and logistics data earlier today support cyclical outperformance, and with the VIX collapsing, DIA is likely to grind to new session highs before the close yahoo.com.",
+      "current_price_at_prediction": 532.36,
+      "prev_close": 517.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261104_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 81000.0,
+      "model_reported_price": 80346.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Bitcoin is surging alongside risk assets, up 3.9% intraday on election relief and a weaker VIX environment. The breakout above $80k psychological level and widespread ‘risk-on’ sentiment suggest a momentum push toward $81k, though outsized gains already limit further upside marketalleys.com.",
+      "current_price_at_prediction": 80346.04,
+      "prev_close": 77345.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "StreamLake",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html",
+      "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-04",
+      "https://asleepace.com/daily-report",
+      "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130949203.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-surge-as-volatility-plummets-dow-and-sp-500-rally-amid-midday-momentum/74148/",
+      "https://finstrategist.com/go/news/62870548/How+To+Trade+SPY%2C+QQQ+And+Top+Tech+Stocks",
+      "https://themarketpulse.vercel.app/",
+      "https://www.statmuse.com/money/ask/spy-price-chart-2026"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 67.6,
+    "prompt_tokens": 4607,
+    "completion_tokens": 2612,
+    "cost_usd": 0.012808236928,
+    "finished_at": "2026-11-04T17:57:56.184866+00:00",
+    "normalization_issues": []
+  }
+}

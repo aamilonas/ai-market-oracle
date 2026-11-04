@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-04",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-04T18:01:00.504746+00:00",
+  "market_context": "U.S. equities are in a post-midterm relief rally after Democrats took both chambers, with DIA outperforming and VIX falling sharply (finance.yahoo.com, www2.stockmarketwatch.com). Semiconductor ETFs and NVDA are lagging on data-center and election-related concerns, while AAPL, MSFT, AMZN, GOOGL, and META are very strong (finance.yahoo.com). Positive gamma suggests dips are bought, but upside may be capped near the SPY $770 call wall (asleepace.com).",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 769.7,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is holding near session highs after the election-driven gap, with VIX falling sharply and risk appetite improving ([www2.stockmarketwatch.com). Positive gamma favors defending dips, but the $770 call wall likely limits the final upside to a modest grind (asleepace.com).",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261104_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 698.1,
+      "model_reported_price": 696.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "QQQ is being supported by large gains in AAPL, MSFT, AMZN, GOOGL, and META even while chip names lag (finance.yahoo.com). The broad risk-on tape and collapsing volatility suggest the ETF can finish slightly above its 12:56 ET level (www2.stockmarketwatch.com).",
+      "current_price_at_prediction": 696.69,
+      "prev_close": 685.28,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261104_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 533.0,
+      "model_reported_price": 532.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "DIA is the strongest major ETF as the Dow rallies on election results and rotation into value and industrial names (finance.yahoo.com). Midday momentum remains positive, though the large intraday gain may keep the final move modest (www2.stockmarketwatch.com).",
+      "current_price_at_prediction": 532.36,
+      "prev_close": 517.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261104_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 202.6,
+      "model_reported_price": 203.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Chip stocks are under pressure after the election results, with SOXX and SMH trading lower and data-center concerns cited (finance.yahoo.com). Even with broad market strength, NVDA's relative weakness versus other mega-cap tech makes a close below the current price more likely (finance.yahoo.com).",
+      "current_price_at_prediction": 203.74,
+      "prev_close": 206.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html",
+      "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-04",
+      "https://asleepace.com/daily-report",
+      "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130949203.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-surge-as-volatility-plummets-dow-and-sp-500-rally-amid-midday-momentum/74148/",
+      "https://finstrategist.com/go/news/62870548/How+To+Trade+SPY%2C+QQQ+And+Top+Tech+Stocks",
+      "https://www.statmuse.com/money/ask/spy-price-chart-2026"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 252.0,
+    "prompt_tokens": 5602,
+    "completion_tokens": 9475,
+    "cost_usd": 0.075054,
+    "finished_at": "2026-11-04T18:01:00.504746+00:00",
+    "normalization_issues": []
+  }
+}

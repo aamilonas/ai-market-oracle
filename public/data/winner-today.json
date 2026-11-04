@@ -1,20 +1,22 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "winner": {
-    "ticker": "AAPL",
+    "ticker": "NVDA",
     "direction": "down",
-    "avg_confidence": 0.6525,
-    "avg_target": 329.18,
-    "avg_entry": 331.76,
-    "expected_move_pct": 0.78,
-    "score": 0.5084,
+    "avg_confidence": 0.6,
+    "avg_target": 201.83,
+    "avg_entry": 203.74,
+    "expected_move_pct": 0.94,
+    "score": 0.5615,
     "models": [
-      "Perplexity Sonar Pro",
-      "GPT-5.6 Terra",
-      "DeepSeek V4 Pro",
-      "Grok 4.3"
+      "Gemini 3.8 Flash",
+      "Hermes 4 405B",
+      "Qwen 3.8 Max",
+      "Grok 4.3",
+      "Kimi K3.1 Pro",
+      "Claude Sonnet 5.5"
     ],
-    "model_count": 4,
+    "model_count": 6,
     "high_conviction": false
   },
   "min_models": 4,

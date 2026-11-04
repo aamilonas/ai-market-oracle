@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-04",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-04T17:57:00.583575+00:00",
+  "market_context": "U.S. equities are rallying sharply after the midterm election, with the Dow leading as Brent crude fell below $95 per barrel; AP reported the Dow up roughly 1500 points amid the oil-price relief. Today’s scheduled U.S. catalysts included ADP employment, trade data, final services PMI and ISM services, while Friday’s October payrolls report remains the week’s next major macro risk.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261104_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 767.2,
+      "model_reported_price": 768.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is trading essentially at its intraday high of $769.01 after a 1.93% advance, while the VIX has already fallen 18.48%. With the major election and oil-relief impulse largely reflected by midday, modest late-session profit-taking is more likely than another sustained leg higher.",
+      "current_price_at_prediction": 768.93,
+      "prev_close": 754.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261104_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 533.6,
+      "model_reported_price": 532.36,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "The Dow is the session’s clear leader, up 2.96%, and AP attributed the broad rally partly to Brent crude moving below $95 per barrel. DIA remains just below its $532.74 session high, and the rotation toward economically sensitive large caps should support a small additional gain into the close.",
+      "current_price_at_prediction": 532.36,
+      "prev_close": 517.06,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261104_003",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 351.7,
+      "model_reported_price": 354.02,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "AAPL has already surged 6.66% and is only about $0.45 below its $354.47 day high, making it one of the day’s most extended mega-cap moves. In a market where the index-level rally is broadening beyond technology, the stock is vulnerable to a partial afternoon retracement despite strong momentum.",
+      "current_price_at_prediction": 354.02,
+      "prev_close": 331.9,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261104_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 79750.0,
+      "model_reported_price": 80346.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is up 3.88% and is trading close to its $80746 intraday high after a fast risk-on move alongside equities. The sharp move has already cleared the round-number $80000 level, so consolidation below the midday price is more likely than a sustained additional breakout before the U.S. equity close.",
+      "current_price_at_prediction": 80346.04,
+      "prev_close": 77345.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-04T12:56:43.502523-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 14.5,
+    "prompt_tokens": 14175,
+    "completion_tokens": 820,
+    "cost_usd": 0.0511,
+    "finished_at": "2026-11-04T17:57:00.583575+00:00",
+    "normalization_issues": []
+  }
+}
