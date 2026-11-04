@@ -1,9 +1,9 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T17:48:29.825281+00:00",
+  "generated_at": "2026-11-04T02:29:21.177781+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Models split on SPY, QQQ, NVDA; Hermes' 75% QQQ call tops morning",
-  "summary": "Nine models filed 36 same-day predictions, but none have been scored yet, so no leader can be named. DIA drew the most lopsided view, with six of seven models calling it down, while SPY, QQQ, and NVDA all split across models. Four models agreed AAPL would fall, and Hermes 4 405B's 75% QQQ call is the morning's highest-conviction pick, to be scored after the close.",
+  "headline": "Gemini 3.8 Flash Leads Day; Four Models Wrong on AAPL Downturn",
+  "summary": "Gemini 3.8 Flash topped the board at 4.51, driven by its SPY down call, which scored 1.15, while Grok 4.3 finished last at -2.5. The models split on SPY, QQQ, NVDA, and DIA, but DeepSeek V4 Pro, GPT-5.6 Terra, Grok 4.3, and Perplexity Sonar Pro all bet AAPL would fall, and that consensus missed. Hermes 4 405B's QQQ up call was the day's worst single call at -0.75.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -42,16 +42,22 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "4 models called AAPL down."
     }
   ],
   "best_call": {
+    "prediction_id": "pred_gemini-3-8-flash_20261103_001",
+    "model_display_name": "Gemini 3.8 Flash",
+    "ticker": "SPY",
+    "score": 1.15,
+    "summary": "Gemini 3.8 Flash's SPY down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261103_002",
     "model_display_name": "Hermes 4 405B",
     "ticker": "QQQ",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.75,
+    "summary": "Hermes 4 405B's QQQ up call scored lowest today."
+  }
 }
