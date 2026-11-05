@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T18:00:55.049912+00:00",
+  "narrator": null,
+  "headline": "35 AI market calls queued for 2026-11-05",
+  "summary": "9 models made 35 predictions across 7 tickers.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "6 down, 3 up across 9 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "7 down, 2 up across 9 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "5 down, 2 up across 7 models."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "4 down, 2 up across 6 models."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "1 up, 1 down across 2 models."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261105_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+  },
+  "worst_call": null
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-05",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-05T17:58:23.444789+00:00",
+  "market_context": "Thursday is a severe risk-off day. It follows the Democratic midterm sweep, weak Qualcomm and Arm earnings, and fears that data-center buildouts will be slowed. The Nasdaq is in correction, and the semiconductor index is down about 11%. VIX is up 57% to 26. SPY, QQQ and IWM are all trading at or near their day lows at 12:58 PM, and Friday's jobs report is the next catalyst.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261105_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 742.0,
+      "model_reported_price": 737.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY is down 3.85% and sits at its day low of 736.91. It is on pace for its worst day since April 2025, and VIX is up 57%. Panic days like this often see a partial bounce into the close, but the selling could also continue, so confidence is modest.",
+      "current_price_at_prediction": 737.3,
+      "prev_close": 766.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261105_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 660.0,
+      "model_reported_price": 652.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ is down 5.7% and has already recovered from a low of 647.47. Semiconductors fell about 11% on Qualcomm and Arm earnings and on AI data-center regulation fears. That is a washout-style move, so a partial rebound is slightly more likely than another leg down.",
+      "current_price_at_prediction": 652.43,
+      "prev_close": 691.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261105_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 186.0,
+      "model_reported_price": 182.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "NVDA is down 8.7% and is near its low of 181.55. It is down 14.5% over five days, and its fundamentals are intact. The selloff is driven by political and AI-capex fears, so oversold dip-buying into the close is slightly more likely than not.",
+      "current_price_at_prediction": 182.73,
+      "prev_close": 200.13,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 9.9,
+    "prompt_tokens": 23392,
+    "completion_tokens": 992,
+    "cost_usd": 0.066704,
+    "finished_at": "2026-11-05T17:58:23.444789+00:00",
+    "normalization_issues": []
+  }
+}

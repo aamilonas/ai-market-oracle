@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-05",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-05T18:00:50.134048+00:00",
+  "market_context": "US equities are in a sharp risk-off session on November 5, with SPY down about 3.85% and QQQ down about 5.71% by midday as semiconductor and AI names sell off after the post-election rally fades finance.yahoo.com. The Nasdaq is plunging toward correction territory while the PHLX Semiconductor Index is sharply lower, and VIX has spiked to 26.14, signaling elevated hedging demand and fragile sentiment finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261105_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 734.5,
+      "model_reported_price": 737.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is already -3.85% at $737.30 and sitting near its intraday low after broad selling, with VIX up sharply, indicating heavy risk-off that can persist into the close [finance.yahoo.com. The selloff is broad and tied to fading post-election gains, not a single-stock event, making a late stabilization less likely finance.yahoo.com.",
+      "current_price_at_prediction": 737.3,
+      "prev_close": 766.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261105_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.0,
+      "model_reported_price": 652.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ is under severe pressure with the Nasdaq down about 5% and semiconductor shares leading the decline, including NVDA down nearly 9% finance.yahoo.com. The tech-heavy index has already broken key intraday support and remains in a negative-gamma-type tape where downside moves can amplify into the close theadaptivetrader.substack.com.",
+      "current_price_at_prediction": 652.43,
+      "prev_close": 691.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261105_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 514.5,
+      "model_reported_price": 517.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA is down about 3% and near its intraday low as the Dow gives back Wednesday's post-election rally gains finance.yahoo.com. Even though the Dow has less semiconductor exposure, broad de-risking and a sharply higher VIX suggest defensive selling can continue into the close morningstar.com.",
+      "current_price_at_prediction": 517.17,
+      "prev_close": 533.11,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141133476.html",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/",
+      "https://finance.yahoo.com/",
+      "https://www.morningstar.com/markets/indexes",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-5-2026",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 154.6,
+    "prompt_tokens": 6989,
+    "completion_tokens": 6147,
+    "cost_usd": 0.05786,
+    "finished_at": "2026-11-05T18:00:50.134048+00:00",
+    "normalization_issues": []
+  }
+}

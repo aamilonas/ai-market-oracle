@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-05",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-05T17:58:35.656786+00:00",
+  "market_context": "Broad market sell-off today with tech and semiconductors leading declines amid post-election uncertainty and chip stock weakness. VIX spiked over 57% indicating heightened fear, while Treasury yields dipped slightly to 4.83%.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261105_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 730.0,
+      "model_reported_price": 737.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is down 3.85% intraday with tech and semiconductor stocks leading market declines. The VIX surge to 26.14 (+57%) indicates persistent fear that should pressure SPY toward its day low near $736.91, with downside momentum likely to continue into the close.",
+      "current_price_at_prediction": 737.3,
+      "prev_close": 766.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261105_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 640.0,
+      "model_reported_price": 652.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq-100 ETF is down 5.71% today with heavy selling in semiconductor stocks like NVDA (-8.69%) and TSLA (-11.59%). The tech sector breakdown suggests QQQ will extend losses toward its day low of $647.47, likely closing near $640 as negative gamma dynamics amplify downside moves.",
+      "current_price_at_prediction": 652.43,
+      "prev_close": 691.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261105_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "model_reported_price": 182.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia is down 8.69% today amid a semiconductor sector rout. With the PHLX Semiconductor Index down 11% and ongoing concerns about AI chip demand, NVDA is likely to test its day low of $181.55 and close near $175 as selling pressure intensifies into the close.",
+      "current_price_at_prediction": 182.73,
+      "prev_close": 200.13,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141133476.html",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/",
+      "https://finance.yahoo.com/",
+      "https://www.morningstar.com/markets/indexes",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-5-2026",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 22.1,
+    "prompt_tokens": 6084,
+    "completion_tokens": 457,
+    "cost_usd": 0.014455,
+    "finished_at": "2026-11-05T17:58:35.656786+00:00",
+    "normalization_issues": []
+  }
+}

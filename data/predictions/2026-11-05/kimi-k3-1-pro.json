@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-05",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-05T18:00:00.186406+00:00",
+  "market_context": "Stocks are in an active, broad liquidation rather than a completed gap-down: SPY and DIA are effectively at their session lows, QQQ is down 5.71%, and the semiconductor index was down about 11% around midday as the post-election rally reversed finance.yahoo.com. QQQ has also sliced through the 680 put wall identified premarket, leaving a negative-gamma backdrop that can amplify late moves theadaptivetrader.substack.com. WTI near $90 and Iran-war uncertainty reinforce risk aversion, while October layoff plans fell to their lowest since 2023 and Friday's employment report remains the next major catalyst finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261105_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 732.0,
+      "model_reported_price": 737.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY opened at $765.47, printed its high at $765.97, and was only $0.39 above its session low at the snapshot, a trend-day profile with no confirmed reversal. The premarket $760.40 downside marker has failed and VIX is up 57.38%, favoring additional afternoon de-risking, although the target allows for some late short covering [theadaptivetrader.substack.com.",
+      "current_price_at_prediction": 737.3,
+      "prev_close": 766.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261105_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.0,
+      "model_reported_price": 652.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ is below both the 680 put wall and the cited 680.99 weekly minus-one-sigma area, while the premarket note warned that negative gamma would amplify moves theadaptivetrader.substack.com. With semiconductors down about 11% and NVDA off 8.69%, I expect the $647.47 session low to be retested and modestly exceeded before the close finance.yahoo.com.",
+      "current_price_at_prediction": 652.43,
+      "prev_close": 691.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261105_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 263.5,
+      "model_reported_price": 261.21,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "AMZN is the relative-strength exception: it is down just 1.81% versus QQQ's 5.71% decline, remains up 7.2% over five days, and is already 3.52% above its $252.32 intraday low. That resilient dip buying supports a close modestly above the snapshot even if the broader tape finishes weak, with $263.50 still well below today's $273.23 high.",
+      "current_price_at_prediction": 261.21,
+      "prev_close": 266.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261105_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 337.0,
+      "model_reported_price": 340.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA is essentially at its session low after an 11.59% drop and is down 15.6% over five days, showing no intraday stabilization. Premarket reporting also highlighted concern about greater scrutiny of Musk-linked companies under Democratic leadership, a headwind likely to keep rallies sold into the close finance.yahoo.com.",
+      "current_price_at_prediction": 340.54,
+      "prev_close": 385.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Parasail",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141133476.html",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/",
+      "https://www.morningstar.com/markets/indexes",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/markets/",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-mixed-130952710.html",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-5-2026"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 104.3,
+    "prompt_tokens": 6256,
+    "completion_tokens": 8026,
+    "cost_usd": 0.099772,
+    "finished_at": "2026-11-05T18:00:00.186406+00:00",
+    "normalization_issues": []
+  }
+}

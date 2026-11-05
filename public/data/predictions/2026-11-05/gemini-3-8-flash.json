@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-05",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-05T17:58:50.006657+00:00",
+  "market_context": "U.S. equities are undergoing severe liquidation, with the Nasdaq sliding into correction territory and the VIX spiking over 57% to 26.14. Investors are rapidly unwinding AI infrastructure exposure following midterm election victories that raised concerns over state-level data center moratoriums, compounded by Qualcomm's weak smartphone chip guidance. Major indices are pinned against their intraday lows at 1:00 PM ET, suggesting negative gamma and institutional sell imbalances will dominate the final hours.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261105_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 733.5,
+      "model_reported_price": 737.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Broad institutional deleveraging and a 57% surge in the VIX continue to suppress dip-buying appetite into the afternoon session. With SPY hovering right on its session low of $736.91 at midday, late-day market-on-close (MOC) sell imbalances are poised to push the index further toward the $733 zone.",
+      "current_price_at_prediction": 737.3,
+      "prev_close": 766.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261105_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 648.2,
+      "model_reported_price": 652.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "The tech-heavy ETF has officially broken critical technical levels as Democratic congressional wins spark concerns over potential pauses on new AI data center permits. A weak midday bounce attempt quickly faded, leaving QQQ vulnerable to retesting its session low of $647.47 heading into the 4:00 PM close.",
+      "current_price_at_prediction": 652.43,
+      "prev_close": 691.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261105_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 180.5,
+      "model_reported_price": 182.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Nvidia has erased its entire year-to-date gain, breaking decisively below its $186.50 December close as investors reassess hyperscaler capital expenditures. With semiconductor selling showing no signs of stabilization, heavy options dealer hedging is likely to pull the stock down toward round-number support at $180.00.",
+      "current_price_at_prediction": 182.73,
+      "prev_close": 200.13,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261105_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 336.5,
+      "model_reported_price": 340.54,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Tesla is trading directly on its session low of $340.14, having plunged over 11.5% amid broad market risk aversion and shifting political dynamics. In heavy risk-off sessions with the 10-year yield holding firm at 4.83%, high-beta mega-caps generally face aggressive end-of-day liquidation.",
+      "current_price_at_prediction": 340.54,
+      "prev_close": 385.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-05T12:58:11.324490-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 36.5,
+    "prompt_tokens": 1678,
+    "completion_tokens": 3722,
+    "cost_usd": 0.099216,
+    "finished_at": "2026-11-05T17:58:50.006657+00:00",
+    "normalization_issues": []
+  }
+}
