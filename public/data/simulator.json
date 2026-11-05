@@ -1,5 +1,5 @@
 {
-  "balance": 25582.9,
+  "balance": 26014.15,
   "starting_balance": 25000,
   "trades": [
     {
@@ -87,10 +87,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 203.58,
-      "exit_price": null,
+      "exit_price": 200.13,
       "shares": 125,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 431.25,
+      "pnl_pct": 1.69,
       "models": [
         "Gemini 3.8 Flash",
         "Hermes 4 405B",
@@ -100,7 +100,7 @@
         "Claude Sonnet 5.5"
       ],
       "confidence": 0.6,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
