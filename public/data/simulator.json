@@ -1,5 +1,5 @@
 {
-  "balance": 26014.15,
+  "balance": 27924.19,
   "starting_balance": 25000,
   "trades": [
     {
@@ -107,10 +107,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 196.07,
-      "exit_price": null,
+      "exit_price": 181.6,
       "shares": 132,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 1910.04,
+      "pnl_pct": 7.38,
       "models": [
         "Perplexity Sonar Pro",
         "Gemini 3.8 Flash",
@@ -119,7 +119,7 @@
         "Grok 4.3"
       ],
       "confidence": 0.696,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

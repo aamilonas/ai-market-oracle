@@ -1,9 +1,9 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T18:00:55.049912+00:00",
-  "narrator": null,
-  "headline": "35 AI market calls queued for 2026-11-05",
-  "summary": "9 models made 35 predictions across 7 tickers.",
+  "generated_at": "2026-11-06T02:36:13.358862+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Qwen 3.8 Max Leads as Models Split on Every Consensus Pick",
+  "summary": "Qwen 3.8 Max topped the day with a score of 3.25, while Hermes 4 405B posted the best single call, a SPY down bet that scored 1.25. Models disagreed on all five consensus tickers (SPY, QQQ, NVDA, TSLA, and DIA), with no agreed direction on any of them. DeepSeek V4 Pro's TSLA down call was the day's worst at -0.65, and Claude Sonnet 5.5 finished lowest overall at -1.64.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -42,11 +42,17 @@
     }
   ],
   "best_call": {
-    "prediction_id": "pred_hermes-4-405b_20261105_003",
+    "prediction_id": "pred_hermes-4-405b_20261105_001",
     "model_display_name": "Hermes 4 405B",
-    "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+    "ticker": "SPY",
+    "score": 1.25,
+    "summary": "Hermes 4 405B's SPY down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_deepseek-v4-pro_20261105_005",
+    "model_display_name": "DeepSeek V4 Pro",
+    "ticker": "TSLA",
+    "score": -0.65,
+    "summary": "DeepSeek V4 Pro's TSLA down call scored lowest today."
+  }
 }
