@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-06",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-06T17:26:04.901330+00:00",
+  "market_context": "After Thursday's sharp AI-led selloff, Friday is a partial rebound led by technology, while the Dow is nearly flat and market breadth remains mixed. October payrolls reportedly rose 165000 versus roughly 65000 expected, with 0.4% wage growth; the resulting 4.85% 10-year yield creates a hawkish-rate headwind as the initial relief rally fades from its intraday highs.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 736.2,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY has retraced from its $742.21 intraday high despite the large decline in VIX, suggesting that the opening recovery is losing momentum. The stronger-than-expected jobs and wage data have kept Treasury yields elevated at 4.85%, which should constrain a broad late-session risk rally.",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 655.5,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ is still up 1.94% after a 4.5% five-day decline, but it has already fallen materially from the $664.52 session high. The prior session's AI/tech unwind remains the dominant risk, and the strong payroll report reduces the case for imminent Fed easing that would support long-duration technology stocks.",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261106_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.6,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "NVDA is up 3.62% today but remains down 8.0% over five days and has reversed sharply from a $194.90 intraday peak. Its outsized rebound makes it vulnerable to profit-taking if the broad tech bounce continues to fade into the close.",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261106_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 355.4,
+      "model_reported_price": 359.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA's 4.61% recovery follows a 10.1% five-day drop and has stalled below its $362.43 day high. With yields high after the payroll surprise, the session's most rate-sensitive high-beta rebound names are likely to give back part of their midday gains.",
+      "current_price_at_prediction": 359.55,
+      "prev_close": 343.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 16.1,
+    "prompt_tokens": 13453,
+    "completion_tokens": 1006,
+    "cost_usd": 0.051888,
+    "finished_at": "2026-11-06T17:26:04.901330+00:00",
+    "normalization_issues": []
+  }
+}

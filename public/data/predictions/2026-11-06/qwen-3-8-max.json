@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-06",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-06T17:30:31.530636+00:00",
+  "market_context": "U.S. equities are rebounding Friday after Thursday’s sharp technology-led selloff, with semiconductors and megacap growth leading while volatility falls (finance.yahoo.com, stockmarketwatch.com). Defensives and the Dow are lagging, and Treasury yields are higher after the strong October jobs report, suggesting the advance is narrow and rate-sensitive (benzinga.com, finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.0,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "SPY has stabilized at +0.87% with technology and communication services leading after the chip selloff, per [finance.yahoo.com and benzinga.com. Falling volatility and a risk-on tone in midday coverage support a modest move into the close, though weekly losses cap conviction (stockmarketwatch.com).",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 660.8,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ is the day’s clear leader at +1.94% as semiconductors rebound sharply, with SOXX and chip names surging after Thursday’s drop, per finance.yahoo.com. The intraday sector table shows Technology and Communication Services outperforming, supporting further Nasdaq strength into the close (benzinga.com).",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261106_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 274.05,
+      "model_reported_price": 273.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "IWM has strengthened from earlier Friday gains and is trading near its intraday high, showing risk appetite beyond megacap tech (stockmarketwatch.com). With VIX sharply lower and small caps participating, a small further advance into the close is more likely than a fade (finance.yahoo.com).",
+      "current_price_at_prediction": 273.88,
+      "prev_close": 270.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/62989618/growth-lead-sectors-in-friday-trading-as-defensives-trail",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-132143622.html",
+      "https://massive.com/quote",
+      "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-surges-as-nasdaq-leads-midday-rally/74272/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/chart/SPY?ltr=1"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 280.8,
+    "prompt_tokens": 5781,
+    "completion_tokens": 11694,
+    "cost_usd": 0.088726,
+    "finished_at": "2026-11-06T17:30:31.530636+00:00",
+    "normalization_issues": []
+  }
+}

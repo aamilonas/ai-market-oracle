@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-06",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-06T17:26:57.821194+00:00",
+  "market_context": "Friday's session is rebounding from Thursday's AI-infrastructure-driven selloff, with technology and semiconductors leading while defensives lag; SPY is up 0.87% and QQQ up 1.94% as of 12:25 ET, and VIX is down 13.7% to 24.32. A strong October jobs report pushed the 10-year Treasury yield up to 4.85%, but midday breadth remains concentrated in growth sectors.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.2,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY is holding gains after Thursday's AI-infrastructure selloff, with VIX down 13.7% and growth sectors leading the rebound [benzinga.com]. A strong jobs report pushed yields higher but has not derailed the midday bid [yahoo.com].",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 661.0,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ is outperforming as semiconductor stocks rebound, with SMH up about 3.8% and mega-cap tech leaders NVDA, TSLA, and META higher [stockmarketwatch.com]. Tech-led momentum supports a close above the current intraday quote.",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261106_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 360.5,
+      "model_reported_price": 359.55,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA is up 4.6% intraday and consumer discretionary is one of the leading sectors in midday trading [benzinga.com]. The rebound momentum favors a slight extension into the close.",
+      "current_price_at_prediction": 359.55,
+      "prev_close": 343.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261106_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 188.9,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA is rebounding with chip stocks but has faded from its morning high, still up 3.6%; semiconductor ETF strength suggests underlying support [stockmarketwatch.com]. I expect only a modest drift higher into the close.",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Novita",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/62989618/growth-lead-sectors-in-friday-trading-as-defensives-trail",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-132143622.html",
+      "https://massive.com/quote",
+      "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-surges-as-nasdaq-leads-midday-rally/74272/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/chart/SPY?ltr=1"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 69.0,
+    "prompt_tokens": 5063,
+    "completion_tokens": 4746,
+    "cost_usd": 0.030288,
+    "finished_at": "2026-11-06T17:26:57.821194+00:00",
+    "normalization_issues": []
+  }
+}

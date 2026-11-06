@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-06",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-06T17:26:04.756255+00:00",
+  "market_context": "Markets are rebounding strongly today with tech and growth stocks leading the recovery after Thursday's sharp selloff. The bounce is being driven by semiconductor stocks rebounding from oversold conditions, though the major averages are still on track for weekly losses.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 741.5,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY is rebounding from yesterday's 4.4% drop with strong momentum in tech and growth stocks leading the recovery. With the VIX down 13.7% and sector leadership concentrated in technology, communication services, and consumer discretionary, the rally should continue through the close.",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 663.0,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "QQQ is leading the market rebound with a 1.94% gain so far today, driven by strong recoveries in semiconductor and AI-related stocks like NVDA (+3.62%) and TSLA (+4.61%). The tech-heavy Nasdaq is showing the strongest momentum and should continue outperforming into the close.",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261106_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 191.5,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia is bouncing back strongly (+3.62%) after yesterday's chip stock selloff, leading the semiconductor sector recovery. With the SOXX ETF up 6% and positive sentiment around AI stocks returning, NVDA should continue gaining through the session.",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261106_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 516.0,
+      "model_reported_price": 514.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow is lagging behind the tech rally but still showing modest gains. With the broader market rebounding and defensive sectors like utilities and consumer staples underperforming, the Dow should drift slightly higher into the close.",
+      "current_price_at_prediction": 514.89,
+      "prev_close": 514.27,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/62989618/growth-lead-sectors-in-friday-trading-as-defensives-trail",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-132143622.html",
+      "https://massive.com/quote",
+      "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-surges-as-nasdaq-leads-midday-rally/74272/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/chart/SPY?ltr=1"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 16.0,
+    "prompt_tokens": 4982,
+    "completion_tokens": 554,
+    "cost_usd": 0.013644,
+    "finished_at": "2026-11-06T17:26:04.756255+00:00",
+    "normalization_issues": []
+  }
+}

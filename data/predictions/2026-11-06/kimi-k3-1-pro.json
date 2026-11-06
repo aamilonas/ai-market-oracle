@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-06",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-06T17:27:03.035218+00:00",
+  "market_context": "Friday's rebound from Thursday's AI-led selloff is concentrated in growth: SPY is up 0.87% and QQQ 1.94%, while DIA has gained only 0.12% and VIX remains elevated at 24.32. Semiconductor stocks have cooled from their opening surge, and stronger October hiring coupled with 4.1% unemployment has pushed Treasury yields higher, creating scope for afternoon profit-taking. finance.yahoo.com benzinga.com",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 734.75,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY has retreated from its $742.21 session high, while late-morning data showed only two sectors outperforming it and defensive sectors weakening. With the 10-year yield still elevated and VIX at 24.32, I expect Friday de-risking to erase much of the remaining rebound by the close. [benzinga.com",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 656.5,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ is nearly $5 below its $664.52 intraday high, and the semiconductor rebound has already cooled from NVDA's roughly 7% opening gain to 3.62% at the baseline. Higher yields following the jobs report are an additional headwind for long-duration technology shares, favoring a modest afternoon fade while QQQ remains positive for the day. finance.yahoo.com",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261106_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 510.0,
+      "model_reported_price": 514.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "The Dow has substantially lagged the technology-led rebound and was negative in early trading even while the Nasdaq gained about 1.8%. Weak defensive-sector performance and rising Treasury yields leave DIA vulnerable to renewed selling toward the lower portion of its $508.66-$515.98 session range. finance.yahoo.com benzinga.com",
+      "current_price_at_prediction": 514.89,
+      "prev_close": 514.27,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261106_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 186.5,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA has faded sharply from $194.90 to $188.18 and sits less than $1 above its $187.31 session low, underperforming the broader QQQ rebound. That reversal from the opening chip surge signals persistent supply; another wave of profit-taking could produce a modest new session low while leaving NVDA above Thursday's $181.60 close. finance.yahoo.com",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/62989618/growth-lead-sectors-in-friday-trading-as-defensives-trail",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-132143622.html",
+      "https://massive.com/quote",
+      "https://www2.stockmarketwatch.com/stock-market-news/tech-sector-surges-as-nasdaq-leads-midday-rally/74272/",
+      "https://finance.yahoo.com/quotes/QQQ%2CSPY%2CFGXXX/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/chart/SPY?ltr=1"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 72.1,
+    "prompt_tokens": 5062,
+    "completion_tokens": 8327,
+    "cost_usd": 0.1002788,
+    "finished_at": "2026-11-06T17:27:03.035218+00:00",
+    "normalization_issues": []
+  }
+}

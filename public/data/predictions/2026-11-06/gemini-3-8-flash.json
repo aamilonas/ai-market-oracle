@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-06",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-06T17:26:24.534388+00:00",
+  "market_context": "Equities are attempting a fragile relief bounce following Thursday's severe selloff, but morning gains are fading across major benchmarks as October nonfarm payrolls topped forecasts at 165k, pushing the 10-year Treasury yield up to 4.85% and lifting December Fed rate-hike expectations to 78%. Ongoing regulatory anxieties surrounding AI data-center infrastructure after the US midterm elections and elevated weekend event risks are driving renewed afternoon distribution.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 736.8,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY has retreated from its morning peak of $742.21 as higher Treasury yields cap equity multiple expansion following a hotter-than-expected jobs report. With six of eleven sectors trading in the red and defensive sectors lagging, risk appetite is narrowing. Heading into the weekend after Thursday's 4.4% index drop, institutional de-risking into the close should drag SPY back toward the lower end of its daily range.",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261106_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 655.8,
+      "model_reported_price": 659.58,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ has already surrendered nearly five points from its morning high of $664.52 as tech dip-buyers are met with heavy supply. Sustained policy uncertainty regarding AI infrastructure limits following Democratic midterm ballot victories continues to discourage aggressive positioning. The resurgence in bond yields will keep pressure on high-duration mega-cap tech into the 4:00 PM ET close.",
+      "current_price_at_prediction": 659.58,
+      "prev_close": 647.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261106_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 185.0,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA has seen sharp intraday fading after failing to hold morning highs near $194.90, hovering just above its session low of $187.31. Broad semiconductor sentiment remains compromised after Thursday's 12% sector rout and lingering concerns over hyperscaler AI capex curbs. Traders are likely to take profits on the morning bounce and trim exposure ahead of the weekend.",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261106_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 512.2,
+      "model_reported_price": 514.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "DIA has significantly lagged the broader market today, up just 0.12% as cyclical, industrial, and consumer components face headwinds from rising borrowing costs. The jump in the 10-year yield toward 4.86% diminishes the appeal of dividend-paying Dow constituents. Continued softness in heavyweight industrial and financial holdings should pull DIA negative before the final bell.",
+      "current_price_at_prediction": 514.89,
+      "prev_close": 514.27,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 35.7,
+    "prompt_tokens": 1676,
+    "completion_tokens": 3445,
+    "cost_usd": 0.07017575,
+    "finished_at": "2026-11-06T17:26:24.534388+00:00",
+    "normalization_issues": []
+  }
+}

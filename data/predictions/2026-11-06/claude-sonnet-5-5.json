@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-06",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-06T17:25:59.489649+00:00",
+  "market_context": "Thursday's AI and data-center selloff followed Democratic midterm wins. The Nasdaq fell 5.5% and the S&P 500 fell 4.4%. Friday is a partial rebound led by chips, and the strong October jobs report (+165K, unemployment 4.1%) lifted the odds of a December Fed hike to about 76-78%. The 10-year yield is 4.85%, the VIX is easing from its spike, and all three indexes are still headed for steep weekly losses.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261106_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 740.5,
+      "model_reported_price": 739.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Dip-buying and a falling VIX (-13.7%) are supporting the rebound, and SPY is holding near the top of its day range after a historic one-day drop. Rate-hike fears and the 4.85% yield cap the upside, so I expect only a modest further gain into the close.",
+      "current_price_at_prediction": 739.37,
+      "prev_close": 733.0,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261106_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 186.5,
+      "model_reported_price": 188.18,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "NVDA has already faded from its $194.90 high and now sits near the low of its range. It is still down 8% over five days, and the AI-regulation overhang and hike fears could keep capping the bounce. Chasing a one-day semiconductor rebound into a Friday close looks risky.",
+      "current_price_at_prediction": 188.18,
+      "prev_close": 181.6,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261106_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 75000.0,
+      "model_reported_price": 75798.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "BTC is not taking part in the equity bounce, and the hot jobs report raised Fed hike odds to about 78%, which pressures risk assets. It is also trending lower, down 3.1% over five days.",
+      "current_price_at_prediction": 75798.13,
+      "prev_close": 75942.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-06T12:25:47.147036-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.7,
+    "prompt_tokens": 22570,
+    "completion_tokens": 991,
+    "cost_usd": 0.06505,
+    "finished_at": "2026-11-06T17:25:59.489649+00:00",
+    "normalization_issues": []
+  }
+}

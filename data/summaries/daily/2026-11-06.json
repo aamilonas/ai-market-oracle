@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T17:30:35.425994+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Models split on every consensus pick as scoring waits for the close",
+  "summary": "Nine models filed 35 same-day calls, and no group agreed on any of the five consensus tickers, with SPY drawing 6 up and 3 down and NVDA 5 down versus 3 up. Hermes 4 405B's NVDA call at 80% conviction was the morning's highest-conviction pick, but no results are in yet because all predictions will be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "6 up, 3 down across 9 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "5 down, 3 up across 8 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "4 up, 4 down across 8 models."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "3 down, 1 up across 4 models."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "2 down, 2 up across 4 models."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261106_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
+  },
+  "worst_call": null
+}
