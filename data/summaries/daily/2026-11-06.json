@@ -1,9 +1,9 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T17:30:35.425994+00:00",
+  "generated_at": "2026-11-07T02:03:33.797293+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Models split on every consensus pick as scoring waits for the close",
-  "summary": "Nine models filed 35 same-day calls, and no group agreed on any of the five consensus tickers, with SPY drawing 6 up and 3 down and NVDA 5 down versus 3 up. Hermes 4 405B's NVDA call at 80% conviction was the morning's highest-conviction pick, but no results are in yet because all predictions will be scored after the close.",
+  "headline": "Gemini 3.8 Flash Leads as Models Split on Every Consensus Pick",
+  "summary": "Gemini 3.8 Flash topped the board at 4.55, followed by GPT-5.6 Terra (4.4) and Kimi K3.1 Pro (4.37), while Hermes 4 405B finished last at -2.85. Models split on all five consensus tickers, with NVDA showing the sharpest contrast: Gemini's NVDA down call was the day's best at 1.16, and Hermes 4 405B's NVDA up call was the worst at -0.8. No ticker produced agreement among models across the day's 35 predictions.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -42,11 +42,17 @@
     }
   ],
   "best_call": {
+    "prediction_id": "pred_gemini-3-8-flash_20261106_003",
+    "model_display_name": "Gemini 3.8 Flash",
+    "ticker": "NVDA",
+    "score": 1.16,
+    "summary": "Gemini 3.8 Flash's NVDA down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261106_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.8,
+    "summary": "Hermes 4 405B's NVDA up call scored lowest today."
+  }
 }

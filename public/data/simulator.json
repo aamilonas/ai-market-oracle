@@ -1,5 +1,5 @@
 {
-  "balance": 27924.19,
+  "balance": 28581.19,
   "starting_balance": 25000,
   "trades": [
     {
@@ -126,10 +126,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 191.14,
-      "exit_price": null,
+      "exit_price": 186.64,
       "shares": 146,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 657.0,
+      "pnl_pct": 2.35,
       "models": [
         "Perplexity Sonar Pro",
         "Gemini 3.8 Flash",
@@ -138,7 +138,7 @@
         "Claude Sonnet 5.5"
       ],
       "confidence": 0.596,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
