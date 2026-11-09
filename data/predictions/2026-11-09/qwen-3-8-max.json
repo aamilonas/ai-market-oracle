@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-09",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-09T20:41:21.016791+00:00",
+  "market_context": "U.S. equities rebounded broadly after last week's selloff, with SPY, QQQ and DIA near intraday highs and VIX falling sharply finance.yahoo.com. Nvidia remained weak on a CEO governance probe, but mega-cap tech and lower oil helped indexes shrug it off uk.finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.2,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is up 2.6% and holding near its $755.42 intraday high while VIX dropped about 23%, indicating strong risk-on momentum into the close [finance.yahoo.com.",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 681.3,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ is up 3.8% with META, TSLA, MSFT and AMZN leading, offsetting NVDA's decline and supporting a slightly higher close investing.com.",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261109_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 524.75,
+      "model_reported_price": 524.26,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "DIA is following the broad advance and is near its session high, with the Dow up over 2% despite Nvidia weakness finance.yahoo.com.",
+      "current_price_at_prediction": 524.26,
+      "prev_close": 512.22,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261109_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 177.9,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "NVDA has recovered from its $170.24 intraday low after the initial probe headline, and with selling easing it may stabilize or drift higher into the close uk.finance.yahoo.com.",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "https://finance.yahoo.com/markets/etfs/most-active/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-180817957.html?.tsrc=rss",
+      "https://finance.yahoo.com/",
+      "https://themarketpulse.vercel.app/",
+      "https://uk.finance.yahoo.com/news/markets-live-ftse-100-set-071100830.html",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://market-regime-dashboard-mu.vercel.app/",
+      "https://asleepace.com/daily-report",
+      "https://www.tradevae.com/state-of-market-reports/2026-11-09/midday/midday-turn-mega-cap-rebound-steadies-the-tape-as-oil-slips-and-gold-climbs-110926120338/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 136.1,
+    "prompt_tokens": 5691,
+    "completion_tokens": 5043,
+    "cost_usd": 0.04864,
+    "finished_at": "2026-11-09T20:41:21.016791+00:00",
+    "normalization_issues": []
+  }
+}

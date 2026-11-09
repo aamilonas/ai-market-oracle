@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-09",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-09T20:39:41.940718+00:00",
+  "market_context": "Wall Street is staging a broad rebound after last week's selloff, with the Dow up about 2.3% late in the session and SPY/QQQ near their intraday highs; VIX has dropped roughly 23%, while Brent crude near $91 has eased some market pressure. Participation remains uneven because NVDA is still down about 5% as its board investigates CEO Jensen Huang, making late-day momentum constructive but not uniform. finance.yahoo.com themarketpulse.vercel.app",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.2,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY improved from $753.90 around 3:01 p.m. ET to $754.48 and now sits near the upper end of its $741.09-$755.42 intraday range, while VIX has collapsed toward 20. With no major scheduled data release before the bell and lower oil supporting sentiment, a modest extension is somewhat more likely than a full late reversal. [themarketpulse.vercel.app",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 681.5,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "QQQ has strengthened from $679.15 at approximately 3:01 p.m. ET to $680.78, just below its $681.70 session high, with MSFT, META and TSLA all posting gains of at least 3%. That broad mega-cap participation offsets some NVDA drag and favors a marginally higher close, although the already-large 3.76% daily advance limits conviction. themarketpulse.vercel.app",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261109_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 178.2,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "NVDA has recovered from its $170.24 session low to $177.37 after earlier being down as much as roughly 8%, while the broader technology tape has accelerated. A small final-hour short-covering lift is plausible, but the board probe into Jensen Huang and associated headline risk make this deliberately low conviction. finance.yahoo.com",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261109_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 268.1,
+      "model_reported_price": 268.72,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "AMZN is a notable intraday momentum laggard: at $268.72 it is only $1.15 above its $267.57 session low and far below its $275.31 high, even as QQQ trades near its high. That pattern favors another small fade into the bell, though the stock's remaining 3.63% daily gain keeps confidence modest.",
+      "current_price_at_prediction": 268.72,
+      "prev_close": 259.3,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "PrimaLabs",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "https://finance.yahoo.com/markets/etfs/most-active/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-180817957.html?.tsrc=rss",
+      "https://themarketpulse.vercel.app/",
+      "https://uk.finance.yahoo.com/news/markets-live-ftse-100-set-071100830.html",
+      "https://market-regime-dashboard-mu.vercel.app/",
+      "https://finance.yahoo.com/quote/%5EDJI/",
+      "https://finance.yahoo.com/",
+      "https://www.tradevae.com/state-of-market-reports/2026-11-09/midday/midday-turn-mega-cap-rebound-steadies-the-tape-as-oil-slips-and-gold-climbs-110926120338/",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 36.6,
+    "prompt_tokens": 5014,
+    "completion_tokens": 5672,
+    "cost_usd": 0.0670732,
+    "finished_at": "2026-11-09T20:39:41.940718+00:00",
+    "normalization_issues": []
+  }
+}

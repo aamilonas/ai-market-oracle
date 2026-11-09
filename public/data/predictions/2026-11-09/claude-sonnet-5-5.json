@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-09",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-09T20:39:13.544415+00:00",
+  "market_context": "Stocks are rallying hard on Monday after a rough post-election week. The Nasdaq fell into correction last week, and chips are rebounding (SOXX up about 7%). Oil is falling, and VIX is down 23% to 19.7. NVDA is the exception, down about 5% after its board opened a probe into CEO Jensen Huang. October CPI is due Tuesday, and the 10-year yield is near 4.86-4.88%, so some caution is likely into the close.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.5,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is trading within about $1 of its day high of $755.42 with only 20 minutes left, and the rally has built through the session. Breadth is broad and VIX has dropped sharply. A small drift higher into the close is slightly more likely than a fade, though the CPI release tomorrow could prompt some profit-taking.",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 681.5,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "QQQ is near its high of $681.70 after a gain of about 3.8%, led by semiconductors and mega-cap tech. The Nasdaq-100 is still down roughly 13% over the past month, so dip buyers have room to keep going into the close. Risk of a CPI-eve fade keeps confidence low.",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261109_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 178.5,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA bounced from a low of $170.24 to $177.37 and is the most oversold it has been since 2019, with short interest around 23%. Cantor and HSBC say the chip selloff is overdone. Late-day dip buying and short covering should give a small bounce, though the CEO probe headlines are still a risk.",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.4,
+    "prompt_tokens": 28667,
+    "completion_tokens": 994,
+    "cost_usd": 0.077274,
+    "finished_at": "2026-11-09T20:39:13.544415+00:00",
+    "normalization_issues": []
+  }
+}

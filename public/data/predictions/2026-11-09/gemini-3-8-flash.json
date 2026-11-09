@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-09",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-09T20:39:29.653245+00:00",
+  "market_context": "U.S. equities are staging a massive broad-based relief rally following last week's post-election and tech sell-off, with the S&P 500 up over 2.5% and the VIX tumbling more than 23% below 20. Communication services, consumer discretionary, and broader semiconductors (e.g., AMD, AMAT) are surging, while Nvidia trades down 5% as it decouples due to news regarding CEO Jensen Huang and foreign intelligence scrutiny. With strong closing market-on-close demand anticipated across broad indexes, equity benchmarks are poised to finish near session highs.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 755.1,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The broad market is maintaining relentless upside momentum into the final half hour, supported by all 11 S&P 500 sectors trading higher and safe-haven volatility collapsing. Institutional Market-On-Close buy imbalances in a trend-day rally typically keep price action buoyant near the top of the session range ($755.42). With Treasury yields stabilizing and oil declining, macro headwinds are muted heading into the 4:00 PM ET bell.",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 681.4,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Despite sharp weakness in Nvidia, the broader semiconductor sector and mega-cap tech peers like META and MSFT are experiencing aggressive dip-buying, pushing QQQ up over 3.7%. Strong closing program buying on high-beta tech is expected to push the ETF closer to its session peak of $681.70 into the bell. Upward momentum across communications and tech constituents remains dominant in late afternoon trading.",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261109_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 176.5,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Nvidia is facing distinct idiosyncratic selling pressure following weekend reports regarding Jensen Huang and subsequent congressional inquiry announcements. Although shares bounced from the intraday low of $170.24, traders and funds are likely to de-risk and trim long exposure into the close rather than hold overnight event risk. This overhang should keep NVDA soft into the 4:00 PM close relative to its late-afternoon bounce.",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261109_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 647.3,
+      "model_reported_price": 646.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Meta is among the primary beneficiaries of rotation back into big-tech platform leaders, advancing 6% and hovering right at its session high of $647.25. Communication services continue to lead sector-level performance across Wall Street. Sustained late-day institutional inflows should support a strong finish right against session highs at the closing print.",
+      "current_price_at_prediction": 646.82,
+      "prev_close": 610.15,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2ipT-UczAzVuzsxsjfFkzfydqJvSwryn1liP4sqM4ITXa7scCW5FQo2iD6rMQ3-EE6babGdG8xrEeQyga9sis-cNBOqzbBboVO5TWNqovgsggA43IwhOs_Xcw99VBB1RrM7f8MzzuN5HkVdaML8u6uffp5RnSl-eyNKbrAj_eKYPQ7NcuE8U7sHg3njZV4Am1RcOMaZk=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6Pqh2Ku4D360jklKaPMRL4-5jS0Ci2YNX5f3zQeDSibURXoXv1jaKHTvFhjfOlY7L-uxZEJKpuhjz59PWWxX29R6uuUKfG3SYagRlbJQBa-3rfnTBJg4nU8WhFgP77X5fMqAiCCqVHGZdFfCdD_OqnUaxXy_M62WxB2_3gxHhNwPH9dtg82XI2iq2uvdAejEZvnmi-yVbXVrSM7y6bZ7XZYq4LfuNcfKW0qzUSfw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzuOdaXB52snW4V6Ad-megUPwG9xX0g0xUqVQMp3fNMZZcwm9lGL6rgD1DmKGi4RY1L781uUVkYQVM64fX3uGue2SwhQmwS0vviQ3De4pxVYGSKF8GukuVOOCJj2Q2kwanYJF69S_my2igPBIlnzXtPGb7B_SN2KiSO9EIs4nss09nR0KdEshbDB9VVbYfPv142f-cGvBys4kMvnxZ702uBJDYv7TKxuWiQQRoHbD0cCyi1pcGy_qShyrBNAj62LP5uABHsxA22mkk68e_oVUcDXpUmg4kTtDuEm8="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 26.6,
+    "prompt_tokens": 1677,
+    "completion_tokens": 3028,
+    "cost_usd": 0.04061275,
+    "finished_at": "2026-11-09T20:39:29.653245+00:00",
+    "normalization_issues": []
+  }
+}

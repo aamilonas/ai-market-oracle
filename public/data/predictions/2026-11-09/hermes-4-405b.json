@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-09",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-09T20:39:18.294326+00:00",
+  "market_context": "Markets are rebounding strongly from last week's tech sell-off, with major indices up over 2-3% intraday. The AI trade remains volatile amid Nvidia's governance issues, while energy prices continue to decline and Treasury yields soften slightly.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 756.5,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The S&P 500 is showing strong momentum with a 2.61% gain intraday, recovering from last week's losses. With energy prices falling and Treasury yields easing, the broad market rally appears likely to extend into the close as investors re-enter risk assets.",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 683.0,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq 100 is leading gains with a 3.76% surge, driven by rebounds in mega-cap tech stocks like Microsoft and Amazon. Despite Nvidia's governance concerns, the broader tech sector recovery appears strong enough to push QQQ higher into the close.",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261109_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.0,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia is down nearly 5% intraday amid ongoing governance concerns and competitive threats from Google's new TPU systems. With the board investigation ongoing and $200B already wiped from its market cap, selling pressure is likely to persist through the session.",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261109_004",
+      "ticker": "VIX",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 19.2,
+      "model_reported_price": 19.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "The VIX has plunged over 23% today as market sentiment improves significantly. With major indices recovering strongly and volatility easing, further downside in the fear gauge appears likely as the session concludes.",
+      "current_price_at_prediction": 19.7,
+      "price_source": "yfinance_live",
+      "price_fetched_at": "2026-11-09T20:39:18.498273+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "https://finance.yahoo.com/markets/etfs/most-active/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-180817957.html?.tsrc=rss",
+      "https://finance.yahoo.com/",
+      "https://themarketpulse.vercel.app/",
+      "https://uk.finance.yahoo.com/news/markets-live-ftse-100-set-071100830.html",
+      "https://finance.yahoo.com/quote/%5EDJI/",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://market-regime-dashboard-mu.vercel.app/",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 15.2,
+    "prompt_tokens": 5001,
+    "completion_tokens": 530,
+    "cost_usd": 0.013591,
+    "finished_at": "2026-11-09T20:39:18.294326+00:00",
+    "normalization_issues": []
+  }
+}

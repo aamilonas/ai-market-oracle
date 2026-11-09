@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-09",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-09T20:39:29.990439+00:00",
+  "market_context": "US equities are rebounding sharply on Monday, Nov 9, with the S&P 500, Nasdaq, and Russell 2000 all up over 2.5% intraday as the AI trade shrugs off the Nvidia CEO scandal. The VIX has plunged over 23% to 19.71, and falling oil prices are buoying sentiment ahead of key inflation data this week.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 756.0,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Strong intraday momentum and broad-based buying have pushed SPY above key levels. With VIX collapsing and no major negative catalysts in the final hour, a slight drift higher into the close is likely, consistent with The Daily Report's bull thesis even though its initial target was exceeded.",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 683.0,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tech-heavy QQQ is leading the rebound with a 3.76% gain, supported by strong performances from MSFT, AMZN, and TSLA. The AI trade remains alive despite the Nvidia governance issue, and QQQ typically extends into a momentum close on such high-volume recovery days.",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261109_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 284.5,
+      "model_reported_price": 283.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Small caps are outperforming, up 3.55%, as lower bond yields ease financial conditions. With the Russell 2000 nearing its session high and the VIX well below 20, risk-on buying likely persists into the close, adding a small further gain.",
+      "current_price_at_prediction": 283.39,
+      "prev_close": 273.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "StreamLake",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "https://finance.yahoo.com/markets/etfs/most-active/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-180817957.html?.tsrc=rss",
+      "https://finance.yahoo.com/",
+      "https://themarketpulse.vercel.app/",
+      "https://uk.finance.yahoo.com/news/markets-live-ftse-100-set-071100830.html",
+      "https://finance.yahoo.com/quote/%5EDJI/",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://market-regime-dashboard-mu.vercel.app/",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 26.9,
+    "prompt_tokens": 5103,
+    "completion_tokens": 1209,
+    "cost_usd": 0.010770252967,
+    "finished_at": "2026-11-09T20:39:29.990439+00:00",
+    "normalization_issues": []
+  }
+}

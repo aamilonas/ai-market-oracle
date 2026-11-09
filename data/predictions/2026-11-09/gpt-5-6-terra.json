@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-09",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-09T20:39:39.172726+00:00",
+  "market_context": "U.S. equities are rebounding sharply from last week's AI-led selloff as oil declines on hopes of easing Iran-war tensions, while volatility has fallen materially. (apnews.com) The rebound is late-day extended ahead of Tuesday's October CPI report, while Nvidia remains an idiosyncratic drag amid its board investigation concerning CEO Jensen Huang. (ca.investing.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261109_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 751.6,
+      "model_reported_price": 754.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY is only about 0.1% beneath its intraday high after a 2.61% advance, leaving limited room for further upside into the closing auction. The broad rally is largely a recovery from last week's risk-off move, while CPI risk remains immediately ahead on Tuesday. ([apnews.com)",
+      "current_price_at_prediction": 754.48,
+      "prev_close": 735.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261109_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 677.0,
+      "model_reported_price": 680.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "QQQ has gained 3.76% and is close to its session high, a sharp rebound following the recent AI-sector rout. The index remains vulnerable to late profit-taking because the market's central AI bellwether, Nvidia, is still down roughly 5% on a CEO-related investigation. (apnews.com)",
+      "current_price_at_prediction": 680.78,
+      "prev_close": 656.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261109_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 173.5,
+      "model_reported_price": 177.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Nvidia's board investigation into reports that Jensen Huang was targeted by a foreign intelligence effort is an unresolved company-specific risk, not a catalyst that has been cleared during the session. The stock remains notably weak despite the broad technology rebound, indicating persistent selling and rotation away from Nvidia exposure. (apnews.com)",
+      "current_price_at_prediction": 177.37,
+      "prev_close": 186.64,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261109_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 377.7,
+      "model_reported_price": 381.39,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla is up 6.47% and trading just below its intraday high, making it susceptible to closing-auction profit-taking after an outsized rebound. The session's risk-on move has been broad, but CPI uncertainty for Tuesday and a still-elevated 10-year yield argue against extending the late-day momentum materially. (apnews.com)",
+      "current_price_at_prediction": 381.39,
+      "prev_close": 358.22,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-09T15:39:00.264667-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b?utm_source=openai",
+      "https://ca.investing.com/news/stock-market-news/wall-st-futures-rise-after-rough-week-but-nvidia-unsettles-investors-4942315?utm_source=openai",
+      "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e?utm_source=openai",
+      "https://apnews.com/article/63531dec0fe5c145afaac94dde31d478?utm_source=openai",
+      "https://apnews.com/article/40dba34b39bf5bc08c71547e538e3355?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 33.5,
+    "prompt_tokens": 38076,
+    "completion_tokens": 2092,
+    "cost_usd": 0.154166,
+    "finished_at": "2026-11-09T20:39:39.172726+00:00",
+    "normalization_issues": []
+  }
+}

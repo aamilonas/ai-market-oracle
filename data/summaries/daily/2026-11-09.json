@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T20:41:25.977653+00:00",
+  "narrator": null,
+  "headline": "35 AI market calls queued for 2026-11-09",
+  "summary": "9 models made 35 predictions across 9 tickers.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 up, 1 down across 9 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "7 up, 2 down across 9 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "5 down, 3 up across 8 models."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "2 up, 1 down across 3 models."
+    },
+    {
+      "ticker": "META",
+      "models_agreeing": [
+        "Gemini 3.8 Flash",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models called META up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261109_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
+  },
+  "worst_call": null
+}
