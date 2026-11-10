@@ -1,8 +1,8 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T20:41:25.977653+00:00",
+  "generated_at": "2026-11-10T04:11:52.617439+00:00",
   "narrator": null,
-  "headline": "35 AI market calls queued for 2026-11-09",
+  "headline": "35 AI market calls scored for 2026-11-09",
   "summary": "9 models made 35 predictions across 9 tickers.",
   "consensus_picks": [
     {
@@ -40,16 +40,22 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called META up."
     }
   ],
   "best_call": {
+    "prediction_id": "pred_gpt-5-6-terra_20261109_002",
+    "model_display_name": "GPT-5.6 Terra",
+    "ticker": "QQQ",
+    "score": 1.16,
+    "summary": "GPT-5.6 Terra's QQQ down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261109_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.8,
+    "summary": "Hermes 4 405B's NVDA down call scored lowest today."
+  }
 }
