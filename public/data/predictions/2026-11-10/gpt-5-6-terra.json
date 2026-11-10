@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-10",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-10T17:41:20.657479+00:00",
+  "market_context": "October CPI came in hotter than expected, pushing Treasury yields higher; the 10-year yield is 5.02% at the snapshot and a $42 billion 10-year note auction is scheduled for 1:00 PM ET. Technology remains the weak pocket, with Nvidia facing a company-specific governance/investigation overhang while QQQ and NVDA are trading at their session lows. (apnews.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.4,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY is sitting at its intraday low at 12:40 PM after the inflation surprise lifted rates, rather than showing a sustained midday recovery. The pending 1:00 PM ET 10-year Treasury auction adds a near-term rates risk, and the broad tape remains risk-off with VIX higher. ([apnews.com)",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 662.3,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ is down materially more than SPY and is also at its session low, consistent with higher yields pressuring long-duration technology valuations. Nvidia's idiosyncratic investigation-related pressure compounds the broader AI-stock weakness and is likely to keep a lid on a late-session Nasdaq rebound. (apnews.com)",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 162.5,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "NVDA is already down 6.87% and trading at the day's low, with fresh reporting on a shareholder lawsuit and an investigation tied to alleged export-control circumvention and CEO-related governance concerns. This is a stock-specific overhang beyond the CPI-driven market selloff, increasing the chance of continued relative underperformance into the close. (apnews.com)",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261110_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.7,
+      "model_reported_price": 520.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA is holding up better than growth-heavy QQQ, but it has not escaped the broader inflation-and-yields repricing and remains below its prior close. A weak Treasury auction would reinforce the higher-rate signal late in the session and should pressure the index modestly from the current level. (apnews.com)",
+      "current_price_at_prediction": 520.03,
+      "prev_close": 523.33,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/ffe205fbc4fddf65c3e8e64e740355b7?utm_source=openai",
+      "https://apnews.com/article/1f060e52b308cb2c649807518d5081e2?utm_source=openai",
+      "https://apnews.com/article/fcd3c7766d3cdb36057f6dab19ff3a8e?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 16.6,
+    "prompt_tokens": 14490,
+    "completion_tokens": 1267,
+    "cost_usd": 0.057094,
+    "finished_at": "2026-11-10T17:41:20.657479+00:00",
+    "normalization_issues": []
+  }
+}

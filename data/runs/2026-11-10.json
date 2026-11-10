@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-10",
+  "prompted_at_et": "Tuesday 2026-11-10 12:41 PM",
+  "models": {
+    "claude-sonnet-5-5": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.11075,
+      "latency_seconds": 10.5
+    },
+    "deepseek-v4-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.013012831,
+      "latency_seconds": 12.5
+    },
+    "gemini-3-8-flash": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 4,
+      "cost_usd": 0.04119325,
+      "latency_seconds": 25.8
+    },
+    "gpt-5-6-terra": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 3,
+      "cost_usd": 0.057094,
+      "latency_seconds": 16.6
+    },
+    "grok-4-3": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 15,
+      "cost_usd": 0.04534015,
+      "latency_seconds": 20.3
+    },
+    "hermes-4-405b": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.013769,
+      "latency_seconds": 17.0
+    },
+    "kimi-k3-1-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.0734002,
+      "latency_seconds": 50.2
+    },
+    "qwen-3-8-max": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.062926,
+      "latency_seconds": 182.5
+    },
+    "sonar-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "built_in",
+      "citations": 15,
+      "cost_usd": 0.02024,
+      "latency_seconds": 11.3
+    }
+  },
+  "market_snapshot": {
+    "fetched_at": "2026-11-10T12:40:59.402414-05:00",
+    "session": "open",
+    "trading_day": "2026-11-10",
+    "quotes": {
+      "SPY": {
+        "last": 745.13,
+        "prev_close": 752.69,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -1.0,
+        "open": 747.94,
+        "high": 752.14,
+        "low": 745.13,
+        "pct_5d": -1.22
+      },
+      "QQQ": {
+        "last": 667.28,
+        "prev_close": 679.35,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -1.78,
+        "open": 672.55,
+        "high": 680.95,
+        "low": 667.28,
+        "pct_5d": -2.63
+      },
+      "DIA": {
+        "last": 520.03,
+        "prev_close": 523.33,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -0.63,
+        "open": 521.51,
+        "high": 522.43,
+        "low": 519.19,
+        "pct_5d": 0.57
+      },
+      "IWM": {
+        "last": 279.19,
+        "prev_close": 282.51,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -1.18,
+        "open": 279.79,
+        "high": 281.33,
+        "low": 277.91,
+        "pct_5d": -0.21
+      },
+      "AAPL": {
+        "last": 347.73,
+        "prev_close": 350.69,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -0.84,
+        "open": 351.55,
+        "high": 353.87,
+        "low": 346.46,
+        "pct_5d": 4.77
+      },
+      "MSFT": {
+        "last": 530.36,
+        "prev_close": 545.18,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -2.72,
+        "open": 543.41,
+        "high": 544.15,
+        "low": 529.05,
+        "pct_5d": 1.8
+      },
+      "NVDA": {
+        "last": 166.4,
+        "prev_close": 178.67,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -6.87,
+        "open": 173.98,
+        "high": 174.65,
+        "low": 166.4,
+        "pct_5d": -19.49
+      },
+      "TSLA": {
+        "last": 374.76,
+        "prev_close": 378.05,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -0.87,
+        "open": 370.54,
+        "high": 378.27,
+        "low": 370.43,
+        "pct_5d": -5.96
+      },
+      "AMZN": {
+        "last": 267.84,
+        "prev_close": 266.93,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": 0.34,
+        "open": 266.33,
+        "high": 272.88,
+        "low": 266.14,
+        "pct_5d": 6.84
+      },
+      "GOOGL": {
+        "last": 285.87,
+        "prev_close": 288.15,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -0.79,
+        "open": 289.11,
+        "high": 292.02,
+        "low": 285.77,
+        "pct_5d": 2.09
+      },
+      "META": {
+        "last": 638.96,
+        "prev_close": 641.37,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -0.38,
+        "open": 637.25,
+        "high": 647.28,
+        "low": 635.5,
+        "pct_5d": 2.89
+      },
+      "^VIX": {
+        "last": 20.71,
+        "prev_close": 19.92,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": 3.97,
+        "open": 19.76,
+        "high": 21.61,
+        "low": 19.62,
+        "pct_5d": -0.58
+      },
+      "^TNX": {
+        "last": 5.02,
+        "prev_close": 4.86,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": 3.29,
+        "open": 4.9,
+        "high": 5.02,
+        "low": 4.9,
+        "pct_5d": 1.37
+      },
+      "BTC-USD": {
+        "last": 72838.13,
+        "prev_close": 75223.15,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -3.17,
+        "open": 75253.86,
+        "high": 75317.23,
+        "low": 72762.61,
+        "pct_5d": -4.09
+      },
+      "ETH-USD": {
+        "last": 2015.72,
+        "prev_close": 2131.5,
+        "is_intraday": true,
+        "as_of_date": "2026-11-10",
+        "pct_today": -5.43,
+        "open": 2132.37,
+        "high": 2133.44,
+        "low": 2009.96,
+        "pct_5d": -9.79
+      }
+    }
+  },
+  "market_context": "=== MARKET DATA (Yahoo Finance live snapshot, 12:40 ET — market OPEN) ===\n\nThe first price on each line is the LIVE intraday price at the moment of this\nsnapshot, NOT a previous close. The previous close is given separately so you can\nsee how far today has already moved. Any gap or news-driven drop earlier today is\nALREADY reflected in the live price — do not subtract it again.\n\nINDICES / ETFs:\n  SPY: $745.13  |  prev close $752.69  |  -1.00% today  |  day range $745.13-$752.14  |  5-day -1.2%\n  QQQ: $667.28  |  prev close $679.35  |  -1.78% today  |  day range $667.28-$680.95  |  5-day -2.6%\n  DIA: $520.03  |  prev close $523.33  |  -0.63% today  |  day range $519.19-$522.43  |  5-day +0.6%\n  IWM: $279.19  |  prev close $282.51  |  -1.18% today  |  day range $277.91-$281.33  |  5-day -0.2%\n\nKEY STOCKS:\n  AAPL: $347.73  |  prev close $350.69  |  -0.84% today  |  day range $346.46-$353.87  |  5-day +4.8%\n  MSFT: $530.36  |  prev close $545.18  |  -2.72% today  |  day range $529.05-$544.15  |  5-day +1.8%\n  NVDA: $166.40  |  prev close $178.67  |  -6.87% today  |  day range $166.40-$174.65  |  5-day -19.5%\n  TSLA: $374.76  |  prev close $378.05  |  -0.87% today  |  day range $370.43-$378.27  |  5-day -6.0%\n  AMZN: $267.84  |  prev close $266.93  |  +0.34% today  |  day range $266.14-$272.88  |  5-day +6.8%\n  GOOGL: $285.87  |  prev close $288.15  |  -0.79% today  |  day range $285.77-$292.02  |  5-day +2.1%\n  META: $638.96  |  prev close $641.37  |  -0.38% today  |  day range $635.50-$647.28  |  5-day +2.9%\n\nCRYPTO (24h market):\n  BTC-USD: $72,838.13  |  prev close $75,223.15  |  -3.17% today  |  day range $72,762.61-$75,317.23  |  5-day -4.1%\n  ETH-USD: $2,015.72  |  prev close $2,131.50  |  -5.43% today  |  day range $2,009.96-$2,133.44  |  5-day -9.8%\n\nMARKET INDICATORS:\n  VIX: 20.71  (+3.97% today)\n  10Y Treasury Yield: 5.02%\n\nThese live prices are the baseline your direction is scored against. Predict where each ticker closes at 4:00 PM ET relative to the live price above.\n==="
+}

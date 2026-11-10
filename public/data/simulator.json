@@ -158,6 +158,28 @@
       ],
       "confidence": 0.678,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "NVDA",
+      "direction": "down",
+      "entry_price": 173.98,
+      "exit_price": null,
+      "shares": 158,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Qwen 3.8 Max",
+        "Hermes 4 405B",
+        "Grok 4.3",
+        "Perplexity Sonar Pro",
+        "Kimi K3.1 Pro",
+        "GPT-5.6 Terra",
+        "Gemini 3.8 Flash",
+        "DeepSeek V4 Pro"
+      ],
+      "confidence": 0.6737,
+      "status": "OPEN"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-10",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-10T17:41:54.395963+00:00",
+  "market_context": "October CPI was hotter than expected at 0.4% month-over-month versus 0.3% forecast, with core at 0.3% versus 0.2%, while hawkish Fed commentary has pushed the 10-year yield to 5.02% and lifted volatility. SPY and QQQ are trading at session lows after Monday's narrow technology rebound, with Nvidia's company-specific selloff adding pressure; the 1:00 PM Treasury auction and afternoon Fed speeches remain reversal risks. asleepace.com benzinga.com",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.0,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY fell from $747.09 in Yahoo's 12:34 quote to the $745.13 baseline and a new session low, while the daily report's 2.0562 put/call ratio and negative gamma favor continuation rather than a quiet fade. The next visible supports are $742.21 and Monday's $741.03 low, although the Treasury auction could produce a temporary rebound. [finance.yahoo.com asleepace.com",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 662.5,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ is down 1.78% and sitting at its $667.28 session low, with MSFT down 2.72% and NVDA down 6.87% intensifying pressure on rate-sensitive mega-cap technology. Monday's QQQ rebound occurred on the lightest volume of the last four sessions, making it less convincing as sellers regain control. benzinga.com",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 164.0,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVDA is already down 6.87% today and 19.5% over five days, so this predicts additional weakness from the $166.40 session-low baseline rather than repeating the earlier drop. Yahoo reports fresh CEO-related shipment allegations, while Benzinga cites a reported federal probe and shareholder lawsuit, sustaining adverse headline momentum. finance.yahoo.com benzinga.com",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261110_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 72100.0,
+      "model_reported_price": 72838.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is down 3.17% and near the bottom of its daily range, while Ether's 5.43% decline confirms broader crypto weakness rather than an isolated move. Hot inflation, a 5.02% Treasury yield and equities making session lows favor continued risk reduction through 4:00 PM, though continuous crypto trading limits confidence. asleepace.com",
+      "current_price_at_prediction": 72838.13,
+      "prev_close": 75223.15,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "PrimaLabs",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/SPY%2CQQQ%2CAMZN%2CAVGO%2CMSFT%2CNVDA%2CBA%2CMS%2CUNP%2CUAL/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-10",
+      "https://finance.yahoo.com/",
+      "https://www.benzinga.com/opinion/26/11/63098817/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia",
+      "https://asleepace.com/daily-report",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://finance.yahoo.com/markets/",
+      "https://aifinnews.us/daily-levels"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 50.2,
+    "prompt_tokens": 5079,
+    "completion_tokens": 6362,
+    "cost_usd": 0.0734002,
+    "finished_at": "2026-11-10T17:41:54.395963+00:00",
+    "normalization_issues": []
+  }
+}

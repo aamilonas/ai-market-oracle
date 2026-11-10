@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-10",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-10T17:41:12.102106+00:00",
+  "market_context": "Stocks are lower at midday after a hot October CPI. Headline CPI rose 0.4% against 0.3% expected, and core rose 0.3%. Waller and Logan signaled possible 50bp or repeated Fed hikes, and the 2-year yield jumped about 19bp. After yesterday's big rebound (SPY +2.3%), Nvidia is falling on the CEO probe ahead of its Nov 17 earnings, and a $42B 10-year auction at 1pm ET is a risk for yields.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 743.0,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Hot CPI and hawkish Fed speakers (Waller, Logan) have raised December hike odds to about 84% for 25bp, with 50bp now in play. The 10-year is near 5% and the 1pm auction could add pressure. Yesterday's sharp rebound is fading, so the downside drift most likely continues, though the dip-buying seen this week limits conviction.",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 663.5,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "Nasdaq is the weakest index, hit by rate-hike fears and the Nvidia slide of about 7%. Higher real yields hurt long-duration tech. A mean-reversion bounce after the sharp drop is the main risk to this call.",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261110_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 72000.0,
+      "model_reported_price": 72838.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC is down 3% and ETH down 5% as hawkish Fed repricing and a stronger dollar hit risk assets. The trend over 5 days is negative at -4.1%. Crypto usually follows tech lower on rate shocks, though oversold bounces are possible.",
+      "current_price_at_prediction": 72838.13,
+      "prev_close": 75223.15,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.5,
+    "prompt_tokens": 39970,
+    "completion_tokens": 1081,
+    "cost_usd": 0.11075,
+    "finished_at": "2026-11-10T17:41:12.102106+00:00",
+    "normalization_issues": []
+  }
+}

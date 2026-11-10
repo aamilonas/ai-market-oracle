@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-10",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-10T17:41:27.402731+00:00",
+  "market_context": "Markets are sliding following a hotter-than-expected October CPI report (0.4% MoM vs. 0.3% expected), which spiked the 10-year Treasury yield above 5.02% and reignited expectations for further Federal Reserve rate hikes. Hawkish remarks from Fed officials and renewed risk-off sentiment have pushed major indexes to session lows at midday, with tech and high-beta assets suffering the steepest losses.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261110_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 664.2,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Tech equities are bearing the brunt of the macro shock after October core CPI rose 0.3%, driving the 10-year yield to 5.02%. Hawkish commentary from Dallas Fed President Logan calling for further rate hikes leaves growth valuations vulnerable, with QQQ pinned at session lows into midday.",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261110_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.5,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Broad market sentiment has deteriorated as rising borrowing costs and stubborn inflation overshadow Monday's relief rally. With SPY hitting its intraday trough of $745.13 at midday and the VIX jumping above 20.7, afternoon institutional repositioning is expected to lean defensive.",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 164.0,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Nvidia faces compounding pressure from both the macro yield spike and company-specific overhang from an ongoing board investigation. Down nearly 7% today and resting at session lows, buyers remain sidelined, pointing to further softness into the 4:00 PM close.",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261110_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 72150.0,
+      "model_reported_price": 72838.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Crypto assets are declining alongside risk assets as surging bond yields and rising rate hike odds drain speculative liquidity. BTC-USD is hovering near its daily floor around $72760, and equity market de-risking into the close should exert continued downward pressure.",
+      "current_price_at_prediction": 72838.13,
+      "prev_close": 75223.15,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjoSd-WwqWLUxfvWX7ZGJBb-CeF3lGtGPFSPPO0IU96aMtodiRwds_-B8fdgskcj0N5F6gPLUF4hLfHpKhTfZ_5fh8TgqrhWOIw0XxQH7a75oZIRleKI4m9WQjnYudS3UEMmA7l5Ll93zFYRLUdL3hDKWvxRkUkYgKj-SMbKwHXN2WJcb8l-DD7G_zLwnfrTfyEwECQ09rxAz-OpKEYM4xEzrWTWg=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuN3RJxKmO4zIaVbEBd5uHa7Yvg9OkAewd09BObw_IbO6Tr3ZAAbFmcxTvawXHoz4TkoIl58FB-BJ_up9FUL4OipT7utT7IM_FT-FgnV5chFGMKA_HZ0ukQ9HyJv5Rf7902fuQ894hQThGeBuaOve07j-1ya8XzELDhes64dFJywu-5BxZCtii4QJ4o0Rt4B2WILIxyakD39ktSt-2KKfQMA3rLyuEXFMm",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxHQqvHQzbMvObtzPdwXBRv77216NBeKSePNUcwIrJEQNQ3l4DVb0JVkTazG2pdj_NqQHdhaCulHoAmGkDjWpS1v-2RlOuI0giz0UnwGPknwPCgGx7myC5aA7bBT5JkB1ECrHyClNIItH7M0S4O5yJWI84F5wt6v_67FaA5L1cen9LqnbXKw==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8xeNnAh9PXdfZKCSre9nw7OiN7RUrW7Rl0LWZpEDaWjksVrf3-R1sDal90DJEUD3rEwYyqfiy1VnUpmM2Q79QAHyXpOLs5tNKzTBg73reifUTla1FGZOlNhELK5443f0EevIX83Fp1PNv9Eemxtmx31odRnpUba9mRCDJfsiK7hp6-HCp_Wqzj3uOP-S1p4X3bfCO3oCOMazGYbV60w=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 25.8,
+    "prompt_tokens": 1676,
+    "completion_tokens": 3183,
+    "cost_usd": 0.04119325,
+    "finished_at": "2026-11-10T17:41:27.402731+00:00",
+    "normalization_issues": []
+  }
+}

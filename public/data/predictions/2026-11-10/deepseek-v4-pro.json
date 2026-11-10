@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-10",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-10T17:41:14.182435+00:00",
+  "market_context": "The market is risk-off after October CPI came in hotter than expected (0.4% headline vs 0.3% forecast), with hawkish Fed commentary and a soft Nvidia headline weighing on tech. SPY is down ~1% from Monday's close and breaking below key levels, with elevated VIX and heavy put positioning.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 742.0,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Hot CPI and hawkish Fed commentary (Waller leaning toward a hike) have pushed SPY through Monday's low and the put wall at $740 is the next magnet. According to the daily report's bear thesis, negative gamma and a 2.06 put/call ratio favor a continuation slide toward $745.47 and below.",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 662.0,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "QQQ is lagging SPY today, down 1.78%, with Nvidia's near-7% drop and weak semiconductor sentiment dragging the Nasdaq-100. The 662 area is a technical reference cited in the Benzinga technical analysis as a break point below which there is little support, with heavy put positioning at 710/680 strikes adding pressure.",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 163.0,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nvidia is down 6.87% today on headlines about a reported federal probe tied to the CEO and a shareholder lawsuit, per Yahoo Finance and Benzinga. The stock has collapsed through Monday's low of 170.24 and shows little sign of stabilization, with downside momentum likely to persist into the close.",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261110_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 519.0,
+      "model_reported_price": 520.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "DIA is down 0.63% and hovering near its day low of 519.19, reflecting the broader risk-off tone after hot CPI. With a 10-year Treasury auction at 1:00 PM and hawkish Fed speeches later today, the Dow's defensive tilt may provide only modest support against further downside from the inflation shock.",
+      "current_price_at_prediction": 520.03,
+      "prev_close": 523.33,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "GMICloud",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/SPY%2CQQQ%2CAMZN%2CAVGO%2CMSFT%2CNVDA%2CBA%2CMS%2CUNP%2CUAL/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-10",
+      "https://finance.yahoo.com/",
+      "https://www.benzinga.com/opinion/26/11/63098817/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia",
+      "https://asleepace.com/daily-report",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://finance.yahoo.com/markets/",
+      "https://aifinnews.us/daily-levels"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 12.5,
+    "prompt_tokens": 5019,
+    "completion_tokens": 632,
+    "cost_usd": 0.013012831,
+    "finished_at": "2026-11-10T17:41:14.182435+00:00",
+    "normalization_issues": []
+  }
+}

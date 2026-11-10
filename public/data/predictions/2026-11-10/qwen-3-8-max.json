@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-10",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-10T17:44:06.149532+00:00",
+  "market_context": "October CPI came in hotter than expected and Fed commentary shifted toward possible hikes, pressuring equities after Monday's tech-led rebound asleepace.com. SPY and QQQ are trading near intraday lows while Nvidia falls on company-specific headlines, and the 10-year auction with yields near 5% adds further pressure finance.yahoo.com benzinga.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 743.4,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is already down about 1% after the hot CPI print and hawkish policy talk, and the daily report describes negative gamma with downside risk toward the low-$740s [asleepace.com. Rising VIX and the 10-year Treasury auction create room for further selling into the close finance.yahoo.com.",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 663.9,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ is lagging SPY as Nvidia and Microsoft weigh heavily on the Nasdaq-100 finance.yahoo.com. Hot inflation and higher rates are especially negative for high-multiple technology stocks, so further weakness into the close is likely asleepace.com.",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 164.8,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nvidia is under pressure from reports of a federal probe tied to its CEO and a shareholder lawsuit, and the stock is already down sharply today benzinga.com. Heavy negative headlines and weak tech sentiment can keep it near intraday lows into the close finance.yahoo.com.",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261110_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.9,
+      "model_reported_price": 520.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "DIA is holding up better than QQQ, but broad risk appetite is weakening after the inflation data and with the 10-year yield near 5% asleepace.com. A soft Treasury auction or continued rate pressure could push the Dow ETF slightly lower by the close finance.yahoo.com.",
+      "current_price_at_prediction": 520.03,
+      "prev_close": 523.33,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/SPY%2CQQQ%2CAMZN%2CAVGO%2CMSFT%2CNVDA%2CBA%2CMS%2CUNP%2CUAL/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-10",
+      "https://finance.yahoo.com/",
+      "https://www.benzinga.com/opinion/26/11/63098817/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia",
+      "https://asleepace.com/daily-report",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://finance.yahoo.com/markets/",
+      "https://aifinnews.us/daily-levels"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 182.5,
+    "prompt_tokens": 5955,
+    "completion_tokens": 7336,
+    "cost_usd": 0.062926,
+    "finished_at": "2026-11-10T17:44:06.149532+00:00",
+    "normalization_issues": []
+  }
+}

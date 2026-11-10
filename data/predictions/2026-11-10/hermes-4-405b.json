@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-10",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-10T17:41:18.592826+00:00",
+  "market_context": "The market is under pressure today with SPY down 1% and QQQ down 1.78% as of 12:40 ET, following hotter-than-expected October CPI data (0.4% vs 0.3% expected) that has increased hawkish Fed policy expectations. Tech stocks are leading the decline with NVDA down 6.87% on CEO-related controversy, while the VIX has risen 3.97% indicating increased market anxiety.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261110_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 743.0,
+      "model_reported_price": 745.13,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The hotter CPI print has shifted Fed expectations toward potential December rate hikes, creating downward pressure on equities. With SPY already down 1% and the VIX rising, continued selling pressure is likely through the session as markets price in tighter monetary policy.",
+      "current_price_at_prediction": 745.13,
+      "prev_close": 752.69,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261110_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 662.0,
+      "model_reported_price": 667.28,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Tech stocks are bearing the brunt of today's sell-off with QQQ down 1.78% and NVDA down nearly 7%. The sector is particularly sensitive to rising rate expectations, and with no major positive catalysts on the calendar, QQQ should extend losses through the close.",
+      "current_price_at_prediction": 667.28,
+      "prev_close": 679.35,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261110_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 163.5,
+      "model_reported_price": 166.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "NVDA is under company-specific pressure from CEO controversy and a reported federal probe, down 6.87% already today. With negative sentiment compounding broader tech weakness from CPI data, the stock should continue drifting lower toward session lows.",
+      "current_price_at_prediction": 166.4,
+      "prev_close": 178.67,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261110_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.5,
+      "model_reported_price": 520.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "While less impacted than tech, the Dow is still down 0.63% on inflation concerns. With the 10-year yield rising to 5.02% and no major Dow components reporting today, the index should drift slightly lower in sympathy with broader market weakness.",
+      "current_price_at_prediction": 520.03,
+      "prev_close": 523.33,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-10T12:40:59.402414-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/SPY%2CQQQ%2CAMZN%2CAVGO%2CMSFT%2CNVDA%2CBA%2CMS%2CUNP%2CUAL/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-10",
+      "https://finance.yahoo.com/",
+      "https://www.benzinga.com/opinion/26/11/63098817/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia",
+      "https://asleepace.com/daily-report",
+      "https://www.investing.com/indices/usa-indices/1000",
+      "https://finance.yahoo.com/markets/",
+      "https://aifinnews.us/daily-levels"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 17.0,
+    "prompt_tokens": 4996,
+    "completion_tokens": 591,
+    "cost_usd": 0.013769,
+    "finished_at": "2026-11-10T17:41:18.592826+00:00",
+    "normalization_issues": []
+  }
+}
