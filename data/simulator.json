@@ -1,5 +1,5 @@
 {
-  "balance": 27652.24,
+  "balance": 28456.46,
   "starting_balance": 25000,
   "trades": [
     {
@@ -164,10 +164,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 173.98,
-      "exit_price": null,
+      "exit_price": 168.89,
       "shares": 158,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 804.22,
+      "pnl_pct": 2.93,
       "models": [
         "Qwen 3.8 Max",
         "Hermes 4 405B",
@@ -179,7 +179,7 @@
         "DeepSeek V4 Pro"
       ],
       "confidence": 0.6737,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
