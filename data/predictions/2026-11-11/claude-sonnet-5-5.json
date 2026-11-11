@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-11",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-11T17:51:39.077321+00:00",
+  "market_context": "Stocks are rebounding Wednesday after Tuesday's sell-off, which followed hot October CPI and raised expectations of a December Fed rate hike. CoreWeave's beat-and-raise and a bounce in Nvidia after two steep down days are driving a chip and AI rally. The bond market is closed for Veterans Day, so the 10Y print is stale, trading is thinner, and the Dow and small caps lag. Microsoft and Amazon are weak.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261111_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "model_reported_price": 760.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is trading near the top of its day range ($754.91-$761.44) with VIX down 9% to 17.7. The AI trade is being rebuilt on CoreWeave's strong guidance and Morgan Stanley's 'buy the dip' call. Rate-hike risk and thin holiday trading limit upside, so I expect only a modest further gain.",
+      "current_price_at_prediction": 760.93,
+      "prev_close": 749.92,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261111_002",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 517.0,
+      "model_reported_price": 521.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "MSFT is down 2.3% while the Nasdaq-100 rallies, and it is down about 6% over five days. It dropped earlier this week on Anthropic's Claude workplace tools, which could compete with Office, and the Anthropic IPO is coming. The weak relative strength points to continued pressure into the close.",
+      "current_price_at_prediction": 521.05,
+      "prev_close": 533.16,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261111_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 174.5,
+      "model_reported_price": 176.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "NVDA has bounced 4.5% to near its day high of $177.09 after two sessions of heavy losses. Baird downgraded it to Neutral, and the board probe into CEO Jensen Huang remains unresolved. Some fade of the bounce into the close is plausible, but the signal is weak.",
+      "current_price_at_prediction": 176.41,
+      "prev_close": 168.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 11.3,
+    "prompt_tokens": 26842,
+    "completion_tokens": 1167,
+    "cost_usd": 0.075354,
+    "finished_at": "2026-11-11T17:51:39.077321+00:00",
+    "normalization_issues": []
+  }
+}

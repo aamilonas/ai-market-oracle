@@ -180,6 +180,27 @@
       ],
       "confidence": 0.6737,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-11-11",
+      "ticker": "TQQQ",
+      "direction": "up",
+      "entry_price": 59.69,
+      "exit_price": null,
+      "shares": 476,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Qwen 3.8 Max",
+        "Hermes 4 405B",
+        "Grok 4.3",
+        "Kimi K3.1 Pro",
+        "GPT-5.6 Terra",
+        "Gemini 3.8 Flash",
+        "DeepSeek V4 Pro"
+      ],
+      "confidence": 0.64,
+      "status": "OPEN"
     }
   ]
 }

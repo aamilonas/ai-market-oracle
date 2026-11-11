@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-11",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-11T17:52:36.083041+00:00",
+  "market_context": "Stocks are in a strong but narrow technology-led rally, with QQQ up 2.82% and semiconductor reporting showing SMH up 6.18% while defensive sectors lag stockmarketwatch.com. Falling volatility supports risk appetite, but the 10-year Treasury yield at 5.00% following above-forecast October CPI and hawkish Fed commentary remains an afternoon constraint finance.yahoo.com. SPY's ability to hold above the previously identified $760 call wall is a key late-day signal asleepace.com.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261111_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.25,
+      "model_reported_price": 760.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY is holding just below its $761.44 session high while VIX falls 9.15%, and it has moved above the $760 call wall identified in the morning options framework [asleepace.com. Technology leadership favors a modest grind higher, but the 5.00% Treasury yield argues against extrapolating the morning's full gain.",
+      "current_price_at_prediction": 760.93,
+      "prev_close": 749.92,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261111_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 695.25,
+      "model_reported_price": 693.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ's 2.82% advance is supported by powerful semiconductor leadership, including a reported 6.18% gain in SMH and sharp advances in AMD and Micron stockmarketwatch.com. It remains within 0.2% of its $694.86 intraday high, favoring slight momentum continuation, although hot inflation and high yields could prompt profit-taking.",
+      "current_price_at_prediction": 693.8,
+      "prev_close": 674.76,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261111_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 177.25,
+      "model_reported_price": 176.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is up 4.45% and trading near its $177.09 session high, consistent with broad chip buying ahead of its upcoming earnings stockmarketwatch.com. Its 11.8% five-day decline leaves scope for continued short covering, but today's already-large rebound limits conviction.",
+      "current_price_at_prediction": 176.41,
+      "prev_close": 168.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261111_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 264.9,
+      "model_reported_price": 265.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "AMZN is down 1.82% and only $0.10 above its $265.85 session low despite QQQ's 2.82% surge, making it a pronounced large-cap laggard. Trading near the lows during an otherwise strong technology session favors a marginally lower close, though a broad afternoon rally could still lift it.",
+      "current_price_at_prediction": 265.95,
+      "prev_close": 270.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Wafer",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://hartquantitativeresearch.com/live-market-context",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061923505.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://stockmarketwatch.com/live/stock-market-today",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/",
+      "https://asleepace.com/daily-report",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 66.1,
+    "prompt_tokens": 5924,
+    "completion_tokens": 6642,
+    "cost_usd": 0.0774412,
+    "finished_at": "2026-11-11T17:52:36.083041+00:00",
+    "normalization_issues": []
+  }
+}

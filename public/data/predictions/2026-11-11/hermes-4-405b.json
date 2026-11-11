@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-11",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-11T17:51:41.312792+00:00",
+  "market_context": "The market is experiencing a tech-led relief rally with SPY up 1.47% and QQQ surging 2.82% intraday, driven by semiconductor strength (NVDA +4.45%) and positive sentiment around AI stocks. However, rising Treasury yields (10Y at 5.00%) and hawkish Fed commentary create overhead resistance, with defensive sectors lagging and small caps (IWM) showing weaker participation.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261111_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.5,
+      "model_reported_price": 760.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is showing strong momentum with a 1.47% gain intraday, supported by positive gamma positioning above the $749 flip level. The tech-led rally and options market structure suggest continued upward drift toward the $760 call wall, though resistance from rising yields may cap further gains.",
+      "current_price_at_prediction": 760.93,
+      "prev_close": 749.92,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261111_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 697.0,
+      "model_reported_price": 693.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "QQQ is leading the market with a 2.82% surge fueled by semiconductor strength (NVDA +4.45%) and AI optimism. With positive futures momentum and short-covering dynamics, QQQ appears positioned to extend gains toward recent resistance levels.",
+      "current_price_at_prediction": 693.8,
+      "prev_close": 674.76,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261111_003",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.0,
+      "model_reported_price": 521.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "MSFT is underperforming the market with a 2.27% decline amid concerns about valuation and rotation out of mega-cap tech. With rising yields pressuring growth stocks and defensive positioning evident, MSFT is likely to see continued weakness through the close.",
+      "current_price_at_prediction": 521.05,
+      "prev_close": 533.16,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://hartquantitativeresearch.com/live-market-context",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061923505.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://stockmarketwatch.com/live/stock-market-today",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/",
+      "https://asleepace.com/daily-report",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 13.5,
+    "prompt_tokens": 5852,
+    "completion_tokens": 469,
+    "cost_usd": 0.014259,
+    "finished_at": "2026-11-11T17:51:41.312792+00:00",
+    "normalization_issues": []
+  }
+}

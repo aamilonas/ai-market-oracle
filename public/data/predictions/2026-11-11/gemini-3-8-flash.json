@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-11",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-11T17:51:59.856847+00:00",
+  "market_context": "U.S. equities are rebounding strongly on Wednesday, led by a relief rally in technology and AI-related shares following CoreWeave's upbeat earnings and an oversold bounce in Nvidia after a steep two-day drop. The Cboe Volatility Index (VIX) has plummeted over 9% to 17.68, reflecting easing immediate fear, though mega-cap divergence remains pronounced with Microsoft and Amazon lagging while Apple, Tesla, and Alphabet surge. With the bond market closed for Veterans Day, equity breadth is dominated by systematic short-covering and dip-buying into the afternoon session.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261111_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.1,
+      "model_reported_price": 760.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Broad market sentiment has sharply turned risk-on as evidenced by the VIX sliding below 18 and SPY trading near its daily high of $761.44. With broad equity participation across small caps and large-cap tech, afternoon momentum and closing market-on-close buy interest are poised to push the index slightly higher toward session highs.",
+      "current_price_at_prediction": 760.93,
+      "prev_close": 749.92,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261111_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.1,
+      "model_reported_price": 693.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Tech benchmark QQQ is outpacing the broader market with a 2.8% surge, propelled by semiconductors and cloud infrastructure names following CoreWeave's strong outlook. Intraday price action shows persistent bid support near $694, indicating that short covering will likely carry momentum through the final hour of trading.",
+      "current_price_at_prediction": 693.8,
+      "prev_close": 674.76,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261111_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 178.2,
+      "model_reported_price": 176.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nvidia is snapping back from a severe two-day selloff after clarifying its national security review process with independent legal counsel, driving a 4.5% intraday recovery. Having rebounded firmly from morning lows of $170.77, institutional dip-buyers are defending the move, setting up a push toward the $178 resistance zone into the close.",
+      "current_price_at_prediction": 176.41,
+      "prev_close": 168.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261111_004",
+      "ticker": "MSFT",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 518.5,
+      "model_reported_price": 521.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Microsoft is heavily lagging the tech-led rally, dropping over 2.2% and hovering just above its session low of $518.45 despite the surging Nasdaq. Capital rotation away from software giants toward beaten-down chipmakers suggests continued relative weakness and potential retests of daily lows before the closing bell.",
+      "current_price_at_prediction": 521.05,
+      "prev_close": 533.16,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7_vg3tAS9izea9URCwYFllRBZuPcRrIkVGcyGT_Rl_tDwP19pWboYsidAVpGFioOyRVLJDfcDAGo1OYp55IqR937JQyPlcmJ0nb1zQMaftItqgYQSUbGAH06QcXKhwl0PmTzcvGd6UYM7MyY0ISPfMoOGlbpDbTOgR9LkHHo4zrrrMKo_BA9Ue95_dYdpBBWZkQ1CoKVG3c0T4V9nEsaK02lOI_E=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHip22nO6JtUE-L1sFzOv7Jwk0g8vjwp5jpvRiiaSyFT-x2TraY33hg0jY2txNKHey1L0rruV2MnK-F58HyDWshmAfjG143d_8MCXXk4LOWD-MupQINEKa_M1gfXXdwi3X4BPJLDTQtyVi9bAs4H5k0gIposr5qeqtLL6LNfyxKm9gkPZQ="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 32.1,
+    "prompt_tokens": 1613,
+    "completion_tokens": 3432,
+    "cost_usd": 0.04207975,
+    "finished_at": "2026-11-11T17:51:59.856847+00:00",
+    "normalization_issues": []
+  }
+}

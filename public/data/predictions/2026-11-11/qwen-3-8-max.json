@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-11",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-11T17:54:26.948791+00:00",
+  "market_context": "U.S. equities are showing a tech-led relief rally with semiconductors outperforming while the 10-year yield at 5% and hot CPI keep a ceiling on broader gains (finance.yahoo.com, stockmarketwatch.com). SPY is trading near the $760 options call wall and a model closing target just below the current print, suggesting limited upside from midday highs (asleepace.com). QQQ leadership remains decisive but may be more short-covering than conviction (hartquantitativeresearch.com).",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261111_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 759.8,
+      "model_reported_price": 760.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "SPY is near its intraday high of 761.44 and the $760 call wall cited in the daily report, with a closing target of $759.04 ([asleepace.com). The 10-year yield at 5% and hot October CPI argue against chasing the gap into the close (finance.yahoo.com).",
+      "current_price_at_prediction": 760.93,
+      "prev_close": 749.92,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261111_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 695.1,
+      "model_reported_price": 693.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ is the clear leader as semiconductors surge, with SMH up 6.18% and Nvidia up 4.45% (stockmarketwatch.com). Positive gamma and decisive QQQ leadership can keep the ETF slightly above the current midday level, even if the broader tape fades (hartquantitativeresearch.com).",
+      "current_price_at_prediction": 693.8,
+      "prev_close": 674.76,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261111_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 175.3,
+      "model_reported_price": 176.41,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Nvidia has already bounced 4.45% after falling 11.8% over five days and is near the intraday high of 177.09, making profit-taking plausible (finance.yahoo.com). Reports that Morgan Stanley and Bank of America pulled Nvidia from best-ideas lists also argue against pressing the move into the close (finance.yahoo.com).",
+      "current_price_at_prediction": 176.41,
+      "prev_close": 168.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261111_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 74750.0,
+      "model_reported_price": 74407.44,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is benefiting from a risk-on tape with VIX down 9.15% and major crypto majors positive, while equity tech strength supports speculative assets (finance.yahoo.com). However, the 5% 10-year yield likely caps the upside, so the target is only modestly higher.",
+      "current_price_at_prediction": 74407.44,
+      "prev_close": 73720.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-11T12:51:26.429170-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://hartquantitativeresearch.com/live-market-context",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061923505.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://stockmarketwatch.com/live/stock-market-today",
+      "https://finance.yahoo.com/",
+      "https://finance.yahoo.com/m/2199baae-3d36-344b-b4d8-76ff24b7f5e9/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+      "https://finance.yahoo.com/markets/",
+      "https://asleepace.com/daily-report",
+      "https://finance.yahoo.com/quotes/%5EVIX,%5EGSPC,%5EDJI,%5EMID,%5EIXIC,%5ERUT,%5EW5000,VIIX,ITOT,VTI,DIA,SPY,RYE,MDY,QQQ,ONEQ,IWM,OEF,XLF,XLP,IAT,IYT,KRE,XLE,XLV,IBB,XBI,ITA,XLU,XTN,MGC,BFOR,LQD,PCY,EMB,HYG,JNK,QLTC,QLTB,QLTA,HYD,HYGH,DHF,ANGL,PHB,HYXU,BABS,ZROZ,TLT,IEF,LTPZ,TIPX,TIP,STIP,IEI,VWEHX,OHI,NHI,SBRA,DOC,UHT,LTC,HR,AVIV,VTR,O,CXW,GEO,ESRT,DLR,MO,BTI,PM,CG,UST,PFF,SDIV,DWX,C,GS,AIG,BAC,RF,STI,BSAC,CME,MET,MS,LNC,FITB,KEY,HBAN,ZION,BLK,STT,LYG,BCS,WFC,JPM,V,MA,BOH,EFSC,NLY,ARES,DB,UBS,%5EOVX,USO,XOM,CVX,BP,PBR,RIG,COP,SPH,PAA,BIP,HAL,PSX,AZO,CMG,SBUX,CZR,MGM,ICF,EWZ,EZA,EFA,FXE,FXF,EWL,FSZ,EWG,EEM,EPI,FXI,RSX,CUBA,TUR,GREK,PGAL,EWI,EIRL,EWP,AFK,JO,GLD,KOL,COIN,AGNC,FNMA,FMCC,FNMAH,AMZN,FB,PCLN,BABA,GOOGL,MCD,MSFT,INTC,CSCO,EBAY,AMGN,QCOM,TSLA,IBM,BA,GD,LMT,ROC,NOC,GE,HON,MT,WYNN,LB,LULU,UA,NSC,CSX,CNI,UNP,GBX,CP/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 177.2,
+    "prompt_tokens": 6619,
+    "completion_tokens": 7498,
+    "cost_usd": 0.065226,
+    "finished_at": "2026-11-11T17:54:26.948791+00:00",
+    "normalization_issues": []
+  }
+}
