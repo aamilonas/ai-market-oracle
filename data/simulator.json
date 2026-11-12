@@ -1,5 +1,5 @@
 {
-  "balance": 28456.46,
+  "balance": 28813.46,
   "starting_balance": 25000,
   "trades": [
     {
@@ -186,10 +186,10 @@
       "ticker": "TQQQ",
       "direction": "up",
       "entry_price": 59.69,
-      "exit_price": null,
+      "exit_price": 60.44,
       "shares": 476,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 357.0,
+      "pnl_pct": 1.26,
       "models": [
         "Qwen 3.8 Max",
         "Hermes 4 405B",
@@ -200,7 +200,7 @@
         "DeepSeek V4 Pro"
       ],
       "confidence": 0.64,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

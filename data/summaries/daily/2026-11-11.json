@@ -1,9 +1,9 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T17:54:31.358552+00:00",
+  "generated_at": "2026-11-12T03:09:35.025993+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Pre-close recap: MSFT drew six down calls as Hermes leads on QQQ",
-  "summary": "Nine models filed 35 predictions, and none are scored yet, so every outcome is still pending. Bulls dominated the index calls, with SPY at 8 up and 1 down and QQQ at 7 up and 1 down, while NVDA split 5 up to 3 down. Six models agreed MSFT would fall and two agreed on a decline for AMZN, and Hermes 4 405B's 80% conviction QQQ call is the morning's highest-conviction pick, to be scored after the close.",
+  "headline": "Qwen and Perplexity lead as MSFT down consensus misses badly",
+  "summary": "Perplexity Sonar Pro (1.02) and Qwen 3.8 Max (1.01) led the day, with Qwen's SPY down call scoring highest at 1.07. Six models agreed MSFT would go down and were wrong, and the AMZN down calls from GPT-5.6 Terra and Kimi K3.1 Pro also missed. The models split on SPY (8 up, 1 down), NVDA, and QQQ, and Hermes 4 405B's QQQ up call posted the lowest score at -0.8, while GPT-5.6 Terra finished last overall at -2.91.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -37,7 +37,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "6 models called MSFT down."
     },
     {
@@ -47,16 +47,22 @@
         "Kimi K3.1 Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called AMZN down."
     }
   ],
   "best_call": {
+    "prediction_id": "pred_qwen-3-8-max_20261111_001",
+    "model_display_name": "Qwen 3.8 Max",
+    "ticker": "SPY",
+    "score": 1.07,
+    "summary": "Qwen 3.8 Max's SPY down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261111_002",
     "model_display_name": "Hermes 4 405B",
     "ticker": "QQQ",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.8,
+    "summary": "Hermes 4 405B's QQQ up call scored lowest today."
+  }
 }
