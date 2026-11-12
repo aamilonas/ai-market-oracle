@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-12",
+  "prompted_at_et": "Thursday 2026-11-12 01:10 PM",
+  "models": {
+    "claude-sonnet-5-5": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.11795,
+      "latency_seconds": 11.8
+    },
+    "deepseek-v4-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.0147541,
+      "latency_seconds": 24.4
+    },
+    "gemini-3-8-flash": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.1038045,
+      "latency_seconds": 61.2
+    },
+    "gpt-5-6-terra": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.082338,
+      "latency_seconds": 19.4
+    },
+    "grok-4-3": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 15,
+      "cost_usd": 0.0513164,
+      "latency_seconds": 16.2
+    },
+    "hermes-4-405b": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.01351,
+      "latency_seconds": 14.3
+    },
+    "kimi-k3-1-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.0748828,
+      "latency_seconds": 34.2
+    },
+    "qwen-3-8-max": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.065628,
+      "latency_seconds": 186.7
+    },
+    "sonar-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "built_in",
+      "citations": 15,
+      "cost_usd": 0.01879,
+      "latency_seconds": 13.0
+    }
+  },
+  "market_snapshot": {
+    "fetched_at": "2026-11-12T13:10:42.513876-05:00",
+    "session": "open",
+    "trading_day": "2026-11-12",
+    "quotes": {
+      "SPY": {
+        "last": 760.14,
+        "prev_close": 759.81,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 0.04,
+        "open": 753.98,
+        "high": 763.03,
+        "low": 753.7,
+        "pct_5d": 3.7
+      },
+      "QQQ": {
+        "last": 689.98,
+        "prev_close": 690.38,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -0.06,
+        "open": 680.21,
+        "high": 694.56,
+        "low": 679.84,
+        "pct_5d": 6.63
+      },
+      "DIA": {
+        "last": 525.34,
+        "prev_close": 524.44,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 0.17,
+        "open": 524.38,
+        "high": 527.05,
+        "low": 523.06,
+        "pct_5d": 2.15
+      },
+      "IWM": {
+        "last": 280.23,
+        "prev_close": 283.09,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -1.01,
+        "open": 281.43,
+        "high": 282.2,
+        "low": 278.67,
+        "pct_5d": 3.41
+      },
+      "AAPL": {
+        "last": 355.52,
+        "prev_close": 355.63,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -0.03,
+        "open": 357.71,
+        "high": 359.37,
+        "low": 355.08,
+        "pct_5d": 3.3
+      },
+      "MSFT": {
+        "last": 528.32,
+        "prev_close": 521.13,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 1.38,
+        "open": 521.3,
+        "high": 529.61,
+        "low": 520.51,
+        "pct_5d": -1.42
+      },
+      "NVDA": {
+        "last": 165.37,
+        "prev_close": 173.73,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -4.81,
+        "open": 150.99,
+        "high": 167.14,
+        "low": 148.8,
+        "pct_5d": -8.94
+      },
+      "TSLA": {
+        "last": 391.24,
+        "prev_close": 390.84,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 0.1,
+        "open": 385.85,
+        "high": 396.2,
+        "low": 385.2,
+        "pct_5d": 13.84
+      },
+      "AMZN": {
+        "last": 268.83,
+        "prev_close": 266.17,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 1.0,
+        "open": 267.92,
+        "high": 273.6,
+        "low": 267.83,
+        "pct_5d": 3.31
+      },
+      "GOOGL": {
+        "last": 301.32,
+        "prev_close": 293.45,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 2.68,
+        "open": 293.9,
+        "high": 302.56,
+        "low": 293.8,
+        "pct_5d": 6.64
+      },
+      "META": {
+        "last": 624.62,
+        "prev_close": 628.77,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -0.66,
+        "open": 625.35,
+        "high": 630.28,
+        "low": 619.0,
+        "pct_5d": 3.23
+      },
+      "^VIX": {
+        "last": 17.48,
+        "prev_close": 17.49,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -0.06,
+        "open": 18.36,
+        "high": 19.34,
+        "low": 17.38,
+        "pct_5d": -37.97
+      },
+      "^TNX": {
+        "last": 5.11,
+        "prev_close": 5.0,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": 2.2,
+        "open": 5.06,
+        "high": 5.11,
+        "low": 5.02,
+        "pct_5d": 5.64
+      },
+      "BTC-USD": {
+        "last": 71855.35,
+        "prev_close": 73964.47,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -2.85,
+        "open": 73925.19,
+        "high": 74072.29,
+        "low": 71261.95,
+        "pct_5d": -5.14
+      },
+      "ETH-USD": {
+        "last": 2014.97,
+        "prev_close": 2055.88,
+        "is_intraday": true,
+        "as_of_date": "2026-11-12",
+        "pct_today": -1.99,
+        "open": 2053.61,
+        "high": 2062.07,
+        "low": 1988.48,
+        "pct_5d": -9.9
+      }
+    }
+  },
+  "market_context": "=== MARKET DATA (Yahoo Finance live snapshot, 13:10 ET — market OPEN) ===\n\nThe first price on each line is the LIVE intraday price at the moment of this\nsnapshot, NOT a previous close. The previous close is given separately so you can\nsee how far today has already moved. Any gap or news-driven drop earlier today is\nALREADY reflected in the live price — do not subtract it again.\n\nINDICES / ETFs:\n  SPY: $760.14  |  prev close $759.81  |  +0.04% today  |  day range $753.70-$763.03  |  5-day +3.7%\n  QQQ: $689.98  |  prev close $690.38  |  -0.06% today  |  day range $679.84-$694.56  |  5-day +6.6%\n  DIA: $525.34  |  prev close $524.44  |  +0.17% today  |  day range $523.06-$527.05  |  5-day +2.1%\n  IWM: $280.23  |  prev close $283.09  |  -1.01% today  |  day range $278.67-$282.20  |  5-day +3.4%\n\nKEY STOCKS:\n  AAPL: $355.52  |  prev close $355.63  |  -0.03% today  |  day range $355.08-$359.37  |  5-day +3.3%\n  MSFT: $528.32  |  prev close $521.13  |  +1.38% today  |  day range $520.51-$529.61  |  5-day -1.4%\n  NVDA: $165.37  |  prev close $173.73  |  -4.81% today  |  day range $148.80-$167.14  |  5-day -8.9%\n  TSLA: $391.24  |  prev close $390.84  |  +0.10% today  |  day range $385.20-$396.20  |  5-day +13.8%\n  AMZN: $268.83  |  prev close $266.17  |  +1.00% today  |  day range $267.83-$273.60  |  5-day +3.3%\n  GOOGL: $301.32  |  prev close $293.45  |  +2.68% today  |  day range $293.80-$302.56  |  5-day +6.6%\n  META: $624.62  |  prev close $628.77  |  -0.66% today  |  day range $619.00-$630.28  |  5-day +3.2%\n\nCRYPTO (24h market):\n  BTC-USD: $71,855.35  |  prev close $73,964.47  |  -2.85% today  |  day range $71,261.95-$74,072.29  |  5-day -5.1%\n  ETH-USD: $2,014.97  |  prev close $2,055.88  |  -1.99% today  |  day range $1,988.48-$2,062.07  |  5-day -9.9%\n\nMARKET INDICATORS:\n  VIX: 17.48  (-0.06% today)\n  10Y Treasury Yield: 5.11%\n\nThese live prices are the baseline your direction is scored against. Predict where each ticker closes at 4:00 PM ET relative to the live price above.\n==="
+}

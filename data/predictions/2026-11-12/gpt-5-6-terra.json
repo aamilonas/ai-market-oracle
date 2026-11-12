@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-12",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-12T18:11:03.748754+00:00",
+  "market_context": "October CPI rose 0.4% and the 10-year yield is around 5.11%, keeping rate-sensitive small caps under pressure; initial jobless claims were 200000, reinforcing the still-tight-labor-market/rates backdrop. A $25 billion 30-year Treasury bond auction occurred at 1:00 PM ET, while Nvidia remains unusually volatile on fresh CEO/governance uncertainty; its recovery from the $148.80 intraday low suggests dip-buying but not resolution of the headline risk.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261112_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.4,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is only marginally positive at 13:10 ET despite strong gains in GOOGL, MSFT, and AMZN, indicating that the broader tape is constrained by rates and weakness in smaller companies. Hot October CPI, a 5.11% 10-year yield, and the afternoon long-bond auction leave a modest risk-off bias for the final hours.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261112_002",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 279.1,
+      "model_reported_price": 280.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "IWM is already down 1.01%, materially lagging SPY and DIA, and is trading close to its $278.67 session low. The 200000 initial-claims reading and elevated Treasury yields are unfavorable for the rate-sensitive, domestically focused small-cap complex.",
+      "current_price_at_prediction": 280.23,
+      "prev_close": 283.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261112_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 168.2,
+      "model_reported_price": 165.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA has rebounded sharply from its $148.80 intraday low even though it remains down 4.81%, showing significant dip demand after the governance/CEO headline shock. The news risk remains substantial, so confidence is limited, but the intraday reversal favors a partial recovery into the close rather than a fresh low.",
+      "current_price_at_prediction": 165.37,
+      "prev_close": 173.73,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261112_004",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 299.4,
+      "model_reported_price": 301.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "GOOGL is up 2.68% and trading near its $302.56 intraday high, making it one of the day’s clearest AI-rotation beneficiaries. With the stock extended versus the nearly flat QQQ and persistent rate pressure, some late-session profit-taking is more likely than further broadening of the rally.",
+      "current_price_at_prediction": 301.32,
+      "prev_close": 293.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 19.4,
+    "prompt_tokens": 21188,
+    "completion_tokens": 1421,
+    "cost_usd": 0.082338,
+    "finished_at": "2026-11-12T18:11:03.748754+00:00",
+    "normalization_issues": []
+  }
+}

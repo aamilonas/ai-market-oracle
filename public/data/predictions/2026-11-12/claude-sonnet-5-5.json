@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-12",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-12T18:10:56.128713+00:00",
+  "market_context": "Nvidia CEO Jensen Huang resigned this morning. NVDA fell as much as 14% at the open and has since recovered to about -4.8%. Broadcom, AMD, MSFT and GOOGL are catching a rotation bid, and SPY is flat after paring early losses. The 10-year yield is 5.11% after hot CPI and hawkish Fed talk of larger hikes. PPI is due Friday, Anthropic's IPO is next week, and BTC is weak at about $71.9k.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261112_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "The index absorbed the Nvidia shock, recovering from an early low of $753.70 to flat. Rotation into AVGO, AMD, MSFT and GOOGL offsets the NVDA drag, and VIX is only about 17.5. Rising yields and Friday's PPI cap the upside.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261112_002",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 70800.0,
+      "model_reported_price": 71855.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "BTC is falling toward a three-month low, down about 8% in November. Hawkish Fed expectations, the 10-year yield at 5.1% and long liquidations are adding pressure. Momentum and weak risk sentiment favor further downside by the close.",
+      "current_price_at_prediction": 71855.35,
+      "prev_close": 73964.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261112_003",
+      "ticker": "GOOGL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 303.5,
+      "model_reported_price": 301.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "GOOGL is up 2.7% and near its high of $302.56. Hyperscalers are benefiting from the rotation away from Nvidia, and Anthropic's IPO next week adds support. The day's momentum favors a hold or a small further gain.",
+      "current_price_at_prediction": 301.32,
+      "prev_close": 293.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261112_004",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 279.3,
+      "model_reported_price": 280.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Small caps are lagging, down 1% while SPY is flat. The 10-year yield is rising to 5.11% and Fed officials are discussing larger hikes, which hurts rate-sensitive small caps. PPI is due Friday, so the pressure may persist into the close.",
+      "current_price_at_prediction": 280.23,
+      "prev_close": 283.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 11.8,
+    "prompt_tokens": 42695,
+    "completion_tokens": 1256,
+    "cost_usd": 0.11795,
+    "finished_at": "2026-11-12T18:10:56.128713+00:00",
+    "normalization_issues": []
+  }
+}

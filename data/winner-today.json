@@ -1,25 +1,22 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "winner": {
-    "ticker": "QQQ",
-    "direction": "up",
-    "avg_confidence": 0.64,
-    "avg_target": 705.94,
-    "avg_entry": 693.8,
-    "expected_move_pct": 1.75,
-    "score": 1.1195,
+    "ticker": "NVDA",
+    "direction": "down",
+    "avg_confidence": 0.702,
+    "avg_target": 161.88,
+    "avg_entry": 165.37,
+    "expected_move_pct": 2.11,
+    "score": 1.4815,
     "models": [
-      "Qwen 3.8 Max",
       "Hermes 4 405B",
       "Grok 4.3",
-      "Kimi K3.1 Pro",
-      "GPT-5.6 Terra",
+      "Perplexity Sonar Pro",
       "Gemini 3.8 Flash",
       "DeepSeek V4 Pro"
     ],
-    "model_count": 7,
-    "high_conviction": false,
-    "leveraged_ticker": "TQQQ"
+    "model_count": 5,
+    "high_conviction": false
   },
   "min_models": 4,
   "etf_min_models": 5

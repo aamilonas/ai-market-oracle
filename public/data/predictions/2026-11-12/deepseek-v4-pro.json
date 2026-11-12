@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-12",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-12T18:11:11.629169+00:00",
+  "market_context": "The market is absorbing Nvidia's CEO resignation, with the tech drag offset by strength in MSFT, GOOGL, and AMZN; the SPY has recovered from early lows and is near intraday highs, but the upcoming 30-year bond auction and hawkish Fed tone cap upside.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261112_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 760.8,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY bounced from $753.70, lifted by large-cap rally ex-NVDA; however, the 30-year auction and hawkish Fed comments per asleepace.com may limit further gains, keeping the close modestly positive.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261112_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 691.0,
+      "model_reported_price": 689.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ is flat with NVDA weight offset by GOOGL and MSFT advances; likely to edge higher as the session progresses and tech buying resumes, per stocksetups.com showing Nasdaq 100 up 0.10% late morning.",
+      "current_price_at_prediction": 689.98,
+      "prev_close": 690.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261112_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 279.5,
+      "model_reported_price": 280.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Small caps are underperforming (down 1.01%) as risk-off sentiment from the Nvidia leadership shock hits smaller companies, and the 10-year yield at 5.11% adds pressure, per globaltradersacademy.com.",
+      "current_price_at_prediction": 280.23,
+      "prev_close": 283.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261112_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 162.0,
+      "model_reported_price": 165.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Jensen Huang's resignation triggered a regime break in the AI trade, with NVDA falling 5.35% midday; heavy put activity and negative sentiment per asleepace.com suggest continued selling pressure into the close.",
+      "current_price_at_prediction": 165.37,
+      "prev_close": 173.73,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/m/b961f164-91b1-38c0-a2e1-5ab20b01108e/stock-market-today-nasdaq.html",
+      "https://stocksetups.com/today",
+      "https://finance.yahoo.com/",
+      "https://globaltradersacademy.com/articles/stock-market-today-nov-12-s-p-500-up-0-2-at-midday-nasdaq-flat-dow-up-0-4",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-12",
+      "https://littlebirdtrading.com/trade-plans/daily-report-2026-11-12",
+      "https://tradingeconomics.com/united-states/stock-market",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 24.4,
+    "prompt_tokens": 5194,
+    "completion_tokens": 2053,
+    "cost_usd": 0.0147541,
+    "finished_at": "2026-11-12T18:11:11.629169+00:00",
+    "normalization_issues": []
+  }
+}

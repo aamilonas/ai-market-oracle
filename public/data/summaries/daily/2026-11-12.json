@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T18:13:59.434130+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Models split on SPY and NVDA; BTC and IWM bears await the close",
+  "summary": "No calls have been scored yet, so no model has taken the lead. Seven of nine models leaned up on SPY, while five of six expressed a downside view on NVDA, with QQQ divided evenly. Five models agree BTC-USD and IWM will fall, and Hermes 4 405B's 75% NVDA call, the morning's highest-conviction pick, will be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "7 up, 2 down across 9 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "3 up, 3 down across 6 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "5 down, 1 up across 6 models."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Gemini 3.8 Flash",
+        "Grok 4.3",
+        "Kimi K3.1 Pro",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "5 models called BTC-USD down."
+    },
+    {
+      "ticker": "IWM",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "GPT-5.6 Terra",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "5 models called IWM down."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models called DIA up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261112_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
+  },
+  "worst_call": null
+}

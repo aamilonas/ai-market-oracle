@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-12",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-12T18:11:20.946712+00:00",
+  "market_context": "The opening selloff has largely been repaired: SPY is near flat at $760.14 after trading between $753.70 and $763.03, while DIA leads and IWM lags. Nvidia's roughly 5% drop following Jensen Huang's resignation is being offset by strength in Broadcom, Alphabet, Microsoft and Amazon, but the 10-year yield near 5.11% and afternoon auction and budget risks argue for modest conviction (finance.yahoo.com, globaltradersacademy.com, asleepace.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261112_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's recovery from $753.70 and a flat VIX at 17.48 show substantial dip-buying despite Nvidia's leadership shock; midday data also had the S&P 500 positive while the Nasdaq was nearly flat ([globaltradersacademy.com). Megacap support should enable a modest grind toward $762, although the 5.11% 10-year yield limits the expected upside.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261112_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 526.25,
+      "model_reported_price": 525.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow was up 0.42% at midday versus a nearly flat Nasdaq, consistent with rotation away from the Nvidia-centered technology shock (globaltradersacademy.com). From $525.34, a partial retest of today's $527.05 high appears more likely than a reversal through the $523.06 session low.",
+      "current_price_at_prediction": 525.34,
+      "prev_close": 524.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261112_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 279.0,
+      "model_reported_price": 280.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "IWM is already down 1.01%, and the Russell 2000's 0.77% midday decline confirms broad small-cap underperformance rather than an ETF-specific move (globaltradersacademy.com). With the 10-year yield at 5.11% and hawkish Fed expectations pressuring rate-sensitive companies, IWM should finish nearer its $278.67 session low.",
+      "current_price_at_prediction": 280.23,
+      "prev_close": 283.09,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261112_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 71300.0,
+      "model_reported_price": 71855.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is down 2.85% today and 5.1% over five days, while Ether's 9.9% five-day decline indicates broader crypto weakness. BTC is already near the bottom of its $71261.95-$74072.29 range, and persistent rate and risk pressure favors a retest of that area rather than a full recovery.",
+      "current_price_at_prediction": 71855.35,
+      "prev_close": 73964.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Modal",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/m/b961f164-91b1-38c0-a2e1-5ab20b01108e/stock-market-today-nasdaq.html",
+      "https://stocksetups.com/today",
+      "https://finance.yahoo.com/",
+      "https://globaltradersacademy.com/articles/stock-market-today-nov-12-s-p-500-up-0-2-at-midday-nasdaq-flat-dow-up-0-4",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-12",
+      "https://littlebirdtrading.com/trade-plans/daily-report-2026-11-12",
+      "https://tradingeconomics.com/united-states/stock-market",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 34.2,
+    "prompt_tokens": 5289,
+    "completion_tokens": 5742,
+    "cost_usd": 0.0748828,
+    "finished_at": "2026-11-12T18:11:20.946712+00:00",
+    "normalization_issues": []
+  }
+}

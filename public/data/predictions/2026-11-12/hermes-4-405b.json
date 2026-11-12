@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-12",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-12T18:10:58.627248+00:00",
+  "market_context": "Markets are mixed midday with SPY and DIA slightly positive while QQQ and IWM lag, as Nvidia's leadership change (-4.8%) weighs on tech despite broader index resilience and gains in large caps like MSFT (+1.4%) and GOOGL (+2.7%). Treasury yields at 5.11% and VIX near 17.5 indicate moderate risk appetite amid ongoing inflation concerns.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261112_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 762.0,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY has shown resilience despite Nvidia's drop, with intraday recovery toward session highs. Broad market strength in large caps and positive sector breadth should support a continued grind upward toward the 762 resistance level by close.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261112_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 692.5,
+      "model_reported_price": 689.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "While Nvidia's decline is a drag, QQQ has strong support from gains in MSFT, GOOGL, and AMZN. The ETF's recovery from morning lows suggests tech momentum can overcome single-stock weakness for a modest gain by close.",
+      "current_price_at_prediction": 689.98,
+      "prev_close": 690.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261112_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 162.0,
+      "model_reported_price": 165.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "CEO resignation has caused a sharp -4.8% drop with no immediate fundamental catalyst for recovery. Technical damage and leadership uncertainty likely lead to further selling pressure toward $162 support by session end.",
+      "current_price_at_prediction": 165.37,
+      "prev_close": 173.73,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/m/b961f164-91b1-38c0-a2e1-5ab20b01108e/stock-market-today-nasdaq.html",
+      "https://stocksetups.com/today",
+      "https://finance.yahoo.com/",
+      "https://globaltradersacademy.com/articles/stock-market-today-nov-12-s-p-500-up-0-2-at-midday-nasdaq-flat-dow-up-0-4",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-12",
+      "https://littlebirdtrading.com/trade-plans/daily-report-2026-11-12",
+      "https://tradingeconomics.com/united-states/stock-market",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 14.3,
+    "prompt_tokens": 5205,
+    "completion_tokens": 435,
+    "cost_usd": 0.01351,
+    "finished_at": "2026-11-12T18:10:58.627248+00:00",
+    "normalization_issues": []
+  }
+}

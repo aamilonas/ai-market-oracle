@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-12",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-12T18:11:45.535187+00:00",
+  "market_context": "Markets staged a midday recovery from steep opening losses triggered by the shock resignation of Nvidia CEO Jensen Huang amid national security probes, with NVDA bouncing from $148.80 back toward $165. However, upside momentum is stalling into the afternoon as 10-year Treasury yields climb to 5.11% and small-cap breadth weakens, leaving tech and broad indices vulnerable to late-day fading.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261112_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 686.5,
+      "model_reported_price": 689.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ has rebounded from session lows of $679.84 back toward flat, but faces stiff resistance around $690 as the benchmark 10-year yield presses higher to 5.11%. Lingering semiconductor supply chain unease following Nvidia's leadership shock will limit further tech multiple expansion into the close. Afternoon liquidity is likely to see the morning dip-buying rally fade back toward session midpoints.",
+      "current_price_at_prediction": 689.98,
+      "prev_close": 690.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261112_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 161.2,
+      "model_reported_price": 165.37,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "After plunging nearly 14% to $148.80 at the open on Jensen Huang's abrupt resignation, NVDA mounted a sharp short-covering bounce near its intraday high of $167.14. However, the governance crisis, interim CEO appointment, and broader federal investigation create an ongoing overhang ahead of next week's earnings. As initial relief buying subsides, institutional distribution is expected to drag the stock lower into the 4:00 PM close.",
+      "current_price_at_prediction": 165.37,
+      "prev_close": 173.73,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261112_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 758.3,
+      "model_reported_price": 760.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY has crept marginally positive to $760.14, supported by defensive components and non-chip mega-caps like Alphabet and Microsoft. Nevertheless, underlying market breadth remains soft with Russell 2000 ETF IWM down over 1% under the pressure of 5.11% Treasury yields. A cooling in late-session mega-cap tech momentum will likely push the S&P 500 ETF back below its previous close of $759.81.",
+      "current_price_at_prediction": 760.14,
+      "prev_close": 759.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261112_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 71300.0,
+      "model_reported_price": 71855.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Bitcoin has dropped nearly 3% today, mirroring risk-off sentiment in technology and headwind pressure from climbing sovereign yields. The asset has struggled to sustain bounces above $72000 as capital rotates defensively. As equity markets lose steam into the close, BTC is expected to drift back down to test its session support near $71260.",
+      "current_price_at_prediction": 71855.35,
+      "prev_close": 73964.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-12T13:10:42.513876-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 61.2,
+    "prompt_tokens": 1676,
+    "completion_tokens": 4946,
+    "cost_usd": 0.1038045,
+    "finished_at": "2026-11-12T18:11:45.535187+00:00",
+    "normalization_issues": []
+  }
+}
