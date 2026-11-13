@@ -1,5 +1,5 @@
 {
-  "balance": 28813.46,
+  "balance": 25925.46,
   "starting_balance": 25000,
   "trades": [
     {
@@ -207,10 +207,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 150.99,
-      "exit_price": null,
+      "exit_price": 166.19,
       "shares": 190,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": -2888.0,
+      "pnl_pct": -10.07,
       "models": [
         "Hermes 4 405B",
         "Grok 4.3",
@@ -219,7 +219,7 @@
         "DeepSeek V4 Pro"
       ],
       "confidence": 0.702,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

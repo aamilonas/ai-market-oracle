@@ -1,9 +1,9 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T18:13:59.434130+00:00",
+  "generated_at": "2026-11-13T02:43:08.830814+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Models split on SPY and NVDA; BTC and IWM bears await the close",
-  "summary": "No calls have been scored yet, so no model has taken the lead. Seven of nine models leaned up on SPY, while five of six expressed a downside view on NVDA, with QQQ divided evenly. Five models agree BTC-USD and IWM will fall, and Hermes 4 405B's 75% NVDA call, the morning's highest-conviction pick, will be scored after the close.",
+  "headline": "GPT-5.6 Terra leads as BTC bears miss and models split on SPY",
+  "summary": "GPT-5.6 Terra topped the day's model scores at 3.85, while Gemini 3.8 Flash's QQQ down call was the best single call at 1.18. Models split on SPY (7 up, 2 down), QQQ, and NVDA, but five models agreed on a BTC-USD down call that missed, and Hermes 4 405B finished last at -2.1 after its NVDA down call scored worst of the day.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -36,7 +36,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "5 models called BTC-USD down."
     },
     {
@@ -49,7 +49,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "5 models called IWM down."
     },
     {
@@ -59,16 +59,22 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called DIA up."
     }
   ],
   "best_call": {
+    "prediction_id": "pred_gemini-3-8-flash_20261112_001",
+    "model_display_name": "Gemini 3.8 Flash",
+    "ticker": "QQQ",
+    "score": 1.18,
+    "summary": "Gemini 3.8 Flash's QQQ down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261112_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.75,
+    "summary": "Hermes 4 405B's NVDA down call scored lowest today."
+  }
 }
