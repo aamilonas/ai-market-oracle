@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T17:45:21.151553+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Seven Models Bet Against Nvidia as Scoring Awaits the Close",
+  "summary": "Nine models filed 35 same-day calls, but nothing has been scored yet, so no leader or results can be declared. Seven models agreed Nvidia would close lower, while the broad-market calls split: QQQ drew 8 down and 1 up, SPY 6 down and 3 up, and DIA 3 up and 2 down. Hermes 4 405B's NVDA call at 85% conviction, the highest of the morning, will be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "6 down, 3 up across 9 models."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "7 models called NVDA down."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "3 up, 2 down across 5 models."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Grok 4.3",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "3 models called BTC-USD down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261113_003",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+  },
+  "worst_call": null
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-13",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-13T17:39:56.854850+00:00",
+  "market_context": "Risk sentiment remains defensive after October PPI showed a 6.5% year-over-year increase, reinforcing concerns that inflation remains too high for the Fed to ease soon. The 10-year Treasury yield is 5.13% and VIX is up 6.79% to 19.97, while Nvidia-specific leadership uncertainty is adding pressure to the semiconductor and Nasdaq complex.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261113_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 749.25,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY is trading below its previous close and remains close to its intraday low of $747.89, despite a modest bounce from that level. Sticky annual wholesale inflation, a 5.13% 10-year yield, and elevated volatility favor a cautious Friday-afternoon de-risking rather than a sustained recovery.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 673.1,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "QQQ is down 1.68% and has materially underperformed SPY as higher yields disproportionately weigh on long-duration technology valuations. Nvidia is down 3.25% after a volatile week tied to leadership news, leaving the tech-heavy index vulnerable to continued afternoon selling.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261113_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 158.6,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "NVDA remains near its $158.39 session low after falling 13.8% over the prior five sessions, signaling that investors are still reducing exposure rather than treating the decline as fully resolved. The leadership disruption and wider AI-trade skepticism remain an overhang into the close, even after the sharp intraday reversal from $170.",
+      "current_price_at_prediction": 160.79,
+      "prev_close": 166.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261113_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 386.7,
+      "model_reported_price": 389.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "TSLA is down 2.11% while the Nasdaq is broadly weak, and it is only modestly above its $385.83 intraday low. With rates elevated and volatility rising, high-beta growth shares are likely to remain under pressure into the closing auction.",
+      "current_price_at_prediction": 389.06,
+      "prev_close": 397.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 15.2,
+    "prompt_tokens": 14444,
+    "completion_tokens": 927,
+    "cost_usd": 0.052897,
+    "finished_at": "2026-11-13T17:39:56.854850+00:00",
+    "normalization_issues": []
+  }
+}

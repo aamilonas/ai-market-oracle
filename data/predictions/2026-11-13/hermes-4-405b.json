@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-13",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-13T17:40:02.248130+00:00",
+  "market_context": "Markets are under pressure today with SPY and QQQ down -0.74% and -1.68% respectively at 12:39 PM ET, driven by ongoing tech sector weakness following Nvidia's CEO transition and rising Treasury yields. The VIX has spiked 6.79% to 19.97, indicating elevated investor anxiety despite a cooler-than-expected PPI report.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261113_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 747.0,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY has broken below its 5-day moving average and is testing session lows amid broad market weakness. With the VIX elevated and tech stocks under pressure, downward momentum is likely to persist toward the lower end of today's range near $747 support.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 670.0,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq-100 ETF QQQ is leading declines with a -1.68% drop as tech stocks face continued selling pressure from Nvidia's leadership uncertainty and rising rates. The ETF is likely to test key support near $670, especially if large-cap tech components like NVDA (-3.25%) continue to weaken.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261113_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 157.0,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia shares are down sharply (-3.25%) following Jensen Huang's departure announcement. With technical indicators showing strong downward momentum and the stock breaking below key support levels, further downside toward $157 appears likely as investors price in leadership uncertainty.",
+      "current_price_at_prediction": 160.79,
+      "prev_close": 166.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261113_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 519.0,
+      "model_reported_price": 522.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "While the Dow is showing relative strength (-0.09%), the broader market weakness and rising Treasury yields are likely to exert downward pressure. A test of session lows near $519 support appears probable if selling accelerates in the afternoon session.",
+      "current_price_at_prediction": 522.01,
+      "prev_close": 522.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001900837.html",
+      "https://www.benzinga.com/opinion/26/11/63243221/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia-3",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-13-2026",
+      "https://asleepace.com/daily-report",
+      "https://www.tradingview.com/chart/SPY/ftPr09VS-SPY-Filled-Its-Gap-Back-To-752-Under-The-763-04-Week-High/",
+      "https://www.qqqwatcher.com/forecast/2026-11-13/",
+      "https://littlebirdtrading.com/trade-plans/daily-report-2026-11-13"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 20.6,
+    "prompt_tokens": 5191,
+    "completion_tokens": 574,
+    "cost_usd": 0.013913,
+    "finished_at": "2026-11-13T17:40:02.248130+00:00",
+    "normalization_issues": []
+  }
+}

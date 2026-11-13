@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-13",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-13T17:39:50.720179+00:00",
+  "market_context": "Friday midday: the Nasdaq is down about 1.7% and SPY is down 0.7%, while DIA is flat. Chip and AI stocks are weak after Nvidia CEO Jensen Huang resigned, and Nvidia reports earnings Tuesday. October PPI was a bit cooler than expected at +0.3% m/m but still 6.5% y/y. The 10-year yield is about 5.1%, a December Fed hike is fully priced in, and bitcoin fell below $70k for the first time since August.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261113_001",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 67800.0,
+      "model_reported_price": 68858.83,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Bitcoin is on track for a sixth straight weekly decline. Spot ETF outflows, leveraged-long unwinds and Fed hike expectations all point down, and the break below $70k could trigger more liquidations. The MSCI decision to drop Strategy from indexes adds more pressure.",
+      "current_price_at_prediction": 68858.83,
+      "prev_close": 71342.97,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 679.0,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "QQQ is already down 1.7% and sits near the low of its day range ($671.71-$688.75), while DIA is flat, so the damage is concentrated in Nvidia and chips. Some dip-buying and short covering into the close is plausible, but the 5.1% yield and rate-hike fears limit the bounce.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261113_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 752.5,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.51,
+      "reasoning": "SPY is down 0.74% and trading in the lower half of its range. Cooler-than-expected PPI (+0.3% vs +0.4% expected) and a weekly gain still intact favor a modest recovery, though VIX is rising and tech weakness persists.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 9.1,
+    "prompt_tokens": 20275,
+    "completion_tokens": 984,
+    "cost_usd": 0.06039,
+    "finished_at": "2026-11-13T17:39:50.720179+00:00",
+    "normalization_issues": []
+  }
+}

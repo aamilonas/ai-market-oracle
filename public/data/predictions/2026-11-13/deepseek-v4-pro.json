@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-13",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-13T17:40:21.124797+00:00",
+  "market_context": "Equities opened higher after a cooler-than-forecast PPI print (headline 0.3% vs 0.4% est.) but quickly sold off, filling the overnight gap and breaking below yesterday's close. Negative gamma conditions persist, with SPY below its 755 put wall and heavy put buying evident at 763/766. NVDA remains under pressure following CEO Jensen Huang's scandal-driven departure, while the 10Y yield at 5.13% and hawkish Fed-speak keep risk appetite muted.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261113_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.0,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY has broken below its 755 put wall and is testing the critical 750.36 (Oct-30 low) support. With daily and 4H structure bearish and high volume accompanying the breakdown, a close below this floor is likely unless buyers aggressively step in. [tradingview.com notes a close under 750.36 opens a path toward 744.86.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 672.0,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Q QQ is leading decliners amid the NVDA scandal and heavy put activity pinned near the 690 strike. The 690 level which was a pivot is now resistance, and negative gamma suggests further downside. benzinga.com highlights that a failure to reclaim 690 keeps the bias negative.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261113_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 521.0,
+      "model_reported_price": 522.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "D IA is the relative outperformer but still drifting lower with broad market weakness. Y ield-sensitive sectors are under pressure from the 5.13%10Y, and without a catalyst, a mild drift lower is the path of least resistance. asleepace.com noted Thursday's soft close was broad-based, not a single-index fluke.",
+      "current_price_at_prediction": 522.01,
+      "prev_close": 522.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261113_004",
+      "ticker": "NV DA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 158.0,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "N VDA is under severe selling pressure after CEO Jensen Huang's resignation over an affair scandal, with the stock already down -3.25% intraday. Option flow and heavy volume suggest the negative sentiment is not yet fully priced in, and a drift toward $158 is plausible ahead of earnings next week. yahoofinance.com reported the scandal and the uncertainty it adds before the earnings release.",
+      "current_price_at_prediction": 160.79,
+      "price_source": "model_reported",
+      "price_fetched_at": "2026-11-13T17:40:22.329530+00:00"
+    }
+  ],
+  "run": {
+    "provider": "Baidu",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001900837.html",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://asleepace.com/daily-report",
+      "https://www.benzinga.com/opinion/26/11/63243221/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia-3",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-13-2026",
+      "https://finance.yahoo.com/",
+      "https://www.tradingview.com/chart/SPY/ftPr09VS-SPY-Filled-Its-Gap-Back-To-752-Under-The-763-04-Week-High/",
+      "https://www.qqqwatcher.com/forecast/2026-11-13/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 37.2,
+    "prompt_tokens": 5235,
+    "completion_tokens": 2220,
+    "cost_usd": 0.014521345,
+    "finished_at": "2026-11-13T17:40:21.124797+00:00",
+    "normalization_issues": []
+  }
+}

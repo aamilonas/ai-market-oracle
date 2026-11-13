@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-13",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-13T17:40:05.572541+00:00",
+  "market_context": "US equities are experiencing pronounced intraday rotation and risk-off pressure led by technology, as the 10-year Treasury yield climbs to 5.13% and the VIX surges near the pivotal 20 level. While value and defensive sectors are stabilizing the Dow, semiconductor and mega-cap growth names face heavy distribution. Given standard Friday afternoon de-risking into the weekend, equities are expected to remain under pressure into the 4:00 PM ET close.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261113_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 673.5,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Elevated Treasury yields at 5.13% and significant weakness across high-multiple semiconductor leaders are suppressing tech momentum. Friday afternoon portfolio rebalancing typically discourages aggressive dip-buying in growth assets when volatility is elevated. QQQ is poised to fade its modest midday bounce and drift back toward the lower end of its daily range.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261113_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 749.5,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Although defensive components in healthcare and consumer staples provide a buffer, broader index breadth remains net-negative with VIX up nearly 7% to 19.97. Institutional participants are unlikely to take aggressive long exposure into the weekend against persistent rate headwinds. The index should ease back toward session lows near $749 into the close.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261113_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 159.2,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA is undergoing heavy institutional unwinding, falling over 3% intraday and roughly 14% over the last five sessions. With market-wide risk appetite subdued and crypto/tech beta under selling pressure, lack of firm bid depth should lead to a late-day retest of the $158.39 intraday low.",
+      "current_price_at_prediction": 160.79,
+      "prev_close": 166.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261113_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 522.8,
+      "model_reported_price": 522.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The Dow is displaying notable relative strength, sitting nearly flat on the day as capital rotates out of tech into traditional value and dividend-paying blue chips. With industrials and financials holding firm against broader market declines, DIA is well-positioned to see modest end-of-day buying to finish positive.",
+      "current_price_at_prediction": 522.01,
+      "prev_close": 522.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 23.9,
+    "prompt_tokens": 1612,
+    "completion_tokens": 2858,
+    "cost_usd": 0.0399265,
+    "finished_at": "2026-11-13T17:40:05.572541+00:00",
+    "normalization_issues": []
+  }
+}

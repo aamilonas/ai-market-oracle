@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-13",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-13T17:45:17.048294+00:00",
+  "market_context": "The cooler October PPI reading of 0.3% versus 0.4% expected failed to sustain the overnight equity bid because annual wholesale inflation remained hot at 6.5%; by midday SPY had reversed its gap-up while the 10-year Treasury yield reached 5.13% and VIX rose 6.79% (asleepace.com). AI and semiconductor shares are the principal drag following Jensen Huang's resignation, with SOXX and SMH down approximately 5.2% and 4.4%, while Dow/value shares are outperforming (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261113_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 748.5,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY has surrendered the entire gap above Thursday's $757.12 close and remains below the $755 put wall and $761.77 gamma flip in a negative-gamma setup ([theadaptivetrader.substack.com). The intraday structure is bearish below $757.12, with a close under $750.36 exposing lower support; rising yields favor another dip into the close (tradingview.com).",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 671.5,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Semiconductor confirmation is exceptionally weak: SOXX was down 5.16%, SMH 4.40%, and SOXQ 4.98% around midday (finance.yahoo.com). With QQQ well below the premarket $690 pivot and NVDA extending its five-day slump, I expect a retest and slight break of today's $671.71 low (benzinga.com).",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261113_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 157.5,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Nvidia's CEO resignation remains an active overhang ahead of Tuesday's earnings, and the stock has already lost 13.8% over five days (finance.yahoo.com). At $160.79 it is only about 1.5% above its $158.39 session low, so continued semiconductor liquidation makes a marginally lower close more likely than a sustained rebound.",
+      "current_price_at_prediction": 160.79,
+      "prev_close": 166.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261113_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 522.9,
+      "model_reported_price": 522.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "DIA is down just 0.09% versus QQQ's 1.68% decline, consistent with reports that value-oriented segments are showing stronger relative performance (finance.yahoo.com). I expect defensive rotation to produce a modest afternoon grind back above the $522.47 previous close, although the broader risk-off tape keeps conviction low.",
+      "current_price_at_prediction": 522.01,
+      "prev_close": 522.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Wafer",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001900837.html",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://asleepace.com/daily-report",
+      "https://www.benzinga.com/opinion/26/11/63243221/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia-3",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-13-2026",
+      "https://www.tradingview.com/chart/SPY/ftPr09VS-SPY-Filled-Its-Gap-Back-To-752-Under-The-763-04-Week-High/",
+      "https://finance.yahoo.com/",
+      "https://www.qqqwatcher.com/forecast/2026-11-13/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 333.1,
+    "prompt_tokens": 5251,
+    "completion_tokens": 6134,
+    "cost_usd": 0.062303031,
+    "finished_at": "2026-11-13T17:45:17.048294+00:00",
+    "normalization_issues": []
+  }
+}

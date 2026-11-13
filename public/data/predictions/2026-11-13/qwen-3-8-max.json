@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-13",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-13T17:42:59.206578+00:00",
+  "market_context": "The market is showing risk-off behavior after Nvidia's CEO exit and sticky wholesale inflation, with semiconductor ETFs sharply lower and Treasury yields elevated finance.yahoo.com asleeppace.com. SPY has filled its morning gap and is hovering near key 750 support after a sharp early selloff tradingview.com. Value is holding up better than tech, suggesting rotation rather than broad liquidation finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261113_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 749.8,
+      "model_reported_price": 751.48,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY reclaimed the 750.36 area after the gap fill, but negative gamma below the 761.77 flip and heavy put interest near 763-766 make upside difficult [theadaptivetrader.substack.com benzinga.com. With yields high and semis weak, SPY can fade slightly into the close finance.yahoo.com.",
+      "current_price_at_prediction": 751.48,
+      "prev_close": 757.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261113_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 673.9,
+      "model_reported_price": 676.6,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Semiconductor ETFs are sharply lower after Nvidia's leadership shock, keeping pressure on Nasdaq-related names finance.yahoo.com. QQQ's bounce from the 671.71 low looks fragile while overhead options interest remains around 690 benzinga.com. Expect QQQ to close below the current level.",
+      "current_price_at_prediction": 676.6,
+      "prev_close": 688.17,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261113_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 522.45,
+      "model_reported_price": 522.01,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Value-oriented segments are outperforming while tech drags the broader market finance.yahoo.com. DIA is nearly flat and may receive defensive rotation into the close, supporting a modest gain from the current price.",
+      "current_price_at_prediction": 522.01,
+      "prev_close": 522.47,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261113_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 159.4,
+      "model_reported_price": 160.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Nvidia remains a market drag after the CEO exit and scandal coverage, and the stock is still weak despite an intraday bounce finance.yahoo.com. With chip ETFs lower and earnings uncertainty ahead, NVDA may drift back toward its intraday lows.",
+      "current_price_at_prediction": 160.79,
+      "prev_close": 166.19,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-13T12:39:39.171395-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/quote/%5EGSPC/",
+      "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001900837.html",
+      "https://bluntmarkets.com/item/session-pulse-uso-leads-at-6-73-2",
+      "https://asleepace.com/daily-report",
+      "https://www.benzinga.com/opinion/26/11/63243221/how-to-trade-spy-qqq-and-top-tech-stocks-including-nvidia-3",
+      "https://theadaptivetrader.substack.com/p/pre-market-note-november-13-2026",
+      "https://www.tradingview.com/chart/SPY/ftPr09VS-SPY-Filled-Its-Gap-Back-To-752-Under-The-763-04-Week-High/",
+      "https://finance.yahoo.com/",
+      "https://www.qqqwatcher.com/forecast/2026-11-13/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 195.4,
+    "prompt_tokens": 6175,
+    "completion_tokens": 7721,
+    "cost_usd": 0.065676,
+    "finished_at": "2026-11-13T17:42:59.206578+00:00",
+    "normalization_issues": []
+  }
+}
