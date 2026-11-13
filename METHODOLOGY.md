@@ -483,15 +483,25 @@ the day-one consequence.
 | Starting balance | $25,000 |
 | Concurrent positions | 1 |
 | Position size | `int(balance / entry_price)` — effectively all-in |
-| Entry price | the **real regular-session open (9:30 ET)** |
+| Entry price | the **official regular-session open (9:30 ET)**, always |
+| Pre-market pick | entry left pending, filled with the official open when the trade closes |
 | Exit | the same day's official close |
 | Costs modelled | none (no commission, slippage, spread, or borrow) |
 
-Entry at the regular-session open is **deliberately pessimistic**: the fill is a price
-available to anyone, after any morning gap has already occurred, so results are not
-flattered by an entry no real participant could have obtained. It is also *not* the
-baseline the forecast was scored against, so trade P&L and prediction score can disagree —
-intentionally, because that gap is exactly the cost of acting on a signal.
+The simulator models the intended production setup: the pick goes out before the bell and
+the order fills at the opening auction. Entry is the 9:30 open regardless of when the pick
+was actually made.
+
+**Caveat for trades made on GitHub Actions.** GitHub delayed the morning job to roughly
+12:30–1:00 PM ET, so those picks were made *after* the open, with the morning's move
+already in the models' prompt. Their 9:30 entries therefore include price action the
+models saw rather than predicted — in both directions. On 2026-11-05 most of a +$1,910
+NVDA short was a drop that had already happened by the time the models were asked; on
+2026-11-12 a −$2,888 short was entered at a ~$151 open that had rebounded to $165.37
+before the 1:10 PM call. Picks generated before the open do not have this problem.
+
+The open is also *not* the baseline the forecast was scored against (that is the live price
+at prediction time), so trade P&L and prediction score can disagree.
 
 All-in sizing with no risk control is a stress test, not a strategy. It will produce
 violent equity swings, and on a 3× leveraged instrument it can approach ruin. See §15.

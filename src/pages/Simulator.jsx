@@ -31,8 +31,8 @@ export default function Simulator() {
       <section className={styles.hero}>
         <h1 className={styles.title}>Paper Trading Simulator</h1>
         <p className={styles.tagline}>
-          Auto-trades the daily consensus pick — entering in the morning, exiting at close.
-          Started with $25,000.
+          Auto-trades the daily consensus pick — entering at the 9:30 AM open, exiting at the
+          4:00 PM close. Started with $25,000.
         </p>
       </section>
 
@@ -81,8 +81,8 @@ export default function Simulator() {
               </span>
             </div>
             <div className={styles.openDetails}>
-              <span>Entry: <strong>${openTrade.entry_price?.toFixed(2)}</strong></span>
-              <span>Shares: <strong>{openTrade.shares}</strong></span>
+              <span>Entry: <strong>{openTrade.entry_price != null ? `$${openTrade.entry_price.toFixed(2)}` : 'at the 9:30 open'}</strong></span>
+              <span>Shares: <strong>{openTrade.shares ?? '—'}</strong></span>
               <span>Confidence: <strong>{(openTrade.confidence * 100).toFixed(0)}%</strong></span>
             </div>
             <div className={styles.openModels}>
@@ -143,9 +143,9 @@ export default function Simulator() {
                           {trade.direction === 'up' ? '▲' : '▼'}
                         </span>
                       </td>
-                      <td className={styles.mono}>${trade.entry_price?.toFixed(2)}</td>
+                      <td className={styles.mono}>{trade.entry_price != null ? `$${trade.entry_price.toFixed(2)}` : '—'}</td>
                       <td className={styles.mono}>{trade.exit_price != null ? `$${trade.exit_price.toFixed(2)}` : '—'}</td>
-                      <td>{trade.shares}</td>
+                      <td>{trade.shares ?? '—'}</td>
                       <td className={[styles.mono, isWin ? styles.pnlUp : '', isLoss ? styles.pnlDown : ''].join(' ')}>
                         {trade.pnl != null ? `${trade.pnl >= 0 ? '+' : ''}$${trade.pnl.toFixed(2)}` : '—'}
                       </td>

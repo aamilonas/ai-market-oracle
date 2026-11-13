@@ -175,42 +175,32 @@ def has_open_trade(sim):
     return False
 
 
-def open_trade(sim, winner, date_str):
-    """Open a new paper trade based on today's winner."""
+def open_trade(sim, winner, date_str, now=None):
+    """Open the paper trade, entered at the official 9:30 ET open of the trade day.
+
+    The simulation always assumes the trade was placed at the opening bell, whenever
+    the pick was actually made. A pick made before the open has no price yet, so its
+    entry is left pending and close_trade() fills it with the official open.
+    """
     if has_open_trade(sim):
         log.warning("Already have an open trade — skipping")
         return sim
 
+    from datetime import date as date_cls, datetime, timezone
+    from zoneinfo import ZoneInfo
+    from market_data import _session_state, get_open_price
+
     trade_ticker = winner.get("leveraged_ticker", winner["ticker"])
+    now_et = (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("America/New_York"))
+    pre_market = now_et.date().isoformat() == date_str and _session_state(now_et) == "pre"
 
-    # Always source entry price from yfinance's regular-session open (9:30 ET)
-    # rather than model-reported prices. This avoids hallucinated entries and
-    # gives a reproducible, real market fill benchmark.
-    from datetime import date as date_cls
-    from market_data import get_open_price, get_current_price
-    trade_date = date_cls.fromisoformat(date_str)
-    entry_price = get_open_price(trade_ticker, trade_date)
-    if entry_price is None:
-        # Fallback to current price if open isn't available yet (e.g. before 9:30 ET on same day)
-        entry_price = get_current_price(trade_ticker)
-        if entry_price is None:
-            log.warning(f"Could not fetch entry price for {trade_ticker} — skipping trade")
-            return sim
-        log.info(f"Using current price fallback for {trade_ticker} @ ${entry_price:.2f}")
-    else:
-        log.info(f"Entry (open) for {trade_ticker} @ ${entry_price:.2f}")
-
-    if entry_price <= 0:
-        log.warning("Invalid entry price — skipping trade")
-        return sim
-
-    balance = sim["balance"]
-    shares = int(balance / entry_price)
-    if shares <= 0:
+    entry_price = None if pre_market else get_open_price(trade_ticker, date_cls.fromisoformat(date_str))
+    shares = int(sim["balance"] / entry_price) if entry_price else None
+    if shares == 0:
         log.warning("Insufficient balance for trade")
         return sim
 
-    trade = {
+    sim["trades"].append({
         "date": date_str,
         "ticker": trade_ticker,
         "direction": winner["direction"],
@@ -222,13 +212,9 @@ def open_trade(sim, winner, date_str):
         "models": winner["models"],
         "confidence": winner["avg_confidence"],
         "status": "OPEN",
-    }
-
-    sim["trades"].append(trade)
-    log.info(
-        f"Opened trade: {winner['direction'].upper()} {shares} shares of "
-        f"{trade_ticker} @ ${entry_price:.2f}"
-    )
+    })
+    fill = f"@ ${entry_price:.2f} (9:30 open)" if entry_price else "— fills at the 9:30 open"
+    log.info(f"Opened trade: {winner['direction'].upper()} {shares or ''} {trade_ticker} {fill}")
     return sim
 
 
@@ -237,6 +223,17 @@ def close_trade(sim, closing_price):
     for trade in sim.get("trades", []):
         if trade.get("status") != "OPEN":
             continue
+
+        if trade.get("entry_price") is None:
+            # Picked before the open: the order filled at the official 9:30 open.
+            from datetime import date as date_cls
+            from market_data import get_open_price
+            entry = get_open_price(trade["ticker"], date_cls.fromisoformat(trade["date"]))
+            if not entry or entry <= 0:
+                log.warning(f"No open price for {trade['ticker']} on {trade['date']} — trade stays open")
+                return sim
+            trade["entry_price"] = entry
+            trade["shares"] = int(sim["balance"] / entry)
 
         trade["exit_price"] = closing_price
         entry = trade["entry_price"]
