@@ -1,5 +1,5 @@
 {
-  "balance": 25925.46,
+  "balance": 26995.54,
   "starting_balance": 25000,
   "trades": [
     {
@@ -226,10 +226,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 169.89,
-      "exit_price": null,
+      "exit_price": 162.85,
       "shares": 152,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 1070.08,
+      "pnl_pct": 4.14,
       "models": [
         "Qwen 3.8 Max",
         "Hermes 4 405B",
@@ -240,7 +240,7 @@
         "Gemini 3.8 Flash"
       ],
       "confidence": 0.6414,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
