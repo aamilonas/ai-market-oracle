@@ -1,0 +1,89 @@
+{
+  "week": "2026-W46",
+  "period": "Nov 9 – Nov 13, 2026",
+  "generated_at": "2026-11-14T19:37:52.989571+00:00",
+  "headline": "Claude Sonnet 5.5 leads a rough week where every model finished negative",
+  "summary": "Claude Sonnet 5.5 finished on top with a weekly score of -0.93 after climbing eight places, while every model ended the week below zero. Models often moved together and mostly misread the market: only 1 of 12 consensus calls was correct. Gemini 3.8 Flash posted the week's best single call, a QQQ down prediction on 2026-11-12 that scored 1.18 despite its 15% overall accuracy. Hermes 4 405B had the week's lowest single call, an NVDA down prediction on 2026-11-10 scored -0.85, and finished last with 0% accuracy.",
+  "scores": [
+    {
+      "model": "Claude Sonnet 5.5",
+      "weekly_score": -0.93,
+      "predictions": 16,
+      "accuracy": 0.3125,
+      "rank_change": 8
+    },
+    {
+      "model": "GPT-5.6 Terra",
+      "weekly_score": -1.25,
+      "predictions": 21,
+      "accuracy": 0.3333,
+      "rank_change": 0
+    },
+    {
+      "model": "Qwen 3.8 Max",
+      "weekly_score": -3.18,
+      "predictions": 20,
+      "accuracy": 0.25,
+      "rank_change": 2
+    },
+    {
+      "model": "Perplexity Sonar Pro",
+      "weekly_score": -3.2,
+      "predictions": 22,
+      "accuracy": 0.2727,
+      "rank_change": -1
+    },
+    {
+      "model": "Kimi K3.1 Pro",
+      "weekly_score": -5.05,
+      "predictions": 20,
+      "accuracy": 0.2,
+      "rank_change": -1
+    },
+    {
+      "model": "Gemini 3.8 Flash",
+      "weekly_score": -7.52,
+      "predictions": 20,
+      "accuracy": 0.15,
+      "rank_change": -5
+    },
+    {
+      "model": "Grok 4.3",
+      "weekly_score": -8.96,
+      "predictions": 20,
+      "accuracy": 0.1,
+      "rank_change": 0
+    },
+    {
+      "model": "DeepSeek V4 Pro",
+      "weekly_score": -9.37,
+      "predictions": 18,
+      "accuracy": 0.0556,
+      "rank_change": -2
+    },
+    {
+      "model": "Hermes 4 405B",
+      "weekly_score": -13.4,
+      "predictions": 18,
+      "accuracy": 0.0,
+      "rank_change": -1
+    }
+  ],
+  "best_call": {
+    "model": "Gemini 3.8 Flash",
+    "ticker": "QQQ",
+    "score": 1.18,
+    "summary": "Gemini 3.8 Flash called QQQ down on 2026-11-12: the top single call of the week."
+  },
+  "worst_call": {
+    "model": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": -0.85,
+    "summary": "Hermes 4 405B called NVDA down on 2026-11-10: the lowest single call of the week."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 12,
+    "consensus_correct": 1,
+    "accuracy": 0.0833
+  }
+}
