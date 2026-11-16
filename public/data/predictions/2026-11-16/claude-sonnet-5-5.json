@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-16",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-16T20:19:37.897025+00:00",
+  "market_context": "US stocks are in a broad AI-led selloff. SPY is down about 2% and QQQ about 2.7%, both near their lows of the day. The drivers are the fallout from Jensen Huang's exit as Nvidia CEO, new US curbs on remote access to advanced AI chips, a 10-year yield near 5.12% with a December Fed rate hike priced in, and Nvidia earnings after the close tomorrow. Anthropic's IPO is also due this week. The VIX is up about 22% to 23.5, so the market is oversold and fragile going into the close.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261116_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 741.0,
+      "model_reported_price": 739.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is trading within about 0.2% of its day low of 738.07 after a 2% drop, with 40 minutes left. Oversold conditions and positioning ahead of Nvidia earnings tomorrow often bring a small late bounce. Breadth was weak (about 2.6 decliners per advancer earlier), so I expect only a modest rebound.",
+      "current_price_at_prediction": 739.46,
+      "prev_close": 754.37,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261116_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 664.0,
+      "model_reported_price": 661.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "QQQ is down 2.7% and sits near its low of 660.53, with the semiconductor index down about 3.7% earlier. Short-term oversold levels and pre-earnings dip buying favor a small bounce into the close. The selling has been persistent, though, so conviction is low.",
+      "current_price_at_prediction": 661.76,
+      "prev_close": 679.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 9.2,
+    "prompt_tokens": 40945,
+    "completion_tokens": 957,
+    "cost_usd": 0.11146,
+    "finished_at": "2026-11-16T20:19:37.897025+00:00",
+    "normalization_issues": []
+  }
+}

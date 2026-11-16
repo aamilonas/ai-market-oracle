@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-16",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-16T20:20:38.608134+00:00",
+  "market_context": "Stocks are in a broad Nvidia-led selloff near session lows, with the VIX up about 22%, the 10-year Treasury yield at 5.12%, and semiconductor ETFs down roughly 4.5% (worldmoneyroadmap.com, finance.yahoo.com). Nvidia's Tuesday earnings and CEO turmoil, Anthropic's impending IPO, and Tuesday's retail-sales release keep event risk elevated, while Fed Chair Warsh's remarks have not reversed the risk-off structure (benzinga.com, tradingview.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261116_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 737.9,
+      "model_reported_price": 739.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is only 0.19% above its $738.07 session low after breaking the $741.03 downside level identified this morning; the next cited major support is $732.71 ([benzinga.com, tradingview.com). Persistent index weakness and the VIX spike favor a marginal new low into the close rather than a sustained rebound.",
+      "current_price_at_prediction": 739.46,
+      "prev_close": 754.37,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261116_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 659.4,
+      "model_reported_price": 661.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ remains just above its $660.53 session low while SOXX and SMH are down approximately 4.6% and 4.5%, respectively (finance.yahoo.com). Concentrated chip pressure ahead of Nvidia's earnings makes another modest late-session decline more likely than a durable recovery.",
+      "current_price_at_prediction": 661.76,
+      "prev_close": 679.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261116_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 154.7,
+      "model_reported_price": 155.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Nvidia is down 4.44% today and 12.9% over five days as investors assess Tuesday's earnings and the report that its board is not considering Jensen Huang's return (finance.yahoo.com). With the shares close to their $155.02 intraday low and semiconductors underperforming, further event-risk reduction could pressure the stock into the bell.",
+      "current_price_at_prediction": 155.62,
+      "prev_close": 162.85,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261116_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 514.7,
+      "model_reported_price": 515.59,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow is outperforming technology but remains near its session low, and selling has spread to financials, with Morgan Stanley and Goldman Sachs down about 3% and JPMorgan down more than 2% (worldmoneyroadmap.com). That breadth supports a small additional decline, though DIA's relative resilience warrants lower confidence.",
+      "current_price_at_prediction": 515.59,
+      "prev_close": 523.15,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Modal",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://stocksetups.com/today",
+      "https://finance.yahoo.com/m/befe3344-5a22-304e-a07d-6ff7ad87bf49/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+      "https://www.benzinga.com/opinion/26/11/63301005/how-to-trade-spy-qqq-and-top-tech-stocks-5",
+      "https://ca.investing.com/etfs/spdr-s-p-500-chart",
+      "https://www.tradingview.com/chart/SPY/svZk6IEY-SPY-1-3-as-Warsh-speaks-732-71-floor-758-33-the-lid/",
+      "https://worldmoneyroadmap.com/en/news/2026-11-16-2330-us-market-live/",
+      "https://tallacoptions.com/Data/EOD/SPY",
+      "https://recorderonline.marketminute.com/quote/NY:SPY/historical"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 67.5,
+    "prompt_tokens": 5392,
+    "completion_tokens": 4273,
+    "cost_usd": 0.0603988,
+    "finished_at": "2026-11-16T20:20:38.608134+00:00",
+    "normalization_issues": []
+  }
+}

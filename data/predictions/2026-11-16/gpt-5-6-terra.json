@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-16",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-16T20:19:54.447882+00:00",
+  "market_context": "Risk-off selling remains concentrated in AI and semiconductor shares ahead of Nvidia’s November 17 earnings, with AP reporting Nvidia down about 4.6% and the S&P 500 down about 1.9% early afternoon. Fed Chair Kevin Warsh highlighted the possibility that disappointing AI-investment returns could pressure valuations, while the 10-year yield remains elevated near 5.12%; there are no major remaining scheduled macro releases before the close. (apnews.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261116_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 738.55,
+      "model_reported_price": 739.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is trading close to its intraday low of $738.07 at 15:19 ET, with the broad market still under sustained AI-led selling pressure. The AP’s early-afternoon update showed the S&P 500 tracking for a third consecutive loss, and the late session lacks a clear positive macro catalyst. ([apnews.com)",
+      "current_price_at_prediction": 739.46,
+      "prev_close": 754.37,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261116_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 660.35,
+      "model_reported_price": 661.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "QQQ is more exposed than the broad market to the continuing Nvidia and AI-complex liquidation and is only modestly above its $660.53 session low. Nvidia earnings uncertainty and Warsh’s warning about AI valuation and investment-return risks should keep pressure on the technology-heavy index into the close. (apnews.com)",
+      "current_price_at_prediction": 661.76,
+      "prev_close": 679.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261116_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 154.85,
+      "model_reported_price": 155.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVDA is already near its $155.02 intraday low and remains the market’s principal source of sector-level pressure ahead of its earnings report tomorrow after the bell. AP reported renewed concern over the company’s leadership transition and the broader AI industry outlook, favoring a weak closing auction rather than a durable rebound. (apnews.com)",
+      "current_price_at_prediction": 155.62,
+      "prev_close": 162.85,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261116_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 257.1,
+      "model_reported_price": 258.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Amazon is participating in the broad mega-cap AI and growth-stock de-risking, down 3.22% intraday and trading well below its opening range. Elevated volatility and an approaching Nvidia earnings event favor continued reduction of AI-related exposure into the close. (apnews.com)",
+      "current_price_at_prediction": 258.07,
+      "prev_close": 266.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 23.4,
+    "prompt_tokens": 22576,
+    "completion_tokens": 1171,
+    "cost_usd": 0.082103,
+    "finished_at": "2026-11-16T20:19:54.447882+00:00",
+    "normalization_issues": []
+  }
+}

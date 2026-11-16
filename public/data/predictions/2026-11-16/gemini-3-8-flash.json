@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-16",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-16T20:20:08.061831+00:00",
+  "market_context": "U.S. equities are experiencing an aggressive, session-long sell-off driven by surging 10-year Treasury yields above 5.10% and a 22% spike in the VIX to 23.53. Technology and semiconductor names are under severe liquidation ahead of Nvidia's earnings tomorrow, with negative gamma positioning accelerating persistent afternoon declines into the final 40 minutes of trading.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261116_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 738.1,
+      "model_reported_price": 739.46,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Selling pressure has accelerated steadily across the session from -0.99% at mid-day to -1.98% late afternoon, indicating an institutional trend-down day. Operating below the zero gamma flip level and with the VIX elevated above 23, Market-On-Close sell imbalances are likely to drive SPY to retest its intraday low of $738.07.",
+      "current_price_at_prediction": 739.46,
+      "prev_close": 754.37,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261116_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 659.9,
+      "model_reported_price": 661.76,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Tech shares are bearing the brunt of today's risk-off sentiment, falling 2.67% amid widespread de-risking across mega-cap semiconductors and hyperscalers. Given elevated yields and lack of dip-buying demand, end-of-day portfolio squaring is expected to push QQQ below its current session low of $660.53.",
+      "current_price_at_prediction": 661.76,
+      "prev_close": 679.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261116_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 154.7,
+      "model_reported_price": 155.62,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nvidia is down 4.44% today and nearly 13% over the trailing 5 sessions following leadership uncertainty and chip-access scrutiny. Ahead of tomorrow's high-stakes earnings report, risk managers are unwinding AI beta into the bell, pointing to a close below the session low of $155.02.",
+      "current_price_at_prediction": 155.62,
+      "prev_close": 162.85,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261116_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 256.8,
+      "model_reported_price": 258.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Amazon is down 3.22% as higher yields pressure consumer discretionary and cloud computing multiples. With broader benchmark indices breaking down into the final hour, institutional de-risking should pull AMZN back toward its session low of $256.68.",
+      "current_price_at_prediction": 258.07,
+      "prev_close": 266.66,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-16T15:19:27.740855-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu40SKXnz4rdMTZ2rBdSqEQ1omnII0Lc9LA6G-J5BekXLx0Sx7VRdwe_a0TQ8KOk77IDkUdNN3J2cy2HFUZIu3jo4oR8_bcKu-BpCdCiRs2rI_GQZSx31FBlit8QsKQl-9rp1deBkHkqoPPMDWCOc-6YAxjprzpS1wKQPvl-WCEOmr0IA7UKDb0IlxG9ZxFPvbD1FFogDZ_v5upsDljBbg2qLw-WEiDMTuPZ7EVmp7rgUjcsL0QtywGIPfmBEXJ9gpEyju",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfv33ZCahtsq7IyP4rOlB8dtc6LXW1lyDVj29IogsvVCH_nvzdrf91HdzYgsnhCNOG1ppE3Zk0S1thbPqYYbtuu5ZwlrdJ4OTKr7YPXsbCrZsbLgf2LsjuMuCPy1eJQjL051n6oMO_hpC_lgVc0Hpra4OJKrevx1j-VMgxdr3Qjo816P9W6TkYLld85aKBE5eHLHzot8BQUGotmTMMceSMD90mdTe0D_nbhW-3Hv2wKpaQnYPlxTsbMQ6KWDpNTVQgKXy8oMaMloEjGdKvAA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2RAAUlIrl_nuli3trCjXjeAr2-qvIIdRPTfcjb5WHr5NDKDgL6cYRKj-7uLpNATQKVbVSPwzo2Bvp-HXWsOvExYPShGgTXoHSWZw311CS-xuCaiL6QcejTSI5yya_-o1ae2M5GcMo",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRw00OrqR03dABLOvC1TPy3sFCTUjqxTr5RpkszclwojQl2SSLLGGJNj5B7jsX_nQs8d1y517cVRSOz0S2tFXwBTMOY2zBe11nSVU8xN4FU8oD1dhtnJoy3gGkVheX4bMCC1__d-Vo_DmLM5936js1Z_2UU8vmAoQl9EXvQp6Et6oLd5tZDJRJYlYQJ2Xq1Y1HSrnXGOROMBInoXiXSw==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXCKbvHO54IW3mH6Sf7A2Isk6eO2LA158frf4HoOE2LQh08o0qsgAqa1n5bt_hJkGNfY8e_YKPim_-m3NK1_wZpPnlLuT-VhisH3oHUnormJ9vUK7J903tFGMwX5JSYgqnqVoIbyTQ2mwm7qGEB8hjL4kdEKQy6Z5J8WW6flbmUbeWVCbPL-J-KOPlCzz_vu-GYGcKbrAELVGQnkylZSCV0D00GOcU88-AQg=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 39.4,
+    "prompt_tokens": 1649,
+    "completion_tokens": 5577,
+    "cost_usd": 0.0501505,
+    "finished_at": "2026-11-16T20:20:08.061831+00:00",
+    "normalization_issues": []
+  }
+}
