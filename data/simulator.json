@@ -1,5 +1,5 @@
 {
-  "balance": 26995.54,
+  "balance": 27478.88,
   "starting_balance": 25000,
   "trades": [
     {
@@ -247,10 +247,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 159.0,
-      "exit_price": null,
+      "exit_price": 156.14,
       "shares": 169,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 483.34,
+      "pnl_pct": 1.8,
       "models": [
         "Perplexity Sonar Pro",
         "Grok 4.3",
@@ -262,7 +262,7 @@
         "GPT-5.6 Terra"
       ],
       "confidence": 0.625,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

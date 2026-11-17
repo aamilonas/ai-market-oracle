@@ -1,9 +1,9 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T20:21:44.512585+00:00",
+  "generated_at": "2026-11-17T04:39:00.594172+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Bears Dominate Morning Calls as NVDA Draws Eight-Model Downside Consensus Before Close",
-  "summary": "Nine models filed 34 same-day calls, and no outcomes have been scored yet, so no leader has emerged. Eight of nine models called SPY and QQQ down, while NVDA drew the widest agreement with eight models bearish, followed by AMZN with four and DIA with two. Hermes 4 405B's 85% conviction call on NVDA is the morning's highest-conviction pick, and it will be scored after the close.",
+  "headline": "Sonar Pro Leads as Eight Models Bet NVDA Down and Missed",
+  "summary": "Perplexity Sonar Pro led the day with a 1.99 score, anchored by its top individual call, a QQQ down bet that scored 1.18. Eight of nine models called SPY and QQQ down, but the bearish majority on NVDA was the day's costliest consensus miss, and Hermes 4 405B's NVDA down call posted the worst score at -0.85. Hermes 4 405B finished last overall at -1.5.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -32,7 +32,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "8 models called NVDA down."
     },
     {
@@ -44,7 +44,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "4 models called AMZN down."
     },
     {
@@ -54,7 +54,7 @@
         "Kimi K3.1 Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called DIA down."
     },
     {
@@ -66,11 +66,17 @@
     }
   ],
   "best_call": {
+    "prediction_id": "pred_sonar-pro_20261116_002",
+    "model_display_name": "Perplexity Sonar Pro",
+    "ticker": "QQQ",
+    "score": 1.18,
+    "summary": "Perplexity Sonar Pro's QQQ down call scored highest today."
+  },
+  "worst_call": {
     "prediction_id": "pred_hermes-4-405b_20261116_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
-  },
-  "worst_call": null
+    "score": -0.85,
+    "summary": "Hermes 4 405B's NVDA down call scored lowest today."
+  }
 }
