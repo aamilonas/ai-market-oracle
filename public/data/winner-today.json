@@ -1,24 +1,20 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "winner": {
     "ticker": "NVDA",
     "direction": "down",
-    "avg_confidence": 0.625,
-    "avg_target": 154.33,
-    "avg_entry": 155.62,
-    "expected_move_pct": 0.83,
-    "score": 0.5176,
+    "avg_confidence": 0.6325,
+    "avg_target": 152.03,
+    "avg_entry": 153.71,
+    "expected_move_pct": 1.1,
+    "score": 0.6934,
     "models": [
-      "Perplexity Sonar Pro",
-      "Grok 4.3",
-      "Gemini 3.8 Flash",
-      "DeepSeek V4 Pro",
       "Hermes 4 405B",
-      "Kimi K3.1 Pro",
-      "Qwen 3.8 Max",
-      "GPT-5.6 Terra"
+      "Grok 4.3",
+      "Perplexity Sonar Pro",
+      "Gemini 3.8 Flash"
     ],
-    "model_count": 8,
+    "model_count": 4,
     "high_conviction": false
   },
   "min_models": 4,

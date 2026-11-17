@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-17",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-17T19:06:41.294653+00:00",
+  "market_context": "The market is experiencing a broad-based sell-off today with SPY down 1.22% at 2:06 PM ET, driven by tech weakness ahead of Nvidia's pivotal earnings after the close. The VIX has surged 13.79% to 26.07, indicating heightened investor anxiety amid uncertainty about Nvidia's leadership transition and AI sector prospects.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.0,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The S&P 500 ETF is already down 1.22% intraday with the VIX spiking 13.79%, indicating persistent market anxiety. With Nvidia's high-stakes earnings after the close creating uncertainty, the downward momentum is likely to continue through the session close.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261117_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 151.5,
+      "model_reported_price": 153.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia is down 1.56% intraday amid leadership uncertainty and high stakes for tonight's earnings. With the stock having fallen 9% in the last 5 days and investors positioning cautiously, downward pressure is expected to continue into the close.",
+      "current_price_at_prediction": 153.71,
+      "prev_close": 156.14,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261117_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 650.0,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The Nasdaq 100 ETF is down 1.13% today with tech stocks like Microsoft falling sharply. Given the sector's sensitivity to Nvidia's earnings and ongoing AI trade concerns, QQQ is likely to extend losses through the session.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
+      "https://finance.yahoo.com/quotes/SMH,QQQ,SPY,SOXX,DIA,IJR,IWM,FGXXX/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-17",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-opens-higher-choppy-trading-143752678.html",
+      "https://yielddelta.com/markets",
+      "https://stocksetups.com/today",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-retreat-as-tech-and-financials-slump-ahead-of-pivotal-nvidia-earnings/74835/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 12.4,
+    "prompt_tokens": 5399,
+    "completion_tokens": 447,
+    "cost_usd": 0.01374,
+    "finished_at": "2026-11-17T19:06:41.294653+00:00",
+    "normalization_issues": []
+  }
+}

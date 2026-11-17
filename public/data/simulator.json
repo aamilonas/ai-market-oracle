@@ -263,6 +263,24 @@
       ],
       "confidence": 0.625,
       "status": "CLOSED"
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "NVDA",
+      "direction": "down",
+      "entry_price": 156.91,
+      "exit_price": null,
+      "shares": 175,
+      "pnl": null,
+      "pnl_pct": null,
+      "models": [
+        "Hermes 4 405B",
+        "Grok 4.3",
+        "Perplexity Sonar Pro",
+        "Gemini 3.8 Flash"
+      ],
+      "confidence": 0.6325,
+      "status": "OPEN"
     }
   ]
 }

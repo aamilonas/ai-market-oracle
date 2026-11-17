@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-17",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-17T19:06:46.863573+00:00",
+  "market_context": "U.S. equities remain in a broad risk-off move after Monday's AI-led selloff, with the 10-year Treasury yield near 5.10% and VIX at 26.07 reinforcing pressure on long-duration technology shares. October retail sales rose 0.2% while the control group rose 0.6%, and the market is also awaiting a 2:25 PM ET speech by Fed President Williams plus Nvidia's after-close earnings report.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 728.4,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is trading only modestly above its $727.00 intraday low while market breadth is weak across the Dow, Nasdaq, and small caps. Elevated volatility and a 5.10% 10-year yield leave the afternoon skewed toward de-risking ahead of Nvidia earnings rather than a sustained rebound.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261117_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 651.8,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The Nasdaq complex remains vulnerable after a roughly 3.0% five-day decline, and major AI-linked holdings are still negative despite bouncing from their session lows. Nvidia's after-hours report is a major binary event, which should encourage further intraday caution in QQQ into the close.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261117_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 505.9,
+      "model_reported_price": 507.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "DIA is already down 1.62% and trading close to its $506.45 session low, showing that selling is extending beyond technology. Slower headline retail-sales growth and restrictive long-term yields are unfavorable for cyclical and rate-sensitive Dow components late in the session.",
+      "current_price_at_prediction": 507.34,
+      "prev_close": 515.68,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261117_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.25,
+      "model_reported_price": 153.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA has recovered from its $150.36 intraday low even as the broader tape remains weak, suggesting some buyers are positioning for the after-close earnings release. The stock is down sharply over five days and today's report is expected to be a key test of AI spending, so a modest pre-results bid is more likely than a large move.",
+      "current_price_at_prediction": 153.71,
+      "prev_close": 156.14,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 18.0,
+    "prompt_tokens": 14489,
+    "completion_tokens": 974,
+    "cost_usd": 0.05359,
+    "finished_at": "2026-11-17T19:06:46.863573+00:00",
+    "normalization_issues": []
+  }
+}

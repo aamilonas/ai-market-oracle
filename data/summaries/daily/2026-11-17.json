@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T19:08:48.551725+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Bears dominate index calls as scoring waits for the close",
+  "summary": "Nine models filed 33 predictions, and eight of nine leaned down on both SPY and QQQ, with only one bullish call on each. Six models agreed DIA would fall and three called BTC-USD lower, while NVDA split 4 down to 2 up. Hermes 4 405B's NVDA call at 80% conviction is the morning's highest-conviction pick, and it will be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "8 down, 1 up across 9 models."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "6 models called DIA down."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "4 down, 2 up across 6 models."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "3 models called BTC-USD down."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261117_002",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
+  },
+  "worst_call": null
+}

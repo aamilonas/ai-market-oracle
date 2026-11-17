@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-17",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-17T19:06:51.876417+00:00",
+  "market_context": "US equities are deep in the red midday Tuesday, with the S&P 500 down ~1.2% and the Nasdaq off ~1.1% as investors brace for Nvidia's pivotal post-close earnings. The VIX surged 13.8% to 26.07, reflecting heightened anxiety, while retail sales beat expectations offered no relief. The sell-off appears controlled but broad, with all major indexes and most sectors lower.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 727.5,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Downside momentum persists into the final hours as traders reduce risk ahead of Nvidia's earnings. The index is already trading near the lower end of its intraday range, and elevated VIX suggests further downward pressure could push SPY to retest the session low around 727.00 by the close.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261117_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.0,
+      "model_reported_price": 153.71,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Despite the broader tech slump, Nvidia has seen a slight intraday recovery from its lows amid pre-earnings positioning. With the stock already down 9% over five days, short-covering and bargain hunting could lift it modestly into the close as traders square positions before the report.",
+      "current_price_at_prediction": 153.71,
+      "prev_close": 156.14,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261117_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 648.0,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Tech-heavy QQQ is underperforming alongside the broader market, pressured by a sell-off in major components like Microsoft and Apple. The cautious mood ahead of Nvidia's earnings and the rising VIX suggest the ETF could slide further, potentially testing its intraday low of 646.65 before the bell.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
+      "https://finance.yahoo.com/quotes/SMH,QQQ,SPY,SOXX,DIA,IJR,IWM,FGXXX/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-17",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-opens-higher-choppy-trading-143752678.html",
+      "https://yielddelta.com/markets",
+      "https://stocksetups.com/today",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-retreat-as-tech-and-financials-slump-ahead-of-pivotal-nvidia-earnings/74835/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 23.0,
+    "prompt_tokens": 5443,
+    "completion_tokens": 2339,
+    "cost_usd": 0.0154072,
+    "finished_at": "2026-11-17T19:06:51.876417+00:00",
+    "normalization_issues": []
+  }
+}

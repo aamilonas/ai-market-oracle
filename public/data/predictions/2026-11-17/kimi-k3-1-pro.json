@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-17",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-17T19:07:21.801094+00:00",
+  "market_context": "Stocks are in a broad risk-off session ahead of Nvidia's post-close earnings, with finance.yahoo.com reporting that selling accelerated during early afternoon trading. The live snapshot shows SPY down 1.22%, DIA down 1.62%, and VIX up 13.79% to 26.07; a 5.10% 10-year Treasury yield and Nvidia's earnings and leadership uncertainty favor continued caution into the close.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 729.6,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY opened at $738.39 and has faded to $730.89, while intraday updates show it slipping from roughly $733 earlier in the afternoon rather than establishing a reversal ([stocksetups.com, finance.yahoo.com). I expect a modest further decline that remains above the $727.00 session low as investors avoid adding exposure before Nvidia's report.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261117_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 506.4,
+      "model_reported_price": 507.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "DIA is the weakest major ETF, down 1.62% and only $0.89 above its $506.45 session low, consistent with Yahoo Finance's report of the Dow underperforming with a roughly 1.5% loss (finance.yahoo.com). Its 2.8% five-day decline and MSFT's 2.58% drop today favor another test of the low rather than a full afternoon recovery.",
+      "current_price_at_prediction": 507.34,
+      "prev_close": 515.68,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261117_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 652.75,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "QQQ has rebounded from $646.65 but remains below its $661.75 previous close after a 3.0% five-day decline, and afternoon quotes faded from $656.78 to approximately $654 (stocksetups.com, finance.yahoo.com). Nvidia's binary earnings event after the bell should limit fresh technology buying, making a small give-back of the intraday rebound plausible.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261117_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63450.0,
+      "model_reported_price": 63723.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is down 1.75% today and 10.7% over five days, leaving it close to its $63382.73 intraday low, while yielddelta.com classifies crypto sentiment as extreme fear. Elevated equity volatility and the 5.10% Treasury yield favor another support test by 4:00 p.m. ET.",
+      "current_price_at_prediction": 63723.29,
+      "prev_close": 64855.84,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Modal",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
+      "https://finance.yahoo.com/quotes/SMH,QQQ,SPY,SOXX,DIA,IJR,IWM,FGXXX/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-17",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-opens-higher-choppy-trading-143752678.html",
+      "https://yielddelta.com/markets",
+      "https://stocksetups.com/today",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-retreat-as-tech-and-financials-slump-ahead-of-pivotal-nvidia-earnings/74835/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 50.6,
+    "prompt_tokens": 5471,
+    "completion_tokens": 6149,
+    "cost_usd": 0.0793168,
+    "finished_at": "2026-11-17T19:07:21.801094+00:00",
+    "normalization_issues": []
+  }
+}

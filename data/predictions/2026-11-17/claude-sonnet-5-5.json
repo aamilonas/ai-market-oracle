@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-17",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-17T19:06:38.857953+00:00",
+  "market_context": "US stocks are down for a third straight session. The AI and chip trade is under pressure after Jensen Huang's resignation as Nvidia CEO and new US chip-export curbs. The 10-year yield is about 5.1%, and traders expect a Fed hike in December. Nvidia reports after the close, with options pricing roughly an 8.5% move. At 14:06 ET, SPY is about 0.5% above its day low and 1.2% below the prior close.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 732.0,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is already down 1.22%, and the day range of $727.00 to $739.76 shows it trading near the low. Dip-buying and positioning ahead of Nvidia's print often produce a modest late-day bounce, and VIX is up 13.8% to 26. Headline risk from the NSA outage report and 5.1% yields keeps this close to a coin flip.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261117_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 656.0,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "Nasdaq-100 futures were up premarket, and QQQ's day range of $646.65 to $663.36 shows it has recovered from its low. Pre-earnings short covering in AI names could lift it into the close. Persistent risk-off pressure from yields, the export curbs and the Nvidia leadership crisis limits conviction.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261117_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63000.0,
+      "model_reported_price": 63723.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "BTC is down 10.7% over five days and near three-month lows. Equity risk-off, the 5.1% 10-year yield and a possible December Fed hike are all headwinds. A support bounce near $62K remains possible, so confidence is low.",
+      "current_price_at_prediction": 63723.29,
+      "prev_close": 64855.84,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.0,
+    "prompt_tokens": 38781,
+    "completion_tokens": 1108,
+    "cost_usd": 0.108642,
+    "finished_at": "2026-11-17T19:06:38.857953+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-17",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-17T19:08:44.028863+00:00",
+  "market_context": "U.S. equities are lower Tuesday afternoon, with SPY, QQQ and DIA all trading down while VIX is sharply higher, reflecting risk aversion ahead of Nvidia's post-market earnings finance.yahoo.com. Technology weakness and elevated event risk are pressuring major indexes, and crypto sentiment is also weak yielddelta.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261117_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 729.1,
+      "model_reported_price": 730.89,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY is already down about 1.2% and trading near its intraday low as major technology stocks sell off ahead of Nvidia earnings [finance.yahoo.com. The afternoon market update describes losses picking up into the close, suggesting continued de-risking finance.yahoo.com.",
+      "current_price_at_prediction": 730.89,
+      "prev_close": 739.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261117_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 651.2,
+      "model_reported_price": 654.24,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tech-heavy QQQ is lower amid a broad technology sell-off and uncertainty before Nvidia's earnings, which is a major catalyst for the AI trade finance.yahoo.com. With VIX higher, investors are likely reducing exposure into the close yielddelta.com.",
+      "current_price_at_prediction": 654.24,
+      "prev_close": 661.75,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261117_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 505.7,
+      "model_reported_price": 507.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "DIA is underperforming with a larger intraday decline than SPY, showing broad risk-off pressure beyond just technology finance.yahoo.com. Elevated volatility ahead of Nvidia's after-hours report makes a late-session drift lower more likely marketalleys.com.",
+      "current_price_at_prediction": 507.34,
+      "prev_close": 515.68,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261117_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 63100.0,
+      "model_reported_price": 63723.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is already lower today and crypto sentiment is in extreme fear, which often coincides with continued risk-off positioning yielddelta.com. With equities drifting lower into Nvidia earnings, BTC may struggle to hold current levels by the close finance.yahoo.com.",
+      "current_price_at_prediction": 63723.29,
+      "prev_close": 64855.84,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-17T14:06:26.020904-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
+      "https://finance.yahoo.com/quotes/SMH,QQQ,SPY,SOXX,DIA,IJR,IWM,FGXXX/",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-17",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-opens-higher-choppy-trading-143752678.html",
+      "https://yielddelta.com/markets",
+      "https://stocksetups.com/today",
+      "https://www2.stockmarketwatch.com/stock-market-news/markets-retreat-as-tech-and-financials-slump-ahead-of-pivotal-nvidia-earnings/74835/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 133.0,
+    "prompt_tokens": 6413,
+    "completion_tokens": 4944,
+    "cost_usd": 0.038738,
+    "finished_at": "2026-11-17T19:08:44.028863+00:00",
+    "normalization_issues": []
+  }
+}
