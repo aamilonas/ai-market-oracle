@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-18",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-18T18:52:15.038617+00:00",
+  "market_context": "U.S. equities are split after Nvidia's strong but leadership-clouded earnings, with growth and small caps firmer while Dow/cyclicals lag finance.yahoo.com, benzinga.com. Intraday Treasury yields eased and VIX is lower, but the 2 p.m. Fed minutes and Anthropic's IPO pricing keep positioning cautious tradevae.com, finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261118_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 733.55,
+      "model_reported_price": 733.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY has recovered from its intraday low to trade just above its prior close while VIX is down sharply, indicating near-term stabilization [finance.yahoo.com. Easing Treasury yields and firm small caps suggest the broad market can grind slightly higher into the close tradevae.com.",
+      "current_price_at_prediction": 733.0,
+      "prev_close": 732.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261118_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 662.1,
+      "model_reported_price": 661.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "QQQ is up despite NVDA weakness because AMZN, GOOGL and MSFT are positive in the snapshot, and growth sectors were leading Wednesday benzinga.com. The Nasdaq Composite was also positive while the Dow lagged, supporting a modest QQQ gain into the close finance.yahoo.com.",
+      "current_price_at_prediction": 661.23,
+      "prev_close": 656.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261118_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 502.9,
+      "model_reported_price": 503.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "DIA remains the weakest major proxy as cyclicals trail and a Fed official's call for a larger hike pressures rate-sensitive blue chips finance.yahoo.com. Even with an intraday bounce, sector breadth shows cyclicals lagging growth, so the Dow ETF may finish slightly below its current level benzinga.com.",
+      "current_price_at_prediction": 503.57,
+      "prev_close": 507.31,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261118_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 151.25,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "NVDA reported revenue up 103% but the stock fell as Jensen Huang stepped down and the board said it would not reinstate him finance.yahoo.com. Semiconductor ETFs were weak earlier, and NVDA is trading near its intraday low, supporting a lower close finance.yahoo.com.",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/63394341/growth-leads-sectors-in-wednesday-trading-as-cyclicals-trail",
+      "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow.html?.tsrc=rss",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://wallstreettoday.com/article-spy-wall-streets-old-guard-took-the-worst-of-tuesdays-selloff.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "http://tradevae.com/state-of-market-reports/2026-11-18/midday/midday-market-splits-small-caps-steady-megacaps-and-energy-drag-bonds-bid-as-gold-slides-111826120255/",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-18"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 239.6,
+    "prompt_tokens": 5941,
+    "completion_tokens": 9567,
+    "cost_usd": 0.076284,
+    "finished_at": "2026-11-18T18:52:15.038617+00:00",
+    "normalization_issues": []
+  }
+}

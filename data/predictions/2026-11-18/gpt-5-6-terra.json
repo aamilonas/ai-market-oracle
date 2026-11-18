@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-18",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-18T18:48:34.920177+00:00",
+  "market_context": "Equities are showing a narrow, volatile rebound after a sharp five-day drawdown: QQQ and IWM are positive while DIA and NVDA lag, and the 2:00 PM ET release of October FOMC minutes is the main remaining macro catalyst. Nvidia’s initially positive earnings reaction reversed intraday, while a 5.06% 10-year yield and continued AI-sector uncertainty leave the afternoon vulnerable to profit-taking. (apnews.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261118_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 731.2,
+      "model_reported_price": 733.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY has recovered from its $726.79 low but is only marginally above the prior close despite QQQ and IWM strength, indicating weak large-cap breadth. The 2:00 PM ET FOMC minutes arrive with the 10-year yield at 5.06%, a setup that favors a modest afternoon de-risking move rather than a sustained index breakout. ([helious.io)",
+      "current_price_at_prediction": 733.0,
+      "prev_close": 732.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261118_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 658.8,
+      "model_reported_price": 661.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "QQQ is up 0.65% from the live baseline but has already retraced part of its intraday advance from $662.80. Nvidia’s post-earnings rally failed and the stock turned materially negative intraday, which weakens the semiconductor-led support needed for QQQ to hold its midday gains. (narrativeflowintel.com)",
+      "current_price_at_prediction": 661.23,
+      "prev_close": 656.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261118_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 150.6,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA opened with a favorable earnings reaction and traded as high as $159.70, but subsequently reversed below its prior close and approached $151 intraday. That failed upside reaction after results suggests sellers remain in control into the close, particularly ahead of the Fed-minutes risk event. (narrativeflowintel.com)",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261118_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 501.9,
+      "model_reported_price": 503.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "DIA is the weakest major index in the supplied snapshot, down 0.74% and trading well below its previous close even as growth ETFs remain positive. With rates elevated and the session’s leadership concentrated away from cyclicals and blue chips, the Dow is likely to remain relatively weak through the close. (apnews.com)",
+      "current_price_at_prediction": 503.57,
+      "prev_close": 507.31,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/dad5715bc91b4aba23a567a40e22b1fc?utm_source=openai",
+      "https://helious.io/calendar/2026-11?utm_source=openai",
+      "https://www.narrativeflowintel.com/midday-edition-wednesday-november-18-2026-11-50-am-et/?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 19.6,
+    "prompt_tokens": 14355,
+    "completion_tokens": 1096,
+    "cost_usd": 0.0547565,
+    "finished_at": "2026-11-18T18:48:34.920177+00:00",
+    "normalization_issues": []
+  }
+}

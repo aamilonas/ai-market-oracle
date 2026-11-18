@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-18",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-18T18:49:27.285250+00:00",
+  "market_context": "The session has become an uneven rebound: SPY has recovered from $726.79 to $733.00, QQQ is up 0.65% and IWM is up 1.04%, while DIA and NVDA lag and VIX falls 7.15%. Nvidia cleared its earnings bar but its shares reversed, leaving Anthropic's IPO pricing and the 2 p.m. Fed minutes as the principal late-session catalysts, with the 10-year Treasury yield still elevated at 5.06% (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261118_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 734.25,
+      "model_reported_price": 733.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY's recovery from $727.91 at 11:22 a.m. to $733.00, alongside a lower VIX and stronger QQQ and IWM, points to improving intraday risk appetite. Intraday bond buying also accompanied easing yields, supporting a small further gain, although the Fed minutes could quickly reverse the move ([tradevae.com).",
+      "current_price_at_prediction": 733.0,
+      "prev_close": 732.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261118_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 663.0,
+      "model_reported_price": 661.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "The Nasdaq was up approximately 0.5% early in the afternoon after two consecutive declines, and current megacap breadth is favorable: AMZN is up 3.63%, TSLA 1.59%, GOOGL 1.23%, MSFT 0.58%, and AAPL 0.51%. That broad support should outweigh NVDA's drag into the close, though Fed-minutes volatility limits conviction (finance.yahoo.com).",
+      "current_price_at_prediction": 661.23,
+      "prev_close": 656.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261118_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 268.2,
+      "model_reported_price": 267.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "AMZN is the strongest listed megacap, up 3.63% and trading near its $267.97 session high after being up only about 2% in Benzinga's earlier sector update. Consumer discretionary and growth are leading, and AMZN's continued intraday advancement favors a modest extension rather than a late reversal (benzinga.com).",
+      "current_price_at_prediction": 267.25,
+      "prev_close": 257.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261118_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 151.1,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "NVDA has faded from $159.70 to $152.06, close to its $150.85 session low, even after revenue surged 103% year over year; Yahoo reports it was on pace to extend a four-day losing streak. That bearish response to strong earnings, together with earlier declines of roughly 1% in SMH and SOXX, favors additional mild weakness into the close (finance.yahoo.com).",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "AkashML",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/63394341/growth-leads-sectors-in-wednesday-trading-as-cyclicals-trail",
+      "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow.html?.tsrc=rss",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://wallstreettoday.com/article-spy-wall-streets-old-guard-took-the-worst-of-tuesdays-selloff.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "http://tradevae.com/state-of-market-reports/2026-11-18/midday/midday-market-splits-small-caps-steady-megacaps-and-energy-drag-bonds-bid-as-gold-slides-111826120255/",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-18"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 71.9,
+    "prompt_tokens": 5165,
+    "completion_tokens": 4600,
+    "cost_usd": 0.06203875,
+    "finished_at": "2026-11-18T18:49:27.285250+00:00",
+    "normalization_issues": []
+  }
+}

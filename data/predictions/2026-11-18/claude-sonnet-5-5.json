@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-18T18:48:21.946747+00:00",
+  "market_context": "Stocks are mixed after four straight losing sessions. Nvidia beat estimates and guided higher, but its early gain reversed and it is down about 2%, near its lowest close since mid-2025. The Dow is weighed down by UnitedHealth, which is down 6-8% on the CMS 'CRUSH' audit rule. Fed minutes are due at 2 PM, and Waller has talked up a 50bp December hike. The dollar is at a 19-month high, the 10-year yield is 5.06%, and Anthropic is expected to price its IPO today.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261118_001",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 501.5,
+      "model_reported_price": 503.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "UnitedHealth, about 4% of the Dow, is down 6-8% on the CMS audit rule and has no quick catalyst to reverse. Hawkish Fed talk (Waller's 50bp December hike) and the 2 PM minutes add downside risk for the Dow's cyclical and value stocks.",
+      "current_price_at_prediction": 503.57,
+      "prev_close": 507.31,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261118_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 150.5,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nvidia reversed a 2.4% gap-up despite a beat-and-raise, which signals heavy selling into strength. It is on a fifth straight decline, and it still faces CEO uncertainty and a reported SEC probe. Oversold bounces are possible, so confidence is modest.",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261118_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 62200.0,
+      "model_reported_price": 63159.15,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is in a downtrend, down 7.5% over five days and 2.7% today. The strong dollar, 5%+ Treasury yields and hawkish Fed talk are headwinds for crypto.",
+      "current_price_at_prediction": 63159.15,
+      "prev_close": 64893.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 8.8,
+    "prompt_tokens": 27152,
+    "completion_tokens": 909,
+    "cost_usd": 0.073394,
+    "finished_at": "2026-11-18T18:48:21.946747+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-18",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-18T18:48:27.071414+00:00",
+  "market_context": "Mixed session with tech and small caps outperforming while Dow lags. Nvidia's post-earnings decline continues despite strong results, while broader market awaits Fed minutes and Anthropic IPO pricing. Treasury yields remain elevated but off recent highs.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261118_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 734.5,
+      "model_reported_price": 733.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "SPY is showing resilience near flatline despite Dow weakness, supported by tech sector strength and VIX decline. Fed minutes at 2 PM ET could provide catalyst for late-day bounce if less hawkish than feared.",
+      "current_price_at_prediction": 733.0,
+      "prev_close": 732.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261118_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 664.0,
+      "model_reported_price": 661.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq ETF is outperforming with +0.65% gain today, driven by mega-cap tech strength (AMZN +3.6%, GOOGL +1.2%). Momentum likely continues as growth sectors lead, though Nvidia's post-earnings slide remains a headwind.",
+      "current_price_at_prediction": 661.23,
+      "prev_close": 656.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261118_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 150.25,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Stock down 2.2% today despite strong earnings, extending 4-day losing streak amid leadership transition concerns. Technical weakness and profit-taking likely persist through session close.",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261118_004",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 273.0,
+      "model_reported_price": 271.84,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Small cap ETF is outperforming with +1.04% gain today, indicating rotation into beaten-down areas. Strength likely continues as defensive sectors firm and bond yields stabilize.",
+      "current_price_at_prediction": 271.84,
+      "prev_close": 269.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+      "https://finance.yahoo.com/quotes/QQQ,SOXX,DJD,SMH,SOXQ,DIA,SPY,ILCV,SPYM/",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/63394341/growth-leads-sectors-in-wednesday-trading-as-cyclicals-trail",
+      "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow.html?.tsrc=rss",
+      "https://www.cnbc.com/quotes/SPY,QQQ",
+      "https://wallstreettoday.com/article-spy-wall-streets-old-guard-took-the-worst-of-tuesdays-selloff.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "http://tradevae.com/state-of-market-reports/2026-11-18/midday/midday-market-splits-small-caps-steady-megacaps-and-energy-drag-bonds-bid-as-gold-slides-111826120255/",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-18"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 14.0,
+    "prompt_tokens": 5082,
+    "completion_tokens": 504,
+    "cost_usd": 0.013594,
+    "finished_at": "2026-11-18T18:48:27.071414+00:00",
+    "normalization_issues": []
+  }
+}

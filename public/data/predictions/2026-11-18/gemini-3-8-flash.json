@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-18",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-18T18:48:33.066442+00:00",
+  "market_context": "Following Nvidia's Q3 earnings beat and forward guidance, markets experienced a classic volatility unwind with the VIX dropping 7.15% to 23.64 despite elevated 10-year yields at 5.06%. While Nvidia shares slid over 2% intraday on compressed gross margin guidance and executive transition overhang, broad tech and small caps rebounded strongly, led by hyperscaler resilience in AMZN and MSFT. Intraday momentum into the afternoon favors continued drift toward session highs across major tech-heavy benchmark indices.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261118_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 662.9,
+      "model_reported_price": 661.23,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ is trading near the upper end of its daily range ($653.08-$662.80), supported by substantial rallies in AMZN, GOOGL, and TSLA. With the VIX declining sharply post-NVDA earnings, risk appetite into the final two hours of trading favors an afternoon continuation toward session highs. The sustained bid across large-cap tech provides favorable closing momentum.",
+      "current_price_at_prediction": 661.23,
+      "prev_close": 656.95,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261118_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 734.1,
+      "model_reported_price": 733.0,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY has recovered solidly from session lows of $726.79 to consolidate near $733.00 as small-cap breadth (IWM +1.04%) and mega-cap tech counterbalance Dow weakness. Easing implied volatility across index options into the 4:00 PM expiration supports late-day passive inflows. This setup points to a close near the upper quartile of today's trading range.",
+      "current_price_at_prediction": 733.0,
+      "prev_close": 732.44,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261118_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 151.3,
+      "model_reported_price": 152.06,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Despite beating Q3 revenue expectations with $115.8B, NVDA has steadily faded from intraday highs of $159.70 as markets digest Q4 gross margin compression down to 71%-72% alongside leadership transition uncertainties. The stock remains under selling pressure and trades near session lows ($150.85). Continued institutional repositioning into the close should keep upward price action heavily capped.",
+      "current_price_at_prediction": 152.06,
+      "prev_close": 155.46,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261118_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 268.4,
+      "model_reported_price": 267.25,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "AMZN is exhibiting standout relative strength today, trading up +3.63% right below its session high of $267.97 on strong cloud and infrastructure read-throughs from data center capital expenditures. Momentum buyers and index weight flows into the closing cross are likely to push the stock through session resistance to fresh intraday highs.",
+      "current_price_at_prediction": 267.25,
+      "prev_close": 257.89,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-18T13:48:11.035867-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 20.0,
+    "prompt_tokens": 1637,
+    "completion_tokens": 2432,
+    "cost_usd": 0.03834775,
+    "finished_at": "2026-11-18T18:48:33.066442+00:00",
+    "normalization_issues": []
+  }
+}
