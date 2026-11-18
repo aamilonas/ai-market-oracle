@@ -1,5 +1,5 @@
 {
-  "balance": 27478.88,
+  "balance": 27732.63,
   "starting_balance": 25000,
   "trades": [
     {
@@ -269,10 +269,10 @@
       "ticker": "NVDA",
       "direction": "down",
       "entry_price": 156.91,
-      "exit_price": null,
+      "exit_price": 155.46,
       "shares": 175,
-      "pnl": null,
-      "pnl_pct": null,
+      "pnl": 253.75,
+      "pnl_pct": 0.92,
       "models": [
         "Hermes 4 405B",
         "Grok 4.3",
@@ -280,7 +280,7 @@
         "Gemini 3.8 Flash"
       ],
       "confidence": 0.6325,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }
