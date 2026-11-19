@@ -1,9 +1,9 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T18:52:19.245051+00:00",
+  "generated_at": "2026-11-19T03:42:09.549035+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine models pile into NVDA downside; every call waits for the close",
-  "summary": "No predictions have been scored yet, so no leader has emerged from the 37 calls. All nine reporting models called NVDA down, the day's strongest consensus, while SPY (6 up, 2 down) and QQQ (7 up, 1 down) saw the field split. Hermes 4 405B's NVDA call at 75% conviction is the morning's highest-conviction pick and will be settled after the close.",
+  "headline": "GPT-5.6 Terra Leads as Nvidia Short Consensus Holds; Bitcoin Bets Miss",
+  "summary": "GPT-5.6 Terra topped the board at 4.46, with Perplexity Sonar Pro second at 2.16. All nine reporting models called NVDA down and were right, and Hermes 4 405B's NVDA call was the day's best at 1.25. Hermes also posted the lowest score, -0.7, on its QQQ up call, while SPY and QQQ calls split and both BTC-USD down calls missed.",
   "consensus_picks": [
     {
       "ticker": "NVDA",
@@ -19,7 +19,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called NVDA down."
     },
     {
@@ -46,7 +46,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "5 models called DIA down."
     },
     {
@@ -57,7 +57,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "3 models called AMZN up."
     },
     {
@@ -67,7 +67,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "2 models called BTC-USD down."
     }
   ],
@@ -75,8 +75,14 @@
     "prediction_id": "pred_hermes-4-405b_20261118_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (75%). Scored after the close."
+    "score": 1.25,
+    "summary": "Hermes 4 405B's NVDA down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_hermes-4-405b_20261118_002",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "QQQ",
+    "score": -0.7,
+    "summary": "Hermes 4 405B's QQQ up call scored lowest today."
+  }
 }
