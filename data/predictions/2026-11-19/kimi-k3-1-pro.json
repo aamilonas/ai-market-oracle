@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-19",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-19T18:58:16.993399+00:00",
+  "market_context": "The Anthropic IPO triggered a sell-the-news reversal: the Nasdaq surrendered a gain of as much as 2%, the Dow fell about 800 points, and the VIX approached 29 before easing (cnbc.com). With the S&P 500 roughly 1% below its 200-day moving average and SPY and QQQ down 4.8% and 5.6% over five days, the setup favors weak, lows-testing closes despite possible short-covering bounces.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.2,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY has reversed from a $739.90 intraday high to $720.42, just 0.4% above its $717.55 low, after initially opening above the prior close. The S&P 500 deepened its break below the 200-day moving average as stocks hit session lows after Anthropic began trading, suggesting sellers will retain control into the close ([cnbc.com).",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 647.5,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ has reversed from $676.46 to $649.92 and sits near its $647.17 session low, with its 5.6% five-day loss showing persistent pressure. Nvidia, Broadcom, Microsoft and Meta surrendered their gains as Anthropic's debut became a profit-taking catalyst, supporting another modest leg lower (cnbc.com).",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261119_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 264.5,
+      "model_reported_price": 265.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "IWM has retreated from $271.80 to $265.94, while the Dow's roughly 1.6% decline shows that selling extends beyond technology (cnbc.com). A 5.05% 10-year Treasury yield adds pressure on rate-sensitive small caps, making a close near the $264.02 session low more likely than a sustained rebound.",
+      "current_price_at_prediction": 265.94,
+      "prev_close": 270.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261119_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 146.9,
+      "model_reported_price": 148.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "NVDA has faded from $158.13 to $148.51, almost touching its $147.82 session low, and is down 10.6% over five days. CNBC reports a 27% slide alongside CEO Jensen Huang's resignation and rising skepticism about AI-spending returns, leaving the stock vulnerable to a final-hour retest of its lows (cnbc.com).",
+      "current_price_at_prediction": 148.51,
+      "prev_close": 150.96,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Parasail",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html",
+      "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-19",
+      "https://www.cnbc.com/quotes/IWM,UWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://www.wallstsavage.com/morning-market-notes-11-19-26/",
+      "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-up.html?.tsrc=rss",
+      "https://www.cnbc.com/quotes/IWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/63437748/technology-only-sector-higher-thursday-as-defensives-fall",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-19"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 29.7,
+    "prompt_tokens": 4982,
+    "completion_tokens": 5061,
+    "cost_usd": 0.067574,
+    "finished_at": "2026-11-19T18:58:16.993399+00:00",
+    "normalization_issues": []
+  }
+}

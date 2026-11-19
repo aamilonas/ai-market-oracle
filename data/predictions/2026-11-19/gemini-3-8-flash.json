@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-19",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-19T18:58:11.965324+00:00",
+  "market_context": "Markets opened with massive gains following Anthropic's blockbuster debut, but aggressively reversed into afternoon losses as investors aggressively took profits and sold the AI hype. With the S&P 500 failing its morning attempt to reclaim its 200-day moving average and Treasury yields holding firm above 5.05%, intraday momentum is heavily skewed toward session lows. The surge in the VIX above 26 indicates persistent late-session de-risking into the 4:00 PM close.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 717.5,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "SPY failed a sharp morning rally to $739.90 that briefly reclaimed its 200-day moving average, creating a severe intraday rejection pattern. As profit-taking deepens across mega-cap tech and the VIX spikes past 26.70, institutional liquidation is likely to test and press through the intraday low of $717.55 into the close. The persistence of 10-year yields at 5.05% leaves dip buyers sidelined in the final trading hours.",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.2,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "Tech benchmark QQQ has completely unwound its 2%+ morning advance and is hovering just above the intraday low of $647.17. The 'sell the news' reaction to Anthropic's public debut has triggered heavy unwinds across semiconductor and AI names. Without buying support materializing at the $650 level, late-session options delta hedging will likely pressure QQQ down toward key support at $646.",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261119_003",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 257.4,
+      "model_reported_price": 259.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "AMZN is trading directly on its session lows at $259.12 after giving up an intraday high of $274.00, down over 3% on the day. As one of Anthropic's largest corporate backers, the pullback in Anthropic shares from their opening print has catalyzed aggressive profit-taking across Amazon. Weak closing-cross positioning and technical deterioration suggest an extension toward the $257 level before 4:00 PM.",
+      "current_price_at_prediction": 259.45,
+      "prev_close": 267.74,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261119_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 596.5,
+      "model_reported_price": 600.79,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "META is struggling to defend the critical psychological support level at $600 after falling from a high of $630.01 earlier in the session. Broad-based tech derisking and surging volatility are discouraging late afternoon dip buying across high-multiple AI software and platforms. A clean technical breakdown below $600 should trigger trailing sell stops toward $596 into the close.",
+      "current_price_at_prediction": 600.79,
+      "prev_close": 616.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4DpcmbPCp6EUUSq6E0CnU5NwKUWHclcrjqDbvqp1TOMfqeXOwkIL3s_UB0DFkR4FRkw4KLbB1zzLRL-A7mcTBM5ROBdvbnz7uj6GpuHp4FI9UZJmdbtpzh_98BeiAC1czriSlXsLb43ds8Nupj8hmJo69pM8-0la7-0I-4YW8pBAoY6SCjQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6sNqSKT3iGh5i7IJPpT5HLE0Xu0Af0C0UUVJKRtdeacdmjWPwOS0s7fuol8p1aGBYGBArA7kciijrBnm--0EkbrWvAsj4kJh_KixR289nB925y1T8_9JssDI3HdVXJfHoOXV9yP_WrMkP1nEsPCrcLr929XP9_GU4XoLNLuMSEHg8tJf76O8=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyQIVVGXihoJ7cbQXoYgJEpZidxlRYLg4QgVCL-8cEkkzdYYEUHdZFHTfbI966egKzBYfvxwQMYJgcgEZnn6NnQE_ZTFGHDxFuMwptvjHhwWlzOjTCszRFcEh9jP7haHSXusjitoH75ctpdOB107kK76_jd3-mATavUxugnxceMaXBchKZR-NmXsCaG1Y3nvs_rpz111D32GeW028lRok=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLKrMWewugcJQdMv--qK4aVxqrxo6Ja-EEknugGnfNF4Nrb0IkzJzj9eU1fHCdBPaXKsCiWcNRgHAZvVur-unK6Nhs_gsQTRteQcAj8luXVNjdKSgqlVGFsMRGxDxtOegmiAJ1sQoIWKY-nlU8Qgwf8AuRktQny2XpNn0E5Oy6VvEqVtfWQrxDk0uB5S-SmKNaz486TypFXKH2h6mFSX63",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE560ba2mzx-2jbTiW3lWoFmyB3v9Tmvk9Aw018ouWVchY9mJ_jHZ_I9Wauo98EbY-TP4Nu7NaHQ7h2F7tThL6v5SQrX61ZaP9tCREFYG6d26zNhz-1q2j-tFPHf6fc6KVgK9DM63QCjhNpIs1AgZ-db8326UfHQIHed4u6Fn7NzTOPzRd1r-2-kY35FO8FlTwoXxEMHl-Z_dHj38GK1WtM2aFdnR1h37AH2A==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0tz48ySPALnuhXq2yanHJJEuRQ7D_OvDusWsD7p3-MhSPsfU2FcJdCOj0KBeHJjYH71ifrFt71hLSxSwhJUUEavAB9Bl46szed-p1XGZIWa1DEoJqixyI62psCTEcu8obYK6PxaQTt7G_EHt1uOy1Ufr9OvD8T45t_9b3QDBuHs_qIPQz4Ae"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 27.0,
+    "prompt_tokens": 1613,
+    "completion_tokens": 3106,
+    "cost_usd": 0.08285725,
+    "finished_at": "2026-11-19T18:58:11.965324+00:00",
+    "normalization_issues": []
+  }
+}

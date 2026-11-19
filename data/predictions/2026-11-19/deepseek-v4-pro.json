@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-19",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-19T18:58:27.620283+00:00",
+  "market_context": "Anthropic's IPO debut triggered a broad sell-off as investors took profits in AI and tech stocks, with the S&P 500 breaking below its 200-day moving average and eyeing a sixth straight loss. The VIX jumped above 27, and heavy selling in mega-cap tech and chips suggests further downside into the close.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.5,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The S&P 500 ETF is near session lows and has broken below its 200-day moving average, a bearish technical signal cited by a Globalt Investments strategist (CNBC). With the VIX above 27 and no catalyst for a reversal, the selling pressure is likely to push SPY lower into the close.",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 647.5,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Tech stocks are leading the decline, with the Nasdaq-100 ETF already down heavily and AI plays like NVDA and AMD facing sustained selling. The Anthropic IPO profit-taking and Hunterbrook's short report on AMD intensified the tech rout, pointing to continued weakness in QQQ.",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261119_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 264.0,
+      "model_reported_price": 265.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Small caps are under pressure alongside the broader market, with IWM near the day's low and failing to participate in any morning recovery. Risk-off sentiment and elevated VIX typically hit the Russell 2000 hard, suggesting further mild declines by the close.",
+      "current_price_at_prediction": 265.94,
+      "prev_close": 270.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "StreamLake",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-19",
+      "https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140",
+      "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
+      "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
+      "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-up.html?.tsrc=rss",
+      "https://www.wallstsavage.com/morning-market-notes-11-19-26/",
+      "https://worldmoneyroadmap.com/en/news/2026-11-19-2330-us-market-live/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 42.7,
+    "prompt_tokens": 4588,
+    "completion_tokens": 1889,
+    "cost_usd": 0.0113834976535,
+    "finished_at": "2026-11-19T18:58:27.620283+00:00",
+    "normalization_issues": []
+  }
+}

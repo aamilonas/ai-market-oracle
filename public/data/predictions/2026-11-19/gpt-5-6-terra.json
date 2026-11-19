@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-19",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-19T18:58:06.908448+00:00",
+  "market_context": "Risk sentiment deteriorated sharply after an early AI-led rebound failed: AP reported at 1:43 PM ET that the S&P 500 had erased a 1.3% gain and was down 1.2%, with 85% of its constituents declining. The backdrop remains restrictive, with October FOMC minutes indicating broad support for a December rate increase, while the 10-year yield is near 5.05% and the VIX is elevated at 26.78.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 716.8,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The intraday rebound reversed decisively, and the broad-market selloff had 85% of S&P 500 constituents lower by early afternoon. With SPY trading only modestly above its $717.55 session low, elevated volatility and hawkish Fed-rate expectations favor a weak late-session close.",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.6,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "AI and mega-cap technology lost their early strength: Nvidia reportedly reversed from a 4.7% gain to a loss, while other AI-linked names also swung from sizable gains to losses. QQQ remains close to its intraday low of $647.17, and the higher-for-longer rate narrative is particularly unfavorable for long-duration technology valuations.",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261119_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 146.9,
+      "model_reported_price": 148.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nvidia erased a strong early advance and had turned negative by early afternoon, signaling persistent seller control despite the prior earnings-related optimism. Continued concerns over AI valuations, funding costs, and the company's leadership transition leave the stock vulnerable to a retest and modest break below its $147.82 intraday low.",
+      "current_price_at_prediction": 148.51,
+      "prev_close": 150.96,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261119_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 257.6,
+      "model_reported_price": 259.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Amazon is already among the weakest mega-cap names, down 3.10% and trading just above its $259.12 intraday low. The broad unwind in AI and hyperscaler exposure, along with reports of recent weakness in core businesses among large platforms, suggests limited appetite to buy this afternoon's dip.",
+      "current_price_at_prediction": 259.45,
+      "prev_close": 267.74,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 22.0,
+    "prompt_tokens": 28821,
+    "completion_tokens": 1209,
+    "cost_usd": 0.1050355,
+    "finished_at": "2026-11-19T18:58:06.908448+00:00",
+    "normalization_issues": []
+  }
+}

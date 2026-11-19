@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-19",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-19T18:57:57.242051+00:00",
+  "market_context": "The S&P 500 is down about 1.3% and trading near its session lows, below its 200-day moving average. Anthropic's record IPO triggered profit-taking in AI names, and every rally attempt this week (Nvidia earnings, the IPO open) has been sold. The 10-year yield is about 5.05% with a December Fed hike largely priced in, VIX is up to the high 20s, and small caps and health insurers are weak.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.0,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Opening gains have faded on each of the last several days, and the S&P is now below its 200-day average, which puts trend followers on the sell side. VIX is rising and the 10-year is above 5% with a December hike priced in. Price is close to the day low of 717.55, so I expect only a small further drift lower into the close.",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261119_002",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 264.5,
+      "model_reported_price": 265.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Small caps are rate-sensitive, and the 10-year is above 5% with a Fed hike expected in December. The Russell 2000 was the weakest index at midday, down roughly 2%, and it has not joined any of the bounce attempts. There is no catalyst for a late reversal.",
+      "current_price_at_prediction": 265.94,
+      "prev_close": 270.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261119_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 149.5,
+      "model_reported_price": 148.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.5,
+      "reasoning": "NVDA is down about 10.6% over five days and sits near its day low of 147.82, after a post-earnings reversal that left it unusually oversold. A small mean-reversion bounce is possible into the close, but leadership uncertainty and ongoing downgrades cap the upside, so this is close to a coin flip.",
+      "current_price_at_prediction": 148.51,
+      "prev_close": 150.96,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 12.3,
+    "prompt_tokens": 48193,
+    "completion_tokens": 1162,
+    "cost_usd": 0.128006,
+    "finished_at": "2026-11-19T18:57:57.242051+00:00",
+    "normalization_issues": []
+  }
+}

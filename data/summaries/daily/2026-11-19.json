@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T18:59:23.321940+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Bears Dominate Morning Calls as Hermes Bets 80% on QQQ Downside",
+  "summary": "Nine models filed 34 predictions, and the consensus leaned bearish, with SPY called down by nine models and QQQ by eight. NVDA split sharply, with six models calling it down and one up, while BTC-USD was the only consensus call to the upside, backed by Grok 4.3 and Perplexity Sonar Pro. Hermes 4 405B's 80% conviction QQQ call stands out as the morning's highest-conviction pick, but all calls remain pending until they are scored at the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "9 models called SPY down."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "8 models called QQQ down."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [],
+      "agreed_direction": "disagree",
+      "outcome": "split",
+      "note": "6 down, 1 up across 7 models."
+    },
+    {
+      "ticker": "IWM",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "4 models called IWM down."
+    },
+    {
+      "ticker": "AMZN",
+      "models_agreeing": [
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "down",
+      "outcome": "pending",
+      "note": "3 models called AMZN down."
+    },
+    {
+      "ticker": "BTC-USD",
+      "models_agreeing": [
+        "Grok 4.3",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models called BTC-USD up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_hermes-4-405b_20261119_002",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "QQQ",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (80%). Scored after the close."
+  },
+  "worst_call": null
+}

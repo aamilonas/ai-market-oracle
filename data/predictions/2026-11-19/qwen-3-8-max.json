@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-19",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-19T18:59:18.825091+00:00",
+  "market_context": "U.S. equities are lower after Anthropic's blockbuster IPO debut triggered profit-taking in AI and technology names despite an initial pop, while volatility spiked and long-term rate concerns persisted (cnbc.com, investing.com). The S&P 500 is pressing intraday lows and heading toward a sixth straight loss, with technical leadership weakening across chips and mega-cap AI names (apnews.com).",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 717.3,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY has already fallen 1.34% to $720.42 after opening near $737.46 and hitting a low of $717.55, showing that the Anthropic IPO has triggered broad profit-taking rather than renewed strength ([finance.yahoo.com). With the VIX up sharply and the S&P 500 near session lows, continued risk-off pressure into the close is more likely than a full V-shaped recovery (stockmarketwatch.com).",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.5,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "QQQ is down 1.45% and trading near its intraday low after tech names gave up early gains when Anthropic began trading (cnbc.com). Weakness in semiconductor and AI-related names, including Nvidia and Broadcom, suggests the tech-heavy index can drift lower into the close (investing.com).",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261119_003",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 264.2,
+      "model_reported_price": 265.94,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Small caps are participating in the broad risk-off move, with IWM already down 1.55% and market commentary noting synchronized weakness across blue chips and small caps (stockmarketwatch.com). Rising volatility and the 10-year yield at 5.05 make a late-day small-cap stabilization less likely.",
+      "current_price_at_prediction": 265.94,
+      "prev_close": 270.12,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261119_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 146.8,
+      "model_reported_price": 148.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is down 1.62% and has fallen 10.6% over five days, reflecting continued pressure on the former AI leadership trade even amid the Anthropic IPO event (finance.yahoo.com). Reports of ongoing AI valuation concerns and prior weakness in chip stocks suggest further downside risk into the close (investing.com).",
+      "current_price_at_prediction": 148.51,
+      "prev_close": 150.96,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html",
+      "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-19",
+      "https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140",
+      "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-up.html?.tsrc=rss",
+      "https://www.wallstsavage.com/morning-market-notes-11-19-26/",
+      "https://stockmarketwatch.com/live/stock-market-today",
+      "https://www.investing.com/news/commodities-news/morning-bid-antics-5038473"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 91.6,
+    "prompt_tokens": 5146,
+    "completion_tokens": 4298,
+    "cost_usd": 0.04308,
+    "finished_at": "2026-11-19T18:59:18.825091+00:00",
+    "normalization_issues": []
+  }
+}

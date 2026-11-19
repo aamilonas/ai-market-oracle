@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-19",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-19T18:57:58.342094+00:00",
+  "market_context": "The market is experiencing significant volatility today, with major indices like SPY and QQQ down over 1% intraday amid the highly anticipated Anthropic IPO. Despite initial optimism and pre-market gains, the IPO's debut has triggered profit-taking and a broad-based sell-off, particularly in tech stocks, with the VIX spiking above 26.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261119_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "model_reported_price": 720.42,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The S&P 500 ETF is under pressure from the Anthropic IPO aftermath, with the index falling below its 200-day moving average. The VIX surge to 26.78 indicates elevated fear, and the broad sell-off in tech stocks suggests further downside risk into the close.",
+      "current_price_at_prediction": 720.42,
+      "prev_close": 730.2,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261119_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 645.0,
+      "model_reported_price": 649.92,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq-heavy QQQ is experiencing sharper declines than SPY, down 1.45% intraday, as tech leaders like NVDA, MSFT, and META retreat from morning highs. The IPO-driven volatility and sector rotation out of tech increase the likelihood of further losses.",
+      "current_price_at_prediction": 649.92,
+      "prev_close": 659.51,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261119_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 146.5,
+      "model_reported_price": 148.51,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "NVIDIA is down 1.62% today and 10.6% over the last five days, underperforming peers amid CEO transition concerns. The broader tech sell-off and profit-taking after the Anthropic IPO suggest continued pressure into the close.",
+      "current_price_at_prediction": 148.51,
+      "prev_close": 150.96,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-19T13:57:43.928879-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html",
+      "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-19",
+      "https://www.cnbc.com/quotes/IWM,UWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://www.wallstsavage.com/morning-market-notes-11-19-26/",
+      "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-up.html?.tsrc=rss",
+      "https://www.cnbc.com/quotes/IWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://www.benzinga.com/etfs/sector-etfs/26/11/63437748/technology-only-sector-higher-thursday-as-defensives-fall",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-19"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 13.4,
+    "prompt_tokens": 4892,
+    "completion_tokens": 453,
+    "cost_usd": 0.013251,
+    "finished_at": "2026-11-19T18:57:58.342094+00:00",
+    "normalization_issues": []
+  }
+}
