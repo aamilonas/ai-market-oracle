@@ -1,9 +1,9 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T15:55:34.917257+00:00",
+  "generated_at": "2026-11-20T22:30:12.197205+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Models split on index direction as scoring awaits the close",
-  "summary": "No results are scored yet, so no model leads the board. Most models called SPY and QQQ down (8 down, 1 up on each), NVDA down 7 to 1, and DIA up 4 to 1, while five models agreed BTC-USD would fall. Hermes 4 405B's 85% NVDA call is the morning's highest-conviction pick, and it will be scored after the close.",
+  "headline": "DeepSeek Leads as BTC Bears Win; Equity Calls Split Across Models",
+  "summary": "DeepSeek V4 Pro topped the board at 3.85, with its BTC-USD down call scoring highest at 1.2. Five models agreed BTC-USD would fall, and it was the day's only correct consensus. Most models leaned bearish on SPY, QQQ, and NVDA, but Claude Sonnet 5.5's SPY up call scored lowest at -0.55.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -36,7 +36,7 @@
         "Kimi K3.1 Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "5 models called BTC-USD down."
     },
     {
@@ -48,11 +48,17 @@
     }
   ],
   "best_call": {
-    "prediction_id": "pred_hermes-4-405b_20261120_003",
-    "model_display_name": "Hermes 4 405B",
-    "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+    "prediction_id": "pred_deepseek-v4-pro_20261120_005",
+    "model_display_name": "DeepSeek V4 Pro",
+    "ticker": "BTC-USD",
+    "score": 1.2,
+    "summary": "DeepSeek V4 Pro's BTC-USD down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_claude-sonnet-5-5_20261120_001",
+    "model_display_name": "Claude Sonnet 5.5",
+    "ticker": "SPY",
+    "score": -0.55,
+    "summary": "Claude Sonnet 5.5's SPY up call scored lowest today."
+  }
 }
