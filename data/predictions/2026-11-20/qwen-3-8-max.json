@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-20",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-20T15:55:27.179709+00:00",
+  "market_context": "Anthropic's record IPO is failing to calm AI financing and safety concerns, leaving S&P 500 and Nasdaq lower while the Dow attempts a defensive bounce finance.yahoo.com marketwatch.com. VIX has touched above 30 and semiconductor megacaps are under heavy pressure, suggesting fragile risk appetite into the close investing.com investopedia.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261120_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 706.5,
+      "model_reported_price": 708.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY is already down about 1.1% after six consecutive S&P 500 losses and continued AI safety/financing worries [finance.yahoo.com. Elevated VIX above 30 and weak tech leadership make a modest drift into the close more likely than a full recovery investing.com.",
+      "current_price_at_prediction": 708.07,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261120_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 626.5,
+      "model_reported_price": 629.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nasdaq pressure is concentrated in AI/chip names, with NVDA sharply lower and AMD also breaking down intraday stocksetups.com. Anthropic's post-IPO pullback reinforces concerns about AI valuation and financing, which can keep QQQ near session lows investopedia.com.",
+      "current_price_at_prediction": 629.27,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261120_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 492.0,
+      "model_reported_price": 491.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "The Dow is showing relative resilience as rotation away from high-beta tech supports value/blue-chip names marketwatch.com. DIA is modestly positive on the day despite Nasdaq weakness, so a small positive close is possible if the tech selloff does not spread further finance.yahoo.com.",
+      "current_price_at_prediction": 491.12,
+      "prev_close": 490.79,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-anthropic-ipo-second-day-trading",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html?.tsrc=rss",
+      "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11202026-12266027",
+      "https://schwabnetwork.com/articles/friday-wrap-liquidity-grab-deepens-as-ai-selloff-spreads",
+      "https://www.investing.com/news/stock-market-news/wall-streets-fear-gauge-touches-sevenmonth-high-as-ai-worries-mount-5041172",
+      "https://stocksetups.com/today",
+      "https://www.home.saxo/content/articles/macro/market-quick-take---asian-stocks-tumble-after-wall-streets-sixth-straight-decline---20-november-2026-20112026"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 183.5,
+    "prompt_tokens": 5293,
+    "completion_tokens": 7922,
+    "cost_usd": 0.065118,
+    "finished_at": "2026-11-20T15:55:27.179709+00:00",
+    "normalization_issues": []
+  }
+}

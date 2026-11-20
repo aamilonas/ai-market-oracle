@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-20",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-20T15:52:32.745814+00:00",
+  "market_context": "The AI selloff is deepening. Anthropic's IPO and Nvidia's earnings failed to revive the trade, and Nvidia is heading for a seventh straight day of losses. Nvidia's CEO Jensen Huang resigned, and markets now price a December Fed rate hike. The 10Y yield is near 4.95%, VIX is about 30, the S&P 500 is on a long losing streak, and strategists call the market very oversold. Today is also monthly options expiration, and an FOMC press release is due at 2:00 PM ET.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261120_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 711.0,
+      "model_reported_price": 708.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is already down 1.09% and near its day low of $706.42. The market is oversold after a six-session losing streak, and Deutsche Bank calls it very oversold. Falling yields and a Dow that is holding up point to a modest late-day bounce, though momentum is negative.",
+      "current_price_at_prediction": 708.07,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261120_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 632.0,
+      "model_reported_price": 629.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "QQQ is down 2.44% and near its low of $626.27. It is down 7.5% over five days, and about 70% of Nasdaq 100 stocks are in bear-market territory. A partial mean-reversion bounce into the close is slightly more likely than another leg down.",
+      "current_price_at_prediction": 629.27,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261120_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 139.0,
+      "model_reported_price": 136.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "NVDA is down 6.2% today and 35% in a month, trading near its low of $135.62 on a six-day losing streak. Analysts see short-term rebound targets of $170-180, and the stock is deeply oversold after record revenue. The call is close to a coin flip because the selling pressure is still intense.",
+      "current_price_at_prediction": 136.96,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261120_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58800.0,
+      "model_reported_price": 59546.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC is at a new intraday low, down 3.8% today and 8.8% over five days, below $62k with risk-off sentiment across assets. Momentum and the global equity rout favor continued weakness.",
+      "current_price_at_prediction": 59546.3,
+      "prev_close": 61901.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.9,
+    "prompt_tokens": 24953,
+    "completion_tokens": 1209,
+    "cost_usd": 0.071996,
+    "finished_at": "2026-11-20T15:52:32.745814+00:00",
+    "normalization_issues": []
+  }
+}

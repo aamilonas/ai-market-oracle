@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-20",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-20T15:52:36.916298+00:00",
+  "market_context": "Broad market selloff continues with SPY down 1.09% and QQQ down 2.44% intraday, driven by ongoing AI sector concerns and tech weakness. VIX has spiked above 30 for the first time since March, indicating elevated market fear as major indexes head toward their worst week since April 2025.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261120_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "model_reported_price": 708.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is already down 1.09% today amid broad market weakness, with VIX above 30 signaling continued fear. The S&P 500 is on track for its seventh consecutive down day, and with no major positive catalysts expected, downward momentum is likely to persist toward the lower end of today's range.",
+      "current_price_at_prediction": 708.07,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261120_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 625.0,
+      "model_reported_price": 629.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Tech stocks continue to lead the selloff with QQQ down 2.44% today and NVDA down over 6%. The Nasdaq is on pace for its worst week since April 2025, and with chip stocks under particular pressure, QQQ is likely to extend losses toward support levels near today's lows.",
+      "current_price_at_prediction": 629.27,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261120_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 134.0,
+      "model_reported_price": 136.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "NVIDIA is down sharply today (-6.18%) amid ongoing concerns about AI stock valuations and leadership transition. The stock has lost 15.9% over the past 5 days and is likely to continue underperforming as the tech selloff intensifies, potentially testing the lower end of its daily range near $135.",
+      "current_price_at_prediction": 136.96,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html?.tsrc=rss",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-anthropic-ipo-second-day-trading",
+      "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11202026-12266027",
+      "https://www.almfirst.com/resources/beyond-the-headlines/november-20-2026-headlines",
+      "https://stocksetups.com/today",
+      "https://www.xtb.com/en/market-analysis/economic-calendar-final-us-consumer-sentiment-data-and-speeches-by-fed-officials",
+      "https://seekingalpha.com/news/4674623-fridays-economic-calendar?feed_item_type=news"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 15.0,
+    "prompt_tokens": 4695,
+    "completion_tokens": 486,
+    "cost_usd": 0.013153,
+    "finished_at": "2026-11-20T15:52:36.916298+00:00",
+    "normalization_issues": []
+  }
+}

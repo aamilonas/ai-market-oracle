@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-20",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-20T15:52:46.324709+00:00",
+  "market_context": "Markets are under intense pressure across technology and risk assets as post-Anthropic IPO liquidity absorption and semiconductor regulatory scrutiny fuel widespread de-risking. With the VIX jumping above 30, 10-year Treasury yields anchored near multi-month highs at 4.95%, and heightened weekend geopolitical tension, dip-buying appetite remains muted into the weekly close.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261120_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 624.8,
+      "model_reported_price": 629.27,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Large-cap tech continues to suffer severe outflows as capital reallocation around AI names triggers systemic rebalancing and dealer delta-hedging. Trading near morning lows with the VIX elevated above 30, institutional desks are unlikely to step in aggressively ahead of the weekend, setting up a retest of the session low.",
+      "current_price_at_prediction": 629.27,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261120_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "model_reported_price": 708.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "The benchmark index remains vulnerable as selling pressure broadens beyond mega-cap tech into cyclical sectors. Elevated benchmark Treasury yields at 4.95% and surging implied asset correlations indicate persistent liquidation into Friday's closing bell.",
+      "current_price_at_prediction": 708.07,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261120_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 134.8,
+      "model_reported_price": 136.96,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Semiconductor equities are enduring the brunt of the market-wide tech rotation amid growing capex sustainability debates and trade restriction headwinds. With options expiration dynamics active and the stock hovering just above session support, late-session capitulation will likely drag shares beneath $135.00.",
+      "current_price_at_prediction": 136.96,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261120_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58800.0,
+      "model_reported_price": 59546.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin's breakdown below the key $60000 psychological baseline has triggered long liquidations and amplified cross-asset risk-off sentiment. With high-yield credit spreads widening and tech sentiment deteriorating, crypto momentum is heavily biased toward further intraday downside.",
+      "current_price_at_prediction": 59546.3,
+      "prev_close": 61901.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-20T10:52:18.759320-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOcsBy9aRXfl73nc_pu5FdeRYxrDbw1ejLWCVkqn9OVO3un5jd6dPqnfp2P3u5qlXWBrmk7TUomY5WwRBheFZSdXjY0v_npEjqrQhLQljyd7TRtFtnUUDElDsRs9HTRs0J6e1n0uZkFaGFKhsutlvFUPLkMOaf9fnqtFwPE8jwB2g-fNrGbigdlO3E0cWORZikPM09vOi_3vXHnPIqwN4gLBByPM9JgR47kVxx1rpDsLlF9LfFILxY6PE5Ro3XPqacGqxJB6i4-z4zKI6UVjkBajGX3EB4C5uZJbde8XZVAccG6Ai4",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB4UtulvgvykOY_rTc3RwUr1j5FPCxIuRx5xaxgXoHECYPG2iYuoSzbl2ck3FkDnkVEI27AmLBmVa7lO5Gw7J5EpgEHF2q4fuGkfOpD2Xnm5mzq_hXSLlbuvem7AbRpr36Km4F-fYmBL9rv0jVVbsNJYYGu-RC72hFKmyVrX_kI3L_sNqVbdHm3xG4rgTCBIziRqMpNQlwnQ12Dqw20pmOdA-83_qJg6NfWW8jTQdjnTxRl48=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYwvm9Qf5l79R6LjtOik7XsDYZAOzibc4qd56p__UwWixb-FtjFO-EZHEQQ6QS5EST3jmfDSW_iEa0cLPBn2IQmrBaXEDyaT8PXVp-BfHrxe68O4fLvcCVLp4Qo_4qdsPRL7LP03fDH8fcWhVh3C5o1SiCFNikLqDFgoHWTy15ETOyss7Sv1Oi5rlDucScB4RGYZ5OvgF0LIcm3U3SlbZBo6wKJi8BNSrxxM7RhGW4",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtkg-ubG0Bj9nXyVo_JXhBqJyqJyXwObHRwhPpTba3b0gbdt_UREVcRWFaGR2PQy5zv1vB721zZqFU5YMC5zZe871sct_q3u2otTyzYEjZGooF5Kw6WYGwBNg8Oh6Ufd-YT57O3-nnVJ9MaIFQXeEtlVbt7mvd7cONqu0DCTrRw-4lsHHXhnz_baZ1kTyj6Ar_8Mcde7JGhAUFC2TJb6dGpOeVpYP4lTMFnOsE2DiIsLG1KAIr1mFW-SjNORbGqPHM9i_4dEu0EtU="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 24.5,
+    "prompt_tokens": 1676,
+    "completion_tokens": 3280,
+    "cost_usd": 0.041557,
+    "finished_at": "2026-11-20T15:52:46.324709+00:00",
+    "normalization_issues": []
+  }
+}
