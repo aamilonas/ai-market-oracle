@@ -215,12 +215,12 @@
       "predicted_direction": "down",
       "predicted_target": 596.5,
       "baseline_price": 600.79,
-      "actual_close": NaN,
+      "actual_close": 596.22,
       "actual_direction": "down",
       "direction_correct": true,
-      "target_accuracy": NaN,
+      "target_accuracy": 0.9995,
       "confidence_at_prediction": 0.64,
-      "score": 0.64,
+      "score": 1.14,
       "status": "resolved"
     },
     {

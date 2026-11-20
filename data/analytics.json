@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:34:52.318097+00:00",
+  "generated_at": "2026-11-20T21:21:09.591152+00:00",
   "data_range": {
     "first_date": "2026-10-29",
     "last_date": "2026-11-19",
@@ -381,7 +381,7 @@
             "predictions": 2,
             "correct": 1,
             "accuracy": 0.5,
-            "total_score": 0.0,
+            "total_score": 0.5,
             "avg_confidence": 0.64
           },
           {
@@ -896,7 +896,7 @@
             "predictions": 25,
             "correct": 13,
             "accuracy": 0.52,
-            "total_score": 5.99
+            "total_score": 6.49
           },
           {
             "model": "Grok 4.3",
@@ -2178,8 +2178,8 @@
           "predictions": 4
         },
         "Gemini 3.8 Flash": {
-          "daily_score": 4.14,
-          "cumulative_score": 16.78,
+          "daily_score": 4.64,
+          "cumulative_score": 17.28,
           "accuracy": 1.0,
           "predictions": 4
         },
@@ -2940,8 +2940,8 @@
         "accuracy": 0.5156,
         "accuracy_lower_bound": 0.3958,
         "brier_score": 0.2659,
-        "avg_return_pct": NaN,
-        "total_return_pct": NaN
+        "avg_return_pct": -0.1196,
+        "total_return_pct": -7.65
       },
       {
         "model": "Grok 4.3",
@@ -3066,7 +3066,7 @@
         "correct": 33,
         "accuracy": 0.5156,
         "accuracy_lower_bound": 0.3958,
-        "avg_return_pct": NaN
+        "avg_return_pct": -0.1196
       },
       {
         "models": [

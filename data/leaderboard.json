@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T15:55:37.736729+00:00",
+  "last_updated": "2026-11-20T21:21:09.304304+00:00",
   "trading_days": 17,
   "models": [
     {
@@ -94,8 +94,8 @@
       "total_predictions": 64,
       "correct_directions": 33,
       "direction_accuracy": 0.5156,
-      "total_score": 16.78,
-      "avg_score": 0.2622,
+      "total_score": 17.28,
+      "avg_score": 0.27,
       "avg_confidence": 0.6403,
       "days_predicted": 17,
       "current_streak": 6,
@@ -122,7 +122,7 @@
         },
         {
           "week": "2026-W47",
-          "score": 5.37,
+          "score": 5.87,
           "predictions": 16,
           "accuracy": 0.5625
         }
