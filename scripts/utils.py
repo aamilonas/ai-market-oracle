@@ -64,10 +64,21 @@ def load_json(path: Path) -> Any:
         return json.load(f)
 
 
+def _finite(value: Any) -> Any:
+    """Replace NaN/Infinity with None: they aren't valid JSON and break the site."""
+    if isinstance(value, float) and (value != value or value in (float("inf"), float("-inf"))):
+        return None
+    if isinstance(value, dict):
+        return {k: _finite(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_finite(v) for v in value]
+    return value
+
+
 def save_json(path: Path, data: Any, indent: int = 2):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=indent, ensure_ascii=False)
+        json.dump(_finite(data), f, indent=indent, ensure_ascii=False, allow_nan=False)
 
 
 def sync_to_public(src: Path):

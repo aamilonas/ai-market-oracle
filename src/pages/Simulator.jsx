@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { loadSimulator, MODEL_COLORS } from '../data/useData'
 import styles from './Simulator.module.css'
 
@@ -33,6 +34,11 @@ export default function Simulator() {
         <p className={styles.tagline}>
           Auto-trades the daily consensus pick — entering at the 9:30 AM open, exiting at the
           4:00 PM close. Started with $25,000.
+        </p>
+        <p className={styles.caveat}>
+          Trades before Nov 20, 2026 were picked hours after the open but still filled at the
+          9:30 open, so their gains include moves the models had already seen. The{' '}
+          <Link to="/experiment">timing experiment</Link> measures this honestly, from Nov 23.
         </p>
       </section>
 

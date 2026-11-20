@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ACTIVE_MODELS, WEB_SEARCH_LABELS } from '../data/useData'
 import SYSTEM_PROMPT from '../../scripts/prompts/prediction_system.txt?raw'
 import USER_PROMPT from '../../scripts/prompts/prediction_user.txt?raw'
@@ -19,6 +20,11 @@ export default function Methodology() {
             <span className={styles.scheduleTime}>9:00 AM ET</span>
             <span className={styles.scheduleLabel}>Predictions Generated</span>
             <p className={styles.scheduleDesc}>All {ACTIVE_MODELS.length} models are queried in parallel with the identical prompt, built around a single Yahoo Finance snapshot taken before any model is called.</p>
+          </div>
+          <div className={styles.scheduleCard}>
+            <span className={styles.scheduleTime}>10:00 AM ET</span>
+            <span className={styles.scheduleLabel}>Timing Experiment</span>
+            <p className={styles.scheduleDesc}>The same models are asked again after the opening rush. This run never counts toward the scoreboard. Its consensus trade is compared with the 9:00 one on the <Link to="/experiment">Experiment</Link> page.</p>
           </div>
           <div className={styles.scheduleCard}>
             <span className={styles.scheduleTime}>5:30 PM ET</span>

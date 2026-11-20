@@ -38,6 +38,10 @@ export async function loadSimulator() {
   return fetchJSON('data/simulator.json')
 }
 
+export async function loadExperiment() {
+  return fetchJSON('data/experiments/timing.json')
+}
+
 export async function loadTodaysWinner() {
   return fetchJSON('data/winner-today.json')
 }

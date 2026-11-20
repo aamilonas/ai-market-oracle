@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import ModelPage from './pages/ModelPage'
 import Scoreboard from './pages/Scoreboard'
 import Simulator from './pages/Simulator'
+import Experiment from './pages/Experiment'
 import Weekly from './pages/Weekly'
 import Methodology from './pages/Methodology'
 import Analytics from './pages/Analytics'
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/scoreboard" element={<Scoreboard />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/simulator" element={<Simulator />} />
+          <Route path="/experiment" element={<Experiment />} />
           <Route path="/weekly" element={<Weekly />} />
           <Route path="/methodology" element={<Methodology />} />
           <Route path="/about" element={<About />} />

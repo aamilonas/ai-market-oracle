@@ -8,7 +8,8 @@ after the open, while the simulator fills every trade at the 9:30 open.
 | Job | When (ET) | What |
 |---|---|---|
 | morning | 9:00 AM Mon–Fri | `generate.py` → daily summary → leaderboard participation → push |
-| evening | 5:30 PM Mon–Fri | `score.py` → daily summary (`--force`) → `analytics.py` → push |
+| late | 10:00 AM Mon–Fri | `generate.py --experiment late` (timing experiment's second run) → push |
+| evening | 5:30 PM Mon–Fri | `score.py` → `experiments.py` (settle the timing experiment) → daily summary (`--force`) → `analytics.py` → push |
 | weekly | 10:00 AM Sat | `summarize.py --weekly` → push |
 
 The VPS pushes to master with its own deploy key, and that push triggers
@@ -46,6 +47,7 @@ less /var/log/ai-market-oracle/$(date +%F)-morning.log
 # Manual runs (args go to the main script, same as the old workflow_dispatch inputs)
 /opt/ai-market-oracle/bin/run-job.sh morning --dry-run
 /opt/ai-market-oracle/bin/run-job.sh morning --models qwen-3-8-max --overwrite
+/opt/ai-market-oracle/bin/run-job.sh late --dry-run
 /opt/ai-market-oracle/bin/run-job.sh evening --date 2026-11-20
 /opt/ai-market-oracle/bin/run-job.sh weekly --week 2026-W47 --force
 ```

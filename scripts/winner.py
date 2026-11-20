@@ -41,9 +41,13 @@ DEFAULT_WINNER = {
 }
 
 
-def select_todays_winner(date_str):
-    """Find the highest-conviction stock pick where enough models agree."""
-    pred_dir = PREDICTIONS_DIR / date_str
+def select_todays_winner(date_str, pred_dir=None):
+    """Find the highest-conviction stock pick where enough models agree.
+
+    pred_dir defaults to the day's main predictions; the timing experiment's 10 AM
+    run passes its own folder.
+    """
+    pred_dir = pred_dir or PREDICTIONS_DIR / date_str
     if not pred_dir.exists():
         log.warning(f"No predictions directory for {date_str}")
         return None

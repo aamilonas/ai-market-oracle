@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
-# Run one AI Market Oracle job on the VPS: morning | evening | weekly.
+# Run one AI Market Oracle job on the VPS: morning | late | evening | weekly.
 #
-# Mirrors .github/workflows/{morning,evening,weekly}.yml, minus the npm build:
-# GitHub Pages rebuilds on every push to master via deploy.yml.
+# morning, evening and weekly mirror .github/workflows/{morning,evening,weekly}.yml,
+# minus the npm build: GitHub Pages rebuilds on every push to master via deploy.yml.
+# late is the 10 AM run of the timing experiment (scripts/experiments.py).
 #
-# Usage: run-job.sh <morning|evening|weekly> [--at HH] [args for the main script]
+# Usage: run-job.sh <morning|late|evening|weekly> [--at HH] [args for the main script]
 #   --at HH   run only if the current America/New_York hour is HH. Cron on this box
 #             runs in UTC, so each job is scheduled at both its EDT and its EST UTC
 #             hour and this guard lets exactly one of the two through.
 #   e.g. run-job.sh morning --date 2026-11-20 --models sonar-pro --overwrite
 #        run-job.sh morning --dry-run          (calls the models, saves nothing)
+#        run-job.sh late --dry-run             (the 10 AM run, saves nothing)
 #        run-job.sh weekly --week 2026-W47 --force
 #
 # Installed at /opt/ai-market-oracle/bin/run-job.sh; source of truth is
@@ -22,13 +24,13 @@ REPO=$BASE/repo
 PY=$BASE/venv/bin/python
 LOG_DIR=/var/log/ai-market-oracle
 
-JOB=${1:?usage: run-job.sh <morning|evening|weekly> [--at HH] [args...]}
+JOB=${1:?usage: run-job.sh <morning|late|evening|weekly> [--at HH] [args...]}
 shift
 if [ "${1:-}" = "--at" ]; then
   [ "$(date +%H)" = "${2:?--at needs an hour}" ] || exit 0
   shift 2
 fi
-case $JOB in morning|evening|weekly) ;; *) echo "unknown job: $JOB" >&2; exit 2 ;; esac
+case $JOB in morning|late|evening|weekly) ;; *) echo "unknown job: $JOB" >&2; exit 2 ;; esac
 
 DATE="" DRY_RUN=0 prev=""
 for arg in "$@"; do
@@ -82,6 +84,26 @@ commit_and_push() {
   return 1
 }
 
+generate_job() {  # generate_job <step name> <commit message> [generate.py args...]
+  local name=$1 message=$2; shift 2
+  # generate.py reports failed models through GITHUB_OUTPUT, as it does in Actions.
+  export GITHUB_OUTPUT
+  GITHUB_OUTPUT=$(mktemp)
+  # As in the workflow, a failed generate step skips everything after it.
+  if step "$name" in_scripts "$PY" generate.py "$@" && [ $DRY_RUN -eq 0 ]; then
+    if [ "$JOB" = morning ]; then
+      step "Daily summary" in_scripts "$PY" summarize.py --daily ${DATE:+--date "$DATE"}
+      step "Leaderboard participation" "$PY" -c \
+        "import sys; sys.path.insert(0, 'scripts'); from score import update_leaderboard; update_leaderboard()"
+    fi
+    step "Sync data to public" sync_public
+    step "Commit and push" commit_and_push "$message"
+  fi
+  FAILED_MODELS=$(sed -n 's/^failed_models=//p' "$GITHUB_OUTPUT" | tail -1)
+  [ -n "$FAILED_MODELS" ] && ERRORS+=("models failed to generate predictions: $FAILED_MODELS")
+  rm -f "$GITHUB_OUTPUT"
+}
+
 finish() {
   local status=OK
   if [ ${#ERRORS[@]} -gt 0 ]; then
@@ -107,23 +129,14 @@ export PYTHONUNBUFFERED=1
 
 case $JOB in
   morning)
-    # generate.py reports failed models through GITHUB_OUTPUT, as it does in Actions.
-    export GITHUB_OUTPUT
-    GITHUB_OUTPUT=$(mktemp)
-    # As in the workflow, a failed generate step skips everything after it.
-    if step "Generate predictions" in_scripts "$PY" generate.py "$@" && [ $DRY_RUN -eq 0 ]; then
-      step "Daily summary" in_scripts "$PY" summarize.py --daily ${DATE:+--date "$DATE"}
-      step "Leaderboard participation" "$PY" -c \
-        "import sys; sys.path.insert(0, 'scripts'); from score import update_leaderboard; update_leaderboard()"
-      step "Sync data to public" sync_public
-      step "Commit and push" commit_and_push "🤖 Morning predictions — $LABEL_DATE"
-    fi
-    FAILED_MODELS=$(sed -n 's/^failed_models=//p' "$GITHUB_OUTPUT" | tail -1)
-    [ -n "$FAILED_MODELS" ] && ERRORS+=("models failed to generate predictions: $FAILED_MODELS")
-    rm -f "$GITHUB_OUTPUT"
+    generate_job "Generate predictions" "🤖 Morning predictions — $LABEL_DATE" "$@"
+    ;;
+  late)
+    generate_job "10 AM experiment predictions" "🧪 10 AM experiment — $LABEL_DATE" --experiment late "$@"
     ;;
   evening)
     step "Score predictions" in_scripts "$PY" score.py "$@"
+    step "Settle timing experiment" in_scripts "$PY" experiments.py ${DATE:+--date "$DATE"}
     step "Daily summary (post-scoring)" "$PY" scripts/summarize.py --daily --force ${DATE:+--date "$DATE"}
     step "Analytics" "$PY" scripts/analytics.py
     step "Sync data to public" sync_public

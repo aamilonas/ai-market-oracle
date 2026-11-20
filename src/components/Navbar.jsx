@@ -6,6 +6,7 @@ const links = [
   { to: '/scoreboard', label: 'Scoreboard' },
   { to: '/analytics', label: 'Analytics' },
   { to: '/simulator', label: 'Simulator' },
+  { to: '/experiment', label: 'Experiment' },
   { to: '/weekly', label: 'Weekly' },
   { to: '/methodology', label: 'Methodology' },
   { to: '/about', label: 'About' },

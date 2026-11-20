@@ -142,7 +142,8 @@ reachable information and is not controlled for. See §12.
 | Phase | Timing | What happens |
 |---|---|---|
 | Morning | 9:00 AM ET, weekdays (pre-market) | One market snapshot taken. All 9 models queried **in parallel** with the identical prompt. Predictions, costs, latencies, sources, failures recorded. Consensus trade selected and opened. |
-| Evening | After the close, weekdays | Official closes fetched. All of the day's predictions scored. Leaderboard and analytics recomputed. Open trade closed. |
+| Timing experiment | 10:00 AM ET, weekdays (since 2026-11-23) | The same 9 models and prompt run again, saved separately (never scored on the leaderboard). Its consensus trade is the 10:00 side of the timing experiment (§9.1). |
+| Evening | After the close, weekdays | Official closes fetched. All of the day's predictions scored. Leaderboard and analytics recomputed. Open trade closed. Timing experiment settled. |
 | Weekly | Saturdays | Narrative report: day-by-day chapters, standings, notable calls. |
 
 Models are queried **simultaneously, not sequentially**, so none can see another's answer
@@ -530,6 +531,33 @@ at prediction time), so trade P&L and prediction score can disagree.
 All-in sizing with no risk control is a stress test, not a strategy. It will produce
 violent equity swings, and on a 3× leveraged instrument it can approach ruin. See §15.
 
+### 9.1 The timing experiment (from 2026-11-23)
+
+The GitHub-era caveat above turned out to explain most of the simulator's early profit.
+Over the 15 trades closed by 2026-11-19, the 9:30-open entry made +20.0% (sum of daily
+returns), but +19.2% of that came from moves between the open and the moment the models
+were asked. From the pick to the close, the same trades made +0.8%, winning 7 of 15. So it
+is open which time of day, if any, gives a tradeable edge. Four strategies now run side by
+side, each starting with $25,000, all-in, one position a day, sold at the close, no costs
+(`scripts/experiments.py`, ledger `data/experiments/timing.json`, the Experiment page):
+
+| Strategy | Signal | Entry |
+|---|---|---|
+| 9:00 AM pick | the morning run's consensus trade (rules above) | the 9:30 open; counts only if the picks land before 9:30 |
+| 10:00 AM pick | a second run of the same models at 10:00 AM, consensus by the same rules | the live price fetched once every model has answered; counts only if that is between 9:45 and 11:00 |
+| Buy SPY | none (benchmark) | SPY at the open, every trading day |
+| Yesterday's mover | none (benchmark): of AAPL, MSFT, NVDA, TSLA, AMZN, GOOGL, META, the one with the largest prior-day move, traded in that direction | the open, every trading day |
+
+A day's pick is locked when first recorded, so reruns cannot replace it. A run that misses
+its window, fails, or finds no consensus is logged as a day without a trade, never filled at
+a price the models had already seen. Because each side trades at most once a day, the
+experiment also scores **every** stock and ETF prediction from each run against the price
+you could have bought at (the 9:30 open, or the post-answer price) to the close. That gives
+a faster read on which time of day the models call better.
+
+Expect roughly 25 trades a side, about five to six weeks, before the comparison means much.
+With 25 trades, a 60% win rate is within one standard deviation of a coin flip.
+
 ## 10. Every threshold in one place
 
 | Threshold | Value | Where |
@@ -659,6 +687,10 @@ inflates variance and makes cross-day comparison inexact. Nothing currently norm
 this. From 2026-11-20, pre-market runs give every day a full-session horizon.
 
 ### 12.5 No benchmark to beat
+
+*Partly addressed 2026-11-23:* the timing experiment (§9.1) compares the consensus trade
+with buying SPY and with a one-day momentum rule. Prediction accuracy on the leaderboard is
+still not compared against any naive baseline.
 
 Nothing is compared against a naive strategy — always-up, random, momentum, or
 buy-and-hold. Without a reference, "55% directional accuracy" is uninterpretable, because

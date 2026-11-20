@@ -16,7 +16,7 @@ export default function About() {
         </p>
         <p>
           Over time, a leaderboard emerges showing which AI model is the most accurate
-          market forecaster. The results are updated automatically via GitHub Actions
+          market forecaster. The results are updated automatically by scheduled jobs
           with no human intervention after initial deployment.
         </p>
       </section>
@@ -61,7 +61,7 @@ export default function About() {
         <div className={styles.stackGrid}>
           {[
             { label: 'Frontend', value: 'React + Vite, deployed to GitHub Pages' },
-            { label: 'Automation', value: 'Python scripts on cron (3 jobs) on a small server; GitHub Actions deploys the site' },
+            { label: 'Automation', value: 'Python scripts on cron (4 jobs) on a small server; GitHub Actions deploys the site' },
             { label: 'Model Access', value: 'OpenRouter — one API for every model' },
             { label: 'Data', value: 'JSON files committed directly to the repo — no database' },
             { label: 'Market Data', value: 'yfinance (Yahoo Finance), plus FRED’s economic release calendar' },

@@ -33,6 +33,21 @@
   line-height: 1.5;
 }
 
+.caveat {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  line-height: 1.5;
+  border-left: 2px solid #c98500;
+  padding-left: 0.75rem;
+}
+
+.caveat a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .sectionTitle {
   font-size: 0.9rem;
   font-weight: 700;

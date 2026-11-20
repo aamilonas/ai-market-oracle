@@ -1,5 +1,6 @@
 """Fetch actual market closing prices via yfinance."""
 
+import math
 import time
 from datetime import date, datetime, timedelta
 from typing import Optional
@@ -46,11 +47,14 @@ def get_closing_price(ticker: str, target_date: date, retries: int = 3) -> Optio
                 idx_date = idx.date() if hasattr(idx, "date") else idx
                 if idx_date == target_date:
                     close = float(hist.loc[idx, "Close"])
+                    if not math.isfinite(close) or close <= 0:
+                        # Yahoo sometimes returns a blank (NaN) bar for a day; never score on it
+                        raise ValueError(f"unusable close {close} for {target_date}")
                     log.info(f"{ticker} close on {target_date}: ${close:.2f}")
                     return round(close, 2)
 
             # If exact date not found, take the last available row (for half-days etc.)
-            close = float(hist["Close"].iloc[-1])
+            close = float(hist["Close"].dropna().iloc[-1])
             actual_date = hist.index[-1].date() if hasattr(hist.index[-1], "date") else hist.index[-1]
             log.warning(
                 f"{ticker} ({yf_ticker}): no data for {target_date}, "
@@ -317,6 +321,8 @@ def get_open_price(ticker: str, target_date: date, retries: int = 3) -> Optional
                 idx_date = idx.date() if hasattr(idx, "date") else idx
                 if idx_date == target_date:
                     open_px = float(hist.loc[idx, "Open"])
+                    if not math.isfinite(open_px) or open_px <= 0:
+                        raise ValueError(f"unusable open {open_px} for {target_date}")
                     log.info(f"{ticker} open on {target_date}: ${open_px:.2f}")
                     return round(open_px, 2)
 

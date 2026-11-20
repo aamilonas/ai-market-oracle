@@ -1,6 +1,6 @@
 # AI Market Oracle
 
-Automated platform comparing the market prediction abilities of 9 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs on cron on a VPS (`root@162.243.213.122`, see `deploy/vps/`) — predictions at 9:00 AM ET weekdays (before the open), scoring at 5:30 PM ET, weekly report Saturdays. The VPS pushes to master; GitHub Actions only deploys Pages. Long-term goal: identify which models (or committees of models) to trust as trade signals.
+Automated platform comparing the market prediction abilities of 9 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs on cron on a VPS (`root@162.243.213.122`, see `deploy/vps/`) — predictions at 9:00 AM ET weekdays (before the open), a second timing-experiment run at 10:00 AM ET, scoring at 5:30 PM ET, weekly report Saturdays. The VPS pushes to master; GitHub Actions only deploys Pages. Long-term goal: identify which models (or committees of models) to trust as trade signals.
 
 ## Tech Stack
 
@@ -40,6 +40,7 @@ the model's own claimed price is kept as `model_reported_price`.
 - `scripts/prompts/` — The single prediction prompt every model receives (also shown on the Methodology page)
 - `scripts/openrouter.py`, `scripts/adapters/openrouter_adapter.py` — One adapter for all models
 - `scripts/market_data.py` — yfinance integration for prices
+- `scripts/experiments.py` — Timing experiment (since 2026-11-23): the 9:00 consensus trade filled at the open vs. a 10:00 AM rerun filled at the live price, next to SPY and "yesterday's mover" benchmarks. Ledger in `data/experiments/timing.json`; the 10 AM run's files live in `data/experiments/late/` and never feed the leaderboard. Shown on the Experiment page
 - `scripts/fred_data.py` — Economic calendar for the prompt (FRED release dates + hand-kept FOMC dates; add each new year's FOMC dates)
 - `src/components/` — Reusable React components (each with `.module.css`)
 - `src/pages/` — Route pages (Home, ModelPage, Scoreboard, Weekly/Diary, Methodology, About)

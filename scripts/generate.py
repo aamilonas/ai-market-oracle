@@ -6,6 +6,11 @@ Run on weekday mornings; all models are queried in parallel with the same prompt
 
 Usage:
     python generate.py [--date YYYY-MM-DD] [--models slug1,slug2] [--overwrite] [--dry-run]
+    python generate.py --experiment late    (the 10 AM run of the timing experiment)
+
+--experiment late asks the same models the same prompt, but saves to data/experiments/late/
+so it never touches the leaderboard, scores or the paper simulator. Its consensus pick goes
+to the timing experiment (experiments.py) instead.
 """
 
 import argparse
@@ -27,6 +32,7 @@ from utils import (
     ensure_dirs,
     get_logger,
     is_market_open,
+    load_json,
     save_json,
     sync_to_public,
     today_et,
@@ -181,9 +187,15 @@ def run(
     model_filter: list[str] | None = None,
     overwrite: bool = False,
     dry_run: bool = False,
+    experiment: str | None = None,
 ):
     ensure_dirs()
-    log.info(f"Generating predictions for {date_str}{' (dry run)' if dry_run else ''}")
+    if experiment == "late":
+        from experiments import LATE_PREDICTIONS_DIR as pred_root, LATE_RUNS_DIR as runs_root
+    else:
+        pred_root, runs_root = PREDICTIONS_DIR, RUNS_DIR
+    label = f" for the {experiment} experiment" if experiment else ""
+    log.info(f"Generating predictions{label} for {date_str}{' (dry run)' if dry_run else ''}")
 
     # One market snapshot for every model: it is both what they are shown and what
     # they are scored against, so the two can never disagree.
@@ -215,7 +227,7 @@ def run(
     statuses = {}
     pending = []
     for adapter in adapters:
-        out_file = PREDICTIONS_DIR / date_str / f"{adapter.slug}.json"
+        out_file = pred_root / date_str / f"{adapter.slug}.json"
         # Idempotency by default, with an explicit overwrite path for manual reruns.
         if out_file.exists() and not overwrite and not dry_run:
             log.info(f"{adapter.slug}: already generated, skipping")
@@ -276,7 +288,7 @@ def run(
             if dry_run:
                 print(json.dumps(payload, indent=2))
             elif payload["predictions"]:
-                out_file = PREDICTIONS_DIR / date_str / f"{adapter.slug}.json"
+                out_file = pred_root / date_str / f"{adapter.slug}.json"
                 save_json(out_file, payload)
                 sync_to_public(out_file)
                 log.info(f"{adapter.slug}: saved {len(payload['predictions'])} predictions")
@@ -290,22 +302,63 @@ def run(
         return
 
     # Per-day run record so the site can show which models missed the day and why
-    run_file = RUNS_DIR / f"{date_str}.json"
-    save_json(run_file, {
+    run_record = {
         "date": date_str,
         "prompted_at_et": now_et,
         "models": statuses,
         # The exact context every model was given, so a past day can be audited.
         "market_snapshot": snapshot,
         "market_context": market_context,
-    })
-    sync_to_public(run_file)
+    }
+    if experiment == "late" and pending:
+        # Prices once every model has answered: what you could actually have bought at.
+        try:
+            from market_data import get_market_snapshot
+            post = get_market_snapshot(datetime.strptime(date_str, "%Y-%m-%d").date())
+            run_record["post_answer_snapshot"] = {
+                "fetched_at": post.get("fetched_at"),
+                "quotes": {t: {"last": q["last"]} for t, q in (post.get("quotes") or {}).items()},
+            }
+        except Exception as e:
+            log.warning(f"Could not take the post-answer snapshot (non-fatal): {e}")
+
+    run_file = runs_root / f"{date_str}.json"
+    if run_file.exists() and len(pending) < len(ALL_ADAPTERS):
+        # A partial rerun: keep the day's original record (what most models saw) and
+        # add this rerun to it, instead of replacing it with a record of a few models.
+        try:
+            previous = load_json(run_file)
+        except Exception as e:
+            log.warning(f"Could not read the existing run record, replacing it: {e}")
+            previous = None
+        if previous is not None:
+            if pending:
+                previous["models"] = {**previous.get("models", {}), **{
+                    slug: st for slug, st in statuses.items() if not st.get("skipped")
+                }}
+                previous.setdefault("reruns", []).append({
+                    k: v for k, v in run_record.items() if k not in ("date", "models", "market_context")
+                } | {"models": sorted(a.slug for a in pending)})
+            run_record = previous
+    if pending or not run_file.exists():
+        save_json(run_file, run_record)
+        sync_to_public(run_file)
 
     if ok_count == 0:
         log.error("All models failed — this is a problem")
         sys.exit(1)
 
+    if experiment == "late":
+        try:
+            from winner import select_todays_winner
+            from experiments import record_model_pick
+            record_model_pick("late", date_str, select_todays_winner(date_str, pred_dir=pred_root / date_str))
+        except Exception as e:
+            log.error(f"Timing experiment error (non-fatal): {e}")
+        return
+
     # Select today's winner and open paper trade
+    winner = None
     try:
         from winner import select_todays_winner, save_winner, load_simulator, save_simulator, open_trade, has_open_trade
         winner = select_todays_winner(date_str)
@@ -320,6 +373,13 @@ def run(
             log.info("No consensus winner today — no trade opened")
     except Exception as e:
         log.error(f"Winner/simulator error (non-fatal): {e}")
+
+    # The same pick is the 9:00 side of the timing experiment
+    try:
+        from experiments import record_model_pick
+        record_model_pick("premarket", date_str, winner)
+    except Exception as e:
+        log.error(f"Timing experiment error (non-fatal): {e}")
 
 
 def main():
@@ -348,6 +408,11 @@ def main():
         action="store_true",
         help="Call the models and print results without saving anything",
     )
+    parser.add_argument(
+        "--experiment",
+        choices=["late"],
+        help="Run for the timing experiment instead of the main benchmark (saved separately)",
+    )
     args = parser.parse_args()
 
     if not args.force and not args.dry_run:
@@ -357,7 +422,7 @@ def main():
             sys.exit(0)
 
     model_filter = args.models.split(",") if args.models else None
-    run(args.date, model_filter, overwrite=args.overwrite, dry_run=args.dry_run)
+    run(args.date, model_filter, overwrite=args.overwrite, dry_run=args.dry_run, experiment=args.experiment)
 
 
 if __name__ == "__main__":

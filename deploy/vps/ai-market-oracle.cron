@@ -11,6 +11,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # Morning predictions: 9:00 AM ET, Mon-Fri, so picks are in before the 9:30 open
 0 13,14 * * 1-5   root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh morning --at 09 >/dev/null 2>&1
 
+# Timing experiment, second run: 10:00 AM ET, Mon-Fri (picks count only if in by 11:00)
+0 14,15 * * 1-5   root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh late --at 10 >/dev/null 2>&1
+
 # Evening scoring: 5:30 PM ET, Mon-Fri
 30 21,22 * * 1-5  root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh evening --at 17 >/dev/null 2>&1
 

@@ -31,6 +31,7 @@ To add a model, add an entry there. To upgrade one, add the new version with a n
 ## How It Works
 
 1. **9:00 AM ET weekdays** (before the open): cron on a small server runs `scripts/generate.py`, querying all models in parallel through OpenRouter with the identical prompt (`scripts/prompts/`). Each returns 3–5 same-day predictions. The live Yahoo Finance price of each ticker is recorded as the scoring baseline the moment the answer arrives.
+   At **10:00 AM ET** the same models are asked again for the [timing experiment](https://aamilonas.github.io/ai-market-oracle/experiment), which compares the 9:00 and 10:00 consensus trades with two no-AI benchmarks (`scripts/experiments.py`).
 2. **5:30 PM ET weekdays** — `scripts/score.py` fetches closing prices via yfinance and scores each prediction against its recorded baseline. `scripts/analytics.py` computes calibration, returns, and which model committees make the best trading signals.
 3. **Saturday 10 AM ET** — `scripts/summarize.py --weekly` generates a narrative recap.
 4. Each run pushes its data to `master`, which rebuilds and deploys the site to GitHub Pages. The server setup is in [`deploy/vps/`](deploy/vps/README.md).
@@ -50,7 +51,7 @@ High-confidence correct calls score the most. High-confidence wrong calls are pe
 ## Tech Stack
 
 - **Frontend:** React (Vite) → static site on GitHub Pages
-- **Automation:** Python on cron on a VPS (3 jobs); GitHub Actions for the Pages deploy
+- **Automation:** Python on cron on a VPS (4 jobs); GitHub Actions for the Pages deploy
 - **Data:** JSON files committed to the repo (no database)
 - **Market Data:** `yfinance` (Yahoo Finance), FRED release calendar
 - **Charts:** Recharts
