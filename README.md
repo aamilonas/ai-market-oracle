@@ -30,10 +30,10 @@ To add a model, add an entry there. To upgrade one, add the new version with a n
 
 ## How It Works
 
-1. **Weekday mornings** — GitHub Actions runs `scripts/generate.py`, querying all models in parallel through OpenRouter with the identical prompt (`scripts/prompts/`). Each returns 3–5 same-day predictions. The live Yahoo Finance price of each ticker is recorded as the scoring baseline the moment the answer arrives.
+1. **9:00 AM ET weekdays** (before the open): cron on a small server runs `scripts/generate.py`, querying all models in parallel through OpenRouter with the identical prompt (`scripts/prompts/`). Each returns 3–5 same-day predictions. The live Yahoo Finance price of each ticker is recorded as the scoring baseline the moment the answer arrives.
 2. **5:30 PM ET weekdays** — `scripts/score.py` fetches closing prices via yfinance and scores each prediction against its recorded baseline. `scripts/analytics.py` computes calibration, returns, and which model committees make the best trading signals.
 3. **Saturday 10 AM ET** — `scripts/summarize.py --weekly` generates a narrative recap.
-4. After each run, the frontend is rebuilt and deployed to GitHub Pages automatically.
+4. Each run pushes its data to `master`, which rebuilds and deploys the site to GitHub Pages. The server setup is in [`deploy/vps/`](deploy/vps/README.md).
 
 ---
 
@@ -50,9 +50,9 @@ High-confidence correct calls score the most. High-confidence wrong calls are pe
 ## Tech Stack
 
 - **Frontend:** React (Vite) → static site on GitHub Pages
-- **Automation:** Python via GitHub Actions (3 cron workflows)
+- **Automation:** Python on cron on a VPS (3 jobs); GitHub Actions for the Pages deploy
 - **Data:** JSON files committed to the repo (no database)
-- **Market Data:** `yfinance` (Yahoo Finance)
+- **Market Data:** `yfinance` (Yahoo Finance), FRED release calendar
 - **Charts:** Recharts
 
 ---
@@ -63,11 +63,13 @@ High-confidence correct calls score the most. High-confidence wrong calls are pe
 
 ### 2. Add GitHub Secrets
 
+This repo itself runs its jobs from cron on a VPS (see [`deploy/vps/`](deploy/vps/README.md)). The
+morning, evening and weekly workflows are still here, disabled, if you would rather use Actions.
 Go to **Settings → Secrets and Variables → Actions** and add:
 
 ```
 OPENROUTER_API_KEY=sk-or-...
-FRED_API_KEY=...        # optional, adds macro indicators
+FRED_API_KEY=...        # optional, adds the day's economic release calendar
 ```
 
 To test without saving anything, run the **Morning** workflow manually with **dry_run** checked.

@@ -141,7 +141,7 @@ reachable information and is not controlled for. See §12.
 
 | Phase | Timing | What happens |
 |---|---|---|
-| Morning | Scheduled pre-market, weekdays | One market snapshot taken. All 9 models queried **in parallel** with the identical prompt. Predictions, costs, latencies, sources, failures recorded. Consensus trade selected and opened. |
+| Morning | 9:00 AM ET, weekdays (pre-market) | One market snapshot taken. All 9 models queried **in parallel** with the identical prompt. Predictions, costs, latencies, sources, failures recorded. Consensus trade selected and opened. |
 | Evening | After the close, weekdays | Official closes fetched. All of the day's predictions scored. Leaderboard and analytics recomputed. Open trade closed. |
 | Weekly | Saturdays | Narrative report: day-by-day chapters, standings, notable calls. |
 
@@ -150,25 +150,27 @@ and none gets a later — therefore better-informed — read of the market. Day-
 ranged from 12.6s to 180.6s; because queries are concurrent, the slow models do not
 receive a staler or fresher market than the fast ones (the snapshot predates all of them).
 
-**Timing is unreliable and this matters.** The morning job is scheduled pre-market, but
-scheduled runs on the host platform are frequently delayed, sometimes by hours. On
-2026-10-29 the run landed at 10:21 AM ET — 51 minutes *into* the session. The system is
-therefore designed to be correct whether it runs pre-market or mid-session: the
-information block is explicitly labelled with session state and timestamp (§5.1). Actual
-run time is recorded with every day's data.
+**Timing was unreliable until 2026-11-20, and this matters.** The jobs first ran on GitHub
+Actions, whose scheduled runs were often delayed by hours. On 2026-10-29 the "pre-market"
+run landed at 10:21 AM ET, 51 minutes *into* the session, and through November it
+typically landed between 12:30 and 3:00 PM ET. Since 2026-11-20 the jobs run from cron on a
+dedicated server, and the morning run starts at 9:00 AM ET, before the open. The system is
+still built to be correct whether it runs pre-market or mid-session: the information block
+is labelled with session state and timestamp (§5.1), and actual run time is recorded with
+every day's data.
 
-A consequence worth stating plainly: because the run time drifts, the **forecast horizon
-drifts with it**. A 6:00 AM run forecasts a full session; a 10:21 AM run forecasts the
-remaining 5h39m. Predictions from different days are not horizon-matched. This is an
-unaddressed defect (§12).
+A consequence worth stating plainly: while the run time drifted, the **forecast horizon
+drifted with it**. A pre-market run forecasts a full session; a 10:21 AM run forecasts the
+remaining 5h39m. Predictions made before 2026-11-20 are not horizon-matched with each other
+or with later ones (§12.4).
 
 **Idempotence.** Every stage can be re-run without duplicating or double-counting. A
 single model failing does not block the others; failures are recorded per model per day.
 
 ## 5. What every model receives
 
-Every model receives exactly four things: a time header, a market snapshot, a macro block,
-and the task. Nothing else — no memory, no prior-day context, no performance feedback, no
+Every model receives exactly four things: a time header, a market snapshot, an economic
+calendar, and the task. Nothing else — no memory, no prior-day context, no performance feedback, no
 knowledge of any other model's answer. **Every day is a cold start.**
 
 Appendices A–C contain the verbatim prompts and a real rendered block.
@@ -213,16 +215,37 @@ levels, analyst targets, technical indicators, sector breadth, and news headline
 structured data. The snapshot is a price-and-context layer only; discovering news is left
 to each model's search (§5.3). Whether that division is correct is an open question (§15).
 
-### 5.2 Macro indicators
+### 5.2 Economic calendar
 
-Six Federal Reserve (FRED) series, each with its observation date: 10-year and 2-year
-Treasury yields, Fed Funds rate, CPI, unemployment rate, and the 10Y–2Y spread. Identical
-for all models, skipped entirely rather than partially filled if unavailable.
+The major U.S. releases scheduled for the trading day, each with its usual release time
+and, on the day itself, whether it is already out or still to come:
 
-These are low-frequency series — CPI and unemployment are monthly, and on 2026-10-29 both
-carried an as-of date seven weeks old. They provide regime context, not daily signal. The
-10-year yield is deliberately duplicated between §5.1 and §5.2 from two different sources,
-which can show two slightly different values with two different as-of dates.
+| Time (ET) | Releases |
+|---|---|
+| 8:30 AM | CPI, Employment Situation (jobs report), PPI, GDP, Personal Income and Outlays (PCE), Retail Sales, Weekly Jobless Claims, Housing Starts |
+| 9:15 AM | Industrial Production |
+| 10:00 AM | JOLTS Job Openings, New Home Sales |
+| 2:00 PM | FOMC rate decision (press conference 2:30) |
+
+Release dates come from FRED's release calendar (`scripts/fred_data.py`). FOMC decision
+dates come from the Fed's published meeting schedule, because FRED's FOMC entry also marks
+plain data updates on days with no meeting. That list is maintained by hand, one year at a
+time, and a run logs a warning when the current year is missing. A day with none of these
+says so explicitly. If FRED can't be reached, the block reports only an FOMC decision, or
+is left out altogether, rather than implying a quiet day.
+
+Why this and not macro levels: the morning run comes after the 8:30 releases, and a
+same-day call is most exposed to exactly those events. Levels such as yields, inflation and
+unemployment barely change from day to day, so they give regime context rather than daily
+signal. Models can find the actual release numbers and the market's reaction through
+search (§5.3); the calendar tells them which ones to look for.
+
+**Correction (2026-11-20).** Until this date §5.2 described six FRED macro series (10-year
+and 2-year yields, Fed Funds, CPI, unemployment, the 10Y–2Y spread) as part of every prompt.
+The scheduled runs never had a FRED API key, so no model ever received them: no stored run
+record contains the block, and the Appendix C example previously showed it in error. The
+calendar replaces them. It appears from the first run with a FRED key, and each day's run
+record (`data/runs/`) stores the exact block that was sent.
 
 ### 5.3 Web search
 
@@ -492,8 +515,9 @@ The simulator models the intended production setup: the pick goes out before the
 the order fills at the opening auction. Entry is the 9:30 open regardless of when the pick
 was actually made.
 
-**Caveat for trades made on GitHub Actions.** GitHub delayed the morning job to roughly
-12:30–1:00 PM ET, so those picks were made *after* the open, with the morning's move
+**Caveat for trades made on GitHub Actions** (through 2026-11-19, plus 2026-11-20, which
+ran by hand at 10:52 AM ET while the server was being set up). GitHub delayed the morning
+job to roughly 12:30–3:00 PM ET, so those picks were made *after* the open, with the morning's move
 already in the models' prompt. Their 9:30 entries therefore include price action the
 models saw rather than predicted — in both directions. On 2026-11-05 most of a +$1,910
 NVDA short was a drop that had already happened by the time the models were asked; on
@@ -518,7 +542,7 @@ violent equity swings, and on a 3× leveraged instrument it can approach ruin. S
 | Direction tie-break | close == baseline counts as **up** | scoring |
 | Retries per model | 3 | pipeline |
 | Instruments in snapshot | 15 | information set |
-| FRED series | 6 | information set |
+| Calendar releases tracked | 11 + FOMC | information set |
 | Earnings flag window | ±1 day | information set |
 | Exa results per request | 10 | search config |
 | Native search result cap | none imposed | search config |
@@ -547,7 +571,7 @@ A reviewer proposing changes should treat these as the real envelope.
 - **Models are queried concurrently** and cannot see each other's answers within a round.
 - **No live capital.** All trading simulated.
 - Single API gateway for all models, so the request path is identical.
-- Fully automated on scheduled CI runs; no human in the loop on any trading day.
+- Fully automated by scheduled cron jobs; no human in the loop on any trading day.
 - Data stored as version-controlled flat files, no database.
 
 **Soft constraints**
@@ -558,8 +582,8 @@ A reviewer proposing changes should treat these as the real envelope.
   search request. Proposals should not be shaped by token economy.
 - Latency tolerance is generous: day-one responses ranged 12.6s–180.6s, and a round is
   bounded by its slowest model.
-- Run time drifts by hours because scheduled jobs are delayed; nothing can depend on
-  executing at a precise clock time.
+- Run time drifted by hours on GitHub Actions. Since 2026-11-20 the jobs run on time from a
+  dedicated server, but the design should still tolerate a late or rerun day.
 - Free market data (Yahoo Finance, FRED). Paid feeds — order book, options chains, tick
   data, news APIs — are not currently used but are not ruled out.
 
@@ -629,9 +653,10 @@ dominant term in trade selection.
 
 ### 12.4 The forecast horizon is not constant
 
-Because run time drifts by hours (§4), a prediction may cover a full session or only part
-of one. Predictions across days are not horizon-matched, which inflates variance and makes
-cross-day comparison inexact. Nothing currently normalises for this.
+Because run time drifted by hours before 2026-11-20 (§4), a prediction from that period may
+cover a full session or only part of one. Those days are not horizon-matched, which
+inflates variance and makes cross-day comparison inexact. Nothing currently normalises for
+this. From 2026-11-20, pre-market runs give every day a full-session horizon.
 
 ### 12.5 No benchmark to beat
 
@@ -679,8 +704,8 @@ frictionless.
 
 - No intraday series, volume, order book, options-implied levels, analyst targets,
   technical indicators, or sector breadth.
-- Macro series are weeks stale by construction (monthly releases).
-- The 10-year yield appears twice from two sources with two as-of dates.
+- No macro levels (rates beyond the 10-year, inflation, unemployment) are supplied; the
+  calendar says which releases are due, and models must search for the numbers.
 - Until day one, IWM was predictable but not supplied; the universe is maintained by hand
   and can drift out of step with what models actually predict.
 
@@ -818,7 +843,7 @@ Respond with ONLY a single valid JSON object: no markdown fences, no commentary.
 ## Appendix B — the verbatim user prompt template
 
 `{{NOW_ET}}`, `{{DATE}}`, and `{{MARKET_CONTEXT}}` are substituted at run time.
-`{{MARKET_CONTEXT}}` receives the §5.1 snapshot followed by the §5.2 macro block.
+`{{MARKET_CONTEXT}}` receives the §5.1 snapshot followed by the §5.2 economic calendar.
 
 ```text
 Current time: {{NOW_ET}} (US Eastern). Trading date: {{DATE}}.
@@ -908,14 +933,16 @@ EARNINGS IN THIS WINDOW:
 
 These live prices are the baseline your direction is scored against. Predict where each ticker closes at 4:00 PM ET relative to the live price above.
 ===
+```
 
-MACRO ECONOMIC INDICATORS (from Federal Reserve / FRED):
-  10-Year Treasury Yield: 4.99 (as of 2026-10-27)
-  2-Year Treasury Yield: 4.7 (as of 2026-10-27)
-  Fed Funds Rate: 3.75 (as of 2026-09-01)
-  CPI (Consumer Price Index): 336.298 (as of 2026-09-01)
-  Unemployment Rate: 4.2 (as of 2026-09-01)
-  10Y-2Y Yield Spread: 0.38 (as of 2026-10-28)
+This day predates the economic calendar. On a pre-market day with releases, the §5.2 block
+follows the snapshot, for example:
+
+```text
+ECONOMIC CALENDAR (scheduled U.S. releases today, Eastern time):
+   8:30 AM  Consumer Price Index (CPI) — already released
+   8:30 AM  Weekly Jobless Claims — already released
+  10:00 AM  JOLTS Job Openings — later today
 ```
 
 ## Appendix D — the stored record of a prediction

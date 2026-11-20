@@ -16,7 +16,7 @@ export default function Methodology() {
         <h2 className={styles.h2}>Schedule</h2>
         <div className={styles.scheduleGrid}>
           <div className={styles.scheduleCard}>
-            <span className={styles.scheduleTime}>Morning</span>
+            <span className={styles.scheduleTime}>9:00 AM ET</span>
             <span className={styles.scheduleLabel}>Predictions Generated</span>
             <p className={styles.scheduleDesc}>All {ACTIVE_MODELS.length} models are queried in parallel with the identical prompt, built around a single Yahoo Finance snapshot taken before any model is called.</p>
           </div>
@@ -72,7 +72,9 @@ export default function Methodology() {
           Every model receives exactly this prompt — the same files the automation reads.
           The market data block is filled in each morning with one Yahoo Finance snapshot: for each
           ticker the live price, the previous close, the move so far today, the day&apos;s range and the
-          5-day change, plus any earnings reported within a day either side, and FRED macro indicators.
+          5-day change, plus any earnings reported within a day either side. After it comes the
+          day&apos;s economic calendar: scheduled U.S. releases such as CPI or the jobs report, and any FOMC
+          decision, each marked as already out or still to come.
         </p>
         <pre className={styles.promptBlock}>{SYSTEM_PROMPT}</pre>
         <pre className={styles.promptBlock}>{USER_PROMPT}</pre>

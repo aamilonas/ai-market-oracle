@@ -1,14 +1,14 @@
 # AI Market Oracle
 
-Automated platform comparing the market prediction abilities of 9 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs entirely on GitHub Actions — predictions on weekday mornings, scoring at 5:30 PM ET, weekly report Saturdays. Long-term goal: identify which models (or committees of models) to trust as trade signals.
+Automated platform comparing the market prediction abilities of 9 AI models, all called through OpenRouter. The lineup is defined in `models.json` (shared by scripts and frontend). Runs on cron on a VPS (`root@162.243.213.122`, see `deploy/vps/`) — predictions at 9:00 AM ET weekdays (before the open), scoring at 5:30 PM ET, weekly report Saturdays. The VPS pushes to master; GitHub Actions only deploys Pages. Long-term goal: identify which models (or committees of models) to trust as trade signals.
 
 ## Tech Stack
 
 - **Frontend:** React 18 + Vite + React Router + Recharts + CSS Modules
-- **Backend/Automation:** Python 3.12 + GitHub Actions
+- **Backend/Automation:** Python 3.12 + cron on a VPS (GitHub Actions for the Pages deploy)
 - **Data:** JSON files committed to repo, mirrored to `public/data/`
 - **Deployment:** GitHub Pages (base URL: `/ai-market-oracle/`)
-- **External APIs:** OpenRouter (all AI models), yfinance (stocks + crypto prices), FRED API (macro indicators)
+- **External APIs:** OpenRouter (all AI models), yfinance (stocks + crypto prices), FRED API (economic release calendar)
 
 ## Commands
 
@@ -40,13 +40,14 @@ the model's own claimed price is kept as `model_reported_price`.
 - `scripts/prompts/` — The single prediction prompt every model receives (also shown on the Methodology page)
 - `scripts/openrouter.py`, `scripts/adapters/openrouter_adapter.py` — One adapter for all models
 - `scripts/market_data.py` — yfinance integration for prices
-- `scripts/fred_data.py` — FRED API integration for macro indicators
+- `scripts/fred_data.py` — Economic calendar for the prompt (FRED release dates + hand-kept FOMC dates; add each new year's FOMC dates)
 - `src/components/` — Reusable React components (each with `.module.css`)
 - `src/pages/` — Route pages (Home, ModelPage, Scoreboard, Weekly/Diary, Methodology, About)
 - `src/data/useData.js` — Data loading utilities and constants
 - `data/` — Source of truth (predictions, scores, runs, summaries, leaderboard, analytics, weeks-index)
 - `public/data/` — Mirrored data served to frontend
-- `.github/workflows/` — Three cron workflows (morning, evening, weekly) + deploy
+- `deploy/vps/` — The VPS job runner (`run-job.sh`) and its `/etc/cron.d` schedule; README has setup and ops
+- `.github/workflows/` — deploy (active) + morning/evening/weekly, which are disabled since the move to the VPS and kept as a manual fallback
 
 ## Code Conventions
 
@@ -71,10 +72,12 @@ the model's own claimed price is kept as `model_reported_price`.
 - One model failure doesn't break the pipeline for others
 - `sync_to_public()` mirrors data/ to public/data/ for frontend access
 - Weekly diary format with day-by-day chapters, dynamically loaded from `weeks-index.json`
-- Models receive standardized market data (yfinance + FRED) in their prompts for consistent pricing
-- Health check steps in workflows surface failures via GitHub email notifications
+- Models receive standardized market data (yfinance snapshot + economic calendar) in their prompts for consistent pricing
+- Each VPS job logs to `/var/log/ai-market-oracle/` and appends OK/FAILED to `history.log` there (no email on failure yet)
 
 ## Secrets Required
 
 - `OPENROUTER_API_KEY` — the only model key needed
-- `FRED_API_KEY` — from https://fred.stlouisfed.org/ (free tier, optional — skips gracefully if not set)
+- `FRED_API_KEY` — from https://fred.stlouisfed.org/ (free, optional; without it the calendar only shows FOMC days)
+
+Secrets live in `/opt/ai-market-oracle/.env` on the VPS, not in GitHub.

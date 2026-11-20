@@ -1,0 +1,18 @@
+# AI Market Oracle — installed as /etc/cron.d/ai-market-oracle on the VPS.
+# Replaces the schedule triggers of the GitHub Actions workflows (moved 2026-11-20).
+#
+# This box's cron runs in UTC and Ubuntu cron has no CRON_TZ, so each job is
+# listed at both its EDT and its EST UTC hour; `run-job.sh --at HH` checks the
+# America/New_York hour and lets exactly one of the two through, so DST is handled.
+# Output goes to /var/log/ai-market-oracle/ (run-job.sh tees it there).
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Morning predictions: 9:00 AM ET, Mon-Fri, so picks are in before the 9:30 open
+0 13,14 * * 1-5   root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh morning --at 09 >/dev/null 2>&1
+
+# Evening scoring: 5:30 PM ET, Mon-Fri
+30 21,22 * * 1-5  root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh evening --at 17 >/dev/null 2>&1
+
+# Weekly report: Saturday 10:00 AM ET
+0 14,15 * * 6     root  timeout 50m /opt/ai-market-oracle/bin/run-job.sh weekly --at 10 >/dev/null 2>&1

@@ -199,14 +199,14 @@ def run(
     except Exception as e:
         log.warning(f"Could not fetch market context (non-fatal): {e}")
 
-    # Append FRED macro indicators if available
+    # Today's scheduled economic releases (FRED release calendar + FOMC dates)
     try:
-        from fred_data import get_fred_context
-        fred_context = get_fred_context()
-        if fred_context:
-            market_context = f"{market_context}\n\n{fred_context}" if market_context else fred_context
+        from fred_data import get_release_calendar
+        calendar = get_release_calendar(datetime.strptime(date_str, "%Y-%m-%d").date())
+        if calendar:
+            market_context = f"{market_context}\n\n{calendar}" if market_context else calendar
     except Exception as e:
-        log.warning(f"Could not fetch FRED data (non-fatal): {e}")
+        log.warning(f"Could not build the economic calendar (non-fatal): {e}")
 
     adapters = ALL_ADAPTERS
     if model_filter:

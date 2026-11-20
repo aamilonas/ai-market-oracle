@@ -61,10 +61,10 @@ export default function About() {
         <div className={styles.stackGrid}>
           {[
             { label: 'Frontend', value: 'React + Vite, deployed to GitHub Pages' },
-            { label: 'Automation', value: 'Python scripts via GitHub Actions (3 cron jobs)' },
+            { label: 'Automation', value: 'Python scripts on cron (3 jobs) on a small server; GitHub Actions deploys the site' },
             { label: 'Model Access', value: 'OpenRouter — one API for every model' },
             { label: 'Data', value: 'JSON files committed directly to the repo — no database' },
-            { label: 'Market Data', value: 'yfinance (Yahoo Finance) and FRED macro indicators' },
+            { label: 'Market Data', value: 'yfinance (Yahoo Finance), plus FRED’s economic release calendar' },
             { label: 'Charts', value: 'Recharts' },
             { label: 'Cost', value: 'Logged per model in every prediction file' },
           ].map(s => (
