@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-23",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-23T14:00:22.892061+00:00",
+  "market_context": "Markets are rebounding strongly in premarket after last week's AI-driven sell-off that pushed major indices into correction territory. Futures indicate a relief rally with S&P 500 up over 2.5% and Nasdaq 100 up over 3.5% at 9:00 AM ET, though volatility remains elevated with VIX still above 30.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 707.0,
+      "model_reported_price": 689.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Premarket data shows SPY up over 2.5% at 9:00 AM ET, recovering about two-thirds of Friday's losses. The strong futures rebound across major indices suggests a relief rally is underway after last week's correction, though some profit-taking may occur during the session.",
+      "current_price_at_prediction": 689.81,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 630.0,
+      "model_reported_price": 608.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Tech stocks are leading the rebound with Nasdaq 100 futures up over 3.5% at 9:00 AM ET. Key AI stocks like NVDA are surging in premarket, recovering about half of Friday's steep losses, indicating strong buying interest returning to the sector.",
+      "current_price_at_prediction": 608.45,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "model_reported_price": 125.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia is up over 8% in premarket, recovering about half of Friday's 14% plunge. The strong rebound is fueled by technical factors and positive sentiment returning to AI stocks, though the stock may face resistance near Friday's opening levels.",
+      "current_price_at_prediction": 125.53,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/",
+      "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-rebound-sharply-111000961.html",
+      "https://www.cnbc.com/quotes/IWM,UWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://finance.yahoo.com/markets/stocks/articles/ai-selloff-splits-global-markets-070806445.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 12.2,
+    "prompt_tokens": 4718,
+    "completion_tokens": 457,
+    "cost_usd": 0.013089,
+    "finished_at": "2026-11-23T14:00:22.892061+00:00",
+    "normalization_issues": []
+  }
+}

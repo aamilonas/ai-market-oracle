@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-23",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-23T14:00:26.801187+00:00",
+  "market_context": "After Friday's sharp technology-led selloff, U.S. index futures are rebounding before the open: reports place S&P 500 futures roughly 2% higher and Nasdaq futures roughly 3%-3.6% higher, led by an approximately 8% premarket recovery in Nvidia. The 9:45 AM ET S&P Global flash PMI release is the main scheduled intraday macro catalyst; elevated 10-year yields (4.92%) and a still-high VIX (31.49) should keep the rebound volatile.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.2,
+      "model_reported_price": 689.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "S&P 500 futures were reported about 2% higher ahead of the cash open following last week's severe selloff, indicating broad dip-buying rather than an isolated single-stock move. The 2.23% target gain allows for some retreat from the opening gap because the VIX remains elevated at 31.49 and the 10-year yield is 4.92%.",
+      "current_price_at_prediction": 689.81,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 626.4,
+      "model_reported_price": 608.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Nasdaq futures were reported up roughly 3%-3.6% premarket, with AI and semiconductor shares leading the recovery after QQQ fell 10.5% over the prior five sessions. QQQ should outperform SPY if the Nvidia-led rebound persists, though the target is below the strongest indicated futures move to account for intraday volatility and profit-taking.",
+      "current_price_at_prediction": 608.45,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.4,
+      "model_reported_price": 125.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Multiple premarket reports put Nvidia up about 8% after its 14.01% Friday drop and 22.9% five-day decline, making it the principal driver of the tech rebound. A 7.86% closing gain assumes most, but not all, of the premarket recovery holds as investors reassess the recent AI-valuation selloff.",
+      "current_price_at_prediction": 125.53,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 359.0,
+      "model_reported_price": 345.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Tesla fell 7.64% Friday and 11.4% over five days, leaving it positioned to participate in a broad high-beta and growth-stock rebound. Its target gain is more conservative than the Nasdaq-futures indication because Tesla has no company-specific catalyst in the morning news flow and remains sensitive to the elevated Treasury yield.",
+      "current_price_at_prediction": 345.82,
+      "prev_close": 374.41,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 16.2,
+    "prompt_tokens": 14156,
+    "completion_tokens": 987,
+    "cost_usd": 0.05294,
+    "finished_at": "2026-11-23T14:00:26.801187+00:00",
+    "normalization_issues": []
+  }
+}

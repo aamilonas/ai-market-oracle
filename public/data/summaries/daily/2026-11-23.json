@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T14:03:05.680392+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Nine models bet on SPY, QQQ, NVDA rising; scoring awaits the close",
+  "summary": "Claude Sonnet 5.5 posted the morning's highest-conviction call, an 88% bet on SPY, though it will be scored after the close. Nine of nine reporting models called SPY, QQQ, and NVDA up, while only five backed DIA and just two, GPT-5.6 Terra and Perplexity Sonar Pro, called TSLA up. All 37 predictions remain pending, so no winner or worst call has been determined yet.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called SPY up."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called QQQ up."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called NVDA up."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "5 models called DIA up."
+    },
+    {
+      "ticker": "TSLA",
+      "models_agreeing": [
+        "GPT-5.6 Terra",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models called TSLA up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_claude-sonnet-5-5_20261123_001",
+    "model_display_name": "Claude Sonnet 5.5",
+    "ticker": "SPY",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (88%). Scored after the close."
+  },
+  "worst_call": null
+}

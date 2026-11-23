@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-23",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-23T14:00:36.553520+00:00",
+  "market_context": "Following a punishing week that pushed major indices into correction territory, US equity futures are rebounding sharply heading into Monday's open, with Nasdaq futures up roughly 3.0% to 3.5% and S&P 500 futures up over 2.4%. A relief rally across deeply oversold artificial intelligence and semiconductor names is spearheading the recovery, reinforced by a drop in the VIX from near 36 down toward 30-31. Low liquidity in a holiday-shortened Thanksgiving week is further amplifying the morning's dip-buying momentum.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 706.5,
+      "model_reported_price": 689.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "S&P 500 futures are surging over 2.4% pre-market, driven by broad technical dip-buying after seven consecutive losing sessions. SPY pre-market trading around $709 indicates a decisive gap-up open that should comfortably preserve net gains above Friday's $689.81 close despite minor midday consolidation.",
+      "current_price_at_prediction": 689.81,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 627.5,
+      "model_reported_price": 608.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nasdaq 100 futures are up approximately 3.0% to 3.6% as battered tech and mega-cap growth stocks rebound from Friday's sharp drawdown. With QQQ indicated above $630 in pre-market action, strong short-covering ahead of the Thanksgiving holiday should keep it firmly higher by the closing bell.",
+      "current_price_at_prediction": 608.45,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 135.0,
+      "model_reported_price": 125.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Nvidia is bouncing aggressively in pre-market trading, up over 8% near $136 following a severe 14% drop on Friday. High-volume bargain hunting across the semiconductor complex is providing immediate stabilization from extreme short-term oversold conditions.",
+      "current_price_at_prediction": 125.53,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 489.5,
+      "model_reported_price": 481.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Dow futures are up roughly 800 to 1000 points (+1.7% to 2.1%), tracking broader market relief across industrial and financial constituents. Lower implied volatility and a minor stabilization in benchmark yields are supporting a solid recovery from Friday's $481.08 close.",
+      "current_price_at_prediction": 481.08,
+      "prev_close": 490.24,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmHwLuGFzZ5Z0FOcwkfTdilpS_57z7b5f1MJ0h35mMK8n0NBdZbnTGlkqiT5ivI_h7VsDY3Di1C5gK1aYRBZtBMlz3ulai1rm7bRA34eU0IZ16v4-Artw0QFpWlKiVEJrkXqXhfeidTzIuSTq7vxKr1qcoEz8Nq9ZaFz7M9S9BLROfQXvGxKGXPWW1Vw3qkizDK8CfuaIeKg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxoxNP7ECoVmKeiXj4BtzCgU4AxLm3LxdjmQFYApFbwBGRPguEUHU1kR9wZMa3k1xd0slHchkWlUxpX1LB2Afzhg2V1pSHAgq2P9vTAGFmJ0jJP8pCyPg2x402DRPnrz0M0rhT_iNcadggNcyjT_COYdHbfiyRBo7_Mwo=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCA9sGRLFWkboopNnVXExtRq5J4C7wsdM6U3BTDzImLkjBeES2Hjqm95yjOKVFH1f1-DrPVB-rBkEUfAakLgc2TpzmCUHAmLRNvAKjm4cCTkTbxmQpvDWkoaQiP-1DUwLdKxPzJb-VkeAJBGug7gCA3NCXjIPzBxN7DpH2m4KBA4fH-CetTVE3OfTTGMUu_hc5FyBxeGmw4ULWbr5",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF00eCUQVp4xc74rJyJMs3hXpGrJQhVLBwz67siD0E8U2wEOkDH4-2HVE3n86wnQBqtgr8s8JkRp4V0x1mw5JhEpNrkHPRW69j5gniuXtGcS2f2m43RxhkNCeHrKxV5brCDG8MuznHRr2SliLr7sdMUFsAWmHOQjMOhVV6M4llg8wvX3g==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoqRH0A2_byrKQK74eASFYWatjgmbyDOavmEwhtnsJuNBBeNcSoO0JI3YKDfMNMmyzBVMSNGQcSW12Qb8nxewKF4w7fib-mc6cpwfJ70MX-5HnjqczvXjNld-6Uxnfeh3RgBV-OErxTeabKdoDbQNHXNksgco98qZ1t0BfApifWtFbE_hz6gPqxTbCdKmgE88TW56p3ovIAzdbADSfnx6xdiCiWU4H2eoR0QIfh-Q0TlHG",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGDYXij4zsVR7UF01sq92dAFJwTSgL4zus4qyPJT8NxhGIZT6hWCjxcg9tYLziQXQ7SInhbbPFfqjRIC8V9Mw8zlrGbu0Fvd0yI_z6t_2KCo7KfKR02wJZc-qU_zBgW4lwUuPFXFElSBbIWEXufXXml2uIIqukWd9FXFlT6xRC3nflomlVdJ9eDNGibJsjF81rNY1vKXzpfBPLMqyc10MEpqsw4PpgiqMjZqANhncy-rprvg1pKGD5NlUO-Z-0_L-2U29VB2rpTDnx1SCeVYja9AvMMAlq0mnoTWbCtc06pTTz_hLRn1QVrJ8c5RpdbHklNafXqGl1xZAE8Hi_tna2aZo_yADUUeVXJAyWMLVLlg_xjC2-Q7iMjiweMoTZBr25qtGlmd3eX_Jy8VSDHpkqSvb_WSbj2MMOIP22s3hovHcvHqf5R48T1Ec4jfPDsA=="
+    ],
+    "json_repaired": false,
+    "latency_seconds": 25.9,
+    "prompt_tokens": 1365,
+    "completion_tokens": 3355,
+    "cost_usd": 0.097605,
+    "finished_at": "2026-11-23T14:00:36.553520+00:00",
+    "normalization_issues": []
+  }
+}

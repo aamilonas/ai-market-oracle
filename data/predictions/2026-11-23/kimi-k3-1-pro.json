@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-23",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-23T14:00:51.625238+00:00",
+  "market_context": "US equity futures are staging a relief rally after last week's correction: around 8:15-8:45 ET, S&P 500 futures were up roughly 2.3-2.6% and Nasdaq-100 futures 3.0-3.4%, with technology leading finance.yahoo.com cnbc.com. Premarket gains have cooled from earlier highs—SPY was up 2.95% at 6:33 ET but 2.53% at 8:02—so I expect positive index closes but some gap fade stocktitan.net. Wholesale inflation data are on Monday's calendar, while VIX at 31.49 and the 10-year Treasury yield at 4.92% argue for only moderate confidence.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 702.0,
+      "model_reported_price": 689.81,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "SPY traded at $705.38 premarket, up 2.17%, following Friday's 3.64% decline [finance.yahoo.com. My $702 target assumes part of that rebound fades while the close remains above the $689.81 scoring baseline.",
+      "current_price_at_prediction": 689.81,
+      "prev_close": 715.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 625.0,
+      "model_reported_price": 608.45,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ was quoted at $630.70 premarket, up 3.66%, while Nasdaq-100 futures rose 3.4% as chip and AI shares rebounded cnbc.com cnbc.com. The $625 target allows for a substantial intraday fade but remains above Friday's $608.45 close.",
+      "current_price_at_prediction": 608.45,
+      "prev_close": 645.04,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 487.5,
+      "model_reported_price": 481.08,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "Dow futures recovered 1.7% after the Dow's worst week since the 2020 COVID-related selloff, and DIA was quoted at $490.11 premarket, up 1.88% finance.yahoo.com cnbc.com. I expect some of that bounce to be surrendered, leaving DIA at $487.50 but still above its $481.08 baseline.",
+      "current_price_at_prediction": 481.08,
+      "prev_close": 490.24,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 132.5,
+      "model_reported_price": 125.53,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "NVDA rebounded roughly 6-8% premarket after President Trump urged its board to rehire Jensen Huang; StockTitan recorded $135.62 at 8:02 ET after Friday's 14.01% plunge cnbc.com stocktitan.net. I expect the headline-driven bounce to fade toward $132.50 while remaining above $125.53, but confidence is lower because volatility and company-specific headline risk are exceptionally high.",
+      "current_price_at_prediction": 125.53,
+      "prev_close": 145.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T09:00:06.384799-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Parasail",
+    "web_search": "exa",
+    "citations": [
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/",
+      "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-rebound-sharply-111000961.html",
+      "https://www.cnbc.com/quotes/IWM,UWM,IJR,SAA,MVV,MDY,SPY,SSO,DIA,QQQ",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+      "https://finance.yahoo.com/markets/stocks/articles/ai-selloff-splits-global-markets-070806445.html",
+      "https://asleepace.com/daily-report"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 38.5,
+    "prompt_tokens": 4809,
+    "completion_tokens": 4266,
+    "cost_usd": 0.059278,
+    "finished_at": "2026-11-23T14:00:51.625238+00:00",
+    "normalization_issues": []
+  }
+}
