@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-23",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-23T15:00:47.111702+00:00",
+  "market_context": "U.S. equities are staging an explosive relief rally Monday following Nvidia's surprise reinstatement of Jensen Huang as CEO and CrowdStrike's $44B acquisition of Zscaler, partially rebounding from last week's severe tech sell-off. However, with the 10-year Treasury yield still elevated near 4.95% and ongoing SEC scrutiny surrounding Nvidia's accounting, the initial opening gap-and-go euphoria is facing intraday resistance and profit-taking across mega-cap tech.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 716.5,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "After gapping up over 4.6% to test resistance near $724.81, the S&P 500 is extended relative to technical moving averages following seven consecutive losing sessions. With the 10-year Treasury yield sticky at 4.95% and macro caution ahead of the upcoming PCE report, morning relief gains are likely to see afternoon consolidation toward the middle of the day's range.",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 644.0,
+      "model_reported_price": 650.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ surged nearly 7% at the open but has already met selling pressure after touching an intraday high of $656.25. As short-covering flows subside following the initial headline pop, high-valuation growth names face headwinds from stubborn long-term bond yields, driving a modest intraday fade into the close.",
+      "current_price_at_prediction": 650.32,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 163.5,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA's massive +34.7% surge upon Jensen Huang's reinstatement as CEO has pushed shares directly into overhead resistance around $165-$170, just off session highs of $169.29. While leadership clarity removes immediate governance panic, the reported SEC accounting inquiry remains an unresolved overhang, prompting institutional profit-taking off peak morning levels.",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261123_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 380.0,
+      "model_reported_price": 387.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Tesla joined the broader tech beta squeeze, jumping over 12% to test morning highs of $389.59. High-beta momentum stocks typically give back a portion of outsized opening surges once broad market liquidity normalizes in the afternoon session.",
+      "current_price_at_prediction": 387.57,
+      "prev_close": 345.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 37.8,
+    "prompt_tokens": 1678,
+    "completion_tokens": 4614,
+    "cost_usd": 0.046561,
+    "finished_at": "2026-11-23T15:00:47.111702+00:00",
+    "normalization_issues": []
+  }
+}

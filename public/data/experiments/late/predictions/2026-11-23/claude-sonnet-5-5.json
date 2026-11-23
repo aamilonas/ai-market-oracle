@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-23",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-23T15:00:19.914678+00:00",
+  "market_context": "A relief rally is under way after last week's AI-led rout, when the Nasdaq fell about 10% in its worst week since 2020. Nvidia reinstated Jensen Huang as CEO after Trump urged the board to do so, and NVDA is up about 35%. The S&P 500 is up about 4.6% and the Nasdaq about 6.8%, but the VIX is still near 28.6 and the 10-year yield is 4.95%. PCE inflation is due Wednesday, and some strategists are calling this a 'dead cat bounce'.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261123_001",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 164.0,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "NVDA is trading at the very top of its day range ($169.29 high) after a roughly 35% one-day gap on a single news catalyst. Gaps this large often partly fade as early buyers take profits. Probes into the foreign-intelligence matter are still ongoing, and the stock is still down about 39% over the past month.",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261123_002",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 381.0,
+      "model_reported_price": 387.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA is up 12% on a sympathy rally, trading near its $389.59 high. With the VIX still near 28 and the 10-year yield at 4.95%, the index is vulnerable to profit-taking into the holiday-shortened week.",
+      "current_price_at_prediction": 387.57,
+      "prev_close": 345.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261123_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 717.0,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "SPY is up 4.6% on a largely mechanical rebound, trading near the high of its range, and the S&P is still more than 10% off its October 6 high. Capital Economics calls the move a 'dead cat bounce', and PCE inflation on Wednesday plus thin holiday trading make some intraday giveback likely.",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.7,
+    "prompt_tokens": 24893,
+    "completion_tokens": 1115,
+    "cost_usd": 0.070936,
+    "finished_at": "2026-11-23T15:00:19.914678+00:00",
+    "normalization_issues": []
+  }
+}

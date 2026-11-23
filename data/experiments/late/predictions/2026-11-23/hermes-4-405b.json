@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-23",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-23T15:00:25.057549+00:00",
+  "market_context": "Markets are experiencing a massive relief rally with SPY up 4.63% and QQQ up 6.88% at 10:00 AM ET, driven by Nvidia's reinstatement of Jensen Huang as CEO and positive sentiment after last week's correction. The VIX has dropped 20% indicating reduced fear, though the 10-year Treasury yield remains elevated at 4.95%.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "The S&P 500 ETF is surging on broad market optimism from Nvidia's CEO reinstatement, with SPY already up 4.63% intraday. The strong upward momentum and positive sentiment suggest further gains toward the 730 level by close, though some profit-taking may occur after the initial surge.",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 660.0,
+      "model_reported_price": 650.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq-100 ETF QQQ is leading the rally with a 6.88% gain, fueled by Nvidia's 34.66% surge and strong performance in other tech stocks like Microsoft and Google. The AI trade rebound and broad tech sector strength support continued upside toward 660 by close.",
+      "current_price_at_prediction": 650.32,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 175.0,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia shares are skyrocketing 34.66% on the CEO reinstatement news, with the stock already hitting $169.04 intraday. The positive sentiment and technical breakout suggest further upside potential to $175 by close as investors price in improved leadership and AI prospects.",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261123_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 497.0,
+      "model_reported_price": 493.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "The Dow Jones ETF is up 2.62% in a broad market rally, though lagging behind tech-heavy indices. The positive market sentiment should continue to lift DIA toward 497 by close, though gains may be more moderate compared to SPY and QQQ.",
+      "current_price_at_prediction": 493.69,
+      "prev_close": 481.08,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "https://finance.yahoo.com/quote/%5EGSPC/history/",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/",
+      "https://previct.ai/terminal"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 15.8,
+    "prompt_tokens": 4681,
+    "completion_tokens": 599,
+    "cost_usd": 0.013414,
+    "finished_at": "2026-11-23T15:00:25.057549+00:00",
+    "normalization_issues": []
+  }
+}

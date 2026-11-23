@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-23",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-23T15:01:50.463634+00:00",
+  "market_context": "US equities staged a violent rebound after Nvidia reinstated Jensen Huang as CEO, with SPY +4.6%, QQQ +6.9% and NVDA +34.7% at 10:00 ET. VIX fell 20% to 28.6 but remains elevated, and after opening near highs SPY faded to 713.54 before recovering, suggesting possible profit-taking into the close. See cnbc.com and finance.yahoo.com.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.5,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY opened at 724.33 and faded to 713.54 before recovering to 721.73; with VIX still around 28.6 and the index up sharply after seven down days, the rebound may stall below the opening high as investors book gains ([finance.yahoo.com).",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 646.0,
+      "model_reported_price": 650.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "QQQ's +6.9% surge is heavily concentrated in AI/semiconductor names, and after spiking to 656.25 it has settled near 650; tech-heavy ETFs may consolidate as the initial Nvidia news is already priced in (marketwatch.com).",
+      "current_price_at_prediction": 650.32,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 172.5,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Jensen Huang's reinstatement as CEO is a strong positive catalyst, and NVDA is trading near its session high of 169.29; continued buying into the close could push it above 170 (finance.yahoo.com).",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261123_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 383.0,
+      "model_reported_price": 387.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "TSLA's 12% gain appears to be a sympathy move rather than company-specific news, and it is near its day high of 389.59; the stock may fade as momentum cools and investors rotate back to the primary AI catalyst (cnbc.com).",
+      "current_price_at_prediction": 387.57,
+      "prev_close": 345.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Baidu",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "https://finance.yahoo.com/quote/%5EGSPC/history/",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://previct.ai/terminal",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 98.9,
+    "prompt_tokens": 4678,
+    "completion_tokens": 5345,
+    "cost_usd": 0.0168693296,
+    "finished_at": "2026-11-23T15:01:50.463634+00:00",
+    "normalization_issues": []
+  }
+}

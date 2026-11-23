@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-23",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-23T15:01:36.615240+00:00",
+  "market_context": "Nvidia's board reinstated Jensen Huang before the open, igniting an AI-led rebound after seven straight S&P 500 declines; the 10:00 ET baseline already incorporates that extraordinary gap (cnbc.com, stocktitan.net). Conditions remain volatile: SPY and QQQ are below their session highs, VIX is still 28.64, the 10-year Treasury yield is 4.95%, and wholesale inflation data is on today's holiday-shortened-week calendar (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 724.0,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "SPY has recovered to 721.73 after trading as low as 713.54, indicating that the initial post-gap dip attracted buyers following seven straight S&P 500 declines ([finance.yahoo.com). I expect residual short-covering to produce a modest further gain, but the elevated VIX and 4.95% Treasury yield argue against projecting a large extension beyond the 724.81 session high.",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 172.0,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "The board's unanimous, immediately effective reinstatement of Huang and President Trump's public support provide a durable intraday catalyst (stocktitan.net, cnbc.com). NVDA is at 169.04, almost exactly at its 169.29 session high, favoring continued momentum and short-covering, although the already-enormous 34.66% advance limits confidence.",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 495.0,
+      "model_reported_price": 493.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "DIA is holding near its session high, with 493.69 versus the 494.55 high, while the Dow's gain demonstrates that buying extends beyond the more explosive Nasdaq rebound (cnbc.com). Its comparatively restrained 2.62% advance leaves room for a modest grind higher, but the high bond yield and elevated volatility argue for a target only slightly above the current high.",
+      "current_price_at_prediction": 493.69,
+      "prev_close": 481.08,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261123_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 253.0,
+      "model_reported_price": 254.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "AMZN has faded sharply from its 262.48 session high to 254.97 and is much closer to its 251.25 low, even as NVDA makes session highs and the broader AI trade remains strong (finance.yahoo.com). That pronounced relative weakness suggests opening-spike profit taking is not finished, making a retest toward 253 more likely than a full recovery by the close.",
+      "current_price_at_prediction": 254.97,
+      "prev_close": 246.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Modal",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "https://finance.yahoo.com/quote/%5EGSPC/history/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 84.7,
+    "prompt_tokens": 4881,
+    "completion_tokens": 5765,
+    "cost_usd": 0.0742968,
+    "finished_at": "2026-11-23T15:01:36.615240+00:00",
+    "normalization_issues": []
+  }
+}

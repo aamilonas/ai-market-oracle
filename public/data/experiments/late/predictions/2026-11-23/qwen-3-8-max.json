@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-23",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-23T15:03:08.012305+00:00",
+  "market_context": "U.S. equities are sharply higher after Nvidia reinstated Jensen Huang as CEO, reviving the AI trade after a correction, with SPY +4.6%, DIA +2.6% and NVDA +34.7% by 10:00 ET (finance.yahoo.com, cnbc.com). Volatility remains elevated and wholesale inflation data is due, so the rally may consolidate rather than continue vertically (finance.yahoo.com).",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.9,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "SPY has recovered to $721.73 from its $713.54 intraday low after the Nvidia CEO news and a seven-day S&P decline, indicating dip buying ([finance.yahoo.com, finance.yahoo.com). Elevated VIX and the 4.95% 10-year yield argue against chasing a large further gain, but a modest grind into the close is plausible.",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261123_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 494.3,
+      "model_reported_price": 493.69,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "The Dow-linked ETF is up 2.6% and less extended than the Nasdaq after the Dow's worst week since 2020, with the rebound driven by Nvidia and broad risk appetite (finance.yahoo.com, cnbc.com). A small positive close from the 10:00 level is more likely than a full fade because cyclicals can participate even if tech consolidates.",
+      "current_price_at_prediction": 493.69,
+      "prev_close": 481.08,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 169.9,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "Nvidia's board reinstated Jensen Huang as CEO effective immediately, and President Trump publicly supported the move, sending NVDA up 34.7% and near its intraday high (finance.yahoo.com, cnbc.com). Sympathy gains in AI names and short-covering could keep the stock bid into the close, though profit-taking caps confidence.",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "https://finance.yahoo.com/quote/%5EGSPC/history/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-slides-tech-rout-anthropic-ipo",
+      "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+      "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html",
+      "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+      "https://stockanalysis.com/news/sp-500-rebounds-premarket-after-correction/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 176.7,
+    "prompt_tokens": 5563,
+    "completion_tokens": 9052,
+    "cost_usd": 0.072438,
+    "finished_at": "2026-11-23T15:03:08.012305+00:00",
+    "normalization_issues": []
+  }
+}

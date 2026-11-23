@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-23",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-23T15:00:42.374878+00:00",
+  "market_context": "The opening rebound is being driven by Nvidia's reinstatement of Jensen Huang as CEO after last week's AI-led selloff; AP reported the Nasdaq up about 6% shortly after the open and Nvidia sharply higher. (apnews.com) The supplied snapshot shows SPY, QQQ and NVDA already near their intraday highs at 10:00 ET, while the 10-year yield is elevated near 4.95%, a setup that favors profit-taking after the initial short-covering surge.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261123_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 716.2,
+      "model_reported_price": 721.73,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "SPY is already up 4.63% from Friday and trading only modestly below its $724.81 session high, leaving much of the rebound impulse reflected in the 10:00 ET price. The catalyst is concentrated in a reversal of last week's AI panic, while the 10-year yield has risen rather than providing a rates tailwind. ([apnews.com)",
+      "current_price_at_prediction": 721.73,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 643.5,
+      "model_reported_price": 650.32,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ's 6.88% jump is more extended than the broad market and is close to its $656.25 intraday high, making it especially exposed to intraday mean reversion. The same Nvidia leadership news that sparked the gap also leaves unresolved the recently reported concerns around AI-spending monetization and Nvidia's continuing internal investigation. (nvidianews.nvidia.com)",
+      "current_price_at_prediction": 650.32,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 158.5,
+      "model_reported_price": 169.04,
+      "timeframe": "end_of_day",
+      "confidence": 0.67,
+      "reasoning": "NVDA is up 34.66% at 10:00 ET and within cents of its intraday high, suggesting the CEO-reinstatement headline has been rapidly priced in. Huang's return materially reduces the leadership shock, but Nvidia said its independent-director committee and outside counsel investigation continue, which should keep volatility and profit-taking elevated. (nvidianews.nvidia.com)",
+      "current_price_at_prediction": 169.04,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261123_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 377.0,
+      "model_reported_price": 387.57,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "TSLA has gained 12.07% despite no company-specific catalyst in the supplied setup, indicating that it is participating in the high-beta AI/risk-on rebound rather than responding to new Tesla fundamentals. With the stock near its $389.59 high after a large opening move, it is likely to give back part of the morning advance if the broad tech rebound cools.",
+      "current_price_at_prediction": 387.57,
+      "prev_close": 345.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-23T10:00:05.432978-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91?utm_source=openai",
+      "https://nvidianews.nvidia.com/_gallery/download_pdf/6b04462d3d63321add7499dc/?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 30.8,
+    "prompt_tokens": 22921,
+    "completion_tokens": 1333,
+    "cost_usd": 0.084748,
+    "finished_at": "2026-11-23T15:00:42.374878+00:00",
+    "normalization_issues": []
+  }
+}

@@ -2,7 +2,7 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-23T14:03:00.624360+00:00",
+  "updated_at": "2026-11-23T15:03:11.080719+00:00",
   "arms": {
     "premarket": {
       "balance": 25000,
@@ -41,7 +41,32 @@
     },
     "late": {
       "balance": 25000,
-      "trades": [],
+      "trades": [
+        {
+          "date": "2026-11-23",
+          "ticker": "NVDA",
+          "signal_ticker": "NVDA",
+          "direction": "down",
+          "models": [
+            "Claude Sonnet 5.5",
+            "Gemini 3.8 Flash",
+            "Perplexity Sonar Pro",
+            "GPT-5.6 Terra"
+          ],
+          "model_count": 4,
+          "confidence": 0.6575,
+          "picked_at": "2026-11-23T10:03:10-05:00",
+          "entry_price": 166.9,
+          "entry_rule": "pick_time",
+          "entry_at": "2026-11-23T10:03:11-05:00",
+          "exit_price": null,
+          "status": "OPEN",
+          "shares": 149,
+          "pnl": null,
+          "pnl_pct": null,
+          "balance_after": null
+        }
+      ],
       "skipped": []
     },
     "spy": {
