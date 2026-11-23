@@ -2,10 +2,10 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-23T15:03:11.080719+00:00",
+  "updated_at": "2026-11-23T22:30:10.127969+00:00",
   "arms": {
     "premarket": {
-      "balance": 25000,
+      "balance": 24703.49,
       "trades": [
         {
           "date": "2026-11-23",
@@ -26,21 +26,21 @@
           "model_count": 9,
           "confidence": 0.6989,
           "picked_at": "2026-11-23T09:03:00-05:00",
-          "entry_price": null,
+          "entry_price": 167.04,
           "entry_rule": "open",
-          "entry_at": null,
-          "exit_price": null,
-          "status": "OPEN",
-          "shares": null,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "entry_at": "2026-11-23T09:30:00-05:00",
+          "exit_price": 165.05,
+          "status": "CLOSED",
+          "shares": 149,
+          "pnl": -296.51,
+          "pnl_pct": -1.19,
+          "balance_after": 24703.49
         }
       ],
       "skipped": []
     },
     "late": {
-      "balance": 25000,
+      "balance": 25275.65,
       "trades": [
         {
           "date": "2026-11-23",
@@ -59,29 +59,152 @@
           "entry_price": 166.9,
           "entry_rule": "pick_time",
           "entry_at": "2026-11-23T10:03:11-05:00",
-          "exit_price": null,
-          "status": "OPEN",
+          "exit_price": 165.05,
+          "status": "CLOSED",
           "shares": 149,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "pnl": 275.65,
+          "pnl_pct": 1.11,
+          "balance_after": 25275.65
         }
       ],
       "skipped": []
     },
     "spy": {
-      "balance": 25000,
-      "trades": [],
+      "balance": 24930.64,
+      "trades": [
+        {
+          "date": "2026-11-23",
+          "ticker": "SPY",
+          "direction": "up",
+          "entry_price": 724.33,
+          "exit_price": 722.29,
+          "status": "CLOSED",
+          "shares": 34,
+          "pnl": -69.36,
+          "pnl_pct": -0.28,
+          "balance_after": 24930.64
+        }
+      ],
       "skipped": []
     },
     "trend": {
-      "balance": 25000,
-      "trades": [],
+      "balance": 25296.51,
+      "trades": [
+        {
+          "date": "2026-11-23",
+          "ticker": "NVDA",
+          "direction": "down",
+          "signal": "NVDA -14.01% the day before",
+          "entry_price": 167.04,
+          "exit_price": 165.05,
+          "status": "CLOSED",
+          "shares": 149,
+          "pnl": 296.51,
+          "pnl_pct": 1.19,
+          "balance_after": 25296.51
+        }
+      ],
       "skipped": []
     }
   },
   "prediction_stats": {
-    "premarket": {},
-    "late": {}
+    "premarket": {
+      "2026-11-23": {
+        "claude-sonnet-5-5": {
+          "n": 5,
+          "hits": 2,
+          "ret": -0.9243
+        },
+        "deepseek-v4-pro": {
+          "n": 5,
+          "hits": 1,
+          "ret": -2.0206
+        },
+        "gemini-3-8-flash": {
+          "n": 4,
+          "hits": 1,
+          "ret": -1.9078
+        },
+        "gpt-5-6-terra": {
+          "n": 4,
+          "hits": 1,
+          "ret": 0.6057
+        },
+        "grok-4-3": {
+          "n": 3,
+          "hits": 0,
+          "ret": -2.2275
+        },
+        "hermes-4-405b": {
+          "n": 3,
+          "hits": 0,
+          "ret": -2.2275
+        },
+        "kimi-k3-1-pro": {
+          "n": 4,
+          "hits": 1,
+          "ret": -1.9078
+        },
+        "qwen-3-8-max": {
+          "n": 4,
+          "hits": 1,
+          "ret": -1.9078
+        },
+        "sonar-pro": {
+          "n": 4,
+          "hits": 1,
+          "ret": 0.6057
+        }
+      }
+    },
+    "late": {
+      "2026-11-23": {
+        "claude-sonnet-5-5": {
+          "n": 3,
+          "hits": 2,
+          "ret": 1.7746
+        },
+        "deepseek-v4-pro": {
+          "n": 4,
+          "hits": 1,
+          "ret": -0.3404
+        },
+        "gemini-3-8-flash": {
+          "n": 4,
+          "hits": 2,
+          "ret": 1.6392
+        },
+        "gpt-5-6-terra": {
+          "n": 4,
+          "hits": 2,
+          "ret": 1.6392
+        },
+        "grok-4-3": {
+          "n": 3,
+          "hits": 2,
+          "ret": -0.7394
+        },
+        "hermes-4-405b": {
+          "n": 4,
+          "hits": 3,
+          "ret": -0.4055
+        },
+        "kimi-k3-1-pro": {
+          "n": 4,
+          "hits": 2,
+          "ret": -0.6036
+        },
+        "qwen-3-8-max": {
+          "n": 3,
+          "hits": 2,
+          "ret": -0.5409
+        },
+        "sonar-pro": {
+          "n": 4,
+          "hits": 2,
+          "ret": 1.6392
+        }
+      }
+    }
   }
 }

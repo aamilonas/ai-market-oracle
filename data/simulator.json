@@ -1,5 +1,5 @@
 {
-  "balance": 34307.73,
+  "balance": 33899.78,
   "starting_balance": 25000,
   "trades": [
     {
@@ -350,11 +350,11 @@
       "date": "2026-11-23",
       "ticker": "NVDA",
       "direction": "up",
-      "entry_price": null,
-      "exit_price": null,
-      "shares": null,
-      "pnl": null,
-      "pnl_pct": null,
+      "entry_price": 167.04,
+      "exit_price": 165.05,
+      "shares": 205,
+      "pnl": -407.95,
+      "pnl_pct": -1.19,
       "models": [
         "Kimi K3.1 Pro",
         "Hermes 4 405B",
@@ -367,7 +367,7 @@
         "GPT-5.6 Terra"
       ],
       "confidence": 0.6989,
-      "status": "OPEN"
+      "status": "CLOSED"
     }
   ]
 }

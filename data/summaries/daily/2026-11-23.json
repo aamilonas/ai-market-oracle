@@ -1,9 +1,9 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T14:03:05.680392+00:00",
+  "generated_at": "2026-11-23T22:30:14.955976+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine models bet on SPY, QQQ, NVDA rising; scoring awaits the close",
-  "summary": "Claude Sonnet 5.5 posted the morning's highest-conviction call, an 88% bet on SPY, though it will be scored after the close. Nine of nine reporting models called SPY, QQQ, and NVDA up, while only five backed DIA and just two, GPT-5.6 Terra and Perplexity Sonar Pro, called TSLA up. All 37 predictions remain pending, so no winner or worst call has been determined yet.",
+  "headline": "Every consensus call hit as Claude Sonnet 5.5 led all models",
+  "summary": "Claude Sonnet 5.5 finished first with 4.22, led by its top call, an SPY up pick that scored 0.88. All nine reporting models backed SPY, QQQ, and NVDA to the upside, and all five consensus picks were correct. DeepSeek V4 Pro's DIA up call, backed by five models, was the lowest-scoring call at 0.55.",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -19,7 +19,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called SPY up."
     },
     {
@@ -36,7 +36,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called QQQ up."
     },
     {
@@ -53,7 +53,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called NVDA up."
     },
     {
@@ -66,7 +66,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "5 models called DIA up."
     },
     {
@@ -76,7 +76,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "up",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "2 models called TSLA up."
     }
   ],
@@ -84,8 +84,14 @@
     "prediction_id": "pred_claude-sonnet-5-5_20261123_001",
     "model_display_name": "Claude Sonnet 5.5",
     "ticker": "SPY",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (88%). Scored after the close."
+    "score": 0.88,
+    "summary": "Claude Sonnet 5.5's SPY up call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_deepseek-v4-pro_20261123_003",
+    "model_display_name": "DeepSeek V4 Pro",
+    "ticker": "DIA",
+    "score": 0.55,
+    "summary": "DeepSeek V4 Pro's DIA up call scored lowest today."
+  }
 }
