@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-24",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-24T14:02:46.659122+00:00",
+  "market_context": "US equity futures are lower Tuesday after Monday's Nvidia-led rally, with profit-taking in chips and NVDA down about 5% before the open raspberrytrades.com stocktitan.net. Elevated VIX and fading enthusiasm for the AI trade point to a softer regular session after Monday's sharp gains www.barrons.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 714.5,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "SPY surged 4.71% Monday but pre-market data showed it lower near 713.76, about 1.2% below the close [finance.yahoo.com. S&P 500 futures were also down about 1.1% as traders took profits after the Nvidia-fueled rally raspberrytrades.com.",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 639.5,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "QQQ jumped 7.00% Monday, but Nasdaq-100 futures fell about 2% Tuesday morning and QQQ was trading near 639.91 pre-market raspberrytrades.com. Chip stocks are giving back part of Monday's gains, with Nvidia lower before the open stocktitan.net.",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261124_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 493.3,
+      "model_reported_price": 495.8,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Dow futures declined about 0.5% as investors reassessed Monday's strong rally finance.yahoo.com. DIA should underperform less than tech-heavy funds, but still close below Monday's level.",
+      "current_price_at_prediction": 495.8,
+      "prev_close": 481.08,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261124_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 157.5,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "NVDA soared 31.48% Monday after Jensen Huang was reinstated as CEO, but shares fell about 5% pre-market Tuesday amid broad chip-sector profit-taking stocktitan.net. The pullback suggests the stock can remain below Monday's close through the session finance.yahoo.com.",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://finance.yahoo.com/markets/stocks/articles/us-futures-mixed-monday-nvidia-093016990.html",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://raspberrytrades.com/stock-market-today",
+      "https://finance.yahoo.com/quote/%255EGSPC/history/",
+      "https://metacap.si/markets/",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+      "https://candorwire.com/traders-corner/traders-corner-2026-11-24/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 155.5,
+    "prompt_tokens": 5725,
+    "completion_tokens": 5466,
+    "cost_usd": 0.051246,
+    "finished_at": "2026-11-24T14:02:46.659122+00:00",
+    "normalization_issues": []
+  }
+}

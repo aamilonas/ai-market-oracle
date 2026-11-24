@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-24",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-24T14:00:36.031277+00:00",
+  "market_context": "Monday's Nvidia-led rebound is being faded: SPY was $713.76 pre-market, S&P 500 and Nasdaq-100 futures were approximately 1.1% and 2.0% lower at 08:51 ET, and Nvidia was down about 5% after its 31% surge (finance.yahoo.com, raspberrytrades.com). The backdrop remains fragile, with VIX near 30, SPY still 7.6% below its high, and the 10-year Treasury yield at 4.89%; I expect profit-taking to produce a lower close led by technology, without fully retracing Monday's rally.",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 714.0,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Yahoo showed SPY at $713.76 pre-market, down 1.21%, while S&P futures were about 1.1% lower at 08:51 ET following Monday's 4.71% surge ([finance.yahoo.com, raspberrytrades.com). With volatility elevated and the broader trend still negative, I expect the opening discount largely to persist near Monday's $713.53 intraday low.",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 638.0,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.69,
+      "reasoning": "QQQ traded at $639.91 at 8:00 ET, down 1.71%, and Nasdaq-100 futures subsequently indicated roughly a 2% decline as chip stocks led the pullback (stocktitan.net, finance.yahoo.com). The premarket decline had surrendered only about a quarter of Monday's 7% gain, so my target allows for modest additional selling without assuming a complete reversal.",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 156.0,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "NVDA traded at $157.30, down 4.70%, at 8:01 ET after Monday's 31.48% jump; Micron was down 6.17% and HPE 11.88%, confirming broad AI and semiconductor profit-taking (stocktitan.net). Yahoo also reported Nvidia down approximately 5% alongside a 2% decline in Nasdaq futures, making a finish below Monday's $165.05 close more likely than a full intraday recovery (finance.yahoo.com).",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_004",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 263.5,
+      "model_reported_price": 265.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Russell 2000 futures were down approximately 0.7% at 08:51 ET, substantially less than Nasdaq futures, while the 10-year yield at 4.89% remains a headwind for smaller companies (raspberrytrades.com). I therefore expect a modest pullback after IWM's 3.56% Monday gain rather than a technology-style retracement.",
+      "current_price_at_prediction": 265.74,
+      "prev_close": 256.61,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://previct.ai/terminal",
+      "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-11-24",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://finance.yahoo.com/markets/stocks/articles/us-futures-mixed-monday-nvidia-093016990.html",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://raspberrytrades.com/stock-market-today",
+      "https://finance.yahoo.com/quote/%255EGSPC/history/",
+      "https://metacap.si/markets/",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 24.4,
+    "prompt_tokens": 5180,
+    "completion_tokens": 5259,
+    "cost_usd": 0.0698348,
+    "finished_at": "2026-11-24T14:00:36.031277+00:00",
+    "normalization_issues": []
+  }
+}

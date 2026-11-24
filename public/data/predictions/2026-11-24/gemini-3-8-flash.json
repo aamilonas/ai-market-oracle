@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-24",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-24T14:00:42.087813+00:00",
+  "market_context": "Following Monday's historic Nvidia-led surge sparked by Jensen Huang's reinstatement as CEO, Wall Street futures are pulling back sharply in pre-market trading as traders take profits in semiconductor and AI names. Market participants are also turning their attention back to sticky inflation risks, hawkish Fed remarks, and a rising probability of a December interest rate hike ahead of Wednesday's PCE release. Tech-heavy indices and high-beta assets are leading the morning decline while Treasury yields remain elevated around 4.90%.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261124_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 639.0,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Nasdaq-100 futures are down 1.6% to 2.0% in pre-market trade, with QQQ quoted near $640 as Monday's outsized 7% rally experiences natural digestion. Heavyweights like Nvidia, Micron, and AMD are shedding between 4% and 7% pre-market, placing substantial pressure on the tech composite. Hawkish commentary from Fed officials and an elevated 10-year yield continue to compress tech valuation multiples.",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 716.5,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "S&P 500 futures have retreated between 0.7% and 0.9% pre-market near $717 following Monday's massive 4.7% short-squeeze bounce. Investor sentiment is cooling ahead of the Conference Board's Consumer Confidence report and Wednesday's crucial core PCE report. With traders pricing in high odds of monetary tightening in December, broad equity follow-through will face stiff headwinds.",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 156.0,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Nvidia is pulling back roughly 5.5% in pre-market trading to around $155.70–$156.20 after adding nearly $1 trillion in market value during Monday's 31.5% jump. While Jensen Huang's return cleared leadership uncertainty, traders are locking in quick gains ahead of pending independent reviews and upcoming congressional testimony. The broader semiconductor complex is similarly paring Monday's steep advances.",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58850.0,
+      "model_reported_price": 59913.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Bitcoin lagged Monday's massive equity risk rally and continues to face consistent institutional ETF net outflows. With the benchmark 10-year Treasury yield hovering near 4.90% and macro liquidity remaining tight, crypto assets lack the upside momentum to reclaim the $60000 level today.",
+      "current_price_at_prediction": 59913.95,
+      "prev_close": 61210.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 32.9,
+    "prompt_tokens": 1361,
+    "completion_tokens": 2690,
+    "cost_usd": 0.09510825,
+    "finished_at": "2026-11-24T14:00:42.087813+00:00",
+    "normalization_issues": []
+  }
+}

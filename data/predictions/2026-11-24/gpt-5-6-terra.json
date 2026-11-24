@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-24",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-24T14:00:34.435757+00:00",
+  "market_context": "Monday’s Nvidia-led rebound was extraordinary—SPY rose 4.71% and QQQ 7.00% in the supplied baseline—but premarket reports show that enthusiasm fading, with Nasdaq futures down roughly 1% to 1.2% and Nvidia down more than 5% before the open. Elevated VIX (29.58), a 4.89% 10-year yield, and 10:00 ET consumer-confidence data favor a volatile profit-taking session ahead of the Thanksgiving closure. (ng.investing.com)",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 716.5,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "SPY’s 4.71% baseline gain already reflects Monday’s sharp AI-led recovery, so that catalyst should not be counted again. S&P futures were modestly lower before the open while volatility remained elevated, pointing to a partial giveback rather than another broad rally. ([ng.investing.com)",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 641.2,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ is especially exposed to a reversal in Nvidia and other AI leaders after its 7.00% surge in the reference session. Nasdaq futures were down about 1% to 1.2% premarket as Nvidia gave back more than 5%, making technology the likeliest source of index-level selling. (ng.investing.com)",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 154.5,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "NVDA rose 31.48% in the baseline session, an unusually large one-day move tied to the CEO-return news. Premarket reports indicated a decline exceeding 5% as traders reassessed the rally, which supports continued profit-taking into the close despite likely intraday volatility. (apnews.com)",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261124_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58800.0,
+      "model_reported_price": 59913.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin was already down 2.12% from the supplied reference close and trading near the lower end of its day range, while the risk backdrop was worsening as equity-index futures and AI shares cooled. With the VIX higher and Treasury yields elevated, crypto is likely to remain under pressure through the equity close. (ng.investing.com)",
+      "current_price_at_prediction": 59913.95,
+      "prev_close": 61210.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://ng.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-2825531?utm_source=openai",
+      "https://apnews.com/article/feec0e25b9994b1c86b16329cf770192?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 22.9,
+    "prompt_tokens": 14127,
+    "completion_tokens": 1508,
+    "cost_usd": 0.059134,
+    "finished_at": "2026-11-24T14:00:34.435757+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-24",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-24T14:00:28.194814+00:00",
+  "market_context": "Markets are pulling back sharply in pre-market after Monday's massive AI-driven rally. Tech stocks are leading the decline as investors take profits, with Nvidia giving back some of its 31% surge. Economic data including consumer confidence will be in focus today.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 705.0,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is down about 1.2% in pre-market after Monday's 4.7% surge. The market is giving back some of yesterday's gains as investors take profits from the Nvidia-fueled rally. With the VIX elevated at 29.58, volatility remains high and the downward momentum is likely to continue through the session.",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 630.0,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Tech stocks are leading the pre-market decline with QQQ down about 2% after Monday's 7% surge. Nvidia is down over 5% in pre-market after its 31% jump yesterday. The AI trade is seeing significant profit-taking and QQQ is likely to extend its losses through the session.",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 155.0,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia is down over 5% in pre-market after its massive 31% surge on Monday. The stock is experiencing significant profit-taking after the CEO reinstatement news. With the broader tech sector also pulling back, NVDA is likely to see continued selling pressure through the session.",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58500.0,
+      "model_reported_price": 59913.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Bitcoin is down 2.1% today and extending its 3.2% decline over the past 5 days. With risk assets pulling back after yesterday's equity rally and the VIX elevated, crypto is likely to see continued selling pressure. The downward momentum is expected to persist through the session.",
+      "current_price_at_prediction": 59913.95,
+      "prev_close": 61210.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://finance.yahoo.com/markets/stocks/articles/us-futures-mixed-monday-nvidia-093016990.html",
+      "https://raspberrytrades.com/stock-market-today",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://metacap.si/markets/",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+      "https://finance.yahoo.com/quote/%255EGSPC/history/",
+      "https://candorwire.com/traders-corner/traders-corner-2026-11-24/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 19.0,
+    "prompt_tokens": 4907,
+    "completion_tokens": 586,
+    "cost_usd": 0.013665,
+    "finished_at": "2026-11-24T14:00:28.194814+00:00",
+    "normalization_issues": []
+  }
+}

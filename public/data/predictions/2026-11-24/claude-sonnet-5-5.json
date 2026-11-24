@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-24",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-24T14:00:19.390057+00:00",
+  "market_context": "Monday's Nvidia-led rally was huge: Jensen Huang returned as CEO, NVDA rose 31%, the S&P 500 rose 4.7% and the Nasdaq rose 6.5%. Pre-market on Tuesday it is partly reversing. S&P futures are down about 1.2%, Nasdaq futures are down about 2%, and NVDA is down about 5%. The VIX is near 30, the 10-year yield is 4.89%, and a December Fed rate hike is priced at about 95%. Hot October PCE data is due Wednesday, tariff increases are reportedly being prepared, and Dell reports after the close.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 711.0,
+      "model_reported_price": 722.29,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "SPY was about $712 pre-market (-1.4%) and S&P futures were down about 1.2%, as traders gave back part of the best session since April 2025. With a Fed hike nearly fully priced, a hot PCE print due Wednesday, and reported tariff hikes, I expect the post-rally fade to hold through the close.",
+      "current_price_at_prediction": 722.29,
+      "prev_close": 689.81,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 636.0,
+      "model_reported_price": 651.03,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "QQQ was about $635 pre-market (-2.4%) and Nasdaq futures were down about 2% after a 7% one-day jump. Questions about AI financing and profitability remain unresolved, and Micron, AMD and Broadcom are all lower.",
+      "current_price_at_prediction": 651.03,
+      "prev_close": 608.45,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 157.0,
+      "model_reported_price": 165.05,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA was down about 5% pre-market after a 31% one-day surge that added roughly $950B in market value. Profit-taking, governance worries and a planned Senate testimony in December argue for continued giving-back, though dip buyers could limit the drop.",
+      "current_price_at_prediction": 165.05,
+      "prev_close": 125.53,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58500.0,
+      "model_reported_price": 59913.95,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin is trading in line with tech stocks and reached $64.2K on Monday before reversing to about $60K. Risk assets are weaker, the dollar is near 20-month highs, and a Fed hike is expected.",
+      "current_price_at_prediction": 59913.95,
+      "prev_close": 61210.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T09:00:05.547678-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.2,
+    "prompt_tokens": 23530,
+    "completion_tokens": 1116,
+    "cost_usd": 0.06822,
+    "finished_at": "2026-11-24T14:00:19.390057+00:00",
+    "normalization_issues": []
+  }
+}
