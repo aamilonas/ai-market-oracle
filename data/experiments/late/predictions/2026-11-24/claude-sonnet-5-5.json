@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-24",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-24T15:00:18.815373+00:00",
+  "market_context": "Stocks are volatile after Monday's huge AI-led rally. Nvidia surged 31% on Jensen Huang's reinstatement, then fell about 5% today, and chip stocks like MU and AMD sold off hard. Rate-hike odds for December are around 95% for 25bp, the 10-year yield is 4.91% and the VIX is 28. PCE inflation comes Wednesday, and a WSJ report says tariff increases are being prepared. The Dow and small caps are positive while the Nasdaq lags.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_001",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 499.0,
+      "model_reported_price": 497.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "DIA is up 0.4% while tech sells off, which points to rotation into value and cyclical names (Amgen, Nike and Salesforce are leading the Dow). SPY has already recovered from its lows near $712 to $719.75, which suggests dip buying. Pre-PCE positioning is a risk.",
+      "current_price_at_prediction": 497.88,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 158.5,
+      "model_reported_price": 156.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA is down 5.4% after a 31% one-day surge, which is a normal digestion pullback. Bernstein upgraded it to Outperform with a $200 target and the Huang-return catalyst is intact. It is trading near the low of its day range, so a modest bounce is slightly more likely than further selling.",
+      "current_price_at_prediction": 156.12,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261124_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 59600.0,
+      "model_reported_price": 60389.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC is in a downtrend (-2.4% over 5 days) with the VIX at 28 and rate-hike bets for December at about 95%. A 4.91% 10-year yield and risk-off tech action are headwinds for crypto.",
+      "current_price_at_prediction": 60389.49,
+      "prev_close": 61210.98,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.7,
+    "prompt_tokens": 26218,
+    "completion_tokens": 1047,
+    "cost_usd": 0.072906,
+    "finished_at": "2026-11-24T15:00:18.815373+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-24",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-24T15:01:28.450613+00:00",
+  "market_context": "Monday's AI surge is being unwound unevenly: Nvidia and other chip stocks are falling while the Dow has turned positive, and traders now assign 95% odds to a December 25-basis-point Fed hike (finance.yahoo.com). Underlying breadth is constructive, with 637 advancers versus 406 decliners and 12 of 16 sectors higher, but VIX at 28 warrants modest confidence and targets (metacap.si).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "model_reported_price": 719.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "SPY has rebounded from $712.14 to near its $720.34 session high instead of extending the opening gap-down. The roughly 1.6-to-1 advance/decline ratio and gains in 12 of 16 sectors support further recovery, although technology's 2.12% decline should cap the advance ([metacap.si).",
+      "current_price_at_prediction": 719.75,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_002",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 499.25,
+      "model_reported_price": 497.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Dow's 0.42% gain and position near its $498.21 session high demonstrate clear relative strength versus QQQ's 1.36% decline. Healthcare leadership and broad sector gains favor continued rotation into Dow constituents, while Best Buy's best same-store-sales growth in five years provides a supportive consumer signal (metacap.si; finance.yahoo.com).",
+      "current_price_at_prediction": 497.88,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_003",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 639.5,
+      "model_reported_price": 642.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "The semiconductor slump intensified before the open, with QQQ giving back roughly one-third of Monday's 7% surge and Nvidia, Micron and Analog Devices all under pressure (stocktitan.net). Although QQQ has bounced to $642.16, Nvidia remains down 5.41% and AMD approximately 8%, so heavyweight chip selling could erase part of that rebound by the close.",
+      "current_price_at_prediction": 642.16,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261124_004",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 154.5,
+      "model_reported_price": 156.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Nvidia's decline follows an extraordinary 31.48% one-day jump, leaving substantial short-term profits available to be taken (stocktitan.net). Broad confirmation from falling AMD, Micron and Broadcom shares makes continued profit-taking and a close below the $156.12 baseline somewhat more likely than a sustained recovery (finance.yahoo.com).",
+      "current_price_at_prediction": 156.12,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    }
+  ],
+  "run": {
+    "provider": "InferenceNet",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://www.benzinga.com/markets/market-summary/26/11/63579133/nasdaq-down-over-400-points-best-buy-earnings-top-views",
+      "https://metacap.si/markets/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://tradytics.com/markets",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+      "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 75.9,
+    "prompt_tokens": 5214,
+    "completion_tokens": 6295,
+    "cost_usd": 0.0730402,
+    "finished_at": "2026-11-24T15:01:28.450613+00:00",
+    "normalization_issues": []
+  }
+}

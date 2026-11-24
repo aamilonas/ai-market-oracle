@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-24",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-24T15:00:27.917724+00:00",
+  "market_context": "Following Monday's massive relief rally driven by Nvidia CEO Jensen Huang's reinstatement, markets are experiencing tech-led consolidation and political scrutiny. While defensive and cyclical sectors are rotating higher—lifting the Dow and small caps— elevated Treasury yields at 4.91% and VIX at 28 keep high-multiple mega-cap tech under pressure.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261124_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 638.5,
+      "model_reported_price": 642.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "After yesterday's nearly 7% surge, tech is facing a hangover from bipartisan pushback and pending investigations surrounding Nvidia's corporate governance. With the initial 10:00 AM rebound testing intraday resistance, fading momentum and a high VIX environment favor an afternoon slide back toward morning lows.",
+      "current_price_at_prediction": 642.16,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 152.5,
+      "model_reported_price": 156.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Nvidia is giving back ground after yesterday's unprecedented 31% one-day rally as traders take profits amid sharp political controversy over CEO Huang's reinstatement. Morning bounces off $153.70 lack sustained institutional follow-through and are prone to closing near the lower end of the day's range.",
+      "current_price_at_prediction": 156.12,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_003",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 717.0,
+      "model_reported_price": 719.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "SPY has pushed toward the top of its morning range ($712.14–$720.34) but remains capped by weakness in heavy-weighted semiconductor constituents. As rotation into industrials fails to fully offset tech liquidation, broader market indices should soften into the close.",
+      "current_price_at_prediction": 719.75,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261124_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 499.0,
+      "model_reported_price": 497.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "Capital is actively rotating out of volatile AI hardware into value-oriented blue chips and industrials, keeping DIA firmly in positive territory near its session highs. With breadth outside mega-cap tech holding steady, the Dow is well-positioned to maintain upside momentum toward $499 by the bell.",
+      "current_price_at_prediction": 497.88,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6dEbNOIfNFbnoahonWY9t0S3NHQ6wRxUvdDLXWmUDwfrRwHJcw1Zqj0Bc8qbfq6DYe-coK_E6brloNVjDEwlY7RQMfPTtdZcuEpVHHc-ARfTeWaiRYRP0GjjhUXKJJMEmZzxZM-Qu1eztpSgOvRBOHetSyC3zt4ZK1jeX1mThuBnxDXe-ePJ5nDvkOaqLgZHjBIpFdkN2KMidw8l6zj_oVUfMI8TbY9WmrbVkrCPdq8PvogHTMspbitLT_JU3CMA=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbIc7p9K8KLbWd9cN2VRPmjYh3puCDFE_brw4GEozBq_W8mTHS3tWWV6ifZMHIeX1AMM2IPQ3pH79s56bQTiqEifYqVScmLKo34mgOVRI0WRGo_goUEoCS2hE2ooZXQJoghTzSKYfkkl_6s9ONMBlUM4AUcYUL9NvGd77ODsvXTLuOObgDnAG4kmjdDrQ73MeqoYPlRhgW8Cutgeh184JE",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyulw0WvTCFecvaOrlWC37gs9zRGaWXwaz724g1Pi0r0fiBS1gE7W6whOJq6Fe09DOSZTJjQpnm8ilhe4Tz_fG9uA9PM1O3_n8OiHn10gF1cqGeRJF8bjzdUYEpUotKmaj32tzjQz7ckVEoYK8_n36Tq8=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI3rNAm7jegD8WGkDgVZ2KeRaoTvk0XOItVr_qQuKz7WLSouhz_hQFDPDIho-hesDCTnxpUAshCaT0vNKMspL3U7OXeWmNh5e1_bZfPqXl_S-wvSXhv1lCwOGuCZ25-qXUQqww7GuW4BwBbNNSx_Marof1v_gq"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 19.8,
+    "prompt_tokens": 1675,
+    "completion_tokens": 2653,
+    "cost_usd": 0.039205,
+    "finished_at": "2026-11-24T15:00:27.917724+00:00",
+    "normalization_issues": []
+  }
+}

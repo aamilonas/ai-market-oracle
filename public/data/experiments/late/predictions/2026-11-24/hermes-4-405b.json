@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-24",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-24T15:00:22.756938+00:00",
+  "market_context": "Markets are experiencing a pullback from Monday's Nvidia-fueled rally, with tech stocks leading declines amid profit-taking and concerns about potential Fed rate hikes. The S&P 500 and Nasdaq are down while the Dow shows modest gains, reflecting sector rotation away from overextended tech names.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 715.0,
+      "model_reported_price": 719.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is showing continued weakness after Monday's AI-driven rally, with the S&P 500 down 0.35% intraday and tech sector declines likely to persist. The VIX rising 5.18% indicates increasing market uncertainty that should pressure the index lower through the session.",
+      "current_price_at_prediction": 719.75,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 635.0,
+      "model_reported_price": 642.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq-100 futures were down 2% pre-market and QQQ is already off 1.36% intraday as chip stocks like NVDA (-5.41%) and AMD continue to retreat from Monday's massive gains. With the AI rally showing signs of exhaustion, further profit-taking appears likely.",
+      "current_price_at_prediction": 642.16,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 152.5,
+      "model_reported_price": 156.12,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nvidia is giving back significant gains after Monday's 31% surge, down 5.41% intraday with pre-market quotes showing even steeper declines. The stock appears to be experiencing a classic 'sell the news' reaction following Jensen Huang's return as CEO.",
+      "current_price_at_prediction": 156.12,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261124_004",
+      "ticker": "AAPL",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 355.0,
+      "model_reported_price": 352.67,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Apple is showing relative strength (+1.03%) amid the tech sell-off, benefiting from its defensive characteristics. With the Dow positive and sector rotation occurring, Apple should continue to attract safe-haven flows.",
+      "current_price_at_prediction": 352.67,
+      "prev_close": 349.08,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://www.benzinga.com/markets/market-summary/26/11/63579133/nasdaq-down-over-400-points-best-buy-earnings-top-views",
+      "https://metacap.si/markets/",
+      "https://tradytics.com/markets",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 14.6,
+    "prompt_tokens": 5118,
+    "completion_tokens": 560,
+    "cost_usd": 0.013798,
+    "finished_at": "2026-11-24T15:00:22.756938+00:00",
+    "normalization_issues": []
+  }
+}

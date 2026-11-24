@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-24",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-24T15:03:58.539566+00:00",
+  "market_context": "The AI-fueled rally is fading with NVDA and semiconductors giving back Monday's gains while traders assign about 95% odds to a December Fed hike and monitor tariff reports finance.yahoo.com, investing.com. Breadth and sector data show healthcare/value strength and a higher Dow, but tech pressure is keeping SPY and QQQ under their prior close metacap.si, tradytics.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261124_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.8,
+      "model_reported_price": 719.75,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY has bounced to near its day high after opening weakness, but NVDA's -5.4% drag and elevated VIX suggest limited upside from 719.75 into the close [finance.yahoo.com, metacap.si. With Fed-hike odds high and PCE ahead, I expect a modest fade rather than a full recovery investing.com.",
+      "current_price_at_prediction": 719.75,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261124_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 639.8,
+      "model_reported_price": 642.16,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "QQQ remains under pressure as NVDA falls 5.4% and AMD drops 8.1%, giving back part of Monday's AI surge tradytics.com. Chip-heavy Nasdaq weakness and December rate-hike pricing favor further underperformance from the 642.16 level by the close finance.yahoo.com.",
+      "current_price_at_prediction": 642.16,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261124_003",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 498.15,
+      "model_reported_price": 497.88,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "DIA has turned positive as healthcare and value strength offset tech weakness, with breadth positive and the Dow less exposed to semiconductors metacap.si, marketwatch.com. This rotation should let DIA hold near its intraday high or edge slightly higher from 497.88 into the close.",
+      "current_price_at_prediction": 497.88,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-24T10:00:04.708963-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112426",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-extend-gains-jensen-huang-ceo-return-nvidia-dell-results",
+      "https://www.benzinga.com/markets/market-summary/26/11/63579133/nasdaq-down-over-400-points-best-buy-earnings-top-views",
+      "https://metacap.si/markets/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "https://tradytics.com/markets",
+      "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 228.6,
+    "prompt_tokens": 5893,
+    "completion_tokens": 8900,
+    "cost_usd": 0.072186,
+    "finished_at": "2026-11-24T15:03:58.539566+00:00",
+    "normalization_issues": []
+  }
+}
