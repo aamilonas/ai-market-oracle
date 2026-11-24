@@ -2,10 +2,10 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-24T15:04:01.028952+00:00",
+  "updated_at": "2026-11-24T22:30:08.567062+00:00",
   "arms": {
     "premarket": {
-      "balance": 24703.49,
+      "balance": 25273.89,
       "trades": [
         {
           "date": "2026-11-23",
@@ -55,21 +55,21 @@
           "model_count": 9,
           "confidence": 0.7167,
           "picked_at": "2026-11-24T09:02:46-05:00",
-          "entry_price": null,
+          "entry_price": 159.06,
           "entry_rule": "open",
-          "entry_at": null,
-          "exit_price": null,
-          "status": "OPEN",
-          "shares": null,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "entry_at": "2026-11-24T09:30:00-05:00",
+          "exit_price": 155.38,
+          "status": "CLOSED",
+          "shares": 155,
+          "pnl": 570.4,
+          "pnl_pct": 2.31,
+          "balance_after": 25273.89
         }
       ],
       "skipped": []
     },
     "late": {
-      "balance": 25275.65,
+      "balance": 25220.23,
       "trades": [
         {
           "date": "2026-11-23",
@@ -115,18 +115,18 @@
           "entry_price": 155.04,
           "entry_rule": "pick_time",
           "entry_at": "2026-11-24T10:04:01-05:00",
-          "exit_price": null,
-          "status": "OPEN",
+          "exit_price": 155.38,
+          "status": "CLOSED",
           "shares": 163,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "pnl": -55.42,
+          "pnl_pct": -0.22,
+          "balance_after": 25220.23
         }
       ],
       "skipped": []
     },
     "spy": {
-      "balance": 24930.64,
+      "balance": 25054.06,
       "trades": [
         {
           "date": "2026-11-23",
@@ -139,12 +139,24 @@
           "pnl": -69.36,
           "pnl_pct": -0.28,
           "balance_after": 24930.64
+        },
+        {
+          "date": "2026-11-24",
+          "ticker": "SPY",
+          "direction": "up",
+          "entry_price": 715.15,
+          "exit_price": 718.78,
+          "status": "CLOSED",
+          "shares": 34,
+          "pnl": 123.42,
+          "pnl_pct": 0.51,
+          "balance_after": 25054.06
         }
       ],
       "skipped": []
     },
     "trend": {
-      "balance": 25296.51,
+      "balance": 24711.39,
       "trades": [
         {
           "date": "2026-11-23",
@@ -158,6 +170,19 @@
           "pnl": 296.51,
           "pnl_pct": 1.19,
           "balance_after": 25296.51
+        },
+        {
+          "date": "2026-11-24",
+          "ticker": "NVDA",
+          "direction": "up",
+          "signal": "NVDA +31.48% the day before",
+          "entry_price": 159.06,
+          "exit_price": 155.38,
+          "status": "CLOSED",
+          "shares": 159,
+          "pnl": -585.12,
+          "pnl_pct": -2.31,
+          "balance_after": 24711.39
         }
       ],
       "skipped": []
@@ -169,7 +194,7 @@
         "claude-sonnet-5-5": {
           "n": 5,
           "hits": 2,
-          "ret": -0.9243
+          "ret": -0.9141
         },
         "deepseek-v4-pro": {
           "n": 5,
@@ -184,7 +209,7 @@
         "gpt-5-6-terra": {
           "n": 4,
           "hits": 1,
-          "ret": 0.6057
+          "ret": 0.6332
         },
         "grok-4-3": {
           "n": 3,
@@ -209,7 +234,54 @@
         "sonar-pro": {
           "n": 4,
           "hits": 1,
-          "ret": 0.6057
+          "ret": 0.6332
+        }
+      },
+      "2026-11-24": {
+        "claude-sonnet-5-5": {
+          "n": 3,
+          "hits": 2,
+          "ret": 2.106
+        },
+        "deepseek-v4-pro": {
+          "n": 4,
+          "hits": 2,
+          "ret": 0.8498
+        },
+        "gemini-3-8-flash": {
+          "n": 3,
+          "hits": 2,
+          "ret": 2.106
+        },
+        "gpt-5-6-terra": {
+          "n": 3,
+          "hits": 2,
+          "ret": 2.106
+        },
+        "grok-4-3": {
+          "n": 4,
+          "hits": 2,
+          "ret": 0.8498
+        },
+        "hermes-4-405b": {
+          "n": 3,
+          "hits": 2,
+          "ret": 2.106
+        },
+        "kimi-k3-1-pro": {
+          "n": 4,
+          "hits": 2,
+          "ret": 0.9243
+        },
+        "qwen-3-8-max": {
+          "n": 4,
+          "hits": 2,
+          "ret": 0.8498
+        },
+        "sonar-pro": {
+          "n": 3,
+          "hits": 2,
+          "ret": 2.106
         }
       }
     },
@@ -259,6 +331,53 @@
           "n": 4,
           "hits": 2,
           "ret": 1.6392
+        }
+      },
+      "2026-11-24": {
+        "claude-sonnet-5-5": {
+          "n": 2,
+          "hits": 2,
+          "ret": 0.35
+        },
+        "deepseek-v4-pro": {
+          "n": 5,
+          "hits": 3,
+          "ret": 0.7656
+        },
+        "gemini-3-8-flash": {
+          "n": 4,
+          "hits": 3,
+          "ret": 0.7843
+        },
+        "gpt-5-6-terra": {
+          "n": 4,
+          "hits": 3,
+          "ret": 0.7843
+        },
+        "grok-4-3": {
+          "n": 4,
+          "hits": 3,
+          "ret": 0.7843
+        },
+        "hermes-4-405b": {
+          "n": 4,
+          "hits": 3,
+          "ret": 0.8198
+        },
+        "kimi-k3-1-pro": {
+          "n": 4,
+          "hits": 2,
+          "ret": 0.3705
+        },
+        "qwen-3-8-max": {
+          "n": 3,
+          "hits": 3,
+          "ret": 0.9519
+        },
+        "sonar-pro": {
+          "n": 4,
+          "hits": 3,
+          "ret": 0.7843
         }
       }
     }

@@ -1,9 +1,9 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:02:51.725123+00:00",
+  "generated_at": "2026-11-24T22:30:13.170871+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Bears dominate morning calls as nine models bet SPY, QQQ, NVDA lower",
-  "summary": "Nothing is scored yet, so every call remains pending until the close. All nine reporting models called SPY, QQQ, and NVDA down, six backed BTC-USD lower, and only three joined on DIA. Hermes 4 405B's NVDA call at 85% conviction is the morning's highest-conviction pick, and it will be scored after the close.",
+  "headline": "Gemini 3.8 Flash Leads as Bears Win on SPY, QQQ, and NVDA",
+  "summary": "Gemini 3.8 Flash topped the day's standings with 3.08, narrowly ahead of Kimi K3.1 Pro (2.97) and GPT-5.6 Terra (2.96). All nine models called SPY, QQQ, and NVDA down, and all three calls were correct, while the six-model BTC-USD down consensus and the three-model DIA down call both missed. Hermes 4 405B posted both the day's best call (NVDA down, 1.35) and its worst (BTC-USD down, -0.7).",
   "consensus_picks": [
     {
       "ticker": "SPY",
@@ -19,7 +19,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called SPY down."
     },
     {
@@ -36,7 +36,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called QQQ down."
     },
     {
@@ -53,7 +53,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called NVDA down."
     },
     {
@@ -67,7 +67,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "6 models called BTC-USD down."
     },
     {
@@ -78,7 +78,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "3 models called DIA down."
     }
   ],
@@ -86,8 +86,14 @@
     "prediction_id": "pred_hermes-4-405b_20261124_003",
     "model_display_name": "Hermes 4 405B",
     "ticker": "NVDA",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+    "score": 1.35,
+    "summary": "Hermes 4 405B's NVDA down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_hermes-4-405b_20261124_004",
+    "model_display_name": "Hermes 4 405B",
+    "ticker": "BTC-USD",
+    "score": -0.7,
+    "summary": "Hermes 4 405B's BTC-USD down call scored lowest today."
+  }
 }
