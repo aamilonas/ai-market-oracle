@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-25",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-25T15:01:22.518258+00:00",
+  "market_context": "Stocks are plunging on Wednesday after hot PCE inflation data (core 3.3% YoY vs 3.2% expected) and new 20% US tariffs on major trading partners reignited stagflation fears. The AI sell-off is intensifying, with the VIX surging above 34.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 698.5,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "October core PCE rose to 3.3%, above estimates, cementing Fed rate hike bets and driving risk-off sentiment [finance.yahoo.com. Fresh 20% tariffs on China and the EU add to trade war fears. With the VIX spiking to 34.7, fear remains elevated, likely pushing SPY lower by the close.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 612.0,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tech is the hardest-hit sector as the AI rout deepens; Nvidia is down over 6% and Alphabet more than 4% cnbc.com. Tariff and rate hike fears disproportionately hurt growth stocks, suggesting QQQ will extend losses through the session.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 141.5,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia remains under severe pressure from AI profitability doubts and a broad tech sell-off, already slipping over 6% stocktitan.net. With negative sentiment and high volatility, NVDA could retest its session low of $141.17 before the close.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261125_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 490.0,
+      "model_reported_price": 492.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "While the Dow has proven more resilient than tech indices, the broad negative sentiment from inflation and tariff headlines is likely to pull blue chips lower reuters.com. Light pre-holiday volume could amplify moves to the downside.",
+      "current_price_at_prediction": 492.34,
+      "prev_close": 499.74,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-over-2-100822079.html",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-133240343.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+      "https://chartexchange.com/symbol/nyse-spy/historical/",
+      "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5050511",
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+      "https://tradytics.com/markets"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 73.5,
+    "prompt_tokens": 4938,
+    "completion_tokens": 5441,
+    "cost_usd": 0.01941147092,
+    "finished_at": "2026-11-25T15:01:22.518258+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-25",
+  "slug": "kimi-k3-1-pro",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "model_display_name": "Kimi K3.1 Pro",
+  "generated_at": "2026-11-25T15:00:54.575323+00:00",
+  "market_context": "Risk-off conditions dominate after core PCE rose 3.3% year over year versus 3.2% expected, reinforcing rate-hike bets, while the administration proposed additional 20% tariffs on major trading partners (finance.yahoo.com). Stocks have rebounded sharply from their opening lows by 10:00 ET, but the AI and semiconductor rout, VIX at 34.70, and reduced exposure appetite before the Thanksgiving closure leave that bounce vulnerable (cnbc.com).",
+  "predictions": [
+    {
+      "id": "pred_kimi-k3-1-pro_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 698.0,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "SPY has rebounded from $695.45 to approximately its $703.38 premarket print, a logical resistance area after the gap lower ([chartexchange.com). With hot inflation and tariff concerns still pressuring valuations, I expect a partial retracement of the opening bounce rather than a sustained recovery.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 611.0,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "QQQ's recovery from $607.76 has returned it to roughly the $617.14 premarket level recorded at 9:06 a.m., while technology remains the center of the selloff (stocktitan.net). Premarket losses were led by Nvidia, Micron, AMD and Marvell, making another fade in the tech-heavy fund the more likely outcome (finance.yahoo.com).",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 142.5,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "Nvidia fell 6.3% premarket and nearly 9% shortly after the open; its current rebound only brings it back to the approximately $145.70 premarket area rather than reversing the chip selloff (finance.yahoo.com, cnbc.com). Continued concerns about AI profitability should pressure shares back toward today's $141.17 low.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_kimi-k3-1-pro_20261125_004",
+      "ticker": "META",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 591.0,
+      "model_reported_price": 585.31,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "META shows substantial relative strength, down only 0.76% versus QQQ's 3.20% decline and trading near its $586.49 session high after recovering from $567.75. It was also the least weak of the major hyperscalers cited premarket at a 2.3% decline, supporting a modest further grind higher if buyers continue rotating into the session's stronger names (finance.yahoo.com).",
+      "current_price_at_prediction": 585.31,
+      "prev_close": 589.82,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "InferenceNet",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "https://exa.ai/library/markets/stocks/SPY",
+      "https://exa.ai/library/markets/stocks/QQQ",
+      "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-over-2-100822079.html",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-133240343.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+      "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+      "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5050511",
+      "https://chartexchange.com/symbol/nyse-spy/historical/"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 45.3,
+    "prompt_tokens": 5032,
+    "completion_tokens": 6123,
+    "cost_usd": 0.0711646,
+    "finished_at": "2026-11-25T15:00:54.575323+00:00",
+    "normalization_issues": []
+  }
+}

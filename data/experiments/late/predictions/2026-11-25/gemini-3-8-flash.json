@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-25T15:02:42.459846+00:00",
+  "market_context": "Markets face severe pre-holiday risk-off pressure ahead of Thanksgiving, marked by a 31.6% surge in the VIX to 34.70 and the 10-year Treasury yield climbing to 4.82%. After a sharp morning gap-down, major indices have staged weak relief bounces near the top of their morning ranges, but negative gamma dealer positioning and institutional de-risking are expected to fade these gains into the close.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 697.5,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "With the VIX elevated at 34.70, the S&P 500 is trading in deep negative gamma where morning mean-reversion bounces typically encounter strong overhead resistance. As trading desks derisk into the holiday market closure, SPY is likely to roll over from its session highs and retest the morning support zone near $695.50.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 610.5,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Mega-cap growth and semiconductor equities are bearing the brunt of today's valuation compression alongside high Treasury yields. After bouncing ten points off its morning trough of $607.76 to test resistance at $618.57, QQQ lacks buying volume to sustain momentum and will likely face renewed afternoon selling.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 142.2,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.64,
+      "reasoning": "NVDA is leading the tech drawdown with a 6.4% decline, reflecting heavy unwind in high-beta momentum names. The swift intraday recovery toward the $145.88 range high represents an oversold reaction into overhead supply that is vulnerable to late-day profit-taking and hedging flows.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 489.8,
+      "model_reported_price": 492.34,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "While blue-chip value shares have demonstrated relative resilience against tech, persistent macro volatility will cap any broader afternoon rally. Failure to clear the $492.67 session high indicates that pre-holiday book squaring will pull the Dow ETF back toward the $488.60 intraday low.",
+      "current_price_at_prediction": 492.34,
+      "prev_close": 499.74,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 155.7,
+    "prompt_tokens": 1677,
+    "completion_tokens": 3291,
+    "cost_usd": 0.041599,
+    "finished_at": "2026-11-25T15:02:42.459846+00:00",
+    "normalization_issues": []
+  }
+}

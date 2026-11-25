@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-25T15:00:22.526373+00:00",
+  "market_context": "The selloff is concentrated in AI/mega-cap growth after hot inflation concerns and reports of potential new U.S. tariffs, while the VIX at 34.70 signals unusually high intraday volatility. October PCE, GDP, durable-goods data and jobless claims were released before the open, with the Fed's Beige Book due at 2:00 PM ET; SPY and QQQ have already rebounded materially from their opening lows by 10:00 AM.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 707.5,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.58,
+      "reasoning": "SPY traded as low as $695.45 but recovered to within about $0.75 of its morning high by 10:00 AM, indicating active dip buying after the opening liquidation. The extremely elevated VIX and pre-holiday positioning should keep the tape volatile, but the sharp first-hour recovery favors a modest close above the 10:00 AM baseline.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 623.0,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "QQQ rebounded from $607.76 to $617.70 in the first half-hour and is near its $618.57 intraday high, despite the index still being down 3.20% from Tuesday's close. The AI-led selloff remains the dominant fundamental pressure, but the intraday reversal and oversold five-day decline favor further stabilization into the close.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 148.2,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "NVDA is down 6.42% versus the prior close but has recovered from a $141.17 low to near $145.88 by 10:00 AM, a sizeable reversal that tracks the broader Nasdaq rebound. Reports identifying AI stocks as the main catalyst for the selloff keep conviction limited, but the magnitude of the early decline makes a partial intraday retracement more likely than another sustained leg down.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 57400.0,
+      "model_reported_price": 58105.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Bitcoin remains below its prior close and is trading close to the middle of a $57294-$59746 daily range while risk appetite is impaired across high-beta technology assets. With equity volatility elevated and macro inflation/rate concerns still unresolved, crypto is likely to lag any afternoon equity rebound and finish modestly below the 10:00 AM reference.",
+      "current_price_at_prediction": 58105.17,
+      "prev_close": 59747.77,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 15.7,
+    "prompt_tokens": 14442,
+    "completion_tokens": 962,
+    "cost_usd": 0.053338,
+    "finished_at": "2026-11-25T15:00:22.526373+00:00",
+    "normalization_issues": []
+  }
+}

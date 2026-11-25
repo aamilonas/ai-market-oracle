@@ -2,7 +2,7 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-25T14:02:54.008197+00:00",
+  "updated_at": "2026-11-25T15:03:26.081231+00:00",
   "arms": {
     "premarket": {
       "balance": 25273.89,
@@ -149,6 +149,33 @@
           "pnl": -55.42,
           "pnl_pct": -0.22,
           "balance_after": 25220.23
+        },
+        {
+          "date": "2026-11-25",
+          "ticker": "NVDA",
+          "signal_ticker": "NVDA",
+          "direction": "down",
+          "models": [
+            "Kimi K3.1 Pro",
+            "Hermes 4 405B",
+            "Qwen 3.8 Max",
+            "Gemini 3.8 Flash",
+            "Grok 4.3",
+            "DeepSeek V4 Pro",
+            "Perplexity Sonar Pro"
+          ],
+          "model_count": 7,
+          "confidence": 0.6486,
+          "picked_at": "2026-11-25T10:03:25-05:00",
+          "entry_price": 145.61,
+          "entry_rule": "pick_time",
+          "entry_at": "2026-11-25T10:03:26-05:00",
+          "exit_price": null,
+          "status": "OPEN",
+          "shares": 173,
+          "pnl": null,
+          "pnl_pct": null,
+          "balance_after": null
         }
       ],
       "skipped": []

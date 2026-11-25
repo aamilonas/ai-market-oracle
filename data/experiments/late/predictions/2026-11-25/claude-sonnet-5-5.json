@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-25",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-25T15:00:17.118760+00:00",
+  "market_context": "A broad AI and chip selloff is extending. Tuesday's SOXX drop was about 8%, and VIX is near 34.7. Wednesday's October PCE came in hot, with core at 3.3% against 3.2% expected. New 20% tariffs were also announced, and a December Fed hike now looks likely. SPY has already bounced off its $695 low, markets are shut Thursday, and Friday is a half day. The indexes are oversold, and pre-holiday seasonality and short covering favor a modest bounce, but momentum and macro risk are still negative.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 705.5,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "SPY is down 2.2% but is trading near the top of its $695.45-$703.81 range, and the VIX spike above 34 with oversold RSI readings often precedes pre-holiday relief. The hot PCE and tariffs cap the upside, so I expect only a modest recovery.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 621.0,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.53,
+      "reasoning": "QQQ is down 3.2% and has bounced about 1.6% off its $607.76 low after a 6.3% five-day drop. Forced selling and oversold conditions may bring partial mean reversion, but the AI-trade unwind and rate-hike pricing keep this close to a coin flip.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 57200.0,
+      "model_reported_price": 58105.17,
+      "timeframe": "end_of_day",
+      "confidence": 0.52,
+      "reasoning": "Bitcoin is trading with risk assets and fell alongside the equity selloff, while a hawkish Fed and a strong dollar are headwinds. It is already near the low end of its day range, so conviction is low.",
+      "current_price_at_prediction": 58105.17,
+      "prev_close": 59747.77,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.4,
+    "prompt_tokens": 26812,
+    "completion_tokens": 1034,
+    "cost_usd": 0.073964,
+    "finished_at": "2026-11-25T15:00:17.118760+00:00",
+    "normalization_issues": []
+  }
+}

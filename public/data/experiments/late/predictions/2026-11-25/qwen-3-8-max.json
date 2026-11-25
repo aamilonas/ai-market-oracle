@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-25",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-25T15:03:24.050160+00:00",
+  "market_context": "US equities are already sharply lower at 10:00 ET after hotter-than-expected PCE inflation, new 20% tariff announcements, and a continuing AI/chip selloff finance.yahoo.com, cnbc.com. The key question is whether the early panic stabilizes or continues into the Thanksgiving-holiday break.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 698.25,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "Core PCE at 3.3% and headline PCE at 3.8% reinforce December Fed hike expectations, while new tariffs add policy risk [finance.yahoo.com, cnbc.com. With VIX elevated and a holiday-shortened week, rallies may be sold into the close.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 610.75,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The Nasdaq is being hit hardest by the AI/chip rout, with Nvidia, Anthropic, Oracle and other AI-linked names falling sharply cnbc.com. Even after the early bounce, continued de-risking in semiconductors could keep QQQ under its 10:00 ET level.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 142.75,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "Nvidia remains the epicenter of AI-profitability concerns and was down heavily after a volatile week finance.yahoo.com, stocktitan.net. The live snapshot already reflects a large decline, but chip weakness can persist into the close.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-over-2-100822079.html",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-133240343.html",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+      "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5050511",
+      "https://chartexchange.com/symbol/nyse-spy/historical/",
+      "https://previct.ai/terminal",
+      "https://wallstreetbets.com/news/stock-market-today-nov-25-s-p-500-etf-falls-1-94-before-the-bell",
+      "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 193.7,
+    "prompt_tokens": 5584,
+    "completion_tokens": 6916,
+    "cost_usd": 0.059664,
+    "finished_at": "2026-11-25T15:03:24.050160+00:00",
+    "normalization_issues": []
+  }
+}

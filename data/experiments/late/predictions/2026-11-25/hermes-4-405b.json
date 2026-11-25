@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-25",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-25T15:00:18.537857+00:00",
+  "market_context": "Markets are under heavy selling pressure due to hotter-than-expected PCE inflation data (3.8% headline, 3.3% core) solidifying December rate hike expectations, new Trump administration tariffs targeting China/EU, and continued AI chip stock rout led by Nvidia (-6.4% intraday).",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 690.0,
+      "model_reported_price": 703.07,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "Hotter PCE inflation (3.8% vs 3.7% expected) confirms Fed rate hike fears while new tariffs add economic uncertainty. Tech-led selling (QQQ -3.2%) and VIX spike (+31.6%) indicate risk-off sentiment likely to persist into close.",
+      "current_price_at_prediction": 703.07,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 600.0,
+      "model_reported_price": 617.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia (-6.4%) and semiconductor stocks continue leading market lower amid AI profitability concerns. PCE data and tariff news exacerbate growth stock selling pressure with QQQ already down 6.3% over 5 days.",
+      "current_price_at_prediction": 617.7,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 138.0,
+      "model_reported_price": 145.4,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Stock down 6.4% intraday as AI chip rout continues despite Friday's rally. Hot inflation data increases discount rates for growth stocks, while new tariffs threaten supply chain costs.",
+      "current_price_at_prediction": 145.4,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T10:00:03.972258-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+      "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-over-2-100822079.html",
+      "https://asleepace.com/daily-report",
+      "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
+      "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-133240343.html",
+      "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5050511",
+      "https://tradytics.com/markets",
+      "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+      "https://wallstreetbets.com/news/stock-market-today-nov-25-s-p-500-etf-falls-1-94-before-the-bell"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 11.8,
+    "prompt_tokens": 4791,
+    "completion_tokens": 426,
+    "cost_usd": 0.013069,
+    "finished_at": "2026-11-25T15:00:18.537857+00:00",
+    "normalization_issues": []
+  }
+}
