@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T14:02:58.458818+00:00",
+  "generated_at": "2026-11-25T22:30:13.682243+00:00",
   "narrator": "anthropic/claude-haiku-5.5",
-  "headline": "Nine models pile into QQQ shorts as close-scored calls await",
-  "summary": "All nine reporting models called QQQ down, and eight of nine called NVDA down, making bearish tech the morning's dominant view. DeepSeek V4 Pro's QQQ call at 88% conviction is the highest-conviction pick of the morning, though it remains unscored until the close. SPY was the lone split, with eight models calling it down and one calling it up.",
+  "headline": "GPT-5.6 Terra leads as NVDA downside call carries the day",
+  "summary": "GPT-5.6 Terra topped the board at 2.52, helped by its 1.21 NVDA down call, with Claude Sonnet 5.5 close behind at 2.05. Nine models agreed QQQ would fall and eight agreed on NVDA, and both calls landed, while the six-model DIA down consensus and the four-model BTC-USD down consensus both missed. Kimi K3.1 Pro's DIA down call scored lowest at -0.78, and SPY split 8 down to 1 up.",
   "consensus_picks": [
     {
       "ticker": "QQQ",
@@ -19,7 +19,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "9 models called QQQ down."
     },
     {
@@ -42,7 +42,7 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "correct",
       "note": "8 models called NVDA down."
     },
     {
@@ -56,7 +56,7 @@
         "Qwen 3.8 Max"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "6 models called DIA down."
     },
     {
@@ -68,16 +68,22 @@
         "Perplexity Sonar Pro"
       ],
       "agreed_direction": "down",
-      "outcome": "pending",
+      "outcome": "wrong",
       "note": "4 models called BTC-USD down."
     }
   ],
   "best_call": {
-    "prediction_id": "pred_deepseek-v4-pro_20261125_002",
-    "model_display_name": "DeepSeek V4 Pro",
-    "ticker": "QQQ",
-    "score": null,
-    "summary": "Highest-conviction call of the morning (88%). Scored after the close."
+    "prediction_id": "pred_gpt-5-6-terra_20261125_003",
+    "model_display_name": "GPT-5.6 Terra",
+    "ticker": "NVDA",
+    "score": 1.21,
+    "summary": "GPT-5.6 Terra's NVDA down call scored highest today."
   },
-  "worst_call": null
+  "worst_call": {
+    "prediction_id": "pred_kimi-k3-1-pro_20261125_003",
+    "model_display_name": "Kimi K3.1 Pro",
+    "ticker": "DIA",
+    "score": -0.78,
+    "summary": "Kimi K3.1 Pro's DIA down call scored lowest today."
+  }
 }

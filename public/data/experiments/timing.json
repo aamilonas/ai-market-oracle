@@ -2,10 +2,10 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-25T15:03:26.081231+00:00",
+  "updated_at": "2026-11-25T22:30:08.655298+00:00",
   "arms": {
     "premarket": {
-      "balance": 25273.89,
+      "balance": 24349.89,
       "trades": [
         {
           "date": "2026-11-23",
@@ -83,21 +83,21 @@
           "model_count": 8,
           "confidence": 0.7388,
           "picked_at": "2026-11-25T09:02:54-05:00",
-          "entry_price": null,
+          "entry_price": 144.02,
           "entry_rule": "open",
-          "entry_at": null,
-          "exit_price": null,
-          "status": "OPEN",
-          "shares": null,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "entry_at": "2026-11-25T09:30:00-05:00",
+          "exit_price": 149.3,
+          "status": "CLOSED",
+          "shares": 175,
+          "pnl": -924.0,
+          "pnl_pct": -3.67,
+          "balance_after": 24349.89
         }
       ],
       "skipped": []
     },
     "late": {
-      "balance": 25220.23,
+      "balance": 24581.86,
       "trades": [
         {
           "date": "2026-11-23",
@@ -170,18 +170,18 @@
           "entry_price": 145.61,
           "entry_rule": "pick_time",
           "entry_at": "2026-11-25T10:03:26-05:00",
-          "exit_price": null,
-          "status": "OPEN",
+          "exit_price": 149.3,
+          "status": "CLOSED",
           "shares": 173,
-          "pnl": null,
-          "pnl_pct": null,
-          "balance_after": null
+          "pnl": -638.37,
+          "pnl_pct": -2.53,
+          "balance_after": 24581.86
         }
       ],
       "skipped": []
     },
     "spy": {
-      "balance": 25054.06,
+      "balance": 25526.56,
       "trades": [
         {
           "date": "2026-11-23",
@@ -206,12 +206,24 @@
           "pnl": 123.42,
           "pnl_pct": 0.51,
           "balance_after": 25054.06
+        },
+        {
+          "date": "2026-11-25",
+          "ticker": "SPY",
+          "direction": "up",
+          "entry_price": 703.2,
+          "exit_price": 716.7,
+          "status": "CLOSED",
+          "shares": 35,
+          "pnl": 472.5,
+          "pnl_pct": 1.92,
+          "balance_after": 25526.56
         }
       ],
       "skipped": []
     },
     "trend": {
-      "balance": 24711.39,
+      "balance": 23808.51,
       "trades": [
         {
           "date": "2026-11-23",
@@ -238,6 +250,19 @@
           "pnl": -585.12,
           "pnl_pct": -2.31,
           "balance_after": 24711.39
+        },
+        {
+          "date": "2026-11-25",
+          "ticker": "NVDA",
+          "direction": "down",
+          "signal": "NVDA -5.86% the day before",
+          "entry_price": 144.02,
+          "exit_price": 149.3,
+          "status": "CLOSED",
+          "shares": 171,
+          "pnl": -902.88,
+          "pnl_pct": -3.67,
+          "balance_after": 23808.51
         }
       ],
       "skipped": []
@@ -296,47 +321,94 @@
         "claude-sonnet-5-5": {
           "n": 3,
           "hits": 2,
-          "ret": 2.106
+          "ret": 2.1337
         },
         "deepseek-v4-pro": {
           "n": 4,
           "hits": 2,
-          "ret": 0.8498
+          "ret": 0.8775
         },
         "gemini-3-8-flash": {
           "n": 3,
           "hits": 2,
-          "ret": 2.106
+          "ret": 2.1337
         },
         "gpt-5-6-terra": {
           "n": 3,
           "hits": 2,
-          "ret": 2.106
+          "ret": 2.1337
         },
         "grok-4-3": {
           "n": 4,
           "hits": 2,
-          "ret": 0.8498
+          "ret": 0.8775
         },
         "hermes-4-405b": {
           "n": 3,
           "hits": 2,
-          "ret": 2.106
+          "ret": 2.1337
         },
         "kimi-k3-1-pro": {
           "n": 4,
           "hits": 2,
-          "ret": 0.9243
+          "ret": 0.952
         },
         "qwen-3-8-max": {
           "n": 4,
           "hits": 2,
-          "ret": 0.8498
+          "ret": 0.8775
         },
         "sonar-pro": {
           "n": 3,
           "hits": 2,
-          "ret": 2.106
+          "ret": 2.1337
+        }
+      },
+      "2026-11-25": {
+        "claude-sonnet-5-5": {
+          "n": 4,
+          "hits": 0,
+          "ret": -10.1664
+        },
+        "deepseek-v4-pro": {
+          "n": 4,
+          "hits": 0,
+          "ret": -10.1664
+        },
+        "gemini-3-8-flash": {
+          "n": 4,
+          "hits": 0,
+          "ret": -10.1664
+        },
+        "gpt-5-6-terra": {
+          "n": 3,
+          "hits": 0,
+          "ret": -8.3133
+        },
+        "grok-4-3": {
+          "n": 4,
+          "hits": 0,
+          "ret": -10.1664
+        },
+        "hermes-4-405b": {
+          "n": 3,
+          "hits": 0,
+          "ret": -8.3133
+        },
+        "kimi-k3-1-pro": {
+          "n": 5,
+          "hits": 0,
+          "ret": -12.309
+        },
+        "qwen-3-8-max": {
+          "n": 3,
+          "hits": 0,
+          "ret": -6.5002
+        },
+        "sonar-pro": {
+          "n": 3,
+          "hits": 1,
+          "ret": -4.4737
         }
       }
     },
@@ -433,6 +505,53 @@
           "n": 4,
           "hits": 3,
           "ret": 0.7843
+        }
+      },
+      "2026-11-25": {
+        "claude-sonnet-5-5": {
+          "n": 2,
+          "hits": 2,
+          "ret": 4.5069
+        },
+        "deepseek-v4-pro": {
+          "n": 4,
+          "hits": 0,
+          "ret": -8.797
+        },
+        "gemini-3-8-flash": {
+          "n": 4,
+          "hits": 0,
+          "ret": -8.797
+        },
+        "gpt-5-6-terra": {
+          "n": 3,
+          "hits": 3,
+          "ret": 7.0411
+        },
+        "grok-4-3": {
+          "n": 3,
+          "hits": 0,
+          "ret": -7.0411
+        },
+        "hermes-4-405b": {
+          "n": 3,
+          "hits": 0,
+          "ret": -7.0411
+        },
+        "kimi-k3-1-pro": {
+          "n": 4,
+          "hits": 1,
+          "ret": -2.7097
+        },
+        "qwen-3-8-max": {
+          "n": 3,
+          "hits": 0,
+          "ret": -7.0411
+        },
+        "sonar-pro": {
+          "n": 3,
+          "hits": 1,
+          "ret": -3.2391
         }
       }
     }
