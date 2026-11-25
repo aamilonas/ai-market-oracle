@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-25T14:00:17.303667+00:00",
+  "market_context": "Futures are sharply lower before the open, with S&P 500 futures down about 2% and Nasdaq-100 futures down about 3%. The drivers are a hot core PCE of 3.3% against the 3.2% expected, about a 98% chance of a December Fed rate hike, new 20% tariffs and a renewed AI/chip sell-off. Nvidia is down 4-6% premarket after Huang refused to set out succession plans, and Anthropic is trading below its IPO price. VIX is above 31 and the 10-year yield is 4.84%.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_001",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 623.0,
+      "model_reported_price": 638.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Nasdaq-100 futures are down about 3% on the AI sell-off, with Nvidia, Oracle and Anthropic all lower. Hot PCE and a near-certain Fed hike add pressure, so a gap down that holds into the close is likely, with some intraday bounce possible.",
+      "current_price_at_prediction": 638.1,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_002",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.0,
+      "model_reported_price": 718.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures are down about 2% after a core PCE of 3.3% against the 3.2% expected, a 98% chance of a December rate hike and new 20% tariffs on China, the EU and others. Part of the gap may be recovered ahead of Thanksgiving, so I expect a close about 1.5% lower.",
+      "current_price_at_prediction": 718.78,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 148.0,
+      "model_reported_price": 155.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia is down 4-6% premarket as it gives back the 31% Huang-reinstatement rally. Huang is defying succession-planning calls, there is political scrutiny, and chip stocks are weak, with Ambarella down about 40%.",
+      "current_price_at_prediction": 155.38,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261125_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 491.0,
+      "model_reported_price": 499.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "Dow futures are down about 1.3%, or roughly 635 points, on inflation and tariff worries. The Dow has less tech exposure, so I expect a smaller decline than the S&P 500 or Nasdaq.",
+      "current_price_at_prediction": 499.74,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 10.3,
+    "prompt_tokens": 25734,
+    "completion_tokens": 1195,
+    "cost_usd": 0.073418,
+    "finished_at": "2026-11-25T14:00:17.303667+00:00",
+    "normalization_issues": []
+  }
+}

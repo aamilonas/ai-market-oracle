@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-25T14:00:31.024624+00:00",
+  "market_context": "Pre-market risk sentiment is decisively negative: Reuters reported Nasdaq futures down more than 2% and S&P futures down about 1.6%, with chipmakers leading declines amid renewed AI-trade selling and tariff concerns. The 8:30 AM ET data added a hawkish macro backdrop, with Q3 GDP reported at 4.3% versus roughly 3.5% expected and core PCE reportedly at 3.3%, while the supplied VIX level of 31.42 signals elevated demand for downside protection heading into the Thanksgiving closure.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 710.5,
+      "model_reported_price": 718.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "S&P futures were indicated roughly 1.6% lower before the open as the AI-led selloff extended and tariff concerns weighed on broad risk appetite. The stronger-than-expected 4.3% GDP reading alongside hotter 3.3% core PCE should keep rate-sensitive equity multiples under pressure, especially with the VIX already above 31.",
+      "current_price_at_prediction": 718.78,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 620.0,
+      "model_reported_price": 638.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.74,
+      "reasoning": "Nasdaq futures were down more than 2% pre-market, materially worse than Dow futures, as Nvidia, AMD, Micron, and Marvell were reported sharply lower. The combination of renewed AI valuation concerns and inflation data that reinforces a restrictive Fed path is particularly adverse for the technology-heavy QQQ.",
+      "current_price_at_prediction": 638.1,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 148.5,
+      "model_reported_price": 155.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.71,
+      "reasoning": "Reuters reported Nvidia down about 5.1% pre-market after its 5.86% prior-session decline, showing that the temporary relief rally tied to management news has faded. Persistent semiconductor weakness and a broad de-risking move in AI-linked assets create a high likelihood that sellers remain in control through the close.",
+      "current_price_at_prediction": 155.38,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261125_004",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 56200.0,
+      "model_reported_price": 57997.98,
+      "timeframe": "end_of_day",
+      "confidence": 0.61,
+      "reasoning": "Bitcoin is already down 2.93% from the supplied reference close and is trading near the bottom of its reported daily range, consistent with a broader reduction in risk exposure. Higher-for-longer rate concerns from the hot inflation and strong-growth data, combined with equity volatility, should remain a headwind for high-beta crypto assets.",
+      "current_price_at_prediction": 57997.98,
+      "prev_close": 59747.77,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 23.9,
+    "prompt_tokens": 22660,
+    "completion_tokens": 1186,
+    "cost_usd": 0.082336,
+    "finished_at": "2026-11-25T14:00:31.024624+00:00",
+    "normalization_issues": []
+  }
+}

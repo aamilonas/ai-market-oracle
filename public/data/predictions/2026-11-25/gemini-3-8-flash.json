@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-25T14:01:05.968260+00:00",
+  "market_context": "U.S. equities are poised for a sharp risk-off open on Wednesday, driven by deepening weakness across semiconductor and AI names following renewed corporate governance concerns surrounding Nvidia and reports of imminent tariffs on major trade partners. Inflation worries remain elevated ahead of the FOMC December decision following the October PCE and GDP data releases, pushing the VIX above 31 and yields higher. Pre-Thanksgiving liquidity constraints are expected to mute dip-buying, keeping the major indexes under pressure through the close.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261125_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 708.5,
+      "model_reported_price": 718.78,
+      "timeframe": "end_of_day",
+      "confidence": 0.78,
+      "reasoning": "Pre-market trading indicates SPY falling over 1.4% toward the $708.30 level amid escalating tariff headlines and heightened Fed rate hike worries. Broad market sentiment is in extreme fear with the VIX elevated at 31.42, pointing to ongoing broad-based de-risking into the close.",
+      "current_price_at_prediction": 718.78,
+      "prev_close": 722.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 622.5,
+      "model_reported_price": 638.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.82,
+      "reasoning": "Tech and AI proxies are bearing the brunt of the pre-holiday sell-off, with QQQ falling roughly 2.5% pre-market toward $622. Softness across hardware and semiconductor bellwethers along with weak earnings reactions from software providers like Workday and Autodesk are exacerbating tech outflows.",
+      "current_price_at_prediction": 638.1,
+      "prev_close": 651.03,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 147.5,
+      "model_reported_price": 155.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia shares are off more than 5% in pre-market activity near $147.28, unwinding Monday's surge as governance scrutiny over Jensen Huang's return and export risk worries intensify. Given heavy institutional rebalancing and risk reduction before Thursday's market closure, downward pressure is likely to persist through the closing bell.",
+      "current_price_at_prediction": 155.38,
+      "prev_close": 165.05,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261125_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 494.5,
+      "model_reported_price": 499.74,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Despite holding up better in Tuesday's session, DIA is trading down nearly 0.9% pre-market around $495.36. Broad macro headwinds from potential tariff increases and elevated 10-year Treasury yields at 4.84% are set to pressure industrial and retail components.",
+      "current_price_at_prediction": 499.74,
+      "prev_close": 495.8,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-25T09:00:04.518357-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 21.1,
+    "prompt_tokens": 1359,
+    "completion_tokens": 3040,
+    "cost_usd": 0.06841925,
+    "finished_at": "2026-11-25T14:01:05.968260+00:00",
+    "normalization_issues": []
+  }
+}
