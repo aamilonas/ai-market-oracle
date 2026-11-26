@@ -2,7 +2,7 @@
   "start_date": "2026-11-23",
   "starting_balance": 25000,
   "target_trades": 25,
-  "updated_at": "2026-11-25T22:30:08.655298+00:00",
+  "updated_at": "2026-11-26T22:30:06.103072+00:00",
   "arms": {
     "premarket": {
       "balance": 24349.89,
@@ -368,37 +368,37 @@
         "claude-sonnet-5-5": {
           "n": 4,
           "hits": 0,
-          "ret": -10.1664
+          "ret": -10.1376
         },
         "deepseek-v4-pro": {
           "n": 4,
           "hits": 0,
-          "ret": -10.1664
+          "ret": -10.1376
         },
         "gemini-3-8-flash": {
           "n": 4,
           "hits": 0,
-          "ret": -10.1664
+          "ret": -10.1376
         },
         "gpt-5-6-terra": {
           "n": 3,
           "hits": 0,
-          "ret": -8.3133
+          "ret": -8.2845
         },
         "grok-4-3": {
           "n": 4,
           "hits": 0,
-          "ret": -10.1664
+          "ret": -10.1376
         },
         "hermes-4-405b": {
           "n": 3,
           "hits": 0,
-          "ret": -8.3133
+          "ret": -8.2845
         },
         "kimi-k3-1-pro": {
           "n": 5,
           "hits": 0,
-          "ret": -12.309
+          "ret": -12.2802
         },
         "qwen-3-8-max": {
           "n": 3,
@@ -408,7 +408,7 @@
         "sonar-pro": {
           "n": 3,
           "hits": 1,
-          "ret": -4.4737
+          "ret": -4.4449
         }
       }
     },
