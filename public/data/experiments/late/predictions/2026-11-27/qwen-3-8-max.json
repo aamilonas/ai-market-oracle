@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-27",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-27T15:03:20.860603+00:00",
+  "market_context": "U.S. equities opened sharply higher on Black Friday but faded by 10 a.m. as NVDA turned lower and traders took profits in a holiday-shortened session finance.yahoo.com candorwire.com. Soft foreign inflation and strong GDP support risk appetite, but crypto weakness and elevated VIX show cautious positioning previct.ai analystmarkets.xyz.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 719.3,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "SPY gapped to 726 but slipped to the low end of its day range by 10 a.m., showing sellers controlled the open [finance.yahoo.com. Thin half-day volume and continued weakness in megacap tech can keep pressure on the index into the early close candorwire.com.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 636.8,
+      "model_reported_price": 637.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA is down 2.14% despite earlier rebound headlines, and QQQ is trading near its intraday low, suggesting semis are dragging the Nasdaq-100 lower finance.yahoo.com. Reports that NVDA pared gains add pressure in a holiday session with light liquidity analystmarkets.xyz.",
+      "current_price_at_prediction": 637.82,
+      "prev_close": 633.93,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261127_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58850.0,
+      "model_reported_price": 59148.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.57,
+      "reasoning": "Bitcoin is listed among top losers and the crypto complex is broadly weaker, indicating de-risking rather than a holiday risk-on bid analystmarkets.xyz. With thin weekend-adjacent liquidity, the path of least resistance looks lower into the close finance.yahoo.com.",
+      "current_price_at_prediction": 59148.97,
+      "prev_close": 60494.71,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+      "https://quantellect.ai/us/stocks/nyse/spy",
+      "https://news.openbell.live/news/spy-sp-500-etf-spy-is-trading-05-up-as-investors-return-to-beaten-down-ai-shares-2026-11-27",
+      "https://previct.ai/terminal",
+      "https://candorwire.com/traders-corner/traders-corner-2026-11-27/",
+      "https://www.analystmarkets.xyz/reports/daily/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 191.5,
+    "prompt_tokens": 6004,
+    "completion_tokens": 7549,
+    "cost_usd": 0.064302,
+    "finished_at": "2026-11-27T15:03:20.860603+00:00",
+    "normalization_issues": []
+  }
+}

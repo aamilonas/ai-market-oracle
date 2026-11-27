@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-27",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-27T15:00:21.336459+00:00",
+  "market_context": "Markets opened higher on Black Friday with tech stocks rebounding after recent sell-offs, though gains are moderating mid-morning. Positive inflation data from Europe and a strong U.S. GDP report are supporting risk sentiment, while geopolitical tensions in the Middle East are boosting oil prices.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.5,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "SPY is trading up 0.48% in early trading with broad market support from positive inflation data and strong GDP figures. The ETF has room to extend gains toward the top of its recent range, though thin holiday trading may limit upside.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261127_002",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 144.0,
+      "model_reported_price": 146.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia is down 2.14% today amid reports of stricter chip export controls to China and concerns about AI profitability. The stock is likely to remain under pressure as investors digest these regulatory headwinds.",
+      "current_price_at_prediction": 146.1,
+      "prev_close": 149.3,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261127_003",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 395.0,
+      "model_reported_price": 391.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "Tesla is up 3.04% today on positive sentiment around EV demand and the company's AI initiatives. The stock should continue to benefit from broader tech sector strength and holiday sales momentum.",
+      "current_price_at_prediction": 391.68,
+      "prev_close": 380.14,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading",
+      "https://news.openbell.live/news/spy-sp-500-etf-spy-is-trading-05-up-as-investors-return-to-beaten-down-ai-shares-2026-11-27",
+      "https://quantellect.ai/us/stocks/nyse/spy",
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+      "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
+      "https://candorwire.com/traders-corner/traders-corner-2026-11-27/"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 13.7,
+    "prompt_tokens": 4895,
+    "completion_tokens": 404,
+    "cost_usd": 0.013107,
+    "finished_at": "2026-11-27T15:00:21.336459+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-27",
+  "prompted_at_et": "Friday 2026-11-27 10:00 AM",
+  "models": {
+    "claude-sonnet-5-5": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.077426,
+      "latency_seconds": 11.2
+    },
+    "deepseek-v4-pro": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.01469836601,
+      "latency_seconds": 20.0
+    },
+    "gemini-3-8-flash": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 0,
+      "cost_usd": 0.04276375,
+      "latency_seconds": 28.1
+    },
+    "gpt-5-6-terra": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 2,
+      "cost_usd": 0.057242,
+      "latency_seconds": 18.5
+    },
+    "grok-4-3": {
+      "ok": true,
+      "predictions": 4,
+      "web_search": "native",
+      "citations": 15,
+      "cost_usd": 0.0439989,
+      "latency_seconds": 23.9
+    },
+    "hermes-4-405b": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.013107,
+      "latency_seconds": 13.7
+    },
+    "kimi-k3-1-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.0704126657,
+      "latency_seconds": 66.2
+    },
+    "qwen-3-8-max": {
+      "ok": true,
+      "predictions": 3,
+      "web_search": "exa",
+      "citations": 10,
+      "cost_usd": 0.064302,
+      "latency_seconds": 191.5
+    },
+    "sonar-pro": {
+      "ok": true,
+      "predictions": 5,
+      "web_search": "built_in",
+      "citations": 15,
+      "cost_usd": 0.01964,
+      "latency_seconds": 10.6
+    }
+  },
+  "market_snapshot": {
+    "fetched_at": "2026-11-27T10:00:04.398524-05:00",
+    "session": "open",
+    "trading_day": "2026-11-27",
+    "quotes": {
+      "SPY": {
+        "last": 720.14,
+        "prev_close": 716.7,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.48,
+        "open": 725.86,
+        "high": 726.03,
+        "low": 720.0,
+        "pct_5d": 0.6
+      },
+      "QQQ": {
+        "last": 637.82,
+        "prev_close": 633.93,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.61,
+        "open": 645.72,
+        "high": 645.89,
+        "low": 637.17,
+        "pct_5d": -1.12
+      },
+      "DIA": {
+        "last": 505.35,
+        "prev_close": 501.27,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.81,
+        "open": 506.75,
+        "high": 506.77,
+        "low": 503.46,
+        "pct_5d": 3.08
+      },
+      "IWM": {
+        "last": 271.49,
+        "prev_close": 268.87,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.97,
+        "open": 271.82,
+        "high": 272.44,
+        "low": 270.73,
+        "pct_5d": 2.75
+      },
+      "AAPL": {
+        "last": 355.9,
+        "prev_close": 355.58,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.09,
+        "open": 358.44,
+        "high": 358.9,
+        "low": 355.64,
+        "pct_5d": 1.92
+      },
+      "MSFT": {
+        "last": 490.4,
+        "prev_close": 489.93,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.1,
+        "open": 499.48,
+        "high": 500.46,
+        "low": 490.0,
+        "pct_5d": -1.59
+      },
+      "NVDA": {
+        "last": 146.1,
+        "prev_close": 149.3,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": -2.14,
+        "open": 151.94,
+        "high": 151.98,
+        "low": 145.39,
+        "pct_5d": 0.08
+      },
+      "TSLA": {
+        "last": 391.68,
+        "prev_close": 380.14,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 3.04,
+        "open": 391.33,
+        "high": 395.25,
+        "low": 384.66,
+        "pct_5d": 4.61
+      },
+      "AMZN": {
+        "last": 249.38,
+        "prev_close": 244.43,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 2.03,
+        "open": 250.45,
+        "high": 251.33,
+        "low": 248.45,
+        "pct_5d": -3.1
+      },
+      "GOOGL": {
+        "last": 271.62,
+        "prev_close": 273.1,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": -0.54,
+        "open": 279.16,
+        "high": 279.52,
+        "low": 271.62,
+        "pct_5d": -0.38
+      },
+      "META": {
+        "last": 622.93,
+        "prev_close": 609.89,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 2.14,
+        "open": 627.83,
+        "high": 630.09,
+        "low": 620.8,
+        "pct_5d": 4.48
+      },
+      "^VIX": {
+        "last": 26.86,
+        "prev_close": 26.8,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.22,
+        "open": 24.89,
+        "high": 27.35,
+        "low": 24.52,
+        "pct_5d": -25.16
+      },
+      "^TNX": {
+        "last": 4.89,
+        "prev_close": 4.85,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": 0.82,
+        "open": 4.9,
+        "high": 4.91,
+        "low": 4.88,
+        "pct_5d": -3.21
+      },
+      "BTC-USD": {
+        "last": 59148.97,
+        "prev_close": 60494.71,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": -2.22,
+        "open": 60495.95,
+        "high": 62085.71,
+        "low": 59322.07,
+        "pct_5d": -3.29
+      },
+      "ETH-USD": {
+        "last": 1653.15,
+        "prev_close": 1687.74,
+        "is_intraday": true,
+        "as_of_date": "2026-11-27",
+        "pct_today": -2.05,
+        "open": 1687.75,
+        "high": 1744.08,
+        "low": 1659.31,
+        "pct_5d": -3.95
+      }
+    }
+  },
+  "market_context": "=== MARKET DATA (Yahoo Finance live snapshot, 10:00 ET — market OPEN) ===\n\nThe first price on each line is the LIVE intraday price at the moment of this\nsnapshot, NOT a previous close. The previous close is given separately so you can\nsee how far today has already moved. Any gap or news-driven drop earlier today is\nALREADY reflected in the live price — do not subtract it again.\n\nINDICES / ETFs:\n  SPY: $720.14  |  prev close $716.70  |  +0.48% today  |  day range $720.00-$726.03  |  5-day +0.6%\n  QQQ: $637.82  |  prev close $633.93  |  +0.61% today  |  day range $637.17-$645.89  |  5-day -1.1%\n  DIA: $505.35  |  prev close $501.27  |  +0.81% today  |  day range $503.46-$506.77  |  5-day +3.1%\n  IWM: $271.49  |  prev close $268.87  |  +0.97% today  |  day range $270.73-$272.44  |  5-day +2.8%\n\nKEY STOCKS:\n  AAPL: $355.90  |  prev close $355.58  |  +0.09% today  |  day range $355.64-$358.90  |  5-day +1.9%\n  MSFT: $490.40  |  prev close $489.93  |  +0.10% today  |  day range $490.00-$500.46  |  5-day -1.6%\n  NVDA: $146.10  |  prev close $149.30  |  -2.14% today  |  day range $145.39-$151.98  |  5-day +0.1%\n  TSLA: $391.68  |  prev close $380.14  |  +3.04% today  |  day range $384.66-$395.25  |  5-day +4.6%\n  AMZN: $249.38  |  prev close $244.43  |  +2.03% today  |  day range $248.45-$251.33  |  5-day -3.1%\n  GOOGL: $271.62  |  prev close $273.10  |  -0.54% today  |  day range $271.62-$279.52  |  5-day -0.4%\n  META: $622.93  |  prev close $609.89  |  +2.14% today  |  day range $620.80-$630.09  |  5-day +4.5%\n\nCRYPTO (24h market):\n  BTC-USD: $59,148.97  |  prev close $60,494.71  |  -2.22% today  |  day range $59,322.07-$62,085.71  |  5-day -3.3%\n  ETH-USD: $1,653.15  |  prev close $1,687.74  |  -2.05% today  |  day range $1,659.31-$1,744.08  |  5-day -4.0%\n\nMARKET INDICATORS:\n  VIX: 26.86  (+0.22% today)\n  10Y Treasury Yield: 4.89%\n\nThese live prices are the baseline your direction is scored against. Predict where each ticker closes at 4:00 PM ET relative to the live price above.\n===",
+  "post_answer_snapshot": {
+    "fetched_at": "2026-11-27T10:03:20.863539-05:00",
+    "quotes": {
+      "SPY": {
+        "last": 720.68
+      },
+      "QQQ": {
+        "last": 638.01
+      },
+      "DIA": {
+        "last": 504.32
+      },
+      "IWM": {
+        "last": 271.14
+      },
+      "AAPL": {
+        "last": 356.74
+      },
+      "MSFT": {
+        "last": 489.13
+      },
+      "NVDA": {
+        "last": 146.18
+      },
+      "TSLA": {
+        "last": 391.37
+      },
+      "AMZN": {
+        "last": 249.81
+      },
+      "GOOGL": {
+        "last": 271.11
+      },
+      "META": {
+        "last": 623.41
+      },
+      "^VIX": {
+        "last": 27.27
+      },
+      "^TNX": {
+        "last": 4.89
+      },
+      "BTC-USD": {
+        "last": 58969.62
+      },
+      "ETH-USD": {
+        "last": 1639.4
+      }
+    }
+  }
+}

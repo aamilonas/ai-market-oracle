@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-27",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-27T15:00:28.337337+00:00",
+  "market_context": "November 27, 2026 is a Black Friday shortened NYSE/Nasdaq session scheduled to end at 1:00 PM ET, so quoted regular-session prices should be unchanged at 4:00 PM ET. (nyse.com) The broad market opened strongly but had already faded sharply from the morning highs by 10:00 AM, while VIX remained elevated near 27 and the 10-year yield was near 4.9%, favoring further de-risking into the abbreviated close.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.25,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "SPY traded as high as $726.03 early but was back at $720.14 by 10:00 AM, indicating that the opening gap was being sold rather than extended. Thin Black Friday liquidity and an elevated VIX increase the chance of a drift below the $720 area before the 1:00 PM ET close.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 633.8,
+      "model_reported_price": 637.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.68,
+      "reasoning": "QQQ reversed materially from its $645.89 intraday high to $637.82, a much sharper fade than SPY and evidence of renewed pressure on growth/AI exposure. Recent reporting characterized the broader tech move as a volatile AI-led correction, and NVDA's continued weakness is a negative read-through for the Nasdaq complex. ([schwab.com)",
+      "current_price_at_prediction": 637.82,
+      "prev_close": 633.93,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 143.9,
+      "model_reported_price": 146.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "NVDA was down 2.14% at $146.10 despite a positive index tape and had already failed to hold an early move to $151.98. Commentary before the open noted that the Huang-return rally was fading and that prior technical support near $166 had become resistance, leaving the shares vulnerable to continued selling in a low-volume session. (schwab.com)",
+      "current_price_at_prediction": 146.1,
+      "prev_close": 149.3,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_004",
+      "ticker": "TSLA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 387.5,
+      "model_reported_price": 391.68,
+      "timeframe": "end_of_day",
+      "confidence": 0.56,
+      "reasoning": "TSLA had gained 3.04% by 10:00 AM after reaching $395.25, but was already off that high as the initial risk-on impulse faded. With the stock up 4.6% over five days and a shortened session encouraging profit-taking, a partial retracement is more likely than another sustained leg higher.",
+      "current_price_at_prediction": 391.68,
+      "prev_close": 380.14,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [
+      "https://www.nyse.com/trade/hours-calendars?ecid=PSGONSGPLAENZG&utm_source=openai",
+      "https://www.schwab.com/learn/story/stock-market-update-open?utm_source=openai"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 18.5,
+    "prompt_tokens": 14366,
+    "completion_tokens": 1300,
+    "cost_usd": 0.057242,
+    "finished_at": "2026-11-27T15:00:28.337337+00:00",
+    "normalization_issues": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-27",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-27T15:00:27.619399+00:00",
+  "market_context": "US stocks opened higher on Black Friday, recovering from a recent tech selloff, but the early rally faded quickly. By 10:00 AM ET, SPY had retreated from its open of $725.86 to $720.14 as AI jitters and high yields (10Y at 4.89%) weighed on sentiment. Thin holiday trading and an early 1:00 PM close may amplify moves.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.2,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "The early rally driven by bargain-hunting in tech has already reversed, with SPY near its session low. Light volume and an early close increase the risk of a drift lower as initial enthusiasm fades.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 635.5,
+      "model_reported_price": 637.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ opened near $646 but has pulled back sharply as Nvidia and other AI stocks lose momentum. With yields still elevated and no fresh catalysts, the tech-heavy fund likely faces further selling into the shortened session.",
+      "current_price_at_prediction": 637.82,
+      "prev_close": 633.93,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 144.8,
+      "model_reported_price": 146.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Nvidia shares initially bounced but are now negative on the day despite a broader market upturn. Ongoing concerns about AI spending and export controls, combined with profit-taking, point to additional weakness.",
+      "current_price_at_prediction": 146.1,
+      "prev_close": 149.3,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261127_004",
+      "ticker": "DIA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 504.8,
+      "model_reported_price": 505.35,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "The Dow has held up better than tech, but the early advance has stalled. With the overall market turning cautious and volumes thin, DIA may also slip modestly into the close.",
+      "current_price_at_prediction": 505.35,
+      "prev_close": 501.27,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112726",
+      "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-dow-jumps.html?.tsrc=rss",
+      "https://previct.ai/terminal",
+      "https://news.openbell.live/news/spy-sp-500-etf-spy-is-trading-05-up-as-investors-return-to-beaten-down-ai-shares-2026-11-27",
+      "https://quantellect.ai/us/stocks/nyse/spy",
+      "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
+      "https://tradytics.com/markets"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 20.0,
+    "prompt_tokens": 4943,
+    "completion_tokens": 2414,
+    "cost_usd": 0.01469836601,
+    "finished_at": "2026-11-27T15:00:27.619399+00:00",
+    "normalization_issues": []
+  }
+}

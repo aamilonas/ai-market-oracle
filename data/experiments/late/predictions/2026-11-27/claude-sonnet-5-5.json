@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-27",
+  "slug": "claude-sonnet-5-5",
+  "model": "anthropic/claude-sonnet-5.5",
+  "model_display_name": "Claude Sonnet 5.5",
+  "generated_at": "2026-11-27T15:00:18.790792+00:00",
+  "market_context": "It is the half-day session after Thanksgiving, with US stocks closing at 1 PM ET. Futures were up 1.6% or more early, but SPY is only +0.48% and is sitting at the bottom of its day range, so the early gains have faded. Macro is hawkish: a December Fed hike is nearly fully priced, October PCE ran hot, the 10-year yield is near 4.9%, and the VIX is about 27. Crypto is weak, with BTC down 2% ahead of roughly $7B in Deribit options expiry.",
+  "predictions": [
+    {
+      "id": "pred_claude-sonnet-5-5_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 721.5,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "The post-Thanksgiving half-day is seasonally positive, and the AI and chip dip-buying plus the strong weekly gains support a drift higher. SPY is already near its session low, which limits further downside from here, though the fade from the highs and the hawkish Fed backdrop cap confidence.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261127_002",
+      "ticker": "IWM",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 272.5,
+      "model_reported_price": 271.49,
+      "timeframe": "end_of_day",
+      "confidence": 0.54,
+      "reasoning": "Small caps are leading today (+0.97%), and the broad market has held up better than headline tech this week. Thin holiday trading tends to favor drift in the direction of the open.",
+      "current_price_at_prediction": 271.49,
+      "prev_close": 268.87,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_claude-sonnet-5-5_20261127_003",
+      "ticker": "BTC-USD",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 58500.0,
+      "model_reported_price": 59148.97,
+      "timeframe": "end_of_day",
+      "confidence": 0.55,
+      "reasoning": "BTC has failed below the $60-62K resistance zone and is down 2.2% today. Higher-rate expectations, a firming dollar and spot ETF outflows weigh on it, and large options expiry today is skewed toward downside protection.",
+      "current_price_at_prediction": 59148.97,
+      "prev_close": 60494.71,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Claude Platform on AWS",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 11.2,
+    "prompt_tokens": 27838,
+    "completion_tokens": 1175,
+    "cost_usd": 0.077426,
+    "finished_at": "2026-11-27T15:00:18.790792+00:00",
+    "normalization_issues": []
+  }
+}

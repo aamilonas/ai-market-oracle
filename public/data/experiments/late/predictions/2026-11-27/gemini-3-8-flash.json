@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-27",
+  "slug": "gemini-3-8-flash",
+  "model": "google/gemini-3.8-flash",
+  "model_display_name": "Gemini 3.8 Flash",
+  "generated_at": "2026-11-27T15:00:35.715665+00:00",
+  "market_context": "Following the Thanksgiving holiday, markets opened with a sharp risk-on gap driven by overseas gains and China stimulus optimism, but quickly faded as elevated 10-year Treasury yields (4.89%), oil supply shocks in Saudi Arabia, and semiconductor weakness weighed on sentiment. In a holiday-shortened Black Friday session with thin liquidity and an elevated VIX at 26.86, heavy morning gap-fading is dominating major tech and index flows.",
+  "predictions": [
+    {
+      "id": "pred_gemini-3-8-flash_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 718.2,
+      "model_reported_price": 720.14,
+      "timeframe": "end_of_day",
+      "confidence": 0.63,
+      "reasoning": "After opening strongly near $726, SPY has rapidly faded its entire opening burst and is testing intraday session lows near $720. With the 10-year Treasury yield elevated at 4.89% and crude oil surging following Mideast refinery strikes, holiday-shortened volume is likely to see continuation toward gap support around $718.",
+      "current_price_at_prediction": 720.14,
+      "prev_close": 716.7,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 635.0,
+      "model_reported_price": 637.82,
+      "timeframe": "end_of_day",
+      "confidence": 0.65,
+      "reasoning": "QQQ has tumbled more than 8 points from its morning high of $645.89 as bellwether semiconductor names like NVDA rolled over into negative territory. With higher bond yields putting pressure on growth multiples and volume tapering rapidly into the early holiday close, tech ETFs are poised to drift lower.",
+      "current_price_at_prediction": 637.82,
+      "prev_close": 633.93,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "down",
+      "target_price": 144.5,
+      "model_reported_price": 146.1,
+      "timeframe": "end_of_day",
+      "confidence": 0.62,
+      "reasoning": "NVDA failed sharply at $151.98 pre-market resistance and plunged into negative territory (-2.14%), showing pronounced relative weakness against the broader market. The ongoing rotation out of mega-cap AI hardware into defensives is accelerating, pointing to a test of lower support near $144.50 into the close.",
+      "current_price_at_prediction": 146.1,
+      "prev_close": 149.3,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    },
+    {
+      "id": "pred_gemini-3-8-flash_20261127_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 250.75,
+      "model_reported_price": 249.38,
+      "timeframe": "end_of_day",
+      "confidence": 0.6,
+      "reasoning": "Amazon is outperforming the broader tech sector with a +2.03% gain as early Black Friday consumer spending reports provide a direct seasonal tailwind. Despite macro index pressure, AMZN continues to hold firm above its intraday floor at $248.45 and should see late-session retail-driven buying interest.",
+      "current_price_at_prediction": 249.38,
+      "prev_close": 244.43,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T10:00:04.398524-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Google",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 28.1,
+    "prompt_tokens": 1675,
+    "completion_tokens": 3602,
+    "cost_usd": 0.04276375,
+    "finished_at": "2026-11-27T15:00:35.715665+00:00",
+    "normalization_issues": []
+  }
+}
