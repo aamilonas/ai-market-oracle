@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T22:30:06.538724+00:00",
+  "generated_at": "2026-11-27T22:30:14.941278+00:00",
   "data_range": {
     "first_date": "2026-10-29",
-    "last_date": "2026-11-25",
-    "scoring_days": 20,
-    "total_predictions": 707
+    "last_date": "2026-11-27",
+    "scoring_days": 21,
+    "total_predictions": 742
   },
   "ticker_breakdown": {
     "by_ticker": [
@@ -83,6 +83,14 @@
         "group": "stock",
         "models": [
           {
+            "model": "Claude Sonnet 5.5",
+            "predictions": 1,
+            "correct": 1,
+            "accuracy": 1.0,
+            "total_score": 0.74,
+            "avg_confidence": 0.74
+          },
+          {
             "model": "DeepSeek V4 Pro",
             "predictions": 1,
             "correct": 1,
@@ -92,19 +100,19 @@
           },
           {
             "model": "GPT-5.6 Terra",
-            "predictions": 6,
-            "correct": 4,
-            "accuracy": 0.6667,
-            "total_score": 3.16,
-            "avg_confidence": 0.56
+            "predictions": 7,
+            "correct": 5,
+            "accuracy": 0.7143,
+            "total_score": 3.75,
+            "avg_confidence": 0.5643
           },
           {
             "model": "Gemini 3.8 Flash",
-            "predictions": 4,
-            "correct": 4,
+            "predictions": 5,
+            "correct": 5,
             "accuracy": 1.0,
-            "total_score": 4.52,
-            "avg_confidence": 0.63
+            "total_score": 5.27,
+            "avg_confidence": 0.654
           },
           {
             "model": "Grok 4.3",
@@ -124,11 +132,11 @@
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 6,
-            "correct": 4,
-            "accuracy": 0.6667,
-            "total_score": 2.84,
-            "avg_confidence": 0.58
+            "predictions": 7,
+            "correct": 5,
+            "accuracy": 0.7143,
+            "total_score": 3.45,
+            "avg_confidence": 0.5843
           }
         ]
       },
@@ -170,11 +178,11 @@
           },
           {
             "model": "Grok 4.3",
-            "predictions": 9,
+            "predictions": 10,
             "correct": 3,
-            "accuracy": 0.3333,
-            "total_score": -0.7,
-            "avg_confidence": 0.5667
+            "accuracy": 0.3,
+            "total_score": -1.3,
+            "avg_confidence": 0.57
           },
           {
             "model": "Hermes 4 405B",
@@ -264,19 +272,19 @@
           },
           {
             "model": "Kimi K3.1 Pro",
-            "predictions": 10,
-            "correct": 5,
-            "accuracy": 0.5,
-            "total_score": 1.95,
-            "avg_confidence": 0.593
+            "predictions": 11,
+            "correct": 6,
+            "accuracy": 0.5455,
+            "total_score": 3.2,
+            "avg_confidence": 0.6073
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 8,
-            "correct": 4,
-            "accuracy": 0.5,
-            "total_score": 2.05,
-            "avg_confidence": 0.5787
+            "predictions": 9,
+            "correct": 5,
+            "accuracy": 0.5556,
+            "total_score": 3.11,
+            "avg_confidence": 0.5767
           },
           {
             "model": "Qwen 3.8 Max",
@@ -416,11 +424,11 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 2,
-            "correct": 1,
-            "accuracy": 0.5,
-            "total_score": 0.17,
-            "avg_confidence": 0.635
+            "predictions": 3,
+            "correct": 2,
+            "accuracy": 0.6667,
+            "total_score": 0.89,
+            "avg_confidence": 0.6633
           },
           {
             "model": "GPT-5.6 Terra",
@@ -470,75 +478,75 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 13,
-            "correct": 9,
-            "accuracy": 0.6923,
-            "total_score": 6.85,
-            "avg_confidence": 0.5808
+            "predictions": 14,
+            "correct": 10,
+            "accuracy": 0.7143,
+            "total_score": 7.6,
+            "avg_confidence": 0.5929
           },
           {
             "model": "DeepSeek V4 Pro",
-            "predictions": 14,
-            "correct": 8,
-            "accuracy": 0.5714,
-            "total_score": 3.57,
-            "avg_confidence": 0.645
-          },
-          {
-            "model": "GPT-5.6 Terra",
-            "predictions": 16,
-            "correct": 9,
-            "accuracy": 0.5625,
-            "total_score": 4.29,
-            "avg_confidence": 0.6294
-          },
-          {
-            "model": "Gemini 3.8 Flash",
-            "predictions": 17,
-            "correct": 9,
-            "accuracy": 0.5294,
-            "total_score": 4.08,
-            "avg_confidence": 0.6729
-          },
-          {
-            "model": "Grok 4.3",
-            "predictions": 19,
-            "correct": 8,
-            "accuracy": 0.4211,
-            "total_score": 0.3,
-            "avg_confidence": 0.6263
-          },
-          {
-            "model": "Hermes 4 405B",
-            "predictions": 16,
-            "correct": 8,
-            "accuracy": 0.5,
-            "total_score": 1.8,
-            "avg_confidence": 0.8
-          },
-          {
-            "model": "Kimi K3.1 Pro",
             "predictions": 15,
             "correct": 9,
             "accuracy": 0.6,
-            "total_score": 4.64,
-            "avg_confidence": 0.6027
+            "total_score": 4.37,
+            "avg_confidence": 0.6553
           },
           {
-            "model": "Perplexity Sonar Pro",
+            "model": "GPT-5.6 Terra",
             "predictions": 17,
             "correct": 10,
             "accuracy": 0.5882,
-            "total_score": 3.89,
+            "total_score": 4.95,
             "avg_confidence": 0.6312
           },
           {
+            "model": "Gemini 3.8 Flash",
+            "predictions": 18,
+            "correct": 10,
+            "accuracy": 0.5556,
+            "total_score": 4.86,
+            "avg_confidence": 0.6789
+          },
+          {
+            "model": "Grok 4.3",
+            "predictions": 20,
+            "correct": 9,
+            "accuracy": 0.45,
+            "total_score": 0.95,
+            "avg_confidence": 0.6275
+          },
+          {
+            "model": "Hermes 4 405B",
+            "predictions": 17,
+            "correct": 9,
+            "accuracy": 0.5294,
+            "total_score": 2.5,
+            "avg_confidence": 0.7941
+          },
+          {
+            "model": "Kimi K3.1 Pro",
+            "predictions": 16,
+            "correct": 10,
+            "accuracy": 0.625,
+            "total_score": 5.32,
+            "avg_confidence": 0.6075
+          },
+          {
+            "model": "Perplexity Sonar Pro",
+            "predictions": 18,
+            "correct": 11,
+            "accuracy": 0.6111,
+            "total_score": 4.58,
+            "avg_confidence": 0.6344
+          },
+          {
             "model": "Qwen 3.8 Max",
-            "predictions": 12,
-            "correct": 7,
-            "accuracy": 0.5833,
-            "total_score": 3.24,
-            "avg_confidence": 0.58
+            "predictions": 13,
+            "correct": 8,
+            "accuracy": 0.6154,
+            "total_score": 3.94,
+            "avg_confidence": 0.5892
           }
         ]
       },
@@ -548,75 +556,75 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 13,
-            "correct": 7,
-            "accuracy": 0.5385,
-            "total_score": 3.92,
-            "avg_confidence": 0.6062
+            "predictions": 14,
+            "correct": 8,
+            "accuracy": 0.5714,
+            "total_score": 4.74,
+            "avg_confidence": 0.6214
           },
           {
             "model": "DeepSeek V4 Pro",
-            "predictions": 20,
-            "correct": 10,
-            "accuracy": 0.5,
-            "total_score": 4.14,
-            "avg_confidence": 0.654
+            "predictions": 21,
+            "correct": 11,
+            "accuracy": 0.5238,
+            "total_score": 5.49,
+            "avg_confidence": 0.6633
           },
           {
             "model": "GPT-5.6 Terra",
-            "predictions": 18,
-            "correct": 13,
-            "accuracy": 0.7222,
-            "total_score": 10.23,
-            "avg_confidence": 0.6372
+            "predictions": 19,
+            "correct": 14,
+            "accuracy": 0.7368,
+            "total_score": 11.45,
+            "avg_confidence": 0.6416
           },
           {
             "model": "Gemini 3.8 Flash",
-            "predictions": 20,
-            "correct": 12,
-            "accuracy": 0.6,
-            "total_score": 7.79,
-            "avg_confidence": 0.6785
+            "predictions": 21,
+            "correct": 13,
+            "accuracy": 0.619,
+            "total_score": 9.11,
+            "avg_confidence": 0.6852
           },
           {
             "model": "Grok 4.3",
-            "predictions": 19,
-            "correct": 11,
-            "accuracy": 0.5789,
-            "total_score": 5.3,
-            "avg_confidence": 0.6663
+            "predictions": 20,
+            "correct": 12,
+            "accuracy": 0.6,
+            "total_score": 6.55,
+            "avg_confidence": 0.6705
           },
           {
             "model": "Hermes 4 405B",
-            "predictions": 19,
-            "correct": 10,
-            "accuracy": 0.5263,
-            "total_score": 2.7,
-            "avg_confidence": 0.7684
+            "predictions": 20,
+            "correct": 11,
+            "accuracy": 0.55,
+            "total_score": 4.0,
+            "avg_confidence": 0.77
           },
           {
             "model": "Kimi K3.1 Pro",
-            "predictions": 18,
-            "correct": 11,
-            "accuracy": 0.6111,
-            "total_score": 7.01,
-            "avg_confidence": 0.6239
+            "predictions": 19,
+            "correct": 12,
+            "accuracy": 0.6316,
+            "total_score": 7.8,
+            "avg_confidence": 0.6326
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 20,
-            "correct": 16,
-            "accuracy": 0.8,
-            "total_score": 14.49,
-            "avg_confidence": 0.6495
+            "predictions": 21,
+            "correct": 17,
+            "accuracy": 0.8095,
+            "total_score": 15.75,
+            "avg_confidence": 0.6548
           },
           {
             "model": "Qwen 3.8 Max",
-            "predictions": 20,
-            "correct": 10,
-            "accuracy": 0.5,
-            "total_score": 4.15,
-            "avg_confidence": 0.6075
+            "predictions": 21,
+            "correct": 11,
+            "accuracy": 0.5238,
+            "total_score": 5.35,
+            "avg_confidence": 0.6119
           }
         ]
       },
@@ -626,75 +634,75 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 17,
-            "correct": 7,
-            "accuracy": 0.4118,
-            "total_score": 0.94,
-            "avg_confidence": 0.5906
+            "predictions": 18,
+            "correct": 8,
+            "accuracy": 0.4444,
+            "total_score": 2.26,
+            "avg_confidence": 0.6033
           },
           {
             "model": "DeepSeek V4 Pro",
-            "predictions": 20,
-            "correct": 8,
-            "accuracy": 0.4,
-            "total_score": 0.38,
-            "avg_confidence": 0.641
+            "predictions": 21,
+            "correct": 9,
+            "accuracy": 0.4286,
+            "total_score": 1.73,
+            "avg_confidence": 0.651
           },
           {
             "model": "GPT-5.6 Terra",
-            "predictions": 20,
-            "correct": 13,
-            "accuracy": 0.65,
-            "total_score": 9.28,
-            "avg_confidence": 0.608
+            "predictions": 21,
+            "correct": 14,
+            "accuracy": 0.6667,
+            "total_score": 10.47,
+            "avg_confidence": 0.6119
           },
           {
             "model": "Gemini 3.8 Flash",
-            "predictions": 20,
-            "correct": 12,
-            "accuracy": 0.6,
-            "total_score": 7.56,
-            "avg_confidence": 0.666
+            "predictions": 21,
+            "correct": 13,
+            "accuracy": 0.619,
+            "total_score": 8.86,
+            "avg_confidence": 0.6724
           },
           {
             "model": "Grok 4.3",
-            "predictions": 20,
-            "correct": 8,
-            "accuracy": 0.4,
-            "total_score": 0.27,
-            "avg_confidence": 0.6485
+            "predictions": 21,
+            "correct": 9,
+            "accuracy": 0.4286,
+            "total_score": 1.47,
+            "avg_confidence": 0.651
           },
           {
             "model": "Hermes 4 405B",
-            "predictions": 20,
-            "correct": 7,
-            "accuracy": 0.35,
-            "total_score": -2.55,
-            "avg_confidence": 0.7325
+            "predictions": 21,
+            "correct": 8,
+            "accuracy": 0.381,
+            "total_score": -1.3,
+            "avg_confidence": 0.7333
           },
           {
             "model": "Kimi K3.1 Pro",
-            "predictions": 19,
-            "correct": 10,
-            "accuracy": 0.5263,
-            "total_score": 4.58,
-            "avg_confidence": 0.6074
+            "predictions": 20,
+            "correct": 11,
+            "accuracy": 0.55,
+            "total_score": 5.9,
+            "avg_confidence": 0.618
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 20,
-            "correct": 8,
-            "accuracy": 0.4,
-            "total_score": 0.86,
-            "avg_confidence": 0.607
+            "predictions": 21,
+            "correct": 9,
+            "accuracy": 0.4286,
+            "total_score": 2.08,
+            "avg_confidence": 0.6124
           },
           {
             "model": "Qwen 3.8 Max",
-            "predictions": 20,
-            "correct": 10,
-            "accuracy": 0.5,
-            "total_score": 3.98,
-            "avg_confidence": 0.597
+            "predictions": 21,
+            "correct": 11,
+            "accuracy": 0.5238,
+            "total_score": 5.23,
+            "avg_confidence": 0.6043
           }
         ]
       },
@@ -787,10 +795,10 @@
           },
           {
             "model": "Grok 4.3",
-            "predictions": 9,
+            "predictions": 10,
             "correct": 3,
-            "accuracy": 0.3333,
-            "total_score": -0.7
+            "accuracy": 0.3,
+            "total_score": -1.3
           },
           {
             "model": "Hermes 4 405B",
@@ -827,66 +835,66 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 36,
-            "correct": 17,
-            "accuracy": 0.4722,
-            "total_score": 6.11
+            "predictions": 38,
+            "correct": 19,
+            "accuracy": 0.5,
+            "total_score": 8.25
           },
           {
             "model": "DeepSeek V4 Pro",
-            "predictions": 53,
-            "correct": 23,
-            "accuracy": 0.434,
-            "total_score": 4.32
+            "predictions": 55,
+            "correct": 25,
+            "accuracy": 0.4545,
+            "total_score": 7.02
           },
           {
             "model": "GPT-5.6 Terra",
-            "predictions": 43,
-            "correct": 29,
-            "accuracy": 0.6744,
-            "total_score": 21.71
+            "predictions": 45,
+            "correct": 31,
+            "accuracy": 0.6889,
+            "total_score": 24.12
           },
           {
             "model": "Gemini 3.8 Flash",
-            "predictions": 46,
-            "correct": 29,
-            "accuracy": 0.6304,
-            "total_score": 19.87
+            "predictions": 48,
+            "correct": 31,
+            "accuracy": 0.6458,
+            "total_score": 22.49
           },
           {
             "model": "Grok 4.3",
-            "predictions": 43,
-            "correct": 21,
-            "accuracy": 0.4884,
-            "total_score": 6.57
+            "predictions": 45,
+            "correct": 23,
+            "accuracy": 0.5111,
+            "total_score": 9.02
           },
           {
             "model": "Hermes 4 405B",
-            "predictions": 45,
-            "correct": 17,
-            "accuracy": 0.3778,
-            "total_score": -3.9
+            "predictions": 47,
+            "correct": 19,
+            "accuracy": 0.4043,
+            "total_score": -1.35
           },
           {
             "model": "Kimi K3.1 Pro",
-            "predictions": 47,
-            "correct": 26,
-            "accuracy": 0.5532,
-            "total_score": 13.54
+            "predictions": 50,
+            "correct": 29,
+            "accuracy": 0.58,
+            "total_score": 16.9
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 48,
-            "correct": 28,
-            "accuracy": 0.5833,
-            "total_score": 17.4
+            "predictions": 51,
+            "correct": 31,
+            "accuracy": 0.6078,
+            "total_score": 20.94
           },
           {
             "model": "Qwen 3.8 Max",
-            "predictions": 55,
-            "correct": 27,
-            "accuracy": 0.4909,
-            "total_score": 10.51
+            "predictions": 57,
+            "correct": 29,
+            "accuracy": 0.5088,
+            "total_score": 12.96
           }
         ]
       },
@@ -895,66 +903,66 @@
         "models": [
           {
             "model": "Claude Sonnet 5.5",
-            "predictions": 20,
-            "correct": 14,
-            "accuracy": 0.7,
-            "total_score": 10.18
+            "predictions": 23,
+            "correct": 17,
+            "accuracy": 0.7391,
+            "total_score": 12.39
           },
           {
             "model": "DeepSeek V4 Pro",
-            "predictions": 27,
-            "correct": 13,
-            "accuracy": 0.4815,
-            "total_score": 3.89
-          },
-          {
-            "model": "GPT-5.6 Terra",
-            "predictions": 36,
-            "correct": 23,
-            "accuracy": 0.6389,
-            "total_score": 14.66
-          },
-          {
-            "model": "Gemini 3.8 Flash",
-            "predictions": 29,
-            "correct": 17,
-            "accuracy": 0.5862,
-            "total_score": 10.11
-          },
-          {
-            "model": "Grok 4.3",
-            "predictions": 28,
-            "correct": 11,
-            "accuracy": 0.3929,
-            "total_score": -0.35
-          },
-          {
-            "model": "Hermes 4 405B",
-            "predictions": 22,
-            "correct": 9,
-            "accuracy": 0.4091,
-            "total_score": -0.4
-          },
-          {
-            "model": "Kimi K3.1 Pro",
             "predictions": 28,
             "correct": 14,
             "accuracy": 0.5,
-            "total_score": 5.35
+            "total_score": 4.69
+          },
+          {
+            "model": "GPT-5.6 Terra",
+            "predictions": 38,
+            "correct": 25,
+            "accuracy": 0.6579,
+            "total_score": 15.91
+          },
+          {
+            "model": "Gemini 3.8 Flash",
+            "predictions": 31,
+            "correct": 19,
+            "accuracy": 0.6129,
+            "total_score": 11.64
+          },
+          {
+            "model": "Grok 4.3",
+            "predictions": 29,
+            "correct": 12,
+            "accuracy": 0.4138,
+            "total_score": 0.3
+          },
+          {
+            "model": "Hermes 4 405B",
+            "predictions": 23,
+            "correct": 10,
+            "accuracy": 0.4348,
+            "total_score": 0.3
+          },
+          {
+            "model": "Kimi K3.1 Pro",
+            "predictions": 29,
+            "correct": 15,
+            "accuracy": 0.5172,
+            "total_score": 6.03
           },
           {
             "model": "Perplexity Sonar Pro",
-            "predictions": 33,
-            "correct": 20,
-            "accuracy": 0.6061,
-            "total_score": 9.76
+            "predictions": 35,
+            "correct": 22,
+            "accuracy": 0.6286,
+            "total_score": 11.06
           },
           {
             "model": "Qwen 3.8 Max",
-            "predictions": 17,
-            "correct": 10,
-            "accuracy": 0.5882,
-            "total_score": 5.34
+            "predictions": 18,
+            "correct": 11,
+            "accuracy": 0.6111,
+            "total_score": 6.04
           }
         ]
       }
@@ -983,15 +991,15 @@
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 6,
-            "correct": 6,
+            "predictions": 9,
+            "correct": 9,
             "actual_accuracy": 1.0
           },
           {
             "confidence_range": "80-89%",
             "confidence_midpoint": 0.85,
-            "predictions": 6,
-            "correct": 6,
+            "predictions": 8,
+            "correct": 8,
             "actual_accuracy": 1.0
           }
         ]
@@ -1024,42 +1032,42 @@
           {
             "confidence_range": "80-89%",
             "confidence_midpoint": 0.85,
-            "predictions": 3,
-            "correct": 3,
+            "predictions": 6,
+            "correct": 6,
             "actual_accuracy": 1.0
           }
         ]
       },
       {
         "model": "GPT-5.6 Terra",
-        "calibration_error": 0.0234,
+        "calibration_error": 0.0486,
         "buckets": [
           {
             "confidence_range": "50-59%",
             "confidence_midpoint": 0.55,
-            "predictions": 34,
-            "correct": 20,
-            "actual_accuracy": 0.5882
+            "predictions": 35,
+            "correct": 21,
+            "actual_accuracy": 0.6
           },
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 44,
-            "correct": 30,
-            "actual_accuracy": 0.6818
+            "predictions": 46,
+            "correct": 32,
+            "actual_accuracy": 0.6957
           },
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 4,
-            "correct": 3,
-            "actual_accuracy": 0.75
+            "predictions": 5,
+            "correct": 4,
+            "actual_accuracy": 0.8
           }
         ]
       },
       {
         "model": "Gemini 3.8 Flash",
-        "calibration_error": 0.1817,
+        "calibration_error": 0.1942,
         "buckets": [
           {
             "confidence_range": "50-59%",
@@ -1078,22 +1086,22 @@
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 8,
-            "correct": 6,
-            "actual_accuracy": 0.75
+            "predictions": 10,
+            "correct": 8,
+            "actual_accuracy": 0.8
           },
           {
             "confidence_range": "80-89%",
             "confidence_midpoint": 0.85,
-            "predictions": 6,
-            "correct": 6,
+            "predictions": 8,
+            "correct": 8,
             "actual_accuracy": 1.0
           }
         ]
       },
       {
         "model": "Grok 4.3",
-        "calibration_error": 0.1858,
+        "calibration_error": 0.1757,
         "buckets": [
           {
             "confidence_range": "50-59%",
@@ -1105,16 +1113,16 @@
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 43,
-            "correct": 16,
-            "actual_accuracy": 0.3721
+            "predictions": 45,
+            "correct": 17,
+            "actual_accuracy": 0.3778
           },
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 19,
-            "correct": 12,
-            "actual_accuracy": 0.6316
+            "predictions": 21,
+            "correct": 14,
+            "actual_accuracy": 0.6667
           },
           {
             "confidence_range": "80-89%",
@@ -1127,7 +1135,7 @@
       },
       {
         "model": "Hermes 4 405B",
-        "calibration_error": 0.4218,
+        "calibration_error": 0.4039,
         "buckets": [
           {
             "confidence_range": "60-69%",
@@ -1139,22 +1147,22 @@
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 35,
-            "correct": 12,
-            "actual_accuracy": 0.3429
+            "predictions": 37,
+            "correct": 14,
+            "actual_accuracy": 0.3784
           },
           {
             "confidence_range": "80-89%",
             "confidence_midpoint": 0.85,
-            "predictions": 24,
-            "correct": 13,
-            "actual_accuracy": 0.5417
+            "predictions": 25,
+            "correct": 14,
+            "actual_accuracy": 0.56
           }
         ]
       },
       {
         "model": "Kimi K3.1 Pro",
-        "calibration_error": 0.2081,
+        "calibration_error": 0.1441,
         "buckets": [
           {
             "confidence_range": "50-59%",
@@ -1166,50 +1174,50 @@
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 21,
-            "correct": 16,
-            "actual_accuracy": 0.7619
+            "predictions": 22,
+            "correct": 17,
+            "actual_accuracy": 0.7727
           },
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 3,
-            "correct": 1,
-            "actual_accuracy": 0.3333
+            "predictions": 5,
+            "correct": 3,
+            "actual_accuracy": 0.6
           },
           {
             "confidence_range": "80-89%",
             "confidence_midpoint": 0.85,
-            "predictions": 3,
-            "correct": 3,
+            "predictions": 4,
+            "correct": 4,
             "actual_accuracy": 1.0
           }
         ]
       },
       {
         "model": "Perplexity Sonar Pro",
-        "calibration_error": 0.0838,
+        "calibration_error": 0.0889,
         "buckets": [
           {
             "confidence_range": "50-59%",
             "confidence_midpoint": 0.55,
-            "predictions": 44,
-            "correct": 24,
-            "actual_accuracy": 0.5455
+            "predictions": 45,
+            "correct": 25,
+            "actual_accuracy": 0.5556
           },
           {
             "confidence_range": "60-69%",
             "confidence_midpoint": 0.65,
-            "predictions": 38,
-            "correct": 21,
-            "actual_accuracy": 0.5526
+            "predictions": 40,
+            "correct": 23,
+            "actual_accuracy": 0.575
           },
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 6,
-            "correct": 5,
-            "actual_accuracy": 0.8333
+            "predictions": 8,
+            "correct": 7,
+            "actual_accuracy": 0.875
           },
           {
             "confidence_range": "80-89%",
@@ -1241,8 +1249,8 @@
           {
             "confidence_range": "70-79%",
             "confidence_midpoint": 0.75,
-            "predictions": 6,
-            "correct": 6,
+            "predictions": 9,
+            "correct": 9,
             "actual_accuracy": 1.0
           }
         ]
@@ -1251,12 +1259,12 @@
   },
   "herding": {
     "summary": {
-      "total_overlaps": 111,
-      "unanimous": 56,
+      "total_overlaps": 116,
+      "unanimous": 61,
       "split": 55,
-      "herding_rate": 0.5045,
-      "unanimous_correct": 30,
-      "unanimous_accuracy": 0.5357,
+      "herding_rate": 0.5259,
+      "unanimous_correct": 35,
+      "unanimous_accuracy": 0.5738,
       "contrarian_wins": 35
     },
     "daily_herding": [
@@ -1379,6 +1387,12 @@
         "overlaps": 5,
         "unanimous": 4,
         "herding_rate": 0.8
+      },
+      {
+        "date": "2026-11-27",
+        "overlaps": 5,
+        "unanimous": 5,
+        "herding_rate": 1.0
       }
     ]
   },
@@ -2523,6 +2537,63 @@
           "accuracy": 0.6667,
           "predictions": 3
         }
+      },
+      {
+        "date": "2026-11-27",
+        "Claude Sonnet 5.5": {
+          "daily_score": 4.35,
+          "cumulative_score": 16.78,
+          "accuracy": 1.0,
+          "predictions": 5
+        },
+        "DeepSeek V4 Pro": {
+          "daily_score": 3.5,
+          "cumulative_score": 10.46,
+          "accuracy": 1.0,
+          "predictions": 3
+        },
+        "GPT-5.6 Terra": {
+          "daily_score": 3.66,
+          "cumulative_score": 39.4,
+          "accuracy": 1.0,
+          "predictions": 4
+        },
+        "Gemini 3.8 Flash": {
+          "daily_score": 4.15,
+          "cumulative_score": 32.76,
+          "accuracy": 1.0,
+          "predictions": 4
+        },
+        "Grok 4.3": {
+          "daily_score": 2.5,
+          "cumulative_score": 8.02,
+          "accuracy": 0.75,
+          "predictions": 4
+        },
+        "Hermes 4 405B": {
+          "daily_score": 3.25,
+          "cumulative_score": -2.4,
+          "accuracy": 1.0,
+          "predictions": 3
+        },
+        "Kimi K3.1 Pro": {
+          "daily_score": 4.04,
+          "cumulative_score": 21.79,
+          "accuracy": 1.0,
+          "predictions": 4
+        },
+        "Perplexity Sonar Pro": {
+          "daily_score": 4.84,
+          "cumulative_score": 32.09,
+          "accuracy": 1.0,
+          "predictions": 5
+        },
+        "Qwen 3.8 Max": {
+          "daily_score": 3.15,
+          "cumulative_score": 17.35,
+          "accuracy": 1.0,
+          "predictions": 3
+        }
       }
     ],
     "rolling_accuracy": [
@@ -2765,6 +2836,18 @@
         "Kimi K3.1 Pro": 0.8182,
         "Perplexity Sonar Pro": 0.8095,
         "Qwen 3.8 Max": 0.8333
+      },
+      {
+        "date": "2026-11-27",
+        "Claude Sonnet 5.5": 0.7727,
+        "DeepSeek V4 Pro": 0.8261,
+        "GPT-5.6 Terra": 0.8571,
+        "Gemini 3.8 Flash": 0.9,
+        "Grok 4.3": 0.85,
+        "Hermes 4 405B": 0.8824,
+        "Kimi K3.1 Pro": 0.8182,
+        "Perplexity Sonar Pro": 0.8095,
+        "Qwen 3.8 Max": 0.8235
       }
     ]
   },
@@ -2773,325 +2856,325 @@
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "DeepSeek V4 Pro",
-        "matchups": 50,
+        "matchups": 53,
         "a_wins": 8,
         "b_wins": 9,
-        "ties": 33,
+        "ties": 36,
         "a_win_rate": 0.4706
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "GPT-5.6 Terra",
-        "matchups": 48,
+        "matchups": 52,
         "a_wins": 8,
         "b_wins": 13,
-        "ties": 27,
+        "ties": 31,
         "a_win_rate": 0.381
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Gemini 3.8 Flash",
-        "matchups": 51,
+        "matchups": 55,
         "a_wins": 9,
         "b_wins": 14,
-        "ties": 28,
+        "ties": 32,
         "a_win_rate": 0.3913
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Grok 4.3",
-        "matchups": 52,
+        "matchups": 55,
         "a_wins": 8,
         "b_wins": 9,
-        "ties": 35,
+        "ties": 38,
         "a_win_rate": 0.4706
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Hermes 4 405B",
-        "matchups": 45,
+        "matchups": 48,
         "a_wins": 8,
         "b_wins": 9,
-        "ties": 28,
+        "ties": 31,
         "a_win_rate": 0.4706
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 51,
+        "matchups": 54,
         "a_wins": 7,
         "b_wins": 10,
-        "ties": 34,
+        "ties": 37,
         "a_win_rate": 0.4118
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 52,
+        "matchups": 56,
         "a_wins": 7,
         "b_wins": 11,
-        "ties": 34,
+        "ties": 38,
         "a_win_rate": 0.3889
       },
       {
         "model_a": "Claude Sonnet 5.5",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 49,
+        "matchups": 52,
         "a_wins": 6,
         "b_wins": 9,
-        "ties": 34,
+        "ties": 37,
         "a_win_rate": 0.4
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "GPT-5.6 Terra",
-        "matchups": 64,
+        "matchups": 67,
         "a_wins": 4,
         "b_wins": 15,
-        "ties": 45,
+        "ties": 48,
         "a_win_rate": 0.2105
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Gemini 3.8 Flash",
-        "matchups": 64,
+        "matchups": 67,
         "a_wins": 2,
         "b_wins": 10,
-        "ties": 52,
+        "ties": 55,
         "a_win_rate": 0.1667
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Grok 4.3",
-        "matchups": 62,
+        "matchups": 65,
         "a_wins": 3,
         "b_wins": 3,
-        "ties": 56,
+        "ties": 59,
         "a_win_rate": 0.5
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Hermes 4 405B",
-        "matchups": 60,
+        "matchups": 63,
         "a_wins": 2,
         "b_wins": 0,
-        "ties": 58,
+        "ties": 61,
         "a_win_rate": 1.0
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 61,
+        "matchups": 64,
         "a_wins": 2,
         "b_wins": 5,
-        "ties": 54,
+        "ties": 57,
         "a_win_rate": 0.2857
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 68,
+        "matchups": 71,
         "a_wins": 5,
         "b_wins": 16,
-        "ties": 47,
+        "ties": 50,
         "a_win_rate": 0.2381
       },
       {
         "model_a": "DeepSeek V4 Pro",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 64,
+        "matchups": 67,
         "a_wins": 2,
         "b_wins": 5,
-        "ties": 57,
+        "ties": 60,
         "a_win_rate": 0.2857
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Gemini 3.8 Flash",
-        "matchups": 62,
+        "matchups": 66,
         "a_wins": 10,
         "b_wins": 5,
-        "ties": 47,
+        "ties": 51,
         "a_win_rate": 0.6667
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Grok 4.3",
-        "matchups": 66,
+        "matchups": 69,
         "a_wins": 19,
         "b_wins": 4,
-        "ties": 43,
+        "ties": 46,
         "a_win_rate": 0.8261
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Hermes 4 405B",
-        "matchups": 59,
+        "matchups": 62,
         "a_wins": 15,
         "b_wins": 3,
-        "ties": 41,
+        "ties": 44,
         "a_win_rate": 0.8333
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 59,
+        "matchups": 62,
         "a_wins": 9,
         "b_wins": 4,
-        "ties": 46,
+        "ties": 49,
         "a_win_rate": 0.6923
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 73,
+        "matchups": 77,
         "a_wins": 11,
         "b_wins": 7,
-        "ties": 55,
+        "ties": 59,
         "a_win_rate": 0.6111
       },
       {
         "model_a": "GPT-5.6 Terra",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 55,
+        "matchups": 58,
         "a_wins": 9,
         "b_wins": 5,
-        "ties": 41,
+        "ties": 44,
         "a_win_rate": 0.6429
       },
       {
         "model_a": "Gemini 3.8 Flash",
         "model_b": "Grok 4.3",
-        "matchups": 65,
+        "matchups": 68,
         "a_wins": 9,
         "b_wins": 2,
-        "ties": 54,
+        "ties": 57,
         "a_win_rate": 0.8182
       },
       {
         "model_a": "Gemini 3.8 Flash",
         "model_b": "Hermes 4 405B",
-        "matchups": 61,
+        "matchups": 64,
         "a_wins": 12,
         "b_wins": 1,
-        "ties": 48,
+        "ties": 51,
         "a_win_rate": 0.9231
       },
       {
         "model_a": "Gemini 3.8 Flash",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 64,
+        "matchups": 67,
         "a_wins": 5,
         "b_wins": 2,
-        "ties": 57,
+        "ties": 60,
         "a_win_rate": 0.7143
       },
       {
         "model_a": "Gemini 3.8 Flash",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 70,
+        "matchups": 74,
         "a_wins": 8,
         "b_wins": 8,
-        "ties": 54,
+        "ties": 58,
         "a_win_rate": 0.5
       },
       {
         "model_a": "Gemini 3.8 Flash",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 57,
+        "matchups": 60,
         "a_wins": 8,
         "b_wins": 4,
-        "ties": 45,
+        "ties": 48,
         "a_win_rate": 0.6667
       },
       {
         "model_a": "Grok 4.3",
         "model_b": "Hermes 4 405B",
-        "matchups": 58,
+        "matchups": 61,
         "a_wins": 2,
         "b_wins": 0,
-        "ties": 56,
+        "ties": 59,
         "a_win_rate": 1.0
       },
       {
         "model_a": "Grok 4.3",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 60,
+        "matchups": 63,
         "a_wins": 1,
         "b_wins": 6,
-        "ties": 53,
-        "a_win_rate": 0.1429
-      },
-      {
-        "model_a": "Grok 4.3",
-        "model_b": "Perplexity Sonar Pro",
-        "matchups": 70,
-        "a_wins": 2,
-        "b_wins": 12,
         "ties": 56,
         "a_win_rate": 0.1429
       },
       {
         "model_a": "Grok 4.3",
+        "model_b": "Perplexity Sonar Pro",
+        "matchups": 73,
+        "a_wins": 2,
+        "b_wins": 12,
+        "ties": 59,
+        "a_win_rate": 0.1429
+      },
+      {
+        "model_a": "Grok 4.3",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 56,
+        "matchups": 59,
         "a_wins": 2,
         "b_wins": 5,
-        "ties": 49,
+        "ties": 52,
         "a_win_rate": 0.2857
       },
       {
         "model_a": "Hermes 4 405B",
         "model_b": "Kimi K3.1 Pro",
-        "matchups": 56,
+        "matchups": 59,
         "a_wins": 0,
         "b_wins": 8,
-        "ties": 48,
+        "ties": 51,
         "a_win_rate": 0.0
       },
       {
         "model_a": "Hermes 4 405B",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 62,
+        "matchups": 65,
         "a_wins": 2,
         "b_wins": 10,
-        "ties": 50,
+        "ties": 53,
         "a_win_rate": 0.1667
       },
       {
         "model_a": "Hermes 4 405B",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 55,
+        "matchups": 58,
         "a_wins": 0,
         "b_wins": 5,
-        "ties": 50,
+        "ties": 53,
         "a_win_rate": 0.0
       },
       {
         "model_a": "Kimi K3.1 Pro",
         "model_b": "Perplexity Sonar Pro",
-        "matchups": 62,
+        "matchups": 66,
         "a_wins": 7,
         "b_wins": 10,
-        "ties": 45,
+        "ties": 49,
         "a_win_rate": 0.4118
       },
       {
         "model_a": "Kimi K3.1 Pro",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 62,
+        "matchups": 65,
         "a_wins": 3,
         "b_wins": 2,
-        "ties": 57,
+        "ties": 60,
         "a_win_rate": 0.6
       },
       {
         "model_a": "Perplexity Sonar Pro",
         "model_b": "Qwen 3.8 Max",
-        "matchups": 58,
+        "matchups": 61,
         "a_wins": 10,
         "b_wins": 5,
-        "ties": 43,
+        "ties": 46,
         "a_win_rate": 0.6667
       }
     ],
@@ -3267,84 +3350,84 @@
     "models": [
       {
         "model": "Claude Sonnet 5.5",
-        "predictions": 66,
-        "accuracy": 0.4848,
-        "accuracy_lower_bound": 0.3685,
-        "brier_score": 0.2244,
-        "avg_return_pct": 0.5766,
-        "total_return_pct": 38.05
+        "predictions": 71,
+        "accuracy": 0.5211,
+        "accuracy_lower_bound": 0.4069,
+        "brier_score": 0.2124,
+        "avg_return_pct": 0.6722,
+        "total_return_pct": 47.72
       },
       {
         "model": "DeepSeek V4 Pro",
-        "predictions": 85,
-        "accuracy": 0.4353,
-        "accuracy_lower_bound": 0.335,
-        "brier_score": 0.2675,
-        "avg_return_pct": 0.7356,
-        "total_return_pct": 62.53
+        "predictions": 88,
+        "accuracy": 0.4545,
+        "accuracy_lower_bound": 0.3546,
+        "brier_score": 0.2594,
+        "avg_return_pct": 0.7686,
+        "total_return_pct": 67.64
       },
       {
         "model": "GPT-5.6 Terra",
-        "predictions": 82,
-        "accuracy": 0.6463,
-        "accuracy_lower_bound": 0.5384,
-        "brier_score": 0.2245,
-        "avg_return_pct": 1.1223,
-        "total_return_pct": 92.03
+        "predictions": 86,
+        "accuracy": 0.6628,
+        "accuracy_lower_bound": 0.5578,
+        "brier_score": 0.2194,
+        "avg_return_pct": 1.1756,
+        "total_return_pct": 101.1
       },
       {
         "model": "Gemini 3.8 Flash",
-        "predictions": 80,
-        "accuracy": 0.5875,
-        "accuracy_lower_bound": 0.478,
-        "brier_score": 0.2349,
-        "avg_return_pct": 0.8325,
-        "total_return_pct": 66.6
+        "predictions": 84,
+        "accuracy": 0.6071,
+        "accuracy_lower_bound": 0.5002,
+        "brier_score": 0.2259,
+        "avg_return_pct": 0.9008,
+        "total_return_pct": 75.67
       },
       {
         "model": "Grok 4.3",
-        "predictions": 80,
-        "accuracy": 0.4375,
-        "accuracy_lower_bound": 0.3341,
-        "brier_score": 0.2709,
-        "avg_return_pct": 0.6395,
-        "total_return_pct": 51.16
+        "predictions": 84,
+        "accuracy": 0.4524,
+        "accuracy_lower_bound": 0.3504,
+        "brier_score": 0.2656,
+        "avg_return_pct": 0.6374,
+        "total_return_pct": 53.54
       },
       {
         "model": "Hermes 4 405B",
-        "predictions": 69,
-        "accuracy": 0.3768,
-        "accuracy_lower_bound": 0.2718,
-        "brier_score": 0.3537,
-        "avg_return_pct": 0.8288,
-        "total_return_pct": 57.18
+        "predictions": 72,
+        "accuracy": 0.4028,
+        "accuracy_lower_bound": 0.2972,
+        "brier_score": 0.3416,
+        "avg_return_pct": 0.8652,
+        "total_return_pct": 62.29
       },
       {
         "model": "Kimi K3.1 Pro",
-        "predictions": 80,
-        "accuracy": 0.5125,
-        "accuracy_lower_bound": 0.4049,
-        "brier_score": 0.243,
-        "avg_return_pct": 0.7466,
-        "total_return_pct": 59.73
+        "predictions": 84,
+        "accuracy": 0.5357,
+        "accuracy_lower_bound": 0.4298,
+        "brier_score": 0.2343,
+        "avg_return_pct": 0.787,
+        "total_return_pct": 66.1
       },
       {
         "model": "Perplexity Sonar Pro",
-        "predictions": 90,
-        "accuracy": 0.5778,
-        "accuracy_lower_bound": 0.4746,
-        "brier_score": 0.2369,
-        "avg_return_pct": 0.8732,
-        "total_return_pct": 78.59
+        "predictions": 95,
+        "accuracy": 0.6,
+        "accuracy_lower_bound": 0.4995,
+        "brier_score": 0.2305,
+        "avg_return_pct": 0.936,
+        "total_return_pct": 88.92
       },
       {
         "model": "Qwen 3.8 Max",
-        "predictions": 75,
-        "accuracy": 0.4933,
-        "accuracy_lower_bound": 0.3833,
-        "brier_score": 0.2446,
-        "avg_return_pct": 0.7262,
-        "total_return_pct": 54.47
+        "predictions": 78,
+        "accuracy": 0.5128,
+        "accuracy_lower_bound": 0.4039,
+        "brier_score": 0.2383,
+        "avg_return_pct": 0.7638,
+        "total_return_pct": 59.58
       }
     ],
     "committees": [
@@ -3355,12 +3438,12 @@
           "Qwen 3.8 Max"
         ],
         "size": 3,
-        "signals": 18,
-        "signals_per_day": 0.9,
-        "correct": 15,
-        "accuracy": 0.8333,
-        "accuracy_lower_bound": 0.6078,
-        "avg_return_pct": 2.9915
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 18,
+        "accuracy": 0.8571,
+        "accuracy_lower_bound": 0.6536,
+        "avg_return_pct": 2.8074
       },
       {
         "models": [
@@ -3370,12 +3453,27 @@
           "Qwen 3.8 Max"
         ],
         "size": 4,
-        "signals": 18,
-        "signals_per_day": 0.9,
-        "correct": 15,
-        "accuracy": 0.8333,
-        "accuracy_lower_bound": 0.6078,
-        "avg_return_pct": 2.9905
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 18,
+        "accuracy": 0.8571,
+        "accuracy_lower_bound": 0.6536,
+        "avg_return_pct": 2.8066
+      },
+      {
+        "models": [
+          "Claude Sonnet 5.5",
+          "GPT-5.6 Terra",
+          "Gemini 3.8 Flash",
+          "Qwen 3.8 Max"
+        ],
+        "size": 4,
+        "signals": 16,
+        "signals_per_day": 0.76,
+        "correct": 14,
+        "accuracy": 0.875,
+        "accuracy_lower_bound": 0.6398,
+        "avg_return_pct": 3.6085
       },
       {
         "models": [
@@ -3385,12 +3483,12 @@
           "Qwen 3.8 Max"
         ],
         "size": 4,
-        "signals": 17,
-        "signals_per_day": 0.85,
-        "correct": 14,
-        "accuracy": 0.8235,
-        "accuracy_lower_bound": 0.5897,
-        "avg_return_pct": 3.1468
+        "signals": 20,
+        "signals_per_day": 0.95,
+        "correct": 17,
+        "accuracy": 0.85,
+        "accuracy_lower_bound": 0.6396,
+        "avg_return_pct": 2.9303
       },
       {
         "models": [
@@ -3399,27 +3497,12 @@
           "Kimi K3.1 Pro"
         ],
         "size": 3,
-        "signals": 20,
-        "signals_per_day": 1.0,
-        "correct": 16,
-        "accuracy": 0.8,
-        "accuracy_lower_bound": 0.584,
-        "avg_return_pct": 2.9043
-      },
-      {
-        "models": [
-          "Claude Sonnet 5.5",
-          "GPT-5.6 Terra",
-          "Gemini 3.8 Flash",
-          "Qwen 3.8 Max"
-        ],
-        "size": 4,
-        "signals": 13,
-        "signals_per_day": 0.65,
-        "correct": 11,
-        "accuracy": 0.8462,
-        "accuracy_lower_bound": 0.5776,
-        "avg_return_pct": 4.0482
+        "signals": 23,
+        "signals_per_day": 1.1,
+        "correct": 19,
+        "accuracy": 0.8261,
+        "accuracy_lower_bound": 0.6286,
+        "avg_return_pct": 2.7476
       },
       {
         "models": [
@@ -3429,12 +3512,12 @@
           "Kimi K3.1 Pro"
         ],
         "size": 4,
-        "signals": 16,
-        "signals_per_day": 0.8,
-        "correct": 13,
-        "accuracy": 0.8125,
-        "accuracy_lower_bound": 0.5699,
-        "avg_return_pct": 3.5757
+        "signals": 19,
+        "signals_per_day": 0.9,
+        "correct": 16,
+        "accuracy": 0.8421,
+        "accuracy_lower_bound": 0.6243,
+        "avg_return_pct": 3.28
       },
       {
         "models": [
@@ -3444,12 +3527,12 @@
           "Qwen 3.8 Max"
         ],
         "size": 4,
-        "signals": 16,
-        "signals_per_day": 0.8,
-        "correct": 13,
-        "accuracy": 0.8125,
-        "accuracy_lower_bound": 0.5699,
-        "avg_return_pct": 3.3168
+        "signals": 19,
+        "signals_per_day": 0.9,
+        "correct": 16,
+        "accuracy": 0.8421,
+        "accuracy_lower_bound": 0.6243,
+        "avg_return_pct": 3.062
       },
       {
         "models": [
@@ -3459,26 +3542,12 @@
           "Kimi K3.1 Pro"
         ],
         "size": 4,
-        "signals": 19,
-        "signals_per_day": 0.95,
-        "correct": 15,
-        "accuracy": 0.7895,
-        "accuracy_lower_bound": 0.5667,
-        "avg_return_pct": 3.0128
-      },
-      {
-        "models": [
-          "Claude Sonnet 5.5",
-          "DeepSeek V4 Pro",
-          "GPT-5.6 Terra"
-        ],
-        "size": 3,
-        "signals": 21,
+        "signals": 22,
         "signals_per_day": 1.05,
-        "correct": 16,
-        "accuracy": 0.7619,
-        "accuracy_lower_bound": 0.5491,
-        "avg_return_pct": 2.7411
+        "correct": 18,
+        "accuracy": 0.8182,
+        "accuracy_lower_bound": 0.6148,
+        "avg_return_pct": 2.8342
       },
       {
         "models": [
@@ -3488,12 +3557,12 @@
           "Qwen 3.8 Max"
         ],
         "size": 4,
-        "signals": 15,
-        "signals_per_day": 0.75,
-        "correct": 12,
-        "accuracy": 0.8,
-        "accuracy_lower_bound": 0.5481,
-        "avg_return_pct": 3.5135
+        "signals": 18,
+        "signals_per_day": 0.86,
+        "correct": 15,
+        "accuracy": 0.8333,
+        "accuracy_lower_bound": 0.6078,
+        "avg_return_pct": 3.2118
       },
       {
         "models": [
@@ -3503,12 +3572,12 @@
           "Qwen 3.8 Max"
         ],
         "size": 4,
-        "signals": 15,
-        "signals_per_day": 0.75,
-        "correct": 12,
-        "accuracy": 0.8,
-        "accuracy_lower_bound": 0.5481,
-        "avg_return_pct": 3.5036
+        "signals": 18,
+        "signals_per_day": 0.86,
+        "correct": 15,
+        "accuracy": 0.8333,
+        "accuracy_lower_bound": 0.6078,
+        "avg_return_pct": 3.2036
       },
       {
         "models": [
@@ -3518,12 +3587,12 @@
           "Perplexity Sonar Pro"
         ],
         "size": 4,
-        "signals": 18,
-        "signals_per_day": 0.9,
-        "correct": 14,
-        "accuracy": 0.7778,
-        "accuracy_lower_bound": 0.5478,
-        "avg_return_pct": 3.1752
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 17,
+        "accuracy": 0.8095,
+        "accuracy_lower_bound": 0.6,
+        "avg_return_pct": 2.9649
       },
       {
         "models": [
@@ -3533,38 +3602,26 @@
           "Grok 4.3"
         ],
         "size": 4,
-        "signals": 18,
-        "signals_per_day": 0.9,
-        "correct": 14,
-        "accuracy": 0.7778,
-        "accuracy_lower_bound": 0.5478,
-        "avg_return_pct": 3.1565
-      },
-      {
-        "models": [
-          "GPT-5.6 Terra"
-        ],
-        "size": 1,
-        "signals": 82,
-        "signals_per_day": 4.1,
-        "correct": 53,
-        "accuracy": 0.6463,
-        "accuracy_lower_bound": 0.5384,
-        "avg_return_pct": 1.1223
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 17,
+        "accuracy": 0.8095,
+        "accuracy_lower_bound": 0.6,
+        "avg_return_pct": 2.9489
       },
       {
         "models": [
           "Claude Sonnet 5.5",
-          "GPT-5.6 Terra",
-          "Grok 4.3"
+          "DeepSeek V4 Pro",
+          "GPT-5.6 Terra"
         ],
         "size": 3,
-        "signals": 20,
-        "signals_per_day": 1.0,
-        "correct": 15,
-        "accuracy": 0.75,
-        "accuracy_lower_bound": 0.5313,
-        "avg_return_pct": 2.8753
+        "signals": 24,
+        "signals_per_day": 1.14,
+        "correct": 19,
+        "accuracy": 0.7917,
+        "accuracy_lower_bound": 0.5953,
+        "avg_return_pct": 2.6114
       },
       {
         "models": [
@@ -3574,12 +3631,12 @@
           "Kimi K3.1 Pro"
         ],
         "size": 4,
-        "signals": 17,
-        "signals_per_day": 0.85,
-        "correct": 13,
-        "accuracy": 0.7647,
-        "accuracy_lower_bound": 0.5274,
-        "avg_return_pct": 3.3226
+        "signals": 20,
+        "signals_per_day": 0.95,
+        "correct": 16,
+        "accuracy": 0.8,
+        "accuracy_lower_bound": 0.584,
+        "avg_return_pct": 3.0797
       },
       {
         "models": [
@@ -3589,25 +3646,26 @@
           "Kimi K3.1 Pro"
         ],
         "size": 4,
-        "signals": 17,
-        "signals_per_day": 0.85,
-        "correct": 13,
-        "accuracy": 0.7647,
-        "accuracy_lower_bound": 0.5274,
-        "avg_return_pct": 3.3226
+        "signals": 20,
+        "signals_per_day": 0.95,
+        "correct": 16,
+        "accuracy": 0.8,
+        "accuracy_lower_bound": 0.584,
+        "avg_return_pct": 3.0797
       },
       {
         "models": [
+          "Claude Sonnet 5.5",
           "GPT-5.6 Terra",
-          "Perplexity Sonar Pro"
+          "Grok 4.3"
         ],
-        "size": 2,
-        "signals": 55,
-        "signals_per_day": 2.75,
-        "correct": 36,
-        "accuracy": 0.6545,
-        "accuracy_lower_bound": 0.5225,
-        "avg_return_pct": 1.4996
+        "size": 3,
+        "signals": 23,
+        "signals_per_day": 1.1,
+        "correct": 18,
+        "accuracy": 0.7826,
+        "accuracy_lower_bound": 0.581,
+        "avg_return_pct": 2.7224
       },
       {
         "models": [
@@ -3617,12 +3675,12 @@
           "Grok 4.3"
         ],
         "size": 4,
-        "signals": 16,
-        "signals_per_day": 0.8,
-        "correct": 12,
-        "accuracy": 0.75,
-        "accuracy_lower_bound": 0.505,
-        "avg_return_pct": 3.5235
+        "signals": 19,
+        "signals_per_day": 0.9,
+        "correct": 15,
+        "accuracy": 0.7895,
+        "accuracy_lower_bound": 0.5667,
+        "avg_return_pct": 3.2361
       },
       {
         "models": [
@@ -3632,68 +3690,12 @@
           "Gemini 3.8 Flash"
         ],
         "size": 4,
-        "signals": 16,
-        "signals_per_day": 0.8,
-        "correct": 12,
-        "accuracy": 0.75,
-        "accuracy_lower_bound": 0.505,
-        "avg_return_pct": 3.523
-      },
-      {
-        "models": [
-          "GPT-5.6 Terra",
-          "Kimi K3.1 Pro",
-          "Perplexity Sonar Pro"
-        ],
-        "size": 3,
-        "signals": 38,
-        "signals_per_day": 1.9,
-        "correct": 25,
-        "accuracy": 0.6579,
-        "accuracy_lower_bound": 0.4989,
-        "avg_return_pct": 1.803
-      },
-      {
-        "models": [
-          "GPT-5.6 Terra",
-          "Gemini 3.8 Flash",
-          "Kimi K3.1 Pro",
-          "Perplexity Sonar Pro"
-        ],
-        "size": 4,
-        "signals": 33,
-        "signals_per_day": 1.65,
-        "correct": 22,
-        "accuracy": 0.6667,
-        "accuracy_lower_bound": 0.4961,
-        "avg_return_pct": 2.0793
-      },
-      {
-        "models": [
-          "GPT-5.6 Terra",
-          "Gemini 3.8 Flash"
-        ],
-        "size": 2,
-        "signals": 47,
-        "signals_per_day": 2.35,
-        "correct": 30,
-        "accuracy": 0.6383,
-        "accuracy_lower_bound": 0.4954,
-        "avg_return_pct": 1.4509
-      },
-      {
-        "models": [
-          "GPT-5.6 Terra",
-          "Gemini 3.8 Flash",
-          "Perplexity Sonar Pro"
-        ],
-        "size": 3,
-        "signals": 40,
-        "signals_per_day": 2.0,
-        "correct": 26,
-        "accuracy": 0.65,
-        "accuracy_lower_bound": 0.4951,
-        "avg_return_pct": 1.7243
+        "signals": 19,
+        "signals_per_day": 0.9,
+        "correct": 15,
+        "accuracy": 0.7895,
+        "accuracy_lower_bound": 0.5667,
+        "avg_return_pct": 3.2356
       },
       {
         "models": [
@@ -3702,12 +3704,97 @@
           "Gemini 3.8 Flash"
         ],
         "size": 3,
-        "signals": 18,
-        "signals_per_day": 0.9,
-        "correct": 13,
-        "accuracy": 0.7222,
-        "accuracy_lower_bound": 0.4913,
-        "avg_return_pct": 3.1761
+        "signals": 22,
+        "signals_per_day": 1.05,
+        "correct": 17,
+        "accuracy": 0.7727,
+        "accuracy_lower_bound": 0.5656,
+        "avg_return_pct": 3.0111
+      },
+      {
+        "models": [
+          "GPT-5.6 Terra"
+        ],
+        "size": 1,
+        "signals": 86,
+        "signals_per_day": 4.1,
+        "correct": 57,
+        "accuracy": 0.6628,
+        "accuracy_lower_bound": 0.5578,
+        "avg_return_pct": 1.1756
+      },
+      {
+        "models": [
+          "GPT-5.6 Terra",
+          "Perplexity Sonar Pro"
+        ],
+        "size": 2,
+        "signals": 59,
+        "signals_per_day": 2.81,
+        "correct": 40,
+        "accuracy": 0.678,
+        "accuracy_lower_bound": 0.551,
+        "avg_return_pct": 1.5517
+      },
+      {
+        "models": [
+          "Claude Sonnet 5.5",
+          "GPT-5.6 Terra",
+          "Gemini 3.8 Flash",
+          "Perplexity Sonar Pro"
+        ],
+        "size": 4,
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 16,
+        "accuracy": 0.7619,
+        "accuracy_lower_bound": 0.5491,
+        "avg_return_pct": 3.1407
+      },
+      {
+        "models": [
+          "Claude Sonnet 5.5",
+          "GPT-5.6 Terra",
+          "Grok 4.3",
+          "Perplexity Sonar Pro"
+        ],
+        "size": 4,
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 16,
+        "accuracy": 0.7619,
+        "accuracy_lower_bound": 0.5491,
+        "avg_return_pct": 2.9505
+      },
+      {
+        "models": [
+          "Claude Sonnet 5.5",
+          "GPT-5.6 Terra",
+          "Grok 4.3",
+          "Hermes 4 405B"
+        ],
+        "size": 4,
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 16,
+        "accuracy": 0.7619,
+        "accuracy_lower_bound": 0.5491,
+        "avg_return_pct": 2.9317
+      },
+      {
+        "models": [
+          "Claude Sonnet 5.5",
+          "DeepSeek V4 Pro",
+          "GPT-5.6 Terra",
+          "Hermes 4 405B"
+        ],
+        "size": 4,
+        "signals": 21,
+        "signals_per_day": 1.0,
+        "correct": 16,
+        "accuracy": 0.7619,
+        "accuracy_lower_bound": 0.5491,
+        "avg_return_pct": 2.9303
       }
     ],
     "min_committee_signals": 10
