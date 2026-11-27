@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-27",
+  "slug": "qwen-3-8-max",
+  "model": "qwen/qwen3.8-max-0902",
+  "model_display_name": "Qwen 3.8 Max",
+  "generated_at": "2026-11-27T14:03:01.499008+00:00",
+  "market_context": "US futures are sharply higher on the post-Thanksgiving Friday as traders buy the dip in AI and semiconductor names after a volatile November, while Treasury yields ease and Black Friday volume is expected to be thin finance.yahoo.com live.euronext.com. The setup favors a relief rally, but the shortened session and light liquidity could cause some fade from the premarket pop marketwatch.com.",
+  "predictions": [
+    {
+      "id": "pred_qwen-3-8-max_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 726.75,
+      "model_reported_price": 716.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures rose about 1.6%-2% and SPY was quoted in premarket at 728.20, up 1.60% from the prior close [finance.yahoo.com finance.yahoo.com. With holiday-shortened trading and subdued volume, I expect most of that gain to hold, but a slight fade into the close marketwatch.com.",
+      "current_price_at_prediction": 716.7,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 647.25,
+      "model_reported_price": 633.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nasdaq-100 futures jumped 2.2%-2.5% as investors returned to beaten-up AI and chip names, with Nvidia, AMD, Broadcom and Micron all stronger premarket investing.com investing.com. That risk-on tone should lift QQQ by the close, although thin liquidity may cap the move near the opening high.",
+      "current_price_at_prediction": 633.93,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_qwen-3-8-max_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 154.75,
+      "model_reported_price": 149.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia was up 3.6%-4.7% premarket as AI jitters eased and semiconductor stocks rebounded after the Thanksgiving break investing.com cnbc.com. Dip-buying in the sector’s flagship name should keep NVDA above the baseline close, though it may not fully sustain the strongest premarket gain.",
+      "current_price_at_prediction": 149.3,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Alibaba",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://previct.ai/terminal",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.cnbc.com/2026/11/27/tech-rally-lifts-stock-futures-to-wrap-up-a-volatile-week-of-trading.html",
+      "https://www.investing.com/news/stock-market-news/premarket-movers-ai-stocks-rebound-vertex-slides-on-fda-review-5053411",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112726",
+      "https://live.euronext.com/en/financial-news/us-futures-rally-ai-rebound-after-bruising-month-treasuries-dip",
+      "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 170.4,
+    "prompt_tokens": 4757,
+    "completion_tokens": 6799,
+    "cost_usd": 0.057308,
+    "finished_at": "2026-11-27T14:03:01.499008+00:00",
+    "normalization_issues": []
+  }
+}

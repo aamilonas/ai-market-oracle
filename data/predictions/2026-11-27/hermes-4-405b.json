@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-27",
+  "slug": "hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "model_display_name": "Hermes 4 405B",
+  "generated_at": "2026-11-27T14:00:21.927161+00:00",
+  "market_context": "Markets are rebounding strongly in pre-market trading after Thursday's Thanksgiving holiday, with tech and AI stocks leading the recovery. Futures indicate a broad rally amid easing concerns about AI profitability, though trading volumes may be light due to the shortened Black Friday session.",
+  "predictions": [
+    {
+      "id": "pred_hermes-4-405b_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 722.0,
+      "model_reported_price": 716.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.75,
+      "reasoning": "S&P 500 futures are up 1.6% in pre-market trading, indicating a strong rebound from Thursday's close. The broad market recovery is being driven by easing concerns about AI profitability and a bounce-back in technology stocks.",
+      "current_price_at_prediction": 716.7,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 645.0,
+      "model_reported_price": 633.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nasdaq futures are surging over 2% in pre-market, with semiconductor and AI-related stocks leading the rebound. Nvidia, AMD, and other tech giants are showing strong gains, indicating a recovery from recent volatility.",
+      "current_price_at_prediction": 633.93,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_hermes-4-405b_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.0,
+      "model_reported_price": 149.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.7,
+      "reasoning": "Nvidia is up nearly 4% in pre-market trading as investors return to AI stocks. The rebound comes after recent volatility, with the stock recovering from its recent lows amid broader tech sector strength.",
+      "current_price_at_prediction": 149.3,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Nebius",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.investing.com/news/stock-market-news/premarket-movers-ai-stocks-rebound-vertex-slides-on-fda-review-5053411",
+      "https://www.cnbc.com/2026/11/27/tech-rally-lifts-stock-futures-to-wrap-up-a-volatile-week-of-trading.html",
+      "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112726",
+      "https://schwabnetwork.com/articles/us-equity-futures-higher-before-friday-1-pm-est-market-close"
+    ],
+    "json_repaired": false,
+    "latency_seconds": 12.9,
+    "prompt_tokens": 4256,
+    "completion_tokens": 401,
+    "cost_usd": 0.012459,
+    "finished_at": "2026-11-27T14:00:21.927161+00:00",
+    "normalization_issues": []
+  }
+}

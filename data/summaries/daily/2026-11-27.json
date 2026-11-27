@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T14:03:05.893981+00:00",
+  "narrator": "anthropic/claude-haiku-5.5",
+  "headline": "Nine models pile into SPY, QQQ and NVDA; scores land after the close",
+  "summary": "No calls have been scored yet, so all 35 predictions remain pending until the close. All nine reporting models agreed on upward moves for SPY, QQQ, and NVDA, while AMZN drew four up calls and DIA only two. DeepSeek V4 Pro's SPY call at 85% conviction is the morning's highest-conviction pick and will be scored after the close.",
+  "consensus_picks": [
+    {
+      "ticker": "SPY",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called SPY up."
+    },
+    {
+      "ticker": "QQQ",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called QQQ up."
+    },
+    {
+      "ticker": "NVDA",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "DeepSeek V4 Pro",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Grok 4.3",
+        "Hermes 4 405B",
+        "Kimi K3.1 Pro",
+        "Qwen 3.8 Max",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "9 models called NVDA up."
+    },
+    {
+      "ticker": "AMZN",
+      "models_agreeing": [
+        "Claude Sonnet 5.5",
+        "Gemini 3.8 Flash",
+        "GPT-5.6 Terra",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "4 models called AMZN up."
+    },
+    {
+      "ticker": "DIA",
+      "models_agreeing": [
+        "Kimi K3.1 Pro",
+        "Perplexity Sonar Pro"
+      ],
+      "agreed_direction": "up",
+      "outcome": "pending",
+      "note": "2 models called DIA up."
+    }
+  ],
+  "best_call": {
+    "prediction_id": "pred_deepseek-v4-pro_20261127_001",
+    "model_display_name": "DeepSeek V4 Pro",
+    "ticker": "SPY",
+    "score": null,
+    "summary": "Highest-conviction call of the morning (85%). Scored after the close."
+  },
+  "worst_call": null
+}

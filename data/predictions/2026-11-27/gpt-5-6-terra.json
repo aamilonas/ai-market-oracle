@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-27",
+  "slug": "gpt-5-6-terra",
+  "model": "openai/gpt-5.6-terra",
+  "model_display_name": "GPT-5.6 Terra",
+  "generated_at": "2026-11-27T14:00:21.380290+00:00",
+  "market_context": "November 27, 2026 is a Black Friday shortened session: NYSE and Nasdaq equity trading closes at 1:00 PM ET, so there will be no regular-session 4:00 PM close. Pre-market reports showed a broad risk-on rebound, with Nasdaq-100 futures up roughly 2.2%-2.5%, S&P 500 futures near +1.8%, Nvidia up nearly 4%, and VIX lower; no major U.S. economic release is scheduled after the morning trade/inventory data.",
+  "predictions": [
+    {
+      "id": "pred_gpt-5-6-terra_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 728.0,
+      "model_reported_price": 716.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.69,
+      "reasoning": "Pre-market index-futures reporting points to an approximately 1.8% S&P 500 advance, which implies SPY near 729 before allowing for some fade during the abbreviated, lower-liquidity session. The VIX is already down 5.52% from the supplied snapshot and the rebound is broad after the recent five-day pullback.",
+      "current_price_at_prediction": 716.7,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 647.5,
+      "model_reported_price": 633.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.72,
+      "reasoning": "Nasdaq-100 futures were reported up about 2.2%-2.5% pre-market, with chip shares leading the rebound. QQQ has fallen 3.9% over five days and the strongest stated pre-market leadership is in beaten-down AI and semiconductor names, supporting a larger rebound than SPY.",
+      "current_price_at_prediction": 633.93,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 155.4,
+      "model_reported_price": 149.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.66,
+      "reasoning": "Morning market reports put Nvidia nearly 4% higher pre-market after its 3.91% prior-session decline. That indicates dip-buying in the AI complex, although the target assumes some trimming from the implied opening strength in the short holiday session.",
+      "current_price_at_prediction": 149.3,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_gpt-5-6-terra_20261127_004",
+      "ticker": "AMZN",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 249.3,
+      "model_reported_price": 244.43,
+      "timeframe": "end_of_day",
+      "confidence": 0.59,
+      "reasoning": "Amazon enters Black Friday after an 8.7% five-day decline, while reports describe broad tech-led risk appetite returning before the open. Black Friday spending headlines are supportive for retail sentiment, but extended discounting and the weak recent trend keep confidence moderate.",
+      "current_price_at_prediction": 244.43,
+      "prev_close": 252.29,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    }
+  ],
+  "run": {
+    "provider": "OpenAI",
+    "web_search": "native",
+    "citations": [],
+    "json_repaired": false,
+    "latency_seconds": 12.3,
+    "prompt_tokens": 14114,
+    "completion_tokens": 951,
+    "cost_usd": 0.052424,
+    "finished_at": "2026-11-27T14:00:21.380290+00:00",
+    "normalization_issues": []
+  }
+}

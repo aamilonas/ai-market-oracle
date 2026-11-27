@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-27",
+  "slug": "deepseek-v4-pro",
+  "model": "deepseek/deepseek-v4-pro",
+  "model_display_name": "DeepSeek V4 Pro",
+  "generated_at": "2026-11-27T14:01:01.987433+00:00",
+  "market_context": "US stock futures surge on Black Friday, led by a 2%+ jump in Nasdaq-100 contracts as investors pile back into battered AI and tech stocks. The session is shortened to 1 PM ET with no major earnings, but trade balance and inventory data were released; the rally is driven by bargain-hunting after a volatile week yahoo.com cnbc.com.",
+  "predictions": [
+    {
+      "id": "pred_deepseek-v4-pro_20261127_001",
+      "ticker": "SPY",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 730.0,
+      "model_reported_price": 716.7,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "S&P 500 futures are up ~1.6% and SPY pre-market is trading above $727, indicating strong upward momentum. With positive sentiment around the tech rebound and a low-volume holiday session, SPY is likely to close near $730 [marketwatch.com.",
+      "current_price_at_prediction": 716.7,
+      "prev_close": 718.78,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261127_002",
+      "ticker": "QQQ",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 647.0,
+      "model_reported_price": 633.93,
+      "timeframe": "end_of_day",
+      "confidence": 0.85,
+      "reasoning": "Nasdaq-100 futures led gains with a 2.2% surge, fueled by strong rebounds in Nvidia and other AI names. The pre-market strength in tech suggests QQQ will easily surpass its prior close and end near $647 reuters.com.",
+      "current_price_at_prediction": 633.93,
+      "prev_close": 638.1,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    },
+    {
+      "id": "pred_deepseek-v4-pro_20261127_003",
+      "ticker": "NVDA",
+      "prediction_type": "price_direction",
+      "direction": "up",
+      "target_price": 156.0,
+      "model_reported_price": 149.3,
+      "timeframe": "end_of_day",
+      "confidence": 0.8,
+      "reasoning": "Nvidia shares rose 3.6% in premarket trading, recovering from a steep selloff, as AI jitters eased and investors bought the dip. The stock's momentum is expected to continue through the shortened session, driving it to about $156 cnbc.com.",
+      "current_price_at_prediction": 149.3,
+      "prev_close": 155.38,
+      "price_source": "shared_snapshot",
+      "price_fetched_at": "2026-11-27T09:00:05.763307-05:00"
+    }
+  ],
+  "run": {
+    "provider": "Relace",
+    "web_search": "exa",
+    "citations": [
+      "https://finance.yahoo.com/quote/SPY/",
+      "https://previct.ai/terminal",
+      "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "https://finance.yahoo.com/quote/SPY/history/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading",
+      "https://www.investing.com/news/stock-market-news/premarket-movers-ai-stocks-rebound-vertex-slides-on-fda-review-5053411",
+      "https://www.cnbc.com/2026/11/27/tech-rally-lifts-stock-futures-to-wrap-up-a-volatile-week-of-trading.html",
+      "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052",
+      "https://www.barrons.com/livecoverage/stock-market-news-today-112726",
+      "https://schwabnetwork.com/articles/us-equity-futures-higher-before-friday-1-pm-est-market-close"
+    ],
+    "json_repaired": true,
+    "latency_seconds": 51.3,
+    "prompt_tokens": 4323,
+    "completion_tokens": 3792,
+    "cost_usd": 0.01643530369,
+    "finished_at": "2026-11-27T14:01:01.987433+00:00",
+    "normalization_issues": []
+  }
+}
