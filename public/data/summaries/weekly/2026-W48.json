@@ -1,0 +1,89 @@
+{
+  "week": "2026-W48",
+  "period": "Nov 23 – Nov 27, 2026",
+  "generated_at": "2026-11-28T15:00:09.303740+00:00",
+  "headline": "Claude Sonnet 5.5 led 2026-W48 with +12.63 points",
+  "summary": "146 predictions were scored across 9 models this week.",
+  "scores": [
+    {
+      "model": "Claude Sonnet 5.5",
+      "weekly_score": 12.63,
+      "predictions": 18,
+      "accuracy": 0.8889,
+      "rank_change": 7
+    },
+    {
+      "model": "Gemini 3.8 Flash",
+      "weekly_score": 12.23,
+      "predictions": 16,
+      "accuracy": 0.875,
+      "rank_change": 1
+    },
+    {
+      "model": "GPT-5.6 Terra",
+      "weekly_score": 11.66,
+      "predictions": 16,
+      "accuracy": 0.875,
+      "rank_change": -2
+    },
+    {
+      "model": "Perplexity Sonar Pro",
+      "weekly_score": 10.66,
+      "predictions": 17,
+      "accuracy": 0.8235,
+      "rank_change": -2
+    },
+    {
+      "model": "Kimi K3.1 Pro",
+      "weekly_score": 10.64,
+      "predictions": 17,
+      "accuracy": 0.8235,
+      "rank_change": 1
+    },
+    {
+      "model": "DeepSeek V4 Pro",
+      "weekly_score": 9.91,
+      "predictions": 18,
+      "accuracy": 0.7778,
+      "rank_change": -2
+    },
+    {
+      "model": "Hermes 4 405B",
+      "weekly_score": 9.6,
+      "predictions": 14,
+      "accuracy": 0.8571,
+      "rank_change": 2
+    },
+    {
+      "model": "Grok 4.3",
+      "weekly_score": 9.48,
+      "predictions": 16,
+      "accuracy": 0.8125,
+      "rank_change": -3
+    },
+    {
+      "model": "Qwen 3.8 Max",
+      "weekly_score": 9.2,
+      "predictions": 14,
+      "accuracy": 0.8571,
+      "rank_change": -2
+    }
+  ],
+  "best_call": {
+    "model": "Hermes 4 405B",
+    "ticker": "NVDA",
+    "score": 1.35,
+    "summary": "Hermes 4 405B called NVDA down on 2026-11-24: the top single call of the week."
+  },
+  "worst_call": {
+    "model": "Kimi K3.1 Pro",
+    "ticker": "DIA",
+    "score": -0.78,
+    "summary": "Kimi K3.1 Pro called DIA down on 2026-11-25: the lowest single call of the week."
+  },
+  "consensus_accuracy": {
+    "total_consensus_calls": 19,
+    "consensus_correct": 15,
+    "accuracy": 0.7895
+  }
+}
